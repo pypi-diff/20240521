@@ -657,3 +657,41 @@
 [2024-05-21 00:25:35] INFO root fetch - processPackages [django-jbank]: Remove: archive file [/home/abi/fetcher/tmp/django-jbank-4.4.9.tar.gz]
 [2024-05-21 00:25:35] INFO root fetch - main [MainThread]: End processing [django-jbank]: success
 [2024-05-21 00:25:35] INFO root fetch - main [MainThread]: Store serial: [23297055]
+[2024-05-21 00:27:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23297055]
+[2024-05-21 00:27:44] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-21 00:27:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ovos-core
+[2024-05-21 00:27:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: InvokeAI
+[2024-05-21 00:27:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: model-checker
+[2024-05-21 00:27:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jeffutils
+[2024-05-21 00:27:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gradio-agentchatbot
+[2024-05-21 00:27:44] INFO root fetch - processPackages [model-checker]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-21 00:27:44] INFO root fetch - processPackages [jeffutils]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-21 00:27:44] WARNING root fetch - processPackages [gradio-agentchatbot]: Skipping, unable to determine old version
+[2024-05-21 00:27:44] INFO root fetch - main [MainThread]: End processing [gradio-agentchatbot] error
+[2024-05-21 00:27:44] INFO root fetch - processPackages [InvokeAI]: New version: [4.2.2] Old Version: [4.2.1]
+[2024-05-21 00:27:44] INFO root fetch - processPackages [ovos-core]: New version: [0.0.8a99] Old Version: [0.0.8a98]
+[2024-05-21 00:27:44] INFO root fetch - processPackages [model-checker]: Downloading https://files.pythonhosted.org/packages/d4/a3/c747a4913078672f34adc4f223b1280d3d3bba45953bb6de5a9efe5ba52e/model_checker-0.3.8.tar.gz
+[2024-05-21 00:27:45] INFO root fetch - processPackages [jeffutils]: Downloading https://files.pythonhosted.org/packages/5e/85/cfeeefafb6698b5fe9d1b5352e5c4867c1fae9fbe1ac9ff955a6f1f5bee6/jeffutils-0.5.8.tar.gz
+[2024-05-21 00:27:45] INFO root fetch - processPackages [model-checker]: Downloading https://files.pythonhosted.org/packages/9f/34/8db406de616a95ce5da5a832c9764ce727860cfc2e73a8df9d985cebebc8/model_checker-0.3.9.tar.gz
+[2024-05-21 00:27:45] INFO root fetch - processPackages [ovos-core]: Downloading https://files.pythonhosted.org/packages/43/09/2b998a2fbb4c473f88a1adb0b7d511b133aff775b19c15441b76d479f339/ovos_core-0.0.8a98-py3-none-any.whl
+[2024-05-21 00:27:45] INFO root fetch - processPackages [InvokeAI]: Downloading https://files.pythonhosted.org/packages/50/7c/ffc6f9adde71e10cb1a24dbf4a32328155ef57746f1c190551a0fb4571df/InvokeAI-4.2.1.tar.gz
+[2024-05-21 00:27:45] WARNING root fetch - processPackages [ovos-core]: Skipping package: exceeds size limit 18555543>=10485760
+[2024-05-21 00:27:45] INFO root fetch - main [MainThread]: End processing [ovos-core] error
+[2024-05-21 00:27:45] INFO root fetch - processPackages [model-checker]: executing diffoscope
+[2024-05-21 00:27:45] INFO root fetch - processPackages [model-checker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model_checker-0.3.8.tar.gz tmp/model_checker-0.3.9.tar.gz --markdown 20240521/m/model-checker/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-21 00:27:45] INFO root fetch - processPackages [jeffutils]: Downloading https://files.pythonhosted.org/packages/18/08/63731bd083b6cdf482d7c36a03181e558c564b1efa303745feaa3d80e899/jeffutils-0.5.9.tar.gz
+[2024-05-21 00:27:45] INFO root fetch - processPackages [jeffutils]: executing diffoscope
+[2024-05-21 00:27:45] INFO root fetch - processPackages [jeffutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jeffutils-0.5.8.tar.gz tmp/jeffutils-0.5.9.tar.gz --markdown 20240521/j/jeffutils/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-21 00:27:45] INFO root fetch - processPackages [InvokeAI]: Downloading https://files.pythonhosted.org/packages/a8/03/0af7ec155e1af8b1e1faea5f0241e32f428033a245a055ce143d69f9e317/InvokeAI-4.2.2.tar.gz
+[2024-05-21 00:27:45] INFO root fetch - processPackages [InvokeAI]: executing diffoscope
+[2024-05-21 00:27:45] INFO root fetch - processPackages [InvokeAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/InvokeAI-4.2.1.tar.gz tmp/InvokeAI-4.2.2.tar.gz --markdown 20240521/I/InvokeAI/4.2.1-4.2.2/README.md --exclude *.pyd
+[2024-05-21 00:27:45] INFO root fetch - processPackages [model-checker]: Remove: archive file [/home/abi/fetcher/tmp/model_checker-0.3.8.tar.gz]
+[2024-05-21 00:27:45] INFO root fetch - processPackages [model-checker]: Remove: archive file [/home/abi/fetcher/tmp/model_checker-0.3.9.tar.gz]
+[2024-05-21 00:27:45] INFO root fetch - main [MainThread]: End processing [model-checker]: success
+[2024-05-21 00:27:46] INFO root fetch - processPackages [jeffutils]: Remove: archive file [/home/abi/fetcher/tmp/jeffutils-0.5.8.tar.gz]
+[2024-05-21 00:27:46] INFO root fetch - processPackages [jeffutils]: Remove: archive file [/home/abi/fetcher/tmp/jeffutils-0.5.9.tar.gz]
+[2024-05-21 00:27:46] INFO root fetch - main [MainThread]: End processing [jeffutils]: success
+[2024-05-21 00:28:13] INFO root fetch - processPackages [InvokeAI]: Remove: archive file [/home/abi/fetcher/tmp/InvokeAI-4.2.1.tar.gz]
+[2024-05-21 00:28:13] INFO root fetch - processPackages [InvokeAI]: Remove: archive file [/home/abi/fetcher/tmp/InvokeAI-4.2.2.tar.gz]
+[2024-05-21 00:28:13] INFO root fetch - main [MainThread]: End processing [InvokeAI]: success
+[2024-05-21 00:28:13] INFO root fetch - main [MainThread]: Store serial: [23297071]
