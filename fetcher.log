@@ -921,3 +921,39 @@
 [2024-05-21 00:39:08] INFO root fetch - processPackages [hcs-cli]: Remove: archive file [/home/abi/fetcher/tmp/hcs-cli-0.1.98.tar.gz]
 [2024-05-21 00:39:08] INFO root fetch - main [MainThread]: End processing [hcs-cli]: success
 [2024-05-21 00:39:08] INFO root fetch - main [MainThread]: Store serial: [23297163]
+[2024-05-21 00:41:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23297163]
+[2024-05-21 00:41:17] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-21 00:41:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mktdata
+[2024-05-21 00:41:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: juriscraper
+[2024-05-21 00:41:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spark-column-analyzer
+[2024-05-21 00:41:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cmkinitramfs
+[2024-05-21 00:41:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: anyscale
+[2024-05-21 00:41:17] WARNING root fetch - processPackages [mktdata]: Skipping, unable to determine old version
+[2024-05-21 00:41:17] INFO root fetch - main [MainThread]: End processing [mktdata] error
+[2024-05-21 00:41:17] INFO root fetch - processPackages [cmkinitramfs]: New version: [0.2.4] Old Version: [0.2.2]
+[2024-05-21 00:41:17] INFO root fetch - processPackages [anyscale]: New version: [0.5.99] Old Version: [0.5.98]
+[2024-05-21 00:41:17] INFO root fetch - processPackages [juriscraper]: New version: [2.6.2] Old Version: [2.6.1]
+[2024-05-21 00:41:17] WARNING root fetch - processPackages [spark-column-analyzer]: Skipping, unable to determine old version
+[2024-05-21 00:41:17] INFO root fetch - main [MainThread]: End processing [spark-column-analyzer] error
+[2024-05-21 00:41:18] INFO root fetch - processPackages [cmkinitramfs]: Downloading https://files.pythonhosted.org/packages/31/92/b7cab5fedab62bc949bfbe7d2c2ce6ec8b89e3fad27b6e4cef734442e379/cmkinitramfs-0.2.2.tar.gz
+[2024-05-21 00:41:18] INFO root fetch - processPackages [juriscraper]: Downloading https://files.pythonhosted.org/packages/9d/8f/3f99651b8aee8e5201ef5a4abb9aafc6d3f1386a83433bfc74a3aa6bf647/juriscraper-2.6.1.tar.gz
+[2024-05-21 00:41:18] INFO root fetch - processPackages [anyscale]: Downloading https://files.pythonhosted.org/packages/0d/64/8bf86d6d00617c61b31e91a8455e6fb08278056ee4d72abf6317509d592e/anyscale-0.5.98.tar.gz
+[2024-05-21 00:41:18] INFO root fetch - processPackages [cmkinitramfs]: Downloading https://files.pythonhosted.org/packages/61/a8/6b3b2d2d61ad3bde4786b1b18552f993e2a0eff1901f85930e7fd43b9fd9/cmkinitramfs-0.2.4.tar.gz
+[2024-05-21 00:41:18] INFO root fetch - processPackages [juriscraper]: Downloading https://files.pythonhosted.org/packages/ae/8c/df1b7ba038ab175c68dedcaa387523908edc925d64e7062845a65c64852a/juriscraper-2.6.2.tar.gz
+[2024-05-21 00:41:18] INFO root fetch - processPackages [cmkinitramfs]: executing diffoscope
+[2024-05-21 00:41:18] INFO root fetch - processPackages [cmkinitramfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmkinitramfs-0.2.2.tar.gz tmp/cmkinitramfs-0.2.4.tar.gz --markdown 20240521/c/cmkinitramfs/0.2.2-0.2.4/README.md --exclude *.pyd
+[2024-05-21 00:41:18] INFO root fetch - processPackages [anyscale]: Downloading https://files.pythonhosted.org/packages/61/f0/917cf3e18c478eaae2e53db68c9d20607edab461774054c8f509cc4885b6/anyscale-0.5.99.tar.gz
+[2024-05-21 00:41:18] INFO root fetch - processPackages [juriscraper]: executing diffoscope
+[2024-05-21 00:41:18] INFO root fetch - processPackages [juriscraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/juriscraper-2.6.1.tar.gz tmp/juriscraper-2.6.2.tar.gz --markdown 20240521/j/juriscraper/2.6.1-2.6.2/README.md --exclude *.pyd
+[2024-05-21 00:41:18] INFO root fetch - processPackages [anyscale]: executing diffoscope
+[2024-05-21 00:41:18] INFO root fetch - processPackages [anyscale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anyscale-0.5.98.tar.gz tmp/anyscale-0.5.99.tar.gz --markdown 20240521/a/anyscale/0.5.98-0.5.99/README.md --exclude *.pyd
+[2024-05-21 00:41:19] INFO root fetch - processPackages [cmkinitramfs]: Remove: archive file [/home/abi/fetcher/tmp/cmkinitramfs-0.2.2.tar.gz]
+[2024-05-21 00:41:19] INFO root fetch - processPackages [cmkinitramfs]: Remove: archive file [/home/abi/fetcher/tmp/cmkinitramfs-0.2.4.tar.gz]
+[2024-05-21 00:41:19] INFO root fetch - main [MainThread]: End processing [cmkinitramfs]: success
+[2024-05-21 00:41:19] INFO root fetch - processPackages [juriscraper]: Remove: archive file [/home/abi/fetcher/tmp/juriscraper-2.6.1.tar.gz]
+[2024-05-21 00:41:19] INFO root fetch - processPackages [juriscraper]: Remove: archive file [/home/abi/fetcher/tmp/juriscraper-2.6.2.tar.gz]
+[2024-05-21 00:41:19] INFO root fetch - main [MainThread]: End processing [juriscraper]: success
+[2024-05-21 00:41:22] INFO root fetch - processPackages [anyscale]: Remove: archive file [/home/abi/fetcher/tmp/anyscale-0.5.98.tar.gz]
+[2024-05-21 00:41:22] INFO root fetch - processPackages [anyscale]: Remove: archive file [/home/abi/fetcher/tmp/anyscale-0.5.99.tar.gz]
+[2024-05-21 00:41:22] INFO root fetch - main [MainThread]: End processing [anyscale]: success
+[2024-05-21 00:41:22] INFO root fetch - main [MainThread]: Store serial: [23297179]
