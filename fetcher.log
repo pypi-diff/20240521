@@ -1059,3 +1059,87 @@
 [2024-05-21 00:45:47] INFO root fetch - processPackages [ecoengine]: Remove: archive file [/home/abi/fetcher/tmp/ecoengine-1.6.2.tar.gz]
 [2024-05-21 00:45:47] INFO root fetch - main [MainThread]: End processing [ecoengine]: success
 [2024-05-21 00:45:47] INFO root fetch - main [MainThread]: Store serial: [23297261]
+[2024-05-21 00:47:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23297261]
+[2024-05-21 00:47:56] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-21 00:47:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tsperf
+[2024-05-21 00:47:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torchao
+[2024-05-21 00:47:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dkist-processing-vbi
+[2024-05-21 00:47:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sapphire-renderer
+[2024-05-21 00:47:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pih-ad
+[2024-05-21 00:47:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: viqi-api
+[2024-05-21 00:47:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pih-answ-auto
+[2024-05-21 00:47:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pih-backup
+[2024-05-21 00:47:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pih-auto
+[2024-05-21 00:47:56] INFO root fetch - processPackages [pih-auto]: New version: [0.22] Old Version: [0.21]
+[2024-05-21 00:47:56] INFO root fetch - processPackages [dkist-processing-vbi]: New version: [1.9.1] Old Version: [1.9.0rc1]
+[2024-05-21 00:47:56] INFO root fetch - processPackages [pih-auto]: Downloading https://files.pythonhosted.org/packages/96/37/7e17f3be4ecbc07801086a4ea859a072aff4c80566c1c95b19823a3acf41/pih-auto-0.21.tar.gz
+[2024-05-21 00:47:56] INFO root fetch - processPackages [pih-ad]: New version: [0.18] Old Version: [0.17]
+[2024-05-21 00:47:56] INFO root fetch - processPackages [pih-answ-auto]: New version: [0.24] Old Version: [0.23]
+[2024-05-21 00:47:56] INFO root fetch - processPackages [sapphire-renderer]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-21 00:47:56] INFO root fetch - processPackages [tsperf]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-05-21 00:47:56] INFO root fetch - processPackages [pih-backup]: New version: [0.17] Old Version: [0.16]
+[2024-05-21 00:47:56] INFO root fetch - processPackages [torchao]: New version: [0.2.0] Old Version: [0.1]
+[2024-05-21 00:47:56] INFO root fetch - processPackages [viqi-api]: New version: [0.6.4.9] Old Version: [0.6.4.83]
+[2024-05-21 00:47:56] INFO root fetch - processPackages [dkist-processing-vbi]: Downloading https://files.pythonhosted.org/packages/78/4a/5588eb16dbff9ffdc185792ec296f4d8ca630898e4be7fb9b03f5e2515c6/dkist_processing_vbi-1.9.0rc1.tar.gz
+[2024-05-21 00:47:57] INFO root fetch - processPackages [pih-ad]: Downloading https://files.pythonhosted.org/packages/38/bb/583e5bb615c2469799ce1eb2056646bfd4364dd6dfbb1842a2ff68e59299/pih-ad-0.17.tar.gz
+[2024-05-21 00:47:57] INFO root fetch - processPackages [tsperf]: Downloading https://files.pythonhosted.org/packages/98/34/f586026d9248e7d3972dcef1c7a16dd0111078bc043b0a699946c21930ea/tsperf-1.1.0.tar.gz
+[2024-05-21 00:47:57] INFO root fetch - processPackages [viqi-api]: Downloading https://files.pythonhosted.org/packages/24/53/9f3f24129e966631f88ff26e5fa7ab5280db8dec03d605a171736a63c61f/viqi_api-0.6.4.83-py3-none-any.whl
+[2024-05-21 00:47:57] INFO root fetch - processPackages [pih-auto]: Downloading https://files.pythonhosted.org/packages/7d/a4/37b338c3c1b3193b9d3774e78920c412bdd292b0e09e522f3909c8eaa3f0/pih-auto-0.22.tar.gz
+[2024-05-21 00:47:57] INFO root fetch - processPackages [sapphire-renderer]: Downloading https://files.pythonhosted.org/packages/2b/42/94c0538f43a9b8e7cb54f37e97b259fbdd1ec3592931d86660f100f5ce0e/sapphire-renderer-0.0.8.tar.gz
+[2024-05-21 00:47:57] INFO root fetch - processPackages [pih-answ-auto]: Downloading https://files.pythonhosted.org/packages/c0/c0/c4cb5ab29b44ea1081d71e2d15cc7458d8ff5da267a0b1da6b38855d3c27/pih-answ_auto-0.23.tar.gz
+[2024-05-21 00:47:57] INFO root fetch - processPackages [torchao]: Downloading https://files.pythonhosted.org/packages/c4/03/685d640b6c11f14f347184bf5f257f3a4b51cc27244653767b9b532e35de/torchao-0.1.tar.gz
+[2024-05-21 00:47:57] INFO root fetch - processPackages [pih-backup]: Downloading https://files.pythonhosted.org/packages/c0/52/50128e7b04af5204957afa0477dae8d9c4809e647bf028718d9daa4694f6/pih-backup-0.16.tar.gz
+[2024-05-21 00:47:57] INFO root fetch - processPackages [pih-auto]: executing diffoscope
+[2024-05-21 00:47:57] INFO root fetch - processPackages [pih-auto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-auto-0.21.tar.gz tmp/pih-auto-0.22.tar.gz --markdown 20240521/p/pih-auto/0.21-0.22/README.md --exclude *.pyd
+[2024-05-21 00:47:57] INFO root fetch - processPackages [dkist-processing-vbi]: Downloading https://files.pythonhosted.org/packages/ca/21/cc7cd188db98b276d45313f0742b872e7c468782b488ce8f2a22c0f8e6e3/dkist_processing_vbi-1.9.1.tar.gz
+[2024-05-21 00:47:57] INFO root fetch - processPackages [pih-ad]: Downloading https://files.pythonhosted.org/packages/05/3e/d30f31da1d138797306be79b4201268ff91e3c8373396dee603149958b07/pih-ad-0.18.tar.gz
+[2024-05-21 00:47:57] INFO root fetch - processPackages [tsperf]: Downloading https://files.pythonhosted.org/packages/5d/80/b48ba1c594ba09a93dcddf12aac348ea99be99adc00e3e1f43950b84813d/tsperf-1.2.0.tar.gz
+[2024-05-21 00:47:57] INFO root fetch - processPackages [dkist-processing-vbi]: executing diffoscope
+[2024-05-21 00:47:57] INFO root fetch - processPackages [dkist-processing-vbi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dkist_processing_vbi-1.9.0rc1.tar.gz tmp/dkist_processing_vbi-1.9.1.tar.gz --markdown 20240521/d/dkist-processing-vbi/1.9.0rc1-1.9.1/README.md --exclude *.pyd
+[2024-05-21 00:47:57] INFO root fetch - processPackages [pih-answ-auto]: Downloading https://files.pythonhosted.org/packages/7f/62/378f8ab8b7ffa0e561f59be29a9da73acdb0426c090ea2a28ab5764b8f42/pih-answ_auto-0.24.tar.gz
+[2024-05-21 00:47:57] INFO root fetch - processPackages [pih-backup]: Downloading https://files.pythonhosted.org/packages/25/e5/148e5adc14e1e5626c6c622c81f2e401a1e02c0b7bbde6aa70b3519747d5/pih-backup-0.17.tar.gz
+[2024-05-21 00:47:57] INFO root fetch - processPackages [sapphire-renderer]: Downloading https://files.pythonhosted.org/packages/f8/31/8de4b92c9035b28151912286005bd004a22beea4fc1de98c231b009bd2be/sapphire-renderer-0.0.9.tar.gz
+[2024-05-21 00:47:57] INFO root fetch - processPackages [pih-ad]: executing diffoscope
+[2024-05-21 00:47:57] INFO root fetch - processPackages [pih-ad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-ad-0.17.tar.gz tmp/pih-ad-0.18.tar.gz --markdown 20240521/p/pih-ad/0.17-0.18/README.md --exclude *.pyd
+[2024-05-21 00:47:57] INFO root fetch - processPackages [viqi-api]: Downloading https://files.pythonhosted.org/packages/e9/5c/44c9cdd455eadd370d8ec9e177faee8af6887be8f78f33d89a2ae15bcc14/viqi_api-0.6.4.9-py3-none-any.whl
+[2024-05-21 00:47:57] INFO root fetch - processPackages [torchao]: Downloading https://files.pythonhosted.org/packages/08/03/071b5a66f3c21da82c9abd54c341836239a3cfc21be6e12083920caf5909/torchao-0.2.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-21 00:47:57] INFO root fetch - processPackages [tsperf]: executing diffoscope
+[2024-05-21 00:47:57] INFO root fetch - processPackages [tsperf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsperf-1.1.0.tar.gz tmp/tsperf-1.2.0.tar.gz --markdown 20240521/t/tsperf/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-05-21 00:47:57] INFO root fetch - processPackages [pih-backup]: executing diffoscope
+[2024-05-21 00:47:57] INFO root fetch - processPackages [pih-backup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-backup-0.16.tar.gz tmp/pih-backup-0.17.tar.gz --markdown 20240521/p/pih-backup/0.16-0.17/README.md --exclude *.pyd
+[2024-05-21 00:47:57] INFO root fetch - processPackages [viqi-api]: executing diffoscope
+[2024-05-21 00:47:57] INFO root fetch - processPackages [viqi-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viqi_api-0.6.4.83-py3-none-any.whl.zip tmp/viqi_api-0.6.4.9-py3-none-any.whl.zip --markdown 20240521/v/viqi-api/0.6.4.83-0.6.4.9/README.md --exclude *.pyd
+[2024-05-21 00:47:57] INFO root fetch - processPackages [pih-answ-auto]: executing diffoscope
+[2024-05-21 00:47:57] INFO root fetch - processPackages [pih-answ-auto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-answ_auto-0.23.tar.gz tmp/pih-answ_auto-0.24.tar.gz --markdown 20240521/p/pih-answ-auto/0.23-0.24/README.md --exclude *.pyd
+[2024-05-21 00:47:57] INFO root fetch - processPackages [sapphire-renderer]: executing diffoscope
+[2024-05-21 00:47:57] INFO root fetch - processPackages [sapphire-renderer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sapphire-renderer-0.0.8.tar.gz tmp/sapphire-renderer-0.0.9.tar.gz --markdown 20240521/s/sapphire-renderer/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-21 00:47:57] INFO root fetch - processPackages [torchao]: executing diffoscope
+[2024-05-21 00:47:57] INFO root fetch - processPackages [torchao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchao-0.1.tar.gz tmp/torchao-0.2.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240521/t/torchao/0.1-0.2.0/README.md --exclude *.pyd
+[2024-05-21 00:47:57] INFO root fetch - processPackages [pih-auto]: Remove: archive file [/home/abi/fetcher/tmp/pih-auto-0.21.tar.gz]
+[2024-05-21 00:47:57] INFO root fetch - processPackages [pih-auto]: Remove: archive file [/home/abi/fetcher/tmp/pih-auto-0.22.tar.gz]
+[2024-05-21 00:47:57] INFO root fetch - main [MainThread]: End processing [pih-auto]: success
+[2024-05-21 00:47:58] INFO root fetch - processPackages [pih-ad]: Remove: archive file [/home/abi/fetcher/tmp/pih-ad-0.17.tar.gz]
+[2024-05-21 00:47:58] INFO root fetch - processPackages [pih-ad]: Remove: archive file [/home/abi/fetcher/tmp/pih-ad-0.18.tar.gz]
+[2024-05-21 00:47:58] INFO root fetch - main [MainThread]: End processing [pih-ad]: success
+[2024-05-21 00:47:58] INFO root fetch - processPackages [dkist-processing-vbi]: Remove: archive file [/home/abi/fetcher/tmp/dkist_processing_vbi-1.9.0rc1.tar.gz]
+[2024-05-21 00:47:58] INFO root fetch - processPackages [dkist-processing-vbi]: Remove: archive file [/home/abi/fetcher/tmp/dkist_processing_vbi-1.9.1.tar.gz]
+[2024-05-21 00:47:58] INFO root fetch - main [MainThread]: End processing [dkist-processing-vbi]: success
+[2024-05-21 00:47:58] INFO root fetch - processPackages [pih-backup]: Remove: archive file [/home/abi/fetcher/tmp/pih-backup-0.16.tar.gz]
+[2024-05-21 00:47:58] INFO root fetch - processPackages [pih-backup]: Remove: archive file [/home/abi/fetcher/tmp/pih-backup-0.17.tar.gz]
+[2024-05-21 00:47:58] INFO root fetch - main [MainThread]: End processing [pih-backup]: success
+[2024-05-21 00:47:58] INFO root fetch - processPackages [pih-answ-auto]: Remove: archive file [/home/abi/fetcher/tmp/pih-answ_auto-0.23.tar.gz]
+[2024-05-21 00:47:58] INFO root fetch - processPackages [pih-answ-auto]: Remove: archive file [/home/abi/fetcher/tmp/pih-answ_auto-0.24.tar.gz]
+[2024-05-21 00:47:58] INFO root fetch - main [MainThread]: End processing [pih-answ-auto]: success
+[2024-05-21 00:47:58] INFO root fetch - processPackages [sapphire-renderer]: Remove: archive file [/home/abi/fetcher/tmp/sapphire-renderer-0.0.8.tar.gz]
+[2024-05-21 00:47:58] INFO root fetch - processPackages [sapphire-renderer]: Remove: archive file [/home/abi/fetcher/tmp/sapphire-renderer-0.0.9.tar.gz]
+[2024-05-21 00:47:58] INFO root fetch - main [MainThread]: End processing [sapphire-renderer]: success
+[2024-05-21 00:47:58] INFO root fetch - processPackages [tsperf]: Remove: archive file [/home/abi/fetcher/tmp/tsperf-1.1.0.tar.gz]
+[2024-05-21 00:47:58] INFO root fetch - processPackages [tsperf]: Remove: archive file [/home/abi/fetcher/tmp/tsperf-1.2.0.tar.gz]
+[2024-05-21 00:47:58] INFO root fetch - main [MainThread]: End processing [tsperf]: success
+[2024-05-21 00:47:58] INFO root fetch - processPackages [torchao]: Remove: archive file [/home/abi/fetcher/tmp/torchao-0.1.tar.gz]
+[2024-05-21 00:47:58] INFO root fetch - processPackages [torchao]: Remove: archive file [/home/abi/fetcher/tmp/torchao-0.2.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-21 00:47:58] INFO root fetch - main [MainThread]: End processing [torchao]: success
+[2024-05-21 00:47:58] INFO root fetch - processPackages [viqi-api]: Remove: archive file [/home/abi/fetcher/tmp/viqi_api-0.6.4.83-py3-none-any.whl.zip]
+[2024-05-21 00:47:58] INFO root fetch - processPackages [viqi-api]: Remove: archive file [/home/abi/fetcher/tmp/viqi_api-0.6.4.9-py3-none-any.whl.zip]
+[2024-05-21 00:47:58] INFO root fetch - main [MainThread]: End processing [viqi-api]: success
+[2024-05-21 00:47:58] INFO root fetch - main [MainThread]: Store serial: [23297289]
