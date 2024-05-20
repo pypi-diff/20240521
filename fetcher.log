@@ -1763,3 +1763,60 @@
 [2024-05-21 01:14:12] INFO root fetch - processPackages [dolomite-base]: Remove: archive file [/home/abi/fetcher/tmp/dolomite_base-0.2.3-cp38-cp38-macosx_13_0_arm64.whl.zip]
 [2024-05-21 01:14:12] INFO root fetch - main [MainThread]: End processing [dolomite-base]: success
 [2024-05-21 01:14:12] INFO root fetch - main [MainThread]: Store serial: [23297507]
+[2024-05-21 01:16:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23297507]
+[2024-05-21 01:16:21] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-21 01:16:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tcrutils
+[2024-05-21 01:16:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pih-rgst-auto
+[2024-05-21 01:16:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: labdiscoverylib
+[2024-05-21 01:16:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nuance
+[2024-05-21 01:16:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ovos-skill-fallback-hivemind
+[2024-05-21 01:16:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-iris
+[2024-05-21 01:16:21] INFO root fetch - processPackages [ovos-skill-fallback-hivemind]: New version: [0.0.0a3] Old Version: [0.0.0a2]
+[2024-05-21 01:16:21] INFO root fetch - processPackages [labdiscoverylib]: New version: [0.6.0] Old Version: [0.1.0]
+[2024-05-21 01:16:21] INFO root fetch - processPackages [nuance]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-05-21 01:16:21] INFO root fetch - processPackages [pih-rgst-auto]: New version: [0.14] Old Version: [0.13]
+[2024-05-21 01:16:21] INFO root fetch - processPackages [django-iris]: New version: [0.2.5b2] Old Version: [0.2.5b1]
+[2024-05-21 01:16:21] INFO root fetch - processPackages [tcrutils]: New version: [12.0.166] Old Version: [12.0.165]
+[2024-05-21 01:16:21] INFO root fetch - processPackages [django-iris]: Downloading https://files.pythonhosted.org/packages/50/ea/567f488e9019e40d3dcd8f4d6ebb3b139a5be7789528f85aa69c0f280ae1/django_iris-0.2.5b1.tar.gz
+[2024-05-21 01:16:21] INFO root fetch - processPackages [ovos-skill-fallback-hivemind]: Downloading https://files.pythonhosted.org/packages/4a/77/67e2d858bcc9df7f897e77481798a915d5c0de2b2c26b20cc7663a3b1cc7/ovos_skill_fallback_hivemind-0.0.0a2-py3-none-any.whl
+[2024-05-21 01:16:22] INFO root fetch - processPackages [labdiscoverylib]: Downloading https://files.pythonhosted.org/packages/c0/64/a1769fd2acd04139a31d40f9ee3364ef313312eb7f7ebc25f14450ae8b49/labdiscoverylib-0.1.0.tar.gz
+[2024-05-21 01:16:22] INFO root fetch - processPackages [nuance]: Downloading https://files.pythonhosted.org/packages/bb/46/4c06c07954d3f020a4305eb5d48213516b9ff5fe22ffd4a5c82ea175093c/nuance-0.6.0.tar.gz
+[2024-05-21 01:16:22] INFO root fetch - processPackages [pih-rgst-auto]: Downloading https://files.pythonhosted.org/packages/e1/7d/3b2314b476421aa044620ab8da0bfc8d879cd2464fb9fbc8947955ddce6d/pih-rgst_auto-0.13.tar.gz
+[2024-05-21 01:16:22] INFO root fetch - processPackages [tcrutils]: Downloading https://files.pythonhosted.org/packages/96/4a/4d3de012aa4dc1081829bcac9fbfa85af430cf582dfd00d3ac9ec29165ee/tcrutils-12.0.165.tar.gz
+[2024-05-21 01:16:22] INFO root fetch - processPackages [django-iris]: Downloading https://files.pythonhosted.org/packages/2e/27/17440642768579936079bca98d2c21a8edd9bcb00054fdf2447fd4c9ac2c/django_iris-0.2.5b2.tar.gz
+[2024-05-21 01:16:22] INFO root fetch - processPackages [ovos-skill-fallback-hivemind]: Downloading https://files.pythonhosted.org/packages/fd/91/4890a98cd6fa1a92044f90a3876b738950bc2d0d02ffc79f8936e06ecaec/ovos_skill_fallback_hivemind-0.0.0a3-py3-none-any.whl
+[2024-05-21 01:16:22] INFO root fetch - processPackages [labdiscoverylib]: Downloading https://files.pythonhosted.org/packages/87/06/93c1b6a71eb427d570b7997a17b096a3014bee48eae935976083fa5ff784/labdiscoverylib-0.6.0.tar.gz
+[2024-05-21 01:16:22] INFO root fetch - processPackages [tcrutils]: Downloading https://files.pythonhosted.org/packages/4b/43/03ee24f20528c33bed5a69bfee370684ad212f15248d91d7f742a4993e29/tcrutils-12.0.166.tar.gz
+[2024-05-21 01:16:22] INFO root fetch - processPackages [ovos-skill-fallback-hivemind]: executing diffoscope
+[2024-05-21 01:16:22] INFO root fetch - processPackages [ovos-skill-fallback-hivemind]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_skill_fallback_hivemind-0.0.0a2-py3-none-any.whl.zip tmp/ovos_skill_fallback_hivemind-0.0.0a3-py3-none-any.whl.zip --markdown 20240521/o/ovos-skill-fallback-hivemind/0.0.0a2-0.0.0a3/README.md --exclude *.pyd
+[2024-05-21 01:16:22] INFO root fetch - processPackages [nuance]: Downloading https://files.pythonhosted.org/packages/bf/c6/8ebb4765d60bf47914bb48596b56fab42e8e394acd08c7d7a74cf33c73c4/nuance-0.6.1.tar.gz
+[2024-05-21 01:16:22] INFO root fetch - processPackages [pih-rgst-auto]: Downloading https://files.pythonhosted.org/packages/c8/09/b83ff8dbd793089bc52d196089e14dcd2dd45714bce9d818d570e3cc97bc/pih-rgst_auto-0.14.tar.gz
+[2024-05-21 01:16:22] INFO root fetch - processPackages [labdiscoverylib]: executing diffoscope
+[2024-05-21 01:16:22] INFO root fetch - processPackages [labdiscoverylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labdiscoverylib-0.1.0.tar.gz tmp/labdiscoverylib-0.6.0.tar.gz --markdown 20240521/l/labdiscoverylib/0.1.0-0.6.0/README.md --exclude *.pyd
+[2024-05-21 01:16:22] INFO root fetch - processPackages [django-iris]: executing diffoscope
+[2024-05-21 01:16:22] INFO root fetch - processPackages [django-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_iris-0.2.5b1.tar.gz tmp/django_iris-0.2.5b2.tar.gz --markdown 20240521/d/django-iris/0.2.5b1-0.2.5b2/README.md --exclude *.pyd
+[2024-05-21 01:16:22] INFO root fetch - processPackages [nuance]: executing diffoscope
+[2024-05-21 01:16:22] INFO root fetch - processPackages [nuance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nuance-0.6.0.tar.gz tmp/nuance-0.6.1.tar.gz --markdown 20240521/n/nuance/0.6.0-0.6.1/README.md --exclude *.pyd
+[2024-05-21 01:16:22] INFO root fetch - processPackages [pih-rgst-auto]: executing diffoscope
+[2024-05-21 01:16:22] INFO root fetch - processPackages [pih-rgst-auto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-rgst_auto-0.13.tar.gz tmp/pih-rgst_auto-0.14.tar.gz --markdown 20240521/p/pih-rgst-auto/0.13-0.14/README.md --exclude *.pyd
+[2024-05-21 01:16:22] INFO root fetch - processPackages [tcrutils]: executing diffoscope
+[2024-05-21 01:16:22] INFO root fetch - processPackages [tcrutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tcrutils-12.0.165.tar.gz tmp/tcrutils-12.0.166.tar.gz --markdown 20240521/t/tcrutils/12.0.165-12.0.166/README.md --exclude *.pyd
+[2024-05-21 01:16:23] INFO root fetch - processPackages [pih-rgst-auto]: Remove: archive file [/home/abi/fetcher/tmp/pih-rgst_auto-0.13.tar.gz]
+[2024-05-21 01:16:23] INFO root fetch - processPackages [pih-rgst-auto]: Remove: archive file [/home/abi/fetcher/tmp/pih-rgst_auto-0.14.tar.gz]
+[2024-05-21 01:16:23] INFO root fetch - main [MainThread]: End processing [pih-rgst-auto]: success
+[2024-05-21 01:16:23] INFO root fetch - processPackages [ovos-skill-fallback-hivemind]: Remove: archive file [/home/abi/fetcher/tmp/ovos_skill_fallback_hivemind-0.0.0a2-py3-none-any.whl.zip]
+[2024-05-21 01:16:23] INFO root fetch - processPackages [ovos-skill-fallback-hivemind]: Remove: archive file [/home/abi/fetcher/tmp/ovos_skill_fallback_hivemind-0.0.0a3-py3-none-any.whl.zip]
+[2024-05-21 01:16:23] INFO root fetch - main [MainThread]: End processing [ovos-skill-fallback-hivemind]: success
+[2024-05-21 01:16:23] INFO root fetch - processPackages [labdiscoverylib]: Remove: archive file [/home/abi/fetcher/tmp/labdiscoverylib-0.1.0.tar.gz]
+[2024-05-21 01:16:23] INFO root fetch - processPackages [labdiscoverylib]: Remove: archive file [/home/abi/fetcher/tmp/labdiscoverylib-0.6.0.tar.gz]
+[2024-05-21 01:16:23] INFO root fetch - main [MainThread]: End processing [labdiscoverylib]: success
+[2024-05-21 01:16:23] INFO root fetch - processPackages [nuance]: Remove: archive file [/home/abi/fetcher/tmp/nuance-0.6.0.tar.gz]
+[2024-05-21 01:16:23] INFO root fetch - processPackages [nuance]: Remove: archive file [/home/abi/fetcher/tmp/nuance-0.6.1.tar.gz]
+[2024-05-21 01:16:23] INFO root fetch - main [MainThread]: End processing [nuance]: success
+[2024-05-21 01:16:23] INFO root fetch - processPackages [django-iris]: Remove: archive file [/home/abi/fetcher/tmp/django_iris-0.2.5b1.tar.gz]
+[2024-05-21 01:16:23] INFO root fetch - processPackages [django-iris]: Remove: archive file [/home/abi/fetcher/tmp/django_iris-0.2.5b2.tar.gz]
+[2024-05-21 01:16:23] INFO root fetch - main [MainThread]: End processing [django-iris]: success
+[2024-05-21 01:16:23] INFO root fetch - processPackages [tcrutils]: Remove: archive file [/home/abi/fetcher/tmp/tcrutils-12.0.165.tar.gz]
+[2024-05-21 01:16:23] INFO root fetch - processPackages [tcrutils]: Remove: archive file [/home/abi/fetcher/tmp/tcrutils-12.0.166.tar.gz]
+[2024-05-21 01:16:23] INFO root fetch - main [MainThread]: End processing [tcrutils]: success
+[2024-05-21 01:16:23] INFO root fetch - main [MainThread]: Store serial: [23297532]
