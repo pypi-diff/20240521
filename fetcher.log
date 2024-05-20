@@ -591,3 +591,69 @@
 [2024-05-21 00:23:23] INFO root fetch - processPackages [mat-data]: Remove: archive file [/home/abi/fetcher/tmp/mat_data-0.1rc2.tar.gz]
 [2024-05-21 00:23:23] INFO root fetch - main [MainThread]: End processing [mat-data]: success
 [2024-05-21 00:23:23] INFO root fetch - main [MainThread]: Store serial: [23297033]
+[2024-05-21 00:25:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23297033]
+[2024-05-21 00:25:33] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-21 00:25:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: petal-qc
+[2024-05-21 00:25:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-jbank
+[2024-05-21 00:25:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: BarteSDK
+[2024-05-21 00:25:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: powerlift
+[2024-05-21 00:25:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: izio-cli
+[2024-05-21 00:25:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mppsolar
+[2024-05-21 00:25:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: decoutilities
+[2024-05-21 00:25:33] INFO root fetch - processPackages [powerlift]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-21 00:25:33] INFO root fetch - processPackages [django-jbank]: New version: [4.4.9] Old Version: [4.4.8]
+[2024-05-21 00:25:33] INFO root fetch - processPackages [decoutilities]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-05-21 00:25:33] INFO root fetch - processPackages [BarteSDK]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-21 00:25:33] INFO root fetch - processPackages [mppsolar]: New version: [0.9.12] Old Version: [0.9.1]
+[2024-05-21 00:25:33] INFO root fetch - processPackages [petal-qc]: New version: [0.0.1] Old Version: [0.0.0]
+[2024-05-21 00:25:33] INFO root fetch - processPackages [decoutilities]: Downloading https://files.pythonhosted.org/packages/7f/2a/4aba2a4aba5154ea2c6a9a4fceb839aac8703ac560fea26484bbee83194a/decoutilities-0.2.6.tar.gz
+[2024-05-21 00:25:33] INFO root fetch - processPackages [powerlift]: Downloading https://files.pythonhosted.org/packages/cb/ee/315f25dad769b00db2102b0bc1cd0f8378d6678fa55fb5f878a017964b25/powerlift-0.1.0-py3-none-any.whl
+[2024-05-21 00:25:33] INFO root fetch - processPackages [izio-cli]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-21 00:25:33] INFO root fetch - processPackages [BarteSDK]: Downloading https://files.pythonhosted.org/packages/f7/56/4222e0165529550d0ab5bdcfaeb6c21635b546e558d2fab1fbedf5cf79f7/BarteSDK-0.1.5.tar.gz
+[2024-05-21 00:25:33] INFO root fetch - processPackages [django-jbank]: Downloading https://files.pythonhosted.org/packages/90/99/4e00f407ba997f25dc8ea0707fbb61de11ffd0d6e2ca223c52ba98b30661/django-jbank-4.4.8.tar.gz
+[2024-05-21 00:25:33] INFO root fetch - processPackages [mppsolar]: Downloading https://files.pythonhosted.org/packages/6b/31/e960cd826fccc8ffb069d4605d995c555846f8fce9f86e5e121ccedcad86/mppsolar-0.9.1.tar.gz
+[2024-05-21 00:25:33] INFO root fetch - processPackages [petal-qc]: Downloading https://files.pythonhosted.org/packages/28/89/2086a4dcd0ef6ac9b19956edd8aa8f31b4d64fc3715a56500158178db7dc/petal_qc-0.0.0.tar.gz
+[2024-05-21 00:25:33] INFO root fetch - processPackages [powerlift]: Downloading https://files.pythonhosted.org/packages/06/08/6604b578406055b6d10e2442a928fe8187b5d92c573ab31b784933ca484e/powerlift-0.1.1-py3-none-any.whl
+[2024-05-21 00:25:33] INFO root fetch - processPackages [izio-cli]: Downloading https://files.pythonhosted.org/packages/a2/fa/7415836bcb3404268510376d5f98ab14557fa58de5e52d955f4ebc1c9a49/izio_cli-0.2.8.tar.gz
+[2024-05-21 00:25:33] INFO root fetch - processPackages [powerlift]: executing diffoscope
+[2024-05-21 00:25:33] INFO root fetch - processPackages [BarteSDK]: Downloading https://files.pythonhosted.org/packages/27/95/8326a1957fda1bb27a6435cfef3efa9fd89ba41b500cf8d294afdfddad13/BarteSDK-0.1.6.tar.gz
+[2024-05-21 00:25:33] INFO root fetch - processPackages [powerlift]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/powerlift-0.1.0-py3-none-any.whl.zip tmp/powerlift-0.1.1-py3-none-any.whl.zip --markdown 20240521/p/powerlift/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-21 00:25:34] INFO root fetch - processPackages [decoutilities]: Downloading https://files.pythonhosted.org/packages/df/c6/0a9f23cb35ff162a7c12f8d98e16d2b193f300a5c8689cbb57ae99b55ded/decoutilities-0.2.7.tar.gz
+[2024-05-21 00:25:34] INFO root fetch - processPackages [django-jbank]: Downloading https://files.pythonhosted.org/packages/e0/a1/d943b79a270c5e2a206943fcac96c50db1052f1a20400b100a5eb6090a08/django-jbank-4.4.9.tar.gz
+[2024-05-21 00:25:34] INFO root fetch - processPackages [mppsolar]: Downloading https://files.pythonhosted.org/packages/fd/87/29296f7b83112ba52d957ad9bd045e73b688905ea29ddda5f44e092a22bc/mppsolar-0.9.12.tar.gz
+[2024-05-21 00:25:34] INFO root fetch - processPackages [BarteSDK]: executing diffoscope
+[2024-05-21 00:25:34] INFO root fetch - processPackages [BarteSDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BarteSDK-0.1.5.tar.gz tmp/BarteSDK-0.1.6.tar.gz --markdown 20240521/B/BarteSDK/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-21 00:25:34] INFO root fetch - processPackages [decoutilities]: executing diffoscope
+[2024-05-21 00:25:34] INFO root fetch - processPackages [decoutilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decoutilities-0.2.6.tar.gz tmp/decoutilities-0.2.7.tar.gz --markdown 20240521/d/decoutilities/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-05-21 00:25:34] INFO root fetch - processPackages [django-jbank]: executing diffoscope
+[2024-05-21 00:25:34] INFO root fetch - processPackages [django-jbank]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-jbank-4.4.8.tar.gz tmp/django-jbank-4.4.9.tar.gz --markdown 20240521/d/django-jbank/4.4.8-4.4.9/README.md --exclude *.pyd
+[2024-05-21 00:25:34] INFO root fetch - processPackages [mppsolar]: executing diffoscope
+[2024-05-21 00:25:34] INFO root fetch - processPackages [mppsolar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mppsolar-0.9.1.tar.gz tmp/mppsolar-0.9.12.tar.gz --markdown 20240521/m/mppsolar/0.9.1-0.9.12/README.md --exclude *.pyd
+[2024-05-21 00:25:34] INFO root fetch - processPackages [petal-qc]: Downloading https://files.pythonhosted.org/packages/50/20/172db8597c98f14da4fc2e6be348c733f545b2c97c79c331f10c053f7051/petal_qc-0.0.1.tar.gz
+[2024-05-21 00:25:34] INFO root fetch - processPackages [izio-cli]: Downloading https://files.pythonhosted.org/packages/2b/87/ab94e8cd21535490bc4669fb23428be99257a6aa020addd80f0040fa50f8/izio_cli-0.2.9.tar.gz
+[2024-05-21 00:25:34] INFO root fetch - processPackages [petal-qc]: executing diffoscope
+[2024-05-21 00:25:34] INFO root fetch - processPackages [petal-qc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/petal_qc-0.0.0.tar.gz tmp/petal_qc-0.0.1.tar.gz --markdown 20240521/p/petal-qc/0.0.0-0.0.1/README.md --exclude *.pyd
+[2024-05-21 00:25:34] INFO root fetch - processPackages [izio-cli]: executing diffoscope
+[2024-05-21 00:25:34] INFO root fetch - processPackages [izio-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/izio_cli-0.2.8.tar.gz tmp/izio_cli-0.2.9.tar.gz --markdown 20240521/i/izio-cli/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-21 00:25:34] INFO root fetch - processPackages [BarteSDK]: Remove: archive file [/home/abi/fetcher/tmp/BarteSDK-0.1.5.tar.gz]
+[2024-05-21 00:25:34] INFO root fetch - processPackages [BarteSDK]: Remove: archive file [/home/abi/fetcher/tmp/BarteSDK-0.1.6.tar.gz]
+[2024-05-21 00:25:34] INFO root fetch - main [MainThread]: End processing [BarteSDK]: success
+[2024-05-21 00:25:34] INFO root fetch - processPackages [powerlift]: Remove: archive file [/home/abi/fetcher/tmp/powerlift-0.1.0-py3-none-any.whl.zip]
+[2024-05-21 00:25:34] INFO root fetch - processPackages [powerlift]: Remove: archive file [/home/abi/fetcher/tmp/powerlift-0.1.1-py3-none-any.whl.zip]
+[2024-05-21 00:25:34] INFO root fetch - main [MainThread]: End processing [powerlift]: success
+[2024-05-21 00:25:34] INFO root fetch - processPackages [decoutilities]: Remove: archive file [/home/abi/fetcher/tmp/decoutilities-0.2.6.tar.gz]
+[2024-05-21 00:25:34] INFO root fetch - processPackages [decoutilities]: Remove: archive file [/home/abi/fetcher/tmp/decoutilities-0.2.7.tar.gz]
+[2024-05-21 00:25:34] INFO root fetch - main [MainThread]: End processing [decoutilities]: success
+[2024-05-21 00:25:35] INFO root fetch - processPackages [mppsolar]: Remove: archive file [/home/abi/fetcher/tmp/mppsolar-0.9.1.tar.gz]
+[2024-05-21 00:25:35] INFO root fetch - processPackages [mppsolar]: Remove: archive file [/home/abi/fetcher/tmp/mppsolar-0.9.12.tar.gz]
+[2024-05-21 00:25:35] INFO root fetch - main [MainThread]: End processing [mppsolar]: success
+[2024-05-21 00:25:35] INFO root fetch - processPackages [petal-qc]: Remove: archive file [/home/abi/fetcher/tmp/petal_qc-0.0.0.tar.gz]
+[2024-05-21 00:25:35] INFO root fetch - processPackages [petal-qc]: Remove: archive file [/home/abi/fetcher/tmp/petal_qc-0.0.1.tar.gz]
+[2024-05-21 00:25:35] INFO root fetch - main [MainThread]: End processing [petal-qc]: success
+[2024-05-21 00:25:35] INFO root fetch - processPackages [izio-cli]: Remove: archive file [/home/abi/fetcher/tmp/izio_cli-0.2.8.tar.gz]
+[2024-05-21 00:25:35] INFO root fetch - processPackages [izio-cli]: Remove: archive file [/home/abi/fetcher/tmp/izio_cli-0.2.9.tar.gz]
+[2024-05-21 00:25:35] INFO root fetch - main [MainThread]: End processing [izio-cli]: success
+[2024-05-21 00:25:35] INFO root fetch - processPackages [django-jbank]: Remove: archive file [/home/abi/fetcher/tmp/django-jbank-4.4.8.tar.gz]
+[2024-05-21 00:25:35] INFO root fetch - processPackages [django-jbank]: Remove: archive file [/home/abi/fetcher/tmp/django-jbank-4.4.9.tar.gz]
+[2024-05-21 00:25:35] INFO root fetch - main [MainThread]: End processing [django-jbank]: success
+[2024-05-21 00:25:35] INFO root fetch - main [MainThread]: Store serial: [23297055]
