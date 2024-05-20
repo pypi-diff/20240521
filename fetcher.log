@@ -2246,3 +2246,15 @@
 [2024-05-21 01:44:48] INFO root fetch - processPackages [backtesting-server]: Remove: archive file [/home/abi/fetcher/tmp/backtesting_server-0.7.0.tar.gz]
 [2024-05-21 01:44:48] INFO root fetch - main [MainThread]: End processing [backtesting-server]: success
 [2024-05-21 01:44:48] INFO root fetch - main [MainThread]: Store serial: [23297686]
+[2024-05-21 01:46:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23297686]
+[2024-05-21 01:46:57] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-21 01:46:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dkist-processing-visp
+[2024-05-21 01:46:57] INFO root fetch - processPackages [dkist-processing-visp]: New version: [2.9.0] Old Version: [2.8.2]
+[2024-05-21 01:46:57] INFO root fetch - processPackages [dkist-processing-visp]: Downloading https://files.pythonhosted.org/packages/27/a8/d1a59f956cf90274abcfbd283a6ece1ceba1a2b912d6bb21b2cc3346a0a4/dkist_processing_visp-2.8.2.tar.gz
+[2024-05-21 01:46:58] INFO root fetch - processPackages [dkist-processing-visp]: Downloading https://files.pythonhosted.org/packages/48/94/b0dab1802e552438079561ae20c8a24ae49b117f677e155bed01917b5348/dkist_processing_visp-2.9.0.tar.gz
+[2024-05-21 01:46:58] INFO root fetch - processPackages [dkist-processing-visp]: executing diffoscope
+[2024-05-21 01:46:58] INFO root fetch - processPackages [dkist-processing-visp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dkist_processing_visp-2.8.2.tar.gz tmp/dkist_processing_visp-2.9.0.tar.gz --markdown 20240521/d/dkist-processing-visp/2.8.2-2.9.0/README.md --exclude *.pyd
+[2024-05-21 01:46:59] INFO root fetch - processPackages [dkist-processing-visp]: Remove: archive file [/home/abi/fetcher/tmp/dkist_processing_visp-2.8.2.tar.gz]
+[2024-05-21 01:46:59] INFO root fetch - processPackages [dkist-processing-visp]: Remove: archive file [/home/abi/fetcher/tmp/dkist_processing_visp-2.9.0.tar.gz]
+[2024-05-21 01:46:59] INFO root fetch - main [MainThread]: End processing [dkist-processing-visp]: success
+[2024-05-21 01:46:59] INFO root fetch - main [MainThread]: Store serial: [23297688]
