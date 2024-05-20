@@ -1349,3 +1349,51 @@
 [2024-05-21 00:56:48] INFO root fetch - processPackages [dockerblade]: Remove: archive file [/home/abi/fetcher/tmp/dockerblade-0.6.0.tar.gz]
 [2024-05-21 00:56:48] INFO root fetch - main [MainThread]: End processing [dockerblade]: success
 [2024-05-21 00:56:48] INFO root fetch - main [MainThread]: Store serial: [23297349]
+[2024-05-21 00:58:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23297349]
+[2024-05-21 00:58:57] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-21 00:58:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pih-iot
+[2024-05-21 00:58:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pg-upsert
+[2024-05-21 00:58:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: emlib
+[2024-05-21 00:58:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xmonkey-namonica
+[2024-05-21 00:58:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aws-stuff-doer
+[2024-05-21 00:58:57] INFO root fetch - processPackages [xmonkey-namonica]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-21 00:58:57] INFO root fetch - processPackages [xmonkey-namonica]: Downloading https://files.pythonhosted.org/packages/b0/3d/6203ff7af6294781f051903a25270845fd90f2978f0aad2922baf027467a/xmonkey_namonica-0.1.8.tar.gz
+[2024-05-21 00:58:57] INFO root fetch - processPackages [pg-upsert]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-21 00:58:57] INFO root fetch - processPackages [pih-iot]: New version: [0.14] Old Version: [0.13]
+[2024-05-21 00:58:57] INFO root fetch - processPackages [aws-stuff-doer]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-21 00:58:57] INFO root fetch - processPackages [emlib]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-05-21 00:58:57] INFO root fetch - processPackages [xmonkey-namonica]: Downloading https://files.pythonhosted.org/packages/cf/b8/696ff3c9499cdf66adacf2f654a1d6d3e21fc8d3f60fedd73208f3172235/xmonkey_namonica-0.1.9.tar.gz
+[2024-05-21 00:58:57] INFO root fetch - processPackages [pg-upsert]: Downloading https://files.pythonhosted.org/packages/a7/7c/7fcc8d624cfdb802b511ca6c6630e26891de38731f30dfac9c7f1e24b2f2/pg_upsert-0.0.2.tar.gz
+[2024-05-21 00:58:57] INFO root fetch - processPackages [pih-iot]: Downloading https://files.pythonhosted.org/packages/30/35/29c727695d49de708c81d443d95308bedf84a4fb38ddff9f27e05e739786/pih-iot-0.13.tar.gz
+[2024-05-21 00:58:57] INFO root fetch - processPackages [aws-stuff-doer]: Downloading https://files.pythonhosted.org/packages/7a/54/df89ba1a47086a695e95619529228143767e6b1a5897ae637d4a83794f00/aws_stuff_doer-0.1.2.tar.gz
+[2024-05-21 00:58:57] INFO root fetch - processPackages [emlib]: Downloading https://files.pythonhosted.org/packages/ea/67/fcf1b6dc7769f14e2b9f7d88a82eceead943a9d14bd5e7491c508bda8545/emlib-1.9.1.tar.gz
+[2024-05-21 00:58:57] INFO root fetch - processPackages [xmonkey-namonica]: executing diffoscope
+[2024-05-21 00:58:57] INFO root fetch - processPackages [xmonkey-namonica]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xmonkey_namonica-0.1.8.tar.gz tmp/xmonkey_namonica-0.1.9.tar.gz --markdown 20240521/x/xmonkey-namonica/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-21 00:58:57] INFO root fetch - processPackages [pg-upsert]: Downloading https://files.pythonhosted.org/packages/b2/6a/4bf881dc718513be15fe1c630d289319becce78bf3d89e3f428d682f4b54/pg_upsert-0.0.3.tar.gz
+[2024-05-21 00:58:57] INFO root fetch - processPackages [pih-iot]: Downloading https://files.pythonhosted.org/packages/fd/6f/6b191c18d178fa572ba87fa4bdb336442230fb52fd66b5b3bf7878c545b7/pih-iot-0.14.tar.gz
+[2024-05-21 00:58:58] INFO root fetch - processPackages [aws-stuff-doer]: Downloading https://files.pythonhosted.org/packages/79/0b/cf9f5d234c0e604df0271a361c570e8ac47893be6542ca7859e127c010e4/aws_stuff_doer-0.1.3.tar.gz
+[2024-05-21 00:58:58] INFO root fetch - processPackages [pg-upsert]: executing diffoscope
+[2024-05-21 00:58:58] INFO root fetch - processPackages [pg-upsert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pg_upsert-0.0.2.tar.gz tmp/pg_upsert-0.0.3.tar.gz --markdown 20240521/p/pg-upsert/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-21 00:58:58] INFO root fetch - processPackages [pih-iot]: executing diffoscope
+[2024-05-21 00:58:58] INFO root fetch - processPackages [pih-iot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-iot-0.13.tar.gz tmp/pih-iot-0.14.tar.gz --markdown 20240521/p/pih-iot/0.13-0.14/README.md --exclude *.pyd
+[2024-05-21 00:58:58] INFO root fetch - processPackages [emlib]: Downloading https://files.pythonhosted.org/packages/2a/c4/46ac55b0f07ecc3157df3355733a20fad3d385671267e699bd178aabd98b/emlib-1.9.2.tar.gz
+[2024-05-21 00:58:58] INFO root fetch - processPackages [emlib]: executing diffoscope
+[2024-05-21 00:58:58] INFO root fetch - processPackages [emlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emlib-1.9.1.tar.gz tmp/emlib-1.9.2.tar.gz --markdown 20240521/e/emlib/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-05-21 00:58:58] INFO root fetch - processPackages [aws-stuff-doer]: executing diffoscope
+[2024-05-21 00:58:58] INFO root fetch - processPackages [aws-stuff-doer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_stuff_doer-0.1.2.tar.gz tmp/aws_stuff_doer-0.1.3.tar.gz --markdown 20240521/a/aws-stuff-doer/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-21 00:58:58] INFO root fetch - processPackages [xmonkey-namonica]: Remove: archive file [/home/abi/fetcher/tmp/xmonkey_namonica-0.1.8.tar.gz]
+[2024-05-21 00:58:58] INFO root fetch - processPackages [xmonkey-namonica]: Remove: archive file [/home/abi/fetcher/tmp/xmonkey_namonica-0.1.9.tar.gz]
+[2024-05-21 00:58:58] INFO root fetch - main [MainThread]: End processing [xmonkey-namonica]: success
+[2024-05-21 00:58:58] INFO root fetch - processPackages [pih-iot]: Remove: archive file [/home/abi/fetcher/tmp/pih-iot-0.13.tar.gz]
+[2024-05-21 00:58:58] INFO root fetch - processPackages [pih-iot]: Remove: archive file [/home/abi/fetcher/tmp/pih-iot-0.14.tar.gz]
+[2024-05-21 00:58:58] INFO root fetch - main [MainThread]: End processing [pih-iot]: success
+[2024-05-21 00:58:58] INFO root fetch - processPackages [pg-upsert]: Remove: archive file [/home/abi/fetcher/tmp/pg_upsert-0.0.2.tar.gz]
+[2024-05-21 00:58:58] INFO root fetch - processPackages [pg-upsert]: Remove: archive file [/home/abi/fetcher/tmp/pg_upsert-0.0.3.tar.gz]
+[2024-05-21 00:58:58] INFO root fetch - main [MainThread]: End processing [pg-upsert]: success
+[2024-05-21 00:58:58] INFO root fetch - processPackages [emlib]: Remove: archive file [/home/abi/fetcher/tmp/emlib-1.9.1.tar.gz]
+[2024-05-21 00:58:58] INFO root fetch - processPackages [emlib]: Remove: archive file [/home/abi/fetcher/tmp/emlib-1.9.2.tar.gz]
+[2024-05-21 00:58:58] INFO root fetch - main [MainThread]: End processing [emlib]: success
+[2024-05-21 00:58:58] INFO root fetch - processPackages [aws-stuff-doer]: Remove: archive file [/home/abi/fetcher/tmp/aws_stuff_doer-0.1.2.tar.gz]
+[2024-05-21 00:58:58] INFO root fetch - processPackages [aws-stuff-doer]: Remove: archive file [/home/abi/fetcher/tmp/aws_stuff_doer-0.1.3.tar.gz]
+[2024-05-21 00:58:58] INFO root fetch - main [MainThread]: End processing [aws-stuff-doer]: success
+[2024-05-21 00:58:58] INFO root fetch - main [MainThread]: Store serial: [23297363]
