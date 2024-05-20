@@ -1556,3 +1556,60 @@
 [2024-05-21 01:05:29] INFO root fetch - processPackages [textmark]: Remove: archive file [/home/abi/fetcher/tmp/textmark-0.5.0.tar.gz]
 [2024-05-21 01:05:29] INFO root fetch - main [MainThread]: End processing [textmark]: success
 [2024-05-21 01:05:29] INFO root fetch - main [MainThread]: Store serial: [23297420]
+[2024-05-21 01:07:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23297420]
+[2024-05-21 01:07:38] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-21 01:07:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: v2share
+[2024-05-21 01:07:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pih
+[2024-05-21 01:07:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flwr-nightly
+[2024-05-21 01:07:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pipdeptree
+[2024-05-21 01:07:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pih-plb
+[2024-05-21 01:07:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: har2tree
+[2024-05-21 01:07:38] INFO root fetch - processPackages [v2share]: New version: [0.1.0b0] Old Version: [0.1.0a6]
+[2024-05-21 01:07:38] INFO root fetch - processPackages [flwr-nightly]: New version: [1.9.0.dev20240519] Old Version: [1.9.0.dev20240517]
+[2024-05-21 01:07:38] INFO root fetch - processPackages [pih]: New version: [0.37] Old Version: [0.36.9]
+[2024-05-21 01:07:38] INFO root fetch - processPackages [v2share]: Downloading https://files.pythonhosted.org/packages/31/9c/5c91b2166fa674cd1b43e8a4ae9e3c2b78f1ffd50cb9ee92b964e026a464/v2share-0.1.0a6.tar.gz
+[2024-05-21 01:07:38] INFO root fetch - processPackages [pih-plb]: New version: [0.23] Old Version: [0.22.1]
+[2024-05-21 01:07:38] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/83/ff/72633a6feab1f6f10eba308c053e14daa0d1f6743aae05393f698808ad2b/flwr_nightly-1.9.0.dev20240517.tar.gz
+[2024-05-21 01:07:38] INFO root fetch - processPackages [har2tree]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-05-21 01:07:38] INFO root fetch - processPackages [pipdeptree]: New version: [2.9.6] Old Version: [2.9.5]
+[2024-05-21 01:07:39] INFO root fetch - processPackages [v2share]: Downloading https://files.pythonhosted.org/packages/1b/5f/b81365c3ff8fb971de84546090551f36b1a7f2ee20a1c67599c46d340a7a/v2share-0.1.0b0-py3-none-any.whl
+[2024-05-21 01:07:39] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/68/1a/6491ba90ae40918db4f8dc253ce837f95f5404e51728f862a2c86457d528/pih-0.36.9.tar.gz
+[2024-05-21 01:07:39] INFO root fetch - processPackages [pih-plb]: Downloading https://files.pythonhosted.org/packages/bc/17/162caf25b28318d2eb2120b0f38a14532b9eb72907a1464f9b2514eb7f06/pih-plb-0.22.1.tar.gz
+[2024-05-21 01:07:39] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/db/ec/f641890c54a5366530e5b4c7ac4f6c8fa50fcdcb383969c8b0d60319c264/flwr_nightly-1.9.0.dev20240519.tar.gz
+[2024-05-21 01:07:39] INFO root fetch - processPackages [pipdeptree]: Downloading https://files.pythonhosted.org/packages/89/86/cd4899dd11f30802f3ec5631ffc735ad120739c1e93ce51e4392ebc640b7/pipdeptree-2.9.5.tar.gz
+[2024-05-21 01:07:39] INFO root fetch - processPackages [har2tree]: Downloading https://files.pythonhosted.org/packages/ab/1c/fa462b6fc68113b09310268a01e459e0c8d5e55039f3137af27181369e7a/har2tree-1.9.1.tar.gz
+[2024-05-21 01:07:39] INFO root fetch - processPackages [v2share]: executing diffoscope
+[2024-05-21 01:07:39] INFO root fetch - processPackages [v2share]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/v2share-0.1.0a6.tar.gz tmp/v2share-0.1.0b0-py3-none-any.whl.zip --markdown 20240521/v/v2share/0.1.0a6-0.1.0b0/README.md --exclude *.pyd
+[2024-05-21 01:07:39] INFO root fetch - processPackages [flwr-nightly]: executing diffoscope
+[2024-05-21 01:07:39] INFO root fetch - processPackages [flwr-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flwr_nightly-1.9.0.dev20240517.tar.gz tmp/flwr_nightly-1.9.0.dev20240519.tar.gz --markdown 20240521/f/flwr-nightly/1.9.0.dev20240517-1.9.0.dev20240519/README.md --exclude *.pyd
+[2024-05-21 01:07:39] INFO root fetch - processPackages [pih-plb]: Downloading https://files.pythonhosted.org/packages/6e/b0/ff1065f2017deb5f2787046eb80ea01a3913e24f73ae10c7b102f8101a43/pih-plb-0.23.tar.gz
+[2024-05-21 01:07:39] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/76/bf/f9d5a0d35a60d82da004bdca53b5fdfc1d88af70fec9749251c7da8db762/pih-0.37.tar.gz
+[2024-05-21 01:07:39] INFO root fetch - processPackages [pih-plb]: executing diffoscope
+[2024-05-21 01:07:39] INFO root fetch - processPackages [pih-plb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-plb-0.22.1.tar.gz tmp/pih-plb-0.23.tar.gz --markdown 20240521/p/pih-plb/0.22.1-0.23/README.md --exclude *.pyd
+[2024-05-21 01:07:39] INFO root fetch - processPackages [pipdeptree]: Downloading https://files.pythonhosted.org/packages/0a/b2/2508e11f44e0e7b136555175f21c121f20642d43ab2a09797b178e968834/pipdeptree-2.9.6.tar.gz
+[2024-05-21 01:07:39] INFO root fetch - processPackages [pih]: executing diffoscope
+[2024-05-21 01:07:39] INFO root fetch - processPackages [pih]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-0.36.9.tar.gz tmp/pih-0.37.tar.gz --markdown 20240521/p/pih/0.36.9-0.37/README.md --exclude *.pyd
+[2024-05-21 01:07:39] INFO root fetch - processPackages [har2tree]: Downloading https://files.pythonhosted.org/packages/d5/e7/2b2311330f353586a94cd7d47f1c1460458ed98491ec39c490b14a3955a0/har2tree-1.9.2.tar.gz
+[2024-05-21 01:07:39] INFO root fetch - processPackages [pipdeptree]: executing diffoscope
+[2024-05-21 01:07:39] INFO root fetch - processPackages [pipdeptree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipdeptree-2.9.5.tar.gz tmp/pipdeptree-2.9.6.tar.gz --markdown 20240521/p/pipdeptree/2.9.5-2.9.6/README.md --exclude *.pyd
+[2024-05-21 01:07:39] INFO root fetch - processPackages [har2tree]: executing diffoscope
+[2024-05-21 01:07:39] INFO root fetch - processPackages [har2tree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/har2tree-1.9.1.tar.gz tmp/har2tree-1.9.2.tar.gz --markdown 20240521/h/har2tree/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-05-21 01:07:39] INFO root fetch - processPackages [v2share]: Remove: archive file [/home/abi/fetcher/tmp/v2share-0.1.0a6.tar.gz]
+[2024-05-21 01:07:39] INFO root fetch - processPackages [v2share]: Remove: archive file [/home/abi/fetcher/tmp/v2share-0.1.0b0-py3-none-any.whl.zip]
+[2024-05-21 01:07:39] INFO root fetch - main [MainThread]: End processing [v2share]: success
+[2024-05-21 01:07:40] INFO root fetch - processPackages [pih-plb]: Remove: archive file [/home/abi/fetcher/tmp/pih-plb-0.22.1.tar.gz]
+[2024-05-21 01:07:40] INFO root fetch - processPackages [pih-plb]: Remove: archive file [/home/abi/fetcher/tmp/pih-plb-0.23.tar.gz]
+[2024-05-21 01:07:40] INFO root fetch - main [MainThread]: End processing [pih-plb]: success
+[2024-05-21 01:07:40] INFO root fetch - processPackages [pipdeptree]: Remove: archive file [/home/abi/fetcher/tmp/pipdeptree-2.9.5.tar.gz]
+[2024-05-21 01:07:40] INFO root fetch - processPackages [pipdeptree]: Remove: archive file [/home/abi/fetcher/tmp/pipdeptree-2.9.6.tar.gz]
+[2024-05-21 01:07:40] INFO root fetch - main [MainThread]: End processing [pipdeptree]: success
+[2024-05-21 01:07:40] INFO root fetch - processPackages [har2tree]: Remove: archive file [/home/abi/fetcher/tmp/har2tree-1.9.1.tar.gz]
+[2024-05-21 01:07:40] INFO root fetch - processPackages [har2tree]: Remove: archive file [/home/abi/fetcher/tmp/har2tree-1.9.2.tar.gz]
+[2024-05-21 01:07:40] INFO root fetch - main [MainThread]: End processing [har2tree]: success
+[2024-05-21 01:07:40] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-0.36.9.tar.gz]
+[2024-05-21 01:07:40] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-0.37.tar.gz]
+[2024-05-21 01:07:40] INFO root fetch - main [MainThread]: End processing [pih]: success
+[2024-05-21 01:07:40] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.9.0.dev20240517.tar.gz]
+[2024-05-21 01:07:40] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.9.0.dev20240519.tar.gz]
+[2024-05-21 01:07:40] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
+[2024-05-21 01:07:40] INFO root fetch - main [MainThread]: Store serial: [23297438]
