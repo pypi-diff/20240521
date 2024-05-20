@@ -2017,3 +2017,50 @@
 [2024-05-21 01:29:31] INFO root fetch - processPackages [ethyca-fides]: Remove: archive file [/home/abi/fetcher/tmp/ethyca-fides-2.9.2.tar.gz]
 [2024-05-21 01:29:31] INFO root fetch - main [MainThread]: End processing [ethyca-fides]: success
 [2024-05-21 01:29:31] INFO root fetch - main [MainThread]: Store serial: [23297605]
+[2024-05-21 01:31:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23297605]
+[2024-05-21 01:31:40] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-21 01:31:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: langgraph
+[2024-05-21 01:31:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tf-nightly-intel
+[2024-05-21 01:31:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Brightify
+[2024-05-21 01:31:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: galaxy-release-util
+[2024-05-21 01:31:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: esupar
+[2024-05-21 01:31:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: FreshPointCLI
+[2024-05-21 01:31:40] WARNING root fetch - processPackages [FreshPointCLI]: Skipping, unable to determine old version
+[2024-05-21 01:31:40] INFO root fetch - main [MainThread]: End processing [FreshPointCLI] error
+[2024-05-21 01:31:40] INFO root fetch - processPackages [Brightify]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-21 01:31:40] INFO root fetch - processPackages [tf-nightly-intel]: New version: [2.17.0.dev20240520] Old Version: [2.17.0.dev20240517]
+[2024-05-21 01:31:40] INFO root fetch - processPackages [galaxy-release-util]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-21 01:31:40] INFO root fetch - processPackages [langgraph]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-21 01:31:40] INFO root fetch - processPackages [esupar]: New version: [1.7.2] Old Version: [1.7.1]
+[2024-05-21 01:31:40] INFO root fetch - processPackages [Brightify]: Downloading https://files.pythonhosted.org/packages/5a/73/45407d9c123d8794375e4f6a9ee76e3b50188d6dcdf3559d6c0f0ce40617/brightify-0.1.0.tar.gz
+[2024-05-21 01:31:40] INFO root fetch - processPackages [tf-nightly-intel]: Downloading https://files.pythonhosted.org/packages/a2/91/b06988339b20fe67361134f8aacb81a36604944f26bb3090f0ff95914f89/tf_nightly_intel-2.17.0.dev20240517-cp39-cp39-win_amd64.whl
+[2024-05-21 01:31:40] INFO root fetch - processPackages [galaxy-release-util]: Downloading https://files.pythonhosted.org/packages/4d/39/40561e735037feb61aa130088c60324fc4e11e3db5036ab5ede1930c62a0/galaxy_release_util-0.1.8.tar.gz
+[2024-05-21 01:31:40] WARNING root fetch - processPackages [tf-nightly-intel]: Skipping package: exceeds size limit 217503547>=10485760
+[2024-05-21 01:31:40] INFO root fetch - main [MainThread]: End processing [tf-nightly-intel] error
+[2024-05-21 01:31:40] INFO root fetch - processPackages [esupar]: Downloading https://files.pythonhosted.org/packages/26/a9/af144e8020788accf4ce7a06c2228954abfacacce3ecc2431b84fcb33ff1/esupar-1.7.1-py3-none-any.whl
+[2024-05-21 01:31:40] INFO root fetch - processPackages [langgraph]: Downloading https://files.pythonhosted.org/packages/c3/4c/9b4e9602b53407f902478465aed68d9de3c50e5d87e57689b587d47b3da7/langgraph-0.0.8.tar.gz
+[2024-05-21 01:31:41] INFO root fetch - processPackages [Brightify]: Downloading https://files.pythonhosted.org/packages/de/a0/e03049d5f8c012f6bd543bda75f54404bff70f33aeb5142e8df9ae7ced7c/brightify-0.1.1.tar.gz
+[2024-05-21 01:31:41] INFO root fetch - processPackages [galaxy-release-util]: Downloading https://files.pythonhosted.org/packages/6d/6b/6782c726809d90addb0ad86bbc2b0d8ab6ee1af28120569f12b3f05cd7ed/galaxy_release_util-0.1.9.tar.gz
+[2024-05-21 01:31:41] INFO root fetch - processPackages [esupar]: Downloading https://files.pythonhosted.org/packages/2d/b0/3ccc7b46843713ee05ef6025726235dc37022bb1ca412455908a916c4e53/esupar-1.7.2-py3-none-any.whl
+[2024-05-21 01:31:41] INFO root fetch - processPackages [Brightify]: executing diffoscope
+[2024-05-21 01:31:41] INFO root fetch - processPackages [Brightify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brightify-0.1.0.tar.gz tmp/brightify-0.1.1.tar.gz --markdown 20240521/B/Brightify/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-21 01:31:41] INFO root fetch - processPackages [langgraph]: Downloading https://files.pythonhosted.org/packages/f4/a0/daf7cdeb4d1bf5e82dbc320b0a09159087efca3e06f23971c0144e7114f0/langgraph-0.0.9.tar.gz
+[2024-05-21 01:31:41] INFO root fetch - processPackages [galaxy-release-util]: executing diffoscope
+[2024-05-21 01:31:41] INFO root fetch - processPackages [galaxy-release-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galaxy_release_util-0.1.8.tar.gz tmp/galaxy_release_util-0.1.9.tar.gz --markdown 20240521/g/galaxy-release-util/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-21 01:31:41] INFO root fetch - processPackages [langgraph]: executing diffoscope
+[2024-05-21 01:31:41] INFO root fetch - processPackages [langgraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langgraph-0.0.8.tar.gz tmp/langgraph-0.0.9.tar.gz --markdown 20240521/l/langgraph/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-21 01:31:41] INFO root fetch - processPackages [esupar]: executing diffoscope
+[2024-05-21 01:31:41] INFO root fetch - processPackages [esupar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esupar-1.7.1-py3-none-any.whl.zip tmp/esupar-1.7.2-py3-none-any.whl.zip --markdown 20240521/e/esupar/1.7.1-1.7.2/README.md --exclude *.pyd
+[2024-05-21 01:31:41] INFO root fetch - processPackages [galaxy-release-util]: Remove: archive file [/home/abi/fetcher/tmp/galaxy_release_util-0.1.8.tar.gz]
+[2024-05-21 01:31:41] INFO root fetch - processPackages [galaxy-release-util]: Remove: archive file [/home/abi/fetcher/tmp/galaxy_release_util-0.1.9.tar.gz]
+[2024-05-21 01:31:41] INFO root fetch - main [MainThread]: End processing [galaxy-release-util]: success
+[2024-05-21 01:31:41] INFO root fetch - processPackages [langgraph]: Remove: archive file [/home/abi/fetcher/tmp/langgraph-0.0.8.tar.gz]
+[2024-05-21 01:31:41] INFO root fetch - processPackages [langgraph]: Remove: archive file [/home/abi/fetcher/tmp/langgraph-0.0.9.tar.gz]
+[2024-05-21 01:31:41] INFO root fetch - main [MainThread]: End processing [langgraph]: success
+[2024-05-21 01:31:42] INFO root fetch - processPackages [esupar]: Remove: archive file [/home/abi/fetcher/tmp/esupar-1.7.1-py3-none-any.whl.zip]
+[2024-05-21 01:31:42] INFO root fetch - processPackages [esupar]: Remove: archive file [/home/abi/fetcher/tmp/esupar-1.7.2-py3-none-any.whl.zip]
+[2024-05-21 01:31:42] INFO root fetch - main [MainThread]: End processing [esupar]: success
+[2024-05-21 01:31:42] INFO root fetch - processPackages [Brightify]: Remove: archive file [/home/abi/fetcher/tmp/brightify-0.1.0.tar.gz]
+[2024-05-21 01:31:42] INFO root fetch - processPackages [Brightify]: Remove: archive file [/home/abi/fetcher/tmp/brightify-0.1.1.tar.gz]
+[2024-05-21 01:31:42] INFO root fetch - main [MainThread]: End processing [Brightify]: success
+[2024-05-21 01:31:42] INFO root fetch - main [MainThread]: Store serial: [23297624]
