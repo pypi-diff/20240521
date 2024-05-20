@@ -2084,3 +2084,24 @@
 [2024-05-21 01:33:52] INFO root fetch - processPackages [pydra-nireports]: Remove: archive file [/home/abi/fetcher/tmp/pydra_nireports-0.1.1.tar.gz]
 [2024-05-21 01:33:52] INFO root fetch - main [MainThread]: End processing [pydra-nireports]: success
 [2024-05-21 01:33:52] INFO root fetch - main [MainThread]: Store serial: [23297634]
+[2024-05-21 01:35:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23297634]
+[2024-05-21 01:36:00] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-21 01:36:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yt-dlp
+[2024-05-21 01:36:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: formant
+[2024-05-21 01:36:00] INFO root fetch - processPackages [yt-dlp]: New version: [2024.5.8.232715.dev0] Old Version: [2024.5.5.232701.dev0]
+[2024-05-21 01:36:00] INFO root fetch - processPackages [formant]: New version: [1.99.25] Old Version: [1.99.10]
+[2024-05-21 01:36:01] INFO root fetch - processPackages [formant]: Downloading https://files.pythonhosted.org/packages/b4/ae/48e0e0cc421f59b739a0933ff541c564d705ba0f03ab53b6ad242e88d6dd/formant-1.99.10.tar.gz
+[2024-05-21 01:36:01] INFO root fetch - processPackages [yt-dlp]: Downloading https://files.pythonhosted.org/packages/84/b9/776c1dd6af3d11b008b3d15993bd9675fea67e86f7b78a1dac88febb9fcf/yt_dlp-2024.5.5.232701.dev0.tar.gz
+[2024-05-21 01:36:01] INFO root fetch - processPackages [formant]: Downloading https://files.pythonhosted.org/packages/0f/87/d41a560174ff1aede53afa1480b906376d1d5d3f7263147c18f90dda6c0f/formant-1.99.25.tar.gz
+[2024-05-21 01:36:01] INFO root fetch - processPackages [formant]: executing diffoscope
+[2024-05-21 01:36:01] INFO root fetch - processPackages [formant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/formant-1.99.10.tar.gz tmp/formant-1.99.25.tar.gz --markdown 20240521/f/formant/1.99.10-1.99.25/README.md --exclude *.pyd
+[2024-05-21 01:36:01] INFO root fetch - processPackages [yt-dlp]: Downloading https://files.pythonhosted.org/packages/29/37/4d7e7b1d095d515aef0e3e9af758d0dc33fceebfe46ebce02a1a240d274c/yt_dlp-2024.5.8.232715.dev0.tar.gz
+[2024-05-21 01:36:01] INFO root fetch - processPackages [yt-dlp]: executing diffoscope
+[2024-05-21 01:36:01] INFO root fetch - processPackages [yt-dlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yt_dlp-2024.5.5.232701.dev0.tar.gz tmp/yt_dlp-2024.5.8.232715.dev0.tar.gz --markdown 20240521/y/yt-dlp/2024.5.5.232701.dev0-2024.5.8.232715.dev0/README.md --exclude *.pyd
+[2024-05-21 01:36:02] INFO root fetch - processPackages [formant]: Remove: archive file [/home/abi/fetcher/tmp/formant-1.99.10.tar.gz]
+[2024-05-21 01:36:02] INFO root fetch - processPackages [formant]: Remove: archive file [/home/abi/fetcher/tmp/formant-1.99.25.tar.gz]
+[2024-05-21 01:36:02] INFO root fetch - main [MainThread]: End processing [formant]: success
+[2024-05-21 01:36:06] INFO root fetch - processPackages [yt-dlp]: Remove: archive file [/home/abi/fetcher/tmp/yt_dlp-2024.5.5.232701.dev0.tar.gz]
+[2024-05-21 01:36:06] INFO root fetch - processPackages [yt-dlp]: Remove: archive file [/home/abi/fetcher/tmp/yt_dlp-2024.5.8.232715.dev0.tar.gz]
+[2024-05-21 01:36:06] INFO root fetch - main [MainThread]: End processing [yt-dlp]: success
+[2024-05-21 01:36:06] INFO root fetch - main [MainThread]: Store serial: [23297640]
