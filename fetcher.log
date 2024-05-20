@@ -28,3 +28,54 @@
 [2024-05-21 00:01:13] INFO root fetch - processPackages [goodwe]: Remove: archive file [/home/abi/fetcher/tmp/goodwe-0.4.4.tar.gz]
 [2024-05-21 00:01:13] INFO root fetch - main [MainThread]: End processing [goodwe]: success
 [2024-05-21 00:01:13] INFO root fetch - main [MainThread]: Store serial: [23296802]
+[2024-05-21 00:03:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23296802]
+[2024-05-21 00:03:22] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-21 00:03:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: llama-cpp-agent
+[2024-05-21 00:03:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: annobee
+[2024-05-21 00:03:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: factorio-randovania-mod
+[2024-05-21 00:03:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: linkedit
+[2024-05-21 00:03:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fodantic
+[2024-05-21 00:03:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: BigEDA
+[2024-05-21 00:03:22] WARNING root fetch - processPackages [factorio-randovania-mod]: Skipping, unable to determine old version
+[2024-05-21 00:03:22] INFO root fetch - main [MainThread]: End processing [factorio-randovania-mod] error
+[2024-05-21 00:03:22] INFO root fetch - processPackages [BigEDA]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-21 00:03:22] INFO root fetch - processPackages [llama-cpp-agent]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-05-21 00:03:22] INFO root fetch - processPackages [annobee]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-21 00:03:22] INFO root fetch - processPackages [fodantic]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-21 00:03:22] INFO root fetch - processPackages [linkedit]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-21 00:03:22] INFO root fetch - processPackages [BigEDA]: Downloading https://files.pythonhosted.org/packages/2f/fe/5c10bf9dfaa50e4e1234e81e022638b3ef20c821e939dae4cdc3da332e46/bigeda-0.0.8.tar.gz
+[2024-05-21 00:03:22] INFO root fetch - processPackages [llama-cpp-agent]: Downloading https://files.pythonhosted.org/packages/62/6d/80897c4ee8ed3329b4d08df2e2c4a23b7126cdb8b6ca548a4da59af0e332/llama_cpp_agent-0.2.7.tar.gz
+[2024-05-21 00:03:22] INFO root fetch - processPackages [fodantic]: Downloading https://files.pythonhosted.org/packages/ce/33/77bd6cae5ad4f6990986763491264c8811d415141c309496d78d3990af0c/fodantic-0.0.4.tar.gz
+[2024-05-21 00:03:22] INFO root fetch - processPackages [annobee]: Downloading https://files.pythonhosted.org/packages/72/8c/283f96f0103ca72e78dfd2aabfed6687456b542e0d325fa4bc5a75ab4f37/annobee-0.5.8.tar.gz
+[2024-05-21 00:03:22] INFO root fetch - processPackages [BigEDA]: Downloading https://files.pythonhosted.org/packages/b1/5d/ec41b2b9af7223a14c0e82d4f64cbeb0d0339a0d8bca37dbb041af6ef14d/bigeda-0.0.9.tar.gz
+[2024-05-21 00:03:22] INFO root fetch - processPackages [llama-cpp-agent]: Downloading https://files.pythonhosted.org/packages/a0/ba/e28b4ffe7b86f6d15ba5b9672537e66bc8273c02bbb8fa06f1337493886a/llama_cpp_agent-0.2.8.tar.gz
+[2024-05-21 00:03:22] INFO root fetch - processPackages [linkedit]: Downloading https://files.pythonhosted.org/packages/8e/91/271347c077e90a975ed780afe533131df3346e6c742402b3788ec130a959/linkedit-1.0.3.tar.gz
+[2024-05-21 00:03:22] INFO root fetch - processPackages [BigEDA]: executing diffoscope
+[2024-05-21 00:03:22] INFO root fetch - processPackages [BigEDA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigeda-0.0.8.tar.gz tmp/bigeda-0.0.9.tar.gz --markdown 20240521/B/BigEDA/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-21 00:03:23] INFO root fetch - processPackages [llama-cpp-agent]: executing diffoscope
+[2024-05-21 00:03:23] INFO root fetch - processPackages [llama-cpp-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_cpp_agent-0.2.7.tar.gz tmp/llama_cpp_agent-0.2.8.tar.gz --markdown 20240521/l/llama-cpp-agent/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-05-21 00:03:23] INFO root fetch - processPackages [fodantic]: Downloading https://files.pythonhosted.org/packages/ce/7c/546c56f8ed9f53e5f50ebf64135becc33e0d39b7e7470b6d56ba6d12d78d/fodantic-0.0.5.tar.gz
+[2024-05-21 00:03:23] INFO root fetch - processPackages [annobee]: Downloading https://files.pythonhosted.org/packages/c3/d4/4ff5c82f72ebb2646df9718431fe418b5bc9f68f9d298d747b89386f47c2/annobee-0.5.9.tar.gz
+[2024-05-21 00:03:23] INFO root fetch - processPackages [linkedit]: Downloading https://files.pythonhosted.org/packages/58/0b/7c4b4701e73cd31b6d61eea7681d33af94deaf483af22dba1619c6ffa555/linkedit-1.0.4.tar.gz
+[2024-05-21 00:03:23] INFO root fetch - processPackages [annobee]: executing diffoscope
+[2024-05-21 00:03:23] INFO root fetch - processPackages [annobee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/annobee-0.5.8.tar.gz tmp/annobee-0.5.9.tar.gz --markdown 20240521/a/annobee/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-21 00:03:23] INFO root fetch - processPackages [fodantic]: executing diffoscope
+[2024-05-21 00:03:23] INFO root fetch - processPackages [fodantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fodantic-0.0.4.tar.gz tmp/fodantic-0.0.5.tar.gz --markdown 20240521/f/fodantic/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-21 00:03:23] INFO root fetch - processPackages [linkedit]: executing diffoscope
+[2024-05-21 00:03:23] INFO root fetch - processPackages [linkedit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linkedit-1.0.3.tar.gz tmp/linkedit-1.0.4.tar.gz --markdown 20240521/l/linkedit/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-21 00:03:23] INFO root fetch - processPackages [BigEDA]: Remove: archive file [/home/abi/fetcher/tmp/bigeda-0.0.8.tar.gz]
+[2024-05-21 00:03:23] INFO root fetch - processPackages [BigEDA]: Remove: archive file [/home/abi/fetcher/tmp/bigeda-0.0.9.tar.gz]
+[2024-05-21 00:03:23] INFO root fetch - main [MainThread]: End processing [BigEDA]: success
+[2024-05-21 00:03:23] INFO root fetch - processPackages [llama-cpp-agent]: Remove: archive file [/home/abi/fetcher/tmp/llama_cpp_agent-0.2.7.tar.gz]
+[2024-05-21 00:03:23] INFO root fetch - processPackages [llama-cpp-agent]: Remove: archive file [/home/abi/fetcher/tmp/llama_cpp_agent-0.2.8.tar.gz]
+[2024-05-21 00:03:23] INFO root fetch - main [MainThread]: End processing [llama-cpp-agent]: success
+[2024-05-21 00:03:23] INFO root fetch - processPackages [annobee]: Remove: archive file [/home/abi/fetcher/tmp/annobee-0.5.8.tar.gz]
+[2024-05-21 00:03:23] INFO root fetch - processPackages [annobee]: Remove: archive file [/home/abi/fetcher/tmp/annobee-0.5.9.tar.gz]
+[2024-05-21 00:03:23] INFO root fetch - main [MainThread]: End processing [annobee]: success
+[2024-05-21 00:03:23] INFO root fetch - processPackages [fodantic]: Remove: archive file [/home/abi/fetcher/tmp/fodantic-0.0.4.tar.gz]
+[2024-05-21 00:03:23] INFO root fetch - processPackages [fodantic]: Remove: archive file [/home/abi/fetcher/tmp/fodantic-0.0.5.tar.gz]
+[2024-05-21 00:03:23] INFO root fetch - main [MainThread]: End processing [fodantic]: success
+[2024-05-21 00:03:24] INFO root fetch - processPackages [linkedit]: Remove: archive file [/home/abi/fetcher/tmp/linkedit-1.0.3.tar.gz]
+[2024-05-21 00:03:24] INFO root fetch - processPackages [linkedit]: Remove: archive file [/home/abi/fetcher/tmp/linkedit-1.0.4.tar.gz]
+[2024-05-21 00:03:24] INFO root fetch - main [MainThread]: End processing [linkedit]: success
+[2024-05-21 00:03:24] INFO root fetch - main [MainThread]: Store serial: [23296820]
