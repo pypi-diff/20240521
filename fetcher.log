@@ -2153,3 +2153,33 @@
 [2024-05-21 01:38:17] INFO root fetch - processPackages [dkist-processing-cryonirsp]: Remove: archive file [/home/abi/fetcher/tmp/dkist_processing_cryonirsp-0.0.9.tar.gz]
 [2024-05-21 01:38:17] INFO root fetch - main [MainThread]: End processing [dkist-processing-cryonirsp]: success
 [2024-05-21 01:38:17] INFO root fetch - main [MainThread]: Store serial: [23297655]
+[2024-05-21 01:40:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23297655]
+[2024-05-21 01:40:26] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-21 01:40:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vix-utils
+[2024-05-21 01:40:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ImageObject
+[2024-05-21 01:40:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: metalarchivist
+[2024-05-21 01:40:26] INFO root fetch - processPackages [ImageObject]: New version: [1.15] Old Version: [1.14]
+[2024-05-21 01:40:26] INFO root fetch - processPackages [ImageObject]: Downloading https://files.pythonhosted.org/packages/e3/56/00afadc8ff11466375ea2dccea4e3a5c119cc4f8df84761f774ace882ede/ImageObject-1.14.tar.gz
+[2024-05-21 01:40:26] INFO root fetch - processPackages [vix-utils]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-21 01:40:27] INFO root fetch - processPackages [metalarchivist]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-05-21 01:40:27] INFO root fetch - processPackages [vix-utils]: Downloading https://files.pythonhosted.org/packages/32/7b/f2b7c73c4592ea0fc2d5ef02016b6cd0d0f7d48414cf2edb723f7fe86014/vix_utils-0.1.5.tar.gz
+[2024-05-21 01:40:27] INFO root fetch - processPackages [metalarchivist]: Downloading https://files.pythonhosted.org/packages/59/7d/062437876709fe59b94aaabdeeb5abf089d3b78c5c5d8c3a6b137e9189ed/metalarchivist-0.4.1.tar.gz
+[2024-05-21 01:40:27] INFO root fetch - processPackages [ImageObject]: Downloading https://files.pythonhosted.org/packages/6d/f1/4126d922370ccd68c8ae2f55da922d78bbbe66a403d3665973a1b76d064d/ImageObject-1.15.tar.gz
+[2024-05-21 01:40:27] INFO root fetch - processPackages [ImageObject]: executing diffoscope
+[2024-05-21 01:40:27] INFO root fetch - processPackages [ImageObject]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ImageObject-1.14.tar.gz tmp/ImageObject-1.15.tar.gz --markdown 20240521/I/ImageObject/1.14-1.15/README.md --exclude *.pyd
+[2024-05-21 01:40:27] INFO root fetch - processPackages [metalarchivist]: Downloading https://files.pythonhosted.org/packages/db/1d/51df15047e8945eb7cc62c80ee727b312fd629cda09404266fad6d3de669/metalarchivist-0.4.2.tar.gz
+[2024-05-21 01:40:27] INFO root fetch - processPackages [metalarchivist]: executing diffoscope
+[2024-05-21 01:40:27] INFO root fetch - processPackages [metalarchivist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metalarchivist-0.4.1.tar.gz tmp/metalarchivist-0.4.2.tar.gz --markdown 20240521/m/metalarchivist/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-05-21 01:40:27] INFO root fetch - processPackages [vix-utils]: Downloading https://files.pythonhosted.org/packages/b9/7f/5425c945e7057a9769c3a305ab222af6038a2711afd2e71a8b8c20df4b61/vix_utils-0.1.6.tar.gz
+[2024-05-21 01:40:27] INFO root fetch - processPackages [ImageObject]: Remove: archive file [/home/abi/fetcher/tmp/ImageObject-1.14.tar.gz]
+[2024-05-21 01:40:27] INFO root fetch - processPackages [ImageObject]: Remove: archive file [/home/abi/fetcher/tmp/ImageObject-1.15.tar.gz]
+[2024-05-21 01:40:27] INFO root fetch - main [MainThread]: End processing [ImageObject]: success
+[2024-05-21 01:40:27] INFO root fetch - processPackages [vix-utils]: executing diffoscope
+[2024-05-21 01:40:28] INFO root fetch - processPackages [vix-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vix_utils-0.1.5.tar.gz tmp/vix_utils-0.1.6.tar.gz --markdown 20240521/v/vix-utils/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-21 01:40:28] INFO root fetch - processPackages [metalarchivist]: Remove: archive file [/home/abi/fetcher/tmp/metalarchivist-0.4.1.tar.gz]
+[2024-05-21 01:40:28] INFO root fetch - processPackages [metalarchivist]: Remove: archive file [/home/abi/fetcher/tmp/metalarchivist-0.4.2.tar.gz]
+[2024-05-21 01:40:28] INFO root fetch - main [MainThread]: End processing [metalarchivist]: success
+[2024-05-21 01:40:28] INFO root fetch - processPackages [vix-utils]: Remove: archive file [/home/abi/fetcher/tmp/vix_utils-0.1.5.tar.gz]
+[2024-05-21 01:40:28] INFO root fetch - processPackages [vix-utils]: Remove: archive file [/home/abi/fetcher/tmp/vix_utils-0.1.6.tar.gz]
+[2024-05-21 01:40:28] INFO root fetch - main [MainThread]: End processing [vix-utils]: success
+[2024-05-21 01:40:28] INFO root fetch - main [MainThread]: Store serial: [23297663]
