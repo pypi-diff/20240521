@@ -522,3 +522,51 @@
 [2024-05-21 00:18:43] INFO root fetch - processPackages [tree-sitter-sql-bigquery]: Remove: archive file [/home/abi/fetcher/tmp/tree-sitter-sql-bigquery-0.7.0.tar.gz]
 [2024-05-21 00:18:43] INFO root fetch - main [MainThread]: End processing [tree-sitter-sql-bigquery]: success
 [2024-05-21 00:18:43] INFO root fetch - main [MainThread]: Store serial: [23296987]
+[2024-05-21 00:20:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23296987]
+[2024-05-21 00:20:52] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-21 00:20:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dkist-processing-test
+[2024-05-21 00:20:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: contact-email-address-local
+[2024-05-21 00:20:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dcnum
+[2024-05-21 00:20:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: experiment-config
+[2024-05-21 00:20:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hermes-cai
+[2024-05-21 00:20:52] INFO root fetch - processPackages [dcnum]: New version: [0.19.0] Old Version: [0.18.0]
+[2024-05-21 00:20:52] INFO root fetch - processPackages [contact-email-address-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-21 00:20:52] INFO root fetch - processPackages [dcnum]: Downloading https://files.pythonhosted.org/packages/51/f8/4be420d5b1e91adc357af6fb3453aea09fcb5b8f27731882325707999473/dcnum-0.18.0.tar.gz
+[2024-05-21 00:20:52] INFO root fetch - processPackages [experiment-config]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-21 00:20:52] INFO root fetch - processPackages [hermes-cai]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-21 00:20:52] INFO root fetch - processPackages [dkist-processing-test]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-05-21 00:20:53] INFO root fetch - processPackages [experiment-config]: Downloading https://files.pythonhosted.org/packages/3f/b5/b0868da7a2bbd43d6c5c25aca04c97e8bf25b8c3ebd84ee4d818a4517180/experiment-config-1.0.0.tar.gz
+[2024-05-21 00:20:53] INFO root fetch - processPackages [hermes-cai]: Downloading https://files.pythonhosted.org/packages/79/ad/be42a100020cdab2ac9244d9e153eab2e9949d07ec4f08a98fb8fe6554ef/hermes_cai-0.0.6.tar.gz
+[2024-05-21 00:20:53] INFO root fetch - processPackages [contact-email-address-local]: Downloading https://files.pythonhosted.org/packages/45/e5/8c05c5cc1f7122ebe442383a5ad976af6991ffade381619160f614b030cf/contact_email_address_local-0.0.8.tar.gz
+[2024-05-21 00:20:53] INFO root fetch - processPackages [dkist-processing-test]: Downloading https://files.pythonhosted.org/packages/9b/23/313208e984f1f69cf1d5a57d83ea045c2c75b6bbe6217438aea3429bbb64/dkist-processing-test-1.9.8.tar.gz
+[2024-05-21 00:20:53] INFO root fetch - processPackages [dcnum]: Downloading https://files.pythonhosted.org/packages/75/fe/e03aa6c89637b7ea4bba8258faa9680438c8dae09ff9b2805723230cb665/dcnum-0.19.0.tar.gz
+[2024-05-21 00:20:53] INFO root fetch - processPackages [hermes-cai]: Downloading https://files.pythonhosted.org/packages/4d/7d/e84fbb6b267c59e67234b8569372410cb486ab8715e24e30c87947728f1b/hermes_cai-0.0.7.tar.gz
+[2024-05-21 00:20:53] INFO root fetch - processPackages [dcnum]: executing diffoscope
+[2024-05-21 00:20:53] INFO root fetch - processPackages [dcnum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcnum-0.18.0.tar.gz tmp/dcnum-0.19.0.tar.gz --markdown 20240521/d/dcnum/0.18.0-0.19.0/README.md --exclude *.pyd
+[2024-05-21 00:20:53] INFO root fetch - processPackages [dkist-processing-test]: Downloading https://files.pythonhosted.org/packages/06/32/b6d516328652fe461998db030584e4b356d7d650f8bdc5430649c7292072/dkist-processing-test-1.9.9.tar.gz
+[2024-05-21 00:20:53] INFO root fetch - processPackages [experiment-config]: Downloading https://files.pythonhosted.org/packages/e9/0b/bd217bb5960896ad9d17a6d7911ddbf7c072a1f9b4734009a1138ae085cb/experiment-config-1.0.1.tar.gz
+[2024-05-21 00:20:53] INFO root fetch - processPackages [hermes-cai]: executing diffoscope
+[2024-05-21 00:20:53] INFO root fetch - processPackages [hermes-cai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hermes_cai-0.0.6.tar.gz tmp/hermes_cai-0.0.7.tar.gz --markdown 20240521/h/hermes-cai/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-21 00:20:53] INFO root fetch - processPackages [dkist-processing-test]: executing diffoscope
+[2024-05-21 00:20:53] INFO root fetch - processPackages [dkist-processing-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dkist-processing-test-1.9.8.tar.gz tmp/dkist-processing-test-1.9.9.tar.gz --markdown 20240521/d/dkist-processing-test/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-05-21 00:20:53] INFO root fetch - processPackages [contact-email-address-local]: Downloading https://files.pythonhosted.org/packages/b0/76/1d966bca88d8d64a3d93fa1704b27864994febe1a9d7d4d97fde54eb590b/contact_email_address_local-0.0.9.tar.gz
+[2024-05-21 00:20:53] INFO root fetch - processPackages [experiment-config]: executing diffoscope
+[2024-05-21 00:20:53] INFO root fetch - processPackages [experiment-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/experiment-config-1.0.0.tar.gz tmp/experiment-config-1.0.1.tar.gz --markdown 20240521/e/experiment-config/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-21 00:20:53] INFO root fetch - processPackages [contact-email-address-local]: executing diffoscope
+[2024-05-21 00:20:53] INFO root fetch - processPackages [contact-email-address-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contact_email_address_local-0.0.8.tar.gz tmp/contact_email_address_local-0.0.9.tar.gz --markdown 20240521/c/contact-email-address-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-21 00:20:54] INFO root fetch - processPackages [experiment-config]: Remove: archive file [/home/abi/fetcher/tmp/experiment-config-1.0.0.tar.gz]
+[2024-05-21 00:20:54] INFO root fetch - processPackages [experiment-config]: Remove: archive file [/home/abi/fetcher/tmp/experiment-config-1.0.1.tar.gz]
+[2024-05-21 00:20:54] INFO root fetch - main [MainThread]: End processing [experiment-config]: success
+[2024-05-21 00:20:54] INFO root fetch - processPackages [dkist-processing-test]: Remove: archive file [/home/abi/fetcher/tmp/dkist-processing-test-1.9.8.tar.gz]
+[2024-05-21 00:20:54] INFO root fetch - processPackages [dkist-processing-test]: Remove: archive file [/home/abi/fetcher/tmp/dkist-processing-test-1.9.9.tar.gz]
+[2024-05-21 00:20:54] INFO root fetch - main [MainThread]: End processing [dkist-processing-test]: success
+[2024-05-21 00:20:54] INFO root fetch - processPackages [hermes-cai]: Remove: archive file [/home/abi/fetcher/tmp/hermes_cai-0.0.6.tar.gz]
+[2024-05-21 00:20:54] INFO root fetch - processPackages [hermes-cai]: Remove: archive file [/home/abi/fetcher/tmp/hermes_cai-0.0.7.tar.gz]
+[2024-05-21 00:20:54] INFO root fetch - main [MainThread]: End processing [hermes-cai]: success
+[2024-05-21 00:20:54] INFO root fetch - processPackages [contact-email-address-local]: Remove: archive file [/home/abi/fetcher/tmp/contact_email_address_local-0.0.8.tar.gz]
+[2024-05-21 00:20:54] INFO root fetch - processPackages [contact-email-address-local]: Remove: archive file [/home/abi/fetcher/tmp/contact_email_address_local-0.0.9.tar.gz]
+[2024-05-21 00:20:54] INFO root fetch - main [MainThread]: End processing [contact-email-address-local]: success
+[2024-05-21 00:20:54] INFO root fetch - processPackages [dcnum]: Remove: archive file [/home/abi/fetcher/tmp/dcnum-0.18.0.tar.gz]
+[2024-05-21 00:20:54] INFO root fetch - processPackages [dcnum]: Remove: archive file [/home/abi/fetcher/tmp/dcnum-0.19.0.tar.gz]
+[2024-05-21 00:20:54] INFO root fetch - main [MainThread]: End processing [dcnum]: success
+[2024-05-21 00:20:54] INFO root fetch - main [MainThread]: Store serial: [23297000]
