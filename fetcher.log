@@ -426,3 +426,99 @@
 [2024-05-21 00:16:30] INFO root fetch - processPackages [arize-phoenix]: Remove: archive file [/home/abi/fetcher/tmp/arize_phoenix-4.1.2.tar.gz]
 [2024-05-21 00:16:30] INFO root fetch - main [MainThread]: End processing [arize-phoenix]: success
 [2024-05-21 00:16:30] INFO root fetch - main [MainThread]: Store serial: [23296946]
+[2024-05-21 00:18:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23296946]
+[2024-05-21 00:18:39] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-21 00:18:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: abcli
+[2024-05-21 00:18:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tree-sitter-sql-bigquery
+[2024-05-21 00:18:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: afeng-py-tools
+[2024-05-21 00:18:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: needto
+[2024-05-21 00:18:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ouro-py
+[2024-05-21 00:18:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: autogencap-rajan.jedi
+[2024-05-21 00:18:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: freshpointsync
+[2024-05-21 00:18:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: BigEDA
+[2024-05-21 00:18:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: promptquality
+[2024-05-21 00:18:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: chronon-ai
+[2024-05-21 00:18:39] INFO root fetch - processPackages [abcli]: New version: [8.194.1] Old Version: [8.192.1]
+[2024-05-21 00:18:39] INFO root fetch - processPackages [BigEDA]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-21 00:18:39] INFO root fetch - processPackages [needto]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-21 00:18:39] INFO root fetch - processPackages [afeng-py-tools]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-21 00:18:39] INFO root fetch - processPackages [ouro-py]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-21 00:18:40] INFO root fetch - processPackages [BigEDA]: Downloading https://files.pythonhosted.org/packages/2f/fe/5c10bf9dfaa50e4e1234e81e022638b3ef20c821e939dae4cdc3da332e46/bigeda-0.0.8.tar.gz
+[2024-05-21 00:18:40] INFO root fetch - processPackages [tree-sitter-sql-bigquery]: New version: [0.7.0] Old Version: [0.6.0b0]
+[2024-05-21 00:18:40] WARNING root fetch - processPackages [freshpointsync]: Skipping, unable to determine old version
+[2024-05-21 00:18:40] INFO root fetch - processPackages [freshpointsync]: Start processing: qualystbx
+[2024-05-21 00:18:40] INFO root fetch - main [MainThread]: End processing [freshpointsync] error
+[2024-05-21 00:18:40] INFO root fetch - processPackages [autogencap-rajan.jedi]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-21 00:18:40] INFO root fetch - processPackages [ouro-py]: Downloading https://files.pythonhosted.org/packages/30/d6/33594f18eb02d81eba330cf6125fa4695db70f7562af4ecb108175cc63c1/ouro_py-0.0.5.tar.gz
+[2024-05-21 00:18:40] INFO root fetch - processPackages [needto]: Downloading https://files.pythonhosted.org/packages/67/d1/fa4be33bd9da1b7f29a4487e3b06339cc28ac4903eae089691b3a9fdc797/needto-0.1.4.tar.gz
+[2024-05-21 00:18:40] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/03/96/e24f6bbf418707708ed1ab31dd8f4af000cdfcd56c3955e6bcf876e28182/afeng-py-tools-0.0.98.tar.gz
+[2024-05-21 00:18:40] INFO root fetch - processPackages [promptquality]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-05-21 00:18:40] INFO root fetch - processPackages [chronon-ai]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-21 00:18:40] INFO root fetch - processPackages [qualystbx]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-05-21 00:18:40] INFO root fetch - processPackages [abcli]: Downloading https://files.pythonhosted.org/packages/eb/85/985d2734296ef810a29fa20b5a4d9af5d0f75cc873adc43ece5c988d5a39/abcli-8.192.1.tar.gz
+[2024-05-21 00:18:40] INFO root fetch - processPackages [tree-sitter-sql-bigquery]: Downloading https://files.pythonhosted.org/packages/bf/9b/9432c69b53acc18fd12cb6c709cd0ff70ee2a24655bfd12f57415e4abd29/tree-sitter-sql-bigquery-0.6.0b0.tar.gz
+[2024-05-21 00:18:40] INFO root fetch - processPackages [qualystbx]: Downloading https://files.pythonhosted.org/packages/3d/13/d82c3acb0e9ea3a9ff76fe6e73a521edc75e84ab686d483a4f360a6a88cb/qualystbx-0.7.0.tar.gz
+[2024-05-21 00:18:40] INFO root fetch - processPackages [BigEDA]: Downloading https://files.pythonhosted.org/packages/b1/5d/ec41b2b9af7223a14c0e82d4f64cbeb0d0339a0d8bca37dbb041af6ef14d/bigeda-0.0.9.tar.gz
+[2024-05-21 00:18:40] INFO root fetch - processPackages [autogencap-rajan.jedi]: Downloading https://files.pythonhosted.org/packages/e4/e0/0ffe1d9718a8a434cd9a0bb1b35d1c3128000dcbad1e337a832dd488a3c8/autogencap_rajan_jedi-0.0.7.tar.gz
+[2024-05-21 00:18:40] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/b2/0a/41c6034fd5c224a859e4249b1b09e63d7acefba4ae5ac80d406a778a1e32/afeng-py-tools-0.0.99.tar.gz
+[2024-05-21 00:18:40] INFO root fetch - processPackages [promptquality]: Downloading https://files.pythonhosted.org/packages/29/9f/0585dad15a235a88c5fc9810df08f6eacb90687ac44c4d8e319476aece67/promptquality-0.9.1.tar.gz
+[2024-05-21 00:18:40] INFO root fetch - processPackages [chronon-ai]: Downloading https://files.pythonhosted.org/packages/69/d3/1d0ad2aa1fbea35c863dc641ef539bda98822670a30824127aa17faffcce/chronon-ai-0.0.8.tar.gz
+[2024-05-21 00:18:40] INFO root fetch - processPackages [abcli]: Downloading https://files.pythonhosted.org/packages/41/44/c4f835c877df4903d6f5b779cc9a1522c303d10f1b9f7a614469cadbe8f6/abcli-8.194.1.tar.gz
+[2024-05-21 00:18:40] INFO root fetch - processPackages [needto]: Downloading https://files.pythonhosted.org/packages/03/70/ccee318771e12940248044ff4a0078d6c8f732eecf2bc505a7f4340696ba/needto-0.1.5.tar.gz
+[2024-05-21 00:18:40] INFO root fetch - processPackages [BigEDA]: executing diffoscope
+[2024-05-21 00:18:40] INFO root fetch - processPackages [BigEDA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigeda-0.0.8.tar.gz tmp/bigeda-0.0.9.tar.gz --markdown 20240521/B/BigEDA/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-21 00:18:40] INFO root fetch - processPackages [ouro-py]: Downloading https://files.pythonhosted.org/packages/0a/a5/3a18d399f70b0f8094ff5d5caa5a9a0e58e89e96ad95b3eaa63e978901b3/ouro_py-0.0.6.tar.gz
+[2024-05-21 00:18:40] INFO root fetch - processPackages [qualystbx]: Downloading https://files.pythonhosted.org/packages/88/de/04f9bde377b2e4f3959a99661bf58cb5824a3b55cd37d179c781c0db6773/qualystbx-0.8.0.tar.gz
+[2024-05-21 00:18:40] INFO root fetch - processPackages [afeng-py-tools]: executing diffoscope
+[2024-05-21 00:18:40] INFO root fetch - processPackages [afeng-py-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/afeng-py-tools-0.0.98.tar.gz tmp/afeng-py-tools-0.0.99.tar.gz --markdown 20240521/a/afeng-py-tools/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-21 00:18:40] INFO root fetch - processPackages [needto]: executing diffoscope
+[2024-05-21 00:18:40] INFO root fetch - processPackages [needto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/needto-0.1.4.tar.gz tmp/needto-0.1.5.tar.gz --markdown 20240521/n/needto/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-21 00:18:40] INFO root fetch - processPackages [abcli]: executing diffoscope
+[2024-05-21 00:18:40] INFO root fetch - processPackages [abcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abcli-8.192.1.tar.gz tmp/abcli-8.194.1.tar.gz --markdown 20240521/a/abcli/8.192.1-8.194.1/README.md --exclude *.pyd
+[2024-05-21 00:18:40] INFO root fetch - processPackages [ouro-py]: executing diffoscope
+[2024-05-21 00:18:40] INFO root fetch - processPackages [ouro-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ouro_py-0.0.5.tar.gz tmp/ouro_py-0.0.6.tar.gz --markdown 20240521/o/ouro-py/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-21 00:18:40] INFO root fetch - processPackages [qualystbx]: executing diffoscope
+[2024-05-21 00:18:40] INFO root fetch - processPackages [qualystbx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qualystbx-0.7.0.tar.gz tmp/qualystbx-0.8.0.tar.gz --markdown 20240521/q/qualystbx/0.7.0-0.8.0/README.md --exclude *.pyd
+[2024-05-21 00:18:40] INFO root fetch - processPackages [tree-sitter-sql-bigquery]: Downloading https://files.pythonhosted.org/packages/f6/33/372974d4a07336edbf77c4f957209adf658f676198c3c3f476ddc9439b3b/tree-sitter-sql-bigquery-0.7.0.tar.gz
+[2024-05-21 00:18:40] INFO root fetch - processPackages [promptquality]: Downloading https://files.pythonhosted.org/packages/35/9f/25c01b112f7c0dbd70a92b953b3feae60cab74aa5b740d5a32dd8db35bd4/promptquality-0.9.2.tar.gz
+[2024-05-21 00:18:40] INFO root fetch - processPackages [autogencap-rajan.jedi]: Downloading https://files.pythonhosted.org/packages/97/b8/1a77dcccafc5e02d0934325a7f2661a042ef9f79e8f933519fcc410b2f4f/autogencap_rajan_jedi-0.0.8.tar.gz
+[2024-05-21 00:18:40] INFO root fetch - processPackages [chronon-ai]: Downloading https://files.pythonhosted.org/packages/a5/3d/dc0301417084a8050ef7ac9dbe26eb3c36626256f1d96319da60a6c1783c/chronon-ai-0.0.9.tar.gz
+[2024-05-21 00:18:40] INFO root fetch - processPackages [tree-sitter-sql-bigquery]: executing diffoscope
+[2024-05-21 00:18:40] INFO root fetch - processPackages [tree-sitter-sql-bigquery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tree-sitter-sql-bigquery-0.6.0b0.tar.gz tmp/tree-sitter-sql-bigquery-0.7.0.tar.gz --markdown 20240521/t/tree-sitter-sql-bigquery/0.6.0b0-0.7.0/README.md --exclude *.pyd
+[2024-05-21 00:18:40] INFO root fetch - processPackages [promptquality]: executing diffoscope
+[2024-05-21 00:18:40] INFO root fetch - processPackages [promptquality]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptquality-0.9.1.tar.gz tmp/promptquality-0.9.2.tar.gz --markdown 20240521/p/promptquality/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-05-21 00:18:41] INFO root fetch - processPackages [chronon-ai]: executing diffoscope
+[2024-05-21 00:18:41] INFO root fetch - processPackages [chronon-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chronon-ai-0.0.8.tar.gz tmp/chronon-ai-0.0.9.tar.gz --markdown 20240521/c/chronon-ai/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-21 00:18:41] INFO root fetch - processPackages [autogencap-rajan.jedi]: executing diffoscope
+[2024-05-21 00:18:41] INFO root fetch - processPackages [autogencap-rajan.jedi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogencap_rajan_jedi-0.0.7.tar.gz tmp/autogencap_rajan_jedi-0.0.8.tar.gz --markdown 20240521/a/autogencap-rajan.jedi/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-21 00:18:41] INFO root fetch - processPackages [BigEDA]: Remove: archive file [/home/abi/fetcher/tmp/bigeda-0.0.8.tar.gz]
+[2024-05-21 00:18:41] INFO root fetch - processPackages [BigEDA]: Remove: archive file [/home/abi/fetcher/tmp/bigeda-0.0.9.tar.gz]
+[2024-05-21 00:18:41] INFO root fetch - main [MainThread]: End processing [BigEDA]: success
+[2024-05-21 00:18:41] INFO root fetch - processPackages [ouro-py]: Remove: archive file [/home/abi/fetcher/tmp/ouro_py-0.0.5.tar.gz]
+[2024-05-21 00:18:41] INFO root fetch - processPackages [ouro-py]: Remove: archive file [/home/abi/fetcher/tmp/ouro_py-0.0.6.tar.gz]
+[2024-05-21 00:18:41] INFO root fetch - main [MainThread]: End processing [ouro-py]: success
+[2024-05-21 00:18:41] INFO root fetch - processPackages [needto]: Remove: archive file [/home/abi/fetcher/tmp/needto-0.1.4.tar.gz]
+[2024-05-21 00:18:41] INFO root fetch - processPackages [needto]: Remove: archive file [/home/abi/fetcher/tmp/needto-0.1.5.tar.gz]
+[2024-05-21 00:18:41] INFO root fetch - main [MainThread]: End processing [needto]: success
+[2024-05-21 00:18:41] INFO root fetch - processPackages [abcli]: Remove: archive file [/home/abi/fetcher/tmp/abcli-8.192.1.tar.gz]
+[2024-05-21 00:18:41] INFO root fetch - processPackages [abcli]: Remove: archive file [/home/abi/fetcher/tmp/abcli-8.194.1.tar.gz]
+[2024-05-21 00:18:41] INFO root fetch - main [MainThread]: End processing [abcli]: success
+[2024-05-21 00:18:41] INFO root fetch - processPackages [qualystbx]: Remove: archive file [/home/abi/fetcher/tmp/qualystbx-0.7.0.tar.gz]
+[2024-05-21 00:18:41] INFO root fetch - processPackages [qualystbx]: Remove: archive file [/home/abi/fetcher/tmp/qualystbx-0.8.0.tar.gz]
+[2024-05-21 00:18:41] INFO root fetch - main [MainThread]: End processing [qualystbx]: success
+[2024-05-21 00:18:41] INFO root fetch - processPackages [promptquality]: Remove: archive file [/home/abi/fetcher/tmp/promptquality-0.9.1.tar.gz]
+[2024-05-21 00:18:41] INFO root fetch - processPackages [promptquality]: Remove: archive file [/home/abi/fetcher/tmp/promptquality-0.9.2.tar.gz]
+[2024-05-21 00:18:41] INFO root fetch - main [MainThread]: End processing [promptquality]: success
+[2024-05-21 00:18:41] INFO root fetch - processPackages [chronon-ai]: Remove: archive file [/home/abi/fetcher/tmp/chronon-ai-0.0.8.tar.gz]
+[2024-05-21 00:18:41] INFO root fetch - processPackages [chronon-ai]: Remove: archive file [/home/abi/fetcher/tmp/chronon-ai-0.0.9.tar.gz]
+[2024-05-21 00:18:41] INFO root fetch - main [MainThread]: End processing [chronon-ai]: success
+[2024-05-21 00:18:42] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.98.tar.gz]
+[2024-05-21 00:18:42] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.99.tar.gz]
+[2024-05-21 00:18:42] INFO root fetch - main [MainThread]: End processing [afeng-py-tools]: success
+[2024-05-21 00:18:42] INFO root fetch - processPackages [autogencap-rajan.jedi]: Remove: archive file [/home/abi/fetcher/tmp/autogencap_rajan_jedi-0.0.7.tar.gz]
+[2024-05-21 00:18:42] INFO root fetch - processPackages [autogencap-rajan.jedi]: Remove: archive file [/home/abi/fetcher/tmp/autogencap_rajan_jedi-0.0.8.tar.gz]
+[2024-05-21 00:18:42] INFO root fetch - main [MainThread]: End processing [autogencap-rajan.jedi]: success
+[2024-05-21 00:18:43] INFO root fetch - processPackages [tree-sitter-sql-bigquery]: Remove: archive file [/home/abi/fetcher/tmp/tree-sitter-sql-bigquery-0.6.0b0.tar.gz]
+[2024-05-21 00:18:43] INFO root fetch - processPackages [tree-sitter-sql-bigquery]: Remove: archive file [/home/abi/fetcher/tmp/tree-sitter-sql-bigquery-0.7.0.tar.gz]
+[2024-05-21 00:18:43] INFO root fetch - main [MainThread]: End processing [tree-sitter-sql-bigquery]: success
+[2024-05-21 00:18:43] INFO root fetch - main [MainThread]: Store serial: [23296987]
