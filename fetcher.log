@@ -1820,3 +1820,83 @@
 [2024-05-21 01:16:23] INFO root fetch - processPackages [tcrutils]: Remove: archive file [/home/abi/fetcher/tmp/tcrutils-12.0.166.tar.gz]
 [2024-05-21 01:16:23] INFO root fetch - main [MainThread]: End processing [tcrutils]: success
 [2024-05-21 01:16:23] INFO root fetch - main [MainThread]: Store serial: [23297532]
+[2024-05-21 01:18:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23297532]
+[2024-05-21 01:18:32] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-21 01:18:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pih-rvw-auto
+[2024-05-21 01:18:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hcs-core
+[2024-05-21 01:18:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hcs-cli
+[2024-05-21 01:18:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pih-ssh
+[2024-05-21 01:18:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: email-address-local
+[2024-05-21 01:18:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pih-web
+[2024-05-21 01:18:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pih-ws
+[2024-05-21 01:18:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nova-framework
+[2024-05-21 01:18:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pih-zabbix
+[2024-05-21 01:18:32] INFO root fetch - processPackages [hcs-core]: New version: [0.1.235] Old Version: [0.1.234]
+[2024-05-21 01:18:32] INFO root fetch - processPackages [pih-rvw-auto]: New version: [0.19] Old Version: [0.18]
+[2024-05-21 01:18:32] INFO root fetch - processPackages [hcs-core]: Downloading https://files.pythonhosted.org/packages/e0/73/23d650ac814442c067b9861a339927f678d2725bf082d1b0fc43ce47bd07/hcs_core-0.1.234.tar.gz
+[2024-05-21 01:18:32] INFO root fetch - processPackages [pih-web]: New version: [0.13] Old Version: [0.12]
+[2024-05-21 01:18:32] INFO root fetch - processPackages [pih-ws]: New version: [0.14] Old Version: [0.13]
+[2024-05-21 01:18:32] INFO root fetch - processPackages [pih-ssh]: New version: [0.12] Old Version: [0.11]
+[2024-05-21 01:18:32] INFO root fetch - processPackages [pih-zabbix]: New version: [0.15] Old Version: [0.14]
+[2024-05-21 01:18:32] INFO root fetch - processPackages [email-address-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-21 01:18:32] INFO root fetch - processPackages [nova-framework]: New version: [0.6.0] Old Version: [0.4.1]
+[2024-05-21 01:18:32] INFO root fetch - processPackages [hcs-cli]: New version: [0.1.98] Old Version: [0.1.97]
+[2024-05-21 01:18:32] INFO root fetch - processPackages [hcs-cli]: Downloading https://files.pythonhosted.org/packages/f8/df/208577492e791a01b215928ef17543dd71d1db9c71661a2eaf3b2c739e78/hcs-cli-0.1.97.tar.gz
+[2024-05-21 01:18:32] INFO root fetch - processPackages [pih-rvw-auto]: Downloading https://files.pythonhosted.org/packages/77/77/80645ed3825e766920ab3d4c00bacf75bedd67ee72d249bd539f41c3715f/pih-rvw_auto-0.18.tar.gz
+[2024-05-21 01:18:32] INFO root fetch - processPackages [pih-web]: Downloading https://files.pythonhosted.org/packages/4e/ba/a5eed7c5d0f43d11550da7fe8c7171fc51c58486fade7303410b0f331102/pih-web-0.12.tar.gz
+[2024-05-21 01:18:32] INFO root fetch - processPackages [email-address-local]: Downloading https://files.pythonhosted.org/packages/a8/f2/75317f90ccacb6655c8fefd773dce9c2359b86e434bf4e98c3aa377dd835/email-address-local-0.0.8.tar.gz
+[2024-05-21 01:18:32] INFO root fetch - processPackages [pih-ws]: Downloading https://files.pythonhosted.org/packages/4c/17/8a2e7000f197dc86a59c93faa6be1572fe7938e51ed6b30cb84bd406162e/pih-ws-0.13.tar.gz
+[2024-05-21 01:18:32] INFO root fetch - processPackages [pih-zabbix]: Downloading https://files.pythonhosted.org/packages/9e/a0/5b0345bbeaa8e4960136abefdec82a81524623faf6114fa58ae5cd3f9eee/pih-zabbix-0.14.tar.gz
+[2024-05-21 01:18:32] INFO root fetch - processPackages [pih-ssh]: Downloading https://files.pythonhosted.org/packages/44/03/d83909c59414eda24472d3186726b96ba106312f49588ca55021f22360d6/pih-ssh-0.11.tar.gz
+[2024-05-21 01:18:33] INFO root fetch - processPackages [nova-framework]: Downloading https://files.pythonhosted.org/packages/44/01/76bf0d065957ca42894a9b46744f08d7a6f1e518bd0dfced0ff53ad57c57/nova_framework-0.4.1.tar.gz
+[2024-05-21 01:18:33] WARNING root fetch - processPackages [nova-framework]: Skipping package: exceeds size limit 39105751>=10485760
+[2024-05-21 01:18:33] INFO root fetch - main [MainThread]: End processing [nova-framework] error
+[2024-05-21 01:18:33] INFO root fetch - processPackages [hcs-core]: Downloading https://files.pythonhosted.org/packages/3e/82/4fa7e8ecd03bca8bfcb1fec2b220a9fe27f4f4b99e39ee6f1d7c118a4125/hcs_core-0.1.235.tar.gz
+[2024-05-21 01:18:33] INFO root fetch - processPackages [hcs-cli]: Downloading https://files.pythonhosted.org/packages/75/92/ba28bbaff4bfb3aa8084610c7992979d23060c125c74f6a73fdffaed4d58/hcs-cli-0.1.98.tar.gz
+[2024-05-21 01:18:33] INFO root fetch - processPackages [pih-rvw-auto]: Downloading https://files.pythonhosted.org/packages/8c/5e/76d516eae0b278281d305a29d850b637141c670b0fd4d57480e443808588/pih-rvw_auto-0.19.tar.gz
+[2024-05-21 01:18:33] INFO root fetch - processPackages [pih-web]: Downloading https://files.pythonhosted.org/packages/d1/87/693c6702faa4cd7665873da2ac733e27097e2c58da8a3b13d90c67505db4/pih-web-0.13.tar.gz
+[2024-05-21 01:18:33] INFO root fetch - processPackages [hcs-core]: executing diffoscope
+[2024-05-21 01:18:33] INFO root fetch - processPackages [hcs-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcs_core-0.1.234.tar.gz tmp/hcs_core-0.1.235.tar.gz --markdown 20240521/h/hcs-core/0.1.234-0.1.235/README.md --exclude *.pyd
+[2024-05-21 01:18:33] INFO root fetch - processPackages [hcs-cli]: executing diffoscope
+[2024-05-21 01:18:33] INFO root fetch - processPackages [hcs-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcs-cli-0.1.97.tar.gz tmp/hcs-cli-0.1.98.tar.gz --markdown 20240521/h/hcs-cli/0.1.97-0.1.98/README.md --exclude *.pyd
+[2024-05-21 01:18:33] INFO root fetch - processPackages [pih-zabbix]: Downloading https://files.pythonhosted.org/packages/72/00/589493528db88181f558fd85f39032733f46e18d9717365afdf0ebb136e9/pih-zabbix-0.15.tar.gz
+[2024-05-21 01:18:33] INFO root fetch - processPackages [pih-rvw-auto]: executing diffoscope
+[2024-05-21 01:18:33] INFO root fetch - processPackages [pih-rvw-auto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-rvw_auto-0.18.tar.gz tmp/pih-rvw_auto-0.19.tar.gz --markdown 20240521/p/pih-rvw-auto/0.18-0.19/README.md --exclude *.pyd
+[2024-05-21 01:18:33] INFO root fetch - processPackages [email-address-local]: Downloading https://files.pythonhosted.org/packages/33/0b/4f49c0e576b54988a9115fa0e8fd17a049b0cfaffdd95e2b721055a03b07/email-address-local-0.0.9.tar.gz
+[2024-05-21 01:18:33] INFO root fetch - processPackages [pih-web]: executing diffoscope
+[2024-05-21 01:18:33] INFO root fetch - processPackages [pih-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-web-0.12.tar.gz tmp/pih-web-0.13.tar.gz --markdown 20240521/p/pih-web/0.12-0.13/README.md --exclude *.pyd
+[2024-05-21 01:18:33] INFO root fetch - processPackages [pih-ws]: Downloading https://files.pythonhosted.org/packages/ea/50/77ea0687edafc67b3a514989f76b5d0e2e87c406c886dd66655dcade946a/pih-ws-0.14.tar.gz
+[2024-05-21 01:18:33] INFO root fetch - processPackages [pih-ssh]: Downloading https://files.pythonhosted.org/packages/25/5e/1997f4a62ce77bda7a088987e280066884850b0c6b8b6ac9c65cedf6788f/pih-ssh-0.12.tar.gz
+[2024-05-21 01:18:33] INFO root fetch - processPackages [email-address-local]: executing diffoscope
+[2024-05-21 01:18:33] INFO root fetch - processPackages [email-address-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/email-address-local-0.0.8.tar.gz tmp/email-address-local-0.0.9.tar.gz --markdown 20240521/e/email-address-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-21 01:18:33] INFO root fetch - processPackages [pih-zabbix]: executing diffoscope
+[2024-05-21 01:18:33] INFO root fetch - processPackages [pih-zabbix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-zabbix-0.14.tar.gz tmp/pih-zabbix-0.15.tar.gz --markdown 20240521/p/pih-zabbix/0.14-0.15/README.md --exclude *.pyd
+[2024-05-21 01:18:33] INFO root fetch - processPackages [pih-ssh]: executing diffoscope
+[2024-05-21 01:18:33] INFO root fetch - processPackages [pih-ssh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-ssh-0.11.tar.gz tmp/pih-ssh-0.12.tar.gz --markdown 20240521/p/pih-ssh/0.11-0.12/README.md --exclude *.pyd
+[2024-05-21 01:18:33] INFO root fetch - processPackages [pih-ws]: executing diffoscope
+[2024-05-21 01:18:33] INFO root fetch - processPackages [pih-ws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-ws-0.13.tar.gz tmp/pih-ws-0.14.tar.gz --markdown 20240521/p/pih-ws/0.13-0.14/README.md --exclude *.pyd
+[2024-05-21 01:18:34] INFO root fetch - processPackages [pih-web]: Remove: archive file [/home/abi/fetcher/tmp/pih-web-0.12.tar.gz]
+[2024-05-21 01:18:34] INFO root fetch - processPackages [pih-web]: Remove: archive file [/home/abi/fetcher/tmp/pih-web-0.13.tar.gz]
+[2024-05-21 01:18:34] INFO root fetch - main [MainThread]: End processing [pih-web]: success
+[2024-05-21 01:18:34] INFO root fetch - processPackages [email-address-local]: Remove: archive file [/home/abi/fetcher/tmp/email-address-local-0.0.8.tar.gz]
+[2024-05-21 01:18:34] INFO root fetch - processPackages [email-address-local]: Remove: archive file [/home/abi/fetcher/tmp/email-address-local-0.0.9.tar.gz]
+[2024-05-21 01:18:34] INFO root fetch - main [MainThread]: End processing [email-address-local]: success
+[2024-05-21 01:18:34] INFO root fetch - processPackages [pih-zabbix]: Remove: archive file [/home/abi/fetcher/tmp/pih-zabbix-0.14.tar.gz]
+[2024-05-21 01:18:34] INFO root fetch - processPackages [pih-zabbix]: Remove: archive file [/home/abi/fetcher/tmp/pih-zabbix-0.15.tar.gz]
+[2024-05-21 01:18:34] INFO root fetch - main [MainThread]: End processing [pih-zabbix]: success
+[2024-05-21 01:18:34] INFO root fetch - processPackages [hcs-core]: Remove: archive file [/home/abi/fetcher/tmp/hcs_core-0.1.234.tar.gz]
+[2024-05-21 01:18:34] INFO root fetch - processPackages [hcs-core]: Remove: archive file [/home/abi/fetcher/tmp/hcs_core-0.1.235.tar.gz]
+[2024-05-21 01:18:34] INFO root fetch - main [MainThread]: End processing [hcs-core]: success
+[2024-05-21 01:18:34] INFO root fetch - processPackages [pih-ws]: Remove: archive file [/home/abi/fetcher/tmp/pih-ws-0.13.tar.gz]
+[2024-05-21 01:18:34] INFO root fetch - processPackages [pih-ws]: Remove: archive file [/home/abi/fetcher/tmp/pih-ws-0.14.tar.gz]
+[2024-05-21 01:18:34] INFO root fetch - main [MainThread]: End processing [pih-ws]: success
+[2024-05-21 01:18:34] INFO root fetch - processPackages [pih-rvw-auto]: Remove: archive file [/home/abi/fetcher/tmp/pih-rvw_auto-0.18.tar.gz]
+[2024-05-21 01:18:34] INFO root fetch - processPackages [pih-rvw-auto]: Remove: archive file [/home/abi/fetcher/tmp/pih-rvw_auto-0.19.tar.gz]
+[2024-05-21 01:18:34] INFO root fetch - main [MainThread]: End processing [pih-rvw-auto]: success
+[2024-05-21 01:18:34] INFO root fetch - processPackages [pih-ssh]: Remove: archive file [/home/abi/fetcher/tmp/pih-ssh-0.11.tar.gz]
+[2024-05-21 01:18:34] INFO root fetch - processPackages [pih-ssh]: Remove: archive file [/home/abi/fetcher/tmp/pih-ssh-0.12.tar.gz]
+[2024-05-21 01:18:34] INFO root fetch - main [MainThread]: End processing [pih-ssh]: success
+[2024-05-21 01:18:34] INFO root fetch - processPackages [hcs-cli]: Remove: archive file [/home/abi/fetcher/tmp/hcs-cli-0.1.97.tar.gz]
+[2024-05-21 01:18:34] INFO root fetch - processPackages [hcs-cli]: Remove: archive file [/home/abi/fetcher/tmp/hcs-cli-0.1.98.tar.gz]
+[2024-05-21 01:18:34] INFO root fetch - main [MainThread]: End processing [hcs-cli]: success
+[2024-05-21 01:18:34] INFO root fetch - main [MainThread]: Store serial: [23297559]
