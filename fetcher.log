@@ -79,3 +79,35 @@
 [2024-05-21 00:03:24] INFO root fetch - processPackages [linkedit]: Remove: archive file [/home/abi/fetcher/tmp/linkedit-1.0.4.tar.gz]
 [2024-05-21 00:03:24] INFO root fetch - main [MainThread]: End processing [linkedit]: success
 [2024-05-21 00:03:24] INFO root fetch - main [MainThread]: Store serial: [23296820]
+[2024-05-21 00:05:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23296820]
+[2024-05-21 00:05:32] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-21 00:05:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyspi
+[2024-05-21 00:05:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: foundationdb
+[2024-05-21 00:05:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mapclassif-Iron
+[2024-05-21 00:05:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: llama-cpp-agent
+[2024-05-21 00:05:32] INFO root fetch - processPackages [llama-cpp-agent]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-21 00:05:32] INFO root fetch - processPackages [foundationdb]: New version: [7.3.9] Old Version: [7.3.8]
+[2024-05-21 00:05:32] WARNING root fetch - processPackages [mapclassif-Iron]: Skipping, unable to determine old version
+[2024-05-21 00:05:32] INFO root fetch - main [MainThread]: End processing [mapclassif-Iron] error
+[2024-05-21 00:05:32] INFO root fetch - processPackages [pyspi]: New version: [1.1.0] Old Version: [1.0.3]
+[2024-05-21 00:05:32] INFO root fetch - processPackages [foundationdb]: Downloading https://files.pythonhosted.org/packages/36/96/36db8b7aba7d9fb4662c1a3a88b362801e73bb1c0d469e8c291a11b74c97/foundationdb-7.3.8.tar.gz
+[2024-05-21 00:05:32] INFO root fetch - processPackages [llama-cpp-agent]: Downloading https://files.pythonhosted.org/packages/a0/ba/e28b4ffe7b86f6d15ba5b9672537e66bc8273c02bbb8fa06f1337493886a/llama_cpp_agent-0.2.8.tar.gz
+[2024-05-21 00:05:33] INFO root fetch - processPackages [foundationdb]: Downloading https://files.pythonhosted.org/packages/5b/02/44abfcfdcc2abd0e108e45890ed5a02185aceeb90e378a8531fc45597dd9/foundationdb-7.3.9.tar.gz
+[2024-05-21 00:05:33] INFO root fetch - processPackages [foundationdb]: executing diffoscope
+[2024-05-21 00:05:33] INFO root fetch - processPackages [foundationdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foundationdb-7.3.8.tar.gz tmp/foundationdb-7.3.9.tar.gz --markdown 20240521/f/foundationdb/7.3.8-7.3.9/README.md --exclude *.pyd
+[2024-05-21 00:05:33] INFO root fetch - processPackages [llama-cpp-agent]: Downloading https://files.pythonhosted.org/packages/e5/bb/9a16b289d7453095ab2485d73acf22968e24e78ddee8f364f962860bc7e1/llama_cpp_agent-0.2.9.tar.gz
+[2024-05-21 00:05:33] INFO root fetch - processPackages [pyspi]: Downloading https://files.pythonhosted.org/packages/f3/f4/2665a051ab507541abc41102f1594dcc81a9a0a8d3fb260c8e9e6c499310/pyspi-1.1.0.tar.gz
+[2024-05-21 00:05:33] INFO root fetch - processPackages [llama-cpp-agent]: executing diffoscope
+[2024-05-21 00:05:33] INFO root fetch - processPackages [llama-cpp-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_cpp_agent-0.2.8.tar.gz tmp/llama_cpp_agent-0.2.9.tar.gz --markdown 20240521/l/llama-cpp-agent/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-21 00:05:33] INFO root fetch - processPackages [pyspi]: executing diffoscope
+[2024-05-21 00:05:33] INFO root fetch - processPackages [pyspi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyspi-1.0.3.tar.gz tmp/pyspi-1.1.0.tar.gz --markdown 20240521/p/pyspi/1.0.3-1.1.0/README.md --exclude *.pyd
+[2024-05-21 00:05:33] INFO root fetch - processPackages [foundationdb]: Remove: archive file [/home/abi/fetcher/tmp/foundationdb-7.3.8.tar.gz]
+[2024-05-21 00:05:33] INFO root fetch - processPackages [foundationdb]: Remove: archive file [/home/abi/fetcher/tmp/foundationdb-7.3.9.tar.gz]
+[2024-05-21 00:05:33] INFO root fetch - main [MainThread]: End processing [foundationdb]: success
+[2024-05-21 00:05:34] INFO root fetch - processPackages [llama-cpp-agent]: Remove: archive file [/home/abi/fetcher/tmp/llama_cpp_agent-0.2.8.tar.gz]
+[2024-05-21 00:05:34] INFO root fetch - processPackages [llama-cpp-agent]: Remove: archive file [/home/abi/fetcher/tmp/llama_cpp_agent-0.2.9.tar.gz]
+[2024-05-21 00:05:34] INFO root fetch - main [MainThread]: End processing [llama-cpp-agent]: success
+[2024-05-21 00:05:34] INFO root fetch - processPackages [pyspi]: Remove: archive file [/home/abi/fetcher/tmp/pyspi-1.0.3.tar.gz]
+[2024-05-21 00:05:34] INFO root fetch - processPackages [pyspi]: Remove: archive file [/home/abi/fetcher/tmp/pyspi-1.1.0.tar.gz]
+[2024-05-21 00:05:34] INFO root fetch - main [MainThread]: End processing [pyspi]: success
+[2024-05-21 00:05:34] INFO root fetch - main [MainThread]: Store serial: [23296833]
