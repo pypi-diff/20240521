@@ -1939,3 +1939,39 @@
 [2024-05-21 01:22:53] INFO root fetch - processPackages [rubpy]: Remove: archive file [/home/abi/fetcher/tmp/rubpy-7.0.6.tar.gz]
 [2024-05-21 01:22:53] INFO root fetch - main [MainThread]: End processing [rubpy]: success
 [2024-05-21 01:22:53] INFO root fetch - main [MainThread]: Store serial: [23297576]
+[2024-05-21 01:24:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23297576]
+[2024-05-21 01:25:02] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-21 01:25:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: freshpointcli
+[2024-05-21 01:25:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mepo
+[2024-05-21 01:25:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qualystbx
+[2024-05-21 01:25:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: simmate
+[2024-05-21 01:25:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: latch
+[2024-05-21 01:25:02] INFO root fetch - processPackages [qualystbx]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-05-21 01:25:02] WARNING root fetch - processPackages [freshpointcli]: Skipping, unable to determine old version
+[2024-05-21 01:25:02] INFO root fetch - main [MainThread]: End processing [freshpointcli] error
+[2024-05-21 01:25:02] WARNING root fetch - processPackages [mepo]: Skipping, unable to determine old version
+[2024-05-21 01:25:02] INFO root fetch - main [MainThread]: End processing [mepo] error
+[2024-05-21 01:25:02] INFO root fetch - processPackages [qualystbx]: Downloading https://files.pythonhosted.org/packages/3d/13/d82c3acb0e9ea3a9ff76fe6e73a521edc75e84ab686d483a4f360a6a88cb/qualystbx-0.7.0.tar.gz
+[2024-05-21 01:25:02] INFO root fetch - processPackages [simmate]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-21 01:25:02] INFO root fetch - processPackages [latch]: New version: [2.9.6] Old Version: [2.9.5]
+[2024-05-21 01:25:03] INFO root fetch - processPackages [qualystbx]: Downloading https://files.pythonhosted.org/packages/88/de/04f9bde377b2e4f3959a99661bf58cb5824a3b55cd37d179c781c0db6773/qualystbx-0.8.0.tar.gz
+[2024-05-21 01:25:03] INFO root fetch - processPackages [latch]: Downloading https://files.pythonhosted.org/packages/79/f7/1912dae713dbd539910745289141bab27e2ec23827c1f7112accaf98bdda/latch-2.9.5.tar.gz
+[2024-05-21 01:25:03] INFO root fetch - processPackages [simmate]: Downloading https://files.pythonhosted.org/packages/32/ce/2df1c1cee928ff10def96c4d4fe89a8fe87697b22dab8803cdb204c77f71/simmate-0.8.0.tar.gz
+[2024-05-21 01:25:03] INFO root fetch - processPackages [qualystbx]: executing diffoscope
+[2024-05-21 01:25:03] INFO root fetch - processPackages [qualystbx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qualystbx-0.7.0.tar.gz tmp/qualystbx-0.8.0.tar.gz --markdown 20240521/q/qualystbx/0.7.0-0.8.0/README.md --exclude *.pyd
+[2024-05-21 01:25:03] INFO root fetch - processPackages [latch]: Downloading https://files.pythonhosted.org/packages/5e/5a/e91171b6eca0ba929f7259719a3d389fd86242408d94dbf266925a9f4d21/latch-2.9.6.tar.gz
+[2024-05-21 01:25:03] INFO root fetch - processPackages [simmate]: Downloading https://files.pythonhosted.org/packages/2d/62/6c0c2ee16aec55515cc815510d11d9a4a5c761e53a560d34cb3794bbc982/simmate-0.9.0.tar.gz
+[2024-05-21 01:25:03] INFO root fetch - processPackages [latch]: executing diffoscope
+[2024-05-21 01:25:03] INFO root fetch - processPackages [latch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latch-2.9.5.tar.gz tmp/latch-2.9.6.tar.gz --markdown 20240521/l/latch/2.9.5-2.9.6/README.md --exclude *.pyd
+[2024-05-21 01:25:03] INFO root fetch - processPackages [simmate]: executing diffoscope
+[2024-05-21 01:25:03] INFO root fetch - processPackages [simmate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simmate-0.8.0.tar.gz tmp/simmate-0.9.0.tar.gz --markdown 20240521/s/simmate/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-21 01:25:03] INFO root fetch - processPackages [qualystbx]: Remove: archive file [/home/abi/fetcher/tmp/qualystbx-0.7.0.tar.gz]
+[2024-05-21 01:25:03] INFO root fetch - processPackages [qualystbx]: Remove: archive file [/home/abi/fetcher/tmp/qualystbx-0.8.0.tar.gz]
+[2024-05-21 01:25:03] INFO root fetch - main [MainThread]: End processing [qualystbx]: success
+[2024-05-21 01:25:04] INFO root fetch - processPackages [latch]: Remove: archive file [/home/abi/fetcher/tmp/latch-2.9.5.tar.gz]
+[2024-05-21 01:25:04] INFO root fetch - processPackages [latch]: Remove: archive file [/home/abi/fetcher/tmp/latch-2.9.6.tar.gz]
+[2024-05-21 01:25:04] INFO root fetch - main [MainThread]: End processing [latch]: success
+[2024-05-21 01:25:06] INFO root fetch - processPackages [simmate]: Remove: archive file [/home/abi/fetcher/tmp/simmate-0.8.0.tar.gz]
+[2024-05-21 01:25:06] INFO root fetch - processPackages [simmate]: Remove: archive file [/home/abi/fetcher/tmp/simmate-0.9.0.tar.gz]
+[2024-05-21 01:25:06] INFO root fetch - main [MainThread]: End processing [simmate]: success
+[2024-05-21 01:25:06] INFO root fetch - main [MainThread]: Store serial: [23297595]
