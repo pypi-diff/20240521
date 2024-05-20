@@ -1310,3 +1310,42 @@
 [2024-05-21 00:54:37] INFO root fetch - processPackages [jupyter-ai]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_ai-2.9.1.tar.gz]
 [2024-05-21 00:54:37] INFO root fetch - main [MainThread]: End processing [jupyter-ai]: success
 [2024-05-21 00:54:37] INFO root fetch - main [MainThread]: Store serial: [23297337]
+[2024-05-21 00:56:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23297337]
+[2024-05-21 00:56:46] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-21 00:56:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dockerblade
+[2024-05-21 00:56:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cocoon-data
+[2024-05-21 00:56:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pydisagg
+[2024-05-21 00:56:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: heaven
+[2024-05-21 00:56:46] INFO root fetch - processPackages [pydisagg]: New version: [0.4.0] Old Version: [0.3.2]
+[2024-05-21 00:56:46] INFO root fetch - processPackages [heaven]: New version: [0.3.5] Old Version: [0.3.4]
+[2024-05-21 00:56:46] INFO root fetch - processPackages [cocoon-data]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-21 00:56:46] INFO root fetch - processPackages [pydisagg]: Downloading https://files.pythonhosted.org/packages/1b/bf/da6df1e6ee63b616e7d818123ce91126aebbe1535699119d416244fc4722/pydisagg-0.3.2.tar.gz
+[2024-05-21 00:56:46] INFO root fetch - processPackages [dockerblade]: New version: [0.6.0] Old Version: [0.5.7]
+[2024-05-21 00:56:46] INFO root fetch - processPackages [cocoon-data]: Downloading https://files.pythonhosted.org/packages/ac/3c/a1a6c95be4d731fc0db8d40b132730891186370f3cd304837773aa0dcce9/cocoon_data-0.1.8.tar.gz
+[2024-05-21 00:56:46] INFO root fetch - processPackages [heaven]: Downloading https://files.pythonhosted.org/packages/a7/30/338bf40951bc5b3f2bfc2b5c9d0bb55777691d1d9a94828175a7a2177228/heaven-0.3.4.tar.gz
+[2024-05-21 00:56:47] INFO root fetch - processPackages [dockerblade]: Downloading https://files.pythonhosted.org/packages/a7/1f/682d5f766a7a20d87b9afa9f4ecc0e700b4b8e3e781cf52c776ad0e6fe9c/dockerblade-0.5.7-py3-none-any.whl
+[2024-05-21 00:56:47] INFO root fetch - processPackages [cocoon-data]: Downloading https://files.pythonhosted.org/packages/0b/b9/048ffb4abe066854ebc4d24ca277250c5668844b84d602ff0be9adf8b231/cocoon_data-0.1.9.tar.gz
+[2024-05-21 00:56:47] INFO root fetch - processPackages [pydisagg]: Downloading https://files.pythonhosted.org/packages/d3/9d/6eb90d404ec4eda07a308c0e5777ec770b06c6c02a3d5f72274a7a9cf5de/pydisagg-0.4.0.tar.gz
+[2024-05-21 00:56:47] INFO root fetch - processPackages [heaven]: Downloading https://files.pythonhosted.org/packages/ef/04/9bdf32d8a36dac50f6eb95a331499a4d78c055bc7d407859360170a681af/heaven-0.3.5.tar.gz
+[2024-05-21 00:56:47] INFO root fetch - processPackages [pydisagg]: executing diffoscope
+[2024-05-21 00:56:47] INFO root fetch - processPackages [pydisagg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydisagg-0.3.2.tar.gz tmp/pydisagg-0.4.0.tar.gz --markdown 20240521/p/pydisagg/0.3.2-0.4.0/README.md --exclude *.pyd
+[2024-05-21 00:56:47] INFO root fetch - processPackages [cocoon-data]: executing diffoscope
+[2024-05-21 00:56:47] INFO root fetch - processPackages [cocoon-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cocoon_data-0.1.8.tar.gz tmp/cocoon_data-0.1.9.tar.gz --markdown 20240521/c/cocoon-data/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-21 00:56:47] INFO root fetch - processPackages [dockerblade]: Downloading https://files.pythonhosted.org/packages/df/7e/bf872efb60eb318e29a5072d10b5d5c0749a4b53300d2f8f49a65bccb4cf/dockerblade-0.6.0.tar.gz
+[2024-05-21 00:56:47] INFO root fetch - processPackages [heaven]: executing diffoscope
+[2024-05-21 00:56:47] INFO root fetch - processPackages [heaven]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaven-0.3.4.tar.gz tmp/heaven-0.3.5.tar.gz --markdown 20240521/h/heaven/0.3.4-0.3.5/README.md --exclude *.pyd
+[2024-05-21 00:56:47] INFO root fetch - processPackages [dockerblade]: executing diffoscope
+[2024-05-21 00:56:47] INFO root fetch - processPackages [dockerblade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dockerblade-0.5.7-py3-none-any.whl.zip tmp/dockerblade-0.6.0.tar.gz --markdown 20240521/d/dockerblade/0.5.7-0.6.0/README.md --exclude *.pyd
+[2024-05-21 00:56:47] INFO root fetch - processPackages [pydisagg]: Remove: archive file [/home/abi/fetcher/tmp/pydisagg-0.3.2.tar.gz]
+[2024-05-21 00:56:47] INFO root fetch - processPackages [pydisagg]: Remove: archive file [/home/abi/fetcher/tmp/pydisagg-0.4.0.tar.gz]
+[2024-05-21 00:56:47] INFO root fetch - main [MainThread]: End processing [pydisagg]: success
+[2024-05-21 00:56:48] INFO root fetch - processPackages [heaven]: Remove: archive file [/home/abi/fetcher/tmp/heaven-0.3.4.tar.gz]
+[2024-05-21 00:56:48] INFO root fetch - processPackages [heaven]: Remove: archive file [/home/abi/fetcher/tmp/heaven-0.3.5.tar.gz]
+[2024-05-21 00:56:48] INFO root fetch - main [MainThread]: End processing [heaven]: success
+[2024-05-21 00:56:48] INFO root fetch - processPackages [cocoon-data]: Remove: archive file [/home/abi/fetcher/tmp/cocoon_data-0.1.8.tar.gz]
+[2024-05-21 00:56:48] INFO root fetch - processPackages [cocoon-data]: Remove: archive file [/home/abi/fetcher/tmp/cocoon_data-0.1.9.tar.gz]
+[2024-05-21 00:56:48] INFO root fetch - main [MainThread]: End processing [cocoon-data]: success
+[2024-05-21 00:56:48] INFO root fetch - processPackages [dockerblade]: Remove: archive file [/home/abi/fetcher/tmp/dockerblade-0.5.7-py3-none-any.whl.zip]
+[2024-05-21 00:56:48] INFO root fetch - processPackages [dockerblade]: Remove: archive file [/home/abi/fetcher/tmp/dockerblade-0.6.0.tar.gz]
+[2024-05-21 00:56:48] INFO root fetch - main [MainThread]: End processing [dockerblade]: success
+[2024-05-21 00:56:48] INFO root fetch - main [MainThread]: Store serial: [23297349]
