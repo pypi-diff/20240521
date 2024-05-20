@@ -957,3 +957,54 @@
 [2024-05-21 00:41:22] INFO root fetch - processPackages [anyscale]: Remove: archive file [/home/abi/fetcher/tmp/anyscale-0.5.99.tar.gz]
 [2024-05-21 00:41:22] INFO root fetch - main [MainThread]: End processing [anyscale]: success
 [2024-05-21 00:41:22] INFO root fetch - main [MainThread]: Store serial: [23297179]
+[2024-05-21 00:43:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23297179]
+[2024-05-21 00:43:31] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-21 00:43:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bencode-c
+[2024-05-21 00:43:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qualystbx
+[2024-05-21 00:43:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tinybrain
+[2024-05-21 00:43:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: database-mysql-local
+[2024-05-21 00:43:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: parsl
+[2024-05-21 00:43:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rov-db-access
+[2024-05-21 00:43:31] INFO root fetch - processPackages [qualystbx]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-05-21 00:43:31] INFO root fetch - processPackages [rov-db-access]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-21 00:43:31] INFO root fetch - processPackages [database-mysql-local]: New version: [0.0.309] Old Version: [0.0.308]
+[2024-05-21 00:43:31] WARNING root fetch - processPackages [bencode-c]: Skipping, unable to determine old version
+[2024-05-21 00:43:31] INFO root fetch - main [MainThread]: End processing [bencode-c] error
+[2024-05-21 00:43:31] INFO root fetch - processPackages [qualystbx]: Downloading https://files.pythonhosted.org/packages/3d/13/d82c3acb0e9ea3a9ff76fe6e73a521edc75e84ab686d483a4f360a6a88cb/qualystbx-0.7.0.tar.gz
+[2024-05-21 00:43:31] INFO root fetch - processPackages [tinybrain]: New version: [1.5.0] Old Version: [1.4.1]
+[2024-05-21 00:43:31] INFO root fetch - processPackages [database-mysql-local]: Downloading https://files.pythonhosted.org/packages/e2/c2/ba9e91f9fce34b71ad11453211a140ac76c93febbbf316cfa620a2656ee4/database_mysql_local-0.0.308.tar.gz
+[2024-05-21 00:43:31] INFO root fetch - processPackages [rov-db-access]: Downloading https://files.pythonhosted.org/packages/af/20/4121fb63fe04b579484ee18aec8a4273c47dc874259c3bd918f9dca180b9/rov_db_access-1.0.1.tar.gz
+[2024-05-21 00:43:31] INFO root fetch - processPackages [parsl]: New version: [2024.5.6] Old Version: [2024.5.20]
+[2024-05-21 00:43:31] INFO root fetch - processPackages [parsl]: Downloading https://files.pythonhosted.org/packages/95/c6/b14d5385a142b01235558c188b7b81d5e8d50b956bac526185d17bc24917/parsl-2024.5.20.tar.gz
+[2024-05-21 00:43:31] INFO root fetch - processPackages [qualystbx]: Downloading https://files.pythonhosted.org/packages/88/de/04f9bde377b2e4f3959a99661bf58cb5824a3b55cd37d179c781c0db6773/qualystbx-0.8.0.tar.gz
+[2024-05-21 00:43:31] INFO root fetch - processPackages [tinybrain]: Downloading https://files.pythonhosted.org/packages/33/ed/ab9700336c463f0e0a823c1fabb5034419fbde565645e9f9a5b834d49f2b/tinybrain-1.4.1.tar.gz
+[2024-05-21 00:43:31] INFO root fetch - processPackages [qualystbx]: executing diffoscope
+[2024-05-21 00:43:31] INFO root fetch - processPackages [qualystbx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qualystbx-0.7.0.tar.gz tmp/qualystbx-0.8.0.tar.gz --markdown 20240521/q/qualystbx/0.7.0-0.8.0/README.md --exclude *.pyd
+[2024-05-21 00:43:31] INFO root fetch - processPackages [rov-db-access]: Downloading https://files.pythonhosted.org/packages/2b/1e/77c77c1cbff31c3adecd6f1e621df0e7253d3099ece9024b9830cf60d933/rov_db_access-1.0.2.tar.gz
+[2024-05-21 00:43:31] INFO root fetch - processPackages [database-mysql-local]: Downloading https://files.pythonhosted.org/packages/d0/f6/b13677d744e0f04249190b80e50bc4fd56cd9b52a13d30d664f0d46c99e4/database_mysql_local-0.0.309.tar.gz
+[2024-05-21 00:43:31] INFO root fetch - processPackages [rov-db-access]: executing diffoscope
+[2024-05-21 00:43:31] INFO root fetch - processPackages [rov-db-access]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rov_db_access-1.0.1.tar.gz tmp/rov_db_access-1.0.2.tar.gz --markdown 20240521/r/rov-db-access/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-21 00:43:31] INFO root fetch - processPackages [database-mysql-local]: executing diffoscope
+[2024-05-21 00:43:31] INFO root fetch - processPackages [database-mysql-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/database_mysql_local-0.0.308.tar.gz tmp/database_mysql_local-0.0.309.tar.gz --markdown 20240521/d/database-mysql-local/0.0.308-0.0.309/README.md --exclude *.pyd
+[2024-05-21 00:43:31] INFO root fetch - processPackages [tinybrain]: Downloading https://files.pythonhosted.org/packages/dc/11/937466e70f6241187bf400310562a8074652e1622115ff892ebab4dedaef/tinybrain-1.5.0.tar.gz
+[2024-05-21 00:43:31] INFO root fetch - processPackages [parsl]: Downloading https://files.pythonhosted.org/packages/68/b6/8addea65af603df76664cccc645d4fee64350bb4cc390d21aac22263facb/parsl-2024.5.6.tar.gz
+[2024-05-21 00:43:32] INFO root fetch - processPackages [parsl]: executing diffoscope
+[2024-05-21 00:43:32] INFO root fetch - processPackages [parsl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parsl-2024.5.20.tar.gz tmp/parsl-2024.5.6.tar.gz --markdown 20240521/p/parsl/2024.5.20-2024.5.6/README.md --exclude *.pyd
+[2024-05-21 00:43:32] INFO root fetch - processPackages [tinybrain]: executing diffoscope
+[2024-05-21 00:43:32] INFO root fetch - processPackages [tinybrain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinybrain-1.4.1.tar.gz tmp/tinybrain-1.5.0.tar.gz --markdown 20240521/t/tinybrain/1.4.1-1.5.0/README.md --exclude *.pyd
+[2024-05-21 00:43:32] INFO root fetch - processPackages [qualystbx]: Remove: archive file [/home/abi/fetcher/tmp/qualystbx-0.7.0.tar.gz]
+[2024-05-21 00:43:32] INFO root fetch - processPackages [qualystbx]: Remove: archive file [/home/abi/fetcher/tmp/qualystbx-0.8.0.tar.gz]
+[2024-05-21 00:43:32] INFO root fetch - main [MainThread]: End processing [qualystbx]: success
+[2024-05-21 00:43:32] INFO root fetch - processPackages [rov-db-access]: Remove: archive file [/home/abi/fetcher/tmp/rov_db_access-1.0.1.tar.gz]
+[2024-05-21 00:43:32] INFO root fetch - processPackages [rov-db-access]: Remove: archive file [/home/abi/fetcher/tmp/rov_db_access-1.0.2.tar.gz]
+[2024-05-21 00:43:32] INFO root fetch - main [MainThread]: End processing [rov-db-access]: success
+[2024-05-21 00:43:32] INFO root fetch - processPackages [database-mysql-local]: Remove: archive file [/home/abi/fetcher/tmp/database_mysql_local-0.0.308.tar.gz]
+[2024-05-21 00:43:32] INFO root fetch - processPackages [database-mysql-local]: Remove: archive file [/home/abi/fetcher/tmp/database_mysql_local-0.0.309.tar.gz]
+[2024-05-21 00:43:32] INFO root fetch - main [MainThread]: End processing [database-mysql-local]: success
+[2024-05-21 00:43:32] INFO root fetch - processPackages [tinybrain]: Remove: archive file [/home/abi/fetcher/tmp/tinybrain-1.4.1.tar.gz]
+[2024-05-21 00:43:32] INFO root fetch - processPackages [tinybrain]: Remove: archive file [/home/abi/fetcher/tmp/tinybrain-1.5.0.tar.gz]
+[2024-05-21 00:43:32] INFO root fetch - main [MainThread]: End processing [tinybrain]: success
+[2024-05-21 00:43:33] INFO root fetch - processPackages [parsl]: Remove: archive file [/home/abi/fetcher/tmp/parsl-2024.5.20.tar.gz]
+[2024-05-21 00:43:33] INFO root fetch - processPackages [parsl]: Remove: archive file [/home/abi/fetcher/tmp/parsl-2024.5.6.tar.gz]
+[2024-05-21 00:43:33] INFO root fetch - main [MainThread]: End processing [parsl]: success
+[2024-05-21 00:43:33] INFO root fetch - main [MainThread]: Store serial: [23297235]
