@@ -2273,3 +2273,24 @@
 [2024-05-21 01:49:09] INFO root fetch - processPackages [yowasp-runtime]: Remove: archive file [/home/abi/fetcher/tmp/yowasp_runtime-1.7-py3-none-any.whl.zip]
 [2024-05-21 01:49:09] INFO root fetch - main [MainThread]: End processing [yowasp-runtime]: success
 [2024-05-21 01:49:09] INFO root fetch - main [MainThread]: Store serial: [23297695]
+[2024-05-21 01:51:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23297695]
+[2024-05-21 01:51:18] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-21 01:51:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: plexhints
+[2024-05-21 01:51:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xmonkey-namonica
+[2024-05-21 01:51:18] INFO root fetch - processPackages [xmonkey-namonica]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-21 01:51:18] INFO root fetch - processPackages [xmonkey-namonica]: Downloading https://files.pythonhosted.org/packages/b0/3d/6203ff7af6294781f051903a25270845fd90f2978f0aad2922baf027467a/xmonkey_namonica-0.1.8.tar.gz
+[2024-05-21 01:51:18] INFO root fetch - processPackages [plexhints]: New version: [2024.520.225051] Old Version: [2024.516.24056]
+[2024-05-21 01:51:18] INFO root fetch - processPackages [xmonkey-namonica]: Downloading https://files.pythonhosted.org/packages/cf/b8/696ff3c9499cdf66adacf2f654a1d6d3e21fc8d3f60fedd73208f3172235/xmonkey_namonica-0.1.9.tar.gz
+[2024-05-21 01:51:18] INFO root fetch - processPackages [plexhints]: Downloading https://files.pythonhosted.org/packages/35/f9/0659e9b0c055ec6d419a4931858df1ec7b1f4a20dc40c621373f3437e783/plexhints-2024.516.24056.tar.gz
+[2024-05-21 01:51:18] INFO root fetch - processPackages [xmonkey-namonica]: executing diffoscope
+[2024-05-21 01:51:18] INFO root fetch - processPackages [xmonkey-namonica]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xmonkey_namonica-0.1.8.tar.gz tmp/xmonkey_namonica-0.1.9.tar.gz --markdown 20240521/x/xmonkey-namonica/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-21 01:51:18] INFO root fetch - processPackages [plexhints]: Downloading https://files.pythonhosted.org/packages/15/95/31cf844962f4caa9334c8fc3250a52117c6ec67da16111c107ebec523844/plexhints-2024.520.225051.tar.gz
+[2024-05-21 01:51:19] INFO root fetch - processPackages [plexhints]: executing diffoscope
+[2024-05-21 01:51:19] INFO root fetch - processPackages [plexhints]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plexhints-2024.516.24056.tar.gz tmp/plexhints-2024.520.225051.tar.gz --markdown 20240521/p/plexhints/2024.516.24056-2024.520.225051/README.md --exclude *.pyd
+[2024-05-21 01:51:19] INFO root fetch - processPackages [xmonkey-namonica]: Remove: archive file [/home/abi/fetcher/tmp/xmonkey_namonica-0.1.8.tar.gz]
+[2024-05-21 01:51:19] INFO root fetch - processPackages [xmonkey-namonica]: Remove: archive file [/home/abi/fetcher/tmp/xmonkey_namonica-0.1.9.tar.gz]
+[2024-05-21 01:51:19] INFO root fetch - main [MainThread]: End processing [xmonkey-namonica]: success
+[2024-05-21 01:51:19] INFO root fetch - processPackages [plexhints]: Remove: archive file [/home/abi/fetcher/tmp/plexhints-2024.516.24056.tar.gz]
+[2024-05-21 01:51:19] INFO root fetch - processPackages [plexhints]: Remove: archive file [/home/abi/fetcher/tmp/plexhints-2024.520.225051.tar.gz]
+[2024-05-21 01:51:19] INFO root fetch - main [MainThread]: End processing [plexhints]: success
+[2024-05-21 01:51:19] INFO root fetch - main [MainThread]: Store serial: [23297701]
