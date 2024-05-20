@@ -695,3 +695,69 @@
 [2024-05-21 00:28:13] INFO root fetch - processPackages [InvokeAI]: Remove: archive file [/home/abi/fetcher/tmp/InvokeAI-4.2.2.tar.gz]
 [2024-05-21 00:28:13] INFO root fetch - main [MainThread]: End processing [InvokeAI]: success
 [2024-05-21 00:28:13] INFO root fetch - main [MainThread]: Store serial: [23297071]
+[2024-05-21 00:30:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23297071]
+[2024-05-21 00:30:23] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-21 00:30:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rio-ui
+[2024-05-21 00:30:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hysetter
+[2024-05-21 00:30:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xmonkey-namonica
+[2024-05-21 00:30:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mnistvit
+[2024-05-21 00:30:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nora-lib
+[2024-05-21 00:30:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aws-stuff-doer
+[2024-05-21 00:30:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: oceanum.eidos
+[2024-05-21 00:30:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jeffutils
+[2024-05-21 00:30:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ucdp-glbl
+[2024-05-21 00:30:23] INFO root fetch - processPackages [rio-ui]: New version: [0.7.5] Old Version: [0.7.4]
+[2024-05-21 00:30:23] INFO root fetch - processPackages [nora-lib]: New version: [0.0.5.dev0] Old Version: [0.0.4]
+[2024-05-21 00:30:23] INFO root fetch - processPackages [aws-stuff-doer]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-21 00:30:23] INFO root fetch - processPackages [jeffutils]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-21 00:30:23] INFO root fetch - processPackages [xmonkey-namonica]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-21 00:30:23] WARNING root fetch - processPackages [hysetter]: Skipping, unable to determine old version
+[2024-05-21 00:30:23] INFO root fetch - main [MainThread]: End processing [hysetter] error
+[2024-05-21 00:30:23] INFO root fetch - processPackages [rio-ui]: Downloading https://files.pythonhosted.org/packages/2d/fa/5524e678b68652bbe9fc25bb7ce43a777e1b0b63bdd212afc2d2fd522190/rio_ui-0.7.4.tar.gz
+[2024-05-21 00:30:23] WARNING root fetch - processPackages [oceanum.eidos]: Skipping, unable to determine old version
+[2024-05-21 00:30:23] INFO root fetch - main [MainThread]: End processing [oceanum.eidos] error
+[2024-05-21 00:30:23] INFO root fetch - processPackages [mnistvit]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-21 00:30:23] INFO root fetch - processPackages [nora-lib]: Downloading https://files.pythonhosted.org/packages/cf/7e/f02d30c782bea1cb420702ac34f2c5f03763574d570345e6cd68f9ead445/nora_lib-0.0.4.tar.gz
+[2024-05-21 00:30:23] INFO root fetch - processPackages [jeffutils]: Downloading https://files.pythonhosted.org/packages/5e/85/cfeeefafb6698b5fe9d1b5352e5c4867c1fae9fbe1ac9ff955a6f1f5bee6/jeffutils-0.5.8.tar.gz
+[2024-05-21 00:30:23] WARNING root fetch - processPackages [ucdp-glbl]: Skipping, unable to determine old version
+[2024-05-21 00:30:23] INFO root fetch - main [MainThread]: End processing [ucdp-glbl] error
+[2024-05-21 00:30:23] INFO root fetch - processPackages [aws-stuff-doer]: Downloading https://files.pythonhosted.org/packages/da/ae/3a7b7a9520c521b7c0b82e93dd52be9ee5a2d96a265ad1263ac1451f68ee/aws_stuff_doer-0.1.0.tar.gz
+[2024-05-21 00:30:23] INFO root fetch - processPackages [nora-lib]: Downloading https://files.pythonhosted.org/packages/37/18/6aea2b20d7d70aa4cff1aaa4e3e1201590ddbbea4cec85c61ddfd56eee15/nora_lib-0.0.5.dev0.tar.gz
+[2024-05-21 00:30:23] INFO root fetch - processPackages [xmonkey-namonica]: Downloading https://files.pythonhosted.org/packages/b0/3d/6203ff7af6294781f051903a25270845fd90f2978f0aad2922baf027467a/xmonkey_namonica-0.1.8.tar.gz
+[2024-05-21 00:30:23] INFO root fetch - processPackages [aws-stuff-doer]: Downloading https://files.pythonhosted.org/packages/d4/2c/2929838a79546a35c7729c3b6da5e2a071d85c85b4c140002d133a5ec6a8/aws_stuff_doer-0.1.1.tar.gz
+[2024-05-21 00:30:23] INFO root fetch - processPackages [jeffutils]: Downloading https://files.pythonhosted.org/packages/18/08/63731bd083b6cdf482d7c36a03181e558c564b1efa303745feaa3d80e899/jeffutils-0.5.9.tar.gz
+[2024-05-21 00:30:23] INFO root fetch - processPackages [mnistvit]: Downloading https://files.pythonhosted.org/packages/36/dd/d40734ffbd7dbe8bb86ac865771e3af47bc48d328fe785cbfe51ed28668a/mnistvit-1.0.0.tar.gz
+[2024-05-21 00:30:24] INFO root fetch - processPackages [nora-lib]: executing diffoscope
+[2024-05-21 00:30:24] INFO root fetch - processPackages [nora-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nora_lib-0.0.4.tar.gz tmp/nora_lib-0.0.5.dev0.tar.gz --markdown 20240521/n/nora-lib/0.0.4-0.0.5.dev0/README.md --exclude *.pyd
+[2024-05-21 00:30:24] INFO root fetch - processPackages [aws-stuff-doer]: executing diffoscope
+[2024-05-21 00:30:24] INFO root fetch - processPackages [aws-stuff-doer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_stuff_doer-0.1.0.tar.gz tmp/aws_stuff_doer-0.1.1.tar.gz --markdown 20240521/a/aws-stuff-doer/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-21 00:30:24] INFO root fetch - processPackages [jeffutils]: executing diffoscope
+[2024-05-21 00:30:24] INFO root fetch - processPackages [jeffutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jeffutils-0.5.8.tar.gz tmp/jeffutils-0.5.9.tar.gz --markdown 20240521/j/jeffutils/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-21 00:30:24] INFO root fetch - processPackages [rio-ui]: Downloading https://files.pythonhosted.org/packages/07/64/eda066a9834f4109c54b0e6eb3d0cd7241d6138de8bbb2504ffa32f90e87/rio_ui-0.7.5.tar.gz
+[2024-05-21 00:30:24] INFO root fetch - processPackages [xmonkey-namonica]: Downloading https://files.pythonhosted.org/packages/cf/b8/696ff3c9499cdf66adacf2f654a1d6d3e21fc8d3f60fedd73208f3172235/xmonkey_namonica-0.1.9.tar.gz
+[2024-05-21 00:30:24] INFO root fetch - processPackages [mnistvit]: Downloading https://files.pythonhosted.org/packages/43/0a/301113d3dc402e0c4b649890a9cb1e0af974893494f816115d77ac15b2a5/mnistvit-1.0.1.tar.gz
+[2024-05-21 00:30:24] INFO root fetch - processPackages [xmonkey-namonica]: executing diffoscope
+[2024-05-21 00:30:24] INFO root fetch - processPackages [xmonkey-namonica]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xmonkey_namonica-0.1.8.tar.gz tmp/xmonkey_namonica-0.1.9.tar.gz --markdown 20240521/x/xmonkey-namonica/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-21 00:30:24] INFO root fetch - processPackages [mnistvit]: executing diffoscope
+[2024-05-21 00:30:24] INFO root fetch - processPackages [mnistvit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mnistvit-1.0.0.tar.gz tmp/mnistvit-1.0.1.tar.gz --markdown 20240521/m/mnistvit/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-21 00:30:24] INFO root fetch - processPackages [rio-ui]: executing diffoscope
+[2024-05-21 00:30:24] INFO root fetch - processPackages [rio-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rio_ui-0.7.4.tar.gz tmp/rio_ui-0.7.5.tar.gz --markdown 20240521/r/rio-ui/0.7.4-0.7.5/README.md --exclude *.pyd
+[2024-05-21 00:30:24] INFO root fetch - processPackages [nora-lib]: Remove: archive file [/home/abi/fetcher/tmp/nora_lib-0.0.4.tar.gz]
+[2024-05-21 00:30:24] INFO root fetch - processPackages [nora-lib]: Remove: archive file [/home/abi/fetcher/tmp/nora_lib-0.0.5.dev0.tar.gz]
+[2024-05-21 00:30:24] INFO root fetch - main [MainThread]: End processing [nora-lib]: success
+[2024-05-21 00:30:24] INFO root fetch - processPackages [aws-stuff-doer]: Remove: archive file [/home/abi/fetcher/tmp/aws_stuff_doer-0.1.0.tar.gz]
+[2024-05-21 00:30:24] INFO root fetch - processPackages [aws-stuff-doer]: Remove: archive file [/home/abi/fetcher/tmp/aws_stuff_doer-0.1.1.tar.gz]
+[2024-05-21 00:30:24] INFO root fetch - main [MainThread]: End processing [aws-stuff-doer]: success
+[2024-05-21 00:30:24] INFO root fetch - processPackages [jeffutils]: Remove: archive file [/home/abi/fetcher/tmp/jeffutils-0.5.8.tar.gz]
+[2024-05-21 00:30:24] INFO root fetch - processPackages [jeffutils]: Remove: archive file [/home/abi/fetcher/tmp/jeffutils-0.5.9.tar.gz]
+[2024-05-21 00:30:24] INFO root fetch - main [MainThread]: End processing [jeffutils]: success
+[2024-05-21 00:30:25] INFO root fetch - processPackages [xmonkey-namonica]: Remove: archive file [/home/abi/fetcher/tmp/xmonkey_namonica-0.1.8.tar.gz]
+[2024-05-21 00:30:25] INFO root fetch - processPackages [xmonkey-namonica]: Remove: archive file [/home/abi/fetcher/tmp/xmonkey_namonica-0.1.9.tar.gz]
+[2024-05-21 00:30:25] INFO root fetch - main [MainThread]: End processing [xmonkey-namonica]: success
+[2024-05-21 00:30:25] INFO root fetch - processPackages [mnistvit]: Remove: archive file [/home/abi/fetcher/tmp/mnistvit-1.0.0.tar.gz]
+[2024-05-21 00:30:25] INFO root fetch - processPackages [mnistvit]: Remove: archive file [/home/abi/fetcher/tmp/mnistvit-1.0.1.tar.gz]
+[2024-05-21 00:30:25] INFO root fetch - main [MainThread]: End processing [mnistvit]: success
+[2024-05-21 00:30:26] INFO root fetch - processPackages [rio-ui]: Remove: archive file [/home/abi/fetcher/tmp/rio_ui-0.7.4.tar.gz]
+[2024-05-21 00:30:26] INFO root fetch - processPackages [rio-ui]: Remove: archive file [/home/abi/fetcher/tmp/rio_ui-0.7.5.tar.gz]
+[2024-05-21 00:30:26] INFO root fetch - main [MainThread]: End processing [rio-ui]: success
+[2024-05-21 00:30:26] INFO root fetch - main [MainThread]: Store serial: [23297105]
