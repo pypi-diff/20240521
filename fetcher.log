@@ -1214,3 +1214,60 @@
 [2024-05-21 00:50:10] INFO root fetch - processPackages [graspologic]: Remove: archive file [/home/abi/fetcher/tmp/graspologic-3.3.1.dev9.tar.gz]
 [2024-05-21 00:50:10] INFO root fetch - main [MainThread]: End processing [graspologic]: success
 [2024-05-21 00:50:10] INFO root fetch - main [MainThread]: Store serial: [23297311]
+[2024-05-21 00:52:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23297311]
+[2024-05-21 00:52:19] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-21 00:52:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pih-ds
+[2024-05-21 00:52:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: blueness
+[2024-05-21 00:52:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pih-event
+[2024-05-21 00:52:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pih-file
+[2024-05-21 00:52:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nipype2pydra
+[2024-05-21 00:52:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tomtoolkit
+[2024-05-21 00:52:19] INFO root fetch - processPackages [blueness]: New version: [3.6.1] Old Version: [3.5.1]
+[2024-05-21 00:52:19] INFO root fetch - processPackages [pih-event]: New version: [0.14] Old Version: [0.13]
+[2024-05-21 00:52:19] INFO root fetch - processPackages [pih-ds]: New version: [0.16] Old Version: [0.15]
+[2024-05-21 00:52:19] INFO root fetch - processPackages [pih-file]: New version: [0.12] Old Version: [0.11]
+[2024-05-21 00:52:19] INFO root fetch - processPackages [nipype2pydra]: New version: [0.4.4] Old Version: [0.4.3]
+[2024-05-21 00:52:20] INFO root fetch - processPackages [blueness]: Downloading https://files.pythonhosted.org/packages/34/b3/0ebcf6d35c66101cdaf336174259210801b0937d91578c7004adaad90de4/blueness-3.5.1.tar.gz
+[2024-05-21 00:52:20] INFO root fetch - processPackages [tomtoolkit]: New version: [2.9.2] Old Version: [2.9.1]
+[2024-05-21 00:52:20] INFO root fetch - processPackages [pih-file]: Downloading https://files.pythonhosted.org/packages/f8/35/c110e5730544aa895c12ad5a6b0bcafa1e8795dfaff0d53605cf09f39bb6/pih-file-0.11.tar.gz
+[2024-05-21 00:52:20] INFO root fetch - processPackages [pih-event]: Downloading https://files.pythonhosted.org/packages/a0/3f/d354746e37448a941ee20ed5404d4bbc004cfbb0e33f7f5cb2b7a02ab5a0/pih-event-0.13.tar.gz
+[2024-05-21 00:52:20] INFO root fetch - processPackages [pih-ds]: Downloading https://files.pythonhosted.org/packages/70/8b/d5f331b8888c4a041d94863d67d967f98e0fd06279a5d1e77909cf73f84c/pih-ds-0.15.tar.gz
+[2024-05-21 00:52:20] INFO root fetch - processPackages [nipype2pydra]: Downloading https://files.pythonhosted.org/packages/2d/e5/d042054f9385b61edfcf279f86910ca8caf0c06b712d1e3304ad3c678c4d/nipype2pydra-0.4.3.tar.gz
+[2024-05-21 00:52:20] INFO root fetch - processPackages [tomtoolkit]: Downloading https://files.pythonhosted.org/packages/2e/18/d0f42d8924abcb6ee5a727ed833a1e2b25892c0e27ca84d362e7025c6066/tomtoolkit-2.9.1.tar.gz
+[2024-05-21 00:52:20] INFO root fetch - processPackages [blueness]: Downloading https://files.pythonhosted.org/packages/c2/39/9b5e3b69fc4f9241975f91836c5e92f4311e38147785f2d2aadb38ec6b16/blueness-3.6.1.tar.gz
+[2024-05-21 00:52:20] INFO root fetch - processPackages [pih-file]: Downloading https://files.pythonhosted.org/packages/e7/34/9da1bed195bcd474db603d60a8879a429819f90d0e950fef4cb52ca0805a/pih-file-0.12.tar.gz
+[2024-05-21 00:52:20] INFO root fetch - processPackages [blueness]: executing diffoscope
+[2024-05-21 00:52:20] INFO root fetch - processPackages [blueness]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blueness-3.5.1.tar.gz tmp/blueness-3.6.1.tar.gz --markdown 20240521/b/blueness/3.5.1-3.6.1/README.md --exclude *.pyd
+[2024-05-21 00:52:20] INFO root fetch - processPackages [pih-file]: executing diffoscope
+[2024-05-21 00:52:20] INFO root fetch - processPackages [pih-file]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-file-0.11.tar.gz tmp/pih-file-0.12.tar.gz --markdown 20240521/p/pih-file/0.11-0.12/README.md --exclude *.pyd
+[2024-05-21 00:52:20] INFO root fetch - processPackages [pih-event]: Downloading https://files.pythonhosted.org/packages/58/4a/49f13f8fb191fbb56c55f1eb5b7029df69974b6364157d030f72ef230b3f/pih-event-0.14.tar.gz
+[2024-05-21 00:52:20] INFO root fetch - processPackages [nipype2pydra]: Downloading https://files.pythonhosted.org/packages/70/f8/1d0d11a4aacad9bcf19387a75f299682fb7ff705a139f5d208c5921d40fe/nipype2pydra-0.4.4.tar.gz
+[2024-05-21 00:52:20] INFO root fetch - processPackages [pih-ds]: Downloading https://files.pythonhosted.org/packages/9d/7a/bccfbf61ebeb9ca647aec7ae385ab332fd7c806d5f34e4a713f0907d7dc6/pih-ds-0.16.tar.gz
+[2024-05-21 00:52:20] INFO root fetch - processPackages [pih-event]: executing diffoscope
+[2024-05-21 00:52:20] INFO root fetch - processPackages [pih-event]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-event-0.13.tar.gz tmp/pih-event-0.14.tar.gz --markdown 20240521/p/pih-event/0.13-0.14/README.md --exclude *.pyd
+[2024-05-21 00:52:20] INFO root fetch - processPackages [pih-ds]: executing diffoscope
+[2024-05-21 00:52:20] INFO root fetch - processPackages [pih-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-ds-0.15.tar.gz tmp/pih-ds-0.16.tar.gz --markdown 20240521/p/pih-ds/0.15-0.16/README.md --exclude *.pyd
+[2024-05-21 00:52:20] INFO root fetch - processPackages [nipype2pydra]: executing diffoscope
+[2024-05-21 00:52:20] INFO root fetch - processPackages [nipype2pydra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nipype2pydra-0.4.3.tar.gz tmp/nipype2pydra-0.4.4.tar.gz --markdown 20240521/n/nipype2pydra/0.4.3-0.4.4/README.md --exclude *.pyd
+[2024-05-21 00:52:21] INFO root fetch - processPackages [blueness]: Remove: archive file [/home/abi/fetcher/tmp/blueness-3.5.1.tar.gz]
+[2024-05-21 00:52:21] INFO root fetch - processPackages [blueness]: Remove: archive file [/home/abi/fetcher/tmp/blueness-3.6.1.tar.gz]
+[2024-05-21 00:52:21] INFO root fetch - main [MainThread]: End processing [blueness]: success
+[2024-05-21 00:52:21] INFO root fetch - processPackages [pih-file]: Remove: archive file [/home/abi/fetcher/tmp/pih-file-0.11.tar.gz]
+[2024-05-21 00:52:21] INFO root fetch - processPackages [pih-file]: Remove: archive file [/home/abi/fetcher/tmp/pih-file-0.12.tar.gz]
+[2024-05-21 00:52:21] INFO root fetch - main [MainThread]: End processing [pih-file]: success
+[2024-05-21 00:52:21] INFO root fetch - processPackages [pih-event]: Remove: archive file [/home/abi/fetcher/tmp/pih-event-0.13.tar.gz]
+[2024-05-21 00:52:21] INFO root fetch - processPackages [pih-event]: Remove: archive file [/home/abi/fetcher/tmp/pih-event-0.14.tar.gz]
+[2024-05-21 00:52:21] INFO root fetch - main [MainThread]: End processing [pih-event]: success
+[2024-05-21 00:52:21] INFO root fetch - processPackages [pih-ds]: Remove: archive file [/home/abi/fetcher/tmp/pih-ds-0.15.tar.gz]
+[2024-05-21 00:52:21] INFO root fetch - processPackages [pih-ds]: Remove: archive file [/home/abi/fetcher/tmp/pih-ds-0.16.tar.gz]
+[2024-05-21 00:52:21] INFO root fetch - main [MainThread]: End processing [pih-ds]: success
+[2024-05-21 00:52:21] INFO root fetch - processPackages [tomtoolkit]: Downloading https://files.pythonhosted.org/packages/b4/d6/06d7b659b2225273b399ed75420195b3c428a784f7b84284c6348f096284/tomtoolkit-2.9.2.tar.gz
+[2024-05-21 00:52:21] INFO root fetch - processPackages [nipype2pydra]: Remove: archive file [/home/abi/fetcher/tmp/nipype2pydra-0.4.3.tar.gz]
+[2024-05-21 00:52:21] INFO root fetch - processPackages [nipype2pydra]: Remove: archive file [/home/abi/fetcher/tmp/nipype2pydra-0.4.4.tar.gz]
+[2024-05-21 00:52:21] INFO root fetch - main [MainThread]: End processing [nipype2pydra]: success
+[2024-05-21 00:52:24] INFO root fetch - processPackages [tomtoolkit]: executing diffoscope
+[2024-05-21 00:52:24] INFO root fetch - processPackages [tomtoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tomtoolkit-2.9.1.tar.gz tmp/tomtoolkit-2.9.2.tar.gz --markdown 20240521/t/tomtoolkit/2.9.1-2.9.2/README.md --exclude *.pyd
+[2024-05-21 00:52:26] INFO root fetch - processPackages [tomtoolkit]: Remove: archive file [/home/abi/fetcher/tmp/tomtoolkit-2.9.1.tar.gz]
+[2024-05-21 00:52:26] INFO root fetch - processPackages [tomtoolkit]: Remove: archive file [/home/abi/fetcher/tmp/tomtoolkit-2.9.2.tar.gz]
+[2024-05-21 00:52:26] INFO root fetch - main [MainThread]: End processing [tomtoolkit]: success
+[2024-05-21 00:52:26] INFO root fetch - main [MainThread]: Store serial: [23297326]
