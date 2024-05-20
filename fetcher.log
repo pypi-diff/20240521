@@ -1,0 +1,30 @@
+[2024-05-21 00:01:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23296792]
+[2024-05-21 00:01:12] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-21 00:01:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: goodwe
+[2024-05-21 00:01:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: data-source-local
+[2024-05-21 00:01:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fleekapi
+[2024-05-21 00:01:12] INFO root fetch - processPackages [fleekapi]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-21 00:01:12] INFO root fetch - processPackages [fleekapi]: Downloading https://files.pythonhosted.org/packages/ab/46/0db9a6a46e07bd6e9613f731250b8f94d443632abcaee74511cadb1cc48a/fleekapi-0.2.2.tar.gz
+[2024-05-21 00:01:12] INFO root fetch - processPackages [data-source-local]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-21 00:01:12] INFO root fetch - processPackages [goodwe]: New version: [0.4.4] Old Version: [0.4.3]
+[2024-05-21 00:01:12] INFO root fetch - processPackages [data-source-local]: Downloading https://files.pythonhosted.org/packages/45/46/fa4dff90215d2cd298b808b51968e30886b668b4d87ef1d558b04bcb5cbb/data_source_local-0.0.3.tar.gz
+[2024-05-21 00:01:12] INFO root fetch - processPackages [goodwe]: Downloading https://files.pythonhosted.org/packages/99/7a/8969fdf868e519342296b67a97bd16550d38b536fe939ab00406c5477cd8/goodwe-0.4.3.tar.gz
+[2024-05-21 00:01:12] INFO root fetch - processPackages [fleekapi]: Downloading https://files.pythonhosted.org/packages/c7/69/25ab727a34bb602f2fc05e493468961c59d2d218aed0c1b40c10dc899e88/fleekapi-0.2.3.tar.gz
+[2024-05-21 00:01:12] INFO root fetch - processPackages [fleekapi]: executing diffoscope
+[2024-05-21 00:01:12] INFO root fetch - processPackages [fleekapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fleekapi-0.2.2.tar.gz tmp/fleekapi-0.2.3.tar.gz --markdown 20240521/f/fleekapi/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-21 00:01:12] INFO root fetch - processPackages [data-source-local]: Downloading https://files.pythonhosted.org/packages/4d/f0/b4019e529ed1c19077946d300f3221c9cdc90ce1d796eb186c4d32d03466/data_source_local-0.0.4.tar.gz
+[2024-05-21 00:01:13] INFO root fetch - processPackages [goodwe]: Downloading https://files.pythonhosted.org/packages/63/e8/4c1cf5675a84440b7172e322430630513859ef863350d9ade7aef62dcfe6/goodwe-0.4.4.tar.gz
+[2024-05-21 00:01:13] INFO root fetch - processPackages [data-source-local]: executing diffoscope
+[2024-05-21 00:01:13] INFO root fetch - processPackages [data-source-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_source_local-0.0.3.tar.gz tmp/data_source_local-0.0.4.tar.gz --markdown 20240521/d/data-source-local/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-21 00:01:13] INFO root fetch - processPackages [goodwe]: executing diffoscope
+[2024-05-21 00:01:13] INFO root fetch - processPackages [goodwe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goodwe-0.4.3.tar.gz tmp/goodwe-0.4.4.tar.gz --markdown 20240521/g/goodwe/0.4.3-0.4.4/README.md --exclude *.pyd
+[2024-05-21 00:01:13] INFO root fetch - processPackages [fleekapi]: Remove: archive file [/home/abi/fetcher/tmp/fleekapi-0.2.2.tar.gz]
+[2024-05-21 00:01:13] INFO root fetch - processPackages [fleekapi]: Remove: archive file [/home/abi/fetcher/tmp/fleekapi-0.2.3.tar.gz]
+[2024-05-21 00:01:13] INFO root fetch - main [MainThread]: End processing [fleekapi]: success
+[2024-05-21 00:01:13] INFO root fetch - processPackages [data-source-local]: Remove: archive file [/home/abi/fetcher/tmp/data_source_local-0.0.3.tar.gz]
+[2024-05-21 00:01:13] INFO root fetch - processPackages [data-source-local]: Remove: archive file [/home/abi/fetcher/tmp/data_source_local-0.0.4.tar.gz]
+[2024-05-21 00:01:13] INFO root fetch - main [MainThread]: End processing [data-source-local]: success
+[2024-05-21 00:01:13] INFO root fetch - processPackages [goodwe]: Remove: archive file [/home/abi/fetcher/tmp/goodwe-0.4.3.tar.gz]
+[2024-05-21 00:01:13] INFO root fetch - processPackages [goodwe]: Remove: archive file [/home/abi/fetcher/tmp/goodwe-0.4.4.tar.gz]
+[2024-05-21 00:01:13] INFO root fetch - main [MainThread]: End processing [goodwe]: success
+[2024-05-21 00:01:13] INFO root fetch - main [MainThread]: Store serial: [23296802]
