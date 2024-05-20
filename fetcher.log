@@ -1271,3 +1271,42 @@
 [2024-05-21 00:52:26] INFO root fetch - processPackages [tomtoolkit]: Remove: archive file [/home/abi/fetcher/tmp/tomtoolkit-2.9.2.tar.gz]
 [2024-05-21 00:52:26] INFO root fetch - main [MainThread]: End processing [tomtoolkit]: success
 [2024-05-21 00:52:26] INFO root fetch - main [MainThread]: Store serial: [23297326]
+[2024-05-21 00:54:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23297326]
+[2024-05-21 00:54:34] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-21 00:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tomtoolkit
+[2024-05-21 00:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: treegp
+[2024-05-21 00:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jupyter-ai
+[2024-05-21 00:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jupyter-ai-magics
+[2024-05-21 00:54:34] INFO root fetch - processPackages [tomtoolkit]: New version: [2.9.2] Old Version: [2.9.1]
+[2024-05-21 00:54:34] INFO root fetch - processPackages [treegp]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-05-21 00:54:34] INFO root fetch - processPackages [jupyter-ai]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-05-21 00:54:34] INFO root fetch - processPackages [jupyter-ai-magics]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-05-21 00:54:34] INFO root fetch - processPackages [tomtoolkit]: Downloading https://files.pythonhosted.org/packages/2e/18/d0f42d8924abcb6ee5a727ed833a1e2b25892c0e27ca84d362e7025c6066/tomtoolkit-2.9.1.tar.gz
+[2024-05-21 00:54:35] INFO root fetch - processPackages [jupyter-ai-magics]: Downloading https://files.pythonhosted.org/packages/5c/82/b9fec8e8bd26f144f73e0ea913306dad065a83c874392cd805e42314c96b/jupyter_ai_magics-2.9.0.tar.gz
+[2024-05-21 00:54:35] INFO root fetch - processPackages [treegp]: Downloading https://files.pythonhosted.org/packages/be/48/a0ba2ab958b8607cf194eb3bedb8446cb10ae474f1ccb8ea236e3c28fb2f/treegp-1.1.0.tar.gz
+[2024-05-21 00:54:35] INFO root fetch - processPackages [jupyter-ai]: Downloading https://files.pythonhosted.org/packages/37/82/310f93972ebcfed1716a151e1517e7a2d0448e677a2f5f0b18ab72578264/jupyter_ai-2.9.0.tar.gz
+[2024-05-21 00:54:35] INFO root fetch - processPackages [tomtoolkit]: Downloading https://files.pythonhosted.org/packages/b4/d6/06d7b659b2225273b399ed75420195b3c428a784f7b84284c6348f096284/tomtoolkit-2.9.2.tar.gz
+[2024-05-21 00:54:35] INFO root fetch - processPackages [treegp]: Downloading https://files.pythonhosted.org/packages/fd/6d/333f8da3101e80407b8134d1138e17c638eb55dac20174cc4db734f6f038/treegp-1.2.0.tar.gz
+[2024-05-21 00:54:35] INFO root fetch - processPackages [treegp]: executing diffoscope
+[2024-05-21 00:54:35] INFO root fetch - processPackages [treegp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/treegp-1.1.0.tar.gz tmp/treegp-1.2.0.tar.gz --markdown 20240521/t/treegp/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-05-21 00:54:35] INFO root fetch - processPackages [tomtoolkit]: executing diffoscope
+[2024-05-21 00:54:35] INFO root fetch - processPackages [tomtoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tomtoolkit-2.9.1.tar.gz tmp/tomtoolkit-2.9.2.tar.gz --markdown 20240521/t/tomtoolkit/2.9.1-2.9.2/README.md --exclude *.pyd
+[2024-05-21 00:54:35] INFO root fetch - processPackages [jupyter-ai-magics]: Downloading https://files.pythonhosted.org/packages/92/e2/cff5a094dc2175fc664fe31c75325663f93e19ab059ec133fb99c706ec40/jupyter_ai_magics-2.9.1.tar.gz
+[2024-05-21 00:54:35] INFO root fetch - processPackages [jupyter-ai-magics]: executing diffoscope
+[2024-05-21 00:54:35] INFO root fetch - processPackages [jupyter-ai-magics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_ai_magics-2.9.0.tar.gz tmp/jupyter_ai_magics-2.9.1.tar.gz --markdown 20240521/j/jupyter-ai-magics/2.9.0-2.9.1/README.md --exclude *.pyd
+[2024-05-21 00:54:35] INFO root fetch - processPackages [jupyter-ai]: Downloading https://files.pythonhosted.org/packages/f3/e8/d74488780293d9f34a193447c002a290122ea69a64176d351e2a3f36e1b6/jupyter_ai-2.9.1.tar.gz
+[2024-05-21 00:54:36] INFO root fetch - processPackages [jupyter-ai]: executing diffoscope
+[2024-05-21 00:54:36] INFO root fetch - processPackages [jupyter-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_ai-2.9.0.tar.gz tmp/jupyter_ai-2.9.1.tar.gz --markdown 20240521/j/jupyter-ai/2.9.0-2.9.1/README.md --exclude *.pyd
+[2024-05-21 00:54:36] INFO root fetch - processPackages [treegp]: Remove: archive file [/home/abi/fetcher/tmp/treegp-1.1.0.tar.gz]
+[2024-05-21 00:54:36] INFO root fetch - processPackages [treegp]: Remove: archive file [/home/abi/fetcher/tmp/treegp-1.2.0.tar.gz]
+[2024-05-21 00:54:36] INFO root fetch - main [MainThread]: End processing [treegp]: success
+[2024-05-21 00:54:36] INFO root fetch - processPackages [jupyter-ai-magics]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_ai_magics-2.9.0.tar.gz]
+[2024-05-21 00:54:36] INFO root fetch - processPackages [jupyter-ai-magics]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_ai_magics-2.9.1.tar.gz]
+[2024-05-21 00:54:36] INFO root fetch - main [MainThread]: End processing [jupyter-ai-magics]: success
+[2024-05-21 00:54:37] INFO root fetch - processPackages [tomtoolkit]: Remove: archive file [/home/abi/fetcher/tmp/tomtoolkit-2.9.1.tar.gz]
+[2024-05-21 00:54:37] INFO root fetch - processPackages [tomtoolkit]: Remove: archive file [/home/abi/fetcher/tmp/tomtoolkit-2.9.2.tar.gz]
+[2024-05-21 00:54:37] INFO root fetch - main [MainThread]: End processing [tomtoolkit]: success
+[2024-05-21 00:54:37] INFO root fetch - processPackages [jupyter-ai]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_ai-2.9.0.tar.gz]
+[2024-05-21 00:54:37] INFO root fetch - processPackages [jupyter-ai]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_ai-2.9.1.tar.gz]
+[2024-05-21 00:54:37] INFO root fetch - main [MainThread]: End processing [jupyter-ai]: success
+[2024-05-21 00:54:37] INFO root fetch - main [MainThread]: Store serial: [23297337]
