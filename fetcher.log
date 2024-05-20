@@ -1613,3 +1613,36 @@
 [2024-05-21 01:07:40] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.9.0.dev20240519.tar.gz]
 [2024-05-21 01:07:40] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
 [2024-05-21 01:07:40] INFO root fetch - main [MainThread]: Store serial: [23297438]
+[2024-05-21 01:09:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23297438]
+[2024-05-21 01:09:49] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-21 01:09:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hoppr-security-commons
+[2024-05-21 01:09:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bencode-c
+[2024-05-21 01:09:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: almasql
+[2024-05-21 01:09:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyshacl
+[2024-05-21 01:09:49] INFO root fetch - processPackages [bencode-c]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-21 01:09:49] INFO root fetch - processPackages [hoppr-security-commons]: New version: [0.0.9] Old Version: [0.0.87]
+[2024-05-21 01:09:49] INFO root fetch - processPackages [hoppr-security-commons]: Downloading https://files.pythonhosted.org/packages/01/b5/243b2386ca9c8d4df2fed3fab29656f8fc26542ba31c4c63ea76499ca928/hoppr_security_commons-0.0.87.tar.gz
+[2024-05-21 01:09:49] WARNING root fetch - processPackages [almasql]: Skipping, unable to determine old version
+[2024-05-21 01:09:49] INFO root fetch - main [MainThread]: End processing [almasql] error
+[2024-05-21 01:09:49] INFO root fetch - processPackages [pyshacl]: New version: [0.9.9.post1] Old Version: [0.9.9]
+[2024-05-21 01:09:49] INFO root fetch - processPackages [bencode-c]: Downloading https://files.pythonhosted.org/packages/a3/1a/797e79c44a6f524fe47604828ac7a4b3a089f12ef2442046be083fdf6672/bencode_c-0.0.1.tar.gz
+[2024-05-21 01:09:49] INFO root fetch - processPackages [hoppr-security-commons]: Downloading https://files.pythonhosted.org/packages/28/98/819d5ffab5f26c075fb2191a2d5583cd18aa8069a8fc43484d65978fe18d/hoppr_security_commons-0.0.9.tar.gz
+[2024-05-21 01:09:49] INFO root fetch - processPackages [pyshacl]: Downloading https://files.pythonhosted.org/packages/ff/90/e2518dca4e25c145cb465a84c62a64fb43f0bb5dd61cc44d3a696e32d2c4/pyshacl-0.9.9.tar.gz
+[2024-05-21 01:09:49] INFO root fetch - processPackages [hoppr-security-commons]: executing diffoscope
+[2024-05-21 01:09:49] INFO root fetch - processPackages [hoppr-security-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hoppr_security_commons-0.0.87.tar.gz tmp/hoppr_security_commons-0.0.9.tar.gz --markdown 20240521/h/hoppr-security-commons/0.0.87-0.0.9/README.md --exclude *.pyd
+[2024-05-21 01:09:49] INFO root fetch - processPackages [bencode-c]: Downloading https://files.pythonhosted.org/packages/e1/ed/deb892c26c4241bc5db4ab620fcce2e9a54681d6451e58380fabe9353fac/bencode_c-0.0.2.tar.gz
+[2024-05-21 01:09:49] INFO root fetch - processPackages [bencode-c]: executing diffoscope
+[2024-05-21 01:09:49] INFO root fetch - processPackages [bencode-c]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bencode_c-0.0.1.tar.gz tmp/bencode_c-0.0.2.tar.gz --markdown 20240521/b/bencode-c/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-21 01:09:49] INFO root fetch - processPackages [pyshacl]: Downloading https://files.pythonhosted.org/packages/7a/09/13681b7d6de8bff056035ab45612fbe759259502dc023601f2a8912e4b4c/pyshacl-0.9.9.post1.tar.gz
+[2024-05-21 01:09:50] INFO root fetch - processPackages [hoppr-security-commons]: Remove: archive file [/home/abi/fetcher/tmp/hoppr_security_commons-0.0.87.tar.gz]
+[2024-05-21 01:09:50] INFO root fetch - processPackages [hoppr-security-commons]: Remove: archive file [/home/abi/fetcher/tmp/hoppr_security_commons-0.0.9.tar.gz]
+[2024-05-21 01:09:50] INFO root fetch - main [MainThread]: End processing [hoppr-security-commons]: success
+[2024-05-21 01:09:50] INFO root fetch - processPackages [pyshacl]: executing diffoscope
+[2024-05-21 01:09:50] INFO root fetch - processPackages [pyshacl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyshacl-0.9.9.tar.gz tmp/pyshacl-0.9.9.post1.tar.gz --markdown 20240521/p/pyshacl/0.9.9-0.9.9.post1/README.md --exclude *.pyd
+[2024-05-21 01:09:50] INFO root fetch - processPackages [bencode-c]: Remove: archive file [/home/abi/fetcher/tmp/bencode_c-0.0.1.tar.gz]
+[2024-05-21 01:09:50] INFO root fetch - processPackages [bencode-c]: Remove: archive file [/home/abi/fetcher/tmp/bencode_c-0.0.2.tar.gz]
+[2024-05-21 01:09:50] INFO root fetch - main [MainThread]: End processing [bencode-c]: success
+[2024-05-21 01:09:51] INFO root fetch - processPackages [pyshacl]: Remove: archive file [/home/abi/fetcher/tmp/pyshacl-0.9.9.tar.gz]
+[2024-05-21 01:09:51] INFO root fetch - processPackages [pyshacl]: Remove: archive file [/home/abi/fetcher/tmp/pyshacl-0.9.9.post1.tar.gz]
+[2024-05-21 01:09:51] INFO root fetch - main [MainThread]: End processing [pyshacl]: success
+[2024-05-21 01:09:51] INFO root fetch - main [MainThread]: Store serial: [23297457]
