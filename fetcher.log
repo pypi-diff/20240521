@@ -2216,3 +2216,33 @@
 [2024-05-21 01:42:38] INFO root fetch - processPackages [neofetch-win]: Remove: archive file [/home/abi/fetcher/tmp/neofetch_win-1.4.0.tar.gz]
 [2024-05-21 01:42:38] INFO root fetch - main [MainThread]: End processing [neofetch-win]: success
 [2024-05-21 01:42:38] INFO root fetch - main [MainThread]: Store serial: [23297677]
+[2024-05-21 01:44:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23297677]
+[2024-05-21 01:44:47] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-21 01:44:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: backtesting-server
+[2024-05-21 01:44:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dolomite-ranges
+[2024-05-21 01:44:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cocoon-data
+[2024-05-21 01:44:47] INFO root fetch - processPackages [cocoon-data]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-21 01:44:47] INFO root fetch - processPackages [dolomite-ranges]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-21 01:44:47] INFO root fetch - processPackages [backtesting-server]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-05-21 01:44:47] INFO root fetch - processPackages [cocoon-data]: Downloading https://files.pythonhosted.org/packages/ac/3c/a1a6c95be4d731fc0db8d40b132730891186370f3cd304837773aa0dcce9/cocoon_data-0.1.8.tar.gz
+[2024-05-21 01:44:47] INFO root fetch - processPackages [dolomite-ranges]: Downloading https://files.pythonhosted.org/packages/bb/0c/3cdad5e9c99c937df76e3a1f8d9c72eca4549e28b46bc1d9f54b4e7ad913/dolomite-ranges-0.1.1.tar.gz
+[2024-05-21 01:44:47] INFO root fetch - processPackages [backtesting-server]: Downloading https://files.pythonhosted.org/packages/8b/e5/a5d2c59c7bac43a44c067a45b47f83c748676258075ce4674cfe429c3322/backtesting_server-0.6.0.tar.gz
+[2024-05-21 01:44:47] INFO root fetch - processPackages [dolomite-ranges]: Downloading https://files.pythonhosted.org/packages/b3/c9/d00f3698a504e23d3567028c515d010eb4e2f2fbf4f1807edc3fa99332d2/dolomite_ranges-0.1.2.tar.gz
+[2024-05-21 01:44:47] INFO root fetch - processPackages [cocoon-data]: Downloading https://files.pythonhosted.org/packages/0b/b9/048ffb4abe066854ebc4d24ca277250c5668844b84d602ff0be9adf8b231/cocoon_data-0.1.9.tar.gz
+[2024-05-21 01:44:47] INFO root fetch - processPackages [dolomite-ranges]: executing diffoscope
+[2024-05-21 01:44:47] INFO root fetch - processPackages [dolomite-ranges]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dolomite-ranges-0.1.1.tar.gz tmp/dolomite_ranges-0.1.2.tar.gz --markdown 20240521/d/dolomite-ranges/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-21 01:44:47] INFO root fetch - processPackages [cocoon-data]: executing diffoscope
+[2024-05-21 01:44:47] INFO root fetch - processPackages [cocoon-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cocoon_data-0.1.8.tar.gz tmp/cocoon_data-0.1.9.tar.gz --markdown 20240521/c/cocoon-data/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-21 01:44:48] INFO root fetch - processPackages [backtesting-server]: Downloading https://files.pythonhosted.org/packages/92/59/9d5278f4e01ff1735873492202c73e946a7cef9bde485a0acc1a53162714/backtesting_server-0.7.0.tar.gz
+[2024-05-21 01:44:48] INFO root fetch - processPackages [backtesting-server]: executing diffoscope
+[2024-05-21 01:44:48] INFO root fetch - processPackages [backtesting-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backtesting_server-0.6.0.tar.gz tmp/backtesting_server-0.7.0.tar.gz --markdown 20240521/b/backtesting-server/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-05-21 01:44:48] INFO root fetch - processPackages [dolomite-ranges]: Remove: archive file [/home/abi/fetcher/tmp/dolomite-ranges-0.1.1.tar.gz]
+[2024-05-21 01:44:48] INFO root fetch - processPackages [dolomite-ranges]: Remove: archive file [/home/abi/fetcher/tmp/dolomite_ranges-0.1.2.tar.gz]
+[2024-05-21 01:44:48] INFO root fetch - main [MainThread]: End processing [dolomite-ranges]: success
+[2024-05-21 01:44:48] INFO root fetch - processPackages [cocoon-data]: Remove: archive file [/home/abi/fetcher/tmp/cocoon_data-0.1.8.tar.gz]
+[2024-05-21 01:44:48] INFO root fetch - processPackages [cocoon-data]: Remove: archive file [/home/abi/fetcher/tmp/cocoon_data-0.1.9.tar.gz]
+[2024-05-21 01:44:48] INFO root fetch - main [MainThread]: End processing [cocoon-data]: success
+[2024-05-21 01:44:48] INFO root fetch - processPackages [backtesting-server]: Remove: archive file [/home/abi/fetcher/tmp/backtesting_server-0.6.0.tar.gz]
+[2024-05-21 01:44:48] INFO root fetch - processPackages [backtesting-server]: Remove: archive file [/home/abi/fetcher/tmp/backtesting_server-0.7.0.tar.gz]
+[2024-05-21 01:44:48] INFO root fetch - main [MainThread]: End processing [backtesting-server]: success
+[2024-05-21 01:44:48] INFO root fetch - main [MainThread]: Store serial: [23297686]
