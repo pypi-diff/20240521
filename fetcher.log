@@ -888,3 +888,36 @@
 [2024-05-21 00:36:58] INFO root fetch - processPackages [comfy-cli]: Remove: archive file [/home/abi/fetcher/tmp/comfy_cli-0.0.9.tar.gz]
 [2024-05-21 00:36:58] INFO root fetch - main [MainThread]: End processing [comfy-cli]: success
 [2024-05-21 00:36:58] INFO root fetch - main [MainThread]: Store serial: [23297151]
+[2024-05-21 00:39:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23297151]
+[2024-05-21 00:39:06] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-21 00:39:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fudstop
+[2024-05-21 00:39:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: blueness
+[2024-05-21 00:39:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hcs-core
+[2024-05-21 00:39:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hcs-cli
+[2024-05-21 00:39:07] WARNING root fetch - processPackages [blueness]: Skipping, unable to determine old version
+[2024-05-21 00:39:07] INFO root fetch - main [MainThread]: End processing [blueness] error
+[2024-05-21 00:39:07] INFO root fetch - processPackages [hcs-core]: New version: [0.1.234] Old Version: [0.1.233]
+[2024-05-21 00:39:07] INFO root fetch - processPackages [fudstop]: New version: [2.6.7] Old Version: [2.6.5]
+[2024-05-21 00:39:07] INFO root fetch - processPackages [hcs-core]: Downloading https://files.pythonhosted.org/packages/72/28/ac30525140ee91b87556a6451e0cb23d03a9af1597d50303bf1a8f1576d3/hcs_core-0.1.233.tar.gz
+[2024-05-21 00:39:07] INFO root fetch - processPackages [hcs-cli]: New version: [0.1.98] Old Version: [0.1.97]
+[2024-05-21 00:39:07] INFO root fetch - processPackages [fudstop]: Downloading https://files.pythonhosted.org/packages/f1/cb/ff22e61619ecaf4a381023771169d254481297dbc27097be24a4f55fee60/fudstop-2.6.5.tar.gz
+[2024-05-21 00:39:07] INFO root fetch - processPackages [hcs-cli]: Downloading https://files.pythonhosted.org/packages/f8/df/208577492e791a01b215928ef17543dd71d1db9c71661a2eaf3b2c739e78/hcs-cli-0.1.97.tar.gz
+[2024-05-21 00:39:07] INFO root fetch - processPackages [hcs-core]: Downloading https://files.pythonhosted.org/packages/e0/73/23d650ac814442c067b9861a339927f678d2725bf082d1b0fc43ce47bd07/hcs_core-0.1.234.tar.gz
+[2024-05-21 00:39:07] INFO root fetch - processPackages [fudstop]: Downloading https://files.pythonhosted.org/packages/7d/d0/609acde7400148e2f910d157018c7922c5063e105509e45480c02a8f2753/fudstop-2.6.7.tar.gz
+[2024-05-21 00:39:07] INFO root fetch - processPackages [hcs-cli]: Downloading https://files.pythonhosted.org/packages/75/92/ba28bbaff4bfb3aa8084610c7992979d23060c125c74f6a73fdffaed4d58/hcs-cli-0.1.98.tar.gz
+[2024-05-21 00:39:07] INFO root fetch - processPackages [hcs-core]: executing diffoscope
+[2024-05-21 00:39:07] INFO root fetch - processPackages [hcs-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcs_core-0.1.233.tar.gz tmp/hcs_core-0.1.234.tar.gz --markdown 20240521/h/hcs-core/0.1.233-0.1.234/README.md --exclude *.pyd
+[2024-05-21 00:39:07] INFO root fetch - processPackages [fudstop]: executing diffoscope
+[2024-05-21 00:39:07] INFO root fetch - processPackages [fudstop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fudstop-2.6.5.tar.gz tmp/fudstop-2.6.7.tar.gz --markdown 20240521/f/fudstop/2.6.5-2.6.7/README.md --exclude *.pyd
+[2024-05-21 00:39:07] INFO root fetch - processPackages [hcs-cli]: executing diffoscope
+[2024-05-21 00:39:07] INFO root fetch - processPackages [hcs-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcs-cli-0.1.97.tar.gz tmp/hcs-cli-0.1.98.tar.gz --markdown 20240521/h/hcs-cli/0.1.97-0.1.98/README.md --exclude *.pyd
+[2024-05-21 00:39:08] INFO root fetch - processPackages [hcs-core]: Remove: archive file [/home/abi/fetcher/tmp/hcs_core-0.1.233.tar.gz]
+[2024-05-21 00:39:08] INFO root fetch - processPackages [hcs-core]: Remove: archive file [/home/abi/fetcher/tmp/hcs_core-0.1.234.tar.gz]
+[2024-05-21 00:39:08] INFO root fetch - main [MainThread]: End processing [hcs-core]: success
+[2024-05-21 00:39:08] INFO root fetch - processPackages [fudstop]: Remove: archive file [/home/abi/fetcher/tmp/fudstop-2.6.5.tar.gz]
+[2024-05-21 00:39:08] INFO root fetch - processPackages [fudstop]: Remove: archive file [/home/abi/fetcher/tmp/fudstop-2.6.7.tar.gz]
+[2024-05-21 00:39:08] INFO root fetch - main [MainThread]: End processing [fudstop]: success
+[2024-05-21 00:39:08] INFO root fetch - processPackages [hcs-cli]: Remove: archive file [/home/abi/fetcher/tmp/hcs-cli-0.1.97.tar.gz]
+[2024-05-21 00:39:08] INFO root fetch - processPackages [hcs-cli]: Remove: archive file [/home/abi/fetcher/tmp/hcs-cli-0.1.98.tar.gz]
+[2024-05-21 00:39:08] INFO root fetch - main [MainThread]: End processing [hcs-cli]: success
+[2024-05-21 00:39:08] INFO root fetch - main [MainThread]: Store serial: [23297163]
