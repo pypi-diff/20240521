@@ -1008,3 +1008,54 @@
 [2024-05-21 00:43:33] INFO root fetch - processPackages [parsl]: Remove: archive file [/home/abi/fetcher/tmp/parsl-2024.5.6.tar.gz]
 [2024-05-21 00:43:33] INFO root fetch - main [MainThread]: End processing [parsl]: success
 [2024-05-21 00:43:33] INFO root fetch - main [MainThread]: Store serial: [23297235]
+[2024-05-21 00:45:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23297235]
+[2024-05-21 00:45:42] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-21 00:45:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ecoengine
+[2024-05-21 00:45:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cocorum
+[2024-05-21 00:45:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nora-lib
+[2024-05-21 00:45:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: asana
+[2024-05-21 00:45:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bencode-c
+[2024-05-21 00:45:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: smartcard-identifier
+[2024-05-21 00:45:42] INFO root fetch - processPackages [nora-lib]: New version: [0.0.5.dev1] Old Version: [0.0.5.dev0]
+[2024-05-21 00:45:42] WARNING root fetch - processPackages [bencode-c]: Skipping, unable to determine old version
+[2024-05-21 00:45:42] INFO root fetch - main [MainThread]: End processing [bencode-c] error
+[2024-05-21 00:45:42] INFO root fetch - processPackages [nora-lib]: Downloading https://files.pythonhosted.org/packages/37/18/6aea2b20d7d70aa4cff1aaa4e3e1201590ddbbea4cec85c61ddfd56eee15/nora_lib-0.0.5.dev0.tar.gz
+[2024-05-21 00:45:42] INFO root fetch - processPackages [ecoengine]: New version: [1.6.2] Old Version: [1.6.1]
+[2024-05-21 00:45:42] INFO root fetch - processPackages [cocorum]: New version: [1.3.1] Old Version: [1.2.0]
+[2024-05-21 00:45:42] INFO root fetch - processPackages [asana]: New version: [5.0.7] Old Version: [5.0.6]
+[2024-05-21 00:45:42] INFO root fetch - processPackages [smartcard-identifier]: New version: [1.8.2] Old Version: [1.8.1]
+[2024-05-21 00:45:43] INFO root fetch - processPackages [ecoengine]: Downloading https://files.pythonhosted.org/packages/39/8c/f67e925f65cf5f9544ea1724857f684986d8652fa4790cb27377baf8a563/ecoengine-1.6.1.tar.gz
+[2024-05-21 00:45:43] INFO root fetch - processPackages [cocorum]: Downloading https://files.pythonhosted.org/packages/ef/bc/9d52b2407c4fca71b67099bcef2d3bd0876c5dffc6e9fa961c649959063b/cocorum-1.2.0.tar.gz
+[2024-05-21 00:45:43] INFO root fetch - processPackages [smartcard-identifier]: Downloading https://files.pythonhosted.org/packages/b8/80/def55a839970de3431b0901f59661f00a5f44774f8858b5460feeba37afa/smartcard_identifier-1.8.1.tar.gz
+[2024-05-21 00:45:43] INFO root fetch - processPackages [asana]: Downloading https://files.pythonhosted.org/packages/7e/47/34eb40ec75bc88ff5057cbf436d77bd087101dd553688d0ba1900fb72463/asana-5.0.6.tar.gz
+[2024-05-21 00:45:43] INFO root fetch - processPackages [nora-lib]: Downloading https://files.pythonhosted.org/packages/af/ef/c254a794c214f970bd08e5e09b617958b93678e807037f2f2ed1f070c36a/nora_lib-0.0.5.dev1.tar.gz
+[2024-05-21 00:45:43] INFO root fetch - processPackages [nora-lib]: executing diffoscope
+[2024-05-21 00:45:43] INFO root fetch - processPackages [nora-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nora_lib-0.0.5.dev0.tar.gz tmp/nora_lib-0.0.5.dev1.tar.gz --markdown 20240521/n/nora-lib/0.0.5.dev0-0.0.5.dev1/README.md --exclude *.pyd
+[2024-05-21 00:45:43] INFO root fetch - processPackages [asana]: Downloading https://files.pythonhosted.org/packages/ce/1d/e05910afad99f1bf5f2b1206150f5cc789abe8ed52a1f440de2d14eff6b4/asana-5.0.7.tar.gz
+[2024-05-21 00:45:43] INFO root fetch - processPackages [cocorum]: Downloading https://files.pythonhosted.org/packages/78/23/5e6d4818b2b0b55f4e9128b0f3a82a8d690a660c75b9d2502579734b3468/cocorum-1.3.1.tar.gz
+[2024-05-21 00:45:43] INFO root fetch - processPackages [smartcard-identifier]: Downloading https://files.pythonhosted.org/packages/f7/f8/74503d91d573b6356171b6ba8263005f2c3bb4c0274b99d775e80db087cb/smartcard_identifier-1.8.2.tar.gz
+[2024-05-21 00:45:43] INFO root fetch - processPackages [asana]: executing diffoscope
+[2024-05-21 00:45:43] INFO root fetch - processPackages [asana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asana-5.0.6.tar.gz tmp/asana-5.0.7.tar.gz --markdown 20240521/a/asana/5.0.6-5.0.7/README.md --exclude *.pyd
+[2024-05-21 00:45:43] INFO root fetch - processPackages [cocorum]: executing diffoscope
+[2024-05-21 00:45:43] INFO root fetch - processPackages [cocorum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cocorum-1.2.0.tar.gz tmp/cocorum-1.3.1.tar.gz --markdown 20240521/c/cocorum/1.2.0-1.3.1/README.md --exclude *.pyd
+[2024-05-21 00:45:43] INFO root fetch - processPackages [ecoengine]: Downloading https://files.pythonhosted.org/packages/8e/7f/3833ad939ae28cdb09ff3bd7034f1681eff27a046fcb8592fe94e7633583/ecoengine-1.6.2.tar.gz
+[2024-05-21 00:45:43] INFO root fetch - processPackages [smartcard-identifier]: executing diffoscope
+[2024-05-21 00:45:43] INFO root fetch - processPackages [smartcard-identifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartcard_identifier-1.8.1.tar.gz tmp/smartcard_identifier-1.8.2.tar.gz --markdown 20240521/s/smartcard-identifier/1.8.1-1.8.2/README.md --exclude *.pyd
+[2024-05-21 00:45:43] INFO root fetch - processPackages [nora-lib]: Remove: archive file [/home/abi/fetcher/tmp/nora_lib-0.0.5.dev0.tar.gz]
+[2024-05-21 00:45:43] INFO root fetch - processPackages [nora-lib]: Remove: archive file [/home/abi/fetcher/tmp/nora_lib-0.0.5.dev1.tar.gz]
+[2024-05-21 00:45:43] INFO root fetch - main [MainThread]: End processing [nora-lib]: success
+[2024-05-21 00:45:44] INFO root fetch - processPackages [ecoengine]: executing diffoscope
+[2024-05-21 00:45:44] INFO root fetch - processPackages [ecoengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecoengine-1.6.1.tar.gz tmp/ecoengine-1.6.2.tar.gz --markdown 20240521/e/ecoengine/1.6.1-1.6.2/README.md --exclude *.pyd
+[2024-05-21 00:45:44] INFO root fetch - processPackages [cocorum]: Remove: archive file [/home/abi/fetcher/tmp/cocorum-1.2.0.tar.gz]
+[2024-05-21 00:45:44] INFO root fetch - processPackages [cocorum]: Remove: archive file [/home/abi/fetcher/tmp/cocorum-1.3.1.tar.gz]
+[2024-05-21 00:45:44] INFO root fetch - main [MainThread]: End processing [cocorum]: success
+[2024-05-21 00:45:44] INFO root fetch - processPackages [smartcard-identifier]: Remove: archive file [/home/abi/fetcher/tmp/smartcard_identifier-1.8.1.tar.gz]
+[2024-05-21 00:45:44] INFO root fetch - processPackages [smartcard-identifier]: Remove: archive file [/home/abi/fetcher/tmp/smartcard_identifier-1.8.2.tar.gz]
+[2024-05-21 00:45:44] INFO root fetch - main [MainThread]: End processing [smartcard-identifier]: success
+[2024-05-21 00:45:45] INFO root fetch - processPackages [asana]: Remove: archive file [/home/abi/fetcher/tmp/asana-5.0.6.tar.gz]
+[2024-05-21 00:45:45] INFO root fetch - processPackages [asana]: Remove: archive file [/home/abi/fetcher/tmp/asana-5.0.7.tar.gz]
+[2024-05-21 00:45:45] INFO root fetch - main [MainThread]: End processing [asana]: success
+[2024-05-21 00:45:47] INFO root fetch - processPackages [ecoengine]: Remove: archive file [/home/abi/fetcher/tmp/ecoengine-1.6.1.tar.gz]
+[2024-05-21 00:45:47] INFO root fetch - processPackages [ecoengine]: Remove: archive file [/home/abi/fetcher/tmp/ecoengine-1.6.2.tar.gz]
+[2024-05-21 00:45:47] INFO root fetch - main [MainThread]: End processing [ecoengine]: success
+[2024-05-21 00:45:47] INFO root fetch - main [MainThread]: Store serial: [23297261]
