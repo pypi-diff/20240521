@@ -761,3 +761,33 @@
 [2024-05-21 00:30:26] INFO root fetch - processPackages [rio-ui]: Remove: archive file [/home/abi/fetcher/tmp/rio_ui-0.7.5.tar.gz]
 [2024-05-21 00:30:26] INFO root fetch - main [MainThread]: End processing [rio-ui]: success
 [2024-05-21 00:30:26] INFO root fetch - main [MainThread]: Store serial: [23297105]
+[2024-05-21 00:32:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23297105]
+[2024-05-21 00:32:35] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-21 00:32:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fudstop
+[2024-05-21 00:32:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: needto
+[2024-05-21 00:32:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: devsecops-engine-tools
+[2024-05-21 00:32:35] INFO root fetch - processPackages [needto]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-21 00:32:35] INFO root fetch - processPackages [devsecops-engine-tools]: New version: [1.7.9] Old Version: [1.7.8]
+[2024-05-21 00:32:36] INFO root fetch - processPackages [needto]: Downloading https://files.pythonhosted.org/packages/03/70/ccee318771e12940248044ff4a0078d6c8f732eecf2bc505a7f4340696ba/needto-0.1.5.tar.gz
+[2024-05-21 00:32:36] INFO root fetch - processPackages [fudstop]: New version: [2.6.7] Old Version: [2.6.5]
+[2024-05-21 00:32:36] INFO root fetch - processPackages [devsecops-engine-tools]: Downloading https://files.pythonhosted.org/packages/40/47/0a8eb946801a13a37207ff69655d341f8072b6b18180764c4b0f0da04572/devsecops_engine_tools-1.7.8.tar.gz
+[2024-05-21 00:32:36] INFO root fetch - processPackages [fudstop]: Downloading https://files.pythonhosted.org/packages/f1/cb/ff22e61619ecaf4a381023771169d254481297dbc27097be24a4f55fee60/fudstop-2.6.5.tar.gz
+[2024-05-21 00:32:36] INFO root fetch - processPackages [devsecops-engine-tools]: Downloading https://files.pythonhosted.org/packages/be/1d/5f4f024228a7ceeb3bedcc406b6abf0e317521845fad816d4d1f5fa7729d/devsecops_engine_tools-1.7.9.tar.gz
+[2024-05-21 00:32:36] INFO root fetch - processPackages [needto]: Downloading https://files.pythonhosted.org/packages/ac/49/f12f0b7afc69762d371611027a507adcdaca38b38533ba3db619ec2f1360/needto-0.1.6.tar.gz
+[2024-05-21 00:32:36] INFO root fetch - processPackages [devsecops-engine-tools]: executing diffoscope
+[2024-05-21 00:32:36] INFO root fetch - processPackages [devsecops-engine-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devsecops_engine_tools-1.7.8.tar.gz tmp/devsecops_engine_tools-1.7.9.tar.gz --markdown 20240521/d/devsecops-engine-tools/1.7.8-1.7.9/README.md --exclude *.pyd
+[2024-05-21 00:32:36] INFO root fetch - processPackages [needto]: executing diffoscope
+[2024-05-21 00:32:36] INFO root fetch - processPackages [needto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/needto-0.1.5.tar.gz tmp/needto-0.1.6.tar.gz --markdown 20240521/n/needto/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-21 00:32:36] INFO root fetch - processPackages [fudstop]: Downloading https://files.pythonhosted.org/packages/7d/d0/609acde7400148e2f910d157018c7922c5063e105509e45480c02a8f2753/fudstop-2.6.7.tar.gz
+[2024-05-21 00:32:36] INFO root fetch - processPackages [fudstop]: executing diffoscope
+[2024-05-21 00:32:36] INFO root fetch - processPackages [fudstop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fudstop-2.6.5.tar.gz tmp/fudstop-2.6.7.tar.gz --markdown 20240521/f/fudstop/2.6.5-2.6.7/README.md --exclude *.pyd
+[2024-05-21 00:32:37] INFO root fetch - processPackages [needto]: Remove: archive file [/home/abi/fetcher/tmp/needto-0.1.5.tar.gz]
+[2024-05-21 00:32:37] INFO root fetch - processPackages [needto]: Remove: archive file [/home/abi/fetcher/tmp/needto-0.1.6.tar.gz]
+[2024-05-21 00:32:37] INFO root fetch - main [MainThread]: End processing [needto]: success
+[2024-05-21 00:32:37] INFO root fetch - processPackages [devsecops-engine-tools]: Remove: archive file [/home/abi/fetcher/tmp/devsecops_engine_tools-1.7.8.tar.gz]
+[2024-05-21 00:32:37] INFO root fetch - processPackages [devsecops-engine-tools]: Remove: archive file [/home/abi/fetcher/tmp/devsecops_engine_tools-1.7.9.tar.gz]
+[2024-05-21 00:32:37] INFO root fetch - main [MainThread]: End processing [devsecops-engine-tools]: success
+[2024-05-21 00:32:37] INFO root fetch - processPackages [fudstop]: Remove: archive file [/home/abi/fetcher/tmp/fudstop-2.6.5.tar.gz]
+[2024-05-21 00:32:37] INFO root fetch - processPackages [fudstop]: Remove: archive file [/home/abi/fetcher/tmp/fudstop-2.6.7.tar.gz]
+[2024-05-21 00:32:37] INFO root fetch - main [MainThread]: End processing [fudstop]: success
+[2024-05-21 00:32:37] INFO root fetch - main [MainThread]: Store serial: [23297115]
