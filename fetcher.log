@@ -791,3 +791,51 @@
 [2024-05-21 00:32:37] INFO root fetch - processPackages [fudstop]: Remove: archive file [/home/abi/fetcher/tmp/fudstop-2.6.7.tar.gz]
 [2024-05-21 00:32:37] INFO root fetch - main [MainThread]: End processing [fudstop]: success
 [2024-05-21 00:32:37] INFO root fetch - main [MainThread]: Store serial: [23297115]
+[2024-05-21 00:34:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23297115]
+[2024-05-21 00:34:45] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-21 00:34:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pypechain
+[2024-05-21 00:34:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fingerGeoparser
+[2024-05-21 00:34:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chipstream
+[2024-05-21 00:34:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: model-checker
+[2024-05-21 00:34:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: autogencap-rajan.jedi
+[2024-05-21 00:34:46] INFO root fetch - processPackages [autogencap-rajan.jedi]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-21 00:34:46] INFO root fetch - processPackages [autogencap-rajan.jedi]: Downloading https://files.pythonhosted.org/packages/e4/e0/0ffe1d9718a8a434cd9a0bb1b35d1c3128000dcbad1e337a832dd488a3c8/autogencap_rajan_jedi-0.0.7.tar.gz
+[2024-05-21 00:34:46] INFO root fetch - processPackages [fingerGeoparser]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-21 00:34:46] INFO root fetch - processPackages [chipstream]: New version: [0.3.0] Old Version: [0.2.2]
+[2024-05-21 00:34:46] INFO root fetch - processPackages [model-checker]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-21 00:34:46] INFO root fetch - processPackages [pypechain]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-21 00:34:46] INFO root fetch - processPackages [model-checker]: Downloading https://files.pythonhosted.org/packages/d4/a3/c747a4913078672f34adc4f223b1280d3d3bba45953bb6de5a9efe5ba52e/model_checker-0.3.8.tar.gz
+[2024-05-21 00:34:46] INFO root fetch - processPackages [chipstream]: Downloading https://files.pythonhosted.org/packages/0c/06/1a5cad7d8de2f35f7ca927b4d128de5abab3aae1ec73fc07b0206a0e1801/chipstream-0.2.2.tar.gz
+[2024-05-21 00:34:46] INFO root fetch - processPackages [fingerGeoparser]: Downloading https://files.pythonhosted.org/packages/00/c8/c3af3a067b0adc12f0d2cb8c26e92b8649719e5c39ee99fbcc5cebc9d4b7/fingerGeoparser-0.1.0.tar.gz
+[2024-05-21 00:34:46] INFO root fetch - processPackages [pypechain]: Downloading https://files.pythonhosted.org/packages/71/67/c798a6528332b9e66cda9cb79b0c6e2073b5832286dd4ea97cdb7a4dd892/pypechain-0.0.8.tar.gz
+[2024-05-21 00:34:46] INFO root fetch - processPackages [model-checker]: Downloading https://files.pythonhosted.org/packages/9f/34/8db406de616a95ce5da5a832c9764ce727860cfc2e73a8df9d985cebebc8/model_checker-0.3.9.tar.gz
+[2024-05-21 00:34:46] INFO root fetch - processPackages [autogencap-rajan.jedi]: Downloading https://files.pythonhosted.org/packages/97/b8/1a77dcccafc5e02d0934325a7f2661a042ef9f79e8f933519fcc410b2f4f/autogencap_rajan_jedi-0.0.8.tar.gz
+[2024-05-21 00:34:46] INFO root fetch - processPackages [model-checker]: executing diffoscope
+[2024-05-21 00:34:46] INFO root fetch - processPackages [model-checker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model_checker-0.3.8.tar.gz tmp/model_checker-0.3.9.tar.gz --markdown 20240521/m/model-checker/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-21 00:34:46] INFO root fetch - processPackages [fingerGeoparser]: Downloading https://files.pythonhosted.org/packages/7f/f5/8ba6253ac5c746502ef93d1de8a0559f24e3213ef49a859561a9d3c7893f/fingergeoparser-0.2.0.tar.gz
+[2024-05-21 00:34:46] INFO root fetch - processPackages [chipstream]: Downloading https://files.pythonhosted.org/packages/21/9e/9e81edbe0ba7b58b705219a6f46ca2ba327d8fe4fdd5ca383c21bb582a23/chipstream-0.3.0.tar.gz
+[2024-05-21 00:34:46] INFO root fetch - processPackages [pypechain]: Downloading https://files.pythonhosted.org/packages/9e/2e/c0497f1eed58634a34b9fdcf2ae4c380f1468fc4b26ff3e6909f5370d425/pypechain-0.0.9.tar.gz
+[2024-05-21 00:34:46] INFO root fetch - processPackages [autogencap-rajan.jedi]: executing diffoscope
+[2024-05-21 00:34:46] INFO root fetch - processPackages [autogencap-rajan.jedi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogencap_rajan_jedi-0.0.7.tar.gz tmp/autogencap_rajan_jedi-0.0.8.tar.gz --markdown 20240521/a/autogencap-rajan.jedi/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-21 00:34:46] INFO root fetch - processPackages [fingerGeoparser]: executing diffoscope
+[2024-05-21 00:34:46] INFO root fetch - processPackages [fingerGeoparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fingerGeoparser-0.1.0.tar.gz tmp/fingergeoparser-0.2.0.tar.gz --markdown 20240521/f/fingerGeoparser/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-21 00:34:47] INFO root fetch - processPackages [pypechain]: executing diffoscope
+[2024-05-21 00:34:47] INFO root fetch - processPackages [pypechain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypechain-0.0.8.tar.gz tmp/pypechain-0.0.9.tar.gz --markdown 20240521/p/pypechain/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-21 00:34:47] INFO root fetch - processPackages [chipstream]: executing diffoscope
+[2024-05-21 00:34:47] INFO root fetch - processPackages [chipstream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chipstream-0.2.2.tar.gz tmp/chipstream-0.3.0.tar.gz --markdown 20240521/c/chipstream/0.2.2-0.3.0/README.md --exclude *.pyd
+[2024-05-21 00:34:47] INFO root fetch - processPackages [model-checker]: Remove: archive file [/home/abi/fetcher/tmp/model_checker-0.3.8.tar.gz]
+[2024-05-21 00:34:47] INFO root fetch - processPackages [model-checker]: Remove: archive file [/home/abi/fetcher/tmp/model_checker-0.3.9.tar.gz]
+[2024-05-21 00:34:47] INFO root fetch - main [MainThread]: End processing [model-checker]: success
+[2024-05-21 00:34:47] INFO root fetch - processPackages [fingerGeoparser]: Remove: archive file [/home/abi/fetcher/tmp/fingerGeoparser-0.1.0.tar.gz]
+[2024-05-21 00:34:47] INFO root fetch - processPackages [fingerGeoparser]: Remove: archive file [/home/abi/fetcher/tmp/fingergeoparser-0.2.0.tar.gz]
+[2024-05-21 00:34:47] INFO root fetch - main [MainThread]: End processing [fingerGeoparser]: success
+[2024-05-21 00:34:47] INFO root fetch - processPackages [pypechain]: Remove: archive file [/home/abi/fetcher/tmp/pypechain-0.0.8.tar.gz]
+[2024-05-21 00:34:47] INFO root fetch - processPackages [pypechain]: Remove: archive file [/home/abi/fetcher/tmp/pypechain-0.0.9.tar.gz]
+[2024-05-21 00:34:47] INFO root fetch - main [MainThread]: End processing [pypechain]: success
+[2024-05-21 00:34:47] INFO root fetch - processPackages [chipstream]: Remove: archive file [/home/abi/fetcher/tmp/chipstream-0.2.2.tar.gz]
+[2024-05-21 00:34:47] INFO root fetch - processPackages [chipstream]: Remove: archive file [/home/abi/fetcher/tmp/chipstream-0.3.0.tar.gz]
+[2024-05-21 00:34:47] INFO root fetch - main [MainThread]: End processing [chipstream]: success
+[2024-05-21 00:34:48] INFO root fetch - processPackages [autogencap-rajan.jedi]: Remove: archive file [/home/abi/fetcher/tmp/autogencap_rajan_jedi-0.0.7.tar.gz]
+[2024-05-21 00:34:48] INFO root fetch - processPackages [autogencap-rajan.jedi]: Remove: archive file [/home/abi/fetcher/tmp/autogencap_rajan_jedi-0.0.8.tar.gz]
+[2024-05-21 00:34:48] INFO root fetch - main [MainThread]: End processing [autogencap-rajan.jedi]: success
+[2024-05-21 00:34:48] INFO root fetch - main [MainThread]: Store serial: [23297130]
