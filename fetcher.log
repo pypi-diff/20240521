@@ -1646,3 +1646,36 @@
 [2024-05-21 01:09:51] INFO root fetch - processPackages [pyshacl]: Remove: archive file [/home/abi/fetcher/tmp/pyshacl-0.9.9.post1.tar.gz]
 [2024-05-21 01:09:51] INFO root fetch - main [MainThread]: End processing [pyshacl]: success
 [2024-05-21 01:09:51] INFO root fetch - main [MainThread]: Store serial: [23297457]
+[2024-05-21 01:11:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23297457]
+[2024-05-21 01:11:59] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-21 01:11:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gradio-agentchatbot
+[2024-05-21 01:11:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scale-llm-engine
+[2024-05-21 01:11:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py-alpaca-daily-losers
+[2024-05-21 01:11:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pih-plb-auto
+[2024-05-21 01:11:59] WARNING root fetch - processPackages [gradio-agentchatbot]: Skipping, unable to determine old version
+[2024-05-21 01:11:59] INFO root fetch - main [MainThread]: End processing [gradio-agentchatbot] error
+[2024-05-21 01:11:59] INFO root fetch - processPackages [pih-plb-auto]: New version: [0.14] Old Version: [0.13]
+[2024-05-21 01:12:00] INFO root fetch - processPackages [py-alpaca-daily-losers]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-21 01:12:00] INFO root fetch - processPackages [scale-llm-engine]: New version: [0.0.0b9] Old Version: [0.0.0b8]
+[2024-05-21 01:12:00] INFO root fetch - processPackages [pih-plb-auto]: Downloading https://files.pythonhosted.org/packages/ca/83/4be49d0f569a7d1ac0f92b6671e3390ad303c4022ce4758fdd2a90fa382f/pih-plb_auto-0.13.tar.gz
+[2024-05-21 01:12:00] INFO root fetch - processPackages [scale-llm-engine]: Downloading https://files.pythonhosted.org/packages/fb/97/c85f5efd96d4cf46b74e7d9aeee78e3299ae83ab8ba90ed1f0dea226e8b2/scale_llm_engine-0.0.0b8.tar.gz
+[2024-05-21 01:12:00] INFO root fetch - processPackages [py-alpaca-daily-losers]: Downloading https://files.pythonhosted.org/packages/eb/30/77394d043e92aeda888079526cde138679191a1aa8f14b20301e20d6bd8e/py_alpaca_daily_losers-0.2.0.tar.gz
+[2024-05-21 01:12:00] INFO root fetch - processPackages [py-alpaca-daily-losers]: Downloading https://files.pythonhosted.org/packages/53/5e/0645c52919381c03a3c60f3f5d4c570d98328dda5e1892ac6050861dc6f9/py_alpaca_daily_losers-0.2.1.tar.gz
+[2024-05-21 01:12:00] INFO root fetch - processPackages [pih-plb-auto]: Downloading https://files.pythonhosted.org/packages/19/0a/c21fc8ff7950089ac1d0264146d7755b0a0c1c5a2df03536429df1db7a75/pih-plb_auto-0.14.tar.gz
+[2024-05-21 01:12:00] INFO root fetch - processPackages [scale-llm-engine]: Downloading https://files.pythonhosted.org/packages/21/17/83b298f2430c5d10a7fc4660bf179b03a02f710dea09ccc884a8266b93f4/scale_llm_engine-0.0.0b9.tar.gz
+[2024-05-21 01:12:00] INFO root fetch - processPackages [py-alpaca-daily-losers]: executing diffoscope
+[2024-05-21 01:12:00] INFO root fetch - processPackages [py-alpaca-daily-losers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_alpaca_daily_losers-0.2.0.tar.gz tmp/py_alpaca_daily_losers-0.2.1.tar.gz --markdown 20240521/p/py-alpaca-daily-losers/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-21 01:12:00] INFO root fetch - processPackages [pih-plb-auto]: executing diffoscope
+[2024-05-21 01:12:00] INFO root fetch - processPackages [pih-plb-auto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-plb_auto-0.13.tar.gz tmp/pih-plb_auto-0.14.tar.gz --markdown 20240521/p/pih-plb-auto/0.13-0.14/README.md --exclude *.pyd
+[2024-05-21 01:12:00] INFO root fetch - processPackages [scale-llm-engine]: executing diffoscope
+[2024-05-21 01:12:00] INFO root fetch - processPackages [scale-llm-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scale_llm_engine-0.0.0b8.tar.gz tmp/scale_llm_engine-0.0.0b9.tar.gz --markdown 20240521/s/scale-llm-engine/0.0.0b8-0.0.0b9/README.md --exclude *.pyd
+[2024-05-21 01:12:01] INFO root fetch - processPackages [pih-plb-auto]: Remove: archive file [/home/abi/fetcher/tmp/pih-plb_auto-0.13.tar.gz]
+[2024-05-21 01:12:01] INFO root fetch - processPackages [pih-plb-auto]: Remove: archive file [/home/abi/fetcher/tmp/pih-plb_auto-0.14.tar.gz]
+[2024-05-21 01:12:01] INFO root fetch - main [MainThread]: End processing [pih-plb-auto]: success
+[2024-05-21 01:12:01] INFO root fetch - processPackages [py-alpaca-daily-losers]: Remove: archive file [/home/abi/fetcher/tmp/py_alpaca_daily_losers-0.2.0.tar.gz]
+[2024-05-21 01:12:01] INFO root fetch - processPackages [py-alpaca-daily-losers]: Remove: archive file [/home/abi/fetcher/tmp/py_alpaca_daily_losers-0.2.1.tar.gz]
+[2024-05-21 01:12:01] INFO root fetch - main [MainThread]: End processing [py-alpaca-daily-losers]: success
+[2024-05-21 01:12:01] INFO root fetch - processPackages [scale-llm-engine]: Remove: archive file [/home/abi/fetcher/tmp/scale_llm_engine-0.0.0b8.tar.gz]
+[2024-05-21 01:12:01] INFO root fetch - processPackages [scale-llm-engine]: Remove: archive file [/home/abi/fetcher/tmp/scale_llm_engine-0.0.0b9.tar.gz]
+[2024-05-21 01:12:01] INFO root fetch - main [MainThread]: End processing [scale-llm-engine]: success
+[2024-05-21 01:12:01] INFO root fetch - main [MainThread]: Store serial: [23297469]
