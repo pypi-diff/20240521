@@ -570,3 +570,24 @@
 [2024-05-21 00:20:54] INFO root fetch - processPackages [dcnum]: Remove: archive file [/home/abi/fetcher/tmp/dcnum-0.19.0.tar.gz]
 [2024-05-21 00:20:54] INFO root fetch - main [MainThread]: End processing [dcnum]: success
 [2024-05-21 00:20:54] INFO root fetch - main [MainThread]: Store serial: [23297000]
+[2024-05-21 00:22:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23297000]
+[2024-05-21 00:23:03] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-21 00:23:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mat-data
+[2024-05-21 00:23:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: experiment-config
+[2024-05-21 00:23:03] INFO root fetch - processPackages [experiment-config]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-21 00:23:03] INFO root fetch - processPackages [experiment-config]: Downloading https://files.pythonhosted.org/packages/3f/b5/b0868da7a2bbd43d6c5c25aca04c97e8bf25b8c3ebd84ee4d818a4517180/experiment-config-1.0.0.tar.gz
+[2024-05-21 00:23:03] INFO root fetch - processPackages [mat-data]: New version: [0.1rc2] Old Version: [0.1rc1]
+[2024-05-21 00:23:03] INFO root fetch - processPackages [experiment-config]: Downloading https://files.pythonhosted.org/packages/e9/0b/bd217bb5960896ad9d17a6d7911ddbf7c072a1f9b4734009a1138ae085cb/experiment-config-1.0.1.tar.gz
+[2024-05-21 00:23:03] INFO root fetch - processPackages [mat-data]: Downloading https://files.pythonhosted.org/packages/8c/7a/0a9ea9856a9bc3ba3b2c56bec4388afb65aab75be7061a9f444b49729a4f/mat_data-0.1rc1.tar.gz
+[2024-05-21 00:23:04] INFO root fetch - processPackages [experiment-config]: executing diffoscope
+[2024-05-21 00:23:04] INFO root fetch - processPackages [experiment-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/experiment-config-1.0.0.tar.gz tmp/experiment-config-1.0.1.tar.gz --markdown 20240521/e/experiment-config/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-21 00:23:04] INFO root fetch - processPackages [mat-data]: Downloading https://files.pythonhosted.org/packages/f3/8f/6a1d6a9d4a0f7c9e26bc24bbab69a8fb39993d03901a7c644f2632a938a3/mat_data-0.1rc2.tar.gz
+[2024-05-21 00:23:04] INFO root fetch - processPackages [experiment-config]: Remove: archive file [/home/abi/fetcher/tmp/experiment-config-1.0.0.tar.gz]
+[2024-05-21 00:23:04] INFO root fetch - processPackages [experiment-config]: Remove: archive file [/home/abi/fetcher/tmp/experiment-config-1.0.1.tar.gz]
+[2024-05-21 00:23:04] INFO root fetch - main [MainThread]: End processing [experiment-config]: success
+[2024-05-21 00:23:05] INFO root fetch - processPackages [mat-data]: executing diffoscope
+[2024-05-21 00:23:05] INFO root fetch - processPackages [mat-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mat_data-0.1rc1.tar.gz tmp/mat_data-0.1rc2.tar.gz --markdown 20240521/m/mat-data/0.1rc1-0.1rc2/README.md --exclude *.pyd
+[2024-05-21 00:23:23] INFO root fetch - processPackages [mat-data]: Remove: archive file [/home/abi/fetcher/tmp/mat_data-0.1rc1.tar.gz]
+[2024-05-21 00:23:23] INFO root fetch - processPackages [mat-data]: Remove: archive file [/home/abi/fetcher/tmp/mat_data-0.1rc2.tar.gz]
+[2024-05-21 00:23:23] INFO root fetch - main [MainThread]: End processing [mat-data]: success
+[2024-05-21 00:23:23] INFO root fetch - main [MainThread]: Store serial: [23297033]
