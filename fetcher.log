@@ -2294,3 +2294,24 @@
 [2024-05-21 01:51:19] INFO root fetch - processPackages [plexhints]: Remove: archive file [/home/abi/fetcher/tmp/plexhints-2024.520.225051.tar.gz]
 [2024-05-21 01:51:19] INFO root fetch - main [MainThread]: End processing [plexhints]: success
 [2024-05-21 01:51:19] INFO root fetch - main [MainThread]: Store serial: [23297701]
+[2024-05-21 01:53:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23297701]
+[2024-05-21 01:53:28] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-21 01:53:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: onnxruntime-training-cpu
+[2024-05-21 01:53:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: awsync
+[2024-05-21 01:53:28] INFO root fetch - processPackages [onnxruntime-training-cpu]: New version: [1.18.0] Old Version: [1.17.3]
+[2024-05-21 01:53:28] INFO root fetch - processPackages [awsync]: New version: [0.4.5] Old Version: [0.4.4]
+[2024-05-21 01:53:28] INFO root fetch - processPackages [awsync]: Downloading https://files.pythonhosted.org/packages/c0/de/70212a8ae54601c588de16add4348d995674eabcdb55addacb5fcffc357e/awsync-0.4.4.tar.gz
+[2024-05-21 01:53:28] INFO root fetch - processPackages [onnxruntime-training-cpu]: Downloading https://files.pythonhosted.org/packages/8e/d3/d00126eb3e5d778c7d0da42b6fd52f0182f03c0fea67937f74fb72cb9725/onnxruntime_training_cpu-1.17.3-cp39-cp39-win_amd64.whl
+[2024-05-21 01:53:28] INFO root fetch - processPackages [awsync]: Downloading https://files.pythonhosted.org/packages/03/5d/c697d161eca7a53ea0c707a8cbda14df6c74bfad1876a0faef0c5b8f516d/awsync-0.4.5.tar.gz
+[2024-05-21 01:53:28] INFO root fetch - processPackages [awsync]: executing diffoscope
+[2024-05-21 01:53:28] INFO root fetch - processPackages [awsync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awsync-0.4.4.tar.gz tmp/awsync-0.4.5.tar.gz --markdown 20240521/a/awsync/0.4.4-0.4.5/README.md --exclude *.pyd
+[2024-05-21 01:53:29] INFO root fetch - processPackages [awsync]: Remove: archive file [/home/abi/fetcher/tmp/awsync-0.4.4.tar.gz]
+[2024-05-21 01:53:29] INFO root fetch - processPackages [awsync]: Remove: archive file [/home/abi/fetcher/tmp/awsync-0.4.5.tar.gz]
+[2024-05-21 01:53:29] INFO root fetch - main [MainThread]: End processing [awsync]: success
+[2024-05-21 01:53:30] INFO root fetch - processPackages [onnxruntime-training-cpu]: Downloading https://files.pythonhosted.org/packages/3c/9d/58e7834c88e752e158c53b87caa923ab70a2d2518c662de34628568df324/onnxruntime_training_cpu-1.18.0-cp39-cp39-win_amd64.whl
+[2024-05-21 01:53:31] INFO root fetch - processPackages [onnxruntime-training-cpu]: executing diffoscope
+[2024-05-21 01:53:31] INFO root fetch - processPackages [onnxruntime-training-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnxruntime_training_cpu-1.17.3-cp39-cp39-win_amd64.whl.zip tmp/onnxruntime_training_cpu-1.18.0-cp39-cp39-win_amd64.whl.zip --markdown 20240521/o/onnxruntime-training-cpu/1.17.3-1.18.0/README.md --exclude *.pyd
+[2024-05-21 01:53:34] INFO root fetch - processPackages [onnxruntime-training-cpu]: Remove: archive file [/home/abi/fetcher/tmp/onnxruntime_training_cpu-1.17.3-cp39-cp39-win_amd64.whl.zip]
+[2024-05-21 01:53:34] INFO root fetch - processPackages [onnxruntime-training-cpu]: Remove: archive file [/home/abi/fetcher/tmp/onnxruntime_training_cpu-1.18.0-cp39-cp39-win_amd64.whl.zip]
+[2024-05-21 01:53:34] INFO root fetch - main [MainThread]: End processing [onnxruntime-training-cpu]: success
+[2024-05-21 01:53:34] INFO root fetch - main [MainThread]: Store serial: [23297720]
