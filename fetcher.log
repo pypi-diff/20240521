@@ -2258,3 +2258,18 @@
 [2024-05-21 01:46:59] INFO root fetch - processPackages [dkist-processing-visp]: Remove: archive file [/home/abi/fetcher/tmp/dkist_processing_visp-2.9.0.tar.gz]
 [2024-05-21 01:46:59] INFO root fetch - main [MainThread]: End processing [dkist-processing-visp]: success
 [2024-05-21 01:46:59] INFO root fetch - main [MainThread]: Store serial: [23297688]
+[2024-05-21 01:49:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23297688]
+[2024-05-21 01:49:08] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-21 01:49:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yowasp-runtime
+[2024-05-21 01:49:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sillyORM
+[2024-05-21 01:49:08] INFO root fetch - processPackages [yowasp-runtime]: New version: [1.7] Old Version: [1.6]
+[2024-05-21 01:49:08] INFO root fetch - processPackages [yowasp-runtime]: Downloading https://files.pythonhosted.org/packages/e7/a1/907e6e8a79a56a85a8042c852e6071070625366072275b2f016b73f070ad/yowasp_runtime-1.6-py3-none-any.whl
+[2024-05-21 01:49:08] WARNING root fetch - processPackages [sillyORM]: Skipping, unable to determine old version
+[2024-05-21 01:49:08] INFO root fetch - main [MainThread]: End processing [sillyORM] error
+[2024-05-21 01:49:08] INFO root fetch - processPackages [yowasp-runtime]: Downloading https://files.pythonhosted.org/packages/3f/e9/90cb3e0e2773737c930d8192b0232e03eee71f9ae918620a47be7815f379/yowasp_runtime-1.7-py3-none-any.whl
+[2024-05-21 01:49:08] INFO root fetch - processPackages [yowasp-runtime]: executing diffoscope
+[2024-05-21 01:49:08] INFO root fetch - processPackages [yowasp-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yowasp_runtime-1.6-py3-none-any.whl.zip tmp/yowasp_runtime-1.7-py3-none-any.whl.zip --markdown 20240521/y/yowasp-runtime/1.6-1.7/README.md --exclude *.pyd
+[2024-05-21 01:49:09] INFO root fetch - processPackages [yowasp-runtime]: Remove: archive file [/home/abi/fetcher/tmp/yowasp_runtime-1.6-py3-none-any.whl.zip]
+[2024-05-21 01:49:09] INFO root fetch - processPackages [yowasp-runtime]: Remove: archive file [/home/abi/fetcher/tmp/yowasp_runtime-1.7-py3-none-any.whl.zip]
+[2024-05-21 01:49:09] INFO root fetch - main [MainThread]: End processing [yowasp-runtime]: success
+[2024-05-21 01:49:09] INFO root fetch - main [MainThread]: Store serial: [23297695]
