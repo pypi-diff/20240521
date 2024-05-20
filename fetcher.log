@@ -246,3 +246,81 @@
 [2024-05-21 00:09:56] INFO root fetch - processPackages [requests]: Remove: archive file [/home/abi/fetcher/tmp/requests-2.9.2.tar.gz]
 [2024-05-21 00:09:56] INFO root fetch - main [MainThread]: End processing [requests]: success
 [2024-05-21 00:09:56] INFO root fetch - main [MainThread]: Store serial: [23296879]
+[2024-05-21 00:12:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23296879]
+[2024-05-21 00:12:05] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-21 00:12:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: codeflash
+[2024-05-21 00:12:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gizai
+[2024-05-21 00:12:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: adafruit-circuitpython-minimqtt
+[2024-05-21 00:12:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flyflowclient
+[2024-05-21 00:12:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dolomite-ranges
+[2024-05-21 00:12:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: BarteSDK
+[2024-05-21 00:12:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: settngs
+[2024-05-21 00:12:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ucdp-sv
+[2024-05-21 00:12:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: BigEDA
+[2024-05-21 00:12:05] INFO root fetch - processPackages [gizai]: New version: [5.9.1] Old Version: [5.6.1]
+[2024-05-21 00:12:05] INFO root fetch - processPackages [settngs]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-05-21 00:12:05] INFO root fetch - processPackages [BigEDA]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-21 00:12:05] INFO root fetch - processPackages [BarteSDK]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-21 00:12:05] INFO root fetch - processPackages [dolomite-ranges]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-21 00:12:05] INFO root fetch - processPackages [flyflowclient]: New version: [1.14.9] Old Version: [1.14.8]
+[2024-05-21 00:12:05] INFO root fetch - processPackages [gizai]: Downloading https://files.pythonhosted.org/packages/01/83/b0110f05b1480d30f378d727382dac2b2e091afab0e8b384fd19699747f7/gizai-5.6.1.tar.gz
+[2024-05-21 00:12:05] WARNING root fetch - processPackages [ucdp-sv]: Skipping, unable to determine old version
+[2024-05-21 00:12:05] INFO root fetch - main [MainThread]: End processing [ucdp-sv] error
+[2024-05-21 00:12:05] INFO root fetch - processPackages [codeflash]: New version: [0.6.3] Old Version: [0.6.2]
+[2024-05-21 00:12:05] INFO root fetch - processPackages [adafruit-circuitpython-minimqtt]: New version: [7.8.0] Old Version: [7.7.0]
+[2024-05-21 00:12:05] INFO root fetch - processPackages [BigEDA]: Downloading https://files.pythonhosted.org/packages/2f/fe/5c10bf9dfaa50e4e1234e81e022638b3ef20c821e939dae4cdc3da332e46/bigeda-0.0.8.tar.gz
+[2024-05-21 00:12:05] INFO root fetch - processPackages [settngs]: Downloading https://files.pythonhosted.org/packages/a3/f2/8620ed8891c2360a0543ad2272a6490d3474c90aff35f4749685c3923914/settngs-0.9.2.tar.gz
+[2024-05-21 00:12:05] INFO root fetch - processPackages [BarteSDK]: Downloading https://files.pythonhosted.org/packages/58/97/c26b6be18491c946a66c71bf38c77de1ab434ae924a62d134f9884702126/BarteSDK-0.1.4.tar.gz
+[2024-05-21 00:12:05] INFO root fetch - processPackages [gizai]: Downloading https://files.pythonhosted.org/packages/bd/e0/e34a72b06da9054a2c2be6561feb68d8df248f033dea7576bd6df6bb25a9/gizai-5.9.1.tar.gz
+[2024-05-21 00:12:05] INFO root fetch - processPackages [flyflowclient]: Downloading https://files.pythonhosted.org/packages/52/19/188911b120fc670fd18c079aa0e0ec20d15ac0c355875f16867e60aeff25/flyflowclient-1.14.8.tar.gz
+[2024-05-21 00:12:05] INFO root fetch - processPackages [dolomite-ranges]: Downloading https://files.pythonhosted.org/packages/bb/0c/3cdad5e9c99c937df76e3a1f8d9c72eca4549e28b46bc1d9f54b4e7ad913/dolomite-ranges-0.1.1.tar.gz
+[2024-05-21 00:12:05] INFO root fetch - processPackages [adafruit-circuitpython-minimqtt]: Downloading https://files.pythonhosted.org/packages/3f/60/b7ede5f85dda706643398c680b0483b9336a6141a0522cf13c490135ee40/adafruit_circuitpython_minimqtt-7.7.0.tar.gz
+[2024-05-21 00:12:05] INFO root fetch - processPackages [BigEDA]: Downloading https://files.pythonhosted.org/packages/b1/5d/ec41b2b9af7223a14c0e82d4f64cbeb0d0339a0d8bca37dbb041af6ef14d/bigeda-0.0.9.tar.gz
+[2024-05-21 00:12:05] INFO root fetch - processPackages [codeflash]: Downloading https://files.pythonhosted.org/packages/af/a2/00507316838257cedc1e3a5afc00e9a51214538585c3c947dea0f7af8596/codeflash-0.6.2.tar.gz
+[2024-05-21 00:12:05] INFO root fetch - processPackages [settngs]: Downloading https://files.pythonhosted.org/packages/26/75/c763f60e7c51a5b1d5e81cda399d51fc25ccb26d89e86b3d93dd0ef7ce09/settngs-0.9.3.tar.gz
+[2024-05-21 00:12:06] INFO root fetch - processPackages [gizai]: executing diffoscope
+[2024-05-21 00:12:06] INFO root fetch - processPackages [gizai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gizai-5.6.1.tar.gz tmp/gizai-5.9.1.tar.gz --markdown 20240521/g/gizai/5.6.1-5.9.1/README.md --exclude *.pyd
+[2024-05-21 00:12:06] INFO root fetch - processPackages [BarteSDK]: Downloading https://files.pythonhosted.org/packages/f7/56/4222e0165529550d0ab5bdcfaeb6c21635b546e558d2fab1fbedf5cf79f7/BarteSDK-0.1.5.tar.gz
+[2024-05-21 00:12:06] INFO root fetch - processPackages [BigEDA]: executing diffoscope
+[2024-05-21 00:12:06] INFO root fetch - processPackages [BigEDA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigeda-0.0.8.tar.gz tmp/bigeda-0.0.9.tar.gz --markdown 20240521/B/BigEDA/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-21 00:12:06] INFO root fetch - processPackages [settngs]: executing diffoscope
+[2024-05-21 00:12:06] INFO root fetch - processPackages [settngs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/settngs-0.9.2.tar.gz tmp/settngs-0.9.3.tar.gz --markdown 20240521/s/settngs/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-05-21 00:12:06] INFO root fetch - processPackages [BarteSDK]: executing diffoscope
+[2024-05-21 00:12:06] INFO root fetch - processPackages [BarteSDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BarteSDK-0.1.4.tar.gz tmp/BarteSDK-0.1.5.tar.gz --markdown 20240521/B/BarteSDK/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-21 00:12:06] INFO root fetch - processPackages [dolomite-ranges]: Downloading https://files.pythonhosted.org/packages/b3/c9/d00f3698a504e23d3567028c515d010eb4e2f2fbf4f1807edc3fa99332d2/dolomite_ranges-0.1.2.tar.gz
+[2024-05-21 00:12:06] INFO root fetch - processPackages [adafruit-circuitpython-minimqtt]: Downloading https://files.pythonhosted.org/packages/a8/af/634329dd89024205f3b5207fa159e2a122d735baee3eba6044aabc530dcf/adafruit_circuitpython_minimqtt-7.8.0.tar.gz
+[2024-05-21 00:12:06] INFO root fetch - processPackages [codeflash]: Downloading https://files.pythonhosted.org/packages/57/fb/897d6815842cae93cb343a603f6ad088fd4966ae1cb54ea328fa49e8e0b0/codeflash-0.6.3.tar.gz
+[2024-05-21 00:12:06] INFO root fetch - processPackages [flyflowclient]: Downloading https://files.pythonhosted.org/packages/f0/19/28a95b8cd2400eb88c6cb39bb8cf76e4d268621d5b5d68a4a533c6a3a69d/flyflowclient-1.14.9.tar.gz
+[2024-05-21 00:12:06] INFO root fetch - processPackages [dolomite-ranges]: executing diffoscope
+[2024-05-21 00:12:06] INFO root fetch - processPackages [dolomite-ranges]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dolomite-ranges-0.1.1.tar.gz tmp/dolomite_ranges-0.1.2.tar.gz --markdown 20240521/d/dolomite-ranges/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-21 00:12:06] INFO root fetch - processPackages [flyflowclient]: executing diffoscope
+[2024-05-21 00:12:06] INFO root fetch - processPackages [adafruit-circuitpython-minimqtt]: executing diffoscope
+[2024-05-21 00:12:06] INFO root fetch - processPackages [adafruit-circuitpython-minimqtt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit_circuitpython_minimqtt-7.7.0.tar.gz tmp/adafruit_circuitpython_minimqtt-7.8.0.tar.gz --markdown 20240521/a/adafruit-circuitpython-minimqtt/7.7.0-7.8.0/README.md --exclude *.pyd
+[2024-05-21 00:12:06] INFO root fetch - processPackages [flyflowclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flyflowclient-1.14.8.tar.gz tmp/flyflowclient-1.14.9.tar.gz --markdown 20240521/f/flyflowclient/1.14.8-1.14.9/README.md --exclude *.pyd
+[2024-05-21 00:12:06] INFO root fetch - processPackages [codeflash]: executing diffoscope
+[2024-05-21 00:12:06] INFO root fetch - processPackages [codeflash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codeflash-0.6.2.tar.gz tmp/codeflash-0.6.3.tar.gz --markdown 20240521/c/codeflash/0.6.2-0.6.3/README.md --exclude *.pyd
+[2024-05-21 00:12:06] INFO root fetch - processPackages [gizai]: Remove: archive file [/home/abi/fetcher/tmp/gizai-5.6.1.tar.gz]
+[2024-05-21 00:12:06] INFO root fetch - processPackages [gizai]: Remove: archive file [/home/abi/fetcher/tmp/gizai-5.9.1.tar.gz]
+[2024-05-21 00:12:06] INFO root fetch - main [MainThread]: End processing [gizai]: success
+[2024-05-21 00:12:06] INFO root fetch - processPackages [BigEDA]: Remove: archive file [/home/abi/fetcher/tmp/bigeda-0.0.8.tar.gz]
+[2024-05-21 00:12:06] INFO root fetch - processPackages [BigEDA]: Remove: archive file [/home/abi/fetcher/tmp/bigeda-0.0.9.tar.gz]
+[2024-05-21 00:12:06] INFO root fetch - main [MainThread]: End processing [BigEDA]: success
+[2024-05-21 00:12:06] INFO root fetch - processPackages [settngs]: Remove: archive file [/home/abi/fetcher/tmp/settngs-0.9.2.tar.gz]
+[2024-05-21 00:12:06] INFO root fetch - processPackages [settngs]: Remove: archive file [/home/abi/fetcher/tmp/settngs-0.9.3.tar.gz]
+[2024-05-21 00:12:06] INFO root fetch - main [MainThread]: End processing [settngs]: success
+[2024-05-21 00:12:06] INFO root fetch - processPackages [BarteSDK]: Remove: archive file [/home/abi/fetcher/tmp/BarteSDK-0.1.4.tar.gz]
+[2024-05-21 00:12:06] INFO root fetch - processPackages [BarteSDK]: Remove: archive file [/home/abi/fetcher/tmp/BarteSDK-0.1.5.tar.gz]
+[2024-05-21 00:12:06] INFO root fetch - main [MainThread]: End processing [BarteSDK]: success
+[2024-05-21 00:12:07] INFO root fetch - processPackages [flyflowclient]: Remove: archive file [/home/abi/fetcher/tmp/flyflowclient-1.14.8.tar.gz]
+[2024-05-21 00:12:07] INFO root fetch - processPackages [flyflowclient]: Remove: archive file [/home/abi/fetcher/tmp/flyflowclient-1.14.9.tar.gz]
+[2024-05-21 00:12:07] INFO root fetch - main [MainThread]: End processing [flyflowclient]: success
+[2024-05-21 00:12:07] INFO root fetch - processPackages [dolomite-ranges]: Remove: archive file [/home/abi/fetcher/tmp/dolomite-ranges-0.1.1.tar.gz]
+[2024-05-21 00:12:07] INFO root fetch - processPackages [dolomite-ranges]: Remove: archive file [/home/abi/fetcher/tmp/dolomite_ranges-0.1.2.tar.gz]
+[2024-05-21 00:12:07] INFO root fetch - main [MainThread]: End processing [dolomite-ranges]: success
+[2024-05-21 00:12:07] INFO root fetch - processPackages [codeflash]: Remove: archive file [/home/abi/fetcher/tmp/codeflash-0.6.2.tar.gz]
+[2024-05-21 00:12:07] INFO root fetch - processPackages [codeflash]: Remove: archive file [/home/abi/fetcher/tmp/codeflash-0.6.3.tar.gz]
+[2024-05-21 00:12:07] INFO root fetch - main [MainThread]: End processing [codeflash]: success
+[2024-05-21 00:12:07] INFO root fetch - processPackages [adafruit-circuitpython-minimqtt]: Remove: archive file [/home/abi/fetcher/tmp/adafruit_circuitpython_minimqtt-7.7.0.tar.gz]
+[2024-05-21 00:12:07] INFO root fetch - processPackages [adafruit-circuitpython-minimqtt]: Remove: archive file [/home/abi/fetcher/tmp/adafruit_circuitpython_minimqtt-7.8.0.tar.gz]
+[2024-05-21 00:12:07] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-minimqtt]: success
+[2024-05-21 00:12:07] INFO root fetch - main [MainThread]: Store serial: [23296908]
