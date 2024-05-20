@@ -1906,3 +1906,36 @@
 [2024-05-21 01:20:43] WARNING root fetch - processPackages [almasql]: Skipping, unable to determine old version
 [2024-05-21 01:20:43] INFO root fetch - main [MainThread]: End processing [almasql] error
 [2024-05-21 01:20:43] INFO root fetch - main [MainThread]: Store serial: [23297562]
+[2024-05-21 01:22:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23297562]
+[2024-05-21 01:22:51] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-21 01:22:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ai-edge-model-explorer
+[2024-05-21 01:22:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: shaq-pdf
+[2024-05-21 01:22:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rubpy
+[2024-05-21 01:22:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: contact-email-address-local
+[2024-05-21 01:22:52] INFO root fetch - processPackages [contact-email-address-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-21 01:22:52] INFO root fetch - processPackages [contact-email-address-local]: Downloading https://files.pythonhosted.org/packages/45/e5/8c05c5cc1f7122ebe442383a5ad976af6991ffade381619160f614b030cf/contact_email_address_local-0.0.8.tar.gz
+[2024-05-21 01:22:52] INFO root fetch - processPackages [ai-edge-model-explorer]: New version: [0.dev202405060029] Old Version: [0.1.1]
+[2024-05-21 01:22:52] INFO root fetch - processPackages [rubpy]: New version: [7.0.6] Old Version: [7.0.5]
+[2024-05-21 01:22:52] WARNING root fetch - processPackages [shaq-pdf]: Skipping, unable to determine old version
+[2024-05-21 01:22:52] INFO root fetch - main [MainThread]: End processing [shaq-pdf] error
+[2024-05-21 01:22:52] INFO root fetch - processPackages [contact-email-address-local]: Downloading https://files.pythonhosted.org/packages/b0/76/1d966bca88d8d64a3d93fa1704b27864994febe1a9d7d4d97fde54eb590b/contact_email_address_local-0.0.9.tar.gz
+[2024-05-21 01:22:52] INFO root fetch - processPackages [ai-edge-model-explorer]: Downloading https://files.pythonhosted.org/packages/5f/2d/1a3f1b0a01f986e6338eaf51f7facefdb533b467613f9afed252e229d73d/ai_edge_model_explorer-0.1.1.tar.gz
+[2024-05-21 01:22:52] INFO root fetch - processPackages [rubpy]: Downloading https://files.pythonhosted.org/packages/a6/bf/e99ce89623b508e94d93c583e9848f15dc5d25e029d2907917990af04c60/rubpy-7.0.5.tar.gz
+[2024-05-21 01:22:52] INFO root fetch - processPackages [contact-email-address-local]: executing diffoscope
+[2024-05-21 01:22:52] INFO root fetch - processPackages [contact-email-address-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contact_email_address_local-0.0.8.tar.gz tmp/contact_email_address_local-0.0.9.tar.gz --markdown 20240521/c/contact-email-address-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-21 01:22:52] INFO root fetch - processPackages [rubpy]: Downloading https://files.pythonhosted.org/packages/85/80/99c46036ac8f6b7e81614b7a0dfeb6cff02e4063753d59a75f4ed06efad5/rubpy-7.0.6.tar.gz
+[2024-05-21 01:22:52] INFO root fetch - processPackages [rubpy]: executing diffoscope
+[2024-05-21 01:22:52] INFO root fetch - processPackages [rubpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rubpy-7.0.5.tar.gz tmp/rubpy-7.0.6.tar.gz --markdown 20240521/r/rubpy/7.0.5-7.0.6/README.md --exclude *.pyd
+[2024-05-21 01:22:52] INFO root fetch - processPackages [ai-edge-model-explorer]: Downloading https://files.pythonhosted.org/packages/48/77/6d6cffc04ea18750fc81b4affe078ef994f60eb0577d37b85cc841cba348/ai_edge_model_explorer-0.dev202405060029-py3-none-any.whl
+[2024-05-21 01:22:52] INFO root fetch - processPackages [ai-edge-model-explorer]: executing diffoscope
+[2024-05-21 01:22:52] INFO root fetch - processPackages [ai-edge-model-explorer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_edge_model_explorer-0.1.1.tar.gz tmp/ai_edge_model_explorer-0.dev202405060029-py3-none-any.whl.zip --markdown 20240521/a/ai-edge-model-explorer/0.1.1-0.dev202405060029/README.md --exclude *.pyd
+[2024-05-21 01:22:53] INFO root fetch - processPackages [contact-email-address-local]: Remove: archive file [/home/abi/fetcher/tmp/contact_email_address_local-0.0.8.tar.gz]
+[2024-05-21 01:22:53] INFO root fetch - processPackages [contact-email-address-local]: Remove: archive file [/home/abi/fetcher/tmp/contact_email_address_local-0.0.9.tar.gz]
+[2024-05-21 01:22:53] INFO root fetch - main [MainThread]: End processing [contact-email-address-local]: success
+[2024-05-21 01:22:53] INFO root fetch - processPackages [ai-edge-model-explorer]: Remove: archive file [/home/abi/fetcher/tmp/ai_edge_model_explorer-0.1.1.tar.gz]
+[2024-05-21 01:22:53] INFO root fetch - processPackages [ai-edge-model-explorer]: Remove: archive file [/home/abi/fetcher/tmp/ai_edge_model_explorer-0.dev202405060029-py3-none-any.whl.zip]
+[2024-05-21 01:22:53] INFO root fetch - main [MainThread]: End processing [ai-edge-model-explorer]: success
+[2024-05-21 01:22:53] INFO root fetch - processPackages [rubpy]: Remove: archive file [/home/abi/fetcher/tmp/rubpy-7.0.5.tar.gz]
+[2024-05-21 01:22:53] INFO root fetch - processPackages [rubpy]: Remove: archive file [/home/abi/fetcher/tmp/rubpy-7.0.6.tar.gz]
+[2024-05-21 01:22:53] INFO root fetch - main [MainThread]: End processing [rubpy]: success
+[2024-05-21 01:22:53] INFO root fetch - main [MainThread]: Store serial: [23297576]
