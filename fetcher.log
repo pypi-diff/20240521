@@ -11356,3 +11356,33 @@
 [2024-05-21 06:47:32] INFO root fetch - processPackages [monai]: Remove: archive file [/home/abi/fetcher/tmp/monai-1.3.1rc8.tar.gz]
 [2024-05-21 06:47:32] INFO root fetch - main [MainThread]: End processing [monai]: success
 [2024-05-21 06:47:32] INFO root fetch - main [MainThread]: Store serial: [23301110]
+[2024-05-21 06:49:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23301110]
+[2024-05-21 06:49:41] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-21 06:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-tailscale
+[2024-05-21 06:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: divinegift
+[2024-05-21 06:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pymerc
+[2024-05-21 06:49:41] INFO root fetch - processPackages [divinegift]: New version: [2.9.2.2] Old Version: [2.9.2.1]
+[2024-05-21 06:49:41] INFO root fetch - processPackages [divinegift]: Downloading https://files.pythonhosted.org/packages/20/54/9cd490ce912447c2d9c28af6ef4a7879ad6c4951e4146bfb5408537f3941/divinegift-2.9.2.1.tar.gz
+[2024-05-21 06:49:41] INFO root fetch - processPackages [pymerc]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-05-21 06:49:41] INFO root fetch - processPackages [pulumi-tailscale]: New version: [0.9.1a1656330156] Old Version: [0.9.0]
+[2024-05-21 06:49:41] INFO root fetch - processPackages [divinegift]: Downloading https://files.pythonhosted.org/packages/2e/f4/a6b82fab8e04ce99fd85cffa08df2970b44a8b3b33c001530d8de0e99ff8/divinegift-2.9.2.2.tar.gz
+[2024-05-21 06:49:41] INFO root fetch - processPackages [pymerc]: Downloading https://files.pythonhosted.org/packages/69/94/2ac6da1ae0ca31740554a65a6a6ee270e8e08e24f443c2243fe2dcef5554/pymerc-0.3.0.tar.gz
+[2024-05-21 06:49:41] INFO root fetch - processPackages [pulumi-tailscale]: Downloading https://files.pythonhosted.org/packages/af/fc/1aa615a8e44d21b520ec05aa57ea2ee6f62de762047b4ad8ccec73544ac3/pulumi_tailscale-0.9.0.tar.gz
+[2024-05-21 06:49:41] INFO root fetch - processPackages [divinegift]: executing diffoscope
+[2024-05-21 06:49:41] INFO root fetch - processPackages [divinegift]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/divinegift-2.9.2.1.tar.gz tmp/divinegift-2.9.2.2.tar.gz --markdown 20240521/d/divinegift/2.9.2.1-2.9.2.2/README.md --exclude *.pyd
+[2024-05-21 06:49:41] INFO root fetch - processPackages [pymerc]: Downloading https://files.pythonhosted.org/packages/81/00/8ff9ad1ee47da56e0423db0ced7665045d54e65f99761bde9e14ddfc9b07/pymerc-0.4.0.tar.gz
+[2024-05-21 06:49:41] INFO root fetch - processPackages [pulumi-tailscale]: Downloading https://files.pythonhosted.org/packages/a3/d6/938674a37f5324fe6d787b4f3efbeeebc5d750fd8c8c25fb2198b11e6a4d/pulumi_tailscale-0.9.1a1656330156.tar.gz
+[2024-05-21 06:49:41] INFO root fetch - processPackages [pymerc]: executing diffoscope
+[2024-05-21 06:49:41] INFO root fetch - processPackages [pymerc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymerc-0.3.0.tar.gz tmp/pymerc-0.4.0.tar.gz --markdown 20240521/p/pymerc/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-05-21 06:49:42] INFO root fetch - processPackages [pulumi-tailscale]: executing diffoscope
+[2024-05-21 06:49:42] INFO root fetch - processPackages [pulumi-tailscale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_tailscale-0.9.0.tar.gz tmp/pulumi_tailscale-0.9.1a1656330156.tar.gz --markdown 20240521/p/pulumi-tailscale/0.9.0-0.9.1a1656330156/README.md --exclude *.pyd
+[2024-05-21 06:49:42] INFO root fetch - processPackages [divinegift]: Remove: archive file [/home/abi/fetcher/tmp/divinegift-2.9.2.1.tar.gz]
+[2024-05-21 06:49:42] INFO root fetch - processPackages [divinegift]: Remove: archive file [/home/abi/fetcher/tmp/divinegift-2.9.2.2.tar.gz]
+[2024-05-21 06:49:42] INFO root fetch - main [MainThread]: End processing [divinegift]: success
+[2024-05-21 06:49:42] INFO root fetch - processPackages [pymerc]: Remove: archive file [/home/abi/fetcher/tmp/pymerc-0.3.0.tar.gz]
+[2024-05-21 06:49:42] INFO root fetch - processPackages [pymerc]: Remove: archive file [/home/abi/fetcher/tmp/pymerc-0.4.0.tar.gz]
+[2024-05-21 06:49:42] INFO root fetch - main [MainThread]: End processing [pymerc]: success
+[2024-05-21 06:49:42] INFO root fetch - processPackages [pulumi-tailscale]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tailscale-0.9.0.tar.gz]
+[2024-05-21 06:49:42] INFO root fetch - processPackages [pulumi-tailscale]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tailscale-0.9.1a1656330156.tar.gz]
+[2024-05-21 06:49:42] INFO root fetch - main [MainThread]: End processing [pulumi-tailscale]: success
+[2024-05-21 06:49:42] INFO root fetch - main [MainThread]: Store serial: [23301122]
