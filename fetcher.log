@@ -20061,3 +20061,54 @@
 [2024-05-21 12:20:27] INFO root fetch - processPackages [odoo-addon-stock-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_request-17.0.1.0.1-py3-none-any.whl.zip]
 [2024-05-21 12:20:27] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-request]: success
 [2024-05-21 12:20:27] INFO root fetch - main [MainThread]: Store serial: [23304589]
+[2024-05-21 12:22:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23304589]
+[2024-05-21 12:22:36] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-21 12:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: clearml
+[2024-05-21 12:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-l10n-es-aeat-sii-oca
+[2024-05-21 12:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: volstreet
+[2024-05-21 12:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: i6-models
+[2024-05-21 12:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: usbhubctl
+[2024-05-21 12:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: clearml-session
+[2024-05-21 12:22:36] INFO root fetch - processPackages [volstreet]: New version: [8.3.2] Old Version: [8.3.1]
+[2024-05-21 12:22:36] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oca]: New version: [16.0.1.8.1] Old Version: [16.0.1.8.0]
+[2024-05-21 12:22:36] INFO root fetch - processPackages [volstreet]: Downloading https://files.pythonhosted.org/packages/8e/78/dd8966a10c6c57fac210adec4655f97579f6ba4e99e1be97d258669ff430/volstreet-8.3.1.tar.gz
+[2024-05-21 12:22:36] INFO root fetch - processPackages [i6-models]: New version: [1.20240521.121705] Old Version: [1.20240513.180057]
+[2024-05-21 12:22:36] WARNING root fetch - processPackages [usbhubctl]: Skipping, unable to determine old version
+[2024-05-21 12:22:36] INFO root fetch - main [MainThread]: End processing [usbhubctl] error
+[2024-05-21 12:22:36] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oca]: Downloading https://files.pythonhosted.org/packages/ce/8a/9757a5110d06513b1acb224db1464c68815d1e1d96a35b32a1a2a00a7b57/odoo_addon_l10n_es_aeat_sii_oca-16.0.1.8.0-py3-none-any.whl
+[2024-05-21 12:22:36] INFO root fetch - processPackages [clearml-session]: New version: [0.9.0rc0] Old Version: [0.9.0]
+[2024-05-21 12:22:36] INFO root fetch - processPackages [clearml]: New version: [1.9.3] Old Version: [1.9.2rc2]
+[2024-05-21 12:22:36] INFO root fetch - processPackages [i6-models]: Downloading https://files.pythonhosted.org/packages/f6/5b/9ec82cafdc2674202cdbc58f72f71124ca5bad27298808fc69a6263bc1d6/i6_models-1.20240513.180057.tar.gz
+[2024-05-21 12:22:36] INFO root fetch - processPackages [clearml]: Downloading https://files.pythonhosted.org/packages/7e/29/095ec92c0b253f5d8ad2c5fc3a6c437c0cdabc67716b99ae81f0d773ae77/clearml-1.9.2rc2-py2.py3-none-any.whl
+[2024-05-21 12:22:36] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oca]: Downloading https://files.pythonhosted.org/packages/fc/55/195437bb014c3728b7f9967ba434b0442530b7efb1cfaf68a919c2b87007/odoo_addon_l10n_es_aeat_sii_oca-16.0.1.8.1-py3-none-any.whl
+[2024-05-21 12:22:36] INFO root fetch - processPackages [clearml-session]: Downloading https://files.pythonhosted.org/packages/02/23/c0ade12602bbc341c6b2f72f1e276d470295e2f0ca002a600e489cae0617/clearml_session-0.9.0-py3-none-any.whl
+[2024-05-21 12:22:36] INFO root fetch - processPackages [volstreet]: Downloading https://files.pythonhosted.org/packages/0f/8c/460c7755b6e5cbe7e4dada86c1d26e305d0c7538c4ddadbd6075d7e355da/volstreet-8.3.2.tar.gz
+[2024-05-21 12:22:36] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oca]: executing diffoscope
+[2024-05-21 12:22:36] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat_sii_oca-16.0.1.8.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat_sii_oca-16.0.1.8.1-py3-none-any.whl.zip --markdown 20240521/o/odoo-addon-l10n-es-aeat-sii-oca/16.0.1.8.0-16.0.1.8.1/README.md --exclude *.pyd
+[2024-05-21 12:22:36] INFO root fetch - processPackages [volstreet]: executing diffoscope
+[2024-05-21 12:22:36] INFO root fetch - processPackages [volstreet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volstreet-8.3.1.tar.gz tmp/volstreet-8.3.2.tar.gz --markdown 20240521/v/volstreet/8.3.1-8.3.2/README.md --exclude *.pyd
+[2024-05-21 12:22:37] INFO root fetch - processPackages [i6-models]: Downloading https://files.pythonhosted.org/packages/84/cc/01f087123ed1d1dcd476cfb2cdc66dc15768687b91a0725cecf3774c0a2e/i6_models-1.20240521.121705.tar.gz
+[2024-05-21 12:22:37] INFO root fetch - processPackages [clearml-session]: Downloading https://files.pythonhosted.org/packages/f2/79/bf632982c2fd90fa812dc590b334ce05ec3b7bc392c6e15c2f2121cef7ee/clearml_session-0.9.0rc0-py3-none-any.whl
+[2024-05-21 12:22:37] INFO root fetch - processPackages [i6-models]: executing diffoscope
+[2024-05-21 12:22:37] INFO root fetch - processPackages [i6-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/i6_models-1.20240513.180057.tar.gz tmp/i6_models-1.20240521.121705.tar.gz --markdown 20240521/i/i6-models/1.20240513.180057-1.20240521.121705/README.md --exclude *.pyd
+[2024-05-21 12:22:37] INFO root fetch - processPackages [clearml]: Downloading https://files.pythonhosted.org/packages/ce/e8/0c335873c6ef72310890be41a2b4b804f0390e3b0c1a507bcbc4300d4229/clearml-1.9.3-py2.py3-none-any.whl
+[2024-05-21 12:22:37] INFO root fetch - processPackages [clearml-session]: executing diffoscope
+[2024-05-21 12:22:37] INFO root fetch - processPackages [clearml-session]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clearml_session-0.9.0-py3-none-any.whl.zip tmp/clearml_session-0.9.0rc0-py3-none-any.whl.zip --markdown 20240521/c/clearml-session/0.9.0-0.9.0rc0/README.md --exclude *.pyd
+[2024-05-21 12:22:37] INFO root fetch - processPackages [clearml]: executing diffoscope
+[2024-05-21 12:22:37] INFO root fetch - processPackages [clearml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clearml-1.9.2rc2-py2.py3-none-any.whl.zip tmp/clearml-1.9.3-py2.py3-none-any.whl.zip --markdown 20240521/c/clearml/1.9.2rc2-1.9.3/README.md --exclude *.pyd
+[2024-05-21 12:22:37] INFO root fetch - processPackages [volstreet]: Remove: archive file [/home/abi/fetcher/tmp/volstreet-8.3.1.tar.gz]
+[2024-05-21 12:22:37] INFO root fetch - processPackages [volstreet]: Remove: archive file [/home/abi/fetcher/tmp/volstreet-8.3.2.tar.gz]
+[2024-05-21 12:22:37] INFO root fetch - main [MainThread]: End processing [volstreet]: success
+[2024-05-21 12:22:37] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_sii_oca-16.0.1.8.0-py3-none-any.whl.zip]
+[2024-05-21 12:22:37] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_sii_oca-16.0.1.8.1-py3-none-any.whl.zip]
+[2024-05-21 12:22:37] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat-sii-oca]: success
+[2024-05-21 12:22:37] INFO root fetch - processPackages [clearml-session]: Remove: archive file [/home/abi/fetcher/tmp/clearml_session-0.9.0-py3-none-any.whl.zip]
+[2024-05-21 12:22:37] INFO root fetch - processPackages [clearml-session]: Remove: archive file [/home/abi/fetcher/tmp/clearml_session-0.9.0rc0-py3-none-any.whl.zip]
+[2024-05-21 12:22:37] INFO root fetch - main [MainThread]: End processing [clearml-session]: success
+[2024-05-21 12:22:37] INFO root fetch - processPackages [i6-models]: Remove: archive file [/home/abi/fetcher/tmp/i6_models-1.20240513.180057.tar.gz]
+[2024-05-21 12:22:37] INFO root fetch - processPackages [i6-models]: Remove: archive file [/home/abi/fetcher/tmp/i6_models-1.20240521.121705.tar.gz]
+[2024-05-21 12:22:37] INFO root fetch - main [MainThread]: End processing [i6-models]: success
+[2024-05-21 12:22:38] INFO root fetch - processPackages [clearml]: Remove: archive file [/home/abi/fetcher/tmp/clearml-1.9.2rc2-py2.py3-none-any.whl.zip]
+[2024-05-21 12:22:38] INFO root fetch - processPackages [clearml]: Remove: archive file [/home/abi/fetcher/tmp/clearml-1.9.3-py2.py3-none-any.whl.zip]
+[2024-05-21 12:22:39] INFO root fetch - main [MainThread]: End processing [clearml]: success
+[2024-05-21 12:22:39] INFO root fetch - main [MainThread]: Store serial: [23304606]
