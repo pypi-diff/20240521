@@ -10276,3 +10276,75 @@
 [2024-05-21 06:08:09] INFO root fetch - processPackages [plover-lapwing-aio]: Remove: archive file [/home/abi/fetcher/tmp/plover-lapwing-aio-1.1.9.tar.gz]
 [2024-05-21 06:08:09] INFO root fetch - main [MainThread]: End processing [plover-lapwing-aio]: success
 [2024-05-21 06:08:09] INFO root fetch - main [MainThread]: Store serial: [23300807]
+[2024-05-21 06:10:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23300807]
+[2024-05-21 06:10:18] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-21 06:10:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: accelbyte-py-sdk-service-sessionhistory
+[2024-05-21 06:10:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kocoafab
+[2024-05-21 06:10:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jzai
+[2024-05-21 06:10:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PyRHEED
+[2024-05-21 06:10:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: accelbyte-py-sdk-service-social
+[2024-05-21 06:10:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sdr-hazards-classification
+[2024-05-21 06:10:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: langgraph-cli
+[2024-05-21 06:10:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: play3slib
+[2024-05-21 06:10:18] INFO root fetch - processPackages [langgraph-cli]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-21 06:10:18] INFO root fetch - processPackages [jzai]: New version: [59.83.55] Old Version: [59.83.54]
+[2024-05-21 06:10:18] INFO root fetch - processPackages [play3slib]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-21 06:10:19] INFO root fetch - processPackages [PyRHEED]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-21 06:10:19] INFO root fetch - processPackages [langgraph-cli]: Downloading https://files.pythonhosted.org/packages/fc/56/9c893aa50c9bdec2cb8649d7ef7ebf200dc6b66993eaf52ee01fef032cb5/langgraph_cli-0.1.8.tar.gz
+[2024-05-21 06:10:19] INFO root fetch - processPackages [sdr-hazards-classification]: New version: [1.0.0] Old Version: [0.1.1]
+[2024-05-21 06:10:19] INFO root fetch - processPackages [accelbyte-py-sdk-service-social]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-21 06:10:19] INFO root fetch - processPackages [kocoafab]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-21 06:10:19] INFO root fetch - processPackages [accelbyte-py-sdk-service-sessionhistory]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-21 06:10:19] INFO root fetch - processPackages [play3slib]: Downloading https://files.pythonhosted.org/packages/6c/a3/0754aa4d276195c477d56818f4cebab3f75e9215bd89ab601a140cde7326/play3slib-0.0.3.tar.gz
+[2024-05-21 06:10:19] INFO root fetch - processPackages [jzai]: Downloading https://files.pythonhosted.org/packages/41/fe/e453280d25a2186328137bb90817ad5ebebc0e782b54961e3ffbac6d383d/jzai-59.83.54.tar.gz
+[2024-05-21 06:10:19] INFO root fetch - processPackages [PyRHEED]: Downloading https://files.pythonhosted.org/packages/3e/80/2a87cb0840eec48a03880868ea6ac20921579f3e34c6fb89dde3b358894e/pyrheed-1.0.0.tar.gz
+[2024-05-21 06:10:19] INFO root fetch - processPackages [langgraph-cli]: Downloading https://files.pythonhosted.org/packages/77/ca/8e1b0b1db8b8eecd87faeb6c20af5e19e5561f1c240cb26d5c92f30a80a2/langgraph_cli-0.1.9.tar.gz
+[2024-05-21 06:10:19] INFO root fetch - processPackages [accelbyte-py-sdk-service-social]: Downloading https://files.pythonhosted.org/packages/d2/29/9a9fbf47b68d780baa29426f4db2743221684996acd2af25dab9f7c962b9/accelbyte-py-sdk-service-social-0.8.0.tar.gz
+[2024-05-21 06:10:19] INFO root fetch - processPackages [sdr-hazards-classification]: Downloading https://files.pythonhosted.org/packages/3a/46/3bbe57a043ea0cf453e946b02dc4cfcd7c2303b2150cf2a23ba39a441d34/sdr-hazards-classification-0.1.1.tar.gz
+[2024-05-21 06:10:19] INFO root fetch - processPackages [kocoafab]: Downloading https://files.pythonhosted.org/packages/23/da/9d3a78d18004808587cd1dfe8bfe5049314e22e3eb81e5bc9c814c13f5a9/kocoafab-1.0.4.tar.gz
+[2024-05-21 06:10:19] INFO root fetch - processPackages [accelbyte-py-sdk-service-sessionhistory]: Downloading https://files.pythonhosted.org/packages/3d/13/3eed0597913a6933a750d6818009da66f1260f4f88fb34358f9b60580278/accelbyte_py_sdk_service_sessionhistory-0.1.0.tar.gz
+[2024-05-21 06:10:19] INFO root fetch - processPackages [langgraph-cli]: executing diffoscope
+[2024-05-21 06:10:19] INFO root fetch - processPackages [langgraph-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langgraph_cli-0.1.8.tar.gz tmp/langgraph_cli-0.1.9.tar.gz --markdown 20240521/l/langgraph-cli/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-21 06:10:19] INFO root fetch - processPackages [jzai]: Downloading https://files.pythonhosted.org/packages/b1/dc/125cb1b41b447de7fa344ff4dd8fbf43d95a79bf0ba7bd83aa276e412a89/jzai-59.83.55.tar.gz
+[2024-05-21 06:10:19] INFO root fetch - processPackages [play3slib]: Downloading https://files.pythonhosted.org/packages/63/54/248310de1b1383e91c8189762d642ca92b716d8e34471300bf628b045694/play3slib-0.0.4.tar.gz
+[2024-05-21 06:10:19] INFO root fetch - processPackages [jzai]: executing diffoscope
+[2024-05-21 06:10:19] INFO root fetch - processPackages [jzai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jzai-59.83.54.tar.gz tmp/jzai-59.83.55.tar.gz --markdown 20240521/j/jzai/59.83.54-59.83.55/README.md --exclude *.pyd
+[2024-05-21 06:10:19] INFO root fetch - processPackages [play3slib]: executing diffoscope
+[2024-05-21 06:10:19] INFO root fetch - processPackages [play3slib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/play3slib-0.0.3.tar.gz tmp/play3slib-0.0.4.tar.gz --markdown 20240521/p/play3slib/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-21 06:10:19] INFO root fetch - processPackages [kocoafab]: Downloading https://files.pythonhosted.org/packages/f9/5d/c769febb28fa0994c5ba3d7c309b7da6fe2de31c8eea605879caeb0d2472/kocoafab-1.0.5.tar.gz
+[2024-05-21 06:10:19] INFO root fetch - processPackages [accelbyte-py-sdk-service-sessionhistory]: Downloading https://files.pythonhosted.org/packages/cd/9b/93b336084e1e6512191a995f55453d651af2acb6f61bc02d30eb2322a5cd/accelbyte_py_sdk_service_sessionhistory-0.2.0.tar.gz
+[2024-05-21 06:10:19] INFO root fetch - processPackages [PyRHEED]: Downloading https://files.pythonhosted.org/packages/fd/07/7c01274c967c87aaf7291a229408dd72134ec5d038a651d6df3f33b72a0c/pyrheed-1.0.1.tar.gz
+[2024-05-21 06:10:19] INFO root fetch - processPackages [kocoafab]: executing diffoscope
+[2024-05-21 06:10:19] INFO root fetch - processPackages [kocoafab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kocoafab-1.0.4.tar.gz tmp/kocoafab-1.0.5.tar.gz --markdown 20240521/k/kocoafab/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-21 06:10:19] INFO root fetch - processPackages [accelbyte-py-sdk-service-social]: Downloading https://files.pythonhosted.org/packages/42/85/5e911a128a51f0df25e7c308726254699914c88254d4ab5ad99e6db6b40f/accelbyte-py-sdk-service-social-0.9.0.tar.gz
+[2024-05-21 06:10:19] INFO root fetch - processPackages [accelbyte-py-sdk-service-sessionhistory]: executing diffoscope
+[2024-05-21 06:10:19] INFO root fetch - processPackages [accelbyte-py-sdk-service-sessionhistory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/accelbyte_py_sdk_service_sessionhistory-0.1.0.tar.gz tmp/accelbyte_py_sdk_service_sessionhistory-0.2.0.tar.gz --markdown 20240521/a/accelbyte-py-sdk-service-sessionhistory/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-21 06:10:19] INFO root fetch - processPackages [PyRHEED]: executing diffoscope
+[2024-05-21 06:10:19] INFO root fetch - processPackages [PyRHEED]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrheed-1.0.0.tar.gz tmp/pyrheed-1.0.1.tar.gz --markdown 20240521/P/PyRHEED/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-21 06:10:20] INFO root fetch - processPackages [accelbyte-py-sdk-service-social]: executing diffoscope
+[2024-05-21 06:10:20] INFO root fetch - processPackages [accelbyte-py-sdk-service-social]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/accelbyte-py-sdk-service-social-0.8.0.tar.gz tmp/accelbyte-py-sdk-service-social-0.9.0.tar.gz --markdown 20240521/a/accelbyte-py-sdk-service-social/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-21 06:10:20] INFO root fetch - processPackages [sdr-hazards-classification]: Downloading https://files.pythonhosted.org/packages/87/ba/0386796df46e81230305894d45ddf5301ebdf7002125e8ea1d46a7b94b63/sdr_hazards_classification-1.0.0.tar.gz
+[2024-05-21 06:10:20] INFO root fetch - processPackages [jzai]: Remove: archive file [/home/abi/fetcher/tmp/jzai-59.83.54.tar.gz]
+[2024-05-21 06:10:20] INFO root fetch - processPackages [jzai]: Remove: archive file [/home/abi/fetcher/tmp/jzai-59.83.55.tar.gz]
+[2024-05-21 06:10:20] WARNING root fetch - processPackages [sdr-hazards-classification]: Skipping package: exceeds size limit 13266877>=10485760
+[2024-05-21 06:10:20] INFO root fetch - main [MainThread]: End processing [jzai]: success
+[2024-05-21 06:10:20] INFO root fetch - main [MainThread]: End processing [sdr-hazards-classification] error
+[2024-05-21 06:10:20] INFO root fetch - processPackages [play3slib]: Remove: archive file [/home/abi/fetcher/tmp/play3slib-0.0.3.tar.gz]
+[2024-05-21 06:10:20] INFO root fetch - processPackages [play3slib]: Remove: archive file [/home/abi/fetcher/tmp/play3slib-0.0.4.tar.gz]
+[2024-05-21 06:10:20] INFO root fetch - main [MainThread]: End processing [play3slib]: success
+[2024-05-21 06:10:20] INFO root fetch - processPackages [langgraph-cli]: Remove: archive file [/home/abi/fetcher/tmp/langgraph_cli-0.1.8.tar.gz]
+[2024-05-21 06:10:20] INFO root fetch - processPackages [langgraph-cli]: Remove: archive file [/home/abi/fetcher/tmp/langgraph_cli-0.1.9.tar.gz]
+[2024-05-21 06:10:20] INFO root fetch - main [MainThread]: End processing [langgraph-cli]: success
+[2024-05-21 06:10:20] INFO root fetch - processPackages [kocoafab]: Remove: archive file [/home/abi/fetcher/tmp/kocoafab-1.0.4.tar.gz]
+[2024-05-21 06:10:20] INFO root fetch - processPackages [kocoafab]: Remove: archive file [/home/abi/fetcher/tmp/kocoafab-1.0.5.tar.gz]
+[2024-05-21 06:10:20] INFO root fetch - main [MainThread]: End processing [kocoafab]: success
+[2024-05-21 06:10:20] INFO root fetch - processPackages [PyRHEED]: Remove: archive file [/home/abi/fetcher/tmp/pyrheed-1.0.0.tar.gz]
+[2024-05-21 06:10:20] INFO root fetch - processPackages [PyRHEED]: Remove: archive file [/home/abi/fetcher/tmp/pyrheed-1.0.1.tar.gz]
+[2024-05-21 06:10:20] INFO root fetch - main [MainThread]: End processing [PyRHEED]: success
+[2024-05-21 06:10:20] INFO root fetch - processPackages [accelbyte-py-sdk-service-sessionhistory]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte_py_sdk_service_sessionhistory-0.1.0.tar.gz]
+[2024-05-21 06:10:20] INFO root fetch - processPackages [accelbyte-py-sdk-service-sessionhistory]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte_py_sdk_service_sessionhistory-0.2.0.tar.gz]
+[2024-05-21 06:10:20] INFO root fetch - main [MainThread]: End processing [accelbyte-py-sdk-service-sessionhistory]: success
+[2024-05-21 06:10:21] INFO root fetch - processPackages [accelbyte-py-sdk-service-social]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte-py-sdk-service-social-0.8.0.tar.gz]
+[2024-05-21 06:10:21] INFO root fetch - processPackages [accelbyte-py-sdk-service-social]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte-py-sdk-service-social-0.9.0.tar.gz]
+[2024-05-21 06:10:21] INFO root fetch - main [MainThread]: End processing [accelbyte-py-sdk-service-social]: success
+[2024-05-21 06:10:21] INFO root fetch - main [MainThread]: Store serial: [23300831]
