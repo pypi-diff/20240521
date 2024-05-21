@@ -2791,3 +2791,78 @@
 [2024-05-21 02:20:02] INFO root fetch - processPackages [cdk-budibase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-budibase-0.0.99.tar.gz]
 [2024-05-21 02:20:02] INFO root fetch - main [MainThread]: End processing [cdk-budibase]: success
 [2024-05-21 02:20:02] INFO root fetch - main [MainThread]: Store serial: [23297929]
+[2024-05-21 02:22:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23297929]
+[2024-05-21 02:22:11] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-21 02:22:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: psyke
+[2024-05-21 02:22:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rapidocr-onnxruntime
+[2024-05-21 02:22:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdklabs.cdk-ethereum-node
+[2024-05-21 02:22:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qualystbx
+[2024-05-21 02:22:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-cr-constructs
+[2024-05-21 02:22:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rapidocr-paddle
+[2024-05-21 02:22:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sbcli-dev
+[2024-05-21 02:22:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-aurora-globaldatabase
+[2024-05-21 02:22:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: compressed-tensors-nightly
+[2024-05-21 02:22:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: df-analyze
+[2024-05-21 02:22:11] INFO root fetch - processPackages [sbcli-dev]: New version: [2.6.4] Old Version: [2.6.3]
+[2024-05-21 02:22:12] INFO root fetch - processPackages [qualystbx]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-05-21 02:22:12] INFO root fetch - processPackages [sbcli-dev]: Downloading https://files.pythonhosted.org/packages/19/3f/1ff58d0f6c54a40c21fa139fac35455a0753e7586f580d9c7580b6e99f4c/sbcli_dev-2.6.3.zip
+[2024-05-21 02:22:12] INFO root fetch - processPackages [qualystbx]: Downloading https://files.pythonhosted.org/packages/3d/13/d82c3acb0e9ea3a9ff76fe6e73a521edc75e84ab686d483a4f360a6a88cb/qualystbx-0.7.0.tar.gz
+[2024-05-21 02:22:12] INFO root fetch - processPackages [rapidocr-paddle]: New version: [1.3.9] Old Version: [1.3.22]
+[2024-05-21 02:22:12] INFO root fetch - processPackages [compressed-tensors-nightly]: New version: [0.3.3.20240521] Old Version: [0.3.3.20240520]
+[2024-05-21 02:22:12] INFO root fetch - processPackages [rapidocr-onnxruntime]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-05-21 02:22:12] INFO root fetch - processPackages [psyke]: New version: [0.8.9.dev4] Old Version: [0.8.9.dev3]
+[2024-05-21 02:22:12] INFO root fetch - processPackages [cdk-cr-constructs]: New version: [2.1.462] Old Version: [2.1.461]
+[2024-05-21 02:22:12] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-21 02:22:12] WARNING root fetch - processPackages [df-analyze]: Skipping, unable to determine old version
+[2024-05-21 02:22:12] INFO root fetch - main [MainThread]: End processing [df-analyze] error
+[2024-05-21 02:22:12] INFO root fetch - processPackages [rapidocr-paddle]: Downloading https://files.pythonhosted.org/packages/b1/06/bbab678be250786e2c55109c4b27ec342b000ce5e41ecd264d63aaa7262e/rapidocr_paddle-1.3.22-py3-none-any.whl
+[2024-05-21 02:22:12] INFO root fetch - processPackages [qualystbx]: Downloading https://files.pythonhosted.org/packages/88/de/04f9bde377b2e4f3959a99661bf58cb5824a3b55cd37d179c781c0db6773/qualystbx-0.8.0.tar.gz
+[2024-05-21 02:22:12] WARNING root fetch - processPackages [rapidocr-paddle]: Skipping package: exceeds size limit 14958440>=10485760
+[2024-05-21 02:22:12] INFO root fetch - main [MainThread]: End processing [rapidocr-paddle] error
+[2024-05-21 02:22:12] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Downloading https://files.pythonhosted.org/packages/d8/1a/417af84315b2d52f6063ccf2072677259777d28fb73cab91e17879faaa26/cdklabs.cdk-ethereum-node-0.0.98.tar.gz
+[2024-05-21 02:22:12] INFO root fetch - processPackages [rapidocr-onnxruntime]: Downloading https://files.pythonhosted.org/packages/be/1d/46391ab38da2fc3ca5c5b09b1541f2a779ba7f84a65e7067e760b2b422e6/rapidocr_onnxruntime-1.3.8-py3-none-any.whl
+[2024-05-21 02:22:12] INFO root fetch - processPackages [compressed-tensors-nightly]: Downloading https://files.pythonhosted.org/packages/55/d6/0d24a9a5a71f17b9bbb2c9bdcef13aa63af21a48de35c985ce195566a90e/compressed_tensors_nightly-0.3.3.20240520-py3-none-any.whl
+[2024-05-21 02:22:12] INFO root fetch - processPackages [cdk-cr-constructs]: Downloading https://files.pythonhosted.org/packages/16/ef/c82522d3ad10661cebb2b66dc11951f51860d2464ef6f7627fccdb9dc297/cdk-cr-constructs-2.1.461.tar.gz
+[2024-05-21 02:22:12] INFO root fetch - processPackages [psyke]: Downloading https://files.pythonhosted.org/packages/e7/56/5f208aad09aaecd4ccd22dd473eacffca0f466dee5602af5352a82a318e8/psyke-0.8.9.dev3.tar.gz
+[2024-05-21 02:22:12] INFO root fetch - processPackages [qualystbx]: executing diffoscope
+[2024-05-21 02:22:12] INFO root fetch - processPackages [qualystbx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qualystbx-0.7.0.tar.gz tmp/qualystbx-0.8.0.tar.gz --markdown 20240521/q/qualystbx/0.7.0-0.8.0/README.md --exclude *.pyd
+[2024-05-21 02:22:12] WARNING root fetch - processPackages [rapidocr-onnxruntime]: Skipping package: exceeds size limit 14908000>=10485760
+[2024-05-21 02:22:12] INFO root fetch - main [MainThread]: End processing [rapidocr-onnxruntime] error
+[2024-05-21 02:22:12] INFO root fetch - processPackages [sbcli-dev]: Downloading https://files.pythonhosted.org/packages/68/f4/22865db7593f21f3941147ad7e3efcff14ac307e3fc9243af9dbe0869cb9/sbcli_dev-2.6.4.zip
+[2024-05-21 02:22:12] WARNING root fetch - processPackages [cdk-cr-constructs]: Skipping package: exceeds size limit 15104564>=10485760
+[2024-05-21 02:22:12] INFO root fetch - main [MainThread]: End processing [cdk-cr-constructs] error
+[2024-05-21 02:22:12] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2024-05-21 02:22:12] INFO root fetch - processPackages [sbcli-dev]: executing diffoscope
+[2024-05-21 02:22:12] INFO root fetch - processPackages [sbcli-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbcli_dev-2.6.3.zip tmp/sbcli_dev-2.6.4.zip --markdown 20240521/s/sbcli-dev/2.6.3-2.6.4/README.md --exclude *.pyd
+[2024-05-21 02:22:12] INFO root fetch - processPackages [compressed-tensors-nightly]: Downloading https://files.pythonhosted.org/packages/c4/bc/a051f63fedc6075769add89d962e29a93e2825f8aad652d25c31c9eb3eb2/compressed_tensors_nightly-0.3.3.20240521-py3-none-any.whl
+[2024-05-21 02:22:12] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Downloading https://files.pythonhosted.org/packages/2d/d8/3fd98f927d9988f7c189f488b1829ac7aa7f855bf93f6030e3bed9af9a97/cdklabs.cdk-ethereum-node-0.0.99.tar.gz
+[2024-05-21 02:22:12] INFO root fetch - processPackages [psyke]: Downloading https://files.pythonhosted.org/packages/b0/cc/ac7226cbb3a7b40cbb809fa27c3a340d542398bd8d3a1c16bea69d51e0db/psyke-0.8.9.dev4.tar.gz
+[2024-05-21 02:22:12] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: executing diffoscope
+[2024-05-21 02:22:12] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-ethereum-node-0.0.98.tar.gz tmp/cdklabs.cdk-ethereum-node-0.0.99.tar.gz --markdown 20240521/c/cdklabs.cdk-ethereum-node/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-21 02:22:12] INFO root fetch - processPackages [compressed-tensors-nightly]: executing diffoscope
+[2024-05-21 02:22:12] INFO root fetch - processPackages [compressed-tensors-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/compressed_tensors_nightly-0.3.3.20240520-py3-none-any.whl.zip tmp/compressed_tensors_nightly-0.3.3.20240521-py3-none-any.whl.zip --markdown 20240521/c/compressed-tensors-nightly/0.3.3.20240520-0.3.3.20240521/README.md --exclude *.pyd
+[2024-05-21 02:22:12] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/e4/39/e997b5acac972df8d777c4a4ad6dfd9f51e03e75fc8e23c973a7772267d5/cdk-aurora-globaldatabase-2.3.98.tar.gz
+[2024-05-21 02:22:12] INFO root fetch - processPackages [psyke]: executing diffoscope
+[2024-05-21 02:22:12] INFO root fetch - processPackages [psyke]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psyke-0.8.9.dev3.tar.gz tmp/psyke-0.8.9.dev4.tar.gz --markdown 20240521/p/psyke/0.8.9.dev3-0.8.9.dev4/README.md --exclude *.pyd
+[2024-05-21 02:22:13] INFO root fetch - processPackages [qualystbx]: Remove: archive file [/home/abi/fetcher/tmp/qualystbx-0.7.0.tar.gz]
+[2024-05-21 02:22:13] INFO root fetch - processPackages [qualystbx]: Remove: archive file [/home/abi/fetcher/tmp/qualystbx-0.8.0.tar.gz]
+[2024-05-21 02:22:13] INFO root fetch - main [MainThread]: End processing [qualystbx]: success
+[2024-05-21 02:22:13] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/51/53/0158facaec2becec86707148eb931de78a7ad1c2b63f80b9911a53e4c17b/cdk-aurora-globaldatabase-2.3.99.tar.gz
+[2024-05-21 02:22:13] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2024-05-21 02:22:13] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20240521/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/README.md --exclude *.pyd
+[2024-05-21 02:22:13] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-ethereum-node-0.0.98.tar.gz]
+[2024-05-21 02:22:13] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-ethereum-node-0.0.99.tar.gz]
+[2024-05-21 02:22:13] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-ethereum-node]: success
+[2024-05-21 02:22:13] INFO root fetch - processPackages [compressed-tensors-nightly]: Remove: archive file [/home/abi/fetcher/tmp/compressed_tensors_nightly-0.3.3.20240520-py3-none-any.whl.zip]
+[2024-05-21 02:22:13] INFO root fetch - processPackages [compressed-tensors-nightly]: Remove: archive file [/home/abi/fetcher/tmp/compressed_tensors_nightly-0.3.3.20240521-py3-none-any.whl.zip]
+[2024-05-21 02:22:13] INFO root fetch - main [MainThread]: End processing [compressed-tensors-nightly]: success
+[2024-05-21 02:22:13] INFO root fetch - processPackages [psyke]: Remove: archive file [/home/abi/fetcher/tmp/psyke-0.8.9.dev3.tar.gz]
+[2024-05-21 02:22:13] INFO root fetch - processPackages [psyke]: Remove: archive file [/home/abi/fetcher/tmp/psyke-0.8.9.dev4.tar.gz]
+[2024-05-21 02:22:13] INFO root fetch - main [MainThread]: End processing [psyke]: success
+[2024-05-21 02:22:13] INFO root fetch - processPackages [sbcli-dev]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_dev-2.6.3.zip]
+[2024-05-21 02:22:13] INFO root fetch - processPackages [sbcli-dev]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_dev-2.6.4.zip]
+[2024-05-21 02:22:13] INFO root fetch - main [MainThread]: End processing [sbcli-dev]: success
+[2024-05-21 02:22:14] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz]
+[2024-05-21 02:22:14] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
+[2024-05-21 02:22:14] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2024-05-21 02:22:14] INFO root fetch - main [MainThread]: Store serial: [23297952]
