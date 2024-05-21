@@ -9321,3 +9321,40 @@
 [2024-05-21 05:25:46] INFO root fetch - main [MainThread]: End processing [blue-plugin]: success
 [2024-05-21 05:25:46] INFO root fetch - main [MainThread]: End processing [blue-plugin]: success
 [2024-05-21 05:25:46] INFO root fetch - main [MainThread]: Store serial: [23300471]
+[2024-05-21 05:27:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23300471]
+[2024-05-21 05:27:54] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-21 05:27:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-account-commission
+[2024-05-21 05:27:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: blue-plugin
+[2024-05-21 05:27:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: blue-plugin
+[2024-05-21 05:27:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cakephpsphinx
+[2024-05-21 05:27:55] INFO root fetch - processPackages [blue-plugin]: New version: [3.39.1] Old Version: [3.38.1]
+[2024-05-21 05:27:55] INFO root fetch - processPackages [blue-plugin]: New version: [3.39.1] Old Version: [3.38.1]
+[2024-05-21 05:27:55] INFO root fetch - processPackages [odoo-addon-account-commission]: New version: [17.0.1.0.0.5] Old Version: [17.0.1.0.0.3]
+[2024-05-21 05:27:55] INFO root fetch - processPackages [blue-plugin]: Downloading https://files.pythonhosted.org/packages/ea/23/0cb71d3aa02a2bf9b05bc5cbf96cd9a4dacc5c6837d4c83b3954c47973fe/blue_plugin-3.38.1.tar.gz
+[2024-05-21 05:27:55] INFO root fetch - processPackages [cakephpsphinx]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-21 05:27:55] INFO root fetch - processPackages [blue-plugin]: Downloading https://files.pythonhosted.org/packages/ea/23/0cb71d3aa02a2bf9b05bc5cbf96cd9a4dacc5c6837d4c83b3954c47973fe/blue_plugin-3.38.1.tar.gz
+[2024-05-21 05:27:55] INFO root fetch - processPackages [odoo-addon-account-commission]: Downloading https://files.pythonhosted.org/packages/02/c0/5a57dff68a7c471f3785c50ae79ce45722678cf6bf7d19b99f1197dc42a2/odoo_addon_account_commission-17.0.1.0.0.3-py3-none-any.whl
+[2024-05-21 05:27:55] INFO root fetch - processPackages [blue-plugin]: Downloading https://files.pythonhosted.org/packages/bd/bd/41b44b2a48595e749c14c120aa662b698feda8c4ce2ad98a0282cbf74883/blue_plugin-3.39.1.tar.gz
+[2024-05-21 05:27:55] INFO root fetch - processPackages [blue-plugin]: Downloading https://files.pythonhosted.org/packages/bd/bd/41b44b2a48595e749c14c120aa662b698feda8c4ce2ad98a0282cbf74883/blue_plugin-3.39.1.tar.gz
+[2024-05-21 05:27:55] INFO root fetch - processPackages [cakephpsphinx]: Downloading https://files.pythonhosted.org/packages/bf/cc/3d141aa7314686dcd82189dc24acc53554fde57b3e9f6c64787d54ef8b33/cakephpsphinx-0.1.8-py2-none-any.whl
+[2024-05-21 05:27:55] INFO root fetch - processPackages [blue-plugin]: executing diffoscope
+[2024-05-21 05:27:55] INFO root fetch - processPackages [blue-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blue_plugin-3.38.1.tar.gz tmp/blue_plugin-3.39.1.tar.gz --markdown 20240521/b/blue-plugin/3.38.1-3.39.1/README.md --exclude *.pyd
+[2024-05-21 05:27:55] INFO root fetch - processPackages [blue-plugin]: executing diffoscope
+[2024-05-21 05:27:55] INFO root fetch - processPackages [blue-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blue_plugin-3.38.1.tar.gz tmp/blue_plugin-3.39.1.tar.gz --markdown 20240521/b/blue-plugin/3.38.1-3.39.1/README.md --exclude *.pyd
+[2024-05-21 05:27:55] INFO root fetch - processPackages [odoo-addon-account-commission]: Downloading https://files.pythonhosted.org/packages/42/d9/27c0071bfa232e95238deac4e6c0ae87944b007d95792ed8229eaa826963/odoo_addon_account_commission-17.0.1.0.0.5-py3-none-any.whl
+[2024-05-21 05:27:55] INFO root fetch - processPackages [odoo-addon-account-commission]: executing diffoscope
+[2024-05-21 05:27:55] INFO root fetch - processPackages [odoo-addon-account-commission]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_commission-17.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_account_commission-17.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240521/o/odoo-addon-account-commission/17.0.1.0.0.3-17.0.1.0.0.5/README.md --exclude *.pyd
+[2024-05-21 05:27:56] INFO root fetch - processPackages [cakephpsphinx]: Downloading https://files.pythonhosted.org/packages/67/d1/2437d20f12b550ff976e358d479449f956f8d2ce9cc3275f492b17e0f30f/cakephpsphinx-0.1.9.tar.gz
+[2024-05-21 05:27:56] INFO root fetch - processPackages [blue-plugin]: Remove: archive file [/home/abi/fetcher/tmp/blue_plugin-3.38.1.tar.gz]
+[2024-05-21 05:27:56] INFO root fetch - processPackages [blue-plugin]: Remove: archive file [/home/abi/fetcher/tmp/blue_plugin-3.39.1.tar.gz]
+[2024-05-21 05:27:56] INFO root fetch - main [MainThread]: End processing [blue-plugin]: success
+[2024-05-21 05:27:56] INFO root fetch - main [MainThread]: End processing [blue-plugin]: success
+[2024-05-21 05:27:56] INFO root fetch - processPackages [cakephpsphinx]: executing diffoscope
+[2024-05-21 05:27:56] INFO root fetch - processPackages [cakephpsphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cakephpsphinx-0.1.8-py2-none-any.whl.zip tmp/cakephpsphinx-0.1.9.tar.gz --markdown 20240521/c/cakephpsphinx/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-21 05:27:56] INFO root fetch - processPackages [odoo-addon-account-commission]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_commission-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-21 05:27:56] INFO root fetch - processPackages [odoo-addon-account-commission]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_commission-17.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-05-21 05:27:56] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-commission]: success
+[2024-05-21 05:27:57] INFO root fetch - processPackages [cakephpsphinx]: Remove: archive file [/home/abi/fetcher/tmp/cakephpsphinx-0.1.8-py2-none-any.whl.zip]
+[2024-05-21 05:27:57] INFO root fetch - processPackages [cakephpsphinx]: Remove: archive file [/home/abi/fetcher/tmp/cakephpsphinx-0.1.9.tar.gz]
+[2024-05-21 05:27:57] INFO root fetch - main [MainThread]: End processing [cakephpsphinx]: success
+[2024-05-21 05:27:57] INFO root fetch - main [MainThread]: Store serial: [23300482]
