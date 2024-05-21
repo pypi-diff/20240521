@@ -14060,3 +14060,36 @@
 [2024-05-21 08:52:35] INFO root fetch - processPackages [vessl]: Remove: archive file [/home/abi/fetcher/tmp/vessl-0.1.99.tar.gz]
 [2024-05-21 08:52:35] INFO root fetch - main [MainThread]: End processing [vessl]: success
 [2024-05-21 08:52:35] INFO root fetch - main [MainThread]: Store serial: [23302212]
+[2024-05-21 08:54:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23302212]
+[2024-05-21 08:54:44] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-21 08:54:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jpegtran
+[2024-05-21 08:54:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: supervisely
+[2024-05-21 08:54:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-tsugu-bangdream-bot
+[2024-05-21 08:54:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qwak-sdk
+[2024-05-21 08:54:44] WARNING root fetch - processPackages [jpegtran]: Skipping, unable to determine old version
+[2024-05-21 08:54:44] INFO root fetch - main [MainThread]: End processing [jpegtran] error
+[2024-05-21 08:54:44] INFO root fetch - processPackages [nonebot-plugin-tsugu-bangdream-bot]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-21 08:54:44] INFO root fetch - processPackages [qwak-sdk]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-21 08:54:44] INFO root fetch - processPackages [supervisely]: New version: [6.9.2] Old Version: [6.9.1]
+[2024-05-21 08:54:45] INFO root fetch - processPackages [nonebot-plugin-tsugu-bangdream-bot]: Downloading https://files.pythonhosted.org/packages/0b/67/17082d6cf786d278507de5f4932458e49d8aaecbdbe0663851df74451ff8/nonebot_plugin_tsugu_bangdream_bot-0.1.5.tar.gz
+[2024-05-21 08:54:45] INFO root fetch - processPackages [qwak-sdk]: Downloading https://files.pythonhosted.org/packages/54/73/b232213196f61ccf5d744e25bd0300ead695e86f48708d735193d80f05ff/qwak_sdk-0.5.8.tar.gz
+[2024-05-21 08:54:45] INFO root fetch - processPackages [supervisely]: Downloading https://files.pythonhosted.org/packages/bf/5a/d1c5e1830d747d899ac781f368bbd65eb9c02eaf0faf98d318a7dd8cce53/supervisely-6.9.1.tar.gz
+[2024-05-21 08:54:45] INFO root fetch - processPackages [nonebot-plugin-tsugu-bangdream-bot]: Downloading https://files.pythonhosted.org/packages/51/61/74748916b46386bc397295b43c7d9d97ce99713cc1ab7e27b0c1c98561f4/nonebot_plugin_tsugu_bangdream_bot-0.1.6.tar.gz
+[2024-05-21 08:54:45] INFO root fetch - processPackages [qwak-sdk]: Downloading https://files.pythonhosted.org/packages/d4/93/8fee5951ae6175bb756e71b252346e876a32a52652955f82fb606c69fb2c/qwak_sdk-0.5.9.tar.gz
+[2024-05-21 08:54:45] INFO root fetch - processPackages [supervisely]: Downloading https://files.pythonhosted.org/packages/bf/56/78987e56220fcb935013105de97143fb9371ba9732a7dcdcb9451350a28f/supervisely-6.9.2.tar.gz
+[2024-05-21 08:54:45] INFO root fetch - processPackages [nonebot-plugin-tsugu-bangdream-bot]: executing diffoscope
+[2024-05-21 08:54:45] INFO root fetch - processPackages [nonebot-plugin-tsugu-bangdream-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_tsugu_bangdream_bot-0.1.5.tar.gz tmp/nonebot_plugin_tsugu_bangdream_bot-0.1.6.tar.gz --markdown 20240521/n/nonebot-plugin-tsugu-bangdream-bot/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-21 08:54:45] INFO root fetch - processPackages [qwak-sdk]: executing diffoscope
+[2024-05-21 08:54:45] INFO root fetch - processPackages [qwak-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_sdk-0.5.8.tar.gz tmp/qwak_sdk-0.5.9.tar.gz --markdown 20240521/q/qwak-sdk/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-21 08:54:45] INFO root fetch - processPackages [supervisely]: executing diffoscope
+[2024-05-21 08:54:45] INFO root fetch - processPackages [supervisely]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supervisely-6.9.1.tar.gz tmp/supervisely-6.9.2.tar.gz --markdown 20240521/s/supervisely/6.9.1-6.9.2/README.md --exclude *.pyd
+[2024-05-21 08:54:46] INFO root fetch - processPackages [nonebot-plugin-tsugu-bangdream-bot]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_tsugu_bangdream_bot-0.1.5.tar.gz]
+[2024-05-21 08:54:46] INFO root fetch - processPackages [nonebot-plugin-tsugu-bangdream-bot]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_tsugu_bangdream_bot-0.1.6.tar.gz]
+[2024-05-21 08:54:46] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-tsugu-bangdream-bot]: success
+[2024-05-21 08:54:46] INFO root fetch - processPackages [qwak-sdk]: Remove: archive file [/home/abi/fetcher/tmp/qwak_sdk-0.5.8.tar.gz]
+[2024-05-21 08:54:46] INFO root fetch - processPackages [qwak-sdk]: Remove: archive file [/home/abi/fetcher/tmp/qwak_sdk-0.5.9.tar.gz]
+[2024-05-21 08:54:46] INFO root fetch - main [MainThread]: End processing [qwak-sdk]: success
+[2024-05-21 08:54:46] INFO root fetch - processPackages [supervisely]: Remove: archive file [/home/abi/fetcher/tmp/supervisely-6.9.1.tar.gz]
+[2024-05-21 08:54:46] INFO root fetch - processPackages [supervisely]: Remove: archive file [/home/abi/fetcher/tmp/supervisely-6.9.2.tar.gz]
+[2024-05-21 08:54:46] INFO root fetch - main [MainThread]: End processing [supervisely]: success
+[2024-05-21 08:54:46] INFO root fetch - main [MainThread]: Store serial: [23302229]
