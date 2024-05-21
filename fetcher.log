@@ -14176,3 +14176,67 @@
 [2024-05-21 08:59:08] INFO root fetch - processPackages [dearwatson]: Remove: archive file [/home/abi/fetcher/tmp/dearwatson-0.9.9.tar.gz]
 [2024-05-21 08:59:08] INFO root fetch - main [MainThread]: End processing [dearwatson]: success
 [2024-05-21 08:59:08] INFO root fetch - main [MainThread]: Store serial: [23302263]
+[2024-05-21 09:01:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23302263]
+[2024-05-21 09:01:17] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-21 09:01:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xmonkey-namonica
+[2024-05-21 09:01:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xcloudforlinux
+[2024-05-21 09:01:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-stock-available
+[2024-05-21 09:01:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: finter
+[2024-05-21 09:01:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-stock-available-mrp
+[2024-05-21 09:01:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-stock-available
+[2024-05-21 09:01:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-stock-available-immediately
+[2024-05-21 09:01:17] INFO root fetch - processPackages [xmonkey-namonica]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-21 09:01:17] INFO root fetch - processPackages [xcloudforlinux]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-05-21 09:01:17] INFO root fetch - processPackages [finter]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-21 09:01:17] INFO root fetch - processPackages [xmonkey-namonica]: Downloading https://files.pythonhosted.org/packages/b0/3d/6203ff7af6294781f051903a25270845fd90f2978f0aad2922baf027467a/xmonkey_namonica-0.1.8.tar.gz
+[2024-05-21 09:01:17] INFO root fetch - processPackages [xcloudforlinux]: Downloading https://files.pythonhosted.org/packages/08/ed/6cf9b66224e2b0e67e62f6a23a80fa580a3d903b502d560a175ac5c8bd61/xcloudforlinux-0.3.2.tar.gz
+[2024-05-21 09:01:17] INFO root fetch - processPackages [odoo-addon-stock-available]: New version: [17.0.1.0.0.4] Old Version: [17.0.1.0.0.3]
+[2024-05-21 09:01:17] INFO root fetch - processPackages [odoo-addon-stock-available]: New version: [17.0.1.0.0.4] Old Version: [17.0.1.0.0.3]
+[2024-05-21 09:01:17] INFO root fetch - processPackages [odoo-addon-stock-available-mrp]: New version: [16.0.1.0.0.8] Old Version: [16.0.1.0.0.7]
+[2024-05-21 09:01:17] INFO root fetch - processPackages [odoo-addon-stock-available-immediately]: New version: [16.0.1.0.0.8] Old Version: [16.0.1.0.0.7]
+[2024-05-21 09:01:17] INFO root fetch - processPackages [finter]: Downloading https://files.pythonhosted.org/packages/a5/42/62839a9d04ec1ea057f46ba770914804c9ca13fe76705b86c9503ceb5efd/finter-0.2.8-py3-none-any.whl
+[2024-05-21 09:01:17] INFO root fetch - processPackages [odoo-addon-stock-available-immediately]: Downloading https://files.pythonhosted.org/packages/3c/85/abd60bcf22a69b1c881fae158deea06afc3beff239978726d3873051b5f0/odoo_addon_stock_available_immediately-16.0.1.0.0.7-py3-none-any.whl
+[2024-05-21 09:01:17] INFO root fetch - processPackages [odoo-addon-stock-available]: Downloading https://files.pythonhosted.org/packages/78/d1/09c247da870cfb81b8e99da9800a8884f1b0416525dff692aa3205872ec1/odoo_addon_stock_available-17.0.1.0.0.3-py3-none-any.whl
+[2024-05-21 09:01:17] INFO root fetch - processPackages [odoo-addon-stock-available]: Downloading https://files.pythonhosted.org/packages/78/d1/09c247da870cfb81b8e99da9800a8884f1b0416525dff692aa3205872ec1/odoo_addon_stock_available-17.0.1.0.0.3-py3-none-any.whl
+[2024-05-21 09:01:17] INFO root fetch - processPackages [odoo-addon-stock-available-mrp]: Downloading https://files.pythonhosted.org/packages/a0/4f/e4a5fb80df148f8feb1e5597c76b31f12e5ff153a1cd3b357b9c3bd1654b/odoo_addon_stock_available_mrp-16.0.1.0.0.7-py3-none-any.whl
+[2024-05-21 09:01:17] INFO root fetch - processPackages [xmonkey-namonica]: Downloading https://files.pythonhosted.org/packages/cf/b8/696ff3c9499cdf66adacf2f654a1d6d3e21fc8d3f60fedd73208f3172235/xmonkey_namonica-0.1.9.tar.gz
+[2024-05-21 09:01:17] INFO root fetch - processPackages [finter]: Downloading https://files.pythonhosted.org/packages/4f/d0/2e1ef5832dd6cbc5f4d24de1b60ad8f90066391220d8d6ebdc279ae3fffd/finter-0.2.9-py3-none-any.whl
+[2024-05-21 09:01:17] INFO root fetch - processPackages [xmonkey-namonica]: executing diffoscope
+[2024-05-21 09:01:17] INFO root fetch - processPackages [xmonkey-namonica]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xmonkey_namonica-0.1.8.tar.gz tmp/xmonkey_namonica-0.1.9.tar.gz --markdown 20240521/x/xmonkey-namonica/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-21 09:01:17] INFO root fetch - processPackages [xcloudforlinux]: Downloading https://files.pythonhosted.org/packages/6f/8d/38989e572c85095e744a1cb09603c8382327aa24fb3569ab85f0467b18fd/xcloudforlinux-0.3.3.tar.gz
+[2024-05-21 09:01:17] INFO root fetch - processPackages [finter]: executing diffoscope
+[2024-05-21 09:01:17] INFO root fetch - processPackages [finter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finter-0.2.8-py3-none-any.whl.zip tmp/finter-0.2.9-py3-none-any.whl.zip --markdown 20240521/f/finter/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-21 09:01:17] INFO root fetch - processPackages [odoo-addon-stock-available-immediately]: Downloading https://files.pythonhosted.org/packages/1f/af/7777803c9cf38733387be68045081f1c32ee3895bbff9ca6b935b0330c35/odoo_addon_stock_available_immediately-16.0.1.0.0.8-py3-none-any.whl
+[2024-05-21 09:01:17] INFO root fetch - processPackages [odoo-addon-stock-available]: Downloading https://files.pythonhosted.org/packages/86/ee/d7ca259bb9fb232ccafc12548d6686083f62e6574e2205809f218bcd3c98/odoo_addon_stock_available-17.0.1.0.0.4-py3-none-any.whl
+[2024-05-21 09:01:17] INFO root fetch - processPackages [odoo-addon-stock-available]: Downloading https://files.pythonhosted.org/packages/86/ee/d7ca259bb9fb232ccafc12548d6686083f62e6574e2205809f218bcd3c98/odoo_addon_stock_available-17.0.1.0.0.4-py3-none-any.whl
+[2024-05-21 09:01:17] INFO root fetch - processPackages [odoo-addon-stock-available-mrp]: Downloading https://files.pythonhosted.org/packages/ea/5a/09eb3aa1154ba5da8050b0c716780dd25390ab1dbcef1ae1abbe9e20add2/odoo_addon_stock_available_mrp-16.0.1.0.0.8-py3-none-any.whl
+[2024-05-21 09:01:18] INFO root fetch - processPackages [odoo-addon-stock-available-immediately]: executing diffoscope
+[2024-05-21 09:01:18] INFO root fetch - processPackages [odoo-addon-stock-available-immediately]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_available_immediately-16.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_stock_available_immediately-16.0.1.0.0.8-py3-none-any.whl.zip --markdown 20240521/o/odoo-addon-stock-available-immediately/16.0.1.0.0.7-16.0.1.0.0.8/README.md --exclude *.pyd
+[2024-05-21 09:01:18] INFO root fetch - processPackages [odoo-addon-stock-available-mrp]: executing diffoscope
+[2024-05-21 09:01:18] INFO root fetch - processPackages [odoo-addon-stock-available-mrp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_available_mrp-16.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_stock_available_mrp-16.0.1.0.0.8-py3-none-any.whl.zip --markdown 20240521/o/odoo-addon-stock-available-mrp/16.0.1.0.0.7-16.0.1.0.0.8/README.md --exclude *.pyd
+[2024-05-21 09:01:18] INFO root fetch - processPackages [odoo-addon-stock-available]: executing diffoscope
+[2024-05-21 09:01:18] INFO root fetch - processPackages [odoo-addon-stock-available]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_available-17.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_stock_available-17.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240521/o/odoo-addon-stock-available/17.0.1.0.0.3-17.0.1.0.0.4/README.md --exclude *.pyd
+[2024-05-21 09:01:18] INFO root fetch - processPackages [odoo-addon-stock-available]: executing diffoscope
+[2024-05-21 09:01:18] INFO root fetch - processPackages [odoo-addon-stock-available]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_available-17.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_stock_available-17.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240521/o/odoo-addon-stock-available/17.0.1.0.0.3-17.0.1.0.0.4/README.md --exclude *.pyd
+[2024-05-21 09:01:18] INFO root fetch - processPackages [xcloudforlinux]: executing diffoscope
+[2024-05-21 09:01:18] INFO root fetch - processPackages [xcloudforlinux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xcloudforlinux-0.3.2.tar.gz tmp/xcloudforlinux-0.3.3.tar.gz --markdown 20240521/x/xcloudforlinux/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-05-21 09:01:18] INFO root fetch - processPackages [xmonkey-namonica]: Remove: archive file [/home/abi/fetcher/tmp/xmonkey_namonica-0.1.8.tar.gz]
+[2024-05-21 09:01:18] INFO root fetch - processPackages [xmonkey-namonica]: Remove: archive file [/home/abi/fetcher/tmp/xmonkey_namonica-0.1.9.tar.gz]
+[2024-05-21 09:01:18] INFO root fetch - main [MainThread]: End processing [xmonkey-namonica]: success
+[2024-05-21 09:01:18] INFO root fetch - processPackages [odoo-addon-stock-available-mrp]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_available_mrp-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2024-05-21 09:01:18] INFO root fetch - processPackages [odoo-addon-stock-available-mrp]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_available_mrp-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2024-05-21 09:01:18] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-available-mrp]: success
+[2024-05-21 09:01:18] INFO root fetch - processPackages [odoo-addon-stock-available-immediately]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_available_immediately-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2024-05-21 09:01:18] INFO root fetch - processPackages [odoo-addon-stock-available-immediately]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_available_immediately-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2024-05-21 09:01:18] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-available-immediately]: success
+[2024-05-21 09:01:19] INFO root fetch - processPackages [odoo-addon-stock-available]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_available-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-21 09:01:19] INFO root fetch - processPackages [odoo-addon-stock-available]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_available-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-21 09:01:19] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-available]: success
+[2024-05-21 09:01:19] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-available]: success
+[2024-05-21 09:01:19] INFO root fetch - processPackages [finter]: Remove: archive file [/home/abi/fetcher/tmp/finter-0.2.8-py3-none-any.whl.zip]
+[2024-05-21 09:01:19] INFO root fetch - processPackages [finter]: Remove: archive file [/home/abi/fetcher/tmp/finter-0.2.9-py3-none-any.whl.zip]
+[2024-05-21 09:01:19] INFO root fetch - main [MainThread]: End processing [finter]: success
+[2024-05-21 09:01:19] INFO root fetch - processPackages [xcloudforlinux]: Remove: archive file [/home/abi/fetcher/tmp/xcloudforlinux-0.3.2.tar.gz]
+[2024-05-21 09:01:19] INFO root fetch - processPackages [xcloudforlinux]: Remove: archive file [/home/abi/fetcher/tmp/xcloudforlinux-0.3.3.tar.gz]
+[2024-05-21 09:01:19] INFO root fetch - main [MainThread]: End processing [xcloudforlinux]: success
+[2024-05-21 09:01:19] INFO root fetch - main [MainThread]: Store serial: [23302279]
