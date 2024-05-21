@@ -12364,3 +12364,123 @@
 [2024-05-21 07:44:33] INFO root fetch - processPackages [oci]: Remove: archive file [/home/abi/fetcher/tmp/oci-2.99.1.tar.gz]
 [2024-05-21 07:44:33] INFO root fetch - main [MainThread]: End processing [oci]: success
 [2024-05-21 07:44:33] INFO root fetch - main [MainThread]: Store serial: [23301548]
+[2024-05-21 07:46:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23301548]
+[2024-05-21 07:46:44] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-05-21 07:46:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: FinToolsAP
+[2024-05-21 07:46:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rigging
+[2024-05-21 07:46:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pms-encoder
+[2024-05-21 07:46:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: quickstart-vdk
+[2024-05-21 07:46:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: motionSegmentation
+[2024-05-21 07:46:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: profile-local
+[2024-05-21 07:46:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kano-cv
+[2024-05-21 07:46:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ralium
+[2024-05-21 07:46:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: py-near
+[2024-05-21 07:46:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cntracer
+[2024-05-21 07:46:44] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.999091100.dev13356] Old Version: [0.2.998635022.dev13355]
+[2024-05-21 07:46:44] INFO root fetch - processPackages [kano-cv]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-05-21 07:46:44] INFO root fetch - processPackages [pms-encoder]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-21 07:46:44] INFO root fetch - processPackages [ralium]: New version: [1.1.0] Old Version: [1.0.1]
+[2024-05-21 07:46:44] INFO root fetch - processPackages [FinToolsAP]: New version: [1.7.9] Old Version: [1.7.8]
+[2024-05-21 07:46:44] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/e3/a6/b7424a3be777980068df32f41ef9085422b79289fef725cba5cabf2b502e/quickstart-vdk-0.2.998635022.dev13355.tar.gz
+[2024-05-21 07:46:44] INFO root fetch - processPackages [profile-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-21 07:46:44] INFO root fetch - processPackages [motionSegmentation]: New version: [2.9.2] Old Version: [2.9.1]
+[2024-05-21 07:46:44] INFO root fetch - processPackages [cntracer]: New version: [1.7.30] Old Version: [1.7.20]
+[2024-05-21 07:46:44] INFO root fetch - processPackages [rigging]: New version: [1.1.0] Old Version: [1.0.1]
+[2024-05-21 07:46:44] INFO root fetch - processPackages [py-near]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-05-21 07:46:44] INFO root fetch - processPackages [kano-cv]: Downloading https://files.pythonhosted.org/packages/c0/65/6a2e07810ee93f8537d7656e017c6e73af55effc740406c7471bd7c0ef1c/kano-cv-1.9.1.tar.gz
+[2024-05-21 07:46:44] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/80/f1/88f2f54188c15bf6cca5ba7a3a347b8d1c83b15a626f541acf3dde5aa63d/pms_encoder-0.0.8.tar.gz
+[2024-05-21 07:46:44] INFO root fetch - processPackages [ralium]: Downloading https://files.pythonhosted.org/packages/fa/17/0241b0c012272caa9cfcabc203223a37ad8ab34c0d6403e545f9397f021d/ralium-1.0.1.tar.gz
+[2024-05-21 07:46:44] INFO root fetch - processPackages [FinToolsAP]: Downloading https://files.pythonhosted.org/packages/af/b0/91b912b27b5fc62fedbd30a60b3dffa8780b626755cac06d96514ae7cdc8/fintoolsap-1.7.8.tar.gz
+[2024-05-21 07:46:44] INFO root fetch - processPackages [rigging]: Downloading https://files.pythonhosted.org/packages/e1/b1/0528fe8bd109f14edb1c2547397e71c5f8acb54edbe06253603ff63ac1c4/rigging-1.0.1.tar.gz
+[2024-05-21 07:46:45] INFO root fetch - processPackages [profile-local]: Downloading https://files.pythonhosted.org/packages/4b/d7/8af14a0850e980f53de36404fc2079c451edc1e65f24be79c595f88f602d/profile-local-0.0.8.tar.gz
+[2024-05-21 07:46:45] INFO root fetch - processPackages [motionSegmentation]: Downloading https://files.pythonhosted.org/packages/f0/71/a6599b26c0dd35eb83781dfe9fce1c7c8d5e3bbf13a3715628a5d7f9024d/motionsegmentation-2.9.1.tar.gz
+[2024-05-21 07:46:45] INFO root fetch - processPackages [cntracer]: Downloading https://files.pythonhosted.org/packages/19/0a/9e3986c8b0f5349757fd45a52ead9d93fb1420a9543a8c4c29064273f28a/cntracer-1.7.20-cp39-cp39-win_amd64.whl
+[2024-05-21 07:46:45] INFO root fetch - processPackages [py-near]: Downloading https://files.pythonhosted.org/packages/aa/de/beface0702603924b5d0a916d15f1c6cc26697783b8191af8e33620e805d/py_near-1.1.8.tar.gz
+[2024-05-21 07:46:45] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/fa/72/2a48eb94b876fa0c01eda0450a3e80c80101dd5fdfe10124d5474b64f5fd/quickstart-vdk-0.2.999091100.dev13356.tar.gz
+[2024-05-21 07:46:45] INFO root fetch - processPackages [kano-cv]: Downloading https://files.pythonhosted.org/packages/97/97/49939234a345d7336412bb2072f63149b16ee9336a2184688294a6eeb1ab/kano-cv-1.9.2.tar.gz
+[2024-05-21 07:46:45] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/93/31/8bb081756db42925fab6507b6e0f497d6bf45acd407ff38cb00f2aaec54c/pms_encoder-0.0.9.tar.gz
+[2024-05-21 07:46:45] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2024-05-21 07:46:45] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz --markdown 20240521/q/quickstart-vdk/0.2.998635022.dev13355-0.2.999091100.dev13356/README.md --exclude *.pyd
+[2024-05-21 07:46:45] INFO root fetch - processPackages [rigging]: Downloading https://files.pythonhosted.org/packages/e8/12/adeaaff1f41bd8477035c5ad1a8801c89be2c50e3afc96b3cf5758d35bf3/rigging-1.1.0.tar.gz
+[2024-05-21 07:46:45] INFO root fetch - processPackages [pms-encoder]: executing diffoscope
+[2024-05-21 07:46:45] INFO root fetch - processPackages [pms-encoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pms_encoder-0.0.8.tar.gz tmp/pms_encoder-0.0.9.tar.gz --markdown 20240521/p/pms-encoder/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-21 07:46:45] INFO root fetch - processPackages [ralium]: Downloading https://files.pythonhosted.org/packages/57/dc/4e840215b3374691a689235ecaa910b7ed0621aa90cfa965aab8de1f2fe5/ralium-1.1.0.tar.gz
+[2024-05-21 07:46:45] INFO root fetch - processPackages [FinToolsAP]: Downloading https://files.pythonhosted.org/packages/ef/dd/b17f9c30f6470ae4f505f3f3d101d6268653584d4293d5273b3d71aa48b0/fintoolsap-1.7.9.tar.gz
+[2024-05-21 07:46:45] INFO root fetch - processPackages [kano-cv]: executing diffoscope
+[2024-05-21 07:46:45] INFO root fetch - processPackages [kano-cv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kano-cv-1.9.1.tar.gz tmp/kano-cv-1.9.2.tar.gz --markdown 20240521/k/kano-cv/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-05-21 07:46:45] INFO root fetch - processPackages [motionSegmentation]: Downloading https://files.pythonhosted.org/packages/c2/de/6fd1c9c6ae8c10a9e9badda0168ccf22db42cf50de4d0be84c6e1847be02/motionsegmentation-2.9.2.tar.gz
+[2024-05-21 07:46:45] INFO root fetch - processPackages [rigging]: executing diffoscope
+[2024-05-21 07:46:45] INFO root fetch - processPackages [rigging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rigging-1.0.1.tar.gz tmp/rigging-1.1.0.tar.gz --markdown 20240521/r/rigging/1.0.1-1.1.0/README.md --exclude *.pyd
+[2024-05-21 07:46:45] INFO root fetch - processPackages [ralium]: executing diffoscope
+[2024-05-21 07:46:45] INFO root fetch - processPackages [ralium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ralium-1.0.1.tar.gz tmp/ralium-1.1.0.tar.gz --markdown 20240521/r/ralium/1.0.1-1.1.0/README.md --exclude *.pyd
+[2024-05-21 07:46:45] INFO root fetch - processPackages [cntracer]: Downloading https://files.pythonhosted.org/packages/79/84/a3fd926bc9e3f2fdb7a6309699eb0c96cbe93d77644fa39427b5dd74af42/cntracer-1.7.30-cp39-cp39-musllinux_1_1_aarch64.whl
+[2024-05-21 07:46:45] INFO root fetch - processPackages [profile-local]: Downloading https://files.pythonhosted.org/packages/a8/54/e07308090c523485559291c7a02f014be5ed9511f87a7701fb7328a58149/profile-local-0.0.9.tar.gz
+[2024-05-21 07:46:45] INFO root fetch - processPackages [FinToolsAP]: executing diffoscope
+[2024-05-21 07:46:45] INFO root fetch - processPackages [FinToolsAP]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fintoolsap-1.7.8.tar.gz tmp/fintoolsap-1.7.9.tar.gz --markdown 20240521/F/FinToolsAP/1.7.8-1.7.9/README.md --exclude *.pyd
+[2024-05-21 07:46:45] INFO root fetch - processPackages [py-near]: Downloading https://files.pythonhosted.org/packages/3e/73/28d02d95d66304797b8d5f4f59e2c20a6e393c56657b991e31c16ca77e9f/py_near-1.1.9.tar.gz
+[2024-05-21 07:46:45] INFO root fetch - processPackages [motionSegmentation]: executing diffoscope
+[2024-05-21 07:46:45] INFO root fetch - processPackages [motionSegmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/motionsegmentation-2.9.1.tar.gz tmp/motionsegmentation-2.9.2.tar.gz --markdown 20240521/m/motionSegmentation/2.9.1-2.9.2/README.md --exclude *.pyd
+[2024-05-21 07:46:45] INFO root fetch - processPackages [profile-local]: executing diffoscope
+[2024-05-21 07:46:45] INFO root fetch - processPackages [profile-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/profile-local-0.0.8.tar.gz tmp/profile-local-0.0.9.tar.gz --markdown 20240521/p/profile-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-21 07:46:45] INFO root fetch - processPackages [py-near]: executing diffoscope
+[2024-05-21 07:46:45] INFO root fetch - processPackages [py-near]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_near-1.1.8.tar.gz tmp/py_near-1.1.9.tar.gz --markdown 20240521/p/py-near/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-05-21 07:46:45] INFO root fetch - processPackages [cntracer]: executing diffoscope
+[2024-05-21 07:46:45] INFO root fetch - processPackages [cntracer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cntracer-1.7.20-cp39-cp39-win_amd64.whl.zip tmp/cntracer-1.7.30-cp39-cp39-musllinux_1_1_aarch64.whl.zip --markdown 20240521/c/cntracer/1.7.20-1.7.30/README.md --exclude *.pyd
+[2024-05-21 07:46:46] INFO root fetch - processPackages [kano-cv]: Remove: archive file [/home/abi/fetcher/tmp/kano-cv-1.9.1.tar.gz]
+[2024-05-21 07:46:46] INFO root fetch - processPackages [kano-cv]: Remove: archive file [/home/abi/fetcher/tmp/kano-cv-1.9.2.tar.gz]
+[2024-05-21 07:46:46] INFO root fetch - processPackages [kano-cv]: Start processing: MilesToMuppets
+[2024-05-21 07:46:46] INFO root fetch - main [MainThread]: End processing [kano-cv]: success
+[2024-05-21 07:46:46] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz]
+[2024-05-21 07:46:46] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz]
+[2024-05-21 07:46:46] INFO root fetch - processPackages [quickstart-vdk]: Start processing: splat64
+[2024-05-21 07:46:46] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2024-05-21 07:46:46] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.8.tar.gz]
+[2024-05-21 07:46:46] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.9.tar.gz]
+[2024-05-21 07:46:46] INFO root fetch - processPackages [pms-encoder]: Start processing: dash-spread-grid
+[2024-05-21 07:46:46] INFO root fetch - main [MainThread]: End processing [pms-encoder]: success
+[2024-05-21 07:46:46] INFO root fetch - processPackages [MilesToMuppets]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-21 07:46:46] INFO root fetch - processPackages [dash-spread-grid]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-21 07:46:46] INFO root fetch - processPackages [splat64]: New version: [0.24.2] Old Version: [0.24.1]
+[2024-05-21 07:46:46] INFO root fetch - processPackages [MilesToMuppets]: Downloading https://files.pythonhosted.org/packages/05/95/778ceb8bec0fe4d6de07d854571ded0cd7258f8a3b960448ab685e0fc7c1/milestomuppets-0.0.5.tar.gz
+[2024-05-21 07:46:46] INFO root fetch - processPackages [dash-spread-grid]: Downloading https://files.pythonhosted.org/packages/9f/39/3477f65f22676264317bcb1d617b220ddcc8d09f85a7eb7904d8c2676dae/dash_spread_grid-0.0.8.tar.gz
+[2024-05-21 07:46:46] INFO root fetch - processPackages [ralium]: Remove: archive file [/home/abi/fetcher/tmp/ralium-1.0.1.tar.gz]
+[2024-05-21 07:46:46] INFO root fetch - processPackages [ralium]: Remove: archive file [/home/abi/fetcher/tmp/ralium-1.1.0.tar.gz]
+[2024-05-21 07:46:46] INFO root fetch - main [MainThread]: End processing [ralium]: success
+[2024-05-21 07:46:46] INFO root fetch - processPackages [FinToolsAP]: Remove: archive file [/home/abi/fetcher/tmp/fintoolsap-1.7.8.tar.gz]
+[2024-05-21 07:46:46] INFO root fetch - processPackages [FinToolsAP]: Remove: archive file [/home/abi/fetcher/tmp/fintoolsap-1.7.9.tar.gz]
+[2024-05-21 07:46:46] INFO root fetch - main [MainThread]: End processing [FinToolsAP]: success
+[2024-05-21 07:46:46] INFO root fetch - processPackages [MilesToMuppets]: Downloading https://files.pythonhosted.org/packages/bf/83/91b2e5496d2aec0c4ca5d924fc8ad36cf1c44617d057cb0bb099372d07ec/milestomuppets-0.0.6.tar.gz
+[2024-05-21 07:46:46] INFO root fetch - processPackages [splat64]: Downloading https://files.pythonhosted.org/packages/cd/38/727613593389c69ae6aca587bba5651176869fdbd86b75fb6b17f5f24b37/splat64-0.24.1.tar.gz
+[2024-05-21 07:46:46] INFO root fetch - processPackages [motionSegmentation]: Remove: archive file [/home/abi/fetcher/tmp/motionsegmentation-2.9.1.tar.gz]
+[2024-05-21 07:46:46] INFO root fetch - processPackages [motionSegmentation]: Remove: archive file [/home/abi/fetcher/tmp/motionsegmentation-2.9.2.tar.gz]
+[2024-05-21 07:46:46] INFO root fetch - main [MainThread]: End processing [motionSegmentation]: success
+[2024-05-21 07:46:46] INFO root fetch - processPackages [cntracer]: Remove: archive file [/home/abi/fetcher/tmp/cntracer-1.7.20-cp39-cp39-win_amd64.whl.zip]
+[2024-05-21 07:46:46] INFO root fetch - processPackages [cntracer]: Remove: archive file [/home/abi/fetcher/tmp/cntracer-1.7.30-cp39-cp39-musllinux_1_1_aarch64.whl.zip]
+[2024-05-21 07:46:46] INFO root fetch - main [MainThread]: End processing [cntracer]: success
+[2024-05-21 07:46:46] INFO root fetch - processPackages [dash-spread-grid]: Downloading https://files.pythonhosted.org/packages/37/f7/3991c1c5cd26d592773df3381df4e17ae14f51d47af4fd52b7419949494b/dash_spread_grid-0.0.9.tar.gz
+[2024-05-21 07:46:46] INFO root fetch - processPackages [MilesToMuppets]: executing diffoscope
+[2024-05-21 07:46:46] INFO root fetch - processPackages [MilesToMuppets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/milestomuppets-0.0.5.tar.gz tmp/milestomuppets-0.0.6.tar.gz --markdown 20240521/M/MilesToMuppets/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-21 07:46:46] INFO root fetch - processPackages [rigging]: Remove: archive file [/home/abi/fetcher/tmp/rigging-1.0.1.tar.gz]
+[2024-05-21 07:46:46] INFO root fetch - processPackages [rigging]: Remove: archive file [/home/abi/fetcher/tmp/rigging-1.1.0.tar.gz]
+[2024-05-21 07:46:46] INFO root fetch - main [MainThread]: End processing [rigging]: success
+[2024-05-21 07:46:46] INFO root fetch - processPackages [py-near]: Remove: archive file [/home/abi/fetcher/tmp/py_near-1.1.8.tar.gz]
+[2024-05-21 07:46:46] INFO root fetch - processPackages [py-near]: Remove: archive file [/home/abi/fetcher/tmp/py_near-1.1.9.tar.gz]
+[2024-05-21 07:46:46] INFO root fetch - main [MainThread]: End processing [py-near]: success
+[2024-05-21 07:46:46] INFO root fetch - processPackages [profile-local]: Remove: archive file [/home/abi/fetcher/tmp/profile-local-0.0.8.tar.gz]
+[2024-05-21 07:46:46] INFO root fetch - processPackages [profile-local]: Remove: archive file [/home/abi/fetcher/tmp/profile-local-0.0.9.tar.gz]
+[2024-05-21 07:46:46] INFO root fetch - main [MainThread]: End processing [profile-local]: success
+[2024-05-21 07:46:46] INFO root fetch - processPackages [dash-spread-grid]: executing diffoscope
+[2024-05-21 07:46:46] INFO root fetch - processPackages [dash-spread-grid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dash_spread_grid-0.0.8.tar.gz tmp/dash_spread_grid-0.0.9.tar.gz --markdown 20240521/d/dash-spread-grid/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-21 07:46:47] INFO root fetch - processPackages [splat64]: Downloading https://files.pythonhosted.org/packages/1e/24/dc38ce219f9a78bbd188734c28d2926fb23bacde208356cd9019d883ba47/splat64-0.24.2.tar.gz
+[2024-05-21 07:46:47] INFO root fetch - processPackages [splat64]: executing diffoscope
+[2024-05-21 07:46:47] INFO root fetch - processPackages [splat64]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splat64-0.24.1.tar.gz tmp/splat64-0.24.2.tar.gz --markdown 20240521/s/splat64/0.24.1-0.24.2/README.md --exclude *.pyd
+[2024-05-21 07:46:47] INFO root fetch - processPackages [MilesToMuppets]: Remove: archive file [/home/abi/fetcher/tmp/milestomuppets-0.0.5.tar.gz]
+[2024-05-21 07:46:47] INFO root fetch - processPackages [MilesToMuppets]: Remove: archive file [/home/abi/fetcher/tmp/milestomuppets-0.0.6.tar.gz]
+[2024-05-21 07:46:47] INFO root fetch - main [MainThread]: End processing [MilesToMuppets]: success
+[2024-05-21 07:46:47] INFO root fetch - processPackages [splat64]: Remove: archive file [/home/abi/fetcher/tmp/splat64-0.24.1.tar.gz]
+[2024-05-21 07:46:47] INFO root fetch - processPackages [splat64]: Remove: archive file [/home/abi/fetcher/tmp/splat64-0.24.2.tar.gz]
+[2024-05-21 07:46:47] INFO root fetch - main [MainThread]: End processing [splat64]: success
+[2024-05-21 07:46:48] INFO root fetch - processPackages [dash-spread-grid]: Remove: archive file [/home/abi/fetcher/tmp/dash_spread_grid-0.0.8.tar.gz]
+[2024-05-21 07:46:48] INFO root fetch - processPackages [dash-spread-grid]: Remove: archive file [/home/abi/fetcher/tmp/dash_spread_grid-0.0.9.tar.gz]
+[2024-05-21 07:46:48] INFO root fetch - main [MainThread]: End processing [dash-spread-grid]: success
+[2024-05-21 07:46:48] INFO root fetch - main [MainThread]: Store serial: [23301597]
