@@ -18600,3 +18600,65 @@
 [2024-05-21 11:33:49] INFO root fetch - processPackages [easy-xedu]: Remove: archive file [/home/abi/fetcher/tmp/easy-xedu-0.2.1.tar.gz]
 [2024-05-21 11:33:49] INFO root fetch - main [MainThread]: End processing [easy-xedu]: success
 [2024-05-21 11:33:49] INFO root fetch - main [MainThread]: Store serial: [23303887]
+[2024-05-21 11:35:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23303887]
+[2024-05-21 11:35:59] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-21 11:35:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SPLayout
+[2024-05-21 11:35:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deprecation-alias
+[2024-05-21 11:35:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dve-lumipy-testing
+[2024-05-21 11:35:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tooz
+[2024-05-21 11:35:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scratchcommunication
+[2024-05-21 11:35:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: OpenFisca-France
+[2024-05-21 11:35:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pypowsybl
+[2024-05-21 11:35:59] INFO root fetch - processPackages [SPLayout]: New version: [0.5.4] Old Version: [0.5.3]
+[2024-05-21 11:35:59] INFO root fetch - processPackages [scratchcommunication]: New version: [2.8.3] Old Version: [2.8.2]
+[2024-05-21 11:35:59] INFO root fetch - processPackages [dve-lumipy-testing]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-21 11:35:59] INFO root fetch - processPackages [deprecation-alias]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-05-21 11:35:59] INFO root fetch - processPackages [SPLayout]: Downloading https://files.pythonhosted.org/packages/11/14/e7140987754590b0b7c86456a3a5efcf615e16a83f01a03d515effeab0cc/splayout-0.5.3.tar.gz
+[2024-05-21 11:35:59] INFO root fetch - processPackages [scratchcommunication]: Downloading https://files.pythonhosted.org/packages/6f/31/1cc25252e0d76ef73ec0255b00e57c5af7437be134723efd196a42056a1f/scratchcommunication-2.8.2.tar.gz
+[2024-05-21 11:35:59] INFO root fetch - processPackages [OpenFisca-France]: New version: [99.0.1] Old Version: [99.0.0]
+[2024-05-21 11:35:59] INFO root fetch - processPackages [tooz]: New version: [6.2.0] Old Version: [6.1.0]
+[2024-05-21 11:35:59] INFO root fetch - processPackages [pypowsybl]: New version: [1.5.1] Old Version: [1.5.0]
+[2024-05-21 11:35:59] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/2f/35/aa91d923787edb9bf5bcbfa8461c60465a9e55f7513c06e4f16d5221c3c3/dve_lumipy_testing-1.0.8-py3-none-any.whl
+[2024-05-21 11:35:59] INFO root fetch - processPackages [deprecation-alias]: Downloading https://files.pythonhosted.org/packages/f1/93/80482aa4afceaf83025617c2ec1ea48e619cb81ee26673fc7ba971cf45bf/deprecation-alias-0.3.2.tar.gz
+[2024-05-21 11:35:59] INFO root fetch - processPackages [SPLayout]: Downloading https://files.pythonhosted.org/packages/34/fb/6b6e8c1a62d613bfb62a9cfcb9794e6d75f7f609ed3b54444bb57e078a89/splayout-0.5.4.tar.gz
+[2024-05-21 11:35:59] INFO root fetch - processPackages [OpenFisca-France]: Downloading https://files.pythonhosted.org/packages/70/8b/f7e6ae929e6bc09831757bdb5cdb964099c9af3419db607df1bdfebfe6fd/OpenFisca_France-99.0.0-py3-none-any.whl
+[2024-05-21 11:35:59] INFO root fetch - processPackages [tooz]: Downloading https://files.pythonhosted.org/packages/de/64/5b46cbade6d26404bcd3abc76917271ce10e90a2c277fce5dc8e71a9a2a7/tooz-6.1.0.tar.gz
+[2024-05-21 11:35:59] INFO root fetch - processPackages [pypowsybl]: Downloading https://files.pythonhosted.org/packages/11/61/be8f4b0881e988a19c6bf1645105150168e7db73055531c259a77d3a534f/pypowsybl-1.5.0-cp39-cp39-win_amd64.whl
+[2024-05-21 11:35:59] INFO root fetch - processPackages [scratchcommunication]: Downloading https://files.pythonhosted.org/packages/8c/77/32107f49ecb9c6e511e825261f24c91acc3a992a1c70d06fa0e64419dd00/scratchcommunication-2.8.3.tar.gz
+[2024-05-21 11:36:00] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/1e/7c/e37b3c84846734e2feb285aa04bd1d2381e9cd7415aeb1a75f2cfd40fd79/dve_lumipy_testing-1.0.9-py3-none-any.whl
+[2024-05-21 11:36:00] WARNING root fetch - processPackages [pypowsybl]: Skipping package: exceeds size limit 45854348>=10485760
+[2024-05-21 11:36:00] INFO root fetch - main [MainThread]: End processing [pypowsybl] error
+[2024-05-21 11:36:00] INFO root fetch - processPackages [SPLayout]: executing diffoscope
+[2024-05-21 11:36:00] INFO root fetch - processPackages [SPLayout]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splayout-0.5.3.tar.gz tmp/splayout-0.5.4.tar.gz --markdown 20240521/S/SPLayout/0.5.3-0.5.4/README.md --exclude *.pyd
+[2024-05-21 11:36:00] INFO root fetch - processPackages [scratchcommunication]: executing diffoscope
+[2024-05-21 11:36:00] INFO root fetch - processPackages [scratchcommunication]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scratchcommunication-2.8.2.tar.gz tmp/scratchcommunication-2.8.3.tar.gz --markdown 20240521/s/scratchcommunication/2.8.2-2.8.3/README.md --exclude *.pyd
+[2024-05-21 11:36:00] INFO root fetch - processPackages [deprecation-alias]: Downloading https://files.pythonhosted.org/packages/19/b9/9b2efda6ad00be2333f7a4c37d252b5851638822cda9698c73befc7259f6/deprecation-alias-0.3.3.tar.gz
+[2024-05-21 11:36:00] INFO root fetch - processPackages [dve-lumipy-testing]: executing diffoscope
+[2024-05-21 11:36:00] INFO root fetch - processPackages [dve-lumipy-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dve_lumipy_testing-1.0.8-py3-none-any.whl.zip tmp/dve_lumipy_testing-1.0.9-py3-none-any.whl.zip --markdown 20240521/d/dve-lumipy-testing/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-21 11:36:00] INFO root fetch - processPackages [tooz]: Downloading https://files.pythonhosted.org/packages/f3/17/80c981c29af173419d233220ac3294824c297237afc58a417135a5b088ab/tooz-6.2.0.tar.gz
+[2024-05-21 11:36:00] INFO root fetch - processPackages [deprecation-alias]: executing diffoscope
+[2024-05-21 11:36:00] INFO root fetch - processPackages [deprecation-alias]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deprecation-alias-0.3.2.tar.gz tmp/deprecation-alias-0.3.3.tar.gz --markdown 20240521/d/deprecation-alias/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-05-21 11:36:00] INFO root fetch - processPackages [tooz]: executing diffoscope
+[2024-05-21 11:36:00] INFO root fetch - processPackages [tooz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tooz-6.1.0.tar.gz tmp/tooz-6.2.0.tar.gz --markdown 20240521/t/tooz/6.1.0-6.2.0/README.md --exclude *.pyd
+[2024-05-21 11:36:00] INFO root fetch - processPackages [scratchcommunication]: Remove: archive file [/home/abi/fetcher/tmp/scratchcommunication-2.8.2.tar.gz]
+[2024-05-21 11:36:00] INFO root fetch - processPackages [scratchcommunication]: Remove: archive file [/home/abi/fetcher/tmp/scratchcommunication-2.8.3.tar.gz]
+[2024-05-21 11:36:00] INFO root fetch - main [MainThread]: End processing [scratchcommunication]: success
+[2024-05-21 11:36:00] INFO root fetch - processPackages [SPLayout]: Remove: archive file [/home/abi/fetcher/tmp/splayout-0.5.3.tar.gz]
+[2024-05-21 11:36:00] INFO root fetch - processPackages [SPLayout]: Remove: archive file [/home/abi/fetcher/tmp/splayout-0.5.4.tar.gz]
+[2024-05-21 11:36:00] INFO root fetch - main [MainThread]: End processing [SPLayout]: success
+[2024-05-21 11:36:01] INFO root fetch - processPackages [OpenFisca-France]: Downloading https://files.pythonhosted.org/packages/b5/c6/01bc5d57d2ec6bf602cdc2aacf3444fa5f25fbb7d9e9a5bdda07728b537d/OpenFisca_France-99.0.1-py3-none-any.whl
+[2024-05-21 11:36:01] INFO root fetch - processPackages [deprecation-alias]: Remove: archive file [/home/abi/fetcher/tmp/deprecation-alias-0.3.2.tar.gz]
+[2024-05-21 11:36:01] INFO root fetch - processPackages [deprecation-alias]: Remove: archive file [/home/abi/fetcher/tmp/deprecation-alias-0.3.3.tar.gz]
+[2024-05-21 11:36:01] INFO root fetch - main [MainThread]: End processing [deprecation-alias]: success
+[2024-05-21 11:36:01] INFO root fetch - processPackages [tooz]: Remove: archive file [/home/abi/fetcher/tmp/tooz-6.1.0.tar.gz]
+[2024-05-21 11:36:01] INFO root fetch - processPackages [tooz]: Remove: archive file [/home/abi/fetcher/tmp/tooz-6.2.0.tar.gz]
+[2024-05-21 11:36:01] INFO root fetch - main [MainThread]: End processing [tooz]: success
+[2024-05-21 11:36:01] INFO root fetch - processPackages [OpenFisca-France]: executing diffoscope
+[2024-05-21 11:36:01] INFO root fetch - processPackages [OpenFisca-France]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenFisca_France-99.0.0-py3-none-any.whl.zip tmp/OpenFisca_France-99.0.1-py3-none-any.whl.zip --markdown 20240521/O/OpenFisca-France/99.0.0-99.0.1/README.md --exclude *.pyd
+[2024-05-21 11:36:01] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.8-py3-none-any.whl.zip]
+[2024-05-21 11:36:01] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.9-py3-none-any.whl.zip]
+[2024-05-21 11:36:01] INFO root fetch - main [MainThread]: End processing [dve-lumipy-testing]: success
+[2024-05-21 11:36:10] INFO root fetch - processPackages [OpenFisca-France]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca_France-99.0.0-py3-none-any.whl.zip]
+[2024-05-21 11:36:10] INFO root fetch - processPackages [OpenFisca-France]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca_France-99.0.1-py3-none-any.whl.zip]
+[2024-05-21 11:36:10] INFO root fetch - main [MainThread]: End processing [OpenFisca-France]: success
+[2024-05-21 11:36:10] INFO root fetch - main [MainThread]: Store serial: [23303907]
