@@ -17456,3 +17456,105 @@
 [2024-05-21 10:59:56] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-4.0.3.dev19974-py2.py3-none-any.whl.zip]
 [2024-05-21 10:59:56] INFO root fetch - main [MainThread]: End processing [udata-front]: success
 [2024-05-21 10:59:56] INFO root fetch - main [MainThread]: Store serial: [23303467]
+[2024-05-21 11:02:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23303467]
+[2024-05-21 11:02:05] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-05-21 11:02:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: juham
+[2024-05-21 11:02:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PlaywrightCapture
+[2024-05-21 11:02:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: isagog-ai
+[2024-05-21 11:02:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: olas-operate-middleware
+[2024-05-21 11:02:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: data-snack-dynamic-entity
+[2024-05-21 11:02:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pykolofinance
+[2024-05-21 11:02:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: smartpredict
+[2024-05-21 11:02:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nginx-static-analysis
+[2024-05-21 11:02:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: CVE-2020-35489
+[2024-05-21 11:02:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: miska
+[2024-05-21 11:02:05] INFO root fetch - processPackages [isagog-ai]: New version: [0.9.0] Old Version: [0.8.7]
+[2024-05-21 11:02:05] INFO root fetch - processPackages [olas-operate-middleware]: New version: [0.1.0rc9] Old Version: [0.1.0rc8]
+[2024-05-21 11:02:05] WARNING root fetch - processPackages [smartpredict]: Skipping, unable to determine old version
+[2024-05-21 11:02:05] INFO root fetch - processPackages [smartpredict]: Start processing: slurpkit
+[2024-05-21 11:02:05] INFO root fetch - main [MainThread]: End processing [smartpredict] error
+[2024-05-21 11:02:05] INFO root fetch - processPackages [nginx-static-analysis]: New version: [0.3.1] Old Version: [0.2.9]
+[2024-05-21 11:02:05] INFO root fetch - processPackages [slurpkit]: New version: [0.9.18] Old Version: [0.9.17]
+[2024-05-21 11:02:05] INFO root fetch - processPackages [isagog-ai]: Downloading https://files.pythonhosted.org/packages/d0/d7/53a51b08e23016ba3ca49512b4081628c06c904e14cf9ea30968235471a0/isagog_ai-0.8.7.tar.gz
+[2024-05-21 11:02:05] INFO root fetch - processPackages [pykolofinance]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-21 11:02:05] WARNING root fetch - processPackages [juham]: Skipping, unable to determine old version
+[2024-05-21 11:02:05] INFO root fetch - processPackages [juham]: Start processing: flashcam
+[2024-05-21 11:02:05] INFO root fetch - main [MainThread]: End processing [juham] error
+[2024-05-21 11:02:05] INFO root fetch - processPackages [miska]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-21 11:02:05] INFO root fetch - processPackages [data-snack-dynamic-entity]: New version: [0.2.0] Old Version: [0.1.2]
+[2024-05-21 11:02:05] WARNING root fetch - processPackages [CVE-2020-35489]: Skipping, unable to determine old version
+[2024-05-21 11:02:05] INFO root fetch - processPackages [CVE-2020-35489]: Start processing: mg-pso-gui
+[2024-05-21 11:02:05] INFO root fetch - main [MainThread]: End processing [CVE-2020-35489] error
+[2024-05-21 11:02:05] INFO root fetch - processPackages [olas-operate-middleware]: Downloading https://files.pythonhosted.org/packages/d2/22/dc91171f9f5c12f72fbef4ec6b6962b4e66e69f3a3fde86b4f32a9648c5c/olas_operate_middleware-0.1.0rc8.tar.gz
+[2024-05-21 11:02:05] INFO root fetch - processPackages [PlaywrightCapture]: New version: [1.24.9] Old Version: [1.24.8]
+[2024-05-21 11:02:06] INFO root fetch - processPackages [slurpkit]: Downloading https://files.pythonhosted.org/packages/7d/2c/50d532ab3fc18d061530c5aab17da5a6299b009356806c7960e58a51394b/slurpkit-0.9.17.tar.gz
+[2024-05-21 11:02:06] INFO root fetch - processPackages [nginx-static-analysis]: Downloading https://files.pythonhosted.org/packages/32/b9/c5d7fd492108e4f14260c23e9bb1a7447cd6f1fe440b97d269afde733a4f/nginx-static-analysis-0.2.9.tar.gz
+[2024-05-21 11:02:06] INFO root fetch - processPackages [flashcam]: New version: [1.9.3] Old Version: [1.9.2]
+[2024-05-21 11:02:06] INFO root fetch - processPackages [PlaywrightCapture]: Downloading https://files.pythonhosted.org/packages/fa/f1/55c0af536c3734db36e1e9a2948b7ec3dac71edf4bc1834f6693873e892d/playwrightcapture-1.24.8.tar.gz
+[2024-05-21 11:02:06] INFO root fetch - processPackages [pykolofinance]: Downloading https://files.pythonhosted.org/packages/69/37/29c98eb4e4d3fae7c01c76333d89a8d3fad06bf488c0f1356e9a7843dc2a/pykolofinance-1.0.0.tar.gz
+[2024-05-21 11:02:06] INFO root fetch - processPackages [data-snack-dynamic-entity]: Downloading https://files.pythonhosted.org/packages/43/b2/d55b843c1b86a96b16ea63ca3e69ea06a9dd3c4b1d4261ff957e5e56b282/data_snack_dynamic_entity-0.1.2.tar.gz
+[2024-05-21 11:02:06] INFO root fetch - processPackages [miska]: Downloading https://files.pythonhosted.org/packages/80/b2/62c40578fc5cacade850f6708e5a913079bc48144b26f9ae470aa368613a/miska-0.0.2.tar.gz
+[2024-05-21 11:02:06] INFO root fetch - processPackages [isagog-ai]: Downloading https://files.pythonhosted.org/packages/7b/b9/fbec889110ac6e91fda97daacc0b23f69122ccdfb5a352ddf8141f775874/isagog_ai-0.9.0.tar.gz
+[2024-05-21 11:02:06] INFO root fetch - processPackages [mg-pso-gui]: New version: [0.1.9] Old Version: [0.1.87]
+[2024-05-21 11:02:06] INFO root fetch - processPackages [olas-operate-middleware]: Downloading https://files.pythonhosted.org/packages/8f/69/3a83cbcad75fcbdca3d7a77b5edfa7b4511dea20e87d2aacfe22a9188bc8/olas_operate_middleware-0.1.0rc9.tar.gz
+[2024-05-21 11:02:06] INFO root fetch - processPackages [isagog-ai]: executing diffoscope
+[2024-05-21 11:02:06] INFO root fetch - processPackages [isagog-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/isagog_ai-0.8.7.tar.gz tmp/isagog_ai-0.9.0.tar.gz --markdown 20240521/i/isagog-ai/0.8.7-0.9.0/README.md --exclude *.pyd
+[2024-05-21 11:02:06] INFO root fetch - processPackages [nginx-static-analysis]: Downloading https://files.pythonhosted.org/packages/80/e8/2fe10457d4b637d3f958102c6592f473f5d936052675a6fe32676aa2ea12/nginx_static_analysis-0.3.1.tar.gz
+[2024-05-21 11:02:06] INFO root fetch - processPackages [flashcam]: Downloading https://files.pythonhosted.org/packages/40/50/fad8ad3850201a3f4dca71fc722390820cc88a2bd5e153c61941e98d0bb1/flashcam-1.9.2.tar.gz
+[2024-05-21 11:02:06] INFO root fetch - processPackages [slurpkit]: Downloading https://files.pythonhosted.org/packages/66/45/e6c26752f41dda8959ee469c8a1098f33e89dafc3a5516f4bc8734551a64/slurpkit-0.9.18.tar.gz
+[2024-05-21 11:02:06] INFO root fetch - processPackages [olas-operate-middleware]: executing diffoscope
+[2024-05-21 11:02:06] INFO root fetch - processPackages [olas-operate-middleware]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/olas_operate_middleware-0.1.0rc8.tar.gz tmp/olas_operate_middleware-0.1.0rc9.tar.gz --markdown 20240521/o/olas-operate-middleware/0.1.0rc8-0.1.0rc9/README.md --exclude *.pyd
+[2024-05-21 11:02:06] INFO root fetch - processPackages [mg-pso-gui]: Downloading https://files.pythonhosted.org/packages/f0/1f/84873c95e153627e36627b6b93c5b833c3100ec99fe1bf1c7a6ec694ad00/mg-pso-gui-0.1.87.tar.gz
+[2024-05-21 11:02:06] INFO root fetch - processPackages [pykolofinance]: Downloading https://files.pythonhosted.org/packages/44/4b/49a6e8664d068a813d3c29bf8c1c5ba6a7b0d18c2a09b2fcbb1bd3beec72/pykolofinance-1.0.1.tar.gz
+[2024-05-21 11:02:06] INFO root fetch - processPackages [miska]: Downloading https://files.pythonhosted.org/packages/83/a5/4b586e4183e40a78c8993e4356fd44542ed6897af1f0a7d505d32ed84d5a/miska-0.0.3.tar.gz
+[2024-05-21 11:02:06] INFO root fetch - processPackages [slurpkit]: executing diffoscope
+[2024-05-21 11:02:06] INFO root fetch - processPackages [slurpkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slurpkit-0.9.17.tar.gz tmp/slurpkit-0.9.18.tar.gz --markdown 20240521/s/slurpkit/0.9.17-0.9.18/README.md --exclude *.pyd
+[2024-05-21 11:02:06] INFO root fetch - processPackages [PlaywrightCapture]: Downloading https://files.pythonhosted.org/packages/88/73/de84f335a91e28d64b6a88d56f0061f9c3d42a90983818e58c0d6a238b9b/playwrightcapture-1.24.9.tar.gz
+[2024-05-21 11:02:06] INFO root fetch - processPackages [data-snack-dynamic-entity]: Downloading https://files.pythonhosted.org/packages/75/29/3539c169feb145614baca9b235a95d0486c93c981babfc16a2aa8b5274e9/data_snack_dynamic_entity-0.2.0.tar.gz
+[2024-05-21 11:02:06] INFO root fetch - processPackages [nginx-static-analysis]: executing diffoscope
+[2024-05-21 11:02:06] INFO root fetch - processPackages [nginx-static-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nginx-static-analysis-0.2.9.tar.gz tmp/nginx_static_analysis-0.3.1.tar.gz --markdown 20240521/n/nginx-static-analysis/0.2.9-0.3.1/README.md --exclude *.pyd
+[2024-05-21 11:02:06] INFO root fetch - processPackages [pykolofinance]: executing diffoscope
+[2024-05-21 11:02:06] INFO root fetch - processPackages [pykolofinance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pykolofinance-1.0.0.tar.gz tmp/pykolofinance-1.0.1.tar.gz --markdown 20240521/p/pykolofinance/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-21 11:02:06] INFO root fetch - processPackages [PlaywrightCapture]: executing diffoscope
+[2024-05-21 11:02:06] INFO root fetch - processPackages [PlaywrightCapture]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/playwrightcapture-1.24.8.tar.gz tmp/playwrightcapture-1.24.9.tar.gz --markdown 20240521/P/PlaywrightCapture/1.24.8-1.24.9/README.md --exclude *.pyd
+[2024-05-21 11:02:06] INFO root fetch - processPackages [miska]: executing diffoscope
+[2024-05-21 11:02:06] INFO root fetch - processPackages [miska]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miska-0.0.2.tar.gz tmp/miska-0.0.3.tar.gz --markdown 20240521/m/miska/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-21 11:02:06] INFO root fetch - processPackages [data-snack-dynamic-entity]: executing diffoscope
+[2024-05-21 11:02:06] INFO root fetch - processPackages [data-snack-dynamic-entity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_snack_dynamic_entity-0.1.2.tar.gz tmp/data_snack_dynamic_entity-0.2.0.tar.gz --markdown 20240521/d/data-snack-dynamic-entity/0.1.2-0.2.0/README.md --exclude *.pyd
+[2024-05-21 11:02:06] INFO root fetch - processPackages [mg-pso-gui]: Downloading https://files.pythonhosted.org/packages/29/bb/6e298a4662149de339e056d2e3fd47d836e1cc07f109b6309c4e0f4c97b3/mg-pso-gui-0.1.9.tar.gz
+[2024-05-21 11:02:06] INFO root fetch - processPackages [flashcam]: Downloading https://files.pythonhosted.org/packages/71/14/b3de84b7038e7f199e8d5ac0b54fef8c88161a91e1685ef3f3b0d367e81c/flashcam-1.9.3.tar.gz
+[2024-05-21 11:02:07] INFO root fetch - processPackages [mg-pso-gui]: executing diffoscope
+[2024-05-21 11:02:07] INFO root fetch - processPackages [mg-pso-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mg-pso-gui-0.1.87.tar.gz tmp/mg-pso-gui-0.1.9.tar.gz --markdown 20240521/m/mg-pso-gui/0.1.87-0.1.9/README.md --exclude *.pyd
+[2024-05-21 11:02:07] INFO root fetch - processPackages [flashcam]: executing diffoscope
+[2024-05-21 11:02:07] INFO root fetch - processPackages [flashcam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flashcam-1.9.2.tar.gz tmp/flashcam-1.9.3.tar.gz --markdown 20240521/f/flashcam/1.9.2-1.9.3/README.md --exclude *.pyd
+[2024-05-21 11:02:07] INFO root fetch - processPackages [isagog-ai]: Remove: archive file [/home/abi/fetcher/tmp/isagog_ai-0.8.7.tar.gz]
+[2024-05-21 11:02:07] INFO root fetch - processPackages [isagog-ai]: Remove: archive file [/home/abi/fetcher/tmp/isagog_ai-0.9.0.tar.gz]
+[2024-05-21 11:02:07] INFO root fetch - main [MainThread]: End processing [isagog-ai]: success
+[2024-05-21 11:02:07] INFO root fetch - processPackages [slurpkit]: Remove: archive file [/home/abi/fetcher/tmp/slurpkit-0.9.17.tar.gz]
+[2024-05-21 11:02:07] INFO root fetch - processPackages [slurpkit]: Remove: archive file [/home/abi/fetcher/tmp/slurpkit-0.9.18.tar.gz]
+[2024-05-21 11:02:07] INFO root fetch - main [MainThread]: End processing [slurpkit]: success
+[2024-05-21 11:02:07] INFO root fetch - processPackages [olas-operate-middleware]: Remove: archive file [/home/abi/fetcher/tmp/olas_operate_middleware-0.1.0rc8.tar.gz]
+[2024-05-21 11:02:07] INFO root fetch - processPackages [olas-operate-middleware]: Remove: archive file [/home/abi/fetcher/tmp/olas_operate_middleware-0.1.0rc9.tar.gz]
+[2024-05-21 11:02:07] INFO root fetch - main [MainThread]: End processing [olas-operate-middleware]: success
+[2024-05-21 11:02:07] INFO root fetch - processPackages [pykolofinance]: Remove: archive file [/home/abi/fetcher/tmp/pykolofinance-1.0.0.tar.gz]
+[2024-05-21 11:02:07] INFO root fetch - processPackages [pykolofinance]: Remove: archive file [/home/abi/fetcher/tmp/pykolofinance-1.0.1.tar.gz]
+[2024-05-21 11:02:07] INFO root fetch - main [MainThread]: End processing [pykolofinance]: success
+[2024-05-21 11:02:08] INFO root fetch - processPackages [PlaywrightCapture]: Remove: archive file [/home/abi/fetcher/tmp/playwrightcapture-1.24.8.tar.gz]
+[2024-05-21 11:02:08] INFO root fetch - processPackages [PlaywrightCapture]: Remove: archive file [/home/abi/fetcher/tmp/playwrightcapture-1.24.9.tar.gz]
+[2024-05-21 11:02:08] INFO root fetch - main [MainThread]: End processing [PlaywrightCapture]: success
+[2024-05-21 11:02:08] INFO root fetch - processPackages [miska]: Remove: archive file [/home/abi/fetcher/tmp/miska-0.0.2.tar.gz]
+[2024-05-21 11:02:08] INFO root fetch - processPackages [miska]: Remove: archive file [/home/abi/fetcher/tmp/miska-0.0.3.tar.gz]
+[2024-05-21 11:02:08] INFO root fetch - main [MainThread]: End processing [miska]: success
+[2024-05-21 11:02:08] INFO root fetch - processPackages [data-snack-dynamic-entity]: Remove: archive file [/home/abi/fetcher/tmp/data_snack_dynamic_entity-0.1.2.tar.gz]
+[2024-05-21 11:02:08] INFO root fetch - processPackages [data-snack-dynamic-entity]: Remove: archive file [/home/abi/fetcher/tmp/data_snack_dynamic_entity-0.2.0.tar.gz]
+[2024-05-21 11:02:08] INFO root fetch - main [MainThread]: End processing [data-snack-dynamic-entity]: success
+[2024-05-21 11:02:08] INFO root fetch - processPackages [nginx-static-analysis]: Remove: archive file [/home/abi/fetcher/tmp/nginx-static-analysis-0.2.9.tar.gz]
+[2024-05-21 11:02:08] INFO root fetch - processPackages [nginx-static-analysis]: Remove: archive file [/home/abi/fetcher/tmp/nginx_static_analysis-0.3.1.tar.gz]
+[2024-05-21 11:02:08] INFO root fetch - main [MainThread]: End processing [nginx-static-analysis]: success
+[2024-05-21 11:02:08] INFO root fetch - processPackages [flashcam]: Remove: archive file [/home/abi/fetcher/tmp/flashcam-1.9.2.tar.gz]
+[2024-05-21 11:02:08] INFO root fetch - processPackages [flashcam]: Remove: archive file [/home/abi/fetcher/tmp/flashcam-1.9.3.tar.gz]
+[2024-05-21 11:02:08] INFO root fetch - main [MainThread]: End processing [flashcam]: success
+[2024-05-21 11:02:08] INFO root fetch - processPackages [mg-pso-gui]: Remove: archive file [/home/abi/fetcher/tmp/mg-pso-gui-0.1.87.tar.gz]
+[2024-05-21 11:02:08] INFO root fetch - processPackages [mg-pso-gui]: Remove: archive file [/home/abi/fetcher/tmp/mg-pso-gui-0.1.9.tar.gz]
+[2024-05-21 11:02:08] INFO root fetch - main [MainThread]: End processing [mg-pso-gui]: success
+[2024-05-21 11:02:08] INFO root fetch - main [MainThread]: Store serial: [23303506]
