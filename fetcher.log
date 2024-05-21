@@ -12517,3 +12517,36 @@
 [2024-05-21 07:48:59] INFO root fetch - processPackages [SciServerApi]: Remove: archive file [/home/abi/fetcher/tmp/SciServerApi-2.0.0.tar.gz]
 [2024-05-21 07:48:59] INFO root fetch - main [MainThread]: End processing [SciServerApi]: success
 [2024-05-21 07:48:59] INFO root fetch - main [MainThread]: Store serial: [23301630]
+[2024-05-21 07:51:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23301630]
+[2024-05-21 07:51:08] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-21 07:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyTransportNSWv2
+[2024-05-21 07:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: htrfnwe
+[2024-05-21 07:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytest-json-ctrf
+[2024-05-21 07:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-partner-contact-nationality
+[2024-05-21 07:51:08] INFO root fetch - processPackages [pytest-json-ctrf]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-21 07:51:08] INFO root fetch - processPackages [pytest-json-ctrf]: Downloading https://files.pythonhosted.org/packages/f1/bb/6aa5296ee54482fe012469073be0c34cd84dfd0a4231b4fc50e764d9a710/pytest_json_ctrf-0.1.1.tar.gz
+[2024-05-21 07:51:08] INFO root fetch - processPackages [odoo-addon-partner-contact-nationality]: New version: [17.0.1.0.0.3] Old Version: [17.0.1.0.0.2]
+[2024-05-21 07:51:08] INFO root fetch - processPackages [PyTransportNSWv2]: New version: [0.3.4] Old Version: [0.3.2]
+[2024-05-21 07:51:08] WARNING root fetch - processPackages [htrfnwe]: Skipping, unable to determine old version
+[2024-05-21 07:51:08] INFO root fetch - main [MainThread]: End processing [htrfnwe] error
+[2024-05-21 07:51:08] INFO root fetch - processPackages [odoo-addon-partner-contact-nationality]: Downloading https://files.pythonhosted.org/packages/da/ce/9238991490fed40a84bf0dba166c90e2c10af413cb2c16403eb7e595d01e/odoo_addon_partner_contact_nationality-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-21 07:51:08] INFO root fetch - processPackages [PyTransportNSWv2]: Downloading https://files.pythonhosted.org/packages/cf/bc/a7ebf0ba01563e83c8d7c005e900bd07ffc1cd713e9b321a3729a4fbbf7a/pytransportnswv2-0.3.2.tar.gz
+[2024-05-21 07:51:08] INFO root fetch - processPackages [pytest-json-ctrf]: Downloading https://files.pythonhosted.org/packages/c4/4f/aeb547b0a404c2180d20a2fa043fb8b0797c40befbdee6dcaca90a85c01a/pytest_json_ctrf-0.1.2.tar.gz
+[2024-05-21 07:51:08] INFO root fetch - processPackages [pytest-json-ctrf]: executing diffoscope
+[2024-05-21 07:51:08] INFO root fetch - processPackages [pytest-json-ctrf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_json_ctrf-0.1.1.tar.gz tmp/pytest_json_ctrf-0.1.2.tar.gz --markdown 20240521/p/pytest-json-ctrf/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-21 07:51:08] INFO root fetch - processPackages [PyTransportNSWv2]: Downloading https://files.pythonhosted.org/packages/43/3c/58450171312d4062fa2e5d0de8715cbb3a1c32a7fb04db52b77e24462f1c/pytransportnswv2-0.3.4.tar.gz
+[2024-05-21 07:51:08] INFO root fetch - processPackages [odoo-addon-partner-contact-nationality]: Downloading https://files.pythonhosted.org/packages/68/37/2300865f590605a8d5e4aa5d915262256e8ffb65be616e65405f94cd684a/odoo_addon_partner_contact_nationality-17.0.1.0.0.3-py3-none-any.whl
+[2024-05-21 07:51:08] INFO root fetch - processPackages [PyTransportNSWv2]: executing diffoscope
+[2024-05-21 07:51:08] INFO root fetch - processPackages [PyTransportNSWv2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytransportnswv2-0.3.2.tar.gz tmp/pytransportnswv2-0.3.4.tar.gz --markdown 20240521/P/PyTransportNSWv2/0.3.2-0.3.4/README.md --exclude *.pyd
+[2024-05-21 07:51:09] INFO root fetch - processPackages [odoo-addon-partner-contact-nationality]: executing diffoscope
+[2024-05-21 07:51:09] INFO root fetch - processPackages [odoo-addon-partner-contact-nationality]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_partner_contact_nationality-17.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_partner_contact_nationality-17.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240521/o/odoo-addon-partner-contact-nationality/17.0.1.0.0.2-17.0.1.0.0.3/README.md --exclude *.pyd
+[2024-05-21 07:51:09] INFO root fetch - processPackages [pytest-json-ctrf]: Remove: archive file [/home/abi/fetcher/tmp/pytest_json_ctrf-0.1.1.tar.gz]
+[2024-05-21 07:51:09] INFO root fetch - processPackages [pytest-json-ctrf]: Remove: archive file [/home/abi/fetcher/tmp/pytest_json_ctrf-0.1.2.tar.gz]
+[2024-05-21 07:51:09] INFO root fetch - main [MainThread]: End processing [pytest-json-ctrf]: success
+[2024-05-21 07:51:09] INFO root fetch - processPackages [PyTransportNSWv2]: Remove: archive file [/home/abi/fetcher/tmp/pytransportnswv2-0.3.2.tar.gz]
+[2024-05-21 07:51:09] INFO root fetch - processPackages [PyTransportNSWv2]: Remove: archive file [/home/abi/fetcher/tmp/pytransportnswv2-0.3.4.tar.gz]
+[2024-05-21 07:51:09] INFO root fetch - main [MainThread]: End processing [PyTransportNSWv2]: success
+[2024-05-21 07:51:09] INFO root fetch - processPackages [odoo-addon-partner-contact-nationality]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_partner_contact_nationality-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-21 07:51:09] INFO root fetch - processPackages [odoo-addon-partner-contact-nationality]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_partner_contact_nationality-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-21 07:51:09] INFO root fetch - main [MainThread]: End processing [odoo-addon-partner-contact-nationality]: success
+[2024-05-21 07:51:09] INFO root fetch - main [MainThread]: Store serial: [23301652]
