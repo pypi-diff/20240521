@@ -3137,3 +3137,24 @@
 [2024-05-21 02:35:31] INFO root fetch - processPackages [Geode-Conversion]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Conversion-5.2.9rc1-cp39-cp39-win_amd64.whl.zip]
 [2024-05-21 02:35:31] INFO root fetch - main [MainThread]: End processing [Geode-Conversion]: success
 [2024-05-21 02:35:31] INFO root fetch - main [MainThread]: Store serial: [23298056]
+[2024-05-21 02:37:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23298056]
+[2024-05-21 02:37:44] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-21 02:37:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-alpaca-daily-losers
+[2024-05-21 02:37:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: memary
+[2024-05-21 02:37:44] INFO root fetch - processPackages [py-alpaca-daily-losers]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-21 02:37:44] INFO root fetch - processPackages [py-alpaca-daily-losers]: Downloading https://files.pythonhosted.org/packages/eb/30/77394d043e92aeda888079526cde138679191a1aa8f14b20301e20d6bd8e/py_alpaca_daily_losers-0.2.0.tar.gz
+[2024-05-21 02:37:44] INFO root fetch - processPackages [memary]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-21 02:37:45] INFO root fetch - processPackages [py-alpaca-daily-losers]: Downloading https://files.pythonhosted.org/packages/53/5e/0645c52919381c03a3c60f3f5d4c570d98328dda5e1892ac6050861dc6f9/py_alpaca_daily_losers-0.2.1.tar.gz
+[2024-05-21 02:37:45] INFO root fetch - processPackages [memary]: Downloading https://files.pythonhosted.org/packages/86/48/dedc0c5b528ac28359e392304e7e023e71d758efb05e135a02f664872561/memary-0.1.1.tar.gz
+[2024-05-21 02:37:45] INFO root fetch - processPackages [py-alpaca-daily-losers]: executing diffoscope
+[2024-05-21 02:37:45] INFO root fetch - processPackages [py-alpaca-daily-losers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_alpaca_daily_losers-0.2.0.tar.gz tmp/py_alpaca_daily_losers-0.2.1.tar.gz --markdown 20240521/p/py-alpaca-daily-losers/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-21 02:37:45] INFO root fetch - processPackages [py-alpaca-daily-losers]: Remove: archive file [/home/abi/fetcher/tmp/py_alpaca_daily_losers-0.2.0.tar.gz]
+[2024-05-21 02:37:45] INFO root fetch - processPackages [py-alpaca-daily-losers]: Remove: archive file [/home/abi/fetcher/tmp/py_alpaca_daily_losers-0.2.1.tar.gz]
+[2024-05-21 02:37:45] INFO root fetch - main [MainThread]: End processing [py-alpaca-daily-losers]: success
+[2024-05-21 02:37:46] INFO root fetch - processPackages [memary]: Downloading https://files.pythonhosted.org/packages/ba/02/77c8d7ed8189857855c52804810eb9d83a4a822a3f18c6ffc32711355e9d/memary-0.1.2.tar.gz
+[2024-05-21 02:37:46] INFO root fetch - processPackages [memary]: executing diffoscope
+[2024-05-21 02:37:46] INFO root fetch - processPackages [memary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/memary-0.1.1.tar.gz tmp/memary-0.1.2.tar.gz --markdown 20240521/m/memary/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-21 02:37:47] INFO root fetch - processPackages [memary]: Remove: archive file [/home/abi/fetcher/tmp/memary-0.1.1.tar.gz]
+[2024-05-21 02:37:47] INFO root fetch - processPackages [memary]: Remove: archive file [/home/abi/fetcher/tmp/memary-0.1.2.tar.gz]
+[2024-05-21 02:37:47] INFO root fetch - main [MainThread]: End processing [memary]: success
+[2024-05-21 02:37:47] INFO root fetch - main [MainThread]: Store serial: [23298066]
