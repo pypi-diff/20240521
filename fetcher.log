@@ -13964,3 +13964,60 @@
 [2024-05-21 08:48:11] INFO root fetch - processPackages [eis_toolkit]: Remove: archive file [/home/abi/fetcher/tmp/eis_toolkit-0.5.1.tar.gz]
 [2024-05-21 08:48:11] INFO root fetch - main [MainThread]: End processing [eis_toolkit]: success
 [2024-05-21 08:48:11] INFO root fetch - main [MainThread]: Store serial: [23302184]
+[2024-05-21 08:50:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23302184]
+[2024-05-21 08:50:20] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-21 08:50:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: TreeSAK
+[2024-05-21 08:50:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: finter
+[2024-05-21 08:50:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: plone-sphinx-theme
+[2024-05-21 08:50:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: paddleocr-onnx
+[2024-05-21 08:50:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sde
+[2024-05-21 08:50:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: iot-protocols
+[2024-05-21 08:50:20] INFO root fetch - processPackages [paddleocr-onnx]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-05-21 08:50:20] INFO root fetch - processPackages [finter]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-21 08:50:20] INFO root fetch - processPackages [TreeSAK]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-05-21 08:50:20] INFO root fetch - processPackages [sde]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-05-21 08:50:20] INFO root fetch - processPackages [paddleocr-onnx]: Downloading https://files.pythonhosted.org/packages/c4/1c/632335c374a40a32ac7f1d6553b493757915bbe3625f3e637d4f397a37be/paddleocr_onnx-0.4.0.tar.gz
+[2024-05-21 08:50:20] INFO root fetch - processPackages [finter]: Downloading https://files.pythonhosted.org/packages/a5/42/62839a9d04ec1ea057f46ba770914804c9ca13fe76705b86c9503ceb5efd/finter-0.2.8-py3-none-any.whl
+[2024-05-21 08:50:20] INFO root fetch - processPackages [plone-sphinx-theme]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-21 08:50:20] INFO root fetch - processPackages [iot-protocols]: New version: [2.1.0.2] Old Version: [2.1.0.1]
+[2024-05-21 08:50:20] INFO root fetch - processPackages [TreeSAK]: Downloading https://files.pythonhosted.org/packages/33/3d/03ab6748b3aed0610812e461492b58278718c5c15236ce439a758aa3fc27/TreeSAK-1.9.1.tar.gz
+[2024-05-21 08:50:20] INFO root fetch - processPackages [sde]: Downloading https://files.pythonhosted.org/packages/c3/3e/4609ebec553b157eafbdda3ecd961043bb158baa6f25ea8fc5c796b6ef39/sde-1.1.8.tar.gz
+[2024-05-21 08:50:20] INFO root fetch - processPackages [plone-sphinx-theme]: Downloading https://files.pythonhosted.org/packages/37/e6/34231c74a1b59040edfb4c25c242983dc06873bed53498001ce76fcaebf7/plone_sphinx_theme-0.0.3.tar.gz
+[2024-05-21 08:50:20] INFO root fetch - processPackages [iot-protocols]: Downloading https://files.pythonhosted.org/packages/99/ed/866c351540f9d383f32be608fdc0e53474da1b54fa975cf76bc95c700048/iot_protocols-2.1.0.1.tar.gz
+[2024-05-21 08:50:20] INFO root fetch - processPackages [finter]: Downloading https://files.pythonhosted.org/packages/4f/d0/2e1ef5832dd6cbc5f4d24de1b60ad8f90066391220d8d6ebdc279ae3fffd/finter-0.2.9-py3-none-any.whl
+[2024-05-21 08:50:20] INFO root fetch - processPackages [TreeSAK]: Downloading https://files.pythonhosted.org/packages/3d/18/0b0f8a2c565de5415024065f522c859677184cac283a7e4af0060f267891/TreeSAK-1.9.2.tar.gz
+[2024-05-21 08:50:21] INFO root fetch - processPackages [sde]: Downloading https://files.pythonhosted.org/packages/0d/9a/e84d0251dbc44ea6878f632f555055b573d1947b6efda076a6fa6627debf/sde-1.1.9.tar.gz
+[2024-05-21 08:50:21] INFO root fetch - processPackages [finter]: executing diffoscope
+[2024-05-21 08:50:21] INFO root fetch - processPackages [finter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finter-0.2.8-py3-none-any.whl.zip tmp/finter-0.2.9-py3-none-any.whl.zip --markdown 20240521/f/finter/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-21 08:50:21] INFO root fetch - processPackages [plone-sphinx-theme]: Downloading https://files.pythonhosted.org/packages/78/c5/d28826d693d764970cc8f0ea4c0187ddf9d5dabbc5b6111bdd1099d8c271/plone_sphinx_theme-0.0.4.tar.gz
+[2024-05-21 08:50:21] INFO root fetch - processPackages [TreeSAK]: executing diffoscope
+[2024-05-21 08:50:21] INFO root fetch - processPackages [TreeSAK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TreeSAK-1.9.1.tar.gz tmp/TreeSAK-1.9.2.tar.gz --markdown 20240521/T/TreeSAK/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-05-21 08:50:21] INFO root fetch - processPackages [iot-protocols]: Downloading https://files.pythonhosted.org/packages/98/2e/d68bdaa7de21f3bf2df147ddb0533e2391c036b93219208c5fab284218cb/iot_protocols-2.1.0.2.tar.gz
+[2024-05-21 08:50:21] INFO root fetch - processPackages [sde]: executing diffoscope
+[2024-05-21 08:50:21] INFO root fetch - processPackages [sde]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sde-1.1.8.tar.gz tmp/sde-1.1.9.tar.gz --markdown 20240521/s/sde/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-05-21 08:50:21] INFO root fetch - processPackages [plone-sphinx-theme]: executing diffoscope
+[2024-05-21 08:50:21] INFO root fetch - processPackages [plone-sphinx-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plone_sphinx_theme-0.0.3.tar.gz tmp/plone_sphinx_theme-0.0.4.tar.gz --markdown 20240521/p/plone-sphinx-theme/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-21 08:50:21] INFO root fetch - processPackages [paddleocr-onnx]: Downloading https://files.pythonhosted.org/packages/96/02/1c73b10ad9b0b4f7b3dec1d9c64a13ef57cb8addb1c8849c54e8100b7c0e/paddleocr_onnx-0.4.1.tar.gz
+[2024-05-21 08:50:21] INFO root fetch - processPackages [iot-protocols]: executing diffoscope
+[2024-05-21 08:50:21] INFO root fetch - processPackages [iot-protocols]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iot_protocols-2.1.0.1.tar.gz tmp/iot_protocols-2.1.0.2.tar.gz --markdown 20240521/i/iot-protocols/2.1.0.1-2.1.0.2/README.md --exclude *.pyd
+[2024-05-21 08:50:21] INFO root fetch - processPackages [paddleocr-onnx]: executing diffoscope
+[2024-05-21 08:50:21] INFO root fetch - processPackages [paddleocr-onnx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paddleocr_onnx-0.4.0.tar.gz tmp/paddleocr_onnx-0.4.1.tar.gz --markdown 20240521/p/paddleocr-onnx/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-05-21 08:50:21] INFO root fetch - processPackages [sde]: Remove: archive file [/home/abi/fetcher/tmp/sde-1.1.8.tar.gz]
+[2024-05-21 08:50:21] INFO root fetch - processPackages [sde]: Remove: archive file [/home/abi/fetcher/tmp/sde-1.1.9.tar.gz]
+[2024-05-21 08:50:21] INFO root fetch - main [MainThread]: End processing [sde]: success
+[2024-05-21 08:50:22] INFO root fetch - processPackages [TreeSAK]: Remove: archive file [/home/abi/fetcher/tmp/TreeSAK-1.9.1.tar.gz]
+[2024-05-21 08:50:22] INFO root fetch - processPackages [TreeSAK]: Remove: archive file [/home/abi/fetcher/tmp/TreeSAK-1.9.2.tar.gz]
+[2024-05-21 08:50:22] INFO root fetch - main [MainThread]: End processing [TreeSAK]: success
+[2024-05-21 08:50:22] INFO root fetch - processPackages [iot-protocols]: Remove: archive file [/home/abi/fetcher/tmp/iot_protocols-2.1.0.1.tar.gz]
+[2024-05-21 08:50:22] INFO root fetch - processPackages [iot-protocols]: Remove: archive file [/home/abi/fetcher/tmp/iot_protocols-2.1.0.2.tar.gz]
+[2024-05-21 08:50:22] INFO root fetch - main [MainThread]: End processing [iot-protocols]: success
+[2024-05-21 08:50:22] INFO root fetch - processPackages [plone-sphinx-theme]: Remove: archive file [/home/abi/fetcher/tmp/plone_sphinx_theme-0.0.3.tar.gz]
+[2024-05-21 08:50:22] INFO root fetch - processPackages [plone-sphinx-theme]: Remove: archive file [/home/abi/fetcher/tmp/plone_sphinx_theme-0.0.4.tar.gz]
+[2024-05-21 08:50:22] INFO root fetch - main [MainThread]: End processing [plone-sphinx-theme]: success
+[2024-05-21 08:50:22] INFO root fetch - processPackages [finter]: Remove: archive file [/home/abi/fetcher/tmp/finter-0.2.8-py3-none-any.whl.zip]
+[2024-05-21 08:50:22] INFO root fetch - processPackages [finter]: Remove: archive file [/home/abi/fetcher/tmp/finter-0.2.9-py3-none-any.whl.zip]
+[2024-05-21 08:50:22] INFO root fetch - main [MainThread]: End processing [finter]: success
+[2024-05-21 08:50:23] INFO root fetch - processPackages [paddleocr-onnx]: Remove: archive file [/home/abi/fetcher/tmp/paddleocr_onnx-0.4.0.tar.gz]
+[2024-05-21 08:50:23] INFO root fetch - processPackages [paddleocr-onnx]: Remove: archive file [/home/abi/fetcher/tmp/paddleocr_onnx-0.4.1.tar.gz]
+[2024-05-21 08:50:23] INFO root fetch - main [MainThread]: End processing [paddleocr-onnx]: success
+[2024-05-21 08:50:23] INFO root fetch - main [MainThread]: Store serial: [23302201]
