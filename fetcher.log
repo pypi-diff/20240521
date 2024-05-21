@@ -12216,3 +12216,79 @@
 [2024-05-21 07:35:47] INFO root fetch - processPackages [amphi-etl]: Remove: archive file [/home/abi/fetcher/tmp/amphi-etl-0.3.6.tar.gz]
 [2024-05-21 07:35:47] INFO root fetch - main [MainThread]: End processing [amphi-etl]: success
 [2024-05-21 07:35:47] INFO root fetch - main [MainThread]: Store serial: [23301460]
+[2024-05-21 07:37:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23301460]
+[2024-05-21 07:37:56] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-21 07:37:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyluba
+[2024-05-21 07:37:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: guidance
+[2024-05-21 07:37:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: message-local
+[2024-05-21 07:37:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pms-encoder
+[2024-05-21 07:37:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: airbyte-source-us-census
+[2024-05-21 07:37:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: os-net-config
+[2024-05-21 07:37:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-ellis-views
+[2024-05-21 07:37:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: os-net-config
+[2024-05-21 07:37:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: storybuilder
+[2024-05-21 07:37:57] INFO root fetch - processPackages [storybuilder]: New version: [0.0.9] Old Version: [0.0.34]
+[2024-05-21 07:37:57] INFO root fetch - processPackages [message-local]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-21 07:37:57] INFO root fetch - processPackages [pyluba]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-21 07:37:57] INFO root fetch - processPackages [storybuilder]: Downloading https://files.pythonhosted.org/packages/86/3a/406df732adad7241d60c6422db70e13baf9028f59126e01115415d4c17a2/storybuilder-0.0.34-py3-none-any.whl
+[2024-05-21 07:37:57] WARNING root fetch - processPackages [django-ellis-views]: Skipping, unable to determine old version
+[2024-05-21 07:37:57] INFO root fetch - main [MainThread]: End processing [django-ellis-views] error
+[2024-05-21 07:37:57] INFO root fetch - processPackages [pms-encoder]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-21 07:37:57] INFO root fetch - processPackages [airbyte-source-us-census]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-21 07:37:57] INFO root fetch - processPackages [os-net-config]: New version: [9.4.1] Old Version: [9.4.0]
+[2024-05-21 07:37:57] INFO root fetch - processPackages [os-net-config]: New version: [9.4.1] Old Version: [9.4.0]
+[2024-05-21 07:37:57] INFO root fetch - processPackages [guidance]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-21 07:37:57] INFO root fetch - processPackages [message-local]: Downloading https://files.pythonhosted.org/packages/58/98/6002a91d9f0eb23b635ecf892333a787e13c1e810b92090bc53584aa2f18/message-local-0.0.98.tar.gz
+[2024-05-21 07:37:57] INFO root fetch - processPackages [pyluba]: Downloading https://files.pythonhosted.org/packages/52/99/e29e1d5ada99bf72806e253adb260c8ac9718c47fdfc9c9a26d99fcc0d52/pyluba-0.0.8.tar.gz
+[2024-05-21 07:37:57] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/80/f1/88f2f54188c15bf6cca5ba7a3a347b8d1c83b15a626f541acf3dde5aa63d/pms_encoder-0.0.8.tar.gz
+[2024-05-21 07:37:57] INFO root fetch - processPackages [airbyte-source-us-census]: Downloading https://files.pythonhosted.org/packages/09/80/d3b8777e4bdf1244ca77a273dd6aeaaa61fd155394d92d9cca90afcd104e/airbyte-source-us-census-0.1.3.tar.gz
+[2024-05-21 07:37:57] INFO root fetch - processPackages [storybuilder]: Downloading https://files.pythonhosted.org/packages/12/10/5d96510eab046eea9f159c71332ebb594fc10fcb9e2a1618e641fc06adac/storybuilder-0.0.9-py3-none-any.whl
+[2024-05-21 07:37:57] INFO root fetch - processPackages [os-net-config]: Downloading https://files.pythonhosted.org/packages/11/ea/68be3453085ba2cfd380e10c1ac8f6cf2876aacfbf893297e58ef097112b/os-net-config-9.4.0.tar.gz
+[2024-05-21 07:37:57] INFO root fetch - processPackages [message-local]: Downloading https://files.pythonhosted.org/packages/78/17/d149670c7821186afe25a7b74020f68bd8db48497b170965d75952fbe2d8/message-local-0.0.99.tar.gz
+[2024-05-21 07:37:57] INFO root fetch - processPackages [os-net-config]: Downloading https://files.pythonhosted.org/packages/11/ea/68be3453085ba2cfd380e10c1ac8f6cf2876aacfbf893297e58ef097112b/os-net-config-9.4.0.tar.gz
+[2024-05-21 07:37:57] INFO root fetch - processPackages [guidance]: Downloading https://files.pythonhosted.org/packages/5b/80/657ef132a727c040f1e3cb7efc9d9cfc9d9176c08965262de63f87be8793/guidance-0.1.8.tar.gz
+[2024-05-21 07:37:57] INFO root fetch - processPackages [storybuilder]: executing diffoscope
+[2024-05-21 07:37:57] INFO root fetch - processPackages [storybuilder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/storybuilder-0.0.34-py3-none-any.whl.zip tmp/storybuilder-0.0.9-py3-none-any.whl.zip --markdown 20240521/s/storybuilder/0.0.34-0.0.9/README.md --exclude *.pyd
+[2024-05-21 07:37:57] INFO root fetch - processPackages [message-local]: executing diffoscope
+[2024-05-21 07:37:57] INFO root fetch - processPackages [message-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/message-local-0.0.98.tar.gz tmp/message-local-0.0.99.tar.gz --markdown 20240521/m/message-local/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-21 07:37:57] INFO root fetch - processPackages [airbyte-source-us-census]: Downloading https://files.pythonhosted.org/packages/76/a2/1a60472b3c4053ef19ec927ab0b983a10cfd11e9de76363a740769792541/airbyte_source_us_census-0.1.4.tar.gz
+[2024-05-21 07:37:57] INFO root fetch - processPackages [pyluba]: Downloading https://files.pythonhosted.org/packages/84/ab/a79a516adda0073565ebbe893c1269969eb2e11db4ea3957e1d76e1ebf9e/pyluba-0.0.9.tar.gz
+[2024-05-21 07:37:57] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/93/31/8bb081756db42925fab6507b6e0f497d6bf45acd407ff38cb00f2aaec54c/pms_encoder-0.0.9.tar.gz
+[2024-05-21 07:37:58] INFO root fetch - processPackages [guidance]: Downloading https://files.pythonhosted.org/packages/b5/bf/c3bedd2dd0ec67a13fdeb4ecae76886601914a3d07fad16ae33d8f06a489/guidance-0.1.9.tar.gz
+[2024-05-21 07:37:58] INFO root fetch - processPackages [pms-encoder]: executing diffoscope
+[2024-05-21 07:37:58] INFO root fetch - processPackages [pms-encoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pms_encoder-0.0.8.tar.gz tmp/pms_encoder-0.0.9.tar.gz --markdown 20240521/p/pms-encoder/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-21 07:37:58] INFO root fetch - processPackages [pyluba]: executing diffoscope
+[2024-05-21 07:37:58] INFO root fetch - processPackages [pyluba]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyluba-0.0.8.tar.gz tmp/pyluba-0.0.9.tar.gz --markdown 20240521/p/pyluba/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-21 07:37:58] INFO root fetch - processPackages [os-net-config]: Downloading https://files.pythonhosted.org/packages/2f/06/7381e69adfdca279dcc3c70929f7d286462de2a8eb4977cb87d53698cb6c/os-net-config-9.4.1.tar.gz
+[2024-05-21 07:37:58] INFO root fetch - processPackages [os-net-config]: Downloading https://files.pythonhosted.org/packages/2f/06/7381e69adfdca279dcc3c70929f7d286462de2a8eb4977cb87d53698cb6c/os-net-config-9.4.1.tar.gz
+[2024-05-21 07:37:58] INFO root fetch - processPackages [airbyte-source-us-census]: executing diffoscope
+[2024-05-21 07:37:58] INFO root fetch - processPackages [airbyte-source-us-census]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-source-us-census-0.1.3.tar.gz tmp/airbyte_source_us_census-0.1.4.tar.gz --markdown 20240521/a/airbyte-source-us-census/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-21 07:37:58] INFO root fetch - processPackages [guidance]: executing diffoscope
+[2024-05-21 07:37:58] INFO root fetch - processPackages [guidance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/guidance-0.1.8.tar.gz tmp/guidance-0.1.9.tar.gz --markdown 20240521/g/guidance/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-21 07:37:58] INFO root fetch - processPackages [os-net-config]: executing diffoscope
+[2024-05-21 07:37:58] INFO root fetch - processPackages [os-net-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/os-net-config-9.4.0.tar.gz tmp/os-net-config-9.4.1.tar.gz --markdown 20240521/o/os-net-config/9.4.0-9.4.1/README.md --exclude *.pyd
+[2024-05-21 07:37:58] INFO root fetch - processPackages [os-net-config]: executing diffoscope
+[2024-05-21 07:37:58] INFO root fetch - processPackages [os-net-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/os-net-config-9.4.0.tar.gz tmp/os-net-config-9.4.1.tar.gz --markdown 20240521/o/os-net-config/9.4.0-9.4.1/README.md --exclude *.pyd
+[2024-05-21 07:37:58] INFO root fetch - processPackages [storybuilder]: Remove: archive file [/home/abi/fetcher/tmp/storybuilder-0.0.34-py3-none-any.whl.zip]
+[2024-05-21 07:37:58] INFO root fetch - processPackages [storybuilder]: Remove: archive file [/home/abi/fetcher/tmp/storybuilder-0.0.9-py3-none-any.whl.zip]
+[2024-05-21 07:37:58] INFO root fetch - main [MainThread]: End processing [storybuilder]: success
+[2024-05-21 07:37:58] INFO root fetch - processPackages [message-local]: Remove: archive file [/home/abi/fetcher/tmp/message-local-0.0.98.tar.gz]
+[2024-05-21 07:37:58] INFO root fetch - processPackages [message-local]: Remove: archive file [/home/abi/fetcher/tmp/message-local-0.0.99.tar.gz]
+[2024-05-21 07:37:58] INFO root fetch - main [MainThread]: End processing [message-local]: success
+[2024-05-21 07:37:58] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.8.tar.gz]
+[2024-05-21 07:37:58] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.9.tar.gz]
+[2024-05-21 07:37:58] INFO root fetch - main [MainThread]: End processing [pms-encoder]: success
+[2024-05-21 07:37:58] INFO root fetch - processPackages [airbyte-source-us-census]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-source-us-census-0.1.3.tar.gz]
+[2024-05-21 07:37:58] INFO root fetch - processPackages [airbyte-source-us-census]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_us_census-0.1.4.tar.gz]
+[2024-05-21 07:37:58] INFO root fetch - main [MainThread]: End processing [airbyte-source-us-census]: success
+[2024-05-21 07:37:59] INFO root fetch - processPackages [pyluba]: Remove: archive file [/home/abi/fetcher/tmp/pyluba-0.0.8.tar.gz]
+[2024-05-21 07:37:59] INFO root fetch - processPackages [pyluba]: Remove: archive file [/home/abi/fetcher/tmp/pyluba-0.0.9.tar.gz]
+[2024-05-21 07:37:59] INFO root fetch - main [MainThread]: End processing [pyluba]: success
+[2024-05-21 07:37:59] INFO root fetch - processPackages [guidance]: Remove: archive file [/home/abi/fetcher/tmp/guidance-0.1.8.tar.gz]
+[2024-05-21 07:37:59] INFO root fetch - processPackages [guidance]: Remove: archive file [/home/abi/fetcher/tmp/guidance-0.1.9.tar.gz]
+[2024-05-21 07:37:59] INFO root fetch - main [MainThread]: End processing [guidance]: success
+[2024-05-21 07:37:59] INFO root fetch - processPackages [os-net-config]: Remove: archive file [/home/abi/fetcher/tmp/os-net-config-9.4.0.tar.gz]
+[2024-05-21 07:37:59] INFO root fetch - processPackages [os-net-config]: Remove: archive file [/home/abi/fetcher/tmp/os-net-config-9.4.1.tar.gz]
+[2024-05-21 07:37:59] INFO root fetch - main [MainThread]: End processing [os-net-config]: success
+[2024-05-21 07:37:59] INFO root fetch - main [MainThread]: End processing [os-net-config]: success
+[2024-05-21 07:37:59] INFO root fetch - main [MainThread]: Store serial: [23301522]
