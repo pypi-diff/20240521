@@ -22824,3 +22824,45 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-21 13:59:31] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2024-05-21 13:59:31] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2024-05-21 13:59:31] INFO root fetch - main [MainThread]: Store serial: [23305748]
+[2024-05-21 14:01:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23305748]
+[2024-05-21 14:01:39] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-21 14:01:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: desdeo_problem
+[2024-05-21 14:01:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: grafana-foundation-sdk
+[2024-05-21 14:01:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hcube
+[2024-05-21 14:01:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-payroll
+[2024-05-21 14:01:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: oter
+[2024-05-21 14:01:39] INFO root fetch - processPackages [desdeo_problem]: New version: [1.6.0] Old Version: [1.5.0]
+[2024-05-21 14:01:39] INFO root fetch - processPackages [grafana-foundation-sdk]: New version: [1716286395!10.4.0] Old Version: [1716286251!10.3.0]
+[2024-05-21 14:01:39] INFO root fetch - processPackages [desdeo_problem]: Downloading https://files.pythonhosted.org/packages/b7/ae/803ed8e6d151b92e0430406f36dedc287bbef8ebd28044719efcede0e020/desdeo_problem-1.5.0.tar.gz
+[2024-05-21 14:01:39] WARNING root fetch - processPackages [oter]: Skipping, unable to determine old version
+[2024-05-21 14:01:39] INFO root fetch - main [MainThread]: End processing [oter] error
+[2024-05-21 14:01:39] INFO root fetch - processPackages [odoo-addon-payroll]: New version: [17.0.1.0.0.8] Old Version: [17.0.1.0.0.7]
+[2024-05-21 14:01:39] INFO root fetch - processPackages [hcube]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-21 14:01:39] INFO root fetch - processPackages [grafana-foundation-sdk]: Downloading https://files.pythonhosted.org/packages/a7/e0/716d095db2c3ceada40ebaa28487c53e8788070c80308e37b936cfb906ee/grafana_foundation_sdk-1716286251!10.3.0.tar.gz
+[2024-05-21 14:01:40] INFO root fetch - processPackages [hcube]: Downloading https://files.pythonhosted.org/packages/d4/32/dab2d0a8836b704fb9df494509f11d63afdbd7c12b7bed6360e875974902/hcube-0.9.0.tar.gz
+[2024-05-21 14:01:40] INFO root fetch - processPackages [desdeo_problem]: Downloading https://files.pythonhosted.org/packages/b3/4e/43a3ea63a44d3ba5a6a1f4e6ddde662787256fb325de702dfa9f9791ea98/desdeo_problem-1.6.0.tar.gz
+[2024-05-21 14:01:40] INFO root fetch - processPackages [odoo-addon-payroll]: Downloading https://files.pythonhosted.org/packages/c5/a8/6942de982ca0c914831eaed2854b0160efecaffbcbed7dd4480231416646/odoo_addon_payroll-17.0.1.0.0.7-py3-none-any.whl
+[2024-05-21 14:01:40] INFO root fetch - processPackages [desdeo_problem]: executing diffoscope
+[2024-05-21 14:01:40] INFO root fetch - processPackages [desdeo_problem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/desdeo_problem-1.5.0.tar.gz tmp/desdeo_problem-1.6.0.tar.gz --markdown 20240521/d/desdeo_problem/1.5.0-1.6.0/README.md --exclude *.pyd
+[2024-05-21 14:01:40] INFO root fetch - processPackages [grafana-foundation-sdk]: Downloading https://files.pythonhosted.org/packages/e7/de/853bf966d1375fceaa5b7d769d7038283bcce4ec108dd4855f9dfd35d26e/grafana_foundation_sdk-1716286395!10.4.0.tar.gz
+[2024-05-21 14:01:40] INFO root fetch - processPackages [hcube]: Downloading https://files.pythonhosted.org/packages/59/e7/fc9c125b16a046449ffe988acfb8c3006fb90d98239cf77603c795723620/hcube-0.9.1.tar.gz
+[2024-05-21 14:01:40] INFO root fetch - processPackages [hcube]: executing diffoscope
+[2024-05-21 14:01:40] INFO root fetch - processPackages [hcube]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcube-0.9.0.tar.gz tmp/hcube-0.9.1.tar.gz --markdown 20240521/h/hcube/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-21 14:01:40] INFO root fetch - processPackages [grafana-foundation-sdk]: executing diffoscope
+[2024-05-21 14:01:40] INFO root fetch - processPackages [grafana-foundation-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grafana_foundation_sdk-1716286251!10.3.0.tar.gz tmp/grafana_foundation_sdk-1716286395!10.4.0.tar.gz --markdown 20240521/g/grafana-foundation-sdk/1716286251!10.3.0-1716286395!10.4.0/README.md --exclude *.pyd
+[2024-05-21 14:01:40] INFO root fetch - processPackages [odoo-addon-payroll]: Downloading https://files.pythonhosted.org/packages/f6/59/2d363d42ef03a3907b7bdc40a2a8eaed982d11526b82dfc7bd18daac0697/odoo_addon_payroll-17.0.1.0.0.8-py3-none-any.whl
+[2024-05-21 14:01:40] INFO root fetch - processPackages [odoo-addon-payroll]: executing diffoscope
+[2024-05-21 14:01:40] INFO root fetch - processPackages [odoo-addon-payroll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_payroll-17.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_payroll-17.0.1.0.0.8-py3-none-any.whl.zip --markdown 20240521/o/odoo-addon-payroll/17.0.1.0.0.7-17.0.1.0.0.8/README.md --exclude *.pyd
+[2024-05-21 14:01:41] INFO root fetch - processPackages [desdeo_problem]: Remove: archive file [/home/abi/fetcher/tmp/desdeo_problem-1.5.0.tar.gz]
+[2024-05-21 14:01:41] INFO root fetch - processPackages [desdeo_problem]: Remove: archive file [/home/abi/fetcher/tmp/desdeo_problem-1.6.0.tar.gz]
+[2024-05-21 14:01:41] INFO root fetch - main [MainThread]: End processing [desdeo_problem]: success
+[2024-05-21 14:01:41] INFO root fetch - processPackages [hcube]: Remove: archive file [/home/abi/fetcher/tmp/hcube-0.9.0.tar.gz]
+[2024-05-21 14:01:41] INFO root fetch - processPackages [hcube]: Remove: archive file [/home/abi/fetcher/tmp/hcube-0.9.1.tar.gz]
+[2024-05-21 14:01:41] INFO root fetch - main [MainThread]: End processing [hcube]: success
+[2024-05-21 14:01:41] INFO root fetch - processPackages [odoo-addon-payroll]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_payroll-17.0.1.0.0.7-py3-none-any.whl.zip]
+[2024-05-21 14:01:41] INFO root fetch - processPackages [odoo-addon-payroll]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_payroll-17.0.1.0.0.8-py3-none-any.whl.zip]
+[2024-05-21 14:01:41] INFO root fetch - main [MainThread]: End processing [odoo-addon-payroll]: success
+[2024-05-21 14:01:42] INFO root fetch - processPackages [grafana-foundation-sdk]: Remove: archive file [/home/abi/fetcher/tmp/grafana_foundation_sdk-1716286251!10.3.0.tar.gz]
+[2024-05-21 14:01:42] INFO root fetch - processPackages [grafana-foundation-sdk]: Remove: archive file [/home/abi/fetcher/tmp/grafana_foundation_sdk-1716286395!10.4.0.tar.gz]
+[2024-05-21 14:01:42] INFO root fetch - main [MainThread]: End processing [grafana-foundation-sdk]: success
+[2024-05-21 14:01:42] INFO root fetch - main [MainThread]: Store serial: [23305763]
