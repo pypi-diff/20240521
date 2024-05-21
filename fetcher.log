@@ -2401,3 +2401,50 @@
 [2024-05-21 02:00:03] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev3-py3-none-any.whl.zip]
 [2024-05-21 02:00:03] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-fiscal]: success
 [2024-05-21 02:00:03] INFO root fetch - main [MainThread]: Store serial: [23297754]
+[2024-05-21 02:02:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23297754]
+[2024-05-21 02:02:11] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-21 02:02:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: adbc-driver-flightsql
+[2024-05-21 02:02:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: adbc-driver-manager
+[2024-05-21 02:02:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: adbc-driver-postgresql
+[2024-05-21 02:02:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: adbc-driver-snowflake
+[2024-05-21 02:02:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cratedb-sqlparse
+[2024-05-21 02:02:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: adbc-driver-sqlite
+[2024-05-21 02:02:12] INFO root fetch - processPackages [adbc-driver-snowflake]: New version: [1.0.0] Old Version: [0.9.0]
+[2024-05-21 02:02:12] INFO root fetch - processPackages [adbc-driver-postgresql]: New version: [1.0.0] Old Version: [0.9.0]
+[2024-05-21 02:02:12] WARNING root fetch - processPackages [cratedb-sqlparse]: Skipping, unable to determine old version
+[2024-05-21 02:02:12] INFO root fetch - main [MainThread]: End processing [cratedb-sqlparse] error
+[2024-05-21 02:02:12] INFO root fetch - processPackages [adbc-driver-manager]: New version: [1.0.0] Old Version: [0.9.0]
+[2024-05-21 02:02:12] INFO root fetch - processPackages [adbc-driver-sqlite]: New version: [1.0.0] Old Version: [0.9.0]
+[2024-05-21 02:02:12] INFO root fetch - processPackages [adbc-driver-flightsql]: New version: [1.0.0] Old Version: [0.9.0]
+[2024-05-21 02:02:12] INFO root fetch - processPackages [adbc-driver-postgresql]: Downloading https://files.pythonhosted.org/packages/d6/24/7ab99d1df0382ba2bb90c8284bb1bdd135a72daf6ef0150aaaa56ba2d07f/adbc_driver_postgresql-0.9.0-py3-none-win_amd64.whl
+[2024-05-21 02:02:12] INFO root fetch - processPackages [adbc-driver-snowflake]: Downloading https://files.pythonhosted.org/packages/fd/8e/28f9c73d24fcd0a1a8e71594f36aea832d3434ccd04f2ed144dacb2d7c46/adbc_driver_snowflake-0.9.0-py3-none-win_amd64.whl
+[2024-05-21 02:02:12] INFO root fetch - processPackages [adbc-driver-manager]: Downloading https://files.pythonhosted.org/packages/f5/a1/ab00afb636bfac710dab12f2807dab4d5d34cd6bd0647c3dc7d1f771f8e6/adbc_driver_manager-0.9.0-cp39-cp39-win_amd64.whl
+[2024-05-21 02:02:12] INFO root fetch - processPackages [adbc-driver-sqlite]: Downloading https://files.pythonhosted.org/packages/6d/cf/17a0c779a64efc100589233224c76602498857548f24665a07e25beac206/adbc_driver_sqlite-0.9.0-py3-none-win_amd64.whl
+[2024-05-21 02:02:12] INFO root fetch - processPackages [adbc-driver-flightsql]: Downloading https://files.pythonhosted.org/packages/60/04/e21e95e6021b3592c0978f4689b5b7e634c38346cf9bdb9d9d7702293685/adbc_driver_flightsql-0.9.0-py3-none-win_amd64.whl
+[2024-05-21 02:02:12] WARNING root fetch - processPackages [adbc-driver-snowflake]: Skipping package: exceeds size limit 11028529>=10485760
+[2024-05-21 02:02:12] INFO root fetch - main [MainThread]: End processing [adbc-driver-snowflake] error
+[2024-05-21 02:02:12] INFO root fetch - processPackages [adbc-driver-manager]: Downloading https://files.pythonhosted.org/packages/1b/97/bc68207b372f03e906bcab116de4adb45fb2adff0293044c52da983d4bca/adbc_driver_manager-1.0.0.tar.gz
+[2024-05-21 02:02:13] INFO root fetch - processPackages [adbc-driver-manager]: executing diffoscope
+[2024-05-21 02:02:13] INFO root fetch - processPackages [adbc-driver-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adbc_driver_manager-0.9.0-cp39-cp39-win_amd64.whl.zip tmp/adbc_driver_manager-1.0.0.tar.gz --markdown 20240521/a/adbc-driver-manager/0.9.0-1.0.0/README.md --exclude *.pyd
+[2024-05-21 02:02:13] INFO root fetch - processPackages [adbc-driver-sqlite]: Downloading https://files.pythonhosted.org/packages/2b/23/03c22758682548e3bd7a5a54a402aae4e340845c78a36e48678aa095234a/adbc_driver_sqlite-1.0.0.tar.gz
+[2024-05-21 02:02:13] INFO root fetch - processPackages [adbc-driver-postgresql]: Downloading https://files.pythonhosted.org/packages/00/70/8fbac11fe4de8fd0112ee8128901252dad976748d90dc30bf4458123c697/adbc_driver_postgresql-1.0.0.tar.gz
+[2024-05-21 02:02:13] INFO root fetch - processPackages [adbc-driver-sqlite]: executing diffoscope
+[2024-05-21 02:02:13] INFO root fetch - processPackages [adbc-driver-sqlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adbc_driver_sqlite-0.9.0-py3-none-win_amd64.whl.zip tmp/adbc_driver_sqlite-1.0.0.tar.gz --markdown 20240521/a/adbc-driver-sqlite/0.9.0-1.0.0/README.md --exclude *.pyd
+[2024-05-21 02:02:13] INFO root fetch - processPackages [adbc-driver-postgresql]: executing diffoscope
+[2024-05-21 02:02:13] INFO root fetch - processPackages [adbc-driver-postgresql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adbc_driver_postgresql-0.9.0-py3-none-win_amd64.whl.zip tmp/adbc_driver_postgresql-1.0.0.tar.gz --markdown 20240521/a/adbc-driver-postgresql/0.9.0-1.0.0/README.md --exclude *.pyd
+[2024-05-21 02:02:13] INFO root fetch - processPackages [adbc-driver-manager]: Remove: archive file [/home/abi/fetcher/tmp/adbc_driver_manager-0.9.0-cp39-cp39-win_amd64.whl.zip]
+[2024-05-21 02:02:13] INFO root fetch - processPackages [adbc-driver-manager]: Remove: archive file [/home/abi/fetcher/tmp/adbc_driver_manager-1.0.0.tar.gz]
+[2024-05-21 02:02:13] INFO root fetch - main [MainThread]: End processing [adbc-driver-manager]: success
+[2024-05-21 02:02:13] INFO root fetch - processPackages [adbc-driver-flightsql]: Downloading https://files.pythonhosted.org/packages/4b/e1/f95d433c23461e50b820ebe0dda6471c2a73959f52cf11944791f90fc6b8/adbc_driver_flightsql-1.0.0.tar.gz
+[2024-05-21 02:02:14] INFO root fetch - processPackages [adbc-driver-flightsql]: executing diffoscope
+[2024-05-21 02:02:14] INFO root fetch - processPackages [adbc-driver-flightsql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adbc_driver_flightsql-0.9.0-py3-none-win_amd64.whl.zip tmp/adbc_driver_flightsql-1.0.0.tar.gz --markdown 20240521/a/adbc-driver-flightsql/0.9.0-1.0.0/README.md --exclude *.pyd
+[2024-05-21 02:02:14] INFO root fetch - processPackages [adbc-driver-sqlite]: Remove: archive file [/home/abi/fetcher/tmp/adbc_driver_sqlite-0.9.0-py3-none-win_amd64.whl.zip]
+[2024-05-21 02:02:14] INFO root fetch - processPackages [adbc-driver-sqlite]: Remove: archive file [/home/abi/fetcher/tmp/adbc_driver_sqlite-1.0.0.tar.gz]
+[2024-05-21 02:02:14] INFO root fetch - main [MainThread]: End processing [adbc-driver-sqlite]: success
+[2024-05-21 02:02:15] INFO root fetch - processPackages [adbc-driver-postgresql]: Remove: archive file [/home/abi/fetcher/tmp/adbc_driver_postgresql-0.9.0-py3-none-win_amd64.whl.zip]
+[2024-05-21 02:02:15] INFO root fetch - processPackages [adbc-driver-postgresql]: Remove: archive file [/home/abi/fetcher/tmp/adbc_driver_postgresql-1.0.0.tar.gz]
+[2024-05-21 02:02:15] INFO root fetch - main [MainThread]: End processing [adbc-driver-postgresql]: success
+[2024-05-21 02:02:18] INFO root fetch - processPackages [adbc-driver-flightsql]: Remove: archive file [/home/abi/fetcher/tmp/adbc_driver_flightsql-0.9.0-py3-none-win_amd64.whl.zip]
+[2024-05-21 02:02:18] INFO root fetch - processPackages [adbc-driver-flightsql]: Remove: archive file [/home/abi/fetcher/tmp/adbc_driver_flightsql-1.0.0.tar.gz]
+[2024-05-21 02:02:18] INFO root fetch - main [MainThread]: End processing [adbc-driver-flightsql]: success
+[2024-05-21 02:02:18] INFO root fetch - main [MainThread]: Store serial: [23297812]
