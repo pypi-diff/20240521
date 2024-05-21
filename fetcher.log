@@ -15884,3 +15884,45 @@
 [2024-05-21 10:00:15] INFO root fetch - processPackages [resolwe]: Remove: archive file [/home/abi/fetcher/tmp/resolwe-9.0.0a4.tar.gz]
 [2024-05-21 10:00:15] INFO root fetch - main [MainThread]: End processing [resolwe]: success
 [2024-05-21 10:00:15] INFO root fetch - main [MainThread]: Store serial: [23302881]
+[2024-05-21 10:02:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23302881]
+[2024-05-21 10:02:24] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-21 10:02:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pkscreener
+[2024-05-21 10:02:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bayesian-average
+[2024-05-21 10:02:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: worker-dispatcher
+[2024-05-21 10:02:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: video.dev
+[2024-05-21 10:02:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: system_reliability
+[2024-05-21 10:02:24] WARNING root fetch - processPackages [system_reliability]: Skipping, unable to determine old version
+[2024-05-21 10:02:24] INFO root fetch - main [MainThread]: End processing [system_reliability] error
+[2024-05-21 10:02:24] INFO root fetch - processPackages [worker-dispatcher]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-21 10:02:25] INFO root fetch - processPackages [video.dev]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-21 10:02:25] INFO root fetch - processPackages [bayesian-average]: New version: [0.2.1] Old Version: [0.1.7]
+[2024-05-21 10:02:25] INFO root fetch - processPackages [pkscreener]: New version: [0.45.20240521.387] Old Version: [0.45.20240519.386]
+[2024-05-21 10:02:25] INFO root fetch - processPackages [worker-dispatcher]: Downloading https://files.pythonhosted.org/packages/2d/e0/e94afa6d633dc3dd5f46a993b025d3da2c24e4e41587a5951f958e331fa3/worker_dispatcher-1.0.0.tar.gz
+[2024-05-21 10:02:25] INFO root fetch - processPackages [bayesian-average]: Downloading https://files.pythonhosted.org/packages/15/17/f29628b792fda8bce1b5788f06f3abe241b8b3973dabf28e8ba9c8f429eb/bayesian_average-0.1.7.tar.gz
+[2024-05-21 10:02:25] INFO root fetch - processPackages [video.dev]: Downloading https://files.pythonhosted.org/packages/5a/52/237476e9e766ff1621a5251f0527f034277257db09a30db6270e2df795ed/video.dev-0.0.1.tar.gz
+[2024-05-21 10:02:25] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/8d/86/21e64f362131e907b3f2da14287cc1c0d34d17162f15febc6c301a355740/pkscreener-0.45.20240519.386.tar.gz
+[2024-05-21 10:02:25] INFO root fetch - processPackages [bayesian-average]: Downloading https://files.pythonhosted.org/packages/a6/4e/d969a112b39c61582effbde9ee1a98ae2a364d5f871c553848d2ccf59c7c/bayesian_average-0.2.1.tar.gz
+[2024-05-21 10:02:25] INFO root fetch - processPackages [worker-dispatcher]: Downloading https://files.pythonhosted.org/packages/5a/46/c44b4bda2fac35d07d6e9151ac7593d54dd049927d7adbf5b3a76e9bcd5a/worker_dispatcher-1.0.1.tar.gz
+[2024-05-21 10:02:25] INFO root fetch - processPackages [video.dev]: Downloading https://files.pythonhosted.org/packages/81/9f/9fdf84a84e70eac747bbaaec11af1bb127326031088fbbef0d415bd73550/video.dev-0.0.2.tar.gz
+[2024-05-21 10:02:25] INFO root fetch - processPackages [worker-dispatcher]: executing diffoscope
+[2024-05-21 10:02:25] INFO root fetch - processPackages [worker-dispatcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/worker_dispatcher-1.0.0.tar.gz tmp/worker_dispatcher-1.0.1.tar.gz --markdown 20240521/w/worker-dispatcher/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-21 10:02:25] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/92/1d/b389e41abfd93683ead200406f45bc3f0788ccdf757a3cebdcd38919e222/pkscreener-0.45.20240521.387.tar.gz
+[2024-05-21 10:02:25] INFO root fetch - processPackages [video.dev]: executing diffoscope
+[2024-05-21 10:02:25] INFO root fetch - processPackages [video.dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/video.dev-0.0.1.tar.gz tmp/video.dev-0.0.2.tar.gz --markdown 20240521/v/video.dev/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-21 10:02:25] INFO root fetch - processPackages [bayesian-average]: executing diffoscope
+[2024-05-21 10:02:25] INFO root fetch - processPackages [bayesian-average]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bayesian_average-0.1.7.tar.gz tmp/bayesian_average-0.2.1.tar.gz --markdown 20240521/b/bayesian-average/0.1.7-0.2.1/README.md --exclude *.pyd
+[2024-05-21 10:02:25] INFO root fetch - processPackages [pkscreener]: executing diffoscope
+[2024-05-21 10:02:25] INFO root fetch - processPackages [pkscreener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkscreener-0.45.20240519.386.tar.gz tmp/pkscreener-0.45.20240521.387.tar.gz --markdown 20240521/p/pkscreener/0.45.20240519.386-0.45.20240521.387/README.md --exclude *.pyd
+[2024-05-21 10:02:26] INFO root fetch - processPackages [worker-dispatcher]: Remove: archive file [/home/abi/fetcher/tmp/worker_dispatcher-1.0.0.tar.gz]
+[2024-05-21 10:02:26] INFO root fetch - processPackages [worker-dispatcher]: Remove: archive file [/home/abi/fetcher/tmp/worker_dispatcher-1.0.1.tar.gz]
+[2024-05-21 10:02:26] INFO root fetch - main [MainThread]: End processing [worker-dispatcher]: success
+[2024-05-21 10:02:26] INFO root fetch - processPackages [video.dev]: Remove: archive file [/home/abi/fetcher/tmp/video.dev-0.0.1.tar.gz]
+[2024-05-21 10:02:26] INFO root fetch - processPackages [video.dev]: Remove: archive file [/home/abi/fetcher/tmp/video.dev-0.0.2.tar.gz]
+[2024-05-21 10:02:26] INFO root fetch - main [MainThread]: End processing [video.dev]: success
+[2024-05-21 10:02:26] INFO root fetch - processPackages [bayesian-average]: Remove: archive file [/home/abi/fetcher/tmp/bayesian_average-0.1.7.tar.gz]
+[2024-05-21 10:02:26] INFO root fetch - processPackages [bayesian-average]: Remove: archive file [/home/abi/fetcher/tmp/bayesian_average-0.2.1.tar.gz]
+[2024-05-21 10:02:26] INFO root fetch - main [MainThread]: End processing [bayesian-average]: success
+[2024-05-21 10:02:26] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.45.20240519.386.tar.gz]
+[2024-05-21 10:02:26] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.45.20240521.387.tar.gz]
+[2024-05-21 10:02:26] INFO root fetch - main [MainThread]: End processing [pkscreener]: success
+[2024-05-21 10:02:26] INFO root fetch - main [MainThread]: Store serial: [23302895]
