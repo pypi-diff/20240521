@@ -11847,3 +11847,61 @@
 [2024-05-21 07:20:22] INFO root fetch - processPackages [onnxsharp]: Remove: archive file [/home/abi/fetcher/tmp/onnxsharp-0.0.8-py2.py3-none-any.whl.zip]
 [2024-05-21 07:20:22] INFO root fetch - main [MainThread]: End processing [onnxsharp]: success
 [2024-05-21 07:20:22] INFO root fetch - main [MainThread]: Store serial: [23301331]
+[2024-05-21 07:22:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23301331]
+[2024-05-21 07:22:31] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-21 07:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyRHEED
+[2024-05-21 07:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MilesToMuppets
+[2024-05-21 07:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-base-maintenance
+[2024-05-21 07:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-base-maintenance
+[2024-05-21 07:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ab-test-advanced-toolkit
+[2024-05-21 07:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PyRHEED
+[2024-05-21 07:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: chittorgarh-client
+[2024-05-21 07:22:31] INFO root fetch - processPackages [PyRHEED]: New version: [1.0.8a0] Old Version: [1.0.7]
+[2024-05-21 07:22:31] WARNING root fetch - processPackages [ab-test-advanced-toolkit]: Skipping, unable to determine old version
+[2024-05-21 07:22:31] INFO root fetch - main [MainThread]: End processing [ab-test-advanced-toolkit] error
+[2024-05-21 07:22:31] INFO root fetch - processPackages [PyRHEED]: New version: [1.0.8a0] Old Version: [1.0.7]
+[2024-05-21 07:22:31] INFO root fetch - processPackages [MilesToMuppets]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-21 07:22:31] INFO root fetch - processPackages [PyRHEED]: Downloading https://files.pythonhosted.org/packages/b1/71/3e9a22f5645a38b2eeea903e42d501fd4548d0feb210027749308ea5e90e/pyrheed-1.0.7.tar.gz
+[2024-05-21 07:22:31] INFO root fetch - processPackages [odoo14-addon-base-maintenance]: New version: [14.0.1.3.2.dev3] Old Version: [14.0.1.3.2.dev2]
+[2024-05-21 07:22:31] INFO root fetch - processPackages [odoo-addon-base-maintenance]: New version: [16.0.1.0.1.2] Old Version: [16.0.1.0.1.1]
+[2024-05-21 07:22:31] INFO root fetch - processPackages [PyRHEED]: Downloading https://files.pythonhosted.org/packages/b1/71/3e9a22f5645a38b2eeea903e42d501fd4548d0feb210027749308ea5e90e/pyrheed-1.0.7.tar.gz
+[2024-05-21 07:22:31] INFO root fetch - processPackages [chittorgarh-client]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-21 07:22:31] INFO root fetch - processPackages [MilesToMuppets]: Downloading https://files.pythonhosted.org/packages/74/44/2ee5c5342c56d6afe4c6f975d355354a2043068ae6af27f41833c861cb0a/milestomuppets-0.0.2.tar.gz
+[2024-05-21 07:22:31] INFO root fetch - processPackages [odoo14-addon-base-maintenance]: Downloading https://files.pythonhosted.org/packages/1b/db/99d7ae4e46a600fdba6705cb18f024e247a1fc433e8a39d7c2f264a551ef/odoo14_addon_base_maintenance-14.0.1.3.2.dev2-py3-none-any.whl
+[2024-05-21 07:22:31] INFO root fetch - processPackages [chittorgarh-client]: Downloading https://files.pythonhosted.org/packages/7a/a5/763311ef5b7671d7d7d796aa5c7cde0ebac51eb76ea86c48fdbaead3cb6c/chittorgarh_client-1.0.8.tar.gz
+[2024-05-21 07:22:31] INFO root fetch - processPackages [odoo-addon-base-maintenance]: Downloading https://files.pythonhosted.org/packages/02/b7/d754b729efa31631b028cbb347bddd4467780d271271155a6ffa6d540f97/odoo_addon_base_maintenance-16.0.1.0.1.1-py3-none-any.whl
+[2024-05-21 07:22:32] INFO root fetch - processPackages [MilesToMuppets]: Downloading https://files.pythonhosted.org/packages/a9/89/be0fe4adcb26930719cc745e88fa71d4895def07ee289df91060da667888/milestomuppets-0.0.3.tar.gz
+[2024-05-21 07:22:32] INFO root fetch - processPackages [PyRHEED]: Downloading https://files.pythonhosted.org/packages/50/dc/226c878c154cee6a8f9827810d4e1c9c00b6fce3213896571b57fac9a7c1/pyrheed-1.0.8a0.tar.gz
+[2024-05-21 07:22:32] INFO root fetch - processPackages [PyRHEED]: Downloading https://files.pythonhosted.org/packages/50/dc/226c878c154cee6a8f9827810d4e1c9c00b6fce3213896571b57fac9a7c1/pyrheed-1.0.8a0.tar.gz
+[2024-05-21 07:22:32] INFO root fetch - processPackages [MilesToMuppets]: executing diffoscope
+[2024-05-21 07:22:32] INFO root fetch - processPackages [MilesToMuppets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/milestomuppets-0.0.2.tar.gz tmp/milestomuppets-0.0.3.tar.gz --markdown 20240521/M/MilesToMuppets/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-21 07:22:32] INFO root fetch - processPackages [chittorgarh-client]: Downloading https://files.pythonhosted.org/packages/56/3e/fc317ea00053937e692f624fe70a95f6d6c6f22d64c13d62f0ac7fe66b7d/chittorgarh_client-1.0.9.tar.gz
+[2024-05-21 07:22:32] INFO root fetch - processPackages [odoo14-addon-base-maintenance]: Downloading https://files.pythonhosted.org/packages/fb/6f/795ad5992ae3dc8882f459891e3127cb0627f2d004c2ccaf0b248bb2ed5f/odoo14_addon_base_maintenance-14.0.1.3.2.dev3-py3-none-any.whl
+[2024-05-21 07:22:32] INFO root fetch - processPackages [PyRHEED]: executing diffoscope
+[2024-05-21 07:22:32] INFO root fetch - processPackages [PyRHEED]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrheed-1.0.7.tar.gz tmp/pyrheed-1.0.8a0.tar.gz --markdown 20240521/P/PyRHEED/1.0.7-1.0.8a0/README.md --exclude *.pyd
+[2024-05-21 07:22:32] INFO root fetch - processPackages [PyRHEED]: executing diffoscope
+[2024-05-21 07:22:32] INFO root fetch - processPackages [PyRHEED]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrheed-1.0.7.tar.gz tmp/pyrheed-1.0.8a0.tar.gz --markdown 20240521/P/PyRHEED/1.0.7-1.0.8a0/README.md --exclude *.pyd
+[2024-05-21 07:22:32] INFO root fetch - processPackages [odoo-addon-base-maintenance]: Downloading https://files.pythonhosted.org/packages/17/9c/54e19e316759059c5aec7866e257cc255ac60061d4a184198948d37e3c22/odoo_addon_base_maintenance-16.0.1.0.1.2-py3-none-any.whl
+[2024-05-21 07:22:32] INFO root fetch - processPackages [odoo14-addon-base-maintenance]: executing diffoscope
+[2024-05-21 07:22:32] INFO root fetch - processPackages [odoo14-addon-base-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_base_maintenance-14.0.1.3.2.dev2-py3-none-any.whl.zip tmp/odoo14_addon_base_maintenance-14.0.1.3.2.dev3-py3-none-any.whl.zip --markdown 20240521/o/odoo14-addon-base-maintenance/14.0.1.3.2.dev2-14.0.1.3.2.dev3/README.md --exclude *.pyd
+[2024-05-21 07:22:32] INFO root fetch - processPackages [chittorgarh-client]: executing diffoscope
+[2024-05-21 07:22:32] INFO root fetch - processPackages [chittorgarh-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chittorgarh_client-1.0.8.tar.gz tmp/chittorgarh_client-1.0.9.tar.gz --markdown 20240521/c/chittorgarh-client/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-21 07:22:32] INFO root fetch - processPackages [odoo-addon-base-maintenance]: executing diffoscope
+[2024-05-21 07:22:32] INFO root fetch - processPackages [odoo-addon-base-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_maintenance-16.0.1.0.1.1-py3-none-any.whl.zip tmp/odoo_addon_base_maintenance-16.0.1.0.1.2-py3-none-any.whl.zip --markdown 20240521/o/odoo-addon-base-maintenance/16.0.1.0.1.1-16.0.1.0.1.2/README.md --exclude *.pyd
+[2024-05-21 07:22:32] INFO root fetch - processPackages [MilesToMuppets]: Remove: archive file [/home/abi/fetcher/tmp/milestomuppets-0.0.2.tar.gz]
+[2024-05-21 07:22:32] INFO root fetch - processPackages [MilesToMuppets]: Remove: archive file [/home/abi/fetcher/tmp/milestomuppets-0.0.3.tar.gz]
+[2024-05-21 07:22:32] INFO root fetch - main [MainThread]: End processing [MilesToMuppets]: success
+[2024-05-21 07:22:33] INFO root fetch - processPackages [chittorgarh-client]: Remove: archive file [/home/abi/fetcher/tmp/chittorgarh_client-1.0.8.tar.gz]
+[2024-05-21 07:22:33] INFO root fetch - processPackages [chittorgarh-client]: Remove: archive file [/home/abi/fetcher/tmp/chittorgarh_client-1.0.9.tar.gz]
+[2024-05-21 07:22:33] INFO root fetch - main [MainThread]: End processing [chittorgarh-client]: success
+[2024-05-21 07:22:33] INFO root fetch - processPackages [odoo14-addon-base-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_base_maintenance-14.0.1.3.2.dev2-py3-none-any.whl.zip]
+[2024-05-21 07:22:33] INFO root fetch - processPackages [odoo14-addon-base-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_base_maintenance-14.0.1.3.2.dev3-py3-none-any.whl.zip]
+[2024-05-21 07:22:33] INFO root fetch - main [MainThread]: End processing [odoo14-addon-base-maintenance]: success
+[2024-05-21 07:22:33] INFO root fetch - processPackages [PyRHEED]: Remove: archive file [/home/abi/fetcher/tmp/pyrheed-1.0.7.tar.gz]
+[2024-05-21 07:22:33] INFO root fetch - processPackages [PyRHEED]: Remove: archive file [/home/abi/fetcher/tmp/pyrheed-1.0.8a0.tar.gz]
+[2024-05-21 07:22:33] INFO root fetch - main [MainThread]: End processing [PyRHEED]: success
+[2024-05-21 07:22:33] INFO root fetch - processPackages [odoo-addon-base-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_maintenance-16.0.1.0.1.1-py3-none-any.whl.zip]
+[2024-05-21 07:22:33] INFO root fetch - processPackages [odoo-addon-base-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_maintenance-16.0.1.0.1.2-py3-none-any.whl.zip]
+[2024-05-21 07:22:33] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-maintenance]: success
+[2024-05-21 07:22:33] INFO root fetch - main [MainThread]: End processing [PyRHEED]: success
+[2024-05-21 07:22:33] INFO root fetch - main [MainThread]: Store serial: [23301350]
