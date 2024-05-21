@@ -14021,3 +14021,42 @@
 [2024-05-21 08:50:23] INFO root fetch - processPackages [paddleocr-onnx]: Remove: archive file [/home/abi/fetcher/tmp/paddleocr_onnx-0.4.1.tar.gz]
 [2024-05-21 08:50:23] INFO root fetch - main [MainThread]: End processing [paddleocr-onnx]: success
 [2024-05-21 08:50:23] INFO root fetch - main [MainThread]: Store serial: [23302201]
+[2024-05-21 08:52:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23302201]
+[2024-05-21 08:52:31] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-21 08:52:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: inferless-cli
+[2024-05-21 08:52:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vessl
+[2024-05-21 08:52:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: transstellar-antd
+[2024-05-21 08:52:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-sql-request-abstract
+[2024-05-21 08:52:32] INFO root fetch - processPackages [transstellar-antd]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-05-21 08:52:32] INFO root fetch - processPackages [transstellar-antd]: Downloading https://files.pythonhosted.org/packages/72/1c/d71ba533c9ab3f0b1d9bb938050b2e313a46001785ccbd5ca6365325b2c7/transstellar_antd-0.7.0.tar.gz
+[2024-05-21 08:52:32] INFO root fetch - processPackages [inferless-cli]: New version: [1.1.7] Old Version: [1.1.6]
+[2024-05-21 08:52:32] INFO root fetch - processPackages [odoo14-addon-sql-request-abstract]: New version: [14.0.1.3.1.dev6] Old Version: [14.0.1.3.1.dev5]
+[2024-05-21 08:52:32] INFO root fetch - processPackages [vessl]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-21 08:52:32] INFO root fetch - processPackages [inferless-cli]: Downloading https://files.pythonhosted.org/packages/1d/9c/d4231c249d2add2b8a49dec574642b1f756bd7b6b2ed839da4b2a639d2d9/inferless_cli-1.1.6.tar.gz
+[2024-05-21 08:52:32] INFO root fetch - processPackages [odoo14-addon-sql-request-abstract]: Downloading https://files.pythonhosted.org/packages/09/83/a55e48ba5177bf83a818056a16099476fdc0993aef5feb0dd41514ebb0b7/odoo14_addon_sql_request_abstract-14.0.1.3.1.dev5-py3-none-any.whl
+[2024-05-21 08:52:32] INFO root fetch - processPackages [vessl]: Downloading https://files.pythonhosted.org/packages/38/7d/1b2b94a1083188f3376a0af9cb2701abb4c084a8e0608a25f97e191ab3e7/vessl-0.1.98.tar.gz
+[2024-05-21 08:52:32] INFO root fetch - processPackages [transstellar-antd]: Downloading https://files.pythonhosted.org/packages/90/b0/597cf0dab9fc4fea4d7c90f14426ad7818c61d420ae75f43a1a6ca09cec5/transstellar_antd-0.8.0.tar.gz
+[2024-05-21 08:52:32] INFO root fetch - processPackages [transstellar-antd]: executing diffoscope
+[2024-05-21 08:52:32] INFO root fetch - processPackages [transstellar-antd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transstellar_antd-0.7.0.tar.gz tmp/transstellar_antd-0.8.0.tar.gz --markdown 20240521/t/transstellar-antd/0.7.0-0.8.0/README.md --exclude *.pyd
+[2024-05-21 08:52:32] INFO root fetch - processPackages [inferless-cli]: Downloading https://files.pythonhosted.org/packages/a2/de/aa7ab6a2a413a15de0ff42ee687d232ffb5d011ad7d52aef030f574698ad/inferless_cli-1.1.7.tar.gz
+[2024-05-21 08:52:32] INFO root fetch - processPackages [vessl]: Downloading https://files.pythonhosted.org/packages/21/b8/cbd9a61ba9f582b647d4ef42d4b54900e40293bc599bde0a7f1fe73974bc/vessl-0.1.99.tar.gz
+[2024-05-21 08:52:32] INFO root fetch - processPackages [odoo14-addon-sql-request-abstract]: Downloading https://files.pythonhosted.org/packages/8f/f2/b6f10c0fa794e1cb9bc55320e8e3a90215fc27386287a8bc57fcc8e286cb/odoo14_addon_sql_request_abstract-14.0.1.3.1.dev6-py3-none-any.whl
+[2024-05-21 08:52:32] INFO root fetch - processPackages [inferless-cli]: executing diffoscope
+[2024-05-21 08:52:32] INFO root fetch - processPackages [inferless-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inferless_cli-1.1.6.tar.gz tmp/inferless_cli-1.1.7.tar.gz --markdown 20240521/i/inferless-cli/1.1.6-1.1.7/README.md --exclude *.pyd
+[2024-05-21 08:52:32] INFO root fetch - processPackages [odoo14-addon-sql-request-abstract]: executing diffoscope
+[2024-05-21 08:52:32] INFO root fetch - processPackages [odoo14-addon-sql-request-abstract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_sql_request_abstract-14.0.1.3.1.dev5-py3-none-any.whl.zip tmp/odoo14_addon_sql_request_abstract-14.0.1.3.1.dev6-py3-none-any.whl.zip --markdown 20240521/o/odoo14-addon-sql-request-abstract/14.0.1.3.1.dev5-14.0.1.3.1.dev6/README.md --exclude *.pyd
+[2024-05-21 08:52:32] INFO root fetch - processPackages [vessl]: executing diffoscope
+[2024-05-21 08:52:32] INFO root fetch - processPackages [vessl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vessl-0.1.98.tar.gz tmp/vessl-0.1.99.tar.gz --markdown 20240521/v/vessl/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-21 08:52:33] INFO root fetch - processPackages [transstellar-antd]: Remove: archive file [/home/abi/fetcher/tmp/transstellar_antd-0.7.0.tar.gz]
+[2024-05-21 08:52:33] INFO root fetch - processPackages [transstellar-antd]: Remove: archive file [/home/abi/fetcher/tmp/transstellar_antd-0.8.0.tar.gz]
+[2024-05-21 08:52:33] INFO root fetch - main [MainThread]: End processing [transstellar-antd]: success
+[2024-05-21 08:52:33] INFO root fetch - processPackages [inferless-cli]: Remove: archive file [/home/abi/fetcher/tmp/inferless_cli-1.1.6.tar.gz]
+[2024-05-21 08:52:33] INFO root fetch - processPackages [inferless-cli]: Remove: archive file [/home/abi/fetcher/tmp/inferless_cli-1.1.7.tar.gz]
+[2024-05-21 08:52:33] INFO root fetch - main [MainThread]: End processing [inferless-cli]: success
+[2024-05-21 08:52:33] INFO root fetch - processPackages [odoo14-addon-sql-request-abstract]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sql_request_abstract-14.0.1.3.1.dev5-py3-none-any.whl.zip]
+[2024-05-21 08:52:33] INFO root fetch - processPackages [odoo14-addon-sql-request-abstract]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sql_request_abstract-14.0.1.3.1.dev6-py3-none-any.whl.zip]
+[2024-05-21 08:52:33] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sql-request-abstract]: success
+[2024-05-21 08:52:35] INFO root fetch - processPackages [vessl]: Remove: archive file [/home/abi/fetcher/tmp/vessl-0.1.98.tar.gz]
+[2024-05-21 08:52:35] INFO root fetch - processPackages [vessl]: Remove: archive file [/home/abi/fetcher/tmp/vessl-0.1.99.tar.gz]
+[2024-05-21 08:52:35] INFO root fetch - main [MainThread]: End processing [vessl]: success
+[2024-05-21 08:52:35] INFO root fetch - main [MainThread]: Store serial: [23302212]
