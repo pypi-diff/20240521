@@ -7430,3 +7430,36 @@
 [2024-05-21 03:25:57] INFO root fetch - processPackages [esiaccel]: Remove: archive file [/home/abi/fetcher/tmp/esiaccel-0.0.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-05-21 03:25:57] INFO root fetch - main [MainThread]: End processing [esiaccel]: success
 [2024-05-21 03:25:57] INFO root fetch - main [MainThread]: Store serial: [23299202]
+[2024-05-21 03:28:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23299202]
+[2024-05-21 03:28:09] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-21 03:28:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ezsmtp
+[2024-05-21 03:28:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: arch-flow
+[2024-05-21 03:28:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tair-pulse
+[2024-05-21 03:28:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: onediff
+[2024-05-21 03:28:10] INFO root fetch - processPackages [onediff]: New version: [1.1.0.dev202405200128] Old Version: [1.1.0.dev202405190129]
+[2024-05-21 03:28:10] WARNING root fetch - processPackages [ezsmtp]: Skipping, unable to determine old version
+[2024-05-21 03:28:10] INFO root fetch - main [MainThread]: End processing [ezsmtp] error
+[2024-05-21 03:28:10] INFO root fetch - processPackages [tair-pulse]: New version: [1.1.1] Old Version: [1.0.2]
+[2024-05-21 03:28:10] INFO root fetch - processPackages [arch-flow]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-21 03:28:10] INFO root fetch - processPackages [onediff]: Downloading https://files.pythonhosted.org/packages/75/ad/3eca6568fffdaf8b59215f6d6a6288a060ba86b42dc4fdb9f8e5ff0b0a6c/onediff-1.1.0.dev202405190129.tar.gz
+[2024-05-21 03:28:10] INFO root fetch - processPackages [tair-pulse]: Downloading https://files.pythonhosted.org/packages/72/85/70c0362ebf15c098585b7648fb528f6152a54230242d263f806a045bca85/tair_pulse-1.0.2.tar.gz
+[2024-05-21 03:28:10] INFO root fetch - processPackages [arch-flow]: Downloading https://files.pythonhosted.org/packages/9e/ef/35f2c6a43dba20ad782e15abd988db76c62471a96f09a5631cfe51057f46/arch_flow-0.1.6.tar.gz
+[2024-05-21 03:28:10] INFO root fetch - processPackages [onediff]: Downloading https://files.pythonhosted.org/packages/0f/30/ab62507e05d7cb69bb924bd62ec0e5abb9926b2ab5788af852e389790e55/onediff-1.1.0.dev202405200128.tar.gz
+[2024-05-21 03:28:10] INFO root fetch - processPackages [onediff]: executing diffoscope
+[2024-05-21 03:28:10] INFO root fetch - processPackages [onediff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onediff-1.1.0.dev202405190129.tar.gz tmp/onediff-1.1.0.dev202405200128.tar.gz --markdown 20240521/o/onediff/1.1.0.dev202405190129-1.1.0.dev202405200128/README.md --exclude *.pyd
+[2024-05-21 03:28:10] INFO root fetch - processPackages [arch-flow]: Downloading https://files.pythonhosted.org/packages/07/79/ec6592383bad7ebed04ed881c55220ab6311b0db51f577050343e076f857/arch_flow-0.1.7.tar.gz
+[2024-05-21 03:28:10] INFO root fetch - processPackages [arch-flow]: executing diffoscope
+[2024-05-21 03:28:10] INFO root fetch - processPackages [arch-flow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arch_flow-0.1.6.tar.gz tmp/arch_flow-0.1.7.tar.gz --markdown 20240521/a/arch-flow/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-21 03:28:10] INFO root fetch - processPackages [tair-pulse]: Downloading https://files.pythonhosted.org/packages/23/a4/b9cb2908490acdf6d6f85f0492dc52efc747186cb09addebfa70e60f7c5f/tair_pulse-1.1.1.tar.gz
+[2024-05-21 03:28:11] INFO root fetch - processPackages [tair-pulse]: executing diffoscope
+[2024-05-21 03:28:11] INFO root fetch - processPackages [tair-pulse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tair_pulse-1.0.2.tar.gz tmp/tair_pulse-1.1.1.tar.gz --markdown 20240521/t/tair-pulse/1.0.2-1.1.1/README.md --exclude *.pyd
+[2024-05-21 03:28:11] INFO root fetch - processPackages [arch-flow]: Remove: archive file [/home/abi/fetcher/tmp/arch_flow-0.1.6.tar.gz]
+[2024-05-21 03:28:11] INFO root fetch - processPackages [arch-flow]: Remove: archive file [/home/abi/fetcher/tmp/arch_flow-0.1.7.tar.gz]
+[2024-05-21 03:28:11] INFO root fetch - main [MainThread]: End processing [arch-flow]: success
+[2024-05-21 03:28:11] INFO root fetch - processPackages [onediff]: Remove: archive file [/home/abi/fetcher/tmp/onediff-1.1.0.dev202405190129.tar.gz]
+[2024-05-21 03:28:11] INFO root fetch - processPackages [onediff]: Remove: archive file [/home/abi/fetcher/tmp/onediff-1.1.0.dev202405200128.tar.gz]
+[2024-05-21 03:28:11] INFO root fetch - main [MainThread]: End processing [onediff]: success
+[2024-05-21 03:28:11] INFO root fetch - processPackages [tair-pulse]: Remove: archive file [/home/abi/fetcher/tmp/tair_pulse-1.0.2.tar.gz]
+[2024-05-21 03:28:11] INFO root fetch - processPackages [tair-pulse]: Remove: archive file [/home/abi/fetcher/tmp/tair_pulse-1.1.1.tar.gz]
+[2024-05-21 03:28:11] INFO root fetch - main [MainThread]: End processing [tair-pulse]: success
+[2024-05-21 03:28:11] INFO root fetch - main [MainThread]: Store serial: [23299279]
