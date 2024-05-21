@@ -2602,3 +2602,58 @@
 [2024-05-21 02:11:20] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.5.0.20240520.post1053.tar.gz]
 [2024-05-21 02:11:20] INFO root fetch - main [MainThread]: End processing [mct-quantizers-nightly]: success
 [2024-05-21 02:11:20] INFO root fetch - main [MainThread]: Store serial: [23297866]
+[2024-05-21 02:13:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23297866]
+[2024-05-21 02:13:29] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-21 02:13:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mct-quantizers-nightly
+[2024-05-21 02:13:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-events-notify
+[2024-05-21 02:13:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-nag
+[2024-05-21 02:13:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: speakeasy-client-sdk-python
+[2024-05-21 02:13:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-events-notify
+[2024-05-21 02:13:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdktf-gitlab-runner
+[2024-05-21 02:13:29] INFO root fetch - processPackages [mct-quantizers-nightly]: New version: [1.5.0.20240521.post1112] Old Version: [1.5.0.20240520.post1053]
+[2024-05-21 02:13:29] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-05-21 02:13:29] INFO root fetch - processPackages [cdktf-gitlab-runner]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-21 02:13:29] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-05-21 02:13:29] INFO root fetch - processPackages [speakeasy-client-sdk-python]: New version: [5.9.2] Old Version: [5.9.1]
+[2024-05-21 02:13:29] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/1c/06/726455b8fa7b8d1875c9c26e9fcab08f394d7b0d18c26e98309d86820acd/mct-quantizers-nightly-1.5.0.20240520.post1053.tar.gz
+[2024-05-21 02:13:29] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/b7/7d/50ca1bff3db85ede28826faf2d11bb449770cac87fe89483636e0fe57d94/cdk-events-notify-2.2.98.tar.gz
+[2024-05-21 02:13:29] INFO root fetch - processPackages [cdktf-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/8a/6e/f1c520e407ce3adf90b51d2d1ca84d283a08c808fc00c9deeff4f4734d82/cdktf-gitlab-runner-0.0.98.tar.gz
+[2024-05-21 02:13:29] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/b7/7d/50ca1bff3db85ede28826faf2d11bb449770cac87fe89483636e0fe57d94/cdk-events-notify-2.2.98.tar.gz
+[2024-05-21 02:13:29] INFO root fetch - processPackages [cdk-nag]: New version: [2.9.7] Old Version: [2.9.6]
+[2024-05-21 02:13:29] INFO root fetch - processPackages [cdktf-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/59/f2/0d7ab5ec05a2b43bd92c00fd237afddb1e2770c7edaf03b1f7ddef6c0793/cdktf-gitlab-runner-0.0.99.tar.gz
+[2024-05-21 02:13:29] INFO root fetch - processPackages [speakeasy-client-sdk-python]: Downloading https://files.pythonhosted.org/packages/75/48/76e1e787d4a475a5705a241946dfe893a19a566e80f0c09dd35d8fa64f3a/speakeasy-client-sdk-python-5.9.1.tar.gz
+[2024-05-21 02:13:29] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/56/4a/9c2a145913d7a35ac252cb2bddabca89cdc95c802a8e342f192100f709be/cdk-events-notify-2.2.99.tar.gz
+[2024-05-21 02:13:29] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/56/4a/9c2a145913d7a35ac252cb2bddabca89cdc95c802a8e342f192100f709be/cdk-events-notify-2.2.99.tar.gz
+[2024-05-21 02:13:29] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/7e/d5/55678e63769944a2e9914990f66989dd7cf3da7e8fe3a2738432a32ad109/mct-quantizers-nightly-1.5.0.20240521.post1112.tar.gz
+[2024-05-21 02:13:29] INFO root fetch - processPackages [cdk-nag]: Downloading https://files.pythonhosted.org/packages/26/bc/b8768e307b8d360b78f45303ac30baa4232637f372296203b0005cd07cd4/cdk-nag-2.9.6.tar.gz
+[2024-05-21 02:13:29] INFO root fetch - processPackages [cdktf-gitlab-runner]: executing diffoscope
+[2024-05-21 02:13:29] INFO root fetch - processPackages [cdktf-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-gitlab-runner-0.0.98.tar.gz tmp/cdktf-gitlab-runner-0.0.99.tar.gz --markdown 20240521/c/cdktf-gitlab-runner/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-21 02:13:29] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2024-05-21 02:13:29] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.2.98.tar.gz tmp/cdk-events-notify-2.2.99.tar.gz --markdown 20240521/c/cdk-events-notify/2.2.98-2.2.99/README.md --exclude *.pyd
+[2024-05-21 02:13:29] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2024-05-21 02:13:29] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.2.98.tar.gz tmp/cdk-events-notify-2.2.99.tar.gz --markdown 20240521/c/cdk-events-notify/2.2.98-2.2.99/README.md --exclude *.pyd
+[2024-05-21 02:13:29] INFO root fetch - processPackages [mct-quantizers-nightly]: executing diffoscope
+[2024-05-21 02:13:29] INFO root fetch - processPackages [mct-quantizers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-quantizers-nightly-1.5.0.20240520.post1053.tar.gz tmp/mct-quantizers-nightly-1.5.0.20240521.post1112.tar.gz --markdown 20240521/m/mct-quantizers-nightly/1.5.0.20240520.post1053-1.5.0.20240521.post1112/README.md --exclude *.pyd
+[2024-05-21 02:13:29] INFO root fetch - processPackages [speakeasy-client-sdk-python]: Downloading https://files.pythonhosted.org/packages/82/0b/fd5477a9620174435fb7a80c3c8200599f6b49f480f1c910f05558252bfd/speakeasy-client-sdk-python-5.9.2.tar.gz
+[2024-05-21 02:13:30] INFO root fetch - processPackages [speakeasy-client-sdk-python]: executing diffoscope
+[2024-05-21 02:13:30] INFO root fetch - processPackages [speakeasy-client-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/speakeasy-client-sdk-python-5.9.1.tar.gz tmp/speakeasy-client-sdk-python-5.9.2.tar.gz --markdown 20240521/s/speakeasy-client-sdk-python/5.9.1-5.9.2/README.md --exclude *.pyd
+[2024-05-21 02:13:30] INFO root fetch - processPackages [cdk-nag]: Downloading https://files.pythonhosted.org/packages/71/78/6a2d0c627f1033774d5be3d2faca465e0bc0b07cf97cec491c795775999a/cdk-nag-2.9.7.tar.gz
+[2024-05-21 02:13:30] INFO root fetch - processPackages [cdk-nag]: executing diffoscope
+[2024-05-21 02:13:30] INFO root fetch - processPackages [cdk-nag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-nag-2.9.6.tar.gz tmp/cdk-nag-2.9.7.tar.gz --markdown 20240521/c/cdk-nag/2.9.6-2.9.7/README.md --exclude *.pyd
+[2024-05-21 02:13:30] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.98.tar.gz]
+[2024-05-21 02:13:30] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.99.tar.gz]
+[2024-05-21 02:13:30] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2024-05-21 02:13:30] INFO root fetch - processPackages [cdktf-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-gitlab-runner-0.0.98.tar.gz]
+[2024-05-21 02:13:30] INFO root fetch - processPackages [cdktf-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-gitlab-runner-0.0.99.tar.gz]
+[2024-05-21 02:13:30] INFO root fetch - main [MainThread]: End processing [cdktf-gitlab-runner]: success
+[2024-05-21 02:13:30] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2024-05-21 02:13:30] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.5.0.20240520.post1053.tar.gz]
+[2024-05-21 02:13:30] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.5.0.20240521.post1112.tar.gz]
+[2024-05-21 02:13:30] INFO root fetch - main [MainThread]: End processing [mct-quantizers-nightly]: success
+[2024-05-21 02:13:30] INFO root fetch - processPackages [speakeasy-client-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/speakeasy-client-sdk-python-5.9.1.tar.gz]
+[2024-05-21 02:13:30] INFO root fetch - processPackages [speakeasy-client-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/speakeasy-client-sdk-python-5.9.2.tar.gz]
+[2024-05-21 02:13:30] INFO root fetch - main [MainThread]: End processing [speakeasy-client-sdk-python]: success
+[2024-05-21 02:13:31] INFO root fetch - processPackages [cdk-nag]: Remove: archive file [/home/abi/fetcher/tmp/cdk-nag-2.9.6.tar.gz]
+[2024-05-21 02:13:31] INFO root fetch - processPackages [cdk-nag]: Remove: archive file [/home/abi/fetcher/tmp/cdk-nag-2.9.7.tar.gz]
+[2024-05-21 02:13:31] INFO root fetch - main [MainThread]: End processing [cdk-nag]: success
+[2024-05-21 02:13:31] INFO root fetch - main [MainThread]: Store serial: [23297884]
