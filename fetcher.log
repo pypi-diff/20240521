@@ -8238,3 +8238,51 @@
 [2024-05-21 04:24:43] INFO root fetch - processPackages [itk]: Remove: archive file [/home/abi/fetcher/tmp/itk-5.4rc4-cp39-cp39-win_amd64.whl.zip]
 [2024-05-21 04:24:43] INFO root fetch - main [MainThread]: End processing [itk]: success
 [2024-05-21 04:24:43] INFO root fetch - main [MainThread]: Store serial: [23299874]
+[2024-05-21 04:26:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23299874]
+[2024-05-21 04:26:52] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-21 04:26:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: arch-flow
+[2024-05-21 04:26:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: naif-eop-high-prec
+[2024-05-21 04:26:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cvprocessor
+[2024-05-21 04:26:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: visionai-data-format
+[2024-05-21 04:26:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cntracer
+[2024-05-21 04:26:52] INFO root fetch - processPackages [arch-flow]: New version: [0.1.7.2] Old Version: [0.1.7.1]
+[2024-05-21 04:26:52] INFO root fetch - processPackages [naif-eop-high-prec]: New version: [2024.5.20] Old Version: [2024.5.19]
+[2024-05-21 04:26:52] INFO root fetch - processPackages [visionai-data-format]: New version: [1.3.3] Old Version: [1.3.2]
+[2024-05-21 04:26:52] INFO root fetch - processPackages [arch-flow]: Downloading https://files.pythonhosted.org/packages/0d/9c/997ba256856ea67f8e42a16bd9d98452a088ad92b6eb154c6dcccbdc15fd/arch_flow-0.1.7.1.tar.gz
+[2024-05-21 04:26:52] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/9e/01/855e41691118c51714eccaa57a039725c712fb0bfde29f746b300e03d878/naif_eop_high_prec-2024.5.19.tar.gz
+[2024-05-21 04:26:52] INFO root fetch - processPackages [visionai-data-format]: Downloading https://files.pythonhosted.org/packages/8e/b2/5848c5e5e12d2568688c5077b9d0f421966a6ecf06a0ca87bd47e0db9659/visionai_data_format-1.3.2.tar.gz
+[2024-05-21 04:26:52] INFO root fetch - processPackages [cvprocessor]: New version: [1.0.2] Old Version: [1.0.0]
+[2024-05-21 04:26:52] INFO root fetch - processPackages [cntracer]: New version: [1.7.20] Old Version: [1.7.10]
+[2024-05-21 04:26:52] INFO root fetch - processPackages [cvprocessor]: Downloading https://files.pythonhosted.org/packages/69/32/62e1d6faa710a738c1ebca77655e1c72107bd502ce80a68965e3aaaf2845/cvprocessor-1.0.0.tar.gz
+[2024-05-21 04:26:52] INFO root fetch - processPackages [arch-flow]: Downloading https://files.pythonhosted.org/packages/5e/2c/7e4bae97574306dfe0882363067b60fc8330ab7fd4f61923d46f42500062/arch_flow-0.1.7.2.tar.gz
+[2024-05-21 04:26:52] INFO root fetch - processPackages [visionai-data-format]: Downloading https://files.pythonhosted.org/packages/19/24/59a906f894c07fdae81330db0b2c0f3988720409f3448c7491bc19c67d49/visionai_data_format-1.3.3.tar.gz
+[2024-05-21 04:26:52] INFO root fetch - processPackages [cntracer]: Downloading https://files.pythonhosted.org/packages/89/90/8af5993c9f39b889c9314d90fbab6c01b8a73ea3f3ad622721b7cc255d25/cntracer-1.7.10-cp39-cp39-win_amd64.whl
+[2024-05-21 04:26:53] INFO root fetch - processPackages [arch-flow]: executing diffoscope
+[2024-05-21 04:26:53] INFO root fetch - processPackages [arch-flow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arch_flow-0.1.7.1.tar.gz tmp/arch_flow-0.1.7.2.tar.gz --markdown 20240521/a/arch-flow/0.1.7.1-0.1.7.2/README.md --exclude *.pyd
+[2024-05-21 04:26:53] INFO root fetch - processPackages [visionai-data-format]: executing diffoscope
+[2024-05-21 04:26:53] INFO root fetch - processPackages [visionai-data-format]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visionai_data_format-1.3.2.tar.gz tmp/visionai_data_format-1.3.3.tar.gz --markdown 20240521/v/visionai-data-format/1.3.2-1.3.3/README.md --exclude *.pyd
+[2024-05-21 04:26:53] INFO root fetch - processPackages [cvprocessor]: Downloading https://files.pythonhosted.org/packages/86/14/5d7832778b334e5f92cd2fadbef94fb3ce3434418e999060607c3e5bf997/cvprocessor-1.0.2.tar.gz
+[2024-05-21 04:26:53] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/58/29/8d4db6f26c79e7a085b166dfb0810eee7f7ccb094c00406811c4cb745451/naif_eop_high_prec-2024.5.20.tar.gz
+[2024-05-21 04:26:53] INFO root fetch - processPackages [cvprocessor]: executing diffoscope
+[2024-05-21 04:26:53] INFO root fetch - processPackages [cvprocessor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvprocessor-1.0.0.tar.gz tmp/cvprocessor-1.0.2.tar.gz --markdown 20240521/c/cvprocessor/1.0.0-1.0.2/README.md --exclude *.pyd
+[2024-05-21 04:26:53] INFO root fetch - processPackages [cntracer]: Downloading https://files.pythonhosted.org/packages/c0/32/633bb2841e26a8a5b36c3e080b22e2f1bc3ace696425945cdfdb8c80b977/cntracer-1.7.20-cp310-cp310-musllinux_1_1_aarch64.whl
+[2024-05-21 04:26:53] INFO root fetch - processPackages [naif-eop-high-prec]: executing diffoscope
+[2024-05-21 04:26:53] INFO root fetch - processPackages [naif-eop-high-prec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naif_eop_high_prec-2024.5.19.tar.gz tmp/naif_eop_high_prec-2024.5.20.tar.gz --markdown 20240521/n/naif-eop-high-prec/2024.5.19-2024.5.20/README.md --exclude *.pyd
+[2024-05-21 04:26:53] INFO root fetch - processPackages [arch-flow]: Remove: archive file [/home/abi/fetcher/tmp/arch_flow-0.1.7.1.tar.gz]
+[2024-05-21 04:26:53] INFO root fetch - processPackages [arch-flow]: Remove: archive file [/home/abi/fetcher/tmp/arch_flow-0.1.7.2.tar.gz]
+[2024-05-21 04:26:53] INFO root fetch - main [MainThread]: End processing [arch-flow]: success
+[2024-05-21 04:26:53] INFO root fetch - processPackages [visionai-data-format]: Remove: archive file [/home/abi/fetcher/tmp/visionai_data_format-1.3.2.tar.gz]
+[2024-05-21 04:26:53] INFO root fetch - processPackages [visionai-data-format]: Remove: archive file [/home/abi/fetcher/tmp/visionai_data_format-1.3.3.tar.gz]
+[2024-05-21 04:26:53] INFO root fetch - main [MainThread]: End processing [visionai-data-format]: success
+[2024-05-21 04:26:53] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-1.0.0.tar.gz]
+[2024-05-21 04:26:53] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-1.0.2.tar.gz]
+[2024-05-21 04:26:53] INFO root fetch - main [MainThread]: End processing [cvprocessor]: success
+[2024-05-21 04:26:54] INFO root fetch - processPackages [cntracer]: executing diffoscope
+[2024-05-21 04:26:54] INFO root fetch - processPackages [cntracer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cntracer-1.7.10-cp39-cp39-win_amd64.whl.zip tmp/cntracer-1.7.20-cp310-cp310-musllinux_1_1_aarch64.whl.zip --markdown 20240521/c/cntracer/1.7.10-1.7.20/README.md --exclude *.pyd
+[2024-05-21 04:26:54] INFO root fetch - processPackages [cntracer]: Remove: archive file [/home/abi/fetcher/tmp/cntracer-1.7.10-cp39-cp39-win_amd64.whl.zip]
+[2024-05-21 04:26:54] INFO root fetch - processPackages [cntracer]: Remove: archive file [/home/abi/fetcher/tmp/cntracer-1.7.20-cp310-cp310-musllinux_1_1_aarch64.whl.zip]
+[2024-05-21 04:26:54] INFO root fetch - main [MainThread]: End processing [cntracer]: success
+[2024-05-21 04:26:56] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2024.5.19.tar.gz]
+[2024-05-21 04:26:56] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2024.5.20.tar.gz]
+[2024-05-21 04:26:56] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
+[2024-05-21 04:26:56] INFO root fetch - main [MainThread]: Store serial: [23299896]
