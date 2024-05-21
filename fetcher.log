@@ -10126,3 +10126,84 @@
 [2024-05-21 06:03:41] INFO root fetch - processPackages [cdktf-cdktf-provider-pagerduty]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-pagerduty-9.0.3.tar.gz]
 [2024-05-21 06:03:41] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-pagerduty]: success
 [2024-05-21 06:03:41] INFO root fetch - main [MainThread]: Store serial: [23300748]
+[2024-05-21 06:05:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23300748]
+[2024-05-21 06:05:49] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-21 06:05:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: accelbyte-py-sdk-service-matchmaking
+[2024-05-21 06:05:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sharklog
+[2024-05-21 06:05:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jzai
+[2024-05-21 06:05:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: accelbyte-py-sdk-service-platform
+[2024-05-21 06:05:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jzai
+[2024-05-21 06:05:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jzai
+[2024-05-21 06:05:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jzai
+[2024-05-21 06:05:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: chromedriver-binary
+[2024-05-21 06:05:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: play3slib
+[2024-05-21 06:05:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: accelbyte-py-sdk-service-reporting
+[2024-05-21 06:05:50] INFO root fetch - processPackages [jzai]: New version: [59.83.50] Old Version: [59.83.49]
+[2024-05-21 06:05:50] INFO root fetch - processPackages [jzai]: New version: [59.83.50] Old Version: [59.83.49]
+[2024-05-21 06:05:50] INFO root fetch - processPackages [jzai]: New version: [59.83.50] Old Version: [59.83.49]
+[2024-05-21 06:05:50] INFO root fetch - processPackages [jzai]: New version: [59.83.50] Old Version: [59.83.49]
+[2024-05-21 06:05:50] INFO root fetch - processPackages [play3slib]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-21 06:05:50] INFO root fetch - processPackages [chromedriver-binary]: New version: [99.0.4844.51.0] Old Version: [99.0.4844.35.0]
+[2024-05-21 06:05:50] INFO root fetch - processPackages [accelbyte-py-sdk-service-platform]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-21 06:05:50] INFO root fetch - processPackages [accelbyte-py-sdk-service-matchmaking]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-21 06:05:50] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/50/a2/f36a3d2f2aa37ccc496e5f81d594f06e3965b836712da14b4b01d2f05ca8/chromedriver-binary-99.0.4844.35.0.tar.gz
+[2024-05-21 06:05:50] WARNING root fetch - processPackages [sharklog]: Skipping, unable to determine old version
+[2024-05-21 06:05:50] INFO root fetch - processPackages [accelbyte-py-sdk-service-reporting]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-05-21 06:05:50] INFO root fetch - main [MainThread]: End processing [sharklog] error
+[2024-05-21 06:05:50] INFO root fetch - processPackages [play3slib]: Downloading https://files.pythonhosted.org/packages/c9/dd/a4296241ac74b1ae61d9435e8ef0441f3ddc27c4f667305698e0f900e58e/play3slib-0.0.2.tar.gz
+[2024-05-21 06:05:50] INFO root fetch - processPackages [jzai]: Downloading https://files.pythonhosted.org/packages/8d/88/bddf14fb184d808114c2cb7b3b93d5a0f3a95fbd5b229d5f3cbfe9d217bf/jzai-59.83.49.tar.gz
+[2024-05-21 06:05:50] INFO root fetch - processPackages [jzai]: Downloading https://files.pythonhosted.org/packages/8d/88/bddf14fb184d808114c2cb7b3b93d5a0f3a95fbd5b229d5f3cbfe9d217bf/jzai-59.83.49.tar.gz
+[2024-05-21 06:05:50] INFO root fetch - processPackages [jzai]: Downloading https://files.pythonhosted.org/packages/8d/88/bddf14fb184d808114c2cb7b3b93d5a0f3a95fbd5b229d5f3cbfe9d217bf/jzai-59.83.49.tar.gz
+[2024-05-21 06:05:50] INFO root fetch - processPackages [jzai]: Downloading https://files.pythonhosted.org/packages/8d/88/bddf14fb184d808114c2cb7b3b93d5a0f3a95fbd5b229d5f3cbfe9d217bf/jzai-59.83.49.tar.gz
+[2024-05-21 06:05:50] INFO root fetch - processPackages [accelbyte-py-sdk-service-platform]: Downloading https://files.pythonhosted.org/packages/9a/97/499a8e61b01a7baced57d028a457af78cd842a4e53dc67ebed7d970eae01/accelbyte-py-sdk-service-platform-0.8.0.tar.gz
+[2024-05-21 06:05:50] INFO root fetch - processPackages [accelbyte-py-sdk-service-reporting]: Downloading https://files.pythonhosted.org/packages/a3/e3/7698073cf6dd38a87005892a8a4778d4c18b37dfe8f6ba48a0fbb954c067/accelbyte_py_sdk_service_reporting-0.7.0.tar.gz
+[2024-05-21 06:05:50] INFO root fetch - processPackages [accelbyte-py-sdk-service-matchmaking]: Downloading https://files.pythonhosted.org/packages/0a/31/63199dd77f26b024fe50b747bf4749a6173de17060d59ca4746a5709529a/accelbyte-py-sdk-service-matchmaking-0.8.0.tar.gz
+[2024-05-21 06:05:50] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/d9/eb/3bd2a308b9e6f7441fbed7b759578bddade2cb983bb4ffe7fc3777863314/chromedriver-binary-99.0.4844.51.0.tar.gz
+[2024-05-21 06:05:50] INFO root fetch - processPackages [jzai]: Downloading https://files.pythonhosted.org/packages/34/3c/8527e6945fd70896efda87968101e92d01d5a2f3fa28a7ccc2c12017219b/jzai-59.83.50.tar.gz
+[2024-05-21 06:05:50] INFO root fetch - processPackages [jzai]: Downloading https://files.pythonhosted.org/packages/34/3c/8527e6945fd70896efda87968101e92d01d5a2f3fa28a7ccc2c12017219b/jzai-59.83.50.tar.gz
+[2024-05-21 06:05:50] INFO root fetch - processPackages [jzai]: Downloading https://files.pythonhosted.org/packages/34/3c/8527e6945fd70896efda87968101e92d01d5a2f3fa28a7ccc2c12017219b/jzai-59.83.50.tar.gz
+[2024-05-21 06:05:50] INFO root fetch - processPackages [jzai]: Downloading https://files.pythonhosted.org/packages/34/3c/8527e6945fd70896efda87968101e92d01d5a2f3fa28a7ccc2c12017219b/jzai-59.83.50.tar.gz
+[2024-05-21 06:05:50] INFO root fetch - processPackages [play3slib]: Downloading https://files.pythonhosted.org/packages/6c/a3/0754aa4d276195c477d56818f4cebab3f75e9215bd89ab601a140cde7326/play3slib-0.0.3.tar.gz
+[2024-05-21 06:05:50] INFO root fetch - processPackages [chromedriver-binary]: executing diffoscope
+[2024-05-21 06:05:50] INFO root fetch - processPackages [chromedriver-binary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromedriver-binary-99.0.4844.35.0.tar.gz tmp/chromedriver-binary-99.0.4844.51.0.tar.gz --markdown 20240521/c/chromedriver-binary/99.0.4844.35.0-99.0.4844.51.0/README.md --exclude *.pyd
+[2024-05-21 06:05:50] INFO root fetch - processPackages [jzai]: executing diffoscope
+[2024-05-21 06:05:50] INFO root fetch - processPackages [jzai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jzai-59.83.49.tar.gz tmp/jzai-59.83.50.tar.gz --markdown 20240521/j/jzai/59.83.49-59.83.50/README.md --exclude *.pyd
+[2024-05-21 06:05:50] INFO root fetch - processPackages [jzai]: executing diffoscope
+[2024-05-21 06:05:50] INFO root fetch - processPackages [jzai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jzai-59.83.49.tar.gz tmp/jzai-59.83.50.tar.gz --markdown 20240521/j/jzai/59.83.49-59.83.50/README.md --exclude *.pyd
+[2024-05-21 06:05:50] INFO root fetch - processPackages [play3slib]: executing diffoscope
+[2024-05-21 06:05:50] INFO root fetch - processPackages [play3slib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/play3slib-0.0.2.tar.gz tmp/play3slib-0.0.3.tar.gz --markdown 20240521/p/play3slib/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-21 06:05:50] INFO root fetch - processPackages [jzai]: executing diffoscope
+[2024-05-21 06:05:50] INFO root fetch - processPackages [jzai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jzai-59.83.49.tar.gz tmp/jzai-59.83.50.tar.gz --markdown 20240521/j/jzai/59.83.49-59.83.50/README.md --exclude *.pyd
+[2024-05-21 06:05:51] INFO root fetch - processPackages [jzai]: executing diffoscope
+[2024-05-21 06:05:51] INFO root fetch - processPackages [jzai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jzai-59.83.49.tar.gz tmp/jzai-59.83.50.tar.gz --markdown 20240521/j/jzai/59.83.49-59.83.50/README.md --exclude *.pyd
+[2024-05-21 06:05:51] INFO root fetch - processPackages [accelbyte-py-sdk-service-matchmaking]: Downloading https://files.pythonhosted.org/packages/e0/85/889379bd09f93ccd273f5d1ff01d6daf0eb840cafde45cb762073bf2fa8d/accelbyte-py-sdk-service-matchmaking-0.9.0.tar.gz
+[2024-05-21 06:05:51] INFO root fetch - processPackages [accelbyte-py-sdk-service-reporting]: Downloading https://files.pythonhosted.org/packages/b8/b0/3f52e8d4641dca0c8d4dd8b44828e1084234997f68d0a27c40a676750305/accelbyte_py_sdk_service_reporting-0.8.0.tar.gz
+[2024-05-21 06:05:51] INFO root fetch - processPackages [accelbyte-py-sdk-service-platform]: Downloading https://files.pythonhosted.org/packages/d0/ed/66f26d257d94460e2db1eae9628824e19558c96208f5ae93f9b41d3bbf17/accelbyte-py-sdk-service-platform-0.9.0.tar.gz
+[2024-05-21 06:05:51] INFO root fetch - processPackages [accelbyte-py-sdk-service-matchmaking]: executing diffoscope
+[2024-05-21 06:05:51] INFO root fetch - processPackages [accelbyte-py-sdk-service-matchmaking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/accelbyte-py-sdk-service-matchmaking-0.8.0.tar.gz tmp/accelbyte-py-sdk-service-matchmaking-0.9.0.tar.gz --markdown 20240521/a/accelbyte-py-sdk-service-matchmaking/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-21 06:05:51] INFO root fetch - processPackages [accelbyte-py-sdk-service-reporting]: executing diffoscope
+[2024-05-21 06:05:51] INFO root fetch - processPackages [accelbyte-py-sdk-service-reporting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/accelbyte_py_sdk_service_reporting-0.7.0.tar.gz tmp/accelbyte_py_sdk_service_reporting-0.8.0.tar.gz --markdown 20240521/a/accelbyte-py-sdk-service-reporting/0.7.0-0.8.0/README.md --exclude *.pyd
+[2024-05-21 06:05:51] INFO root fetch - processPackages [accelbyte-py-sdk-service-platform]: executing diffoscope
+[2024-05-21 06:05:51] INFO root fetch - processPackages [accelbyte-py-sdk-service-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/accelbyte-py-sdk-service-platform-0.8.0.tar.gz tmp/accelbyte-py-sdk-service-platform-0.9.0.tar.gz --markdown 20240521/a/accelbyte-py-sdk-service-platform/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-21 06:05:51] INFO root fetch - processPackages [chromedriver-binary]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-binary-99.0.4844.35.0.tar.gz]
+[2024-05-21 06:05:51] INFO root fetch - processPackages [chromedriver-binary]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-binary-99.0.4844.51.0.tar.gz]
+[2024-05-21 06:05:51] INFO root fetch - main [MainThread]: End processing [chromedriver-binary]: success
+[2024-05-21 06:05:51] INFO root fetch - processPackages [jzai]: Remove: archive file [/home/abi/fetcher/tmp/jzai-59.83.49.tar.gz]
+[2024-05-21 06:05:51] INFO root fetch - processPackages [jzai]: Remove: archive file [/home/abi/fetcher/tmp/jzai-59.83.50.tar.gz]
+[2024-05-21 06:05:51] INFO root fetch - main [MainThread]: End processing [jzai]: success
+[2024-05-21 06:05:51] INFO root fetch - main [MainThread]: End processing [jzai]: success
+[2024-05-21 06:05:51] INFO root fetch - main [MainThread]: End processing [jzai]: success
+[2024-05-21 06:05:51] INFO root fetch - main [MainThread]: End processing [jzai]: success
+[2024-05-21 06:05:51] INFO root fetch - processPackages [play3slib]: Remove: archive file [/home/abi/fetcher/tmp/play3slib-0.0.2.tar.gz]
+[2024-05-21 06:05:51] INFO root fetch - processPackages [play3slib]: Remove: archive file [/home/abi/fetcher/tmp/play3slib-0.0.3.tar.gz]
+[2024-05-21 06:05:51] INFO root fetch - main [MainThread]: End processing [play3slib]: success
+[2024-05-21 06:05:52] INFO root fetch - processPackages [accelbyte-py-sdk-service-reporting]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte_py_sdk_service_reporting-0.7.0.tar.gz]
+[2024-05-21 06:05:52] INFO root fetch - processPackages [accelbyte-py-sdk-service-reporting]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte_py_sdk_service_reporting-0.8.0.tar.gz]
+[2024-05-21 06:05:52] INFO root fetch - main [MainThread]: End processing [accelbyte-py-sdk-service-reporting]: success
+[2024-05-21 06:05:52] INFO root fetch - processPackages [accelbyte-py-sdk-service-matchmaking]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte-py-sdk-service-matchmaking-0.8.0.tar.gz]
+[2024-05-21 06:05:52] INFO root fetch - processPackages [accelbyte-py-sdk-service-matchmaking]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte-py-sdk-service-matchmaking-0.9.0.tar.gz]
+[2024-05-21 06:05:52] INFO root fetch - main [MainThread]: End processing [accelbyte-py-sdk-service-matchmaking]: success
+[2024-05-21 06:05:56] INFO root fetch - processPackages [accelbyte-py-sdk-service-platform]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte-py-sdk-service-platform-0.8.0.tar.gz]
+[2024-05-21 06:05:56] INFO root fetch - processPackages [accelbyte-py-sdk-service-platform]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte-py-sdk-service-platform-0.9.0.tar.gz]
+[2024-05-21 06:05:56] INFO root fetch - main [MainThread]: End processing [accelbyte-py-sdk-service-platform]: success
+[2024-05-21 06:05:56] INFO root fetch - main [MainThread]: Store serial: [23300781]
