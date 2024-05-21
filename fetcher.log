@@ -12763,3 +12763,24 @@
 [2024-05-21 07:59:58] INFO root fetch - processPackages [nomad-media-pip]: Remove: archive file [/home/abi/fetcher/tmp/nomad_media_pip-0.0.99.tar.gz]
 [2024-05-21 07:59:58] INFO root fetch - main [MainThread]: End processing [nomad-media-pip]: success
 [2024-05-21 07:59:58] INFO root fetch - main [MainThread]: Store serial: [23301749]
+[2024-05-21 08:02:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23301749]
+[2024-05-21 08:02:07] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-21 08:02:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lk-logger
+[2024-05-21 08:02:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ferfereh
+[2024-05-21 08:02:07] INFO root fetch - processPackages [ferfereh]: New version: [1.123.1] Old Version: [1.120.1]
+[2024-05-21 08:02:07] INFO root fetch - processPackages [ferfereh]: Downloading https://files.pythonhosted.org/packages/6d/a8/64df345ac25e375b4029aa8b30362d494f6c9a108165f3db9b2e5925fe13/ferfereh-1.120.1.tar.gz
+[2024-05-21 08:02:07] INFO root fetch - processPackages [lk-logger]: New version: [5.7.3] Old Version: [5.7.2]
+[2024-05-21 08:02:07] INFO root fetch - processPackages [lk-logger]: Downloading https://files.pythonhosted.org/packages/c3/70/4c52d4cff320022cb76a6a08b03879efd52b327f977ee1cfedcaffe8635d/lk_logger-5.7.2-py3-none-any.whl
+[2024-05-21 08:02:07] INFO root fetch - processPackages [ferfereh]: Downloading https://files.pythonhosted.org/packages/dc/7f/e36da75dc0e78d53fc5d43b3470a2b9bc3abb2282d3886a19ea8d8a326d9/ferfereh-1.123.1.tar.gz
+[2024-05-21 08:02:07] INFO root fetch - processPackages [ferfereh]: executing diffoscope
+[2024-05-21 08:02:07] INFO root fetch - processPackages [ferfereh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ferfereh-1.120.1.tar.gz tmp/ferfereh-1.123.1.tar.gz --markdown 20240521/f/ferfereh/1.120.1-1.123.1/README.md --exclude *.pyd
+[2024-05-21 08:02:07] INFO root fetch - processPackages [lk-logger]: Downloading https://files.pythonhosted.org/packages/f9/c4/3d542affc6dea70656aa94bed0e208270df2be9beeb16fe330d91060acfe/lk_logger-5.7.3-py3-none-any.whl
+[2024-05-21 08:02:08] INFO root fetch - processPackages [lk-logger]: executing diffoscope
+[2024-05-21 08:02:08] INFO root fetch - processPackages [lk-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lk_logger-5.7.2-py3-none-any.whl.zip tmp/lk_logger-5.7.3-py3-none-any.whl.zip --markdown 20240521/l/lk-logger/5.7.2-5.7.3/README.md --exclude *.pyd
+[2024-05-21 08:02:08] INFO root fetch - processPackages [ferfereh]: Remove: archive file [/home/abi/fetcher/tmp/ferfereh-1.120.1.tar.gz]
+[2024-05-21 08:02:08] INFO root fetch - processPackages [ferfereh]: Remove: archive file [/home/abi/fetcher/tmp/ferfereh-1.123.1.tar.gz]
+[2024-05-21 08:02:08] INFO root fetch - main [MainThread]: End processing [ferfereh]: success
+[2024-05-21 08:02:08] INFO root fetch - processPackages [lk-logger]: Remove: archive file [/home/abi/fetcher/tmp/lk_logger-5.7.2-py3-none-any.whl.zip]
+[2024-05-21 08:02:08] INFO root fetch - processPackages [lk-logger]: Remove: archive file [/home/abi/fetcher/tmp/lk_logger-5.7.3-py3-none-any.whl.zip]
+[2024-05-21 08:02:08] INFO root fetch - main [MainThread]: End processing [lk-logger]: success
+[2024-05-21 08:02:08] INFO root fetch - main [MainThread]: Store serial: [23301759]
