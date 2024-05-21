@@ -22726,3 +22726,20 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-21 13:55:08] INFO root fetch - processPackages [omero-web]: Remove: archive file [/home/abi/fetcher/tmp/omero-web-5.9.2.tar.gz]
 [2024-05-21 13:55:08] INFO root fetch - main [MainThread]: End processing [omero-web]: success
 [2024-05-21 13:55:08] INFO root fetch - main [MainThread]: Store serial: [23305701]
+[2024-05-21 13:57:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23305701]
+[2024-05-21 13:57:17] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-21 13:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: predict-v2-mk
+[2024-05-21 13:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fsl-sub-plugin-slurm
+[2024-05-21 13:57:17] INFO root fetch - processPackages [predict-v2-mk]: New version: [0.2] Old Version: [0.1]
+[2024-05-21 13:57:17] INFO root fetch - processPackages [fsl-sub-plugin-slurm]: New version: [1.6.3] Old Version: [1.6.2]
+[2024-05-21 13:57:17] INFO root fetch - processPackages [predict-v2-mk]: Downloading https://files.pythonhosted.org/packages/2b/01/7e5eee003a12f6ffe4631ca216d87c044521428018cb69112e73b7a4a4d8/predict_v2_mk-0.1.tar.gz
+[2024-05-21 13:57:17] WARNING root fetch - processPackages [predict-v2-mk]: Skipping package: exceeds size limit 79264327>=10485760
+[2024-05-21 13:57:17] INFO root fetch - main [MainThread]: End processing [predict-v2-mk] error
+[2024-05-21 13:57:17] INFO root fetch - processPackages [fsl-sub-plugin-slurm]: Downloading https://files.pythonhosted.org/packages/97/41/ae99f7ec7caf01cbf15a98ab1ea84ce76dbb56ab6a6e4a6c222e87844946/fsl_sub_plugin_slurm-1.6.2.tar.gz
+[2024-05-21 13:57:18] INFO root fetch - processPackages [fsl-sub-plugin-slurm]: Downloading https://files.pythonhosted.org/packages/dc/57/ecc97800e1ebb4b389c16d369fdb47b9b9c96ea2f8bed2907d57dcdc5f29/fsl_sub_plugin_slurm-1.6.3.tar.gz
+[2024-05-21 13:57:18] INFO root fetch - processPackages [fsl-sub-plugin-slurm]: executing diffoscope
+[2024-05-21 13:57:18] INFO root fetch - processPackages [fsl-sub-plugin-slurm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fsl_sub_plugin_slurm-1.6.2.tar.gz tmp/fsl_sub_plugin_slurm-1.6.3.tar.gz --markdown 20240521/f/fsl-sub-plugin-slurm/1.6.2-1.6.3/README.md --exclude *.pyd
+[2024-05-21 13:57:18] INFO root fetch - processPackages [fsl-sub-plugin-slurm]: Remove: archive file [/home/abi/fetcher/tmp/fsl_sub_plugin_slurm-1.6.2.tar.gz]
+[2024-05-21 13:57:18] INFO root fetch - processPackages [fsl-sub-plugin-slurm]: Remove: archive file [/home/abi/fetcher/tmp/fsl_sub_plugin_slurm-1.6.3.tar.gz]
+[2024-05-21 13:57:18] INFO root fetch - main [MainThread]: End processing [fsl-sub-plugin-slurm]: success
+[2024-05-21 13:57:18] INFO root fetch - main [MainThread]: Store serial: [23305714]
