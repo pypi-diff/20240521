@@ -14895,3 +14895,72 @@
 [2024-05-21 09:28:57] INFO root fetch - processPackages [Geode-Background]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Background-7.9.9rc1-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2024-05-21 09:28:57] INFO root fetch - main [MainThread]: End processing [Geode-Background]: success
 [2024-05-21 09:28:57] INFO root fetch - main [MainThread]: Store serial: [23302495]
+[2024-05-21 09:31:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23302495]
+[2024-05-21 09:31:06] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-21 09:31:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: slot-can
+[2024-05-21 09:31:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: data4llm
+[2024-05-21 09:31:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: impsparc
+[2024-05-21 09:31:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pms-encoder
+[2024-05-21 09:31:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyva-framework
+[2024-05-21 09:31:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bacore
+[2024-05-21 09:31:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fairbalance
+[2024-05-21 09:31:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lib-ml-remla-12
+[2024-05-21 09:31:07] INFO root fetch - processPackages [slot-can]: New version: [1.0] Old Version: [0.2.0]
+[2024-05-21 09:31:07] INFO root fetch - processPackages [pms-encoder]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-21 09:31:07] INFO root fetch - processPackages [data4llm]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-05-21 09:31:07] INFO root fetch - processPackages [bacore]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-21 09:31:07] INFO root fetch - processPackages [impsparc]: New version: [3.1.4] Old Version: [3.1.3]
+[2024-05-21 09:31:07] INFO root fetch - processPackages [fairbalance]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-21 09:31:07] INFO root fetch - processPackages [pyva-framework]: New version: [3.3.3] Old Version: [3.3.2]
+[2024-05-21 09:31:07] WARNING root fetch - processPackages [lib-ml-remla-12]: Skipping, unable to determine old version
+[2024-05-21 09:31:07] INFO root fetch - main [MainThread]: End processing [lib-ml-remla-12] error
+[2024-05-21 09:31:07] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/80/f1/88f2f54188c15bf6cca5ba7a3a347b8d1c83b15a626f541acf3dde5aa63d/pms_encoder-0.0.8.tar.gz
+[2024-05-21 09:31:07] INFO root fetch - processPackages [slot-can]: Downloading https://files.pythonhosted.org/packages/97/26/51ab58fe6943c6cd4ff8f315a15fa1e4db61d2ce868bc68197c16662b6f4/slot_can-0.2-py3-none-any.whl
+[2024-05-21 09:31:07] INFO root fetch - processPackages [data4llm]: Downloading https://files.pythonhosted.org/packages/9f/1c/fbec962d59c602880e6d5106e07aa2abf60ad4b6fe1cd72b4ccc9da7d4d1/data4llm-0.3.0.tar.gz
+[2024-05-21 09:31:07] INFO root fetch - processPackages [bacore]: Downloading https://files.pythonhosted.org/packages/fa/ee/27f5dfaf9ada68468281c54b1f6065a0d06b214b5f0f5ffa04b705c586bc/bacore-0.0.8.tar.gz
+[2024-05-21 09:31:07] INFO root fetch - processPackages [impsparc]: Downloading https://files.pythonhosted.org/packages/29/10/68e862347102210a7d4ed7356db9823a9366b38e8b3ae4cb39f7cd4e45e6/impsparc-3.1.3.tar.gz
+[2024-05-21 09:31:07] INFO root fetch - processPackages [fairbalance]: Downloading https://files.pythonhosted.org/packages/dc/6a/be0f0ef346cdfa205fb209642889d85bd43c15cc2478721a40439d8f29bb/fairbalance-0.0.3.tar.gz
+[2024-05-21 09:31:07] INFO root fetch - processPackages [pyva-framework]: Downloading https://files.pythonhosted.org/packages/bc/be/727571c08d0ca05df1e7b016242d92bbd60f3222a19acfbb50e18f7fa3d8/pyva_framework-3.3.2.tar.gz
+[2024-05-21 09:31:07] INFO root fetch - processPackages [slot-can]: Downloading https://files.pythonhosted.org/packages/2b/b5/9cf0b40a473ca00af2d4f219f60a53fc5dffef71b6794729b4b573d01a41/slot_can-1.0.tar.gz
+[2024-05-21 09:31:07] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/93/31/8bb081756db42925fab6507b6e0f497d6bf45acd407ff38cb00f2aaec54c/pms_encoder-0.0.9.tar.gz
+[2024-05-21 09:31:07] INFO root fetch - processPackages [bacore]: Downloading https://files.pythonhosted.org/packages/7d/7b/feec0d5f955edc4d01b34bd9405f272693c5e9666752be67db3f2dd8770a/bacore-0.0.9.tar.gz
+[2024-05-21 09:31:07] INFO root fetch - processPackages [data4llm]: Downloading https://files.pythonhosted.org/packages/85/90/eebe9794ed301c02814c8649f84bb193d767b8c54b2588eb51e2d2258404/data4llm-0.4.0.tar.gz
+[2024-05-21 09:31:07] INFO root fetch - processPackages [pms-encoder]: executing diffoscope
+[2024-05-21 09:31:07] INFO root fetch - processPackages [pms-encoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pms_encoder-0.0.8.tar.gz tmp/pms_encoder-0.0.9.tar.gz --markdown 20240521/p/pms-encoder/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-21 09:31:07] INFO root fetch - processPackages [slot-can]: executing diffoscope
+[2024-05-21 09:31:07] INFO root fetch - processPackages [slot-can]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slot_can-0.2-py3-none-any.whl.zip tmp/slot_can-1.0.tar.gz --markdown 20240521/s/slot-can/0.2.0-1.0/README.md --exclude *.pyd
+[2024-05-21 09:31:07] INFO root fetch - processPackages [impsparc]: Downloading https://files.pythonhosted.org/packages/45/72/f39794cbae4154ae987c0408d106c25500877fe8c06b0f5131bcc567f637/impsparc-3.1.4.tar.gz
+[2024-05-21 09:31:07] INFO root fetch - processPackages [bacore]: executing diffoscope
+[2024-05-21 09:31:07] INFO root fetch - processPackages [bacore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bacore-0.0.8.tar.gz tmp/bacore-0.0.9.tar.gz --markdown 20240521/b/bacore/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-21 09:31:07] INFO root fetch - processPackages [data4llm]: executing diffoscope
+[2024-05-21 09:31:07] INFO root fetch - processPackages [data4llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data4llm-0.3.0.tar.gz tmp/data4llm-0.4.0.tar.gz --markdown 20240521/d/data4llm/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-05-21 09:31:07] INFO root fetch - processPackages [fairbalance]: Downloading https://files.pythonhosted.org/packages/4a/19/c944a2b24072c9f1a62075f52013d0d9583dc494dd7530650b21b7a0e25d/fairbalance-0.0.4.tar.gz
+[2024-05-21 09:31:07] INFO root fetch - processPackages [pyva-framework]: Downloading https://files.pythonhosted.org/packages/9d/2f/e0c10f65e27eec10c6bca19bd8800920ad8f5c7f3dd1d4044d8dd9e8003a/pyva_framework-3.3.3.tar.gz
+[2024-05-21 09:31:07] INFO root fetch - processPackages [fairbalance]: executing diffoscope
+[2024-05-21 09:31:07] INFO root fetch - processPackages [fairbalance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fairbalance-0.0.3.tar.gz tmp/fairbalance-0.0.4.tar.gz --markdown 20240521/f/fairbalance/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-21 09:31:07] INFO root fetch - processPackages [pyva-framework]: executing diffoscope
+[2024-05-21 09:31:07] INFO root fetch - processPackages [pyva-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyva_framework-3.3.2.tar.gz tmp/pyva_framework-3.3.3.tar.gz --markdown 20240521/p/pyva-framework/3.3.2-3.3.3/README.md --exclude *.pyd
+[2024-05-21 09:31:07] INFO root fetch - processPackages [impsparc]: executing diffoscope
+[2024-05-21 09:31:07] INFO root fetch - processPackages [impsparc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/impsparc-3.1.3.tar.gz tmp/impsparc-3.1.4.tar.gz --markdown 20240521/i/impsparc/3.1.3-3.1.4/README.md --exclude *.pyd
+[2024-05-21 09:31:08] INFO root fetch - processPackages [slot-can]: Remove: archive file [/home/abi/fetcher/tmp/slot_can-0.2-py3-none-any.whl.zip]
+[2024-05-21 09:31:08] INFO root fetch - processPackages [slot-can]: Remove: archive file [/home/abi/fetcher/tmp/slot_can-1.0.tar.gz]
+[2024-05-21 09:31:08] INFO root fetch - main [MainThread]: End processing [slot-can]: success
+[2024-05-21 09:31:08] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.8.tar.gz]
+[2024-05-21 09:31:08] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.9.tar.gz]
+[2024-05-21 09:31:08] INFO root fetch - main [MainThread]: End processing [pms-encoder]: success
+[2024-05-21 09:31:08] INFO root fetch - processPackages [data4llm]: Remove: archive file [/home/abi/fetcher/tmp/data4llm-0.3.0.tar.gz]
+[2024-05-21 09:31:08] INFO root fetch - processPackages [data4llm]: Remove: archive file [/home/abi/fetcher/tmp/data4llm-0.4.0.tar.gz]
+[2024-05-21 09:31:08] INFO root fetch - main [MainThread]: End processing [data4llm]: success
+[2024-05-21 09:31:08] INFO root fetch - processPackages [bacore]: Remove: archive file [/home/abi/fetcher/tmp/bacore-0.0.8.tar.gz]
+[2024-05-21 09:31:08] INFO root fetch - processPackages [bacore]: Remove: archive file [/home/abi/fetcher/tmp/bacore-0.0.9.tar.gz]
+[2024-05-21 09:31:08] INFO root fetch - main [MainThread]: End processing [bacore]: success
+[2024-05-21 09:31:08] INFO root fetch - processPackages [fairbalance]: Remove: archive file [/home/abi/fetcher/tmp/fairbalance-0.0.3.tar.gz]
+[2024-05-21 09:31:08] INFO root fetch - processPackages [fairbalance]: Remove: archive file [/home/abi/fetcher/tmp/fairbalance-0.0.4.tar.gz]
+[2024-05-21 09:31:08] INFO root fetch - main [MainThread]: End processing [fairbalance]: success
+[2024-05-21 09:31:08] INFO root fetch - processPackages [pyva-framework]: Remove: archive file [/home/abi/fetcher/tmp/pyva_framework-3.3.2.tar.gz]
+[2024-05-21 09:31:08] INFO root fetch - processPackages [pyva-framework]: Remove: archive file [/home/abi/fetcher/tmp/pyva_framework-3.3.3.tar.gz]
+[2024-05-21 09:31:08] INFO root fetch - main [MainThread]: End processing [pyva-framework]: success
+[2024-05-21 09:31:09] INFO root fetch - processPackages [impsparc]: Remove: archive file [/home/abi/fetcher/tmp/impsparc-3.1.3.tar.gz]
+[2024-05-21 09:31:09] INFO root fetch - processPackages [impsparc]: Remove: archive file [/home/abi/fetcher/tmp/impsparc-3.1.4.tar.gz]
+[2024-05-21 09:31:09] INFO root fetch - main [MainThread]: End processing [impsparc]: success
+[2024-05-21 09:31:09] INFO root fetch - main [MainThread]: Store serial: [23302523]
