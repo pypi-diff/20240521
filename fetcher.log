@@ -23276,3 +23276,81 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-21 14:19:54] INFO root fetch - processPackages [tgedr-dataops]: Remove: archive file [/home/abi/fetcher/tmp/tgedr-dataops-0.0.9.tar.gz]
 [2024-05-21 14:19:54] INFO root fetch - main [MainThread]: End processing [tgedr-dataops]: success
 [2024-05-21 14:19:54] INFO root fetch - main [MainThread]: Store serial: [23306024]
+[2024-05-21 14:21:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23306024]
+[2024-05-21 14:22:04] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-21 14:22:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qgis-plugin-dev-tools
+[2024-05-21 14:22:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zou
+[2024-05-21 14:22:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: injector-collections
+[2024-05-21 14:22:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: BarteSDK
+[2024-05-21 14:22:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tinyticker
+[2024-05-21 14:22:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ellis-django-views
+[2024-05-21 14:22:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ryry-cli
+[2024-05-21 14:22:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-constructs
+[2024-05-21 14:22:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: openmetadata-ingestion
+[2024-05-21 14:22:04] INFO root fetch - processPackages [ellis-django-views]: New version: [0.2] Old Version: [0.1888]
+[2024-05-21 14:22:04] INFO root fetch - processPackages [injector-collections]: New version: [0.0.5] Old Version: [0.0.3]
+[2024-05-21 14:22:04] WARNING root fetch - processPackages [ryry-cli]: Skipping, unable to determine old version
+[2024-05-21 14:22:04] INFO root fetch - main [MainThread]: End processing [ryry-cli] error
+[2024-05-21 14:22:04] INFO root fetch - processPackages [BarteSDK]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-21 14:22:04] INFO root fetch - processPackages [tinyticker]: New version: [0.5.8] Old Version: [0.5.7]
+[2024-05-21 14:22:04] INFO root fetch - processPackages [ellis-django-views]: Downloading https://files.pythonhosted.org/packages/05/d8/fbc6995eeaa21181538d7863cafda04510de6cf864b665fd4f02203f1145/ellis_django_views-0.1888.tar.gz
+[2024-05-21 14:22:04] INFO root fetch - processPackages [qgis-plugin-dev-tools]: New version: [0.7.0] Old Version: [0.6.2]
+[2024-05-21 14:22:04] INFO root fetch - processPackages [cdk-constructs]: New version: [1.8.5] Old Version: [1.8.4]
+[2024-05-21 14:22:04] INFO root fetch - processPackages [injector-collections]: Downloading https://files.pythonhosted.org/packages/0c/5b/43122ac5e93e30a9e6c99c2c39eac8506bec45cef6734df0cc3682cd4b22/injector_collections-0.0.3.tar.gz
+[2024-05-21 14:22:04] INFO root fetch - processPackages [openmetadata-ingestion]: New version: [1.4.0.0rc4] Old Version: [1.4.0.0rc3]
+[2024-05-21 14:22:04] INFO root fetch - processPackages [BarteSDK]: Downloading https://files.pythonhosted.org/packages/1c/24/f265a111f10a855a327643e87273d1f3ba56190ad02e0175f3b5b6319e4c/bartesdk-0.1.8.tar.gz
+[2024-05-21 14:22:04] INFO root fetch - processPackages [zou]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-21 14:22:04] INFO root fetch - processPackages [tinyticker]: Downloading https://files.pythonhosted.org/packages/b9/51/53ac97894c87e0436bc40ce05ff7eb8d5315c90623ac6fe02e0715afa512/tinyticker-0.5.7.tar.gz
+[2024-05-21 14:22:04] INFO root fetch - processPackages [qgis-plugin-dev-tools]: Downloading https://files.pythonhosted.org/packages/69/d0/8c23c78561b4ad741777800cbe4a98ad94493ec49fb0c70eef2f2b9af87b/qgis-plugin-dev-tools-0.6.2.tar.gz
+[2024-05-21 14:22:04] INFO root fetch - processPackages [zou]: Downloading https://files.pythonhosted.org/packages/3d/26/8a5c822e737ac50a4f66516c5b80f6cb5a2ce0b5258e3c904aa5abae876c/zou-0.9.8-py2.py3-none-any.whl
+[2024-05-21 14:22:04] INFO root fetch - processPackages [BarteSDK]: Downloading https://files.pythonhosted.org/packages/15/ee/a85c9e9d9f84f12e1c3ab4801827286e3ad5588e1683d13c5130caaa29f2/bartesdk-0.1.9.tar.gz
+[2024-05-21 14:22:04] INFO root fetch - processPackages [cdk-constructs]: Downloading https://files.pythonhosted.org/packages/f3/14/4391b8859fb2201e45be0e7ecfae0f74fc86c3c32b538ed21bed0e7066a6/cdk-constructs-1.8.4.tar.gz
+[2024-05-21 14:22:04] INFO root fetch - processPackages [ellis-django-views]: Downloading https://files.pythonhosted.org/packages/85/11/8e23f383e895f5f6ae719bdd7a47e3f1bff5ea1277274bcfa02956cde95a/ellis_django_views-0.2.tar.gz
+[2024-05-21 14:22:04] INFO root fetch - processPackages [injector-collections]: Downloading https://files.pythonhosted.org/packages/fc/5c/ee8a8c9f9aede8aef59d46a786069106f60808c80b7f4f73fe6ef8558b39/injector_collections-0.0.5.tar.gz
+[2024-05-21 14:22:04] INFO root fetch - processPackages [BarteSDK]: executing diffoscope
+[2024-05-21 14:22:04] INFO root fetch - processPackages [BarteSDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bartesdk-0.1.8.tar.gz tmp/bartesdk-0.1.9.tar.gz --markdown 20240521/B/BarteSDK/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-21 14:22:04] INFO root fetch - processPackages [openmetadata-ingestion]: Downloading https://files.pythonhosted.org/packages/eb/84/eb19af337ec7d7d44f936dd9451ebf455d6d2025c8131073e8f2b73ccdec/openmetadata-ingestion-1.4.0.0rc3.tar.gz
+[2024-05-21 14:22:04] INFO root fetch - processPackages [ellis-django-views]: executing diffoscope
+[2024-05-21 14:22:04] INFO root fetch - processPackages [ellis-django-views]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ellis_django_views-0.1888.tar.gz tmp/ellis_django_views-0.2.tar.gz --markdown 20240521/e/ellis-django-views/0.1888-0.2/README.md --exclude *.pyd
+[2024-05-21 14:22:04] INFO root fetch - processPackages [injector-collections]: executing diffoscope
+[2024-05-21 14:22:04] INFO root fetch - processPackages [injector-collections]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/injector_collections-0.0.3.tar.gz tmp/injector_collections-0.0.5.tar.gz --markdown 20240521/i/injector-collections/0.0.3-0.0.5/README.md --exclude *.pyd
+[2024-05-21 14:22:04] INFO root fetch - processPackages [tinyticker]: Downloading https://files.pythonhosted.org/packages/db/91/39fc9dbbb062023ccabdeb11410480c4bc6a0ee63ac7f7cae5ed1a4d29eb/tinyticker-0.5.8.tar.gz
+[2024-05-21 14:22:04] INFO root fetch - processPackages [qgis-plugin-dev-tools]: Downloading https://files.pythonhosted.org/packages/21/db/04b45e2a39ec62bbe86dc18e9070973d54079e1601eb2a6f21421bdf4e5b/qgis_plugin_dev_tools-0.7.0.tar.gz
+[2024-05-21 14:22:05] INFO root fetch - processPackages [zou]: Downloading https://files.pythonhosted.org/packages/b4/cb/e536d9ca1d2e8c1820b5431cb69768c10b0f438a73bf846d3e2d008f896a/zou-0.9.9-py2.py3-none-any.whl
+[2024-05-21 14:22:05] INFO root fetch - processPackages [cdk-constructs]: Downloading https://files.pythonhosted.org/packages/25/a2/d2aa9047cf6043377aab8e74f9d675458fbc55f958986f800f3fd77a56de/cdk-constructs-1.8.5.tar.gz
+[2024-05-21 14:22:05] INFO root fetch - processPackages [tinyticker]: executing diffoscope
+[2024-05-21 14:22:05] INFO root fetch - processPackages [tinyticker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinyticker-0.5.7.tar.gz tmp/tinyticker-0.5.8.tar.gz --markdown 20240521/t/tinyticker/0.5.7-0.5.8/README.md --exclude *.pyd
+[2024-05-21 14:22:05] INFO root fetch - processPackages [qgis-plugin-dev-tools]: executing diffoscope
+[2024-05-21 14:22:05] INFO root fetch - processPackages [qgis-plugin-dev-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qgis-plugin-dev-tools-0.6.2.tar.gz tmp/qgis_plugin_dev_tools-0.7.0.tar.gz --markdown 20240521/q/qgis-plugin-dev-tools/0.6.2-0.7.0/README.md --exclude *.pyd
+[2024-05-21 14:22:05] INFO root fetch - processPackages [zou]: executing diffoscope
+[2024-05-21 14:22:05] INFO root fetch - processPackages [zou]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zou-0.9.8-py2.py3-none-any.whl.zip tmp/zou-0.9.9-py2.py3-none-any.whl.zip --markdown 20240521/z/zou/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-21 14:22:05] INFO root fetch - processPackages [cdk-constructs]: executing diffoscope
+[2024-05-21 14:22:05] INFO root fetch - processPackages [cdk-constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-constructs-1.8.4.tar.gz tmp/cdk-constructs-1.8.5.tar.gz --markdown 20240521/c/cdk-constructs/1.8.4-1.8.5/README.md --exclude *.pyd
+[2024-05-21 14:22:05] INFO root fetch - processPackages [openmetadata-ingestion]: Downloading https://files.pythonhosted.org/packages/2a/36/40cdbe2bb6974993d2ad3b79551d1eb6a46e55e73a2419d325453817d914/openmetadata-ingestion-1.4.0.0rc4.tar.gz
+[2024-05-21 14:22:05] INFO root fetch - processPackages [openmetadata-ingestion]: executing diffoscope
+[2024-05-21 14:22:05] INFO root fetch - processPackages [openmetadata-ingestion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmetadata-ingestion-1.4.0.0rc3.tar.gz tmp/openmetadata-ingestion-1.4.0.0rc4.tar.gz --markdown 20240521/o/openmetadata-ingestion/1.4.0.0rc3-1.4.0.0rc4/README.md --exclude *.pyd
+[2024-05-21 14:22:05] INFO root fetch - processPackages [BarteSDK]: Remove: archive file [/home/abi/fetcher/tmp/bartesdk-0.1.8.tar.gz]
+[2024-05-21 14:22:05] INFO root fetch - processPackages [BarteSDK]: Remove: archive file [/home/abi/fetcher/tmp/bartesdk-0.1.9.tar.gz]
+[2024-05-21 14:22:05] INFO root fetch - main [MainThread]: End processing [BarteSDK]: success
+[2024-05-21 14:22:05] INFO root fetch - processPackages [ellis-django-views]: Remove: archive file [/home/abi/fetcher/tmp/ellis_django_views-0.1888.tar.gz]
+[2024-05-21 14:22:05] INFO root fetch - processPackages [ellis-django-views]: Remove: archive file [/home/abi/fetcher/tmp/ellis_django_views-0.2.tar.gz]
+[2024-05-21 14:22:05] INFO root fetch - main [MainThread]: End processing [ellis-django-views]: success
+[2024-05-21 14:22:06] INFO root fetch - processPackages [injector-collections]: Remove: archive file [/home/abi/fetcher/tmp/injector_collections-0.0.3.tar.gz]
+[2024-05-21 14:22:06] INFO root fetch - processPackages [injector-collections]: Remove: archive file [/home/abi/fetcher/tmp/injector_collections-0.0.5.tar.gz]
+[2024-05-21 14:22:06] INFO root fetch - main [MainThread]: End processing [injector-collections]: success
+[2024-05-21 14:22:06] INFO root fetch - processPackages [tinyticker]: Remove: archive file [/home/abi/fetcher/tmp/tinyticker-0.5.7.tar.gz]
+[2024-05-21 14:22:06] INFO root fetch - processPackages [tinyticker]: Remove: archive file [/home/abi/fetcher/tmp/tinyticker-0.5.8.tar.gz]
+[2024-05-21 14:22:06] INFO root fetch - main [MainThread]: End processing [tinyticker]: success
+[2024-05-21 14:22:06] INFO root fetch - processPackages [cdk-constructs]: Remove: archive file [/home/abi/fetcher/tmp/cdk-constructs-1.8.4.tar.gz]
+[2024-05-21 14:22:06] INFO root fetch - processPackages [cdk-constructs]: Remove: archive file [/home/abi/fetcher/tmp/cdk-constructs-1.8.5.tar.gz]
+[2024-05-21 14:22:06] INFO root fetch - main [MainThread]: End processing [cdk-constructs]: success
+[2024-05-21 14:22:06] INFO root fetch - processPackages [qgis-plugin-dev-tools]: Remove: archive file [/home/abi/fetcher/tmp/qgis-plugin-dev-tools-0.6.2.tar.gz]
+[2024-05-21 14:22:06] INFO root fetch - processPackages [qgis-plugin-dev-tools]: Remove: archive file [/home/abi/fetcher/tmp/qgis_plugin_dev_tools-0.7.0.tar.gz]
+[2024-05-21 14:22:06] INFO root fetch - main [MainThread]: End processing [qgis-plugin-dev-tools]: success
+[2024-05-21 14:22:06] INFO root fetch - processPackages [zou]: Remove: archive file [/home/abi/fetcher/tmp/zou-0.9.8-py2.py3-none-any.whl.zip]
+[2024-05-21 14:22:06] INFO root fetch - processPackages [zou]: Remove: archive file [/home/abi/fetcher/tmp/zou-0.9.9-py2.py3-none-any.whl.zip]
+[2024-05-21 14:22:06] INFO root fetch - main [MainThread]: End processing [zou]: success
+[2024-05-21 14:22:13] INFO root fetch - processPackages [openmetadata-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata-ingestion-1.4.0.0rc3.tar.gz]
+[2024-05-21 14:22:13] INFO root fetch - processPackages [openmetadata-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata-ingestion-1.4.0.0rc4.tar.gz]
+[2024-05-21 14:22:13] INFO root fetch - main [MainThread]: End processing [openmetadata-ingestion]: success
+[2024-05-21 14:22:13] INFO root fetch - main [MainThread]: Store serial: [23306053]
