@@ -7834,3 +7834,51 @@
 [2024-05-21 03:56:26] INFO root fetch - processPackages [zonevu]: Remove: archive file [/home/abi/fetcher/tmp/zonevu-1.1.27-py3-none-any.whl.zip]
 [2024-05-21 03:56:26] INFO root fetch - main [MainThread]: End processing [zonevu]: success
 [2024-05-21 03:56:26] INFO root fetch - main [MainThread]: Store serial: [23299684]
+[2024-05-21 03:58:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23299684]
+[2024-05-21 03:58:35] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-21 03:58:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: smartcard-identifier
+[2024-05-21 03:58:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stencila_plugin
+[2024-05-21 03:58:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: arch-flow
+[2024-05-21 03:58:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: swarmauri
+[2024-05-21 03:58:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pdf4llm
+[2024-05-21 03:58:35] INFO root fetch - processPackages [arch-flow]: New version: [0.1.7.1] Old Version: [0.1.7]
+[2024-05-21 03:58:35] INFO root fetch - processPackages [pdf4llm]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-21 03:58:35] INFO root fetch - processPackages [smartcard-identifier]: New version: [1.8.3] Old Version: [1.8.2]
+[2024-05-21 03:58:35] INFO root fetch - processPackages [stencila_plugin]: New version: [2.0.0a30] Old Version: [2.0.0a29]
+[2024-05-21 03:58:35] INFO root fetch - processPackages [swarmauri]: New version: [0.2.2.dev1] Old Version: [0.2.2]
+[2024-05-21 03:58:35] INFO root fetch - processPackages [arch-flow]: Downloading https://files.pythonhosted.org/packages/07/79/ec6592383bad7ebed04ed881c55220ab6311b0db51f577050343e076f857/arch_flow-0.1.7.tar.gz
+[2024-05-21 03:58:35] INFO root fetch - processPackages [smartcard-identifier]: Downloading https://files.pythonhosted.org/packages/f7/f8/74503d91d573b6356171b6ba8263005f2c3bb4c0274b99d775e80db087cb/smartcard_identifier-1.8.2.tar.gz
+[2024-05-21 03:58:35] INFO root fetch - processPackages [pdf4llm]: Downloading https://files.pythonhosted.org/packages/67/74/746d0fc4d08bf43da7af7d9055b3ce0b8a96b5137f34c4026175f5fc8187/pdf4llm-0.0.7.tar.gz
+[2024-05-21 03:58:36] INFO root fetch - processPackages [stencila_plugin]: Downloading https://files.pythonhosted.org/packages/1e/7b/8d73987ba39c0e5db335b6fad1bc4a931e5eb6f03a264d45437532fe0e2b/stencila_plugin-2.0.0a29.tar.gz
+[2024-05-21 03:58:36] INFO root fetch - processPackages [pdf4llm]: Downloading https://files.pythonhosted.org/packages/6b/59/2ab83baa5be408db60649efd938f69735217103bea35df5a87ae8b4a937f/pdf4llm-0.0.8.tar.gz
+[2024-05-21 03:58:36] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/66/ed/83f3fc1cb46b17ba42b39ba7b3d63a69a29e66ec1ec5c90e286e996e14a3/swarmauri-0.2.2.tar.gz
+[2024-05-21 03:58:36] INFO root fetch - processPackages [pdf4llm]: executing diffoscope
+[2024-05-21 03:58:36] INFO root fetch - processPackages [pdf4llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdf4llm-0.0.7.tar.gz tmp/pdf4llm-0.0.8.tar.gz --markdown 20240521/p/pdf4llm/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-21 03:58:36] INFO root fetch - processPackages [arch-flow]: Downloading https://files.pythonhosted.org/packages/0d/9c/997ba256856ea67f8e42a16bd9d98452a088ad92b6eb154c6dcccbdc15fd/arch_flow-0.1.7.1.tar.gz
+[2024-05-21 03:58:36] INFO root fetch - processPackages [smartcard-identifier]: Downloading https://files.pythonhosted.org/packages/c5/e9/e01c4cb28b4f89270893eec2722e39b1606864a41743034650e64abf94aa/smartcard_identifier-1.8.3.tar.gz
+[2024-05-21 03:58:36] INFO root fetch - processPackages [arch-flow]: executing diffoscope
+[2024-05-21 03:58:36] INFO root fetch - processPackages [arch-flow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arch_flow-0.1.7.tar.gz tmp/arch_flow-0.1.7.1.tar.gz --markdown 20240521/a/arch-flow/0.1.7-0.1.7.1/README.md --exclude *.pyd
+[2024-05-21 03:58:36] INFO root fetch - processPackages [smartcard-identifier]: executing diffoscope
+[2024-05-21 03:58:36] INFO root fetch - processPackages [smartcard-identifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartcard_identifier-1.8.2.tar.gz tmp/smartcard_identifier-1.8.3.tar.gz --markdown 20240521/s/smartcard-identifier/1.8.2-1.8.3/README.md --exclude *.pyd
+[2024-05-21 03:58:36] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/f5/b9/ac23ca82a4087c41ea150cad336472002f3f6e02716541ef2b22b4bd5dea/swarmauri-0.2.2.dev1.tar.gz
+[2024-05-21 03:58:36] INFO root fetch - processPackages [stencila_plugin]: Downloading https://files.pythonhosted.org/packages/25/68/708c3c11f650d0d441fd35230c37b55a3a474ab28e3e056643b6c029bdf3/stencila_plugin-2.0.0a30.tar.gz
+[2024-05-21 03:58:36] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-05-21 03:58:36] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.2.2.tar.gz tmp/swarmauri-0.2.2.dev1.tar.gz --markdown 20240521/s/swarmauri/0.2.2-0.2.2.dev1/README.md --exclude *.pyd
+[2024-05-21 03:58:36] INFO root fetch - processPackages [stencila_plugin]: executing diffoscope
+[2024-05-21 03:58:36] INFO root fetch - processPackages [stencila_plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stencila_plugin-2.0.0a29.tar.gz tmp/stencila_plugin-2.0.0a30.tar.gz --markdown 20240521/s/stencila_plugin/2.0.0a29-2.0.0a30/README.md --exclude *.pyd
+[2024-05-21 03:58:37] INFO root fetch - processPackages [pdf4llm]: Remove: archive file [/home/abi/fetcher/tmp/pdf4llm-0.0.7.tar.gz]
+[2024-05-21 03:58:37] INFO root fetch - processPackages [pdf4llm]: Remove: archive file [/home/abi/fetcher/tmp/pdf4llm-0.0.8.tar.gz]
+[2024-05-21 03:58:37] INFO root fetch - main [MainThread]: End processing [pdf4llm]: success
+[2024-05-21 03:58:37] INFO root fetch - processPackages [smartcard-identifier]: Remove: archive file [/home/abi/fetcher/tmp/smartcard_identifier-1.8.2.tar.gz]
+[2024-05-21 03:58:37] INFO root fetch - processPackages [smartcard-identifier]: Remove: archive file [/home/abi/fetcher/tmp/smartcard_identifier-1.8.3.tar.gz]
+[2024-05-21 03:58:37] INFO root fetch - main [MainThread]: End processing [smartcard-identifier]: success
+[2024-05-21 03:58:37] INFO root fetch - processPackages [arch-flow]: Remove: archive file [/home/abi/fetcher/tmp/arch_flow-0.1.7.tar.gz]
+[2024-05-21 03:58:37] INFO root fetch - processPackages [arch-flow]: Remove: archive file [/home/abi/fetcher/tmp/arch_flow-0.1.7.1.tar.gz]
+[2024-05-21 03:58:37] INFO root fetch - main [MainThread]: End processing [arch-flow]: success
+[2024-05-21 03:58:37] INFO root fetch - processPackages [stencila_plugin]: Remove: archive file [/home/abi/fetcher/tmp/stencila_plugin-2.0.0a29.tar.gz]
+[2024-05-21 03:58:37] INFO root fetch - processPackages [stencila_plugin]: Remove: archive file [/home/abi/fetcher/tmp/stencila_plugin-2.0.0a30.tar.gz]
+[2024-05-21 03:58:37] INFO root fetch - main [MainThread]: End processing [stencila_plugin]: success
+[2024-05-21 03:58:37] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.2.2.tar.gz]
+[2024-05-21 03:58:37] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.2.2.dev1.tar.gz]
+[2024-05-21 03:58:37] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
+[2024-05-21 03:58:37] INFO root fetch - main [MainThread]: Store serial: [23299699]
