@@ -21991,3 +21991,69 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-21 13:27:19] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-4.0.3.dev19974-py2.py3-none-any.whl.zip]
 [2024-05-21 13:27:19] INFO root fetch - main [MainThread]: End processing [udata-front]: success
 [2024-05-21 13:27:19] INFO root fetch - main [MainThread]: Store serial: [23305361]
+[2024-05-21 13:29:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23305361]
+[2024-05-21 13:29:28] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-21 13:29:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: agi-med-utils
+[2024-05-21 13:29:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ellis-django-views
+[2024-05-21 13:29:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torchrl-nightly
+[2024-05-21 13:29:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulsar-sdk-py
+[2024-05-21 13:29:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: calculate-savings
+[2024-05-21 13:29:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: BarteSDK
+[2024-05-21 13:29:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zango
+[2024-05-21 13:29:28] INFO root fetch - processPackages [ellis-django-views]: New version: [0.15] Old Version: [0.1]
+[2024-05-21 13:29:28] INFO root fetch - processPackages [agi-med-utils]: New version: [0.0.5] Old Version: [0.0.3]
+[2024-05-21 13:29:28] INFO root fetch - processPackages [calculate-savings]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-21 13:29:28] INFO root fetch - processPackages [BarteSDK]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-21 13:29:29] INFO root fetch - processPackages [pulsar-sdk-py]: New version: [1.0.2] Old Version: [1.0.0]
+[2024-05-21 13:29:29] INFO root fetch - processPackages [zango]: New version: [0.2.0rc1] Old Version: [0.2.0rc0]
+[2024-05-21 13:29:29] INFO root fetch - processPackages [torchrl-nightly]: New version: [2024.5.9] Old Version: [2024.5.8]
+[2024-05-21 13:29:29] INFO root fetch - processPackages [calculate-savings]: Downloading https://files.pythonhosted.org/packages/c4/2f/16cbb194a60132ae20f32a6352257e2e2a4e0f53c2fd7adcfce75f831961/calculate_savings-0.0.5.tar.gz
+[2024-05-21 13:29:29] INFO root fetch - processPackages [BarteSDK]: Downloading https://files.pythonhosted.org/packages/1c/24/f265a111f10a855a327643e87273d1f3ba56190ad02e0175f3b5b6319e4c/bartesdk-0.1.8.tar.gz
+[2024-05-21 13:29:29] INFO root fetch - processPackages [agi-med-utils]: Downloading https://files.pythonhosted.org/packages/7b/a1/bd98810f754c52b14dc6884bea3a67269387cc21d61fd1c811af924b376c/agi_med_utils-0.0.3.tar.gz
+[2024-05-21 13:29:29] INFO root fetch - processPackages [ellis-django-views]: Downloading https://files.pythonhosted.org/packages/ef/a8/1eb36dcd58830c48b46c175c127d7f8edf7b4ca9e3347ea813e871b80a35/ellis_django_views-0.1.tar.gz
+[2024-05-21 13:29:29] INFO root fetch - processPackages [pulsar-sdk-py]: Downloading https://files.pythonhosted.org/packages/38/94/7a76025900751263147c3572c154a721d956867885f0bcee9fbe2c079ee9/pulsar_sdk_py-1.0.0.tar.gz
+[2024-05-21 13:29:29] INFO root fetch - processPackages [zango]: Downloading https://files.pythonhosted.org/packages/c0/34/864e6cf777557dc197d20ceeb095ff6fcd003abbfdae64d84652415da98f/zango-0.2.0rc0.tar.gz
+[2024-05-21 13:29:29] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/a5/6d/9461214af24f1d24305421c7f45896fa740108e193fceb8f3145648e07e2/torchrl_nightly-2024.5.8-cp39-cp39-win_amd64.whl
+[2024-05-21 13:29:29] INFO root fetch - processPackages [calculate-savings]: Downloading https://files.pythonhosted.org/packages/8f/f5/adc426bddd326828c03d48250b01664fc9a8ce1d2c9f83b9853c56a6c665/calculate_savings-0.0.6.tar.gz
+[2024-05-21 13:29:29] INFO root fetch - processPackages [BarteSDK]: Downloading https://files.pythonhosted.org/packages/15/ee/a85c9e9d9f84f12e1c3ab4801827286e3ad5588e1683d13c5130caaa29f2/bartesdk-0.1.9.tar.gz
+[2024-05-21 13:29:29] INFO root fetch - processPackages [agi-med-utils]: Downloading https://files.pythonhosted.org/packages/a7/b5/c7970198922c4cd2ce80ce83f2fb22f282467178c767dc423cab91387dbf/agi_med_utils-0.0.5.tar.gz
+[2024-05-21 13:29:29] INFO root fetch - processPackages [ellis-django-views]: Downloading https://files.pythonhosted.org/packages/e7/6a/4647659ef47d21d00f302b2b88a1df21f7aa3ec68878500a8c1287bceece/ellis_django_views-0.15.tar.gz
+[2024-05-21 13:29:29] INFO root fetch - processPackages [calculate-savings]: executing diffoscope
+[2024-05-21 13:29:29] INFO root fetch - processPackages [calculate-savings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calculate_savings-0.0.5.tar.gz tmp/calculate_savings-0.0.6.tar.gz --markdown 20240521/c/calculate-savings/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-21 13:29:29] INFO root fetch - processPackages [BarteSDK]: executing diffoscope
+[2024-05-21 13:29:29] INFO root fetch - processPackages [BarteSDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bartesdk-0.1.8.tar.gz tmp/bartesdk-0.1.9.tar.gz --markdown 20240521/B/BarteSDK/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-21 13:29:29] INFO root fetch - processPackages [agi-med-utils]: executing diffoscope
+[2024-05-21 13:29:29] INFO root fetch - processPackages [pulsar-sdk-py]: Downloading https://files.pythonhosted.org/packages/77/a6/b067f901e081d3a0dc088ef1fe8bfc831332f4b51f8432a2535453649e3e/pulsar_sdk_py-1.0.2.tar.gz
+[2024-05-21 13:29:29] INFO root fetch - processPackages [agi-med-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agi_med_utils-0.0.3.tar.gz tmp/agi_med_utils-0.0.5.tar.gz --markdown 20240521/a/agi-med-utils/0.0.3-0.0.5/README.md --exclude *.pyd
+[2024-05-21 13:29:29] INFO root fetch - processPackages [ellis-django-views]: executing diffoscope
+[2024-05-21 13:29:29] INFO root fetch - processPackages [ellis-django-views]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ellis_django_views-0.1.tar.gz tmp/ellis_django_views-0.15.tar.gz --markdown 20240521/e/ellis-django-views/0.1-0.15/README.md --exclude *.pyd
+[2024-05-21 13:29:29] INFO root fetch - processPackages [pulsar-sdk-py]: executing diffoscope
+[2024-05-21 13:29:29] INFO root fetch - processPackages [pulsar-sdk-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulsar_sdk_py-1.0.0.tar.gz tmp/pulsar_sdk_py-1.0.2.tar.gz --markdown 20240521/p/pulsar-sdk-py/1.0.0-1.0.2/README.md --exclude *.pyd
+[2024-05-21 13:29:29] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/e9/e4/1d21a71adb0d6367cd81a5f47617cabf90f99ac96a421dda991f6aeefff2/torchrl_nightly-2024.5.9-cp39-cp39-win_amd64.whl
+[2024-05-21 13:29:29] INFO root fetch - processPackages [torchrl-nightly]: executing diffoscope
+[2024-05-21 13:29:29] INFO root fetch - processPackages [torchrl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrl_nightly-2024.5.8-cp39-cp39-win_amd64.whl.zip tmp/torchrl_nightly-2024.5.9-cp39-cp39-win_amd64.whl.zip --markdown 20240521/t/torchrl-nightly/2024.5.8-2024.5.9/README.md --exclude *.pyd
+[2024-05-21 13:29:30] INFO root fetch - processPackages [zango]: Downloading https://files.pythonhosted.org/packages/b3/1c/1bc01d0e8490fe1a66967503d16885ef11f346637443f346c99acdb503b0/zango-0.2.0rc1.tar.gz
+[2024-05-21 13:29:30] INFO root fetch - processPackages [agi-med-utils]: Remove: archive file [/home/abi/fetcher/tmp/agi_med_utils-0.0.3.tar.gz]
+[2024-05-21 13:29:30] INFO root fetch - processPackages [agi-med-utils]: Remove: archive file [/home/abi/fetcher/tmp/agi_med_utils-0.0.5.tar.gz]
+[2024-05-21 13:29:30] INFO root fetch - main [MainThread]: End processing [agi-med-utils]: success
+[2024-05-21 13:29:30] INFO root fetch - processPackages [zango]: executing diffoscope
+[2024-05-21 13:29:30] INFO root fetch - processPackages [zango]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zango-0.2.0rc0.tar.gz tmp/zango-0.2.0rc1.tar.gz --markdown 20240521/z/zango/0.2.0rc0-0.2.0rc1/README.md --exclude *.pyd
+[2024-05-21 13:29:30] INFO root fetch - processPackages [calculate-savings]: Remove: archive file [/home/abi/fetcher/tmp/calculate_savings-0.0.5.tar.gz]
+[2024-05-21 13:29:30] INFO root fetch - processPackages [calculate-savings]: Remove: archive file [/home/abi/fetcher/tmp/calculate_savings-0.0.6.tar.gz]
+[2024-05-21 13:29:30] INFO root fetch - main [MainThread]: End processing [calculate-savings]: success
+[2024-05-21 13:29:30] INFO root fetch - processPackages [BarteSDK]: Remove: archive file [/home/abi/fetcher/tmp/bartesdk-0.1.8.tar.gz]
+[2024-05-21 13:29:30] INFO root fetch - processPackages [BarteSDK]: Remove: archive file [/home/abi/fetcher/tmp/bartesdk-0.1.9.tar.gz]
+[2024-05-21 13:29:30] INFO root fetch - main [MainThread]: End processing [BarteSDK]: success
+[2024-05-21 13:29:30] INFO root fetch - processPackages [ellis-django-views]: Remove: archive file [/home/abi/fetcher/tmp/ellis_django_views-0.1.tar.gz]
+[2024-05-21 13:29:30] INFO root fetch - processPackages [ellis-django-views]: Remove: archive file [/home/abi/fetcher/tmp/ellis_django_views-0.15.tar.gz]
+[2024-05-21 13:29:30] INFO root fetch - main [MainThread]: End processing [ellis-django-views]: success
+[2024-05-21 13:29:30] INFO root fetch - processPackages [pulsar-sdk-py]: Remove: archive file [/home/abi/fetcher/tmp/pulsar_sdk_py-1.0.0.tar.gz]
+[2024-05-21 13:29:30] INFO root fetch - processPackages [pulsar-sdk-py]: Remove: archive file [/home/abi/fetcher/tmp/pulsar_sdk_py-1.0.2.tar.gz]
+[2024-05-21 13:29:30] INFO root fetch - main [MainThread]: End processing [pulsar-sdk-py]: success
+[2024-05-21 13:29:31] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2024.5.8-cp39-cp39-win_amd64.whl.zip]
+[2024-05-21 13:29:31] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2024.5.9-cp39-cp39-win_amd64.whl.zip]
+[2024-05-21 13:29:31] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
+[2024-05-21 13:30:00] INFO root fetch - processPackages [zango]: Remove: archive file [/home/abi/fetcher/tmp/zango-0.2.0rc0.tar.gz]
+[2024-05-21 13:30:00] INFO root fetch - processPackages [zango]: Remove: archive file [/home/abi/fetcher/tmp/zango-0.2.0rc1.tar.gz]
+[2024-05-21 13:30:00] INFO root fetch - main [MainThread]: End processing [zango]: success
+[2024-05-21 13:30:00] INFO root fetch - main [MainThread]: Store serial: [23305384]
