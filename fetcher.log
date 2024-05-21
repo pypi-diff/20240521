@@ -9397,3 +9397,72 @@
 [2024-05-21 05:30:11] INFO root fetch - processPackages [odoo-addon-test-component]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_test_component-17.0.1.0.0.3-py3-none-any.whl.zip]
 [2024-05-21 05:30:11] INFO root fetch - main [MainThread]: End processing [odoo-addon-test-component]: success
 [2024-05-21 05:30:11] INFO root fetch - main [MainThread]: Store serial: [23300490]
+[2024-05-21 05:32:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23300490]
+[2024-05-21 05:32:20] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-21 05:32:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-test-connector
+[2024-05-21 05:32:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: txm-sandbox
+[2024-05-21 05:32:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: veryadarshemodule
+[2024-05-21 05:32:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: blueness
+[2024-05-21 05:32:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: abcli
+[2024-05-21 05:32:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: keras-nlp-nightly
+[2024-05-21 05:32:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aiosalesforce
+[2024-05-21 05:32:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: stencila_plugin
+[2024-05-21 05:32:20] INFO root fetch - processPackages [keras-nlp-nightly]: New version: [0.9.0.dev2024041003] Old Version: [0.9.0.dev2024040803]
+[2024-05-21 05:32:21] INFO root fetch - processPackages [abcli]: New version: [8.204.1] Old Version: [8.202.1]
+[2024-05-21 05:32:21] INFO root fetch - processPackages [blueness]: New version: [3.9.1] Old Version: [3.7.1]
+[2024-05-21 05:32:21] INFO root fetch - processPackages [stencila_plugin]: New version: [2.0.0a30] Old Version: [2.0.0a29]
+[2024-05-21 05:32:21] INFO root fetch - processPackages [odoo-addon-test-connector]: New version: [17.0.1.0.0.5] Old Version: [17.0.1.0.0.4]
+[2024-05-21 05:32:21] INFO root fetch - processPackages [keras-nlp-nightly]: Downloading https://files.pythonhosted.org/packages/e9/c8/7f581d2ae825faa0b7973bcc73c15e31c01c7e1f5c085a746ded34473011/keras-nlp-nightly-0.9.0.dev2024040803.tar.gz
+[2024-05-21 05:32:21] INFO root fetch - processPackages [txm-sandbox]: New version: [0.3.1.post3] Old Version: [0.3.1.post2]
+[2024-05-21 05:32:21] WARNING root fetch - processPackages [veryadarshemodule]: Skipping, unable to determine old version
+[2024-05-21 05:32:21] INFO root fetch - main [MainThread]: End processing [veryadarshemodule] error
+[2024-05-21 05:32:21] INFO root fetch - processPackages [blueness]: Downloading https://files.pythonhosted.org/packages/86/d4/e8b769417baf31b335408a29a80b371b6421e59db03087a6e1c943bb5d84/blueness-3.7.1.tar.gz
+[2024-05-21 05:32:21] INFO root fetch - processPackages [aiosalesforce]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-05-21 05:32:21] INFO root fetch - processPackages [odoo-addon-test-connector]: Downloading https://files.pythonhosted.org/packages/4e/ae/b1c6a653aa46dea01ea07ce06b833af0ca37743978681506163b9d83b263/odoo_addon_test_connector-17.0.1.0.0.4-py3-none-any.whl
+[2024-05-21 05:32:21] INFO root fetch - processPackages [stencila_plugin]: Downloading https://files.pythonhosted.org/packages/1e/7b/8d73987ba39c0e5db335b6fad1bc4a931e5eb6f03a264d45437532fe0e2b/stencila_plugin-2.0.0a29.tar.gz
+[2024-05-21 05:32:21] INFO root fetch - processPackages [abcli]: Downloading https://files.pythonhosted.org/packages/33/85/765c8e2147a7f08ac70034fb8eb6553797adeb1de1ff226e24e11295f5ef/abcli-8.202.1.tar.gz
+[2024-05-21 05:32:21] INFO root fetch - processPackages [txm-sandbox]: Downloading https://files.pythonhosted.org/packages/b4/8f/4c407ecc20814af425f720d330b23d08ededfa8b50bec208e27d0b40f368/txm_sandbox-0.3.1.post2.tar.gz
+[2024-05-21 05:32:21] INFO root fetch - processPackages [stencila_plugin]: Downloading https://files.pythonhosted.org/packages/25/68/708c3c11f650d0d441fd35230c37b55a3a474ab28e3e056643b6c029bdf3/stencila_plugin-2.0.0a30.tar.gz
+[2024-05-21 05:32:21] INFO root fetch - processPackages [blueness]: Downloading https://files.pythonhosted.org/packages/bb/6c/4f8063f6de43bbfcce0c161a49b6afe38d15dfecb071f23bc7663a1b1714/blueness-3.9.1.tar.gz
+[2024-05-21 05:32:21] INFO root fetch - processPackages [keras-nlp-nightly]: Downloading https://files.pythonhosted.org/packages/74/95/bdeb12dec2c7c5b69ee11a239dcb09345f2e4180ca0e26e6f12bef8f5013/keras-nlp-nightly-0.9.0.dev2024041003.tar.gz
+[2024-05-21 05:32:21] INFO root fetch - processPackages [odoo-addon-test-connector]: Downloading https://files.pythonhosted.org/packages/07/51/1694c853a36f3f7227075803cb0e51b5d7f8fcfea240b009df3bf905be33/odoo_addon_test_connector-17.0.1.0.0.5-py3-none-any.whl
+[2024-05-21 05:32:21] INFO root fetch - processPackages [aiosalesforce]: Downloading https://files.pythonhosted.org/packages/1e/b7/180a11d7b49a82caf7d09d9d188a50ebde5dae90750b81f3d7f44d7e2095/aiosalesforce-0.6.0.tar.gz
+[2024-05-21 05:32:21] INFO root fetch - processPackages [stencila_plugin]: executing diffoscope
+[2024-05-21 05:32:21] INFO root fetch - processPackages [stencila_plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stencila_plugin-2.0.0a29.tar.gz tmp/stencila_plugin-2.0.0a30.tar.gz --markdown 20240521/s/stencila_plugin/2.0.0a29-2.0.0a30/README.md --exclude *.pyd
+[2024-05-21 05:32:21] INFO root fetch - processPackages [blueness]: executing diffoscope
+[2024-05-21 05:32:21] INFO root fetch - processPackages [blueness]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blueness-3.7.1.tar.gz tmp/blueness-3.9.1.tar.gz --markdown 20240521/b/blueness/3.7.1-3.9.1/README.md --exclude *.pyd
+[2024-05-21 05:32:21] INFO root fetch - processPackages [odoo-addon-test-connector]: executing diffoscope
+[2024-05-21 05:32:21] INFO root fetch - processPackages [odoo-addon-test-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_test_connector-17.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_test_connector-17.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240521/o/odoo-addon-test-connector/17.0.1.0.0.4-17.0.1.0.0.5/README.md --exclude *.pyd
+[2024-05-21 05:32:21] INFO root fetch - processPackages [keras-nlp-nightly]: executing diffoscope
+[2024-05-21 05:32:21] INFO root fetch - processPackages [keras-nlp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras-nlp-nightly-0.9.0.dev2024040803.tar.gz tmp/keras-nlp-nightly-0.9.0.dev2024041003.tar.gz --markdown 20240521/k/keras-nlp-nightly/0.9.0.dev2024040803-0.9.0.dev2024041003/README.md --exclude *.pyd
+[2024-05-21 05:32:21] INFO root fetch - processPackages [abcli]: Downloading https://files.pythonhosted.org/packages/c1/dd/6320bd464e242942752be0ca295dc3c831518f97982178c32573ebcb3e5d/abcli-8.204.1.tar.gz
+[2024-05-21 05:32:21] INFO root fetch - processPackages [txm-sandbox]: Downloading https://files.pythonhosted.org/packages/f8/14/d215678557891b807a566c211977191857b29a6e9786462c25548aaa4856/txm_sandbox-0.3.1.post3.tar.gz
+[2024-05-21 05:32:21] INFO root fetch - processPackages [abcli]: executing diffoscope
+[2024-05-21 05:32:21] INFO root fetch - processPackages [abcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abcli-8.202.1.tar.gz tmp/abcli-8.204.1.tar.gz --markdown 20240521/a/abcli/8.202.1-8.204.1/README.md --exclude *.pyd
+[2024-05-21 05:32:21] INFO root fetch - processPackages [aiosalesforce]: Downloading https://files.pythonhosted.org/packages/55/6c/0440bfc54139a3e80e7e0ef56274b41299abedf773f6ab76a1f54b153e6d/aiosalesforce-0.6.1.tar.gz
+[2024-05-21 05:32:21] INFO root fetch - processPackages [txm-sandbox]: executing diffoscope
+[2024-05-21 05:32:21] INFO root fetch - processPackages [txm-sandbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/txm_sandbox-0.3.1.post2.tar.gz tmp/txm_sandbox-0.3.1.post3.tar.gz --markdown 20240521/t/txm-sandbox/0.3.1.post2-0.3.1.post3/README.md --exclude *.pyd
+[2024-05-21 05:32:22] INFO root fetch - processPackages [aiosalesforce]: executing diffoscope
+[2024-05-21 05:32:22] INFO root fetch - processPackages [aiosalesforce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiosalesforce-0.6.0.tar.gz tmp/aiosalesforce-0.6.1.tar.gz --markdown 20240521/a/aiosalesforce/0.6.0-0.6.1/README.md --exclude *.pyd
+[2024-05-21 05:32:22] INFO root fetch - processPackages [stencila_plugin]: Remove: archive file [/home/abi/fetcher/tmp/stencila_plugin-2.0.0a29.tar.gz]
+[2024-05-21 05:32:22] INFO root fetch - processPackages [stencila_plugin]: Remove: archive file [/home/abi/fetcher/tmp/stencila_plugin-2.0.0a30.tar.gz]
+[2024-05-21 05:32:22] INFO root fetch - main [MainThread]: End processing [stencila_plugin]: success
+[2024-05-21 05:32:22] INFO root fetch - processPackages [blueness]: Remove: archive file [/home/abi/fetcher/tmp/blueness-3.7.1.tar.gz]
+[2024-05-21 05:32:22] INFO root fetch - processPackages [blueness]: Remove: archive file [/home/abi/fetcher/tmp/blueness-3.9.1.tar.gz]
+[2024-05-21 05:32:22] INFO root fetch - main [MainThread]: End processing [blueness]: success
+[2024-05-21 05:32:22] INFO root fetch - processPackages [odoo-addon-test-connector]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_test_connector-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-21 05:32:22] INFO root fetch - processPackages [odoo-addon-test-connector]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_test_connector-17.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-05-21 05:32:22] INFO root fetch - main [MainThread]: End processing [odoo-addon-test-connector]: success
+[2024-05-21 05:32:22] INFO root fetch - processPackages [abcli]: Remove: archive file [/home/abi/fetcher/tmp/abcli-8.202.1.tar.gz]
+[2024-05-21 05:32:22] INFO root fetch - processPackages [abcli]: Remove: archive file [/home/abi/fetcher/tmp/abcli-8.204.1.tar.gz]
+[2024-05-21 05:32:22] INFO root fetch - main [MainThread]: End processing [abcli]: success
+[2024-05-21 05:32:22] INFO root fetch - processPackages [aiosalesforce]: Remove: archive file [/home/abi/fetcher/tmp/aiosalesforce-0.6.0.tar.gz]
+[2024-05-21 05:32:22] INFO root fetch - processPackages [aiosalesforce]: Remove: archive file [/home/abi/fetcher/tmp/aiosalesforce-0.6.1.tar.gz]
+[2024-05-21 05:32:22] INFO root fetch - main [MainThread]: End processing [aiosalesforce]: success
+[2024-05-21 05:32:22] INFO root fetch - processPackages [txm-sandbox]: Remove: archive file [/home/abi/fetcher/tmp/txm_sandbox-0.3.1.post2.tar.gz]
+[2024-05-21 05:32:22] INFO root fetch - processPackages [txm-sandbox]: Remove: archive file [/home/abi/fetcher/tmp/txm_sandbox-0.3.1.post3.tar.gz]
+[2024-05-21 05:32:22] INFO root fetch - main [MainThread]: End processing [txm-sandbox]: success
+[2024-05-21 05:32:23] INFO root fetch - processPackages [keras-nlp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-nightly-0.9.0.dev2024040803.tar.gz]
+[2024-05-21 05:32:23] INFO root fetch - processPackages [keras-nlp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-nightly-0.9.0.dev2024041003.tar.gz]
+[2024-05-21 05:32:23] INFO root fetch - main [MainThread]: End processing [keras-nlp-nightly]: success
+[2024-05-21 05:32:23] INFO root fetch - main [MainThread]: Store serial: [23300512]
