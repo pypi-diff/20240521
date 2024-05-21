@@ -19551,3 +19551,45 @@
 [2024-05-21 12:04:27] INFO root fetch - processPackages [youqu]: Remove: archive file [/home/abi/fetcher/tmp/youqu-2.6.1.tar.gz]
 [2024-05-21 12:04:27] INFO root fetch - main [MainThread]: End processing [youqu]: success
 [2024-05-21 12:04:27] INFO root fetch - main [MainThread]: Store serial: [23304374]
+[2024-05-21 12:06:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23304374]
+[2024-05-21 12:06:37] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-21 12:06:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yellanything
+[2024-05-21 12:06:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: maji-passport
+[2024-05-21 12:06:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ul-api-utils
+[2024-05-21 12:06:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rqdatac
+[2024-05-21 12:06:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tsugu
+[2024-05-21 12:06:37] INFO root fetch - processPackages [tsugu]: New version: [1.1.0rc4] Old Version: [1.1.0rc3]
+[2024-05-21 12:06:37] INFO root fetch - processPackages [maji-passport]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-21 12:06:37] INFO root fetch - processPackages [maji-passport]: Downloading https://files.pythonhosted.org/packages/e8/9d/dcc99e8bac11ea7a321fc2acc18d7467b104580452ab89143f1fc793d221/maji_passport-0.0.2.tar.gz
+[2024-05-21 12:06:37] INFO root fetch - processPackages [tsugu]: Downloading https://files.pythonhosted.org/packages/d6/14/0bb4fb5c1c8520f66576d029ccbe884a98470eb3fb51c3f69a3c52b71444/tsugu-1.1.0rc3.tar.gz
+[2024-05-21 12:06:37] INFO root fetch - processPackages [ul-api-utils]: New version: [7.9.7] Old Version: [7.9.6]
+[2024-05-21 12:06:37] WARNING root fetch - processPackages [yellanything]: Skipping, unable to determine old version
+[2024-05-21 12:06:37] INFO root fetch - main [MainThread]: End processing [yellanything] error
+[2024-05-21 12:06:37] INFO root fetch - processPackages [ul-api-utils]: Downloading https://files.pythonhosted.org/packages/20/cb/18f5c35ecf95a42ac53501b019c346475569596b1f49218042569a8384f4/ul-api-utils-7.9.6.tar.gz
+[2024-05-21 12:06:37] INFO root fetch - processPackages [maji-passport]: Downloading https://files.pythonhosted.org/packages/d7/fe/00038ee95d730893ad071d21ca025d956ffc9b2331912c2c1a14e16222d3/maji_passport-0.0.3.tar.gz
+[2024-05-21 12:06:37] INFO root fetch - processPackages [tsugu]: Downloading https://files.pythonhosted.org/packages/db/eb/72220d52e80044726cd127f05f7f3cd993ead7133d9b369017969cd017f3/tsugu-1.1.0rc4.tar.gz
+[2024-05-21 12:06:37] INFO root fetch - processPackages [maji-passport]: executing diffoscope
+[2024-05-21 12:06:37] INFO root fetch - processPackages [maji-passport]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maji_passport-0.0.2.tar.gz tmp/maji_passport-0.0.3.tar.gz --markdown 20240521/m/maji-passport/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-21 12:06:37] INFO root fetch - processPackages [rqdatac]: New version: [3.0.7.1] Old Version: [3.0.6]
+[2024-05-21 12:06:37] INFO root fetch - processPackages [tsugu]: executing diffoscope
+[2024-05-21 12:06:37] INFO root fetch - processPackages [tsugu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsugu-1.1.0rc3.tar.gz tmp/tsugu-1.1.0rc4.tar.gz --markdown 20240521/t/tsugu/1.1.0rc3-1.1.0rc4/README.md --exclude *.pyd
+[2024-05-21 12:06:37] INFO root fetch - processPackages [ul-api-utils]: Downloading https://files.pythonhosted.org/packages/c4/89/09d71c590f3070768b33dab7fafb43e7d1a0a57404f93d79a54515b6d7d4/ul-api-utils-7.9.7.tar.gz
+[2024-05-21 12:06:37] INFO root fetch - processPackages [ul-api-utils]: executing diffoscope
+[2024-05-21 12:06:37] INFO root fetch - processPackages [ul-api-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ul-api-utils-7.9.6.tar.gz tmp/ul-api-utils-7.9.7.tar.gz --markdown 20240521/u/ul-api-utils/7.9.6-7.9.7/README.md --exclude *.pyd
+[2024-05-21 12:06:38] INFO root fetch - processPackages [rqdatac]: Downloading https://files.pythonhosted.org/packages/2c/bd/1bf9b570579463ab9af7acf024b17f1ad5eeb7e386957f52fee29febb570/rqdatac-3.0.6-cp39-cp39-win_amd64.whl
+[2024-05-21 12:06:38] INFO root fetch - processPackages [rqdatac]: Downloading https://files.pythonhosted.org/packages/3b/2a/55032c035d72030787b8b1de91a5a25ec2e3284317b52c42a6600305748f/rqdatac-3.0.7.1-cp39-cp39-macosx_10_9_x86_64.whl
+[2024-05-21 12:06:38] INFO root fetch - processPackages [maji-passport]: Remove: archive file [/home/abi/fetcher/tmp/maji_passport-0.0.2.tar.gz]
+[2024-05-21 12:06:38] INFO root fetch - processPackages [maji-passport]: Remove: archive file [/home/abi/fetcher/tmp/maji_passport-0.0.3.tar.gz]
+[2024-05-21 12:06:38] INFO root fetch - main [MainThread]: End processing [maji-passport]: success
+[2024-05-21 12:06:38] INFO root fetch - processPackages [tsugu]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-1.1.0rc3.tar.gz]
+[2024-05-21 12:06:38] INFO root fetch - processPackages [tsugu]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-1.1.0rc4.tar.gz]
+[2024-05-21 12:06:38] INFO root fetch - main [MainThread]: End processing [tsugu]: success
+[2024-05-21 12:06:39] INFO root fetch - processPackages [ul-api-utils]: Remove: archive file [/home/abi/fetcher/tmp/ul-api-utils-7.9.6.tar.gz]
+[2024-05-21 12:06:39] INFO root fetch - processPackages [ul-api-utils]: Remove: archive file [/home/abi/fetcher/tmp/ul-api-utils-7.9.7.tar.gz]
+[2024-05-21 12:06:39] INFO root fetch - main [MainThread]: End processing [ul-api-utils]: success
+[2024-05-21 12:06:39] INFO root fetch - processPackages [rqdatac]: executing diffoscope
+[2024-05-21 12:06:39] INFO root fetch - processPackages [rqdatac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rqdatac-3.0.6-cp39-cp39-win_amd64.whl.zip tmp/rqdatac-3.0.7.1-cp39-cp39-macosx_10_9_x86_64.whl.zip --markdown 20240521/r/rqdatac/3.0.6-3.0.7.1/README.md --exclude *.pyd
+[2024-05-21 12:06:40] INFO root fetch - processPackages [rqdatac]: Remove: archive file [/home/abi/fetcher/tmp/rqdatac-3.0.6-cp39-cp39-win_amd64.whl.zip]
+[2024-05-21 12:06:40] INFO root fetch - processPackages [rqdatac]: Remove: archive file [/home/abi/fetcher/tmp/rqdatac-3.0.7.1-cp39-cp39-macosx_10_9_x86_64.whl.zip]
+[2024-05-21 12:06:40] INFO root fetch - main [MainThread]: End processing [rqdatac]: success
+[2024-05-21 12:06:40] INFO root fetch - main [MainThread]: Store serial: [23304406]
