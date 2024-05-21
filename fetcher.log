@@ -15200,3 +15200,50 @@
 [2024-05-21 09:35:34] INFO root fetch - processPackages [odoo-addon-web-pwa-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_web_pwa_oca-16.0.1.0.0.6-py3-none-any.whl.zip]
 [2024-05-21 09:35:34] INFO root fetch - main [MainThread]: End processing [odoo-addon-web-pwa-oca]: success
 [2024-05-21 09:35:34] INFO root fetch - main [MainThread]: Store serial: [23302589]
+[2024-05-21 09:37:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23302589]
+[2024-05-21 09:37:43] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-21 09:37:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: swarmauri
+[2024-05-21 09:37:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: adarsh-hello
+[2024-05-21 09:37:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spfa
+[2024-05-21 09:37:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ara-cli
+[2024-05-21 09:37:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lalsuite
+[2024-05-21 09:37:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: truefoundry
+[2024-05-21 09:37:44] INFO root fetch - processPackages [swarmauri]: New version: [0.2.4.dev3] Old Version: [0.2.4.dev2]
+[2024-05-21 09:37:44] INFO root fetch - processPackages [lalsuite]: New version: [7.9] Old Version: [7.8]
+[2024-05-21 09:37:44] WARNING root fetch - processPackages [adarsh-hello]: Skipping, unable to determine old version
+[2024-05-21 09:37:44] INFO root fetch - main [MainThread]: End processing [adarsh-hello] error
+[2024-05-21 09:37:44] INFO root fetch - processPackages [spfa]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-05-21 09:37:44] INFO root fetch - processPackages [ara-cli]: New version: [0.1.4.46] Old Version: [0.1.4.45]
+[2024-05-21 09:37:44] INFO root fetch - processPackages [truefoundry]: New version: [0.2.2rc4] Old Version: [0.2.2rc3]
+[2024-05-21 09:37:44] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/2c/71/3f1940b72ed91c2d471df9ca663ecd4b1dcccaeb007dd249d8f55389b6db/swarmauri-0.2.4.dev2.tar.gz
+[2024-05-21 09:37:44] INFO root fetch - processPackages [spfa]: Downloading https://files.pythonhosted.org/packages/bc/a9/3d47202907bf303b36e2d26d000565c954a5535b3bae1efe12c4d0cf0415/spfa-0.6.0.tar.gz
+[2024-05-21 09:37:44] INFO root fetch - processPackages [ara-cli]: Downloading https://files.pythonhosted.org/packages/be/81/95349608f915d8ed6462aebd41290129680c0fb40add1eb613745d93c65a/ara_cli-0.1.4.45.tar.gz
+[2024-05-21 09:37:44] INFO root fetch - processPackages [lalsuite]: Downloading https://files.pythonhosted.org/packages/53/92/fc43211ca56b7c5532fc1b47c701a564c7ddcaf866c62ae45acbfdc34f23/lalsuite-7.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-21 09:37:44] INFO root fetch - processPackages [truefoundry]: Downloading https://files.pythonhosted.org/packages/74/3e/3f69e85c061fec44e4faafe0b483e8be4c796413910db305faa303f13c1e/truefoundry-0.2.2rc3.tar.gz
+[2024-05-21 09:37:44] WARNING root fetch - processPackages [lalsuite]: Skipping package: exceeds size limit 48394251>=10485760
+[2024-05-21 09:37:44] INFO root fetch - main [MainThread]: End processing [lalsuite] error
+[2024-05-21 09:37:44] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/74/ca/cd43bbc507ea89d1ee9b77f7cd1bada1c0784bd9d6fc55fce66ee3a97691/swarmauri-0.2.4.dev3.tar.gz
+[2024-05-21 09:37:44] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-05-21 09:37:44] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.2.4.dev2.tar.gz tmp/swarmauri-0.2.4.dev3.tar.gz --markdown 20240521/s/swarmauri/0.2.4.dev2-0.2.4.dev3/README.md --exclude *.pyd
+[2024-05-21 09:37:44] INFO root fetch - processPackages [ara-cli]: Downloading https://files.pythonhosted.org/packages/17/d0/d93ef5693fba7f38ca2b7d42677ce42c4c80ef34a0ccb303cb570e420b65/ara_cli-0.1.4.46.tar.gz
+[2024-05-21 09:37:44] INFO root fetch - processPackages [truefoundry]: Downloading https://files.pythonhosted.org/packages/6b/bb/8c519381d944c31126b7707211a97c51af06c5e3a6ee4023da053c90b69f/truefoundry-0.2.2rc4.tar.gz
+[2024-05-21 09:37:44] INFO root fetch - processPackages [spfa]: Downloading https://files.pythonhosted.org/packages/c3/2c/7ee2f078d4865c404864b6dbc16f1d31d392125c09abe1215c962d7c8c2e/spfa-0.7.0.tar.gz
+[2024-05-21 09:37:44] INFO root fetch - processPackages [ara-cli]: executing diffoscope
+[2024-05-21 09:37:44] INFO root fetch - processPackages [ara-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ara_cli-0.1.4.45.tar.gz tmp/ara_cli-0.1.4.46.tar.gz --markdown 20240521/a/ara-cli/0.1.4.45-0.1.4.46/README.md --exclude *.pyd
+[2024-05-21 09:37:44] INFO root fetch - processPackages [truefoundry]: executing diffoscope
+[2024-05-21 09:37:44] INFO root fetch - processPackages [truefoundry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/truefoundry-0.2.2rc3.tar.gz tmp/truefoundry-0.2.2rc4.tar.gz --markdown 20240521/t/truefoundry/0.2.2rc3-0.2.2rc4/README.md --exclude *.pyd
+[2024-05-21 09:37:44] INFO root fetch - processPackages [spfa]: executing diffoscope
+[2024-05-21 09:37:44] INFO root fetch - processPackages [spfa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spfa-0.6.0.tar.gz tmp/spfa-0.7.0.tar.gz --markdown 20240521/s/spfa/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-05-21 09:37:45] INFO root fetch - processPackages [spfa]: Remove: archive file [/home/abi/fetcher/tmp/spfa-0.6.0.tar.gz]
+[2024-05-21 09:37:45] INFO root fetch - processPackages [spfa]: Remove: archive file [/home/abi/fetcher/tmp/spfa-0.7.0.tar.gz]
+[2024-05-21 09:37:45] INFO root fetch - main [MainThread]: End processing [spfa]: success
+[2024-05-21 09:37:45] INFO root fetch - processPackages [truefoundry]: Remove: archive file [/home/abi/fetcher/tmp/truefoundry-0.2.2rc3.tar.gz]
+[2024-05-21 09:37:45] INFO root fetch - processPackages [truefoundry]: Remove: archive file [/home/abi/fetcher/tmp/truefoundry-0.2.2rc4.tar.gz]
+[2024-05-21 09:37:45] INFO root fetch - main [MainThread]: End processing [truefoundry]: success
+[2024-05-21 09:37:45] INFO root fetch - processPackages [ara-cli]: Remove: archive file [/home/abi/fetcher/tmp/ara_cli-0.1.4.45.tar.gz]
+[2024-05-21 09:37:45] INFO root fetch - processPackages [ara-cli]: Remove: archive file [/home/abi/fetcher/tmp/ara_cli-0.1.4.46.tar.gz]
+[2024-05-21 09:37:45] INFO root fetch - main [MainThread]: End processing [ara-cli]: success
+[2024-05-21 09:37:46] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.2.4.dev2.tar.gz]
+[2024-05-21 09:37:46] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.2.4.dev3.tar.gz]
+[2024-05-21 09:37:46] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
+[2024-05-21 09:37:46] INFO root fetch - main [MainThread]: Store serial: [23302618]
