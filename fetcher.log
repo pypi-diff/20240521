@@ -12313,3 +12313,54 @@
 [2024-05-21 07:40:10] INFO root fetch - processPackages [bioturing-connector]: Remove: archive file [/home/abi/fetcher/tmp/bioturing_connector-1.9.0.tar.gz]
 [2024-05-21 07:40:10] INFO root fetch - main [MainThread]: End processing [bioturing-connector]: success
 [2024-05-21 07:40:10] INFO root fetch - main [MainThread]: Store serial: [23301529]
+[2024-05-21 07:42:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23301529]
+[2024-05-21 07:42:18] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-21 07:42:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oci
+[2024-05-21 07:42:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lift-utils
+[2024-05-21 07:42:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: airbyte-source-sap-fieldglass
+[2024-05-21 07:42:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dash-spread-grid
+[2024-05-21 07:42:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PyRHEED
+[2024-05-21 07:42:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: algokit
+[2024-05-21 07:42:18] INFO root fetch - processPackages [algokit]: New version: [2.0.4] Old Version: [2.0.3]
+[2024-05-21 07:42:18] INFO root fetch - processPackages [dash-spread-grid]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-21 07:42:18] INFO root fetch - processPackages [PyRHEED]: New version: [1.0.9] Old Version: [1.0.8rc0]
+[2024-05-21 07:42:19] INFO root fetch - processPackages [algokit]: Downloading https://files.pythonhosted.org/packages/67/d7/256032fbb4359ca28c9f1e1677b1d41445e108ea9a5ae7973c16da86e9f1/algokit-2.0.3-py3-none-any.whl
+[2024-05-21 07:42:19] INFO root fetch - processPackages [airbyte-source-sap-fieldglass]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-21 07:42:19] INFO root fetch - processPackages [dash-spread-grid]: Downloading https://files.pythonhosted.org/packages/9f/39/3477f65f22676264317bcb1d617b220ddcc8d09f85a7eb7904d8c2676dae/dash_spread_grid-0.0.8.tar.gz
+[2024-05-21 07:42:19] INFO root fetch - processPackages [PyRHEED]: Downloading https://files.pythonhosted.org/packages/4d/53/09f1243ffa2006a172b5958572706bc933d5d993299231b4caee7ac9e458/pyrheed-1.0.8rc0.tar.gz
+[2024-05-21 07:42:19] WARNING root fetch - processPackages [lift-utils]: Skipping, unable to determine old version
+[2024-05-21 07:42:19] INFO root fetch - main [MainThread]: End processing [lift-utils] error
+[2024-05-21 07:42:19] INFO root fetch - processPackages [oci]: New version: [2.99.1] Old Version: [2.99.0]
+[2024-05-21 07:42:19] INFO root fetch - processPackages [airbyte-source-sap-fieldglass]: Downloading https://files.pythonhosted.org/packages/3b/8c/05e6549d8ae914dbd4a13d458a5d496b087cacda87aeb246e62821a7efe5/airbyte-source-sap-fieldglass-0.1.0.tar.gz
+[2024-05-21 07:42:19] INFO root fetch - processPackages [algokit]: Downloading https://files.pythonhosted.org/packages/5d/e4/c177beaae14ac07021bb94360777c487f6e76adeebfc0d20cf559bb48d5e/algokit-2.0.4-py3-none-any.whl
+[2024-05-21 07:42:19] INFO root fetch - processPackages [dash-spread-grid]: Downloading https://files.pythonhosted.org/packages/37/f7/3991c1c5cd26d592773df3381df4e17ae14f51d47af4fd52b7419949494b/dash_spread_grid-0.0.9.tar.gz
+[2024-05-21 07:42:19] INFO root fetch - processPackages [PyRHEED]: Downloading https://files.pythonhosted.org/packages/59/7c/757385a6f45e5461897bee08eafc8b3ad66dcdf51af3b19fbd25590f8db9/pyrheed-1.0.9.tar.gz
+[2024-05-21 07:42:19] INFO root fetch - processPackages [oci]: Downloading https://files.pythonhosted.org/packages/b7/50/166794801e82f1f65176a501f1451e6c542bd24f1b9bc4cae6e79a4bcd64/oci-2.99.0.tar.gz
+[2024-05-21 07:42:19] INFO root fetch - processPackages [algokit]: executing diffoscope
+[2024-05-21 07:42:19] INFO root fetch - processPackages [algokit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/algokit-2.0.3-py3-none-any.whl.zip tmp/algokit-2.0.4-py3-none-any.whl.zip --markdown 20240521/a/algokit/2.0.3-2.0.4/README.md --exclude *.pyd
+[2024-05-21 07:42:19] INFO root fetch - processPackages [dash-spread-grid]: executing diffoscope
+[2024-05-21 07:42:19] INFO root fetch - processPackages [dash-spread-grid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dash_spread_grid-0.0.8.tar.gz tmp/dash_spread_grid-0.0.9.tar.gz --markdown 20240521/d/dash-spread-grid/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-21 07:42:19] INFO root fetch - processPackages [PyRHEED]: executing diffoscope
+[2024-05-21 07:42:19] INFO root fetch - processPackages [PyRHEED]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrheed-1.0.8rc0.tar.gz tmp/pyrheed-1.0.9.tar.gz --markdown 20240521/P/PyRHEED/1.0.8rc0-1.0.9/README.md --exclude *.pyd
+[2024-05-21 07:42:19] INFO root fetch - processPackages [airbyte-source-sap-fieldglass]: Downloading https://files.pythonhosted.org/packages/b9/ca/7bf46339218492e066d1d83ae3eeb6a11b4d94841b0e7072167b900e4416/airbyte_source_sap_fieldglass-0.1.1.tar.gz
+[2024-05-21 07:42:19] INFO root fetch - processPackages [airbyte-source-sap-fieldglass]: executing diffoscope
+[2024-05-21 07:42:19] INFO root fetch - processPackages [airbyte-source-sap-fieldglass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-source-sap-fieldglass-0.1.0.tar.gz tmp/airbyte_source_sap_fieldglass-0.1.1.tar.gz --markdown 20240521/a/airbyte-source-sap-fieldglass/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-21 07:42:20] INFO root fetch - processPackages [airbyte-source-sap-fieldglass]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-source-sap-fieldglass-0.1.0.tar.gz]
+[2024-05-21 07:42:20] INFO root fetch - processPackages [airbyte-source-sap-fieldglass]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_sap_fieldglass-0.1.1.tar.gz]
+[2024-05-21 07:42:20] INFO root fetch - main [MainThread]: End processing [airbyte-source-sap-fieldglass]: success
+[2024-05-21 07:42:20] INFO root fetch - processPackages [algokit]: Remove: archive file [/home/abi/fetcher/tmp/algokit-2.0.3-py3-none-any.whl.zip]
+[2024-05-21 07:42:20] INFO root fetch - processPackages [algokit]: Remove: archive file [/home/abi/fetcher/tmp/algokit-2.0.4-py3-none-any.whl.zip]
+[2024-05-21 07:42:20] INFO root fetch - main [MainThread]: End processing [algokit]: success
+[2024-05-21 07:42:20] INFO root fetch - processPackages [PyRHEED]: Remove: archive file [/home/abi/fetcher/tmp/pyrheed-1.0.8rc0.tar.gz]
+[2024-05-21 07:42:20] INFO root fetch - processPackages [PyRHEED]: Remove: archive file [/home/abi/fetcher/tmp/pyrheed-1.0.9.tar.gz]
+[2024-05-21 07:42:20] INFO root fetch - main [MainThread]: End processing [PyRHEED]: success
+[2024-05-21 07:42:21] INFO root fetch - processPackages [oci]: Downloading https://files.pythonhosted.org/packages/8f/3f/4d237aeedaa8d6cb488beefd362f4e0024342ac507be45fc223132c6f3a6/oci-2.99.1.tar.gz
+[2024-05-21 07:42:21] INFO root fetch - processPackages [dash-spread-grid]: Remove: archive file [/home/abi/fetcher/tmp/dash_spread_grid-0.0.8.tar.gz]
+[2024-05-21 07:42:21] INFO root fetch - processPackages [dash-spread-grid]: Remove: archive file [/home/abi/fetcher/tmp/dash_spread_grid-0.0.9.tar.gz]
+[2024-05-21 07:42:21] INFO root fetch - main [MainThread]: End processing [dash-spread-grid]: success
+[2024-05-21 07:42:23] INFO root fetch - processPackages [oci]: executing diffoscope
+[2024-05-21 07:42:23] INFO root fetch - processPackages [oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oci-2.99.0.tar.gz tmp/oci-2.99.1.tar.gz --markdown 20240521/o/oci/2.99.0-2.99.1/README.md --exclude *.pyd
+[2024-05-21 07:44:33] INFO root fetch - processPackages [oci]: Remove: archive file [/home/abi/fetcher/tmp/oci-2.99.0.tar.gz]
+[2024-05-21 07:44:33] INFO root fetch - processPackages [oci]: Remove: archive file [/home/abi/fetcher/tmp/oci-2.99.1.tar.gz]
+[2024-05-21 07:44:33] INFO root fetch - main [MainThread]: End processing [oci]: success
+[2024-05-21 07:44:33] INFO root fetch - main [MainThread]: Store serial: [23301548]
