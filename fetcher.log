@@ -8182,3 +8182,33 @@
 [2024-05-21 04:20:23] INFO root fetch - processPackages [scores]: Remove: archive file [/home/abi/fetcher/tmp/scores-0.8.2.tar.gz]
 [2024-05-21 04:20:23] INFO root fetch - main [MainThread]: End processing [scores]: success
 [2024-05-21 04:20:23] INFO root fetch - main [MainThread]: Store serial: [23299830]
+[2024-05-21 04:22:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23299830]
+[2024-05-21 04:22:31] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-21 04:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aiokcp
+[2024-05-21 04:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ovos-skill-fallback-hivemind
+[2024-05-21 04:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: types-requests
+[2024-05-21 04:22:31] INFO root fetch - processPackages [ovos-skill-fallback-hivemind]: New version: [0.0.0a7] Old Version: [0.0.0a6]
+[2024-05-21 04:22:31] INFO root fetch - processPackages [types-requests]: New version: [2.31.0.9] Old Version: [2.31.0.8]
+[2024-05-21 04:22:32] INFO root fetch - processPackages [ovos-skill-fallback-hivemind]: Downloading https://files.pythonhosted.org/packages/32/d4/ee1d08fd14918ad1fc014d185e00e33694623f4aceb6bb9c1d97380d4c1f/ovos_skill_fallback_hivemind-0.0.0a6-py3-none-any.whl
+[2024-05-21 04:22:32] INFO root fetch - processPackages [aiokcp]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-21 04:22:32] INFO root fetch - processPackages [types-requests]: Downloading https://files.pythonhosted.org/packages/db/8b/2e5f939a1851935096fe8ab0fb949a19072a445da9b6a9ed436c1db53300/types-requests-2.31.0.8.tar.gz
+[2024-05-21 04:22:32] INFO root fetch - processPackages [aiokcp]: Downloading https://files.pythonhosted.org/packages/16/a1/cc497d6124181e0c9156680d37ea8e20eae4a9005f32ac9d841fec440752/aiokcp-0.0.2.tar.gz
+[2024-05-21 04:22:32] INFO root fetch - processPackages [ovos-skill-fallback-hivemind]: Downloading https://files.pythonhosted.org/packages/5f/1a/698d3c019d360c38ad175821b68c28a798492e384befb312cdde4914c536/ovos_skill_fallback_hivemind-0.0.0a7-py3-none-any.whl
+[2024-05-21 04:22:32] INFO root fetch - processPackages [ovos-skill-fallback-hivemind]: executing diffoscope
+[2024-05-21 04:22:32] INFO root fetch - processPackages [ovos-skill-fallback-hivemind]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_skill_fallback_hivemind-0.0.0a6-py3-none-any.whl.zip tmp/ovos_skill_fallback_hivemind-0.0.0a7-py3-none-any.whl.zip --markdown 20240521/o/ovos-skill-fallback-hivemind/0.0.0a6-0.0.0a7/README.md --exclude *.pyd
+[2024-05-21 04:22:32] INFO root fetch - processPackages [aiokcp]: Downloading https://files.pythonhosted.org/packages/06/a4/bc591fe8c26631a4b9e5c57034bab0584cf18086cb7b472ac7ad17da9211/aiokcp-0.0.3.tar.gz
+[2024-05-21 04:22:32] INFO root fetch - processPackages [types-requests]: Downloading https://files.pythonhosted.org/packages/a0/d4/0f39c44150f7301b7dcafb2a9e7be02105da871b8e5286041c1096b258b6/types-requests-2.31.0.9.tar.gz
+[2024-05-21 04:22:32] INFO root fetch - processPackages [aiokcp]: executing diffoscope
+[2024-05-21 04:22:32] INFO root fetch - processPackages [aiokcp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiokcp-0.0.2.tar.gz tmp/aiokcp-0.0.3.tar.gz --markdown 20240521/a/aiokcp/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-21 04:22:32] INFO root fetch - processPackages [types-requests]: executing diffoscope
+[2024-05-21 04:22:32] INFO root fetch - processPackages [types-requests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-requests-2.31.0.8.tar.gz tmp/types-requests-2.31.0.9.tar.gz --markdown 20240521/t/types-requests/2.31.0.8-2.31.0.9/README.md --exclude *.pyd
+[2024-05-21 04:22:33] INFO root fetch - processPackages [ovos-skill-fallback-hivemind]: Remove: archive file [/home/abi/fetcher/tmp/ovos_skill_fallback_hivemind-0.0.0a6-py3-none-any.whl.zip]
+[2024-05-21 04:22:33] INFO root fetch - processPackages [ovos-skill-fallback-hivemind]: Remove: archive file [/home/abi/fetcher/tmp/ovos_skill_fallback_hivemind-0.0.0a7-py3-none-any.whl.zip]
+[2024-05-21 04:22:33] INFO root fetch - main [MainThread]: End processing [ovos-skill-fallback-hivemind]: success
+[2024-05-21 04:22:33] INFO root fetch - processPackages [aiokcp]: Remove: archive file [/home/abi/fetcher/tmp/aiokcp-0.0.2.tar.gz]
+[2024-05-21 04:22:33] INFO root fetch - processPackages [aiokcp]: Remove: archive file [/home/abi/fetcher/tmp/aiokcp-0.0.3.tar.gz]
+[2024-05-21 04:22:33] INFO root fetch - main [MainThread]: End processing [aiokcp]: success
+[2024-05-21 04:22:33] INFO root fetch - processPackages [types-requests]: Remove: archive file [/home/abi/fetcher/tmp/types-requests-2.31.0.8.tar.gz]
+[2024-05-21 04:22:33] INFO root fetch - processPackages [types-requests]: Remove: archive file [/home/abi/fetcher/tmp/types-requests-2.31.0.9.tar.gz]
+[2024-05-21 04:22:33] INFO root fetch - main [MainThread]: End processing [types-requests]: success
+[2024-05-21 04:22:33] INFO root fetch - main [MainThread]: Store serial: [23299840]
