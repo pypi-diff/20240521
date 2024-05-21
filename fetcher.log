@@ -20687,3 +20687,126 @@
 [2024-05-21 12:38:52] INFO root fetch - processPackages [matrix-synapse]: Remove: archive file [/home/abi/fetcher/tmp/matrix_synapse-1.99.0rc1.tar.gz]
 [2024-05-21 12:38:52] INFO root fetch - main [MainThread]: End processing [matrix-synapse]: success
 [2024-05-21 12:38:52] INFO root fetch - main [MainThread]: Store serial: [23304822]
+[2024-05-21 12:40:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23304822]
+[2024-05-21 12:41:01] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-05-21 12:41:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-l10n-es-aeat-mod216
+[2024-05-21 12:41:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-l10n-es-irnr
+[2024-05-21 12:41:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: skypilot-nightly
+[2024-05-21 12:41:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: power-grid-model
+[2024-05-21 12:41:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: shopify-custom-api
+[2024-05-21 12:41:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pymemgpt-nightly
+[2024-05-21 12:41:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: DLMS-SPODES-client
+[2024-05-21 12:41:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dzidb
+[2024-05-21 12:41:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: longsight
+[2024-05-21 12:41:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: CheeseAPI
+[2024-05-21 12:41:01] INFO root fetch - processPackages [longsight]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-21 12:41:01] WARNING root fetch - processPackages [shopify-custom-api]: Skipping, unable to determine old version
+[2024-05-21 12:41:01] INFO root fetch - processPackages [shopify-custom-api]: Start processing: arion-library
+[2024-05-21 12:41:01] INFO root fetch - main [MainThread]: End processing [shopify-custom-api] error
+[2024-05-21 12:41:01] INFO root fetch - processPackages [dzidb]: New version: [1.1] Old Version: [1.0.8]
+[2024-05-21 12:41:01] INFO root fetch - processPackages [DLMS-SPODES-client]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-05-21 12:41:01] INFO root fetch - processPackages [pymemgpt-nightly]: New version: [0.3.9.dev20240412103904] Old Version: [0.3.9.dev20240411103902]
+[2024-05-21 12:41:01] INFO root fetch - processPackages [skypilot-nightly]: New version: [1.0.0.dev20240520] Old Version: [1.0.0.dev20240519]
+[2024-05-21 12:41:01] INFO root fetch - processPackages [dzidb]: Downloading https://files.pythonhosted.org/packages/72/bb/a08dd5b03f4b8aa27664a27111b99d794a04b6ea05812a34c7a800bb10a3/dzidb-1.0.8.tar.gz
+[2024-05-21 12:41:01] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod216]: New version: [16.0.1.1.0] Old Version: [16.0.1.0.1.4]
+[2024-05-21 12:41:01] INFO root fetch - processPackages [longsight]: Downloading https://files.pythonhosted.org/packages/89/74/1754cc94c52f7242ead6036ee24087c47c5d5829c1188a04d1d21933ac00/longsight-1.0.8.tar.gz
+[2024-05-21 12:41:01] INFO root fetch - processPackages [CheeseAPI]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-05-21 12:41:01] INFO root fetch - processPackages [power-grid-model]: New version: [1.7.9] Old Version: [1.7.8a1374103622511]
+[2024-05-21 12:41:01] INFO root fetch - processPackages [odoo-addon-l10n-es-irnr]: New version: [16.0.1.1.0] Old Version: [16.0.1.0.0.5]
+[2024-05-21 12:41:01] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/7e/26/d41901f441877c0e20515fc593e93926745819f65351d83b4bb3b50f69ea/skypilot_nightly-1.0.0.dev20240519.tar.gz
+[2024-05-21 12:41:01] INFO root fetch - processPackages [DLMS-SPODES-client]: Downloading https://files.pythonhosted.org/packages/28/f9/a71d203b558a8f4dfca3e0b587dcffd1d25bdeb22215d058afbd23fe5938/DLMS_SPODES_client-0.8.8.tar.gz
+[2024-05-21 12:41:01] INFO root fetch - processPackages [dzidb]: Downloading https://files.pythonhosted.org/packages/ab/7b/1eb783cec2be6c8f5f50400132b6afae58c752421a84c34ef92cb658707b/dzidb-1.1.tar.gz
+[2024-05-21 12:41:01] INFO root fetch - processPackages [arion-library]: New version: [1.1rc99.dev99] Old Version: [1.1rc97.dev97]
+[2024-05-21 12:41:01] INFO root fetch - processPackages [longsight]: Downloading https://files.pythonhosted.org/packages/52/aa/cf2d1314535657b8a564c0596c3c1575b7e88687c5bcf59c8b18c3631633/longsight-1.0.9.tar.gz
+[2024-05-21 12:41:01] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod216]: Downloading https://files.pythonhosted.org/packages/05/14/1b7f455149af8d628b0a27ca4964fa3a8d990b71349e8f49ef6b355d92a0/odoo_addon_l10n_es_aeat_mod216-16.0.1.0.1.4-py3-none-any.whl
+[2024-05-21 12:41:01] INFO root fetch - processPackages [dzidb]: executing diffoscope
+[2024-05-21 12:41:01] INFO root fetch - processPackages [dzidb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dzidb-1.0.8.tar.gz tmp/dzidb-1.1.tar.gz --markdown 20240521/d/dzidb/1.0.8-1.1/README.md --exclude *.pyd
+[2024-05-21 12:41:01] INFO root fetch - processPackages [odoo-addon-l10n-es-irnr]: Downloading https://files.pythonhosted.org/packages/36/2f/7e2906beb9654fbaa24d3cbeb8a14953dc9124bbfec72d75bf377c25ce00/odoo_addon_l10n_es_irnr-16.0.1.0.0.5-py3-none-any.whl
+[2024-05-21 12:41:01] INFO root fetch - processPackages [DLMS-SPODES-client]: Downloading https://files.pythonhosted.org/packages/7d/4f/472aa1bb34fcd9b88d1e6b5a48a4b6785f2c83c28e2f5d199233c734da4a/DLMS_SPODES_client-0.8.9.tar.gz
+[2024-05-21 12:41:01] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/f2/89/c6c2797d33b80597aba4cfaa3eb46b859cefaabca623a75550c89a3289f7/power-grid-model-1.7.8a1374103622511.tar.gz
+[2024-05-21 12:41:01] INFO root fetch - processPackages [CheeseAPI]: Downloading https://files.pythonhosted.org/packages/97/c2/7f6fcab20e0519c8b8fb649f323b66c3abdb54f76449e0d03d2b0137a646/cheeseapi-1.2.1.tar.gz
+[2024-05-21 12:41:02] INFO root fetch - processPackages [longsight]: executing diffoscope
+[2024-05-21 12:41:02] INFO root fetch - processPackages [longsight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/longsight-1.0.8.tar.gz tmp/longsight-1.0.9.tar.gz --markdown 20240521/l/longsight/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-21 12:41:02] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/25/17/5717be908ed9d21ee6240007e1f51f957f0148589c543e0d5ba749bb33bc/arion_library-1.1rc97.dev97.tar.gz
+[2024-05-21 12:41:02] INFO root fetch - processPackages [DLMS-SPODES-client]: executing diffoscope
+[2024-05-21 12:41:02] INFO root fetch - processPackages [DLMS-SPODES-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_SPODES_client-0.8.8.tar.gz tmp/DLMS_SPODES_client-0.8.9.tar.gz --markdown 20240521/D/DLMS-SPODES-client/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-05-21 12:41:02] INFO root fetch - processPackages [pymemgpt-nightly]: Downloading https://files.pythonhosted.org/packages/28/e7/e8c0c970c21e3670e810627cef085bbbbac1f9e994540354838d7781a0ac/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz
+[2024-05-21 12:41:02] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/a9/3e/1f75fe196610b2d284ff6756f5d9da15ad3ac80d2018f4f9dfbede131307/skypilot_nightly-1.0.0.dev20240520.tar.gz
+[2024-05-21 12:41:02] INFO root fetch - processPackages [odoo-addon-l10n-es-irnr]: Downloading https://files.pythonhosted.org/packages/11/4d/8e117aa8670280d82ecc67202c8dfd92a737e948a7aedbf7661a9aac3ee0/odoo_addon_l10n_es_irnr-16.0.1.1.0-py3-none-any.whl
+[2024-05-21 12:41:02] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod216]: Downloading https://files.pythonhosted.org/packages/bd/85/f7c858ee5218ec8b8065fe08a119cae2e333086dfca8f2dbb4dd063be974/odoo_addon_l10n_es_aeat_mod216-16.0.1.1.0-py3-none-any.whl
+[2024-05-21 12:41:02] INFO root fetch - processPackages [skypilot-nightly]: executing diffoscope
+[2024-05-21 12:41:02] INFO root fetch - processPackages [skypilot-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skypilot_nightly-1.0.0.dev20240519.tar.gz tmp/skypilot_nightly-1.0.0.dev20240520.tar.gz --markdown 20240521/s/skypilot-nightly/1.0.0.dev20240519-1.0.0.dev20240520/README.md --exclude *.pyd
+[2024-05-21 12:41:02] INFO root fetch - processPackages [odoo-addon-l10n-es-irnr]: executing diffoscope
+[2024-05-21 12:41:02] INFO root fetch - processPackages [odoo-addon-l10n-es-irnr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_irnr-16.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_irnr-16.0.1.1.0-py3-none-any.whl.zip --markdown 20240521/o/odoo-addon-l10n-es-irnr/16.0.1.0.0.5-16.0.1.1.0/README.md --exclude *.pyd
+[2024-05-21 12:41:02] INFO root fetch - processPackages [CheeseAPI]: Downloading https://files.pythonhosted.org/packages/14/d8/70f491c0ed8397677e9b4a4f4fb71a1968df3d8778b10d666bdd72808ab7/cheeseapi-1.2.2.tar.gz
+[2024-05-21 12:41:02] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/56/2b/86814a7f75dec690d4b62403c87b2b3b5aa0b3c73f37f4294b843a74b0d9/power-grid-model-1.7.9.tar.gz
+[2024-05-21 12:41:02] INFO root fetch - processPackages [pymemgpt-nightly]: Downloading https://files.pythonhosted.org/packages/50/4a/4c9c1fb70a7ee971f3c8697cc6dedb251e3b10cafdd23be4d035ece0f2ec/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz
+[2024-05-21 12:41:02] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/eb/6a/2a118dcc80b4b2d77ee26a645a3495fb1302d856a327caeeb4d26e4d2f59/arion_library-1.1rc99.dev99.tar.gz
+[2024-05-21 12:41:02] INFO root fetch - processPackages [dzidb]: Remove: archive file [/home/abi/fetcher/tmp/dzidb-1.0.8.tar.gz]
+[2024-05-21 12:41:02] INFO root fetch - processPackages [dzidb]: Remove: archive file [/home/abi/fetcher/tmp/dzidb-1.1.tar.gz]
+[2024-05-21 12:41:02] INFO root fetch - processPackages [dzidb]: Start processing: transstellar
+[2024-05-21 12:41:02] INFO root fetch - main [MainThread]: End processing [dzidb]: success
+[2024-05-21 12:41:02] INFO root fetch - processPackages [CheeseAPI]: executing diffoscope
+[2024-05-21 12:41:02] INFO root fetch - processPackages [CheeseAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cheeseapi-1.2.1.tar.gz tmp/cheeseapi-1.2.2.tar.gz --markdown 20240521/C/CheeseAPI/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-05-21 12:41:02] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod216]: executing diffoscope
+[2024-05-21 12:41:02] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod216]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat_mod216-16.0.1.0.1.4-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat_mod216-16.0.1.1.0-py3-none-any.whl.zip --markdown 20240521/o/odoo-addon-l10n-es-aeat-mod216/16.0.1.0.1.4-16.0.1.1.0/README.md --exclude *.pyd
+[2024-05-21 12:41:02] INFO root fetch - processPackages [transstellar]: New version: [2.2.0] Old Version: [2.1.0]
+[2024-05-21 12:41:02] INFO root fetch - processPackages [arion-library]: executing diffoscope
+[2024-05-21 12:41:02] INFO root fetch - processPackages [arion-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arion_library-1.1rc97.dev97.tar.gz tmp/arion_library-1.1rc99.dev99.tar.gz --markdown 20240521/a/arion-library/1.1rc97.dev97-1.1rc99.dev99/README.md --exclude *.pyd
+[2024-05-21 12:41:02] INFO root fetch - processPackages [power-grid-model]: executing diffoscope
+[2024-05-21 12:41:02] INFO root fetch - processPackages [power-grid-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/power-grid-model-1.7.8a1374103622511.tar.gz tmp/power-grid-model-1.7.9.tar.gz --markdown 20240521/p/power-grid-model/1.7.8a1374103622511-1.7.9/README.md --exclude *.pyd
+[2024-05-21 12:41:02] INFO root fetch - processPackages [pymemgpt-nightly]: executing diffoscope
+[2024-05-21 12:41:02] INFO root fetch - processPackages [pymemgpt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz tmp/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz --markdown 20240521/p/pymemgpt-nightly/0.3.9.dev20240411103902-0.3.9.dev20240412103904/README.md --exclude *.pyd
+[2024-05-21 12:41:02] INFO root fetch - processPackages [transstellar]: Downloading https://files.pythonhosted.org/packages/b7/fa/c75c61d87884d708225e0b96998be9f23efbe790f536753281089e80c01f/transstellar-2.1.0.tar.gz
+[2024-05-21 12:41:02] INFO root fetch - processPackages [longsight]: Remove: archive file [/home/abi/fetcher/tmp/longsight-1.0.8.tar.gz]
+[2024-05-21 12:41:02] INFO root fetch - processPackages [longsight]: Remove: archive file [/home/abi/fetcher/tmp/longsight-1.0.9.tar.gz]
+[2024-05-21 12:41:02] INFO root fetch - processPackages [longsight]: Start processing: benchnirs
+[2024-05-21 12:41:02] INFO root fetch - main [MainThread]: End processing [longsight]: success
+[2024-05-21 12:41:02] INFO root fetch - processPackages [benchnirs]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-05-21 12:41:02] INFO root fetch - processPackages [benchnirs]: Downloading https://files.pythonhosted.org/packages/85/3b/bdd54ee9c352584231f0978517e431b628c4a0a4accccd63299ab10f6ebb/benchnirs-1.2.1.tar.gz
+[2024-05-21 12:41:02] INFO root fetch - processPackages [transstellar]: Downloading https://files.pythonhosted.org/packages/d8/be/dc88fbfd7dab3cddf2e196089342bc60c154efd3ae1ab134912f2bfc5d00/transstellar-2.2.0.tar.gz
+[2024-05-21 12:41:03] INFO root fetch - processPackages [DLMS-SPODES-client]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES_client-0.8.8.tar.gz]
+[2024-05-21 12:41:03] INFO root fetch - processPackages [DLMS-SPODES-client]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES_client-0.8.9.tar.gz]
+[2024-05-21 12:41:03] INFO root fetch - processPackages [DLMS-SPODES-client]: Start processing: chatchat
+[2024-05-21 12:41:03] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES-client]: success
+[2024-05-21 12:41:03] INFO root fetch - processPackages [transstellar]: executing diffoscope
+[2024-05-21 12:41:03] INFO root fetch - processPackages [transstellar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transstellar-2.1.0.tar.gz tmp/transstellar-2.2.0.tar.gz --markdown 20240521/t/transstellar/2.1.0-2.2.0/README.md --exclude *.pyd
+[2024-05-21 12:41:03] INFO root fetch - processPackages [benchnirs]: Downloading https://files.pythonhosted.org/packages/c8/f7/b26bf32336ddc33dbefc06de72da479ba0d4ffa1c8dc3951a49170dacc97/benchnirs-1.2.2.tar.gz
+[2024-05-21 12:41:03] INFO root fetch - processPackages [chatchat]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-21 12:41:03] INFO root fetch - processPackages [odoo-addon-l10n-es-irnr]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_irnr-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-05-21 12:41:03] INFO root fetch - processPackages [odoo-addon-l10n-es-irnr]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_irnr-16.0.1.1.0-py3-none-any.whl.zip]
+[2024-05-21 12:41:03] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-irnr]: success
+[2024-05-21 12:41:03] INFO root fetch - processPackages [benchnirs]: executing diffoscope
+[2024-05-21 12:41:03] INFO root fetch - processPackages [benchnirs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benchnirs-1.2.1.tar.gz tmp/benchnirs-1.2.2.tar.gz --markdown 20240521/b/benchnirs/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-05-21 12:41:03] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-1.1rc97.dev97.tar.gz]
+[2024-05-21 12:41:03] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-1.1rc99.dev99.tar.gz]
+[2024-05-21 12:41:03] INFO root fetch - main [MainThread]: End processing [arion-library]: success
+[2024-05-21 12:41:03] INFO root fetch - processPackages [chatchat]: Downloading https://files.pythonhosted.org/packages/74/68/9f0bfc99b7a1355c10642ff8fccccd32af3e16f90b617b18f6b4d413c22b/chatchat-0.0.3.tar.gz
+[2024-05-21 12:41:03] INFO root fetch - processPackages [CheeseAPI]: Remove: archive file [/home/abi/fetcher/tmp/cheeseapi-1.2.1.tar.gz]
+[2024-05-21 12:41:03] INFO root fetch - processPackages [CheeseAPI]: Remove: archive file [/home/abi/fetcher/tmp/cheeseapi-1.2.2.tar.gz]
+[2024-05-21 12:41:03] INFO root fetch - main [MainThread]: End processing [CheeseAPI]: success
+[2024-05-21 12:41:03] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod216]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_mod216-16.0.1.0.1.4-py3-none-any.whl.zip]
+[2024-05-21 12:41:03] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod216]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_mod216-16.0.1.1.0-py3-none-any.whl.zip]
+[2024-05-21 12:41:03] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat-mod216]: success
+[2024-05-21 12:41:03] INFO root fetch - processPackages [chatchat]: Downloading https://files.pythonhosted.org/packages/90/a4/0acd4374fdc93b49cfbc9bf912f7d3e8eafa93b532a578875db0bcad1651/chatchat-0.0.4.tar.gz
+[2024-05-21 12:41:04] INFO root fetch - processPackages [transstellar]: Remove: archive file [/home/abi/fetcher/tmp/transstellar-2.1.0.tar.gz]
+[2024-05-21 12:41:04] INFO root fetch - processPackages [transstellar]: Remove: archive file [/home/abi/fetcher/tmp/transstellar-2.2.0.tar.gz]
+[2024-05-21 12:41:04] INFO root fetch - main [MainThread]: End processing [transstellar]: success
+[2024-05-21 12:41:04] INFO root fetch - processPackages [benchnirs]: Remove: archive file [/home/abi/fetcher/tmp/benchnirs-1.2.1.tar.gz]
+[2024-05-21 12:41:04] INFO root fetch - processPackages [benchnirs]: Remove: archive file [/home/abi/fetcher/tmp/benchnirs-1.2.2.tar.gz]
+[2024-05-21 12:41:04] INFO root fetch - main [MainThread]: End processing [benchnirs]: success
+[2024-05-21 12:41:04] INFO root fetch - processPackages [chatchat]: executing diffoscope
+[2024-05-21 12:41:04] INFO root fetch - processPackages [chatchat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatchat-0.0.3.tar.gz tmp/chatchat-0.0.4.tar.gz --markdown 20240521/c/chatchat/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-21 12:41:04] INFO root fetch - processPackages [pymemgpt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz]
+[2024-05-21 12:41:04] INFO root fetch - processPackages [pymemgpt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz]
+[2024-05-21 12:41:04] INFO root fetch - main [MainThread]: End processing [pymemgpt-nightly]: success
+[2024-05-21 12:41:04] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot_nightly-1.0.0.dev20240519.tar.gz]
+[2024-05-21 12:41:04] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot_nightly-1.0.0.dev20240520.tar.gz]
+[2024-05-21 12:41:04] INFO root fetch - main [MainThread]: End processing [skypilot-nightly]: success
+[2024-05-21 12:41:04] INFO root fetch - processPackages [chatchat]: Remove: archive file [/home/abi/fetcher/tmp/chatchat-0.0.3.tar.gz]
+[2024-05-21 12:41:04] INFO root fetch - processPackages [chatchat]: Remove: archive file [/home/abi/fetcher/tmp/chatchat-0.0.4.tar.gz]
+[2024-05-21 12:41:04] INFO root fetch - main [MainThread]: End processing [chatchat]: success
+[2024-05-21 12:41:05] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.7.8a1374103622511.tar.gz]
+[2024-05-21 12:41:05] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.7.9.tar.gz]
+[2024-05-21 12:41:05] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
+[2024-05-21 12:41:05] INFO root fetch - main [MainThread]: Store serial: [23304879]
