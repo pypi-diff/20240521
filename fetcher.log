@@ -12094,3 +12094,47 @@
 [2024-05-21 07:29:09] INFO root fetch - processPackages [blastpipe]: Remove: archive file [/home/abi/fetcher/tmp/blastpipe-2024.8.1.tar.gz]
 [2024-05-21 07:29:09] INFO root fetch - main [MainThread]: End processing [blastpipe]: success
 [2024-05-21 07:29:09] INFO root fetch - main [MainThread]: Store serial: [23301416]
+[2024-05-21 07:31:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23301416]
+[2024-05-21 07:31:17] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-21 07:31:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lightningchart
+[2024-05-21 07:31:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aa-incursions
+[2024-05-21 07:31:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rbinstall
+[2024-05-21 07:31:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: crazy-thursday
+[2024-05-21 07:31:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: airbyte-source-appsflyer
+[2024-05-21 07:31:18] INFO root fetch - processPackages [aa-incursions]: New version: [0.4.2a0] Old Version: [0.3.0a0]
+[2024-05-21 07:31:18] INFO root fetch - processPackages [crazy-thursday]: New version: [2024.5.9.1] Old Version: [2024.5.9.0]
+[2024-05-21 07:31:18] INFO root fetch - processPackages [rbinstall]: New version: [1.2] Old Version: [1.1.1]
+[2024-05-21 07:31:18] INFO root fetch - processPackages [airbyte-source-appsflyer]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-21 07:31:18] INFO root fetch - processPackages [lightningchart]: New version: [0.6.9] Old Version: [0.6.8]
+[2024-05-21 07:31:18] INFO root fetch - processPackages [aa-incursions]: Downloading https://files.pythonhosted.org/packages/9f/59/b515f7d9e3da401336317a73bf26ef8812771a67f788de8c9c1fa96f5e6b/aa_incursions-0.3.0a0.tar.gz
+[2024-05-21 07:31:18] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/3f/0a/108e3af749c5757158be48151418c2bbea49bff2269af8811bade316080a/crazy_thursday-2024.5.9.0.tar.gz
+[2024-05-21 07:31:18] INFO root fetch - processPackages [rbinstall]: Downloading https://files.pythonhosted.org/packages/8c/06/a3ede1235ea60c3da17a5fa8b65a04ca0ebb628b973ad62fc50ccc9cdc21/rbinstall-1.1.1.tar.gz
+[2024-05-21 07:31:18] INFO root fetch - processPackages [lightningchart]: Downloading https://files.pythonhosted.org/packages/bb/ab/d946e642084157192b0b95d9d29bced2fc788be57f8de699881aae183eb4/lightningchart-0.6.8-py3-none-any.whl
+[2024-05-21 07:31:18] INFO root fetch - processPackages [airbyte-source-appsflyer]: Downloading https://files.pythonhosted.org/packages/a2/1b/4c3da2e747ea0e603a18ed5405ff009680968cbc9c81f0aed3014eb6ae9e/airbyte-source-appsflyer-0.1.0.tar.gz
+[2024-05-21 07:31:18] INFO root fetch - processPackages [aa-incursions]: Downloading https://files.pythonhosted.org/packages/f6/81/e4d7b81a86eede97963db9c0695495f1382728022e78bd2fd8b2cd75895e/aa_incursions-0.4.2a0.tar.gz
+[2024-05-21 07:31:18] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/20/70/a719fb059f910b10790f6a51b1c5c3ff943f1349c91c46142f1911323575/crazy_thursday-2024.5.9.1.tar.gz
+[2024-05-21 07:31:18] INFO root fetch - processPackages [rbinstall]: Downloading https://files.pythonhosted.org/packages/b1/54/9a4f9dde527d097481550ee5c83b3a9bf7f1a440de81557c81af0a705cad/rbinstall-1.2.tar.gz
+[2024-05-21 07:31:18] ERROR root fetch - processPackages [airbyte-source-appsflyer]: Unable to fetch info: No such project/version 'airbyte-source-appsflyer' 0.1.1
+[2024-05-21 07:31:18] INFO root fetch - main [MainThread]: End processing [airbyte-source-appsflyer] error
+[2024-05-21 07:31:18] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2024-05-21 07:31:18] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy_thursday-2024.5.9.0.tar.gz tmp/crazy_thursday-2024.5.9.1.tar.gz --markdown 20240521/c/crazy-thursday/2024.5.9.0-2024.5.9.1/README.md --exclude *.pyd
+[2024-05-21 07:31:18] INFO root fetch - processPackages [aa-incursions]: executing diffoscope
+[2024-05-21 07:31:18] INFO root fetch - processPackages [aa-incursions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aa_incursions-0.3.0a0.tar.gz tmp/aa_incursions-0.4.2a0.tar.gz --markdown 20240521/a/aa-incursions/0.3.0a0-0.4.2a0/README.md --exclude *.pyd
+[2024-05-21 07:31:18] INFO root fetch - processPackages [rbinstall]: executing diffoscope
+[2024-05-21 07:31:18] INFO root fetch - processPackages [rbinstall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rbinstall-1.1.1.tar.gz tmp/rbinstall-1.2.tar.gz --markdown 20240521/r/rbinstall/1.1.1-1.2/README.md --exclude *.pyd
+[2024-05-21 07:31:19] INFO root fetch - processPackages [lightningchart]: Downloading https://files.pythonhosted.org/packages/b0/2a/c37c62150392b5f3f1dda4a8cca397be4b75c7128058c527957c3fec6629/lightningchart-0.6.9-py3-none-any.whl
+[2024-05-21 07:31:19] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy_thursday-2024.5.9.0.tar.gz]
+[2024-05-21 07:31:19] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy_thursday-2024.5.9.1.tar.gz]
+[2024-05-21 07:31:19] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2024-05-21 07:31:19] INFO root fetch - processPackages [rbinstall]: Remove: archive file [/home/abi/fetcher/tmp/rbinstall-1.1.1.tar.gz]
+[2024-05-21 07:31:19] INFO root fetch - processPackages [rbinstall]: Remove: archive file [/home/abi/fetcher/tmp/rbinstall-1.2.tar.gz]
+[2024-05-21 07:31:19] INFO root fetch - main [MainThread]: End processing [rbinstall]: success
+[2024-05-21 07:31:19] INFO root fetch - processPackages [aa-incursions]: Remove: archive file [/home/abi/fetcher/tmp/aa_incursions-0.3.0a0.tar.gz]
+[2024-05-21 07:31:19] INFO root fetch - processPackages [aa-incursions]: Remove: archive file [/home/abi/fetcher/tmp/aa_incursions-0.4.2a0.tar.gz]
+[2024-05-21 07:31:19] INFO root fetch - main [MainThread]: End processing [aa-incursions]: success
+[2024-05-21 07:31:19] INFO root fetch - processPackages [lightningchart]: executing diffoscope
+[2024-05-21 07:31:19] INFO root fetch - processPackages [lightningchart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightningchart-0.6.8-py3-none-any.whl.zip tmp/lightningchart-0.6.9-py3-none-any.whl.zip --markdown 20240521/l/lightningchart/0.6.8-0.6.9/README.md --exclude *.pyd
+[2024-05-21 07:31:22] INFO root fetch - processPackages [lightningchart]: Remove: archive file [/home/abi/fetcher/tmp/lightningchart-0.6.8-py3-none-any.whl.zip]
+[2024-05-21 07:31:22] INFO root fetch - processPackages [lightningchart]: Remove: archive file [/home/abi/fetcher/tmp/lightningchart-0.6.9-py3-none-any.whl.zip]
+[2024-05-21 07:31:22] INFO root fetch - main [MainThread]: End processing [lightningchart]: success
+[2024-05-21 07:31:22] INFO root fetch - main [MainThread]: Store serial: [23301430]
