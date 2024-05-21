@@ -12292,3 +12292,24 @@
 [2024-05-21 07:37:59] INFO root fetch - main [MainThread]: End processing [os-net-config]: success
 [2024-05-21 07:37:59] INFO root fetch - main [MainThread]: End processing [os-net-config]: success
 [2024-05-21 07:37:59] INFO root fetch - main [MainThread]: Store serial: [23301522]
+[2024-05-21 07:40:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23301522]
+[2024-05-21 07:40:08] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-21 07:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MilesToMuppets
+[2024-05-21 07:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bioturing-connector
+[2024-05-21 07:40:08] INFO root fetch - processPackages [MilesToMuppets]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-21 07:40:08] INFO root fetch - processPackages [bioturing-connector]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-21 07:40:09] INFO root fetch - processPackages [MilesToMuppets]: Downloading https://files.pythonhosted.org/packages/05/95/778ceb8bec0fe4d6de07d854571ded0cd7258f8a3b960448ab685e0fc7c1/milestomuppets-0.0.5.tar.gz
+[2024-05-21 07:40:09] INFO root fetch - processPackages [bioturing-connector]: Downloading https://files.pythonhosted.org/packages/31/ae/6e4a904629c37ef4acbd1ed81414e3b51386844459dc329917334a640f98/bioturing_connector-1.8.0.tar.gz
+[2024-05-21 07:40:09] INFO root fetch - processPackages [MilesToMuppets]: Downloading https://files.pythonhosted.org/packages/bf/83/91b2e5496d2aec0c4ca5d924fc8ad36cf1c44617d057cb0bb099372d07ec/milestomuppets-0.0.6.tar.gz
+[2024-05-21 07:40:09] INFO root fetch - processPackages [bioturing-connector]: Downloading https://files.pythonhosted.org/packages/69/fc/424cab58c3d94fdc1ac4dc8a1581e921e6f7468e57a4ee1216cd9b02730d/bioturing_connector-1.9.0.tar.gz
+[2024-05-21 07:40:09] INFO root fetch - processPackages [MilesToMuppets]: executing diffoscope
+[2024-05-21 07:40:09] INFO root fetch - processPackages [MilesToMuppets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/milestomuppets-0.0.5.tar.gz tmp/milestomuppets-0.0.6.tar.gz --markdown 20240521/M/MilesToMuppets/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-21 07:40:09] INFO root fetch - processPackages [bioturing-connector]: executing diffoscope
+[2024-05-21 07:40:09] INFO root fetch - processPackages [bioturing-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioturing_connector-1.8.0.tar.gz tmp/bioturing_connector-1.9.0.tar.gz --markdown 20240521/b/bioturing-connector/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-21 07:40:10] INFO root fetch - processPackages [MilesToMuppets]: Remove: archive file [/home/abi/fetcher/tmp/milestomuppets-0.0.5.tar.gz]
+[2024-05-21 07:40:10] INFO root fetch - processPackages [MilesToMuppets]: Remove: archive file [/home/abi/fetcher/tmp/milestomuppets-0.0.6.tar.gz]
+[2024-05-21 07:40:10] INFO root fetch - main [MainThread]: End processing [MilesToMuppets]: success
+[2024-05-21 07:40:10] INFO root fetch - processPackages [bioturing-connector]: Remove: archive file [/home/abi/fetcher/tmp/bioturing_connector-1.8.0.tar.gz]
+[2024-05-21 07:40:10] INFO root fetch - processPackages [bioturing-connector]: Remove: archive file [/home/abi/fetcher/tmp/bioturing_connector-1.9.0.tar.gz]
+[2024-05-21 07:40:10] INFO root fetch - main [MainThread]: End processing [bioturing-connector]: success
+[2024-05-21 07:40:10] INFO root fetch - main [MainThread]: Store serial: [23301529]
