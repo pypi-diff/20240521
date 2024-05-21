@@ -3280,3 +3280,56 @@
 [2024-05-21 02:44:56] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202405200044.tar.gz]
 [2024-05-21 02:44:56] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
 [2024-05-21 02:44:56] INFO root fetch - main [MainThread]: Store serial: [23298106]
+[2024-05-21 02:46:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23298106]
+[2024-05-21 02:47:04] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-21 02:47:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Geode-Implicit
+[2024-05-21 02:47:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: datajunction-server
+[2024-05-21 02:47:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: datajunction-query
+[2024-05-21 02:47:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: datajunction-reflection
+[2024-05-21 02:47:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-databrew-cicd
+[2024-05-21 02:47:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: datajunction
+[2024-05-21 02:47:05] INFO root fetch - processPackages [cdk-databrew-cicd]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-21 02:47:05] INFO root fetch - processPackages [datajunction-reflection]: New version: [0.0.1a48] Old Version: [0.0.1a47]
+[2024-05-21 02:47:05] INFO root fetch - processPackages [datajunction-query]: New version: [0.0.1a48] Old Version: [0.0.1a47]
+[2024-05-21 02:47:05] INFO root fetch - processPackages [datajunction]: New version: [0.0.1a9] Old Version: [0.0.1a8]
+[2024-05-21 02:47:05] INFO root fetch - processPackages [datajunction-server]: New version: [0.0.1a8] Old Version: [0.0.1a7]
+[2024-05-21 02:47:05] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/9c/18/acad9d22fe20a13d93a1aee49739981e3ab739a2edcb478344aa0fc5b783/cdk_databrew_cicd-2.0.98.tar.gz
+[2024-05-21 02:47:05] INFO root fetch - processPackages [Geode-Implicit]: New version: [2.8.7rc1] Old Version: [2.8.7]
+[2024-05-21 02:47:05] INFO root fetch - processPackages [datajunction]: Downloading https://files.pythonhosted.org/packages/1c/dd/d011039dbc015ee0cadf6a3a31cdaef350b9b1ee49373c7b04f51d601564/datajunction-0.0.1a8.tar.gz
+[2024-05-21 02:47:05] INFO root fetch - processPackages [datajunction-reflection]: Downloading https://files.pythonhosted.org/packages/ad/1a/5ca5b29d11b3e01f08895e75ff538150a051c266f1cd117fe657986e751b/datajunction_reflection-0.0.1a47.tar.gz
+[2024-05-21 02:47:05] INFO root fetch - processPackages [datajunction-query]: Downloading https://files.pythonhosted.org/packages/e5/6c/8ac8b5035a28f44a678737945625d3723ca3447f37c20a17f7087d7d9a91/datajunction_query-0.0.1a47.tar.gz
+[2024-05-21 02:47:05] INFO root fetch - processPackages [Geode-Implicit]: Downloading https://files.pythonhosted.org/packages/55/5d/77179ca16958aefa3e2dceb8821392028b3dc5249c60940eae162e40f65c/Geode_Implicit-2.8.7-cp39-cp39-manylinux2014_x86_64.whl
+[2024-05-21 02:47:05] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/66/41/4c5089b171b28b627753bb3de1b4b696fdaeb4f78ef49dcb72a79fcb6e9d/cdk_databrew_cicd-2.0.99.tar.gz
+[2024-05-21 02:47:05] INFO root fetch - processPackages [datajunction-server]: Downloading https://files.pythonhosted.org/packages/5e/74/837b55d32da7e6b69cec7b2da69fbb3dcc2a71dc1ee1e0d3dd407363f091/datajunction_server-0.0.1a8.tar.gz
+[2024-05-21 02:47:05] INFO root fetch - processPackages [datajunction-reflection]: Downloading https://files.pythonhosted.org/packages/a3/ce/8779fa4ff0420bf2c952c3424473af7fae93a739b0e94b31e5424f36b379/datajunction_reflection-0.0.1a48.tar.gz
+[2024-05-21 02:47:05] WARNING root fetch - processPackages [datajunction-server]: Skipping package: exceeds size limit 25698763>=10485760
+[2024-05-21 02:47:05] INFO root fetch - main [MainThread]: End processing [datajunction-server] error
+[2024-05-21 02:47:05] INFO root fetch - processPackages [datajunction-query]: Downloading https://files.pythonhosted.org/packages/de/cd/9689829173c519b5449f57cd57e3aa8c07d094c23f0d4495b89ffc956c83/datajunction_query-0.0.1a48.tar.gz
+[2024-05-21 02:47:05] INFO root fetch - processPackages [cdk-databrew-cicd]: executing diffoscope
+[2024-05-21 02:47:05] INFO root fetch - processPackages [cdk-databrew-cicd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_databrew_cicd-2.0.98.tar.gz tmp/cdk_databrew_cicd-2.0.99.tar.gz --markdown 20240521/c/cdk-databrew-cicd/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-21 02:47:05] INFO root fetch - processPackages [datajunction-reflection]: executing diffoscope
+[2024-05-21 02:47:05] INFO root fetch - processPackages [datajunction-reflection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datajunction_reflection-0.0.1a47.tar.gz tmp/datajunction_reflection-0.0.1a48.tar.gz --markdown 20240521/d/datajunction-reflection/0.0.1a47-0.0.1a48/README.md --exclude *.pyd
+[2024-05-21 02:47:05] INFO root fetch - processPackages [datajunction]: Downloading https://files.pythonhosted.org/packages/a3/56/726ef8b88da5d7d28a93212e0247effc166d3a97fbe5bb9c64412e7e2c66/datajunction-0.0.1a9.tar.gz
+[2024-05-21 02:47:05] INFO root fetch - processPackages [datajunction-query]: executing diffoscope
+[2024-05-21 02:47:05] INFO root fetch - processPackages [datajunction-query]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datajunction_query-0.0.1a47.tar.gz tmp/datajunction_query-0.0.1a48.tar.gz --markdown 20240521/d/datajunction-query/0.0.1a47-0.0.1a48/README.md --exclude *.pyd
+[2024-05-21 02:47:06] INFO root fetch - processPackages [datajunction]: executing diffoscope
+[2024-05-21 02:47:06] INFO root fetch - processPackages [datajunction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datajunction-0.0.1a8.tar.gz tmp/datajunction-0.0.1a9.tar.gz --markdown 20240521/d/datajunction/0.0.1a8-0.0.1a9/README.md --exclude *.pyd
+[2024-05-21 02:47:06] INFO root fetch - processPackages [datajunction-reflection]: Remove: archive file [/home/abi/fetcher/tmp/datajunction_reflection-0.0.1a47.tar.gz]
+[2024-05-21 02:47:06] INFO root fetch - processPackages [datajunction-reflection]: Remove: archive file [/home/abi/fetcher/tmp/datajunction_reflection-0.0.1a48.tar.gz]
+[2024-05-21 02:47:06] INFO root fetch - main [MainThread]: End processing [datajunction-reflection]: success
+[2024-05-21 02:47:06] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.98.tar.gz]
+[2024-05-21 02:47:06] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.99.tar.gz]
+[2024-05-21 02:47:06] INFO root fetch - main [MainThread]: End processing [cdk-databrew-cicd]: success
+[2024-05-21 02:47:06] INFO root fetch - processPackages [datajunction]: Remove: archive file [/home/abi/fetcher/tmp/datajunction-0.0.1a8.tar.gz]
+[2024-05-21 02:47:06] INFO root fetch - processPackages [datajunction]: Remove: archive file [/home/abi/fetcher/tmp/datajunction-0.0.1a9.tar.gz]
+[2024-05-21 02:47:06] INFO root fetch - main [MainThread]: End processing [datajunction]: success
+[2024-05-21 02:47:06] INFO root fetch - processPackages [datajunction-query]: Remove: archive file [/home/abi/fetcher/tmp/datajunction_query-0.0.1a47.tar.gz]
+[2024-05-21 02:47:06] INFO root fetch - processPackages [datajunction-query]: Remove: archive file [/home/abi/fetcher/tmp/datajunction_query-0.0.1a48.tar.gz]
+[2024-05-21 02:47:06] INFO root fetch - main [MainThread]: End processing [datajunction-query]: success
+[2024-05-21 02:47:06] INFO root fetch - processPackages [Geode-Implicit]: Downloading https://files.pythonhosted.org/packages/47/84/42520b2677a3c68df0a206c4b442d0516c968b0ad9beb8190ffaa7dee8aa/Geode_Implicit-2.8.7rc1-cp39-cp39-win_amd64.whl
+[2024-05-21 02:47:07] INFO root fetch - processPackages [Geode-Implicit]: executing diffoscope
+[2024-05-21 02:47:07] INFO root fetch - processPackages [Geode-Implicit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Implicit-2.8.7-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/Geode_Implicit-2.8.7rc1-cp39-cp39-win_amd64.whl.zip --markdown 20240521/G/Geode-Implicit/2.8.7-2.8.7rc1/README.md --exclude *.pyd
+[2024-05-21 02:47:08] INFO root fetch - processPackages [Geode-Implicit]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Implicit-2.8.7-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-05-21 02:47:08] INFO root fetch - processPackages [Geode-Implicit]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Implicit-2.8.7rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-05-21 02:47:08] INFO root fetch - main [MainThread]: End processing [Geode-Implicit]: success
+[2024-05-21 02:47:08] INFO root fetch - main [MainThread]: Store serial: [23298125]
