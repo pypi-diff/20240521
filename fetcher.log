@@ -13021,3 +13021,69 @@
 [2024-05-21 08:13:10] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.6.0.dev20240520.tar.gz]
 [2024-05-21 08:13:10] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
 [2024-05-21 08:13:10] INFO root fetch - main [MainThread]: Store serial: [23301843]
+[2024-05-21 08:15:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23301843]
+[2024-05-21 08:15:19] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-21 08:15:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lbTool
+[2024-05-21 08:15:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-purchase-order-approved
+[2024-05-21 08:15:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ralium
+[2024-05-21 08:15:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pms-encoder
+[2024-05-21 08:15:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-purchase-order-type
+[2024-05-21 08:15:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: reloadium
+[2024-05-21 08:15:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-purchase-allowed-product
+[2024-05-21 08:15:19] INFO root fetch - processPackages [pms-encoder]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-21 08:15:19] INFO root fetch - processPackages [ralium]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-05-21 08:15:19] INFO root fetch - processPackages [odoo-addon-purchase-order-approved]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.8]
+[2024-05-21 08:15:19] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/80/f1/88f2f54188c15bf6cca5ba7a3a347b8d1c83b15a626f541acf3dde5aa63d/pms_encoder-0.0.8.tar.gz
+[2024-05-21 08:15:19] INFO root fetch - processPackages [lbTool]: New version: [1.3.7] Old Version: [1.3.6]
+[2024-05-21 08:15:19] INFO root fetch - processPackages [ralium]: Downloading https://files.pythonhosted.org/packages/57/dc/4e840215b3374691a689235ecaa910b7ed0621aa90cfa965aab8de1f2fe5/ralium-1.1.0.tar.gz
+[2024-05-21 08:15:19] INFO root fetch - processPackages [odoo-addon-purchase-order-type]: New version: [17.0.1.0.0.5] Old Version: [17.0.1.0.0.4]
+[2024-05-21 08:15:19] INFO root fetch - processPackages [odoo-addon-purchase-allowed-product]: New version: [16.0.2.1.0.1] Old Version: [16.0.2.1.0]
+[2024-05-21 08:15:19] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/93/31/8bb081756db42925fab6507b6e0f497d6bf45acd407ff38cb00f2aaec54c/pms_encoder-0.0.9.tar.gz
+[2024-05-21 08:15:19] INFO root fetch - processPackages [reloadium]: New version: [1.5.0] Old Version: [1.4.1]
+[2024-05-21 08:15:19] INFO root fetch - processPackages [odoo-addon-purchase-order-approved]: Downloading https://files.pythonhosted.org/packages/1b/45/c253f64b3e4557428bbf4c5540cb1a896e5be22f6a08031b5b852da0ba49/odoo_addon_purchase_order_approved-16.0.1.0.0.8-py3-none-any.whl
+[2024-05-21 08:15:19] INFO root fetch - processPackages [lbTool]: Downloading https://files.pythonhosted.org/packages/07/be/233a6ebb83347777fb8bfd3957ab6a9c75a90036620e8a8628ae4381f858/lbtool-1.3.6.tar.gz
+[2024-05-21 08:15:19] INFO root fetch - processPackages [odoo-addon-purchase-allowed-product]: Downloading https://files.pythonhosted.org/packages/bd/de/97ebb03b25d03c475c9f2d2b2efa95622c2308b2e580b55810ad588429d8/odoo_addon_purchase_allowed_product-16.0.2.1.0-py3-none-any.whl
+[2024-05-21 08:15:19] INFO root fetch - processPackages [odoo-addon-purchase-order-type]: Downloading https://files.pythonhosted.org/packages/6e/f2/0139932516fbb40bcd4a3a36a60abc49a548062fda9c86bcd78e23485ea4/odoo_addon_purchase_order_type-17.0.1.0.0.4-py3-none-any.whl
+[2024-05-21 08:15:19] INFO root fetch - processPackages [pms-encoder]: executing diffoscope
+[2024-05-21 08:15:19] INFO root fetch - processPackages [pms-encoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pms_encoder-0.0.8.tar.gz tmp/pms_encoder-0.0.9.tar.gz --markdown 20240521/p/pms-encoder/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-21 08:15:20] INFO root fetch - processPackages [ralium]: Downloading https://files.pythonhosted.org/packages/69/3a/b4fdfa5aefb61a8906b635c8bd0a5890e613e39ea08e884701d1be9f4992/ralium-1.2.0.tar.gz
+[2024-05-21 08:15:20] INFO root fetch - processPackages [reloadium]: Downloading https://files.pythonhosted.org/packages/39/df/b6c60903ebacdfeb6dc3c8770ccf29e29ff91184bbbe426073e22c64bd54/reloadium-1.4.1-py3-none-any.whl
+[2024-05-21 08:15:20] INFO root fetch - processPackages [ralium]: executing diffoscope
+[2024-05-21 08:15:20] INFO root fetch - processPackages [ralium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ralium-1.1.0.tar.gz tmp/ralium-1.2.0.tar.gz --markdown 20240521/r/ralium/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-05-21 08:15:20] INFO root fetch - processPackages [odoo-addon-purchase-allowed-product]: Downloading https://files.pythonhosted.org/packages/5f/1d/43a5cc05ba151c39d65d69eddd2a4abd9df2a3f9a8d7b0508ab79a6723a7/odoo_addon_purchase_allowed_product-16.0.2.1.0.1-py3-none-any.whl
+[2024-05-21 08:15:20] INFO root fetch - processPackages [lbTool]: Downloading https://files.pythonhosted.org/packages/19/f4/227ef861b7b071c023b82cb289c54fc0eb58baae79d59556ae3758cbd481/lbtool-1.3.7.tar.gz
+[2024-05-21 08:15:20] INFO root fetch - processPackages [odoo-addon-purchase-order-approved]: Downloading https://files.pythonhosted.org/packages/ef/44/0bfcbbf2479f5f99540b5755bdd555958cb89a145d1775d467df2d5ae9a9/odoo_addon_purchase_order_approved-16.0.1.0.0.9-py3-none-any.whl
+[2024-05-21 08:15:20] INFO root fetch - processPackages [odoo-addon-purchase-order-type]: Downloading https://files.pythonhosted.org/packages/6c/ca/76815b3aa5a651e02f3f076f3ae2cd6ae79cc5fd19e0b80116385d3f58eb/odoo_addon_purchase_order_type-17.0.1.0.0.5-py3-none-any.whl
+[2024-05-21 08:15:20] INFO root fetch - processPackages [lbTool]: executing diffoscope
+[2024-05-21 08:15:20] INFO root fetch - processPackages [lbTool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbtool-1.3.6.tar.gz tmp/lbtool-1.3.7.tar.gz --markdown 20240521/l/lbTool/1.3.6-1.3.7/README.md --exclude *.pyd
+[2024-05-21 08:15:20] INFO root fetch - processPackages [odoo-addon-purchase-allowed-product]: executing diffoscope
+[2024-05-21 08:15:20] INFO root fetch - processPackages [odoo-addon-purchase-allowed-product]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_allowed_product-16.0.2.1.0-py3-none-any.whl.zip tmp/odoo_addon_purchase_allowed_product-16.0.2.1.0.1-py3-none-any.whl.zip --markdown 20240521/o/odoo-addon-purchase-allowed-product/16.0.2.1.0-16.0.2.1.0.1/README.md --exclude *.pyd
+[2024-05-21 08:15:20] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.8.tar.gz]
+[2024-05-21 08:15:20] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.9.tar.gz]
+[2024-05-21 08:15:20] INFO root fetch - main [MainThread]: End processing [pms-encoder]: success
+[2024-05-21 08:15:20] INFO root fetch - processPackages [odoo-addon-purchase-order-approved]: executing diffoscope
+[2024-05-21 08:15:20] INFO root fetch - processPackages [odoo-addon-purchase-order-approved]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_order_approved-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_purchase_order_approved-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20240521/o/odoo-addon-purchase-order-approved/16.0.1.0.0.8-16.0.1.0.0.9/README.md --exclude *.pyd
+[2024-05-21 08:15:20] INFO root fetch - processPackages [reloadium]: Downloading https://files.pythonhosted.org/packages/b7/80/309797c82eb94e62129cd71fc6f8c490551d0f1de21f7597cb5d8088718c/reloadium-1.5.0-py3-none-any.whl
+[2024-05-21 08:15:20] INFO root fetch - processPackages [odoo-addon-purchase-order-type]: executing diffoscope
+[2024-05-21 08:15:20] INFO root fetch - processPackages [odoo-addon-purchase-order-type]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_order_type-17.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_purchase_order_type-17.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240521/o/odoo-addon-purchase-order-type/17.0.1.0.0.4-17.0.1.0.0.5/README.md --exclude *.pyd
+[2024-05-21 08:15:20] INFO root fetch - processPackages [reloadium]: executing diffoscope
+[2024-05-21 08:15:20] INFO root fetch - processPackages [reloadium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reloadium-1.4.1-py3-none-any.whl.zip tmp/reloadium-1.5.0-py3-none-any.whl.zip --markdown 20240521/r/reloadium/1.4.1-1.5.0/README.md --exclude *.pyd
+[2024-05-21 08:15:20] INFO root fetch - processPackages [ralium]: Remove: archive file [/home/abi/fetcher/tmp/ralium-1.1.0.tar.gz]
+[2024-05-21 08:15:20] INFO root fetch - processPackages [ralium]: Remove: archive file [/home/abi/fetcher/tmp/ralium-1.2.0.tar.gz]
+[2024-05-21 08:15:20] INFO root fetch - main [MainThread]: End processing [ralium]: success
+[2024-05-21 08:15:21] INFO root fetch - processPackages [lbTool]: Remove: archive file [/home/abi/fetcher/tmp/lbtool-1.3.6.tar.gz]
+[2024-05-21 08:15:21] INFO root fetch - processPackages [lbTool]: Remove: archive file [/home/abi/fetcher/tmp/lbtool-1.3.7.tar.gz]
+[2024-05-21 08:15:21] INFO root fetch - main [MainThread]: End processing [lbTool]: success
+[2024-05-21 08:15:21] INFO root fetch - processPackages [odoo-addon-purchase-allowed-product]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_allowed_product-16.0.2.1.0-py3-none-any.whl.zip]
+[2024-05-21 08:15:21] INFO root fetch - processPackages [odoo-addon-purchase-allowed-product]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_allowed_product-16.0.2.1.0.1-py3-none-any.whl.zip]
+[2024-05-21 08:15:21] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-allowed-product]: success
+[2024-05-21 08:15:21] INFO root fetch - processPackages [odoo-addon-purchase-order-approved]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_order_approved-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2024-05-21 08:15:21] INFO root fetch - processPackages [odoo-addon-purchase-order-approved]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_order_approved-16.0.1.0.0.9-py3-none-any.whl.zip]
+[2024-05-21 08:15:21] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-order-approved]: success
+[2024-05-21 08:15:21] INFO root fetch - processPackages [odoo-addon-purchase-order-type]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_order_type-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-21 08:15:21] INFO root fetch - processPackages [odoo-addon-purchase-order-type]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_order_type-17.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-05-21 08:15:21] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-order-type]: success
+[2024-05-21 08:15:21] INFO root fetch - processPackages [reloadium]: Remove: archive file [/home/abi/fetcher/tmp/reloadium-1.4.1-py3-none-any.whl.zip]
+[2024-05-21 08:15:21] INFO root fetch - processPackages [reloadium]: Remove: archive file [/home/abi/fetcher/tmp/reloadium-1.5.0-py3-none-any.whl.zip]
+[2024-05-21 08:15:21] INFO root fetch - main [MainThread]: End processing [reloadium]: success
+[2024-05-21 08:15:21] INFO root fetch - main [MainThread]: Store serial: [23301874]
