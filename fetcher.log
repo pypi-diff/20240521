@@ -14380,3 +14380,36 @@
 [2024-05-21 09:05:44] INFO root fetch - processPackages [modelmerge]: Remove: archive file [/home/abi/fetcher/tmp/modelmerge-0.5.5.tar.gz]
 [2024-05-21 09:05:44] INFO root fetch - main [MainThread]: End processing [modelmerge]: success
 [2024-05-21 09:05:44] INFO root fetch - main [MainThread]: Store serial: [23302327]
+[2024-05-21 09:07:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23302327]
+[2024-05-21 09:07:53] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-21 09:07:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: modelmerge
+[2024-05-21 09:07:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: plotai
+[2024-05-21 09:07:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lyrebird
+[2024-05-21 09:07:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ellis-django-views
+[2024-05-21 09:07:53] INFO root fetch - processPackages [plotai]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-21 09:07:53] INFO root fetch - processPackages [plotai]: Downloading https://files.pythonhosted.org/packages/86/1f/542ae456fab4e71d44c13f50ea42c7047621dfd476e92a78daf4ff9ea696/plotai-0.0.3.tar.gz
+[2024-05-21 09:07:53] WARNING root fetch - processPackages [ellis-django-views]: Skipping, unable to determine old version
+[2024-05-21 09:07:53] INFO root fetch - main [MainThread]: End processing [ellis-django-views] error
+[2024-05-21 09:07:53] INFO root fetch - processPackages [modelmerge]: New version: [0.5.5] Old Version: [0.5.4]
+[2024-05-21 09:07:53] INFO root fetch - processPackages [lyrebird]: New version: [3.0.0] Old Version: [2.9.2]
+[2024-05-21 09:07:54] INFO root fetch - processPackages [modelmerge]: Downloading https://files.pythonhosted.org/packages/4d/f7/035e6eec7e739cc228bc017b38bfeda501e9aea7e581c7db1b9233759cf7/modelmerge-0.5.4.tar.gz
+[2024-05-21 09:07:54] INFO root fetch - processPackages [plotai]: Downloading https://files.pythonhosted.org/packages/58/1f/6e5e3c282dc3dbc652e2ac93e1c374b05685ce234657915caf7fc1b72b63/plotai-0.0.4.tar.gz
+[2024-05-21 09:07:54] INFO root fetch - processPackages [lyrebird]: Downloading https://files.pythonhosted.org/packages/77/cb/ae987ef021622334d287593ae7760a4c9bac044e030a96acf5a262910328/lyrebird-2.9.2.tar.gz
+[2024-05-21 09:07:54] INFO root fetch - processPackages [modelmerge]: Downloading https://files.pythonhosted.org/packages/8d/ee/471b3eda5160336e2bdcad1b49b1c44425c10874f3f57be2c52a0c306ad3/modelmerge-0.5.5.tar.gz
+[2024-05-21 09:07:54] INFO root fetch - processPackages [plotai]: executing diffoscope
+[2024-05-21 09:07:54] INFO root fetch - processPackages [plotai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plotai-0.0.3.tar.gz tmp/plotai-0.0.4.tar.gz --markdown 20240521/p/plotai/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-21 09:07:54] INFO root fetch - processPackages [modelmerge]: executing diffoscope
+[2024-05-21 09:07:54] INFO root fetch - processPackages [modelmerge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelmerge-0.5.4.tar.gz tmp/modelmerge-0.5.5.tar.gz --markdown 20240521/m/modelmerge/0.5.4-0.5.5/README.md --exclude *.pyd
+[2024-05-21 09:07:54] INFO root fetch - processPackages [plotai]: Remove: archive file [/home/abi/fetcher/tmp/plotai-0.0.3.tar.gz]
+[2024-05-21 09:07:54] INFO root fetch - processPackages [plotai]: Remove: archive file [/home/abi/fetcher/tmp/plotai-0.0.4.tar.gz]
+[2024-05-21 09:07:54] INFO root fetch - main [MainThread]: End processing [plotai]: success
+[2024-05-21 09:07:54] INFO root fetch - processPackages [modelmerge]: Remove: archive file [/home/abi/fetcher/tmp/modelmerge-0.5.4.tar.gz]
+[2024-05-21 09:07:54] INFO root fetch - processPackages [modelmerge]: Remove: archive file [/home/abi/fetcher/tmp/modelmerge-0.5.5.tar.gz]
+[2024-05-21 09:07:54] INFO root fetch - main [MainThread]: End processing [modelmerge]: success
+[2024-05-21 09:07:56] INFO root fetch - processPackages [lyrebird]: Downloading https://files.pythonhosted.org/packages/b8/66/6a92fdec687f64c603d9ac8a83d5c1ba398bec46e4953ad6f57517dcbc07/lyrebird-3.0.0.tar.gz
+[2024-05-21 09:07:57] INFO root fetch - processPackages [lyrebird]: executing diffoscope
+[2024-05-21 09:07:57] INFO root fetch - processPackages [lyrebird]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lyrebird-2.9.2.tar.gz tmp/lyrebird-3.0.0.tar.gz --markdown 20240521/l/lyrebird/2.9.2-3.0.0/README.md --exclude *.pyd
+[2024-05-21 09:09:03] INFO root fetch - processPackages [lyrebird]: Remove: archive file [/home/abi/fetcher/tmp/lyrebird-2.9.2.tar.gz]
+[2024-05-21 09:09:03] INFO root fetch - processPackages [lyrebird]: Remove: archive file [/home/abi/fetcher/tmp/lyrebird-3.0.0.tar.gz]
+[2024-05-21 09:09:03] INFO root fetch - main [MainThread]: End processing [lyrebird]: success
+[2024-05-21 09:09:03] INFO root fetch - main [MainThread]: Store serial: [23302341]
