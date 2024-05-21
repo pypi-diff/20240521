@@ -16870,3 +16870,87 @@
 [2024-05-21 10:37:46] INFO root fetch - processPackages [chemcat]: Remove: archive file [/home/abi/fetcher/tmp/chemcat-0.3.9.tar.gz]
 [2024-05-21 10:37:46] INFO root fetch - main [MainThread]: End processing [chemcat]: success
 [2024-05-21 10:37:46] INFO root fetch - main [MainThread]: Store serial: [23303226]
+[2024-05-21 10:39:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23303226]
+[2024-05-21 10:39:55] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-21 10:39:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: slurpkit
+[2024-05-21 10:39:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kuzu
+[2024-05-21 10:39:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Flask-AppBuilder
+[2024-05-21 10:39:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flatpack
+[2024-05-21 10:39:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: some-aiohttp-middleware
+[2024-05-21 10:39:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: widget-code-input
+[2024-05-21 10:39:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: scrapegraphai
+[2024-05-21 10:39:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: keelson
+[2024-05-21 10:39:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dzidb
+[2024-05-21 10:39:56] INFO root fetch - processPackages [dzidb]: New version: [1.1] Old Version: [1.0.4]
+[2024-05-21 10:39:56] INFO root fetch - processPackages [slurpkit]: New version: [0.9.17] Old Version: [0.9.16]
+[2024-05-21 10:39:56] INFO root fetch - processPackages [Flask-AppBuilder]: New version: [4.5.0rc1] Old Version: [4.4.1rc2]
+[2024-05-21 10:39:56] INFO root fetch - processPackages [kuzu]: New version: [0.4.3.dev6] Old Version: [0.4.3.dev5]
+[2024-05-21 10:39:56] INFO root fetch - processPackages [flatpack]: New version: [3.4.99] Old Version: [3.4.98]
+[2024-05-21 10:39:56] INFO root fetch - processPackages [some-aiohttp-middleware]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-21 10:39:56] INFO root fetch - processPackages [keelson]: New version: [0.3.5rc4] Old Version: [0.3.5rc3]
+[2024-05-21 10:39:56] INFO root fetch - processPackages [widget-code-input]: New version: [4.0.10] Old Version: [3.6.2]
+[2024-05-21 10:39:56] INFO root fetch - processPackages [Flask-AppBuilder]: Downloading https://files.pythonhosted.org/packages/34/a4/adc2c67d876d2f172b0019c3b87e0597eb36fef54cd5afbc2f574610f2c2/Flask-AppBuilder-4.4.1rc2.tar.gz
+[2024-05-21 10:39:56] INFO root fetch - processPackages [scrapegraphai]: New version: [1.4.0b2] Old Version: [1.4.0b1]
+[2024-05-21 10:39:56] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/cb/39/adcd388eba8071e3318b3a2224e5c96179761da6dbd7cfa96b20311e810f/flatpack-3.4.98.tar.gz
+[2024-05-21 10:39:56] INFO root fetch - processPackages [kuzu]: Downloading https://files.pythonhosted.org/packages/55/ce/cbea1c566eb5ebaf34877534e50859cc511c668e0b0620fe154bfbe35aee/kuzu-0.4.3.dev5.tar.gz
+[2024-05-21 10:39:56] INFO root fetch - processPackages [slurpkit]: Downloading https://files.pythonhosted.org/packages/2f/cb/7b480c07966fd3daf5ab9a9728b083f4a3d378143825760ec10b2d49b13d/slurpkit-0.9.16.tar.gz
+[2024-05-21 10:39:56] INFO root fetch - processPackages [dzidb]: Downloading https://files.pythonhosted.org/packages/d8/46/b56d67828f672077f4725aa4e0d08c166633fb15b93b569c1f36dc3f5673/dzidb-1.0.4.tar.gz
+[2024-05-21 10:39:56] INFO root fetch - processPackages [some-aiohttp-middleware]: Downloading https://files.pythonhosted.org/packages/04/18/37f8dd0367ecd83a9e591c090cf0365011bc80f05a7a6fa39b4c7970bdac/some_aiohttp_middleware-0.1.6.tar.gz
+[2024-05-21 10:39:56] INFO root fetch - processPackages [widget-code-input]: Downloading https://files.pythonhosted.org/packages/b8/f8/559b304da98b1ff7675066f601abc362dc0dadb2ee1c481088e77834f6a2/widget_code_input-3.6.2.tar.gz
+[2024-05-21 10:39:56] INFO root fetch - processPackages [scrapegraphai]: Downloading https://files.pythonhosted.org/packages/45/c5/45eccecfe20c73d3964fa65a29072694841a55974fa85b3466c80cce144a/scrapegraphai-1.4.0b1.tar.gz
+[2024-05-21 10:39:56] INFO root fetch - processPackages [keelson]: Downloading https://files.pythonhosted.org/packages/fb/9e/48214ac11f8cd8e59bacc083b3b1c49c6892af0f1f602231471da5d7c3ff/keelson-0.3.5rc3-py3-none-any.whl
+[2024-05-21 10:39:56] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/89/20/a694f72cbfa96253cdb38b9f65c7cfd5f3a4fb145d2fe2483132b80dafd4/flatpack-3.4.99.tar.gz
+[2024-05-21 10:39:56] INFO root fetch - processPackages [dzidb]: Downloading https://files.pythonhosted.org/packages/ab/7b/1eb783cec2be6c8f5f50400132b6afae58c752421a84c34ef92cb658707b/dzidb-1.1.tar.gz
+[2024-05-21 10:39:56] INFO root fetch - processPackages [slurpkit]: Downloading https://files.pythonhosted.org/packages/7d/2c/50d532ab3fc18d061530c5aab17da5a6299b009356806c7960e58a51394b/slurpkit-0.9.17.tar.gz
+[2024-05-21 10:39:56] INFO root fetch - processPackages [flatpack]: executing diffoscope
+[2024-05-21 10:39:56] INFO root fetch - processPackages [flatpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flatpack-3.4.98.tar.gz tmp/flatpack-3.4.99.tar.gz --markdown 20240521/f/flatpack/3.4.98-3.4.99/README.md --exclude *.pyd
+[2024-05-21 10:39:56] INFO root fetch - processPackages [some-aiohttp-middleware]: Downloading https://files.pythonhosted.org/packages/92/df/5bf1a84e14f2a8fb1989532d66b28de1fa657ae2b46ebbef4d782ffced3e/some_aiohttp_middleware-0.1.7.tar.gz
+[2024-05-21 10:39:56] INFO root fetch - processPackages [dzidb]: executing diffoscope
+[2024-05-21 10:39:56] INFO root fetch - processPackages [dzidb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dzidb-1.0.4.tar.gz tmp/dzidb-1.1.tar.gz --markdown 20240521/d/dzidb/1.0.4-1.1/README.md --exclude *.pyd
+[2024-05-21 10:39:56] INFO root fetch - processPackages [slurpkit]: executing diffoscope
+[2024-05-21 10:39:56] INFO root fetch - processPackages [slurpkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slurpkit-0.9.16.tar.gz tmp/slurpkit-0.9.17.tar.gz --markdown 20240521/s/slurpkit/0.9.16-0.9.17/README.md --exclude *.pyd
+[2024-05-21 10:39:56] INFO root fetch - processPackages [keelson]: Downloading https://files.pythonhosted.org/packages/d3/29/ee6bb2540a5be22bd99530a8f505abf24caaddf1375d49a6101598effa27/keelson-0.3.5rc4-py3-none-any.whl
+[2024-05-21 10:39:56] INFO root fetch - processPackages [some-aiohttp-middleware]: executing diffoscope
+[2024-05-21 10:39:56] INFO root fetch - processPackages [some-aiohttp-middleware]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/some_aiohttp_middleware-0.1.6.tar.gz tmp/some_aiohttp_middleware-0.1.7.tar.gz --markdown 20240521/s/some-aiohttp-middleware/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-21 10:39:56] INFO root fetch - processPackages [widget-code-input]: Downloading https://files.pythonhosted.org/packages/cd/c8/45e4ae9c9a8e31646c2454661700c67c1967e4993719a28223f3dfc1012e/widget_code_input-4.0.10.tar.gz
+[2024-05-21 10:39:56] INFO root fetch - processPackages [Flask-AppBuilder]: Downloading https://files.pythonhosted.org/packages/f3/b5/7426952128801201a26ec1f181d2aef9002c55c333db2278907db5c41b0a/Flask-AppBuilder-4.5.0rc1.tar.gz
+[2024-05-21 10:39:57] INFO root fetch - processPackages [widget-code-input]: executing diffoscope
+[2024-05-21 10:39:57] INFO root fetch - processPackages [widget-code-input]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/widget_code_input-3.6.2.tar.gz tmp/widget_code_input-4.0.10.tar.gz --markdown 20240521/w/widget-code-input/3.6.2-4.0.10/README.md --exclude *.pyd
+[2024-05-21 10:39:57] INFO root fetch - processPackages [scrapegraphai]: Downloading https://files.pythonhosted.org/packages/8a/95/aed20f8b4afff9f9f2c2252fde6fda9d2082e19e47a17ed5feae469fcb31/scrapegraphai-1.4.0b2.tar.gz
+[2024-05-21 10:39:57] INFO root fetch - processPackages [keelson]: executing diffoscope
+[2024-05-21 10:39:57] INFO root fetch - processPackages [keelson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keelson-0.3.5rc3-py3-none-any.whl.zip tmp/keelson-0.3.5rc4-py3-none-any.whl.zip --markdown 20240521/k/keelson/0.3.5rc3-0.3.5rc4/README.md --exclude *.pyd
+[2024-05-21 10:39:57] INFO root fetch - processPackages [kuzu]: Downloading https://files.pythonhosted.org/packages/fd/f5/baae8217f0548053d6ab4d832ace7f30b5e7c21e5651b245253bb97d743d/kuzu-0.4.3.dev6.tar.gz
+[2024-05-21 10:39:57] INFO root fetch - processPackages [scrapegraphai]: executing diffoscope
+[2024-05-21 10:39:57] INFO root fetch - processPackages [scrapegraphai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapegraphai-1.4.0b1.tar.gz tmp/scrapegraphai-1.4.0b2.tar.gz --markdown 20240521/s/scrapegraphai/1.4.0b1-1.4.0b2/README.md --exclude *.pyd
+[2024-05-21 10:39:57] INFO root fetch - processPackages [dzidb]: Remove: archive file [/home/abi/fetcher/tmp/dzidb-1.0.4.tar.gz]
+[2024-05-21 10:39:57] INFO root fetch - processPackages [dzidb]: Remove: archive file [/home/abi/fetcher/tmp/dzidb-1.1.tar.gz]
+[2024-05-21 10:39:57] INFO root fetch - main [MainThread]: End processing [dzidb]: success
+[2024-05-21 10:39:57] INFO root fetch - processPackages [Flask-AppBuilder]: executing diffoscope
+[2024-05-21 10:39:57] INFO root fetch - processPackages [Flask-AppBuilder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Flask-AppBuilder-4.4.1rc2.tar.gz tmp/Flask-AppBuilder-4.5.0rc1.tar.gz --markdown 20240521/F/Flask-AppBuilder/4.4.1rc2-4.5.0rc1/README.md --exclude *.pyd
+[2024-05-21 10:39:57] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.98.tar.gz]
+[2024-05-21 10:39:57] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.99.tar.gz]
+[2024-05-21 10:39:57] INFO root fetch - main [MainThread]: End processing [flatpack]: success
+[2024-05-21 10:39:57] INFO root fetch - processPackages [kuzu]: executing diffoscope
+[2024-05-21 10:39:57] INFO root fetch - processPackages [kuzu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuzu-0.4.3.dev5.tar.gz tmp/kuzu-0.4.3.dev6.tar.gz --markdown 20240521/k/kuzu/0.4.3.dev5-0.4.3.dev6/README.md --exclude *.pyd
+[2024-05-21 10:39:57] INFO root fetch - processPackages [slurpkit]: Remove: archive file [/home/abi/fetcher/tmp/slurpkit-0.9.16.tar.gz]
+[2024-05-21 10:39:57] INFO root fetch - processPackages [slurpkit]: Remove: archive file [/home/abi/fetcher/tmp/slurpkit-0.9.17.tar.gz]
+[2024-05-21 10:39:57] INFO root fetch - main [MainThread]: End processing [slurpkit]: success
+[2024-05-21 10:39:57] INFO root fetch - processPackages [some-aiohttp-middleware]: Remove: archive file [/home/abi/fetcher/tmp/some_aiohttp_middleware-0.1.6.tar.gz]
+[2024-05-21 10:39:57] INFO root fetch - processPackages [some-aiohttp-middleware]: Remove: archive file [/home/abi/fetcher/tmp/some_aiohttp_middleware-0.1.7.tar.gz]
+[2024-05-21 10:39:57] INFO root fetch - main [MainThread]: End processing [some-aiohttp-middleware]: success
+[2024-05-21 10:39:57] INFO root fetch - processPackages [keelson]: Remove: archive file [/home/abi/fetcher/tmp/keelson-0.3.5rc3-py3-none-any.whl.zip]
+[2024-05-21 10:39:57] INFO root fetch - processPackages [keelson]: Remove: archive file [/home/abi/fetcher/tmp/keelson-0.3.5rc4-py3-none-any.whl.zip]
+[2024-05-21 10:39:57] INFO root fetch - main [MainThread]: End processing [keelson]: success
+[2024-05-21 10:39:57] INFO root fetch - processPackages [widget-code-input]: Remove: archive file [/home/abi/fetcher/tmp/widget_code_input-3.6.2.tar.gz]
+[2024-05-21 10:39:57] INFO root fetch - processPackages [widget-code-input]: Remove: archive file [/home/abi/fetcher/tmp/widget_code_input-4.0.10.tar.gz]
+[2024-05-21 10:39:57] INFO root fetch - main [MainThread]: End processing [widget-code-input]: success
+[2024-05-21 10:39:59] INFO root fetch - processPackages [scrapegraphai]: Remove: archive file [/home/abi/fetcher/tmp/scrapegraphai-1.4.0b1.tar.gz]
+[2024-05-21 10:39:59] INFO root fetch - processPackages [scrapegraphai]: Remove: archive file [/home/abi/fetcher/tmp/scrapegraphai-1.4.0b2.tar.gz]
+[2024-05-21 10:39:59] INFO root fetch - main [MainThread]: End processing [scrapegraphai]: success
+[2024-05-21 10:40:01] INFO root fetch - processPackages [Flask-AppBuilder]: Remove: archive file [/home/abi/fetcher/tmp/Flask-AppBuilder-4.4.1rc2.tar.gz]
+[2024-05-21 10:40:01] INFO root fetch - processPackages [Flask-AppBuilder]: Remove: archive file [/home/abi/fetcher/tmp/Flask-AppBuilder-4.5.0rc1.tar.gz]
+[2024-05-21 10:40:01] INFO root fetch - main [MainThread]: End processing [Flask-AppBuilder]: success
+[2024-05-21 10:40:04] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.4.3.dev5.tar.gz]
+[2024-05-21 10:40:04] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.4.3.dev6.tar.gz]
+[2024-05-21 10:40:04] INFO root fetch - main [MainThread]: End processing [kuzu]: success
+[2024-05-21 10:40:04] INFO root fetch - main [MainThread]: Store serial: [23303279]
