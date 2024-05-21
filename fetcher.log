@@ -9158,3 +9158,24 @@
 [2024-05-21 05:15:35] INFO root fetch - processPackages [keras-cv-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_cv_nightly-0.9.0.dev2024043000.tar.gz]
 [2024-05-21 05:15:35] INFO root fetch - main [MainThread]: End processing [keras-cv-nightly]: success
 [2024-05-21 05:15:35] INFO root fetch - main [MainThread]: Store serial: [23300405]
+[2024-05-21 05:17:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23300405]
+[2024-05-21 05:17:44] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-21 05:17:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pycde
+[2024-05-21 05:17:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-account-statement-import
+[2024-05-21 05:17:44] INFO root fetch - processPackages [pycde]: New version: [0.4.0] Old Version: [0.3.1.dev1066]
+[2024-05-21 05:17:44] INFO root fetch - processPackages [odoo14-addon-account-statement-import]: New version: [14.0.3.3.3.dev2] Old Version: [14.0.3.3.3.dev1]
+[2024-05-21 05:17:44] INFO root fetch - processPackages [pycde]: Downloading https://files.pythonhosted.org/packages/d1/2a/291098d6e87211de4e7e1d97600c470c05c911c013a349ea2e1040a45976/pycde-0.3.1.dev1066-cp39-cp39-win_amd64.whl
+[2024-05-21 05:17:44] INFO root fetch - processPackages [odoo14-addon-account-statement-import]: Downloading https://files.pythonhosted.org/packages/eb/3c/8957950d7fc577832328fe060ba7ce16510b5e6471617bd1cc7580e9c7d2/odoo14_addon_account_statement_import-14.0.3.3.3.dev1-py3-none-any.whl
+[2024-05-21 05:17:45] INFO root fetch - processPackages [odoo14-addon-account-statement-import]: Downloading https://files.pythonhosted.org/packages/c7/19/1196a69c6cabe4eae9aa0bb9dd3782cc76b53c1d953001546c6a52b3b2d2/odoo14_addon_account_statement_import-14.0.3.3.3.dev2-py3-none-any.whl
+[2024-05-21 05:17:45] INFO root fetch - processPackages [pycde]: Downloading https://files.pythonhosted.org/packages/28/60/015999e6d84cc64f6ddea88cd7716a47e3327ada9ef3ef26c354a6af6ff9/pycde-0.4.0-cp39-cp39-win_amd64.whl
+[2024-05-21 05:17:45] INFO root fetch - processPackages [odoo14-addon-account-statement-import]: executing diffoscope
+[2024-05-21 05:17:45] INFO root fetch - processPackages [odoo14-addon-account-statement-import]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_statement_import-14.0.3.3.3.dev1-py3-none-any.whl.zip tmp/odoo14_addon_account_statement_import-14.0.3.3.3.dev2-py3-none-any.whl.zip --markdown 20240521/o/odoo14-addon-account-statement-import/14.0.3.3.3.dev1-14.0.3.3.3.dev2/README.md --exclude *.pyd
+[2024-05-21 05:17:46] INFO root fetch - processPackages [odoo14-addon-account-statement-import]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_statement_import-14.0.3.3.3.dev1-py3-none-any.whl.zip]
+[2024-05-21 05:17:46] INFO root fetch - processPackages [odoo14-addon-account-statement-import]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_statement_import-14.0.3.3.3.dev2-py3-none-any.whl.zip]
+[2024-05-21 05:17:46] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-statement-import]: success
+[2024-05-21 05:17:47] INFO root fetch - processPackages [pycde]: executing diffoscope
+[2024-05-21 05:17:47] INFO root fetch - processPackages [pycde]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycde-0.3.1.dev1066-cp39-cp39-win_amd64.whl.zip tmp/pycde-0.4.0-cp39-cp39-win_amd64.whl.zip --markdown 20240521/p/pycde/0.3.1.dev1066-0.4.0/README.md --exclude *.pyd
+[2024-05-21 05:18:57] INFO root fetch - processPackages [pycde]: Remove: archive file [/home/abi/fetcher/tmp/pycde-0.3.1.dev1066-cp39-cp39-win_amd64.whl.zip]
+[2024-05-21 05:18:57] INFO root fetch - processPackages [pycde]: Remove: archive file [/home/abi/fetcher/tmp/pycde-0.4.0-cp39-cp39-win_amd64.whl.zip]
+[2024-05-21 05:18:57] INFO root fetch - main [MainThread]: End processing [pycde]: success
+[2024-05-21 05:18:57] INFO root fetch - main [MainThread]: Store serial: [23300418]
