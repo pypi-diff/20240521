@@ -16363,3 +16363,60 @@
 [2024-05-21 10:17:45] INFO root fetch - processPackages [helix.fhir.client.sdk]: Remove: archive file [/home/abi/fetcher/tmp/helix.fhir.client.sdk-2.0.8.tar.gz]
 [2024-05-21 10:17:45] INFO root fetch - main [MainThread]: End processing [helix.fhir.client.sdk]: success
 [2024-05-21 10:17:45] INFO root fetch - main [MainThread]: Store serial: [23303051]
+[2024-05-21 10:19:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23303051]
+[2024-05-21 10:19:54] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-21 10:19:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-l10n-it-withholding-tax-payment
+[2024-05-21 10:19:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yplib
+[2024-05-21 10:19:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zfx
+[2024-05-21 10:19:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pmb-py
+[2024-05-21 10:19:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: thirdai
+[2024-05-21 10:19:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: glances-api
+[2024-05-21 10:19:54] INFO root fetch - processPackages [pmb-py]: New version: [0.4.4.0] Old Version: [0.4.3.0]
+[2024-05-21 10:19:54] INFO root fetch - processPackages [zfx]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-21 10:19:54] INFO root fetch - processPackages [pmb-py]: Downloading https://files.pythonhosted.org/packages/74/28/d19136e487de3a780e2a3ac753565c5305ec90c9a4b142a6f9df4e74e590/pmb_py-0.4.3.0.tar.gz
+[2024-05-21 10:19:54] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/59/eb/f257e3407edfa0e36bd6d262b25e02023066e104ba26d20cee83a63198f0/zfx-1.0.8.tar.gz
+[2024-05-21 10:19:54] INFO root fetch - processPackages [odoo-addon-l10n-it-withholding-tax-payment]: New version: [16.0.1.1.0] Old Version: [16.0.1.0.3.7]
+[2024-05-21 10:19:54] INFO root fetch - processPackages [yplib]: New version: [5.8.1] Old Version: [5.8.0]
+[2024-05-21 10:19:54] INFO root fetch - processPackages [glances-api]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-05-21 10:19:55] INFO root fetch - processPackages [odoo-addon-l10n-it-withholding-tax-payment]: Downloading https://files.pythonhosted.org/packages/c3/cf/bef1cf0d28e9ecd054b240da77034c39d9b800fd0ece40842b2a9573a776/odoo_addon_l10n_it_withholding_tax_payment-16.0.1.0.3.7-py3-none-any.whl
+[2024-05-21 10:19:55] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/79/72/81e8c9f95e9effa80a25b20d494a3c3b21ed5cbbd53440c562d52fe8fe8a/zfx-1.0.9.tar.gz
+[2024-05-21 10:19:55] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/63/6e/bc4f73c59168acf135984db9360a0112ceb709f30ce30a826e4e1580f467/yplib-5.8.0.tar.gz
+[2024-05-21 10:19:55] INFO root fetch - processPackages [pmb-py]: Downloading https://files.pythonhosted.org/packages/b5/b4/1a01356fefcab3eadbdab229bc74e13ba06a8b3bbb7c23586ea890dc4756/pmb_py-0.4.4.0.tar.gz
+[2024-05-21 10:19:55] INFO root fetch - processPackages [glances-api]: Downloading https://files.pythonhosted.org/packages/02/2a/8319c1cb77c49cb73f989906592f795c83731802f5988f8125487fbac188/glances_api-0.6.0.tar.gz
+[2024-05-21 10:19:55] INFO root fetch - processPackages [zfx]: executing diffoscope
+[2024-05-21 10:19:55] INFO root fetch - processPackages [zfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zfx-1.0.8.tar.gz tmp/zfx-1.0.9.tar.gz --markdown 20240521/z/zfx/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-21 10:19:55] INFO root fetch - processPackages [pmb-py]: executing diffoscope
+[2024-05-21 10:19:55] INFO root fetch - processPackages [pmb-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pmb_py-0.4.3.0.tar.gz tmp/pmb_py-0.4.4.0.tar.gz --markdown 20240521/p/pmb-py/0.4.3.0-0.4.4.0/README.md --exclude *.pyd
+[2024-05-21 10:19:55] INFO root fetch - processPackages [odoo-addon-l10n-it-withholding-tax-payment]: Downloading https://files.pythonhosted.org/packages/3e/65/9ffcf864a6e7e4a599801e91e280aba3034bce06214aed8b1ac6687eab70/odoo_addon_l10n_it_withholding_tax_payment-16.0.1.1.0-py3-none-any.whl
+[2024-05-21 10:19:55] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/8b/f2/8d741f217748d75f94ff520d0d0d86c8654c1226a4652889b051f958f6b8/yplib-5.8.1.tar.gz
+[2024-05-21 10:19:55] INFO root fetch - processPackages [thirdai]: New version: [0.8.3] Old Version: [0.8.2]
+[2024-05-21 10:19:55] INFO root fetch - processPackages [odoo-addon-l10n-it-withholding-tax-payment]: executing diffoscope
+[2024-05-21 10:19:55] INFO root fetch - processPackages [odoo-addon-l10n-it-withholding-tax-payment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_it_withholding_tax_payment-16.0.1.0.3.7-py3-none-any.whl.zip tmp/odoo_addon_l10n_it_withholding_tax_payment-16.0.1.1.0-py3-none-any.whl.zip --markdown 20240521/o/odoo-addon-l10n-it-withholding-tax-payment/16.0.1.0.3.7-16.0.1.1.0/README.md --exclude *.pyd
+[2024-05-21 10:19:55] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2024-05-21 10:19:55] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-5.8.0.tar.gz tmp/yplib-5.8.1.tar.gz --markdown 20240521/y/yplib/5.8.0-5.8.1/README.md --exclude *.pyd
+[2024-05-21 10:19:55] INFO root fetch - processPackages [thirdai]: Downloading https://files.pythonhosted.org/packages/6d/b4/c9b955f699fa5eca1da233f4648b32b11059f41084c23c02a28c695066aa/thirdai-0.8.2-cp39-cp39-win_amd64.whl
+[2024-05-21 10:19:55] INFO root fetch - processPackages [glances-api]: Downloading https://files.pythonhosted.org/packages/ba/6c/6b055e3e5589b002ac3c35b8bb9bcde4fcbeb9deb04a759ba303d0131b8e/glances_api-0.7.0-py3-none-any.whl
+[2024-05-21 10:19:56] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.8.tar.gz]
+[2024-05-21 10:19:56] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.9.tar.gz]
+[2024-05-21 10:19:56] INFO root fetch - main [MainThread]: End processing [zfx]: success
+[2024-05-21 10:19:56] INFO root fetch - processPackages [pmb-py]: Remove: archive file [/home/abi/fetcher/tmp/pmb_py-0.4.3.0.tar.gz]
+[2024-05-21 10:19:56] INFO root fetch - processPackages [pmb-py]: Remove: archive file [/home/abi/fetcher/tmp/pmb_py-0.4.4.0.tar.gz]
+[2024-05-21 10:19:56] INFO root fetch - main [MainThread]: End processing [pmb-py]: success
+[2024-05-21 10:19:56] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-5.8.0.tar.gz]
+[2024-05-21 10:19:56] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-5.8.1.tar.gz]
+[2024-05-21 10:19:56] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2024-05-21 10:19:56] INFO root fetch - processPackages [glances-api]: executing diffoscope
+[2024-05-21 10:19:56] INFO root fetch - processPackages [glances-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glances_api-0.6.0.tar.gz tmp/glances_api-0.7.0-py3-none-any.whl.zip --markdown 20240521/g/glances-api/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-05-21 10:19:56] INFO root fetch - processPackages [thirdai]: Downloading https://files.pythonhosted.org/packages/2b/e8/073921dc6cacf8358eb82e5981aa9eeec7a434d05599dad5232f9fa9ce7d/thirdai-0.8.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-21 10:19:56] INFO root fetch - processPackages [odoo-addon-l10n-it-withholding-tax-payment]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_it_withholding_tax_payment-16.0.1.0.3.7-py3-none-any.whl.zip]
+[2024-05-21 10:19:56] INFO root fetch - processPackages [odoo-addon-l10n-it-withholding-tax-payment]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_it_withholding_tax_payment-16.0.1.1.0-py3-none-any.whl.zip]
+[2024-05-21 10:19:56] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-it-withholding-tax-payment]: success
+[2024-05-21 10:19:56] INFO root fetch - processPackages [glances-api]: Remove: archive file [/home/abi/fetcher/tmp/glances_api-0.6.0.tar.gz]
+[2024-05-21 10:19:56] INFO root fetch - processPackages [glances-api]: Remove: archive file [/home/abi/fetcher/tmp/glances_api-0.7.0-py3-none-any.whl.zip]
+[2024-05-21 10:19:56] INFO root fetch - main [MainThread]: End processing [glances-api]: success
+[2024-05-21 10:20:00] INFO root fetch - processPackages [thirdai]: executing diffoscope
+[2024-05-21 10:20:00] INFO root fetch - processPackages [thirdai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thirdai-0.8.2-cp39-cp39-win_amd64.whl.zip tmp/thirdai-0.8.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240521/t/thirdai/0.8.2-0.8.3/README.md --exclude *.pyd
+[2024-05-21 10:20:02] INFO root fetch - processPackages [thirdai]: Remove: archive file [/home/abi/fetcher/tmp/thirdai-0.8.2-cp39-cp39-win_amd64.whl.zip]
+[2024-05-21 10:20:02] INFO root fetch - processPackages [thirdai]: Remove: archive file [/home/abi/fetcher/tmp/thirdai-0.8.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-21 10:20:02] INFO root fetch - main [MainThread]: End processing [thirdai]: success
+[2024-05-21 10:20:02] INFO root fetch - main [MainThread]: Store serial: [23303066]
