@@ -9703,3 +9703,72 @@
 [2024-05-21 05:43:15] INFO root fetch - processPackages [textlong]: Remove: archive file [/home/abi/fetcher/tmp/textlong-0.1.8.tar.gz]
 [2024-05-21 05:43:15] INFO root fetch - main [MainThread]: End processing [textlong]: success
 [2024-05-21 05:43:15] INFO root fetch - main [MainThread]: Store serial: [23300596]
+[2024-05-21 05:45:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23300596]
+[2024-05-21 05:45:25] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-21 05:45:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mathematical-expression-py
+[2024-05-21 05:45:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: adarshcal
+[2024-05-21 05:45:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: accelbyte-py-sdk
+[2024-05-21 05:45:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wah
+[2024-05-21 05:45:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-account-financial-risk
+[2024-05-21 05:45:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-account-invoice-overdue-warn
+[2024-05-21 05:45:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gizai
+[2024-05-21 05:45:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: direct7
+[2024-05-21 05:45:25] INFO root fetch - processPackages [gizai]: New version: [5.9.1] Old Version: [5.6.1]
+[2024-05-21 05:45:25] WARNING root fetch - processPackages [adarshcal]: Skipping, unable to determine old version
+[2024-05-21 05:45:25] INFO root fetch - main [MainThread]: End processing [adarshcal] error
+[2024-05-21 05:45:25] INFO root fetch - processPackages [gizai]: Downloading https://files.pythonhosted.org/packages/01/83/b0110f05b1480d30f378d727382dac2b2e091afab0e8b384fd19699747f7/gizai-5.6.1.tar.gz
+[2024-05-21 05:45:25] INFO root fetch - processPackages [mathematical-expression-py]: New version: [1.2.5] Old Version: [1.2.4]
+[2024-05-21 05:45:25] INFO root fetch - processPackages [direct7]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-21 05:45:25] INFO root fetch - processPackages [wah]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-21 05:45:25] INFO root fetch - processPackages [odoo14-addon-account-financial-risk]: New version: [14.0.2.2.2.dev9] Old Version: [14.0.2.2.2.dev8]
+[2024-05-21 05:45:25] INFO root fetch - processPackages [odoo14-addon-account-invoice-overdue-warn]: New version: [14.0.1.0.1.dev7] Old Version: [14.0.1.0.1.dev6]
+[2024-05-21 05:45:25] INFO root fetch - processPackages [accelbyte-py-sdk]: New version: [0.66.0] Old Version: [0.65.0]
+[2024-05-21 05:45:25] INFO root fetch - processPackages [direct7]: Downloading https://files.pythonhosted.org/packages/16/10/f3c94cd5fa23cb876c583d6076dd0655929ad70119af894ab7d300705b49/direct7-0.0.8.tar.gz
+[2024-05-21 05:45:25] INFO root fetch - processPackages [gizai]: Downloading https://files.pythonhosted.org/packages/bd/e0/e34a72b06da9054a2c2be6561feb68d8df248f033dea7576bd6df6bb25a9/gizai-5.9.1.tar.gz
+[2024-05-21 05:45:25] INFO root fetch - processPackages [mathematical-expression-py]: Downloading https://files.pythonhosted.org/packages/29/b9/19045747068b84c616ff74c4a730da129d4356382dc2bd612bc4c501a19f/mathematical-expression-py-1.2.4.tar.gz
+[2024-05-21 05:45:25] INFO root fetch - processPackages [wah]: Downloading https://files.pythonhosted.org/packages/1e/98/86b56f53d2270da5a315b2f0d5733e61fd0dabbbde1d17bcff2dd938939e/wah-0.1.8.tar.gz
+[2024-05-21 05:45:25] INFO root fetch - processPackages [odoo14-addon-account-financial-risk]: Downloading https://files.pythonhosted.org/packages/e9/34/1b8a179405022774a09ee63c58bd616a4949aa8429b9aa47d2ceb59bff84/odoo14_addon_account_financial_risk-14.0.2.2.2.dev8-py3-none-any.whl
+[2024-05-21 05:45:25] INFO root fetch - processPackages [odoo14-addon-account-invoice-overdue-warn]: Downloading https://files.pythonhosted.org/packages/88/12/5d7e763c3390a85cbfcb950fbd09d2cf507ed4c9a5580d565a6825608107/odoo14_addon_account_invoice_overdue_warn-14.0.1.0.1.dev6-py3-none-any.whl
+[2024-05-21 05:45:25] INFO root fetch - processPackages [accelbyte-py-sdk]: Downloading https://files.pythonhosted.org/packages/41/66/4caf6b04f63fdb8dc00ea20462b2c1a5cc022296503e23378e6f205fc406/accelbyte_py_sdk-0.65.0.tar.gz
+[2024-05-21 05:45:25] INFO root fetch - processPackages [gizai]: executing diffoscope
+[2024-05-21 05:45:25] INFO root fetch - processPackages [gizai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gizai-5.6.1.tar.gz tmp/gizai-5.9.1.tar.gz --markdown 20240521/g/gizai/5.6.1-5.9.1/README.md --exclude *.pyd
+[2024-05-21 05:45:25] INFO root fetch - processPackages [direct7]: Downloading https://files.pythonhosted.org/packages/53/99/4d517bfd1c0d8068fe7dfc282e3b3d3bf2b47cd54fb029ec67237aaed764/direct7-0.0.9.tar.gz
+[2024-05-21 05:45:26] INFO root fetch - processPackages [mathematical-expression-py]: Downloading https://files.pythonhosted.org/packages/3a/b2/7d223079e9f4fc17c7192ff65ba4d4dbd4b7ebdd4866933db22c96675223/mathematical_expression_py-1.2.5.tar.gz
+[2024-05-21 05:45:26] INFO root fetch - processPackages [direct7]: executing diffoscope
+[2024-05-21 05:45:26] INFO root fetch - processPackages [direct7]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/direct7-0.0.8.tar.gz tmp/direct7-0.0.9.tar.gz --markdown 20240521/d/direct7/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-21 05:45:26] INFO root fetch - processPackages [wah]: Downloading https://files.pythonhosted.org/packages/6c/57/7be641139065b67640542a312a3988d0a93024cdc145ea667b7e8d432eb8/wah-0.1.9.tar.gz
+[2024-05-21 05:45:26] INFO root fetch - processPackages [mathematical-expression-py]: executing diffoscope
+[2024-05-21 05:45:26] INFO root fetch - processPackages [mathematical-expression-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mathematical-expression-py-1.2.4.tar.gz tmp/mathematical_expression_py-1.2.5.tar.gz --markdown 20240521/m/mathematical-expression-py/1.2.4-1.2.5/README.md --exclude *.pyd
+[2024-05-21 05:45:26] INFO root fetch - processPackages [wah]: executing diffoscope
+[2024-05-21 05:45:26] INFO root fetch - processPackages [wah]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wah-0.1.8.tar.gz tmp/wah-0.1.9.tar.gz --markdown 20240521/w/wah/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-21 05:45:26] INFO root fetch - processPackages [odoo14-addon-account-invoice-overdue-warn]: Downloading https://files.pythonhosted.org/packages/62/85/380bd95f1bf0db91382532ecf7b98c1e5e83fd41d8d250a856e44c450749/odoo14_addon_account_invoice_overdue_warn-14.0.1.0.1.dev7-py3-none-any.whl
+[2024-05-21 05:45:26] INFO root fetch - processPackages [odoo14-addon-account-financial-risk]: Downloading https://files.pythonhosted.org/packages/72/e6/32732fde1e3851a4355c9a398a0987bc1b87275d427758ef643f6927223f/odoo14_addon_account_financial_risk-14.0.2.2.2.dev9-py3-none-any.whl
+[2024-05-21 05:45:26] INFO root fetch - processPackages [gizai]: Remove: archive file [/home/abi/fetcher/tmp/gizai-5.6.1.tar.gz]
+[2024-05-21 05:45:26] INFO root fetch - processPackages [gizai]: Remove: archive file [/home/abi/fetcher/tmp/gizai-5.9.1.tar.gz]
+[2024-05-21 05:45:26] INFO root fetch - main [MainThread]: End processing [gizai]: success
+[2024-05-21 05:45:26] INFO root fetch - processPackages [odoo14-addon-account-invoice-overdue-warn]: executing diffoscope
+[2024-05-21 05:45:26] INFO root fetch - processPackages [odoo14-addon-account-invoice-overdue-warn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_invoice_overdue_warn-14.0.1.0.1.dev6-py3-none-any.whl.zip tmp/odoo14_addon_account_invoice_overdue_warn-14.0.1.0.1.dev7-py3-none-any.whl.zip --markdown 20240521/o/odoo14-addon-account-invoice-overdue-warn/14.0.1.0.1.dev6-14.0.1.0.1.dev7/README.md --exclude *.pyd
+[2024-05-21 05:45:26] INFO root fetch - processPackages [accelbyte-py-sdk]: Downloading https://files.pythonhosted.org/packages/fa/65/07710bbb14c3907e7230d4c09a3b9df606cca9902fa4f0d9583896ca3ff6/accelbyte_py_sdk-0.66.0.tar.gz
+[2024-05-21 05:45:26] INFO root fetch - processPackages [odoo14-addon-account-financial-risk]: executing diffoscope
+[2024-05-21 05:45:26] INFO root fetch - processPackages [odoo14-addon-account-financial-risk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_financial_risk-14.0.2.2.2.dev8-py3-none-any.whl.zip tmp/odoo14_addon_account_financial_risk-14.0.2.2.2.dev9-py3-none-any.whl.zip --markdown 20240521/o/odoo14-addon-account-financial-risk/14.0.2.2.2.dev8-14.0.2.2.2.dev9/README.md --exclude *.pyd
+[2024-05-21 05:45:26] INFO root fetch - processPackages [direct7]: Remove: archive file [/home/abi/fetcher/tmp/direct7-0.0.8.tar.gz]
+[2024-05-21 05:45:26] INFO root fetch - processPackages [direct7]: Remove: archive file [/home/abi/fetcher/tmp/direct7-0.0.9.tar.gz]
+[2024-05-21 05:45:26] INFO root fetch - main [MainThread]: End processing [direct7]: success
+[2024-05-21 05:45:26] INFO root fetch - processPackages [accelbyte-py-sdk]: executing diffoscope
+[2024-05-21 05:45:26] INFO root fetch - processPackages [accelbyte-py-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/accelbyte_py_sdk-0.65.0.tar.gz tmp/accelbyte_py_sdk-0.66.0.tar.gz --markdown 20240521/a/accelbyte-py-sdk/0.65.0-0.66.0/README.md --exclude *.pyd
+[2024-05-21 05:45:26] INFO root fetch - processPackages [mathematical-expression-py]: Remove: archive file [/home/abi/fetcher/tmp/mathematical-expression-py-1.2.4.tar.gz]
+[2024-05-21 05:45:26] INFO root fetch - processPackages [mathematical-expression-py]: Remove: archive file [/home/abi/fetcher/tmp/mathematical_expression_py-1.2.5.tar.gz]
+[2024-05-21 05:45:26] INFO root fetch - main [MainThread]: End processing [mathematical-expression-py]: success
+[2024-05-21 05:45:26] INFO root fetch - processPackages [wah]: Remove: archive file [/home/abi/fetcher/tmp/wah-0.1.8.tar.gz]
+[2024-05-21 05:45:26] INFO root fetch - processPackages [wah]: Remove: archive file [/home/abi/fetcher/tmp/wah-0.1.9.tar.gz]
+[2024-05-21 05:45:26] INFO root fetch - main [MainThread]: End processing [wah]: success
+[2024-05-21 05:45:27] INFO root fetch - processPackages [odoo14-addon-account-invoice-overdue-warn]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_invoice_overdue_warn-14.0.1.0.1.dev6-py3-none-any.whl.zip]
+[2024-05-21 05:45:27] INFO root fetch - processPackages [odoo14-addon-account-invoice-overdue-warn]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_invoice_overdue_warn-14.0.1.0.1.dev7-py3-none-any.whl.zip]
+[2024-05-21 05:45:27] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-invoice-overdue-warn]: success
+[2024-05-21 05:45:27] INFO root fetch - processPackages [odoo14-addon-account-financial-risk]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_financial_risk-14.0.2.2.2.dev8-py3-none-any.whl.zip]
+[2024-05-21 05:45:27] INFO root fetch - processPackages [odoo14-addon-account-financial-risk]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_financial_risk-14.0.2.2.2.dev9-py3-none-any.whl.zip]
+[2024-05-21 05:45:27] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-financial-risk]: success
+[2024-05-21 05:46:06] INFO root fetch - processPackages [accelbyte-py-sdk]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte_py_sdk-0.65.0.tar.gz]
+[2024-05-21 05:46:06] INFO root fetch - processPackages [accelbyte-py-sdk]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte_py_sdk-0.66.0.tar.gz]
+[2024-05-21 05:46:06] INFO root fetch - main [MainThread]: End processing [accelbyte-py-sdk]: success
+[2024-05-21 05:46:06] INFO root fetch - main [MainThread]: Store serial: [23300630]
