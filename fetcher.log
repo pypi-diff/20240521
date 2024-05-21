@@ -7936,3 +7936,33 @@
 [2024-05-21 04:02:58] INFO root fetch - processPackages [df-analyze]: Remove: archive file [/home/abi/fetcher/tmp/df_analyze-0.1.1-py3-none-any.whl.zip]
 [2024-05-21 04:02:58] INFO root fetch - main [MainThread]: End processing [df-analyze]: success
 [2024-05-21 04:02:58] INFO root fetch - main [MainThread]: Store serial: [23299717]
+[2024-05-21 04:05:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23299717]
+[2024-05-21 04:05:07] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-21 04:05:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: BioSAK
+[2024-05-21 04:05:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tg-signer
+[2024-05-21 04:05:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mapillary-tools
+[2024-05-21 04:05:07] INFO root fetch - processPackages [BioSAK]: New version: [1.88.9] Old Version: [1.88.8]
+[2024-05-21 04:05:07] INFO root fetch - processPackages [tg-signer]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-21 04:05:07] INFO root fetch - processPackages [mapillary-tools]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-05-21 04:05:07] INFO root fetch - processPackages [BioSAK]: Downloading https://files.pythonhosted.org/packages/76/0f/b42a5b517c7a861e4c633c5b8b2e8275a69eec86da698120e6a5a1ebf74f/BioSAK-1.88.8.tar.gz
+[2024-05-21 04:05:07] INFO root fetch - processPackages [tg-signer]: Downloading https://files.pythonhosted.org/packages/f9/4e/5f4d38ebea68d23d172c9b51b0266355d6ef38f7a4c173b466676d2af232/tg_signer-0.1.3.tar.gz
+[2024-05-21 04:05:07] INFO root fetch - processPackages [mapillary-tools]: Downloading https://files.pythonhosted.org/packages/fc/49/451a32155f632660f5c43be5e6d9d2525da351b3161149988c451970c7c6/mapillary_tools-0.9.4.tar.gz
+[2024-05-21 04:05:07] INFO root fetch - processPackages [BioSAK]: Downloading https://files.pythonhosted.org/packages/62/97/bf719db985f3e78168efac2d24682565516b6a12a3997626926808793ccb/BioSAK-1.88.9.tar.gz
+[2024-05-21 04:05:08] INFO root fetch - processPackages [tg-signer]: Downloading https://files.pythonhosted.org/packages/04/71/516c897d429f7272e5c334b83ebf6d489d973e896bde24e6a71b4936fb57/tg_signer-0.1.4.tar.gz
+[2024-05-21 04:05:08] INFO root fetch - processPackages [BioSAK]: executing diffoscope
+[2024-05-21 04:05:08] INFO root fetch - processPackages [BioSAK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BioSAK-1.88.8.tar.gz tmp/BioSAK-1.88.9.tar.gz --markdown 20240521/B/BioSAK/1.88.8-1.88.9/README.md --exclude *.pyd
+[2024-05-21 04:05:08] INFO root fetch - processPackages [tg-signer]: executing diffoscope
+[2024-05-21 04:05:08] INFO root fetch - processPackages [tg-signer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tg_signer-0.1.3.tar.gz tmp/tg_signer-0.1.4.tar.gz --markdown 20240521/t/tg-signer/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-21 04:05:08] INFO root fetch - processPackages [mapillary-tools]: Downloading https://files.pythonhosted.org/packages/30/a4/54bc60e884aef3991fab6e751163320713cad33cbf99cd57c46836c39655/mapillary_tools-0.9.5.tar.gz
+[2024-05-21 04:05:08] INFO root fetch - processPackages [mapillary-tools]: executing diffoscope
+[2024-05-21 04:05:08] INFO root fetch - processPackages [mapillary-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapillary_tools-0.9.4.tar.gz tmp/mapillary_tools-0.9.5.tar.gz --markdown 20240521/m/mapillary-tools/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-05-21 04:05:08] INFO root fetch - processPackages [tg-signer]: Remove: archive file [/home/abi/fetcher/tmp/tg_signer-0.1.3.tar.gz]
+[2024-05-21 04:05:08] INFO root fetch - processPackages [tg-signer]: Remove: archive file [/home/abi/fetcher/tmp/tg_signer-0.1.4.tar.gz]
+[2024-05-21 04:05:08] INFO root fetch - main [MainThread]: End processing [tg-signer]: success
+[2024-05-21 04:05:09] INFO root fetch - processPackages [mapillary-tools]: Remove: archive file [/home/abi/fetcher/tmp/mapillary_tools-0.9.4.tar.gz]
+[2024-05-21 04:05:09] INFO root fetch - processPackages [mapillary-tools]: Remove: archive file [/home/abi/fetcher/tmp/mapillary_tools-0.9.5.tar.gz]
+[2024-05-21 04:05:09] INFO root fetch - main [MainThread]: End processing [mapillary-tools]: success
+[2024-05-21 04:05:09] INFO root fetch - processPackages [BioSAK]: Remove: archive file [/home/abi/fetcher/tmp/BioSAK-1.88.8.tar.gz]
+[2024-05-21 04:05:09] INFO root fetch - processPackages [BioSAK]: Remove: archive file [/home/abi/fetcher/tmp/BioSAK-1.88.9.tar.gz]
+[2024-05-21 04:05:09] INFO root fetch - main [MainThread]: End processing [BioSAK]: success
+[2024-05-21 04:05:09] INFO root fetch - main [MainThread]: Store serial: [23299727]
