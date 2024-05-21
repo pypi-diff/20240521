@@ -8705,3 +8705,55 @@
 [2024-05-21 04:49:23] INFO root fetch - processPackages [verifyvoice]: Remove: archive file [/home/abi/fetcher/tmp/verifyvoice-0.1.34.tar.gz]
 [2024-05-21 04:49:23] INFO root fetch - main [MainThread]: End processing [verifyvoice]: success
 [2024-05-21 04:49:23] INFO root fetch - main [MainThread]: Store serial: [23300193]
+[2024-05-21 04:51:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23300193]
+[2024-05-21 04:51:32] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-21 04:51:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: itk-registration
+[2024-05-21 04:51:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mosec
+[2024-05-21 04:51:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gefpy
+[2024-05-21 04:51:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-account-move-template
+[2024-05-21 04:51:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: itk-segmentation
+[2024-05-21 04:51:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: timer
+[2024-05-21 04:51:32] INFO root fetch - processPackages [odoo14-addon-account-move-template]: New version: [14.0.1.1.3.dev9] Old Version: [14.0.1.1.3.dev8]
+[2024-05-21 04:51:32] INFO root fetch - processPackages [gefpy]: New version: [1.1.5] Old Version: [1.1.4]
+[2024-05-21 04:51:32] INFO root fetch - processPackages [timer]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-21 04:51:32] INFO root fetch - processPackages [mosec]: New version: [0.8.5] Old Version: [0.8.4]
+[2024-05-21 04:51:32] INFO root fetch - processPackages [itk-registration]: New version: [5.4rc4] Old Version: [5.4rc3]
+[2024-05-21 04:51:32] INFO root fetch - processPackages [odoo14-addon-account-move-template]: Downloading https://files.pythonhosted.org/packages/9c/26/2bded64e0195dc4e6367bb67e71625c5a1db36221bf58f86ef16f19bb955/odoo14_addon_account_move_template-14.0.1.1.3.dev8-py3-none-any.whl
+[2024-05-21 04:51:32] INFO root fetch - processPackages [gefpy]: Downloading https://files.pythonhosted.org/packages/a4/1a/feefdc2b0238ffccaa87ccd0a705c4351b7f1a63fc8ef8edfc8dabf1cc0a/gefpy-1.1.4-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-21 04:51:32] INFO root fetch - processPackages [itk-segmentation]: New version: [5.4rc4] Old Version: [5.4rc3]
+[2024-05-21 04:51:32] INFO root fetch - processPackages [timer]: Downloading https://files.pythonhosted.org/packages/79/c7/30cf6cec06f1b4c05436b54c7c3144a7fd14f4b39738fb79613ed686d765/timer-0.2.2.tar.gz
+[2024-05-21 04:51:32] INFO root fetch - processPackages [mosec]: Downloading https://files.pythonhosted.org/packages/2c/7e/6db61336580d347ec3bdf9be56e3a6e239b824d4b7f98f8ec39679b2e564/mosec-0.8.4.tar.gz
+[2024-05-21 04:51:32] WARNING root fetch - processPackages [gefpy]: Skipping package: exceeds size limit 29300295>=10485760
+[2024-05-21 04:51:32] INFO root fetch - main [MainThread]: End processing [gefpy] error
+[2024-05-21 04:51:33] INFO root fetch - processPackages [itk-segmentation]: Downloading https://files.pythonhosted.org/packages/8a/6a/63f4469bd073613384ce1110f5001becffe1e2f84bc30553dac4e657e874/itk_segmentation-5.4rc3-cp39-cp39-win_amd64.whl
+[2024-05-21 04:51:33] INFO root fetch - processPackages [mosec]: Downloading https://files.pythonhosted.org/packages/7f/9c/7b635b9c95d20cd5b10ff3a9224e9f26409f020a798e8845fdc8f351316e/mosec-0.8.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-21 04:51:33] INFO root fetch - processPackages [timer]: Downloading https://files.pythonhosted.org/packages/19/6a/a702531c26a8c480dbb8b1c1b5381d74e0a8deb3d77516b8c5580342c46b/timer-0.2.3.tar.gz
+[2024-05-21 04:51:33] INFO root fetch - processPackages [itk-registration]: Downloading https://files.pythonhosted.org/packages/fc/d0/c08ac23c47aa622484286f70e4d3e2d2786f6ca136935750a9ef1a16e31c/itk_registration-5.4rc4-cp39-cp39-win_amd64.whl
+[2024-05-21 04:51:33] INFO root fetch - processPackages [timer]: executing diffoscope
+[2024-05-21 04:51:33] INFO root fetch - processPackages [timer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timer-0.2.2.tar.gz tmp/timer-0.2.3.tar.gz --markdown 20240521/t/timer/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-21 04:51:33] INFO root fetch - processPackages [odoo14-addon-account-move-template]: Downloading https://files.pythonhosted.org/packages/56/eb/f3c337beb846c1bf66c163eca56c51db6db1171e561668b9026b0699ea95/odoo14_addon_account_move_template-14.0.1.1.3.dev9-py3-none-any.whl
+[2024-05-21 04:51:33] INFO root fetch - processPackages [odoo14-addon-account-move-template]: executing diffoscope
+[2024-05-21 04:51:33] INFO root fetch - processPackages [odoo14-addon-account-move-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_move_template-14.0.1.1.3.dev8-py3-none-any.whl.zip tmp/odoo14_addon_account_move_template-14.0.1.1.3.dev9-py3-none-any.whl.zip --markdown 20240521/o/odoo14-addon-account-move-template/14.0.1.1.3.dev8-14.0.1.1.3.dev9/README.md --exclude *.pyd
+[2024-05-21 04:51:33] INFO root fetch - processPackages [itk-segmentation]: Downloading https://files.pythonhosted.org/packages/e6/cc/f9e2eaf24d7195a529bea615cec642789fc18375f2a76d1b69fa7c0c1c9c/itk_segmentation-5.4rc4-cp39-cp39-win_amd64.whl
+[2024-05-21 04:51:33] INFO root fetch - processPackages [timer]: Remove: archive file [/home/abi/fetcher/tmp/timer-0.2.2.tar.gz]
+[2024-05-21 04:51:33] INFO root fetch - processPackages [timer]: Remove: archive file [/home/abi/fetcher/tmp/timer-0.2.3.tar.gz]
+[2024-05-21 04:51:33] INFO root fetch - main [MainThread]: End processing [timer]: success
+[2024-05-21 04:51:33] INFO root fetch - processPackages [mosec]: executing diffoscope
+[2024-05-21 04:51:33] INFO root fetch - processPackages [mosec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mosec-0.8.4.tar.gz tmp/mosec-0.8.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240521/m/mosec/0.8.4-0.8.5/README.md --exclude *.pyd
+[2024-05-21 04:51:33] INFO root fetch - processPackages [itk-registration]: executing diffoscope
+[2024-05-21 04:51:33] INFO root fetch - processPackages [itk-registration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itk_registration-5.4rc3-cp39-cp39-win_amd64.whl.zip tmp/itk_registration-5.4rc4-cp39-cp39-win_amd64.whl.zip --markdown 20240521/i/itk-registration/5.4rc3-5.4rc4/README.md --exclude *.pyd
+[2024-05-21 04:51:34] INFO root fetch - processPackages [odoo14-addon-account-move-template]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_move_template-14.0.1.1.3.dev8-py3-none-any.whl.zip]
+[2024-05-21 04:51:34] INFO root fetch - processPackages [odoo14-addon-account-move-template]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_move_template-14.0.1.1.3.dev9-py3-none-any.whl.zip]
+[2024-05-21 04:51:34] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-move-template]: success
+[2024-05-21 04:51:34] INFO root fetch - processPackages [itk-segmentation]: executing diffoscope
+[2024-05-21 04:51:34] INFO root fetch - processPackages [itk-segmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itk_segmentation-5.4rc3-cp39-cp39-win_amd64.whl.zip tmp/itk_segmentation-5.4rc4-cp39-cp39-win_amd64.whl.zip --markdown 20240521/i/itk-segmentation/5.4rc3-5.4rc4/README.md --exclude *.pyd
+[2024-05-21 04:51:34] INFO root fetch - processPackages [mosec]: Remove: archive file [/home/abi/fetcher/tmp/mosec-0.8.4.tar.gz]
+[2024-05-21 04:51:34] INFO root fetch - processPackages [mosec]: Remove: archive file [/home/abi/fetcher/tmp/mosec-0.8.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-21 04:51:34] INFO root fetch - main [MainThread]: End processing [mosec]: success
+[2024-05-21 04:51:36] INFO root fetch - processPackages [itk-segmentation]: Remove: archive file [/home/abi/fetcher/tmp/itk_segmentation-5.4rc3-cp39-cp39-win_amd64.whl.zip]
+[2024-05-21 04:51:36] INFO root fetch - processPackages [itk-segmentation]: Remove: archive file [/home/abi/fetcher/tmp/itk_segmentation-5.4rc4-cp39-cp39-win_amd64.whl.zip]
+[2024-05-21 04:51:36] INFO root fetch - main [MainThread]: End processing [itk-segmentation]: success
+[2024-05-21 04:51:37] INFO root fetch - processPackages [itk-registration]: Remove: archive file [/home/abi/fetcher/tmp/itk_registration-5.4rc3-cp39-cp39-win_amd64.whl.zip]
+[2024-05-21 04:51:37] INFO root fetch - processPackages [itk-registration]: Remove: archive file [/home/abi/fetcher/tmp/itk_registration-5.4rc4-cp39-cp39-win_amd64.whl.zip]
+[2024-05-21 04:51:37] INFO root fetch - main [MainThread]: End processing [itk-registration]: success
+[2024-05-21 04:51:37] INFO root fetch - main [MainThread]: Store serial: [23300259]
