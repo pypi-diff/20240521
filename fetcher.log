@@ -15594,3 +15594,78 @@
 [2024-05-21 09:51:26] INFO root fetch - processPackages [indexify-extractor-sdk]: Remove: archive file [/home/abi/fetcher/tmp/indexify-extractor-sdk-0.0.9.tar.gz]
 [2024-05-21 09:51:26] INFO root fetch - main [MainThread]: End processing [indexify-extractor-sdk]: success
 [2024-05-21 09:51:26] INFO root fetch - main [MainThread]: Store serial: [23302741]
+[2024-05-21 09:53:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23302741]
+[2024-05-21 09:53:35] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-21 09:53:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rag-assistant
+[2024-05-21 09:53:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vastdb
+[2024-05-21 09:53:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: customShopifyAPI
+[2024-05-21 09:53:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tsugu
+[2024-05-21 09:53:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ansar-connect
+[2024-05-21 09:53:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: crewai-logger-patch
+[2024-05-21 09:53:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: quickbbee
+[2024-05-21 09:53:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ab-test-advanced-toolkit
+[2024-05-21 09:53:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: datasiphon
+[2024-05-21 09:53:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-account-account-tag-code
+[2024-05-21 09:53:35] INFO root fetch - processPackages [datasiphon]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-05-21 09:53:36] INFO root fetch - processPackages [rag-assistant]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-21 09:53:36] INFO root fetch - processPackages [ansar-connect]: New version: [0.1.251] Old Version: [0.1.250]
+[2024-05-21 09:53:36] INFO root fetch - processPackages [ab-test-advanced-toolkit]: New version: [0.0.6] Old Version: [0.0.0]
+[2024-05-21 09:53:36] INFO root fetch - processPackages [tsugu]: New version: [1.1.0rc3] Old Version: [1.1.0rc2]
+[2024-05-21 09:53:36] INFO root fetch - processPackages [datasiphon]: Downloading https://files.pythonhosted.org/packages/40/07/4bf5adf8fa16d834cd03c2a178f9aad625beac39345c30585d8095436ee7/datasiphon-0.2.3.tar.gz
+[2024-05-21 09:53:36] WARNING root fetch - processPackages [quickbbee]: Skipping, unable to determine old version
+[2024-05-21 09:53:36] INFO root fetch - main [MainThread]: End processing [quickbbee] error
+[2024-05-21 09:53:36] INFO root fetch - processPackages [vastdb]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-21 09:53:36] WARNING root fetch - processPackages [customShopifyAPI]: Skipping, unable to determine old version
+[2024-05-21 09:53:36] INFO root fetch - main [MainThread]: End processing [customShopifyAPI] error
+[2024-05-21 09:53:36] INFO root fetch - processPackages [odoo-addon-account-account-tag-code]: New version: [17.0.1.0.0.2] Old Version: [16.0.1.0.0.6]
+[2024-05-21 09:53:36] WARNING root fetch - processPackages [crewai-logger-patch]: Skipping, unable to determine old version
+[2024-05-21 09:53:36] INFO root fetch - main [MainThread]: End processing [crewai-logger-patch] error
+[2024-05-21 09:53:36] INFO root fetch - processPackages [rag-assistant]: Downloading https://files.pythonhosted.org/packages/a4/19/7416b6eb15f6056bdbd4d0d826d8d9028b76f3e60cabea03af0792692d69/rag_assistant-0.1.8.tar.gz
+[2024-05-21 09:53:36] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/8e/ae/2addf13f05fd857e8ff54f145fe658e060ca73927efcbf0d959e4467440b/ansar_connect-0.1.250.tar.gz
+[2024-05-21 09:53:36] INFO root fetch - processPackages [tsugu]: Downloading https://files.pythonhosted.org/packages/23/81/73126751444a124a96f0923f7bf6c33228e2c99021019b745bdc8578bd19/tsugu-1.1.0rc2.tar.gz
+[2024-05-21 09:53:36] INFO root fetch - processPackages [ab-test-advanced-toolkit]: Downloading https://files.pythonhosted.org/packages/c3/99/40fe7d206b0efec10421ae1f77725c4a38ca0300bcea89cc923c7ee33aa4/ab_test_advanced_toolkit-0.0.0.tar.gz
+[2024-05-21 09:53:36] INFO root fetch - processPackages [vastdb]: Downloading https://files.pythonhosted.org/packages/b1/50/be53ecd0d6e369b843edbd4f049a19ae5135d855c8a7c8fde5c3c421ca70/vastdb-0.1.4.tar.gz
+[2024-05-21 09:53:36] INFO root fetch - processPackages [datasiphon]: Downloading https://files.pythonhosted.org/packages/48/60/f5be98f8c154d5d0f7c567c8f1ddd73178edec6560f7fb13893fb6552de2/datasiphon-0.2.4.tar.gz
+[2024-05-21 09:53:36] INFO root fetch - processPackages [rag-assistant]: Downloading https://files.pythonhosted.org/packages/ab/f1/620c7fb54b4a7ccc6bfb8b3fef465d28ab6f59106745edd2d05206cead9f/rag_assistant-0.1.9.tar.gz
+[2024-05-21 09:53:36] INFO root fetch - processPackages [odoo-addon-account-account-tag-code]: Downloading https://files.pythonhosted.org/packages/bb/32/57d065a8bedc4418a6469686573401b28c1795c34ed8d6b651fedec11ecc/odoo_addon_account_account_tag_code-16.0.1.0.0.6-py3-none-any.whl
+[2024-05-21 09:53:36] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/cc/ad/f320d00bd7925e57bad0c93b6f354fc1ee9e07f1c2c0d18cb32cfbce6a0c/ansar_connect-0.1.251.tar.gz
+[2024-05-21 09:53:36] INFO root fetch - processPackages [tsugu]: Downloading https://files.pythonhosted.org/packages/d6/14/0bb4fb5c1c8520f66576d029ccbe884a98470eb3fb51c3f69a3c52b71444/tsugu-1.1.0rc3.tar.gz
+[2024-05-21 09:53:36] INFO root fetch - processPackages [datasiphon]: executing diffoscope
+[2024-05-21 09:53:36] INFO root fetch - processPackages [datasiphon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasiphon-0.2.3.tar.gz tmp/datasiphon-0.2.4.tar.gz --markdown 20240521/d/datasiphon/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-05-21 09:53:36] INFO root fetch - processPackages [ansar-connect]: executing diffoscope
+[2024-05-21 09:53:36] INFO root fetch - processPackages [ansar-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansar_connect-0.1.250.tar.gz tmp/ansar_connect-0.1.251.tar.gz --markdown 20240521/a/ansar-connect/0.1.250-0.1.251/README.md --exclude *.pyd
+[2024-05-21 09:53:36] INFO root fetch - processPackages [tsugu]: executing diffoscope
+[2024-05-21 09:53:36] INFO root fetch - processPackages [tsugu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsugu-1.1.0rc2.tar.gz tmp/tsugu-1.1.0rc3.tar.gz --markdown 20240521/t/tsugu/1.1.0rc2-1.1.0rc3/README.md --exclude *.pyd
+[2024-05-21 09:53:36] INFO root fetch - processPackages [rag-assistant]: executing diffoscope
+[2024-05-21 09:53:36] INFO root fetch - processPackages [rag-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rag_assistant-0.1.8.tar.gz tmp/rag_assistant-0.1.9.tar.gz --markdown 20240521/r/rag-assistant/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-21 09:53:36] INFO root fetch - processPackages [vastdb]: Downloading https://files.pythonhosted.org/packages/d2/9e/277568baaca58511f5b6fb92e548729523710a443ed725e7b473cd13ed55/vastdb-0.1.5.tar.gz
+[2024-05-21 09:53:36] INFO root fetch - processPackages [vastdb]: executing diffoscope
+[2024-05-21 09:53:36] INFO root fetch - processPackages [vastdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vastdb-0.1.4.tar.gz tmp/vastdb-0.1.5.tar.gz --markdown 20240521/v/vastdb/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-21 09:53:36] INFO root fetch - processPackages [odoo-addon-account-account-tag-code]: Downloading https://files.pythonhosted.org/packages/91/f4/dbbf09be6f15eda685af05d7dee89691d47e5f37159aef3a60ab2f8534da/odoo_addon_account_account_tag_code-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-21 09:53:37] INFO root fetch - processPackages [ab-test-advanced-toolkit]: Downloading https://files.pythonhosted.org/packages/c5/e0/a42d3f8def1110d0e9efdbc4f47ab6a1d9ee0b29fa955b02b0dc4c74dc6d/ab_test_advanced_toolkit-0.0.6.tar.gz
+[2024-05-21 09:53:37] INFO root fetch - processPackages [odoo-addon-account-account-tag-code]: executing diffoscope
+[2024-05-21 09:53:37] INFO root fetch - processPackages [odoo-addon-account-account-tag-code]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_account_tag_code-16.0.1.0.0.6-py3-none-any.whl.zip tmp/odoo_addon_account_account_tag_code-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240521/o/odoo-addon-account-account-tag-code/16.0.1.0.0.6-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-05-21 09:53:37] INFO root fetch - processPackages [ab-test-advanced-toolkit]: executing diffoscope
+[2024-05-21 09:53:37] INFO root fetch - processPackages [ab-test-advanced-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ab_test_advanced_toolkit-0.0.0.tar.gz tmp/ab_test_advanced_toolkit-0.0.6.tar.gz --markdown 20240521/a/ab-test-advanced-toolkit/0.0.0-0.0.6/README.md --exclude *.pyd
+[2024-05-21 09:53:37] INFO root fetch - processPackages [datasiphon]: Remove: archive file [/home/abi/fetcher/tmp/datasiphon-0.2.3.tar.gz]
+[2024-05-21 09:53:37] INFO root fetch - processPackages [datasiphon]: Remove: archive file [/home/abi/fetcher/tmp/datasiphon-0.2.4.tar.gz]
+[2024-05-21 09:53:37] INFO root fetch - main [MainThread]: End processing [datasiphon]: success
+[2024-05-21 09:53:37] INFO root fetch - processPackages [rag-assistant]: Remove: archive file [/home/abi/fetcher/tmp/rag_assistant-0.1.8.tar.gz]
+[2024-05-21 09:53:37] INFO root fetch - processPackages [rag-assistant]: Remove: archive file [/home/abi/fetcher/tmp/rag_assistant-0.1.9.tar.gz]
+[2024-05-21 09:53:37] INFO root fetch - main [MainThread]: End processing [rag-assistant]: success
+[2024-05-21 09:53:37] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar_connect-0.1.250.tar.gz]
+[2024-05-21 09:53:37] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar_connect-0.1.251.tar.gz]
+[2024-05-21 09:53:37] INFO root fetch - main [MainThread]: End processing [ansar-connect]: success
+[2024-05-21 09:53:37] INFO root fetch - processPackages [tsugu]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-1.1.0rc2.tar.gz]
+[2024-05-21 09:53:37] INFO root fetch - processPackages [tsugu]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-1.1.0rc3.tar.gz]
+[2024-05-21 09:53:37] INFO root fetch - main [MainThread]: End processing [tsugu]: success
+[2024-05-21 09:53:38] INFO root fetch - processPackages [odoo-addon-account-account-tag-code]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_account_tag_code-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2024-05-21 09:53:38] INFO root fetch - processPackages [odoo-addon-account-account-tag-code]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_account_tag_code-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-21 09:53:38] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-account-tag-code]: success
+[2024-05-21 09:53:38] INFO root fetch - processPackages [vastdb]: Remove: archive file [/home/abi/fetcher/tmp/vastdb-0.1.4.tar.gz]
+[2024-05-21 09:53:38] INFO root fetch - processPackages [ab-test-advanced-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/ab_test_advanced_toolkit-0.0.0.tar.gz]
+[2024-05-21 09:53:38] INFO root fetch - processPackages [vastdb]: Remove: archive file [/home/abi/fetcher/tmp/vastdb-0.1.5.tar.gz]
+[2024-05-21 09:53:38] INFO root fetch - processPackages [ab-test-advanced-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/ab_test_advanced_toolkit-0.0.6.tar.gz]
+[2024-05-21 09:53:38] INFO root fetch - main [MainThread]: End processing [vastdb]: success
+[2024-05-21 09:53:38] INFO root fetch - main [MainThread]: End processing [ab-test-advanced-toolkit]: success
+[2024-05-21 09:53:38] INFO root fetch - main [MainThread]: Store serial: [23302774]
