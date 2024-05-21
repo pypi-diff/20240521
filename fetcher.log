@@ -16210,3 +16210,63 @@
 [2024-05-21 10:13:23] INFO root fetch - processPackages [wenxian]: Remove: archive file [/home/abi/fetcher/tmp/wenxian-0.0.2.tar.gz]
 [2024-05-21 10:13:23] INFO root fetch - main [MainThread]: End processing [wenxian]: success
 [2024-05-21 10:13:23] INFO root fetch - main [MainThread]: Store serial: [23302999]
+[2024-05-21 10:15:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23302999]
+[2024-05-21 10:15:32] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-21 10:15:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: annofabcli
+[2024-05-21 10:15:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: outpostcli
+[2024-05-21 10:15:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zjbbintest
+[2024-05-21 10:15:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: slurpkit
+[2024-05-21 10:15:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ietfdata
+[2024-05-21 10:15:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aos-keys
+[2024-05-21 10:15:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: studioai
+[2024-05-21 10:15:32] INFO root fetch - processPackages [zjbbintest]: New version: [2.7] Old Version: [2.6]
+[2024-05-21 10:15:32] INFO root fetch - processPackages [outpostcli]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-21 10:15:32] INFO root fetch - processPackages [annofabcli]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-21 10:15:32] INFO root fetch - processPackages [zjbbintest]: Downloading https://files.pythonhosted.org/packages/25/b4/0b925a4e817da6d79f41a3fc8a3b53c72f8a671e0bdc7857fd8f99fed5aa/zjbbintest-2.6.tar.gz
+[2024-05-21 10:15:32] INFO root fetch - processPackages [studioai]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-21 10:15:32] INFO root fetch - processPackages [outpostcli]: Downloading https://files.pythonhosted.org/packages/7e/e2/114a39eac567286d0418645c0ea24089c48fcbe4cccec6c79191a5cefccf/outpostcli-0.0.8.tar.gz
+[2024-05-21 10:15:32] WARNING root fetch - processPackages [slurpkit]: Skipping, unable to determine old version
+[2024-05-21 10:15:32] INFO root fetch - main [MainThread]: End processing [slurpkit] error
+[2024-05-21 10:15:32] INFO root fetch - processPackages [aos-keys]: New version: [1.7.1b1] Old Version: [1.7.0b2]
+[2024-05-21 10:15:32] INFO root fetch - processPackages [ietfdata]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-05-21 10:15:32] INFO root fetch - processPackages [annofabcli]: Downloading https://files.pythonhosted.org/packages/9b/30/c4b262939f47c9a5b879fd55c593b084bfaf1bd05e70454b77ae76dc4836/annofabcli-1.9.0.tar.gz
+[2024-05-21 10:15:32] INFO root fetch - processPackages [zjbbintest]: Downloading https://files.pythonhosted.org/packages/39/54/411ed9e7d63011893f298d6e7595ff9f0b5a349990e46a03aa6fd7c25fbc/zjbbintest-2.7.tar.gz
+[2024-05-21 10:15:32] INFO root fetch - processPackages [outpostcli]: Downloading https://files.pythonhosted.org/packages/df/ab/82b6853cec170d33c2aff19e3a298b0bf56f7ba1b885f6f7d42a10ae43dc/outpostcli-0.0.9.tar.gz
+[2024-05-21 10:15:32] INFO root fetch - processPackages [ietfdata]: Downloading https://files.pythonhosted.org/packages/6b/d3/2cf1eb70e796e25b0e2c4ce8abbba44bc57857dd814155c47e26a292d53b/ietfdata-0.7.0.tar.gz
+[2024-05-21 10:15:32] INFO root fetch - processPackages [aos-keys]: Downloading https://files.pythonhosted.org/packages/98/7d/5556f5b458bf53674a55a8d5fb3836ab876874d2d03de9b42737ec29aca9/aos_keys-1.7.0b2-py3-none-any.whl
+[2024-05-21 10:15:32] INFO root fetch - processPackages [annofabcli]: Downloading https://files.pythonhosted.org/packages/f3/65/e480a62f8a5ee129f7a4ed0ec83f6f6dcd5418f8a620d1c17c801ffb6e80/annofabcli-1.9.1.tar.gz
+[2024-05-21 10:15:32] INFO root fetch - processPackages [studioai]: Downloading https://files.pythonhosted.org/packages/6c/f1/4640d8e5ba5bd3a2a3a7cf3bc24961b3b0dff9898ad35d19dcb85da2ab9d/studioai-0.2.8.tar.gz
+[2024-05-21 10:15:32] INFO root fetch - processPackages [zjbbintest]: executing diffoscope
+[2024-05-21 10:15:32] INFO root fetch - processPackages [zjbbintest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zjbbintest-2.6.tar.gz tmp/zjbbintest-2.7.tar.gz --markdown 20240521/z/zjbbintest/2.6-2.7/README.md --exclude *.pyd
+[2024-05-21 10:15:32] INFO root fetch - processPackages [outpostcli]: executing diffoscope
+[2024-05-21 10:15:32] INFO root fetch - processPackages [outpostcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/outpostcli-0.0.8.tar.gz tmp/outpostcli-0.0.9.tar.gz --markdown 20240521/o/outpostcli/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-21 10:15:32] INFO root fetch - processPackages [annofabcli]: executing diffoscope
+[2024-05-21 10:15:32] INFO root fetch - processPackages [annofabcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/annofabcli-1.9.0.tar.gz tmp/annofabcli-1.9.1.tar.gz --markdown 20240521/a/annofabcli/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-21 10:15:32] INFO root fetch - processPackages [ietfdata]: Downloading https://files.pythonhosted.org/packages/1b/ed/e3ac589ac8144db6838cc09824df602f73febdc88e5e6da2714c901213d3/ietfdata-0.7.1.tar.gz
+[2024-05-21 10:15:33] INFO root fetch - processPackages [aos-keys]: Downloading https://files.pythonhosted.org/packages/75/45/7998bf4e49188b2c4877b7831cf627475853a656c5d45799bf5281de3a04/aos_keys-1.7.1b1-py3-none-any.whl
+[2024-05-21 10:15:33] INFO root fetch - processPackages [ietfdata]: executing diffoscope
+[2024-05-21 10:15:33] INFO root fetch - processPackages [ietfdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ietfdata-0.7.0.tar.gz tmp/ietfdata-0.7.1.tar.gz --markdown 20240521/i/ietfdata/0.7.0-0.7.1/README.md --exclude *.pyd
+[2024-05-21 10:15:33] INFO root fetch - processPackages [studioai]: Downloading https://files.pythonhosted.org/packages/58/a1/98ab29ab0eb42a717c18dafe8d91270ead3cc54738b1d64db327046f4e73/studioai-0.2.9.tar.gz
+[2024-05-21 10:15:33] INFO root fetch - processPackages [aos-keys]: executing diffoscope
+[2024-05-21 10:15:33] INFO root fetch - processPackages [aos-keys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aos_keys-1.7.0b2-py3-none-any.whl.zip tmp/aos_keys-1.7.1b1-py3-none-any.whl.zip --markdown 20240521/a/aos-keys/1.7.0b2-1.7.1b1/README.md --exclude *.pyd
+[2024-05-21 10:15:33] INFO root fetch - processPackages [studioai]: executing diffoscope
+[2024-05-21 10:15:33] INFO root fetch - processPackages [studioai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/studioai-0.2.8.tar.gz tmp/studioai-0.2.9.tar.gz --markdown 20240521/s/studioai/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-21 10:15:33] INFO root fetch - processPackages [zjbbintest]: Remove: archive file [/home/abi/fetcher/tmp/zjbbintest-2.6.tar.gz]
+[2024-05-21 10:15:33] INFO root fetch - processPackages [zjbbintest]: Remove: archive file [/home/abi/fetcher/tmp/zjbbintest-2.7.tar.gz]
+[2024-05-21 10:15:33] INFO root fetch - main [MainThread]: End processing [zjbbintest]: success
+[2024-05-21 10:15:33] INFO root fetch - processPackages [outpostcli]: Remove: archive file [/home/abi/fetcher/tmp/outpostcli-0.0.8.tar.gz]
+[2024-05-21 10:15:33] INFO root fetch - processPackages [outpostcli]: Remove: archive file [/home/abi/fetcher/tmp/outpostcli-0.0.9.tar.gz]
+[2024-05-21 10:15:33] INFO root fetch - main [MainThread]: End processing [outpostcli]: success
+[2024-05-21 10:15:33] INFO root fetch - processPackages [annofabcli]: Remove: archive file [/home/abi/fetcher/tmp/annofabcli-1.9.0.tar.gz]
+[2024-05-21 10:15:33] INFO root fetch - processPackages [annofabcli]: Remove: archive file [/home/abi/fetcher/tmp/annofabcli-1.9.1.tar.gz]
+[2024-05-21 10:15:33] INFO root fetch - main [MainThread]: End processing [annofabcli]: success
+[2024-05-21 10:15:33] INFO root fetch - processPackages [aos-keys]: Remove: archive file [/home/abi/fetcher/tmp/aos_keys-1.7.0b2-py3-none-any.whl.zip]
+[2024-05-21 10:15:33] INFO root fetch - processPackages [aos-keys]: Remove: archive file [/home/abi/fetcher/tmp/aos_keys-1.7.1b1-py3-none-any.whl.zip]
+[2024-05-21 10:15:33] INFO root fetch - main [MainThread]: End processing [aos-keys]: success
+[2024-05-21 10:15:34] INFO root fetch - processPackages [ietfdata]: Remove: archive file [/home/abi/fetcher/tmp/ietfdata-0.7.0.tar.gz]
+[2024-05-21 10:15:34] INFO root fetch - processPackages [ietfdata]: Remove: archive file [/home/abi/fetcher/tmp/ietfdata-0.7.1.tar.gz]
+[2024-05-21 10:15:34] INFO root fetch - main [MainThread]: End processing [ietfdata]: success
+[2024-05-21 10:15:34] INFO root fetch - processPackages [studioai]: Remove: archive file [/home/abi/fetcher/tmp/studioai-0.2.8.tar.gz]
+[2024-05-21 10:15:34] INFO root fetch - processPackages [studioai]: Remove: archive file [/home/abi/fetcher/tmp/studioai-0.2.9.tar.gz]
+[2024-05-21 10:15:34] INFO root fetch - main [MainThread]: End processing [studioai]: success
+[2024-05-21 10:15:34] INFO root fetch - main [MainThread]: Store serial: [23303026]
