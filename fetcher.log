@@ -7738,3 +7738,27 @@
 [2024-05-21 03:49:54] INFO root fetch - processPackages [boto3-stubs]: Remove: archive file [/home/abi/fetcher/tmp/boto3_stubs-1.34.99.tar.gz]
 [2024-05-21 03:49:54] INFO root fetch - main [MainThread]: End processing [boto3-stubs]: success
 [2024-05-21 03:49:54] INFO root fetch - main [MainThread]: Store serial: [23299650]
+[2024-05-21 03:51:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23299650]
+[2024-05-21 03:52:03] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-21 03:52:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tmticket
+[2024-05-21 03:52:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aiokcp
+[2024-05-21 03:52:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: arch-flow
+[2024-05-21 03:52:03] INFO root fetch - processPackages [tmticket]: New version: [0.2.2] Old Version: [0.2.15]
+[2024-05-21 03:52:03] INFO root fetch - processPackages [arch-flow]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-21 03:52:03] INFO root fetch - processPackages [tmticket]: Downloading https://files.pythonhosted.org/packages/f6/77/9e8ea108b13a566b225aa35ac94d1abd8a3d8d88c3be087b936d8bd28ea1/tmticket-0.2.15.tar.gz
+[2024-05-21 03:52:03] WARNING root fetch - processPackages [aiokcp]: Skipping, unable to determine old version
+[2024-05-21 03:52:03] INFO root fetch - main [MainThread]: End processing [aiokcp] error
+[2024-05-21 03:52:03] INFO root fetch - processPackages [arch-flow]: Downloading https://files.pythonhosted.org/packages/9e/ef/35f2c6a43dba20ad782e15abd988db76c62471a96f09a5631cfe51057f46/arch_flow-0.1.6.tar.gz
+[2024-05-21 03:52:04] INFO root fetch - processPackages [arch-flow]: Downloading https://files.pythonhosted.org/packages/07/79/ec6592383bad7ebed04ed881c55220ab6311b0db51f577050343e076f857/arch_flow-0.1.7.tar.gz
+[2024-05-21 03:52:04] INFO root fetch - processPackages [tmticket]: Downloading https://files.pythonhosted.org/packages/14/24/d9b4e8fa75d1188e9a793c4a4910d44ca119f97ff0b3779a448274e8c3fd/tmticket-0.2.2.tar.gz
+[2024-05-21 03:52:04] INFO root fetch - processPackages [tmticket]: executing diffoscope
+[2024-05-21 03:52:04] INFO root fetch - processPackages [tmticket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmticket-0.2.15.tar.gz tmp/tmticket-0.2.2.tar.gz --markdown 20240521/t/tmticket/0.2.15-0.2.2/README.md --exclude *.pyd
+[2024-05-21 03:52:04] INFO root fetch - processPackages [arch-flow]: executing diffoscope
+[2024-05-21 03:52:04] INFO root fetch - processPackages [arch-flow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arch_flow-0.1.6.tar.gz tmp/arch_flow-0.1.7.tar.gz --markdown 20240521/a/arch-flow/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-21 03:52:04] INFO root fetch - processPackages [tmticket]: Remove: archive file [/home/abi/fetcher/tmp/tmticket-0.2.15.tar.gz]
+[2024-05-21 03:52:04] INFO root fetch - processPackages [tmticket]: Remove: archive file [/home/abi/fetcher/tmp/tmticket-0.2.2.tar.gz]
+[2024-05-21 03:52:04] INFO root fetch - main [MainThread]: End processing [tmticket]: success
+[2024-05-21 03:52:04] INFO root fetch - processPackages [arch-flow]: Remove: archive file [/home/abi/fetcher/tmp/arch_flow-0.1.6.tar.gz]
+[2024-05-21 03:52:04] INFO root fetch - processPackages [arch-flow]: Remove: archive file [/home/abi/fetcher/tmp/arch_flow-0.1.7.tar.gz]
+[2024-05-21 03:52:04] INFO root fetch - main [MainThread]: End processing [arch-flow]: success
+[2024-05-21 03:52:04] INFO root fetch - main [MainThread]: Store serial: [23299660]
