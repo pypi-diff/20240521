@@ -13129,3 +13129,108 @@
 [2024-05-21 08:20:31] ERROR root fetch - processPackages [oci-cli]: Timeout during execution of pkgdiff
 [2024-05-21 08:20:31] INFO root fetch - main [MainThread]: End processing [oci-cli] error
 [2024-05-21 08:20:31] INFO root fetch - main [MainThread]: Store serial: [23301894]
+[2024-05-21 08:22:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23301894]
+[2024-05-21 08:22:40] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-21 08:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fake-bpy-module-latest
+[2024-05-21 08:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ctrip-app-ui
+[2024-05-21 08:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fake-bpy-module
+[2024-05-21 08:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fridaylabs
+[2024-05-21 08:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: secretflow
+[2024-05-21 08:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: secretflow-lite
+[2024-05-21 08:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lavague-core
+[2024-05-21 08:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyre
+[2024-05-21 08:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: autodistill-paligemma
+[2024-05-21 08:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pms-encoder
+[2024-05-21 08:22:40] INFO root fetch - processPackages [ctrip-app-ui]: New version: [0.7.2] Old Version: [0.7.1]
+[2024-05-21 08:22:40] INFO root fetch - processPackages [fake-bpy-module]: New version: [20240520] Old Version: [20240519]
+[2024-05-21 08:22:40] INFO root fetch - processPackages [fridaylabs]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-21 08:22:40] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20240520] Old Version: [20240519]
+[2024-05-21 08:22:40] INFO root fetch - processPackages [ctrip-app-ui]: Downloading https://files.pythonhosted.org/packages/80/b4/4ae11366f37427ce7660f2bdb9131f242b66aea4a0372d9ae7325a0a96d3/ctrip-app-ui-0.7.1.tar.gz
+[2024-05-21 08:22:40] INFO root fetch - processPackages [pyre]: New version: [1.12.5] Old Version: [1.12.4]
+[2024-05-21 08:22:40] WARNING root fetch - processPackages [autodistill-paligemma]: Skipping, unable to determine old version
+[2024-05-21 08:22:40] INFO root fetch - processPackages [autodistill-paligemma]: Start processing: odoo14-addon-ssi-liquidity-transfer
+[2024-05-21 08:22:40] INFO root fetch - main [MainThread]: End processing [autodistill-paligemma] error
+[2024-05-21 08:22:40] INFO root fetch - processPackages [fake-bpy-module]: Downloading https://files.pythonhosted.org/packages/f2/c5/c1ed2ec4c780c3c17781b423d585bc473693c23b6b11980a39f7b2057928/fake_bpy_module-20240519.tar.gz
+[2024-05-21 08:22:40] INFO root fetch - processPackages [pms-encoder]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-21 08:22:40] INFO root fetch - processPackages [lavague-core]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-21 08:22:40] INFO root fetch - processPackages [secretflow-lite]: New version: [1.6.0b0] Old Version: [1.5.0b0]
+[2024-05-21 08:22:40] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/8b/c8/692f6e834359e11c0c52b1cc6f9facb01fa068072ce9b5c22910f620942f/fake_bpy_module_latest-20240519.tar.gz
+[2024-05-21 08:22:40] INFO root fetch - processPackages [secretflow]: New version: [1.6.0b0] Old Version: [1.5.0b0]
+[2024-05-21 08:22:40] INFO root fetch - processPackages [fridaylabs]: Downloading https://files.pythonhosted.org/packages/48/bf/422b781e567e8d1ff86c5bae3c5f57275509ef6941dc7433b58f51d22d9a/fridaylabs-0.1.0.tar.gz
+[2024-05-21 08:22:40] INFO root fetch - processPackages [odoo14-addon-ssi-liquidity-transfer]: New version: [14.0.1.7.0] Old Version: [14.0.1.6.0]
+[2024-05-21 08:22:40] INFO root fetch - processPackages [pyre]: Downloading https://files.pythonhosted.org/packages/69/dd/4e32c83eff29f82179cac6aff4d513360fc151674448635a683675794974/pyre-1.12.4.tar.gz
+[2024-05-21 08:22:40] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/80/f1/88f2f54188c15bf6cca5ba7a3a347b8d1c83b15a626f541acf3dde5aa63d/pms_encoder-0.0.8.tar.gz
+[2024-05-21 08:22:40] INFO root fetch - processPackages [lavague-core]: Downloading https://files.pythonhosted.org/packages/b3/2e/435b7f502e3944f9833e95d828142e580af3a42bcfdee8f5005b565e302d/lavague_core-0.1.3.tar.gz
+[2024-05-21 08:22:40] INFO root fetch - processPackages [secretflow-lite]: Downloading https://files.pythonhosted.org/packages/c8/3a/6646a8d95de20f2fbc541324f17edd45df9d49c88895fe7902863475df4b/secretflow_lite-1.5.0b0-cp39-cp39-manylinux2014_x86_64.whl
+[2024-05-21 08:22:40] INFO root fetch - processPackages [secretflow]: Downloading https://files.pythonhosted.org/packages/d8/da/989cfcc9b5ac5c7a36af6356ec76c749676a0d8f406ee85340f58f0ed2f3/secretflow-1.5.0b0-cp39-cp39-manylinux2014_x86_64.whl
+[2024-05-21 08:22:40] INFO root fetch - processPackages [ctrip-app-ui]: Downloading https://files.pythonhosted.org/packages/bc/ac/9ea7866638875c38f902b342c649a6a35732a85c0c427d989baeaeaf946a/ctrip-app-ui-0.7.2.tar.gz
+[2024-05-21 08:22:40] INFO root fetch - processPackages [fridaylabs]: Downloading https://files.pythonhosted.org/packages/14/41/df5e98c9eabb58aa5c20e993d30b3f0f0c160d4c3622db623d148dc21c0a/fridaylabs-0.1.1.tar.gz
+[2024-05-21 08:22:40] INFO root fetch - processPackages [ctrip-app-ui]: executing diffoscope
+[2024-05-21 08:22:40] INFO root fetch - processPackages [ctrip-app-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctrip-app-ui-0.7.1.tar.gz tmp/ctrip-app-ui-0.7.2.tar.gz --markdown 20240521/c/ctrip-app-ui/0.7.1-0.7.2/README.md --exclude *.pyd
+[2024-05-21 08:22:40] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/28/7a/2590c872cc3cd9bb034bf05715cc866fdd31e8239507eef996d1fd3e3b80/fake_bpy_module_latest-20240520.tar.gz
+[2024-05-21 08:22:40] INFO root fetch - processPackages [fake-bpy-module]: Downloading https://files.pythonhosted.org/packages/89/f1/7cafb0796a5cd6afaae4b533afcf360c2f28cddb86c137de55bf0b5558b9/fake_bpy_module-20240520.tar.gz
+[2024-05-21 08:22:41] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/93/31/8bb081756db42925fab6507b6e0f497d6bf45acd407ff38cb00f2aaec54c/pms_encoder-0.0.9.tar.gz
+[2024-05-21 08:22:41] INFO root fetch - processPackages [odoo14-addon-ssi-liquidity-transfer]: Downloading https://files.pythonhosted.org/packages/ee/55/281125504af9c9bf48e512963d9e0d4f9db92264e12cb1e1d8b87faf1bca/odoo14_addon_ssi_liquidity_transfer-14.0.1.6.0-py3-none-any.whl
+[2024-05-21 08:22:41] INFO root fetch - processPackages [fridaylabs]: executing diffoscope
+[2024-05-21 08:22:41] INFO root fetch - processPackages [fridaylabs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fridaylabs-0.1.0.tar.gz tmp/fridaylabs-0.1.1.tar.gz --markdown 20240521/f/fridaylabs/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-21 08:22:41] INFO root fetch - processPackages [lavague-core]: Downloading https://files.pythonhosted.org/packages/21/9a/3c429f4c3b9e970da95a31b139a9f827f463f6b1490836613ab5a5b89814/lavague_core-0.1.4.tar.gz
+[2024-05-21 08:22:41] INFO root fetch - processPackages [pms-encoder]: executing diffoscope
+[2024-05-21 08:22:41] INFO root fetch - processPackages [pms-encoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pms_encoder-0.0.8.tar.gz tmp/pms_encoder-0.0.9.tar.gz --markdown 20240521/p/pms-encoder/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-21 08:22:41] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2024-05-21 08:22:41] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake_bpy_module_latest-20240519.tar.gz tmp/fake_bpy_module_latest-20240520.tar.gz --markdown 20240521/f/fake-bpy-module-latest/20240519-20240520/README.md --exclude *.pyd
+[2024-05-21 08:22:41] INFO root fetch - processPackages [fake-bpy-module]: executing diffoscope
+[2024-05-21 08:22:41] INFO root fetch - processPackages [fake-bpy-module]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake_bpy_module-20240519.tar.gz tmp/fake_bpy_module-20240520.tar.gz --markdown 20240521/f/fake-bpy-module/20240519-20240520/README.md --exclude *.pyd
+[2024-05-21 08:22:41] INFO root fetch - processPackages [lavague-core]: executing diffoscope
+[2024-05-21 08:22:41] INFO root fetch - processPackages [lavague-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lavague_core-0.1.3.tar.gz tmp/lavague_core-0.1.4.tar.gz --markdown 20240521/l/lavague-core/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-21 08:22:41] INFO root fetch - processPackages [secretflow-lite]: Downloading https://files.pythonhosted.org/packages/e3/99/00ff81abaeceed0337163a4d03a4e2395e518223b074dcaa8646f175c132/secretflow_lite-1.6.0b0-cp39-cp39-manylinux_2_28_aarch64.whl
+[2024-05-21 08:22:41] INFO root fetch - processPackages [odoo14-addon-ssi-liquidity-transfer]: Downloading https://files.pythonhosted.org/packages/ed/32/627c6d9982decb481961bc7604899fa3c3df45fea688d6bb7e6be50de654/odoo14_addon_ssi_liquidity_transfer-14.0.1.7.0-py3-none-any.whl
+[2024-05-21 08:22:41] INFO root fetch - processPackages [secretflow]: Downloading https://files.pythonhosted.org/packages/05/bb/8918fad84e81883656fc6ae4f8000d67c278047d2054fda24f5299ed02a8/secretflow-1.6.0b0-cp39-cp39-manylinux_2_28_aarch64.whl
+[2024-05-21 08:22:41] INFO root fetch - processPackages [pyre]: Downloading https://files.pythonhosted.org/packages/4e/ec/410c6afd6756cade8be132ae032cf286aae0ec478c80773b4490f5f08c42/pyre-1.12.5.tar.gz
+[2024-05-21 08:22:41] INFO root fetch - processPackages [odoo14-addon-ssi-liquidity-transfer]: executing diffoscope
+[2024-05-21 08:22:41] INFO root fetch - processPackages [odoo14-addon-ssi-liquidity-transfer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_ssi_liquidity_transfer-14.0.1.6.0-py3-none-any.whl.zip tmp/odoo14_addon_ssi_liquidity_transfer-14.0.1.7.0-py3-none-any.whl.zip --markdown 20240521/o/odoo14-addon-ssi-liquidity-transfer/14.0.1.6.0-14.0.1.7.0/README.md --exclude *.pyd
+[2024-05-21 08:22:41] INFO root fetch - processPackages [fridaylabs]: Remove: archive file [/home/abi/fetcher/tmp/fridaylabs-0.1.0.tar.gz]
+[2024-05-21 08:22:41] INFO root fetch - processPackages [fridaylabs]: Remove: archive file [/home/abi/fetcher/tmp/fridaylabs-0.1.1.tar.gz]
+[2024-05-21 08:22:41] INFO root fetch - processPackages [fridaylabs]: Start processing: cvprocessor
+[2024-05-21 08:22:41] INFO root fetch - main [MainThread]: End processing [fridaylabs]: success
+[2024-05-21 08:22:41] INFO root fetch - processPackages [ctrip-app-ui]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-app-ui-0.7.1.tar.gz]
+[2024-05-21 08:22:41] INFO root fetch - processPackages [ctrip-app-ui]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-app-ui-0.7.2.tar.gz]
+[2024-05-21 08:22:41] INFO root fetch - main [MainThread]: End processing [ctrip-app-ui]: success
+[2024-05-21 08:22:41] INFO root fetch - processPackages [cvprocessor]: New version: [1.0.2] Old Version: [1.0.0]
+[2024-05-21 08:22:41] INFO root fetch - processPackages [pyre]: executing diffoscope
+[2024-05-21 08:22:41] INFO root fetch - processPackages [pyre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyre-1.12.4.tar.gz tmp/pyre-1.12.5.tar.gz --markdown 20240521/p/pyre/1.12.4-1.12.5/README.md --exclude *.pyd
+[2024-05-21 08:22:41] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.8.tar.gz]
+[2024-05-21 08:22:41] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.9.tar.gz]
+[2024-05-21 08:22:41] INFO root fetch - main [MainThread]: End processing [pms-encoder]: success
+[2024-05-21 08:22:42] INFO root fetch - processPackages [lavague-core]: Remove: archive file [/home/abi/fetcher/tmp/lavague_core-0.1.3.tar.gz]
+[2024-05-21 08:22:42] INFO root fetch - processPackages [lavague-core]: Remove: archive file [/home/abi/fetcher/tmp/lavague_core-0.1.4.tar.gz]
+[2024-05-21 08:22:42] INFO root fetch - main [MainThread]: End processing [lavague-core]: success
+[2024-05-21 08:22:42] INFO root fetch - processPackages [cvprocessor]: Downloading https://files.pythonhosted.org/packages/69/32/62e1d6faa710a738c1ebca77655e1c72107bd502ce80a68965e3aaaf2845/cvprocessor-1.0.0.tar.gz
+[2024-05-21 08:22:42] INFO root fetch - processPackages [secretflow-lite]: executing diffoscope
+[2024-05-21 08:22:42] INFO root fetch - processPackages [secretflow-lite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secretflow_lite-1.5.0b0-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/secretflow_lite-1.6.0b0-cp39-cp39-manylinux_2_28_aarch64.whl.zip --markdown 20240521/s/secretflow-lite/1.5.0b0-1.6.0b0/README.md --exclude *.pyd
+[2024-05-21 08:22:42] INFO root fetch - processPackages [cvprocessor]: Downloading https://files.pythonhosted.org/packages/86/14/5d7832778b334e5f92cd2fadbef94fb3ce3434418e999060607c3e5bf997/cvprocessor-1.0.2.tar.gz
+[2024-05-21 08:22:42] INFO root fetch - processPackages [secretflow]: executing diffoscope
+[2024-05-21 08:22:42] INFO root fetch - processPackages [secretflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secretflow-1.5.0b0-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/secretflow-1.6.0b0-cp39-cp39-manylinux_2_28_aarch64.whl.zip --markdown 20240521/s/secretflow/1.5.0b0-1.6.0b0/README.md --exclude *.pyd
+[2024-05-21 08:22:42] INFO root fetch - processPackages [cvprocessor]: executing diffoscope
+[2024-05-21 08:22:42] INFO root fetch - processPackages [cvprocessor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvprocessor-1.0.0.tar.gz tmp/cvprocessor-1.0.2.tar.gz --markdown 20240521/c/cvprocessor/1.0.0-1.0.2/README.md --exclude *.pyd
+[2024-05-21 08:22:42] INFO root fetch - processPackages [odoo14-addon-ssi-liquidity-transfer]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_liquidity_transfer-14.0.1.6.0-py3-none-any.whl.zip]
+[2024-05-21 08:22:42] INFO root fetch - processPackages [odoo14-addon-ssi-liquidity-transfer]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_liquidity_transfer-14.0.1.7.0-py3-none-any.whl.zip]
+[2024-05-21 08:22:42] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-liquidity-transfer]: success
+[2024-05-21 08:22:43] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-1.0.0.tar.gz]
+[2024-05-21 08:22:43] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-1.0.2.tar.gz]
+[2024-05-21 08:22:43] INFO root fetch - main [MainThread]: End processing [cvprocessor]: success
+[2024-05-21 08:22:56] INFO root fetch - processPackages [fake-bpy-module]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module-20240519.tar.gz]
+[2024-05-21 08:22:56] INFO root fetch - processPackages [fake-bpy-module]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module-20240520.tar.gz]
+[2024-05-21 08:22:56] INFO root fetch - main [MainThread]: End processing [fake-bpy-module]: success
+[2024-05-21 08:22:56] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module_latest-20240519.tar.gz]
+[2024-05-21 08:22:56] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module_latest-20240520.tar.gz]
+[2024-05-21 08:22:56] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2024-05-21 08:23:00] INFO root fetch - processPackages [pyre]: Remove: archive file [/home/abi/fetcher/tmp/pyre-1.12.4.tar.gz]
+[2024-05-21 08:23:00] INFO root fetch - processPackages [pyre]: Remove: archive file [/home/abi/fetcher/tmp/pyre-1.12.5.tar.gz]
+[2024-05-21 08:23:00] INFO root fetch - main [MainThread]: End processing [pyre]: success
+[2024-05-21 08:23:31] INFO root fetch - processPackages [secretflow]: Remove: archive file [/home/abi/fetcher/tmp/secretflow-1.5.0b0-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-05-21 08:23:31] INFO root fetch - processPackages [secretflow]: Remove: archive file [/home/abi/fetcher/tmp/secretflow-1.6.0b0-cp39-cp39-manylinux_2_28_aarch64.whl.zip]
+[2024-05-21 08:23:31] INFO root fetch - main [MainThread]: End processing [secretflow]: success
+[2024-05-21 08:23:31] INFO root fetch - processPackages [secretflow-lite]: Remove: archive file [/home/abi/fetcher/tmp/secretflow_lite-1.5.0b0-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-05-21 08:23:31] INFO root fetch - processPackages [secretflow-lite]: Remove: archive file [/home/abi/fetcher/tmp/secretflow_lite-1.6.0b0-cp39-cp39-manylinux_2_28_aarch64.whl.zip]
+[2024-05-21 08:23:31] INFO root fetch - main [MainThread]: End processing [secretflow-lite]: success
+[2024-05-21 08:23:31] INFO root fetch - main [MainThread]: Store serial: [23301944]
