@@ -8663,3 +8663,45 @@
 [2024-05-21 04:47:13] INFO root fetch - processPackages [InvokeAI]: Remove: archive file [/home/abi/fetcher/tmp/InvokeAI-4.2.2.tar.gz]
 [2024-05-21 04:47:13] INFO root fetch - main [MainThread]: End processing [InvokeAI]: success
 [2024-05-21 04:47:13] INFO root fetch - main [MainThread]: Store serial: [23300169]
+[2024-05-21 04:49:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23300169]
+[2024-05-21 04:49:22] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-21 04:49:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cjtool
+[2024-05-21 04:49:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sourcery-nightly
+[2024-05-21 04:49:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gizai
+[2024-05-21 04:49:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gizai
+[2024-05-21 04:49:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: verifyvoice
+[2024-05-21 04:49:22] INFO root fetch - processPackages [gizai]: New version: [5.9.1] Old Version: [5.6.1]
+[2024-05-21 04:49:22] INFO root fetch - processPackages [gizai]: New version: [5.9.1] Old Version: [5.6.1]
+[2024-05-21 04:49:22] INFO root fetch - processPackages [sourcery-nightly]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-21 04:49:22] INFO root fetch - processPackages [cjtool]: New version: [0.29.9] Old Version: [0.29.8]
+[2024-05-21 04:49:22] INFO root fetch - processPackages [gizai]: Downloading https://files.pythonhosted.org/packages/01/83/b0110f05b1480d30f378d727382dac2b2e091afab0e8b384fd19699747f7/gizai-5.6.1.tar.gz
+[2024-05-21 04:49:22] INFO root fetch - processPackages [gizai]: Downloading https://files.pythonhosted.org/packages/01/83/b0110f05b1480d30f378d727382dac2b2e091afab0e8b384fd19699747f7/gizai-5.6.1.tar.gz
+[2024-05-21 04:49:22] INFO root fetch - processPackages [verifyvoice]: New version: [0.1.34] Old Version: [0.1.33]
+[2024-05-21 04:49:22] INFO root fetch - processPackages [sourcery-nightly]: Downloading https://files.pythonhosted.org/packages/53/c3/6633071e69f9b7c9fa4dc3fd942df526a00564a3b06fde4e568a9d207143/sourcery_nightly-1.8.0-py2.py3-none-win_amd64.whl
+[2024-05-21 04:49:22] WARNING root fetch - processPackages [sourcery-nightly]: Skipping package: exceeds size limit 68491059>=10485760
+[2024-05-21 04:49:22] INFO root fetch - main [MainThread]: End processing [sourcery-nightly] error
+[2024-05-21 04:49:22] INFO root fetch - processPackages [gizai]: Downloading https://files.pythonhosted.org/packages/bd/e0/e34a72b06da9054a2c2be6561feb68d8df248f033dea7576bd6df6bb25a9/gizai-5.9.1.tar.gz
+[2024-05-21 04:49:22] INFO root fetch - processPackages [cjtool]: Downloading https://files.pythonhosted.org/packages/f7/c5/e9f46f0c3bac7c1910489612af1a8ce75904341bea7a63660f07431cd229/cjtool-0.29.8-py2.py3-none-any.whl
+[2024-05-21 04:49:22] INFO root fetch - processPackages [verifyvoice]: Downloading https://files.pythonhosted.org/packages/4a/6a/c1e566e9542811493ddfdb8bb33a0fc461b3ddf61e4aefb488149b22ecf4/verifyvoice-0.1.33.tar.gz
+[2024-05-21 04:49:22] INFO root fetch - processPackages [gizai]: Downloading https://files.pythonhosted.org/packages/bd/e0/e34a72b06da9054a2c2be6561feb68d8df248f033dea7576bd6df6bb25a9/gizai-5.9.1.tar.gz
+[2024-05-21 04:49:22] INFO root fetch - processPackages [gizai]: executing diffoscope
+[2024-05-21 04:49:22] INFO root fetch - processPackages [gizai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gizai-5.6.1.tar.gz tmp/gizai-5.9.1.tar.gz --markdown 20240521/g/gizai/5.6.1-5.9.1/README.md --exclude *.pyd
+[2024-05-21 04:49:22] INFO root fetch - processPackages [gizai]: executing diffoscope
+[2024-05-21 04:49:22] INFO root fetch - processPackages [gizai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gizai-5.6.1.tar.gz tmp/gizai-5.9.1.tar.gz --markdown 20240521/g/gizai/5.6.1-5.9.1/README.md --exclude *.pyd
+[2024-05-21 04:49:23] INFO root fetch - processPackages [cjtool]: Downloading https://files.pythonhosted.org/packages/ff/3a/3535e470605650f901ab25e2d36409f592be119caeb62f8cee32618f4cd0/cjtool-0.29.9-py2.py3-none-any.whl
+[2024-05-21 04:49:23] INFO root fetch - processPackages [verifyvoice]: Downloading https://files.pythonhosted.org/packages/4b/f0/5bb3c8e58e93600850bc7385c79118daba90a69f527adbe24bba1b9011ea/verifyvoice-0.1.34.tar.gz
+[2024-05-21 04:49:23] INFO root fetch - processPackages [cjtool]: executing diffoscope
+[2024-05-21 04:49:23] INFO root fetch - processPackages [cjtool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjtool-0.29.8-py2.py3-none-any.whl.zip tmp/cjtool-0.29.9-py2.py3-none-any.whl.zip --markdown 20240521/c/cjtool/0.29.8-0.29.9/README.md --exclude *.pyd
+[2024-05-21 04:49:23] INFO root fetch - processPackages [verifyvoice]: executing diffoscope
+[2024-05-21 04:49:23] INFO root fetch - processPackages [verifyvoice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/verifyvoice-0.1.33.tar.gz tmp/verifyvoice-0.1.34.tar.gz --markdown 20240521/v/verifyvoice/0.1.33-0.1.34/README.md --exclude *.pyd
+[2024-05-21 04:49:23] INFO root fetch - processPackages [gizai]: Remove: archive file [/home/abi/fetcher/tmp/gizai-5.6.1.tar.gz]
+[2024-05-21 04:49:23] INFO root fetch - processPackages [gizai]: Remove: archive file [/home/abi/fetcher/tmp/gizai-5.9.1.tar.gz]
+[2024-05-21 04:49:23] INFO root fetch - main [MainThread]: End processing [gizai]: success
+[2024-05-21 04:49:23] INFO root fetch - main [MainThread]: End processing [gizai]: success
+[2024-05-21 04:49:23] INFO root fetch - processPackages [cjtool]: Remove: archive file [/home/abi/fetcher/tmp/cjtool-0.29.8-py2.py3-none-any.whl.zip]
+[2024-05-21 04:49:23] INFO root fetch - processPackages [cjtool]: Remove: archive file [/home/abi/fetcher/tmp/cjtool-0.29.9-py2.py3-none-any.whl.zip]
+[2024-05-21 04:49:23] INFO root fetch - main [MainThread]: End processing [cjtool]: success
+[2024-05-21 04:49:23] INFO root fetch - processPackages [verifyvoice]: Remove: archive file [/home/abi/fetcher/tmp/verifyvoice-0.1.33.tar.gz]
+[2024-05-21 04:49:23] INFO root fetch - processPackages [verifyvoice]: Remove: archive file [/home/abi/fetcher/tmp/verifyvoice-0.1.34.tar.gz]
+[2024-05-21 04:49:23] INFO root fetch - main [MainThread]: End processing [verifyvoice]: success
+[2024-05-21 04:49:23] INFO root fetch - main [MainThread]: Store serial: [23300193]
