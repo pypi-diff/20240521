@@ -3502,3 +3502,15 @@
 [2024-05-21 02:58:21] INFO root fetch - processPackages [wawona]: Remove: archive file [/home/abi/fetcher/tmp/wawona-1.2.0.tar.gz]
 [2024-05-21 02:58:21] INFO root fetch - main [MainThread]: End processing [wawona]: success
 [2024-05-21 02:58:21] INFO root fetch - main [MainThread]: Store serial: [23298186]
+[2024-05-21 03:00:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23298186]
+[2024-05-21 03:00:30] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-21 03:00:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: blue-plugin
+[2024-05-21 03:00:30] INFO root fetch - processPackages [blue-plugin]: New version: [2.187.1] Old Version: [2.185.1]
+[2024-05-21 03:00:30] INFO root fetch - processPackages [blue-plugin]: Downloading https://files.pythonhosted.org/packages/cf/6d/127607fa93ff6d1821ccf1eadad4993f034ac64d987df17381fdd1eaac5c/blue_plugin-2.185.1.tar.gz
+[2024-05-21 03:00:30] INFO root fetch - processPackages [blue-plugin]: Downloading https://files.pythonhosted.org/packages/f6/99/610352e49155cc7acc87f23fd124f4757e13cc4da9952713e260feb407a5/blue_plugin-2.187.1.tar.gz
+[2024-05-21 03:00:31] INFO root fetch - processPackages [blue-plugin]: executing diffoscope
+[2024-05-21 03:00:31] INFO root fetch - processPackages [blue-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blue_plugin-2.185.1.tar.gz tmp/blue_plugin-2.187.1.tar.gz --markdown 20240521/b/blue-plugin/2.185.1-2.187.1/README.md --exclude *.pyd
+[2024-05-21 03:00:31] INFO root fetch - processPackages [blue-plugin]: Remove: archive file [/home/abi/fetcher/tmp/blue_plugin-2.185.1.tar.gz]
+[2024-05-21 03:00:31] INFO root fetch - processPackages [blue-plugin]: Remove: archive file [/home/abi/fetcher/tmp/blue_plugin-2.187.1.tar.gz]
+[2024-05-21 03:00:31] INFO root fetch - main [MainThread]: End processing [blue-plugin]: success
+[2024-05-21 03:00:31] INFO root fetch - main [MainThread]: Store serial: [23298186]
