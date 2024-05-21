@@ -18855,3 +18855,50 @@
 [2024-05-21 11:42:46] INFO root fetch - processPackages [zeekscript]: Remove: archive file [/home/abi/fetcher/tmp/zeekscript-1.2.8.dev3.tar.gz]
 [2024-05-21 11:42:46] INFO root fetch - main [MainThread]: End processing [zeekscript]: success
 [2024-05-21 11:42:46] INFO root fetch - main [MainThread]: Store serial: [23304052]
+[2024-05-21 11:44:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23304052]
+[2024-05-21 11:44:55] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-21 11:44:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: udata
+[2024-05-21 11:44:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nanomotif
+[2024-05-21 11:44:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulse-deadtime-fix
+[2024-05-21 11:44:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rvtools2azmigrate
+[2024-05-21 11:44:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: CVE-2023-27524
+[2024-05-21 11:44:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: newsdataapi
+[2024-05-21 11:44:56] INFO root fetch - processPackages [CVE-2023-27524]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-21 11:44:56] INFO root fetch - processPackages [rvtools2azmigrate]: New version: [0.2.0] Old Version: [0.1.3]
+[2024-05-21 11:44:56] WARNING root fetch - processPackages [pulse-deadtime-fix]: Skipping, unable to determine old version
+[2024-05-21 11:44:56] INFO root fetch - main [MainThread]: End processing [pulse-deadtime-fix] error
+[2024-05-21 11:44:56] INFO root fetch - processPackages [newsdataapi]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-21 11:44:56] INFO root fetch - processPackages [nanomotif]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-05-21 11:44:56] INFO root fetch - processPackages [udata]: New version: [8.0.1.dev29075] Old Version: [8.0.1.dev29005]
+[2024-05-21 11:44:56] INFO root fetch - processPackages [CVE-2023-27524]: Downloading https://files.pythonhosted.org/packages/f6/d1/6e81539b6a2235d13420a4aca094601547c712d380d390312e8b5d29449b/CVE-2023-27524-0.0.2.tar.gz
+[2024-05-21 11:44:56] INFO root fetch - processPackages [rvtools2azmigrate]: Downloading https://files.pythonhosted.org/packages/87/c5/eac374548ef3e5bc5458496682cd4bc5271cd791313620e69d0f394e7422/rvtools2azmigrate-0.1.3.tar.gz
+[2024-05-21 11:44:56] INFO root fetch - processPackages [newsdataapi]: Downloading https://files.pythonhosted.org/packages/e5/7d/5300119f2e6bf567bcaa29a4d17f34c36753dc605d1b2add32487962f07b/newsdataapi-0.1.8.tar.gz
+[2024-05-21 11:44:56] INFO root fetch - processPackages [nanomotif]: Downloading https://files.pythonhosted.org/packages/53/5e/1b696d8022c0d5213de8c06b79e6939c5e0a1a2c5c005d8875d561e6b589/nanomotif-0.4.2.tar.gz
+[2024-05-21 11:44:56] INFO root fetch - processPackages [udata]: Downloading https://files.pythonhosted.org/packages/54/18/68589d8379c432aa9760a85a7ba368d0c302ffa2679b37536c008b441e47/udata-8.0.1.dev29005-py2.py3-none-any.whl
+[2024-05-21 11:44:56] WARNING root fetch - processPackages [udata]: Skipping package: exceeds size limit 19787581>=10485760
+[2024-05-21 11:44:56] INFO root fetch - main [MainThread]: End processing [udata] error
+[2024-05-21 11:44:56] INFO root fetch - processPackages [CVE-2023-27524]: Downloading https://files.pythonhosted.org/packages/25/46/d10ddf91b52186e66d6811824b3ae10ace2b907d7b4923d5af19fc26aabd/CVE-2023-27524-0.0.3.tar.gz
+[2024-05-21 11:44:56] INFO root fetch - processPackages [rvtools2azmigrate]: Downloading https://files.pythonhosted.org/packages/11/32/cf4c872dfab32983a085eb40fcd80e827b41cbecdb2aad71936a20cbceaf/rvtools2azmigrate-0.2.0.tar.gz
+[2024-05-21 11:44:56] INFO root fetch - processPackages [newsdataapi]: Downloading https://files.pythonhosted.org/packages/ae/95/9f687408ac756e9c97aceda28b870ea1aeec922c270c6dca58d52ab3d62d/newsdataapi-0.1.9.tar.gz
+[2024-05-21 11:44:56] INFO root fetch - processPackages [CVE-2023-27524]: executing diffoscope
+[2024-05-21 11:44:56] INFO root fetch - processPackages [CVE-2023-27524]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CVE-2023-27524-0.0.2.tar.gz tmp/CVE-2023-27524-0.0.3.tar.gz --markdown 20240521/C/CVE-2023-27524/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-21 11:44:56] INFO root fetch - processPackages [rvtools2azmigrate]: executing diffoscope
+[2024-05-21 11:44:56] INFO root fetch - processPackages [rvtools2azmigrate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rvtools2azmigrate-0.1.3.tar.gz tmp/rvtools2azmigrate-0.2.0.tar.gz --markdown 20240521/r/rvtools2azmigrate/0.1.3-0.2.0/README.md --exclude *.pyd
+[2024-05-21 11:44:56] INFO root fetch - processPackages [newsdataapi]: executing diffoscope
+[2024-05-21 11:44:56] INFO root fetch - processPackages [newsdataapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/newsdataapi-0.1.8.tar.gz tmp/newsdataapi-0.1.9.tar.gz --markdown 20240521/n/newsdataapi/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-21 11:44:57] INFO root fetch - processPackages [newsdataapi]: Remove: archive file [/home/abi/fetcher/tmp/newsdataapi-0.1.8.tar.gz]
+[2024-05-21 11:44:57] INFO root fetch - processPackages [newsdataapi]: Remove: archive file [/home/abi/fetcher/tmp/newsdataapi-0.1.9.tar.gz]
+[2024-05-21 11:44:57] INFO root fetch - main [MainThread]: End processing [newsdataapi]: success
+[2024-05-21 11:44:57] INFO root fetch - processPackages [nanomotif]: Downloading https://files.pythonhosted.org/packages/da/48/717d972a6a82d80196413c3c9f08f70992a1c0fe95d3cce2ea9c5b57d576/nanomotif-0.4.3.tar.gz
+[2024-05-21 11:44:57] INFO root fetch - processPackages [rvtools2azmigrate]: Remove: archive file [/home/abi/fetcher/tmp/rvtools2azmigrate-0.1.3.tar.gz]
+[2024-05-21 11:44:57] INFO root fetch - processPackages [rvtools2azmigrate]: Remove: archive file [/home/abi/fetcher/tmp/rvtools2azmigrate-0.2.0.tar.gz]
+[2024-05-21 11:44:57] INFO root fetch - main [MainThread]: End processing [rvtools2azmigrate]: success
+[2024-05-21 11:44:57] INFO root fetch - processPackages [CVE-2023-27524]: Remove: archive file [/home/abi/fetcher/tmp/CVE-2023-27524-0.0.2.tar.gz]
+[2024-05-21 11:44:57] INFO root fetch - processPackages [CVE-2023-27524]: Remove: archive file [/home/abi/fetcher/tmp/CVE-2023-27524-0.0.3.tar.gz]
+[2024-05-21 11:44:57] INFO root fetch - main [MainThread]: End processing [CVE-2023-27524]: success
+[2024-05-21 11:44:57] INFO root fetch - processPackages [nanomotif]: executing diffoscope
+[2024-05-21 11:44:57] INFO root fetch - processPackages [nanomotif]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanomotif-0.4.2.tar.gz tmp/nanomotif-0.4.3.tar.gz --markdown 20240521/n/nanomotif/0.4.2-0.4.3/README.md --exclude *.pyd
+[2024-05-21 11:44:59] INFO root fetch - processPackages [nanomotif]: Remove: archive file [/home/abi/fetcher/tmp/nanomotif-0.4.2.tar.gz]
+[2024-05-21 11:44:59] INFO root fetch - processPackages [nanomotif]: Remove: archive file [/home/abi/fetcher/tmp/nanomotif-0.4.3.tar.gz]
+[2024-05-21 11:44:59] INFO root fetch - main [MainThread]: End processing [nanomotif]: success
+[2024-05-21 11:44:59] INFO root fetch - main [MainThread]: Store serial: [23304070]
