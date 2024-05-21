@@ -9772,3 +9772,36 @@
 [2024-05-21 05:46:06] INFO root fetch - processPackages [accelbyte-py-sdk]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte_py_sdk-0.66.0.tar.gz]
 [2024-05-21 05:46:06] INFO root fetch - main [MainThread]: End processing [accelbyte-py-sdk]: success
 [2024-05-21 05:46:06] INFO root fetch - main [MainThread]: Store serial: [23300630]
+[2024-05-21 05:48:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23300630]
+[2024-05-21 05:48:16] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-21 05:48:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: seg_tgce
+[2024-05-21 05:48:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: model-checker
+[2024-05-21 05:48:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: foxglove-client
+[2024-05-21 05:48:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mb-pytorch
+[2024-05-21 05:48:17] INFO root fetch - processPackages [seg_tgce]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-21 05:48:17] INFO root fetch - processPackages [model-checker]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-21 05:48:17] INFO root fetch - processPackages [mb-pytorch]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-21 05:48:17] WARNING root fetch - processPackages [foxglove-client]: Skipping, unable to determine old version
+[2024-05-21 05:48:17] INFO root fetch - main [MainThread]: End processing [foxglove-client] error
+[2024-05-21 05:48:17] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/58/e8/2f828969066e1873b4359ae2a186f78135f5ac14d0abdd28ebd0b153ca53/mb_pytorch-1.0.4.tar.gz
+[2024-05-21 05:48:17] INFO root fetch - processPackages [model-checker]: Downloading https://files.pythonhosted.org/packages/d4/a3/c747a4913078672f34adc4f223b1280d3d3bba45953bb6de5a9efe5ba52e/model_checker-0.3.8.tar.gz
+[2024-05-21 05:48:17] INFO root fetch - processPackages [seg_tgce]: Downloading https://files.pythonhosted.org/packages/82/fd/acca8638eb756e4402e27dfd131aa33deef38be7173db5d65e0592fa7235/seg_tgce-0.1.1.tar.gz
+[2024-05-21 05:48:17] INFO root fetch - processPackages [model-checker]: Downloading https://files.pythonhosted.org/packages/9f/34/8db406de616a95ce5da5a832c9764ce727860cfc2e73a8df9d985cebebc8/model_checker-0.3.9.tar.gz
+[2024-05-21 05:48:17] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/18/ae/b46b20b02b5f2c2a25fcae91a88f80ab1e1c18413f89f662d20e5475e824/mb_pytorch-1.0.5.tar.gz
+[2024-05-21 05:48:17] INFO root fetch - processPackages [seg_tgce]: Downloading https://files.pythonhosted.org/packages/1b/c1/0737887bc678e7c19f9e76555a36d61b803f6a3e1cd607e30ccc2deb7a6c/seg_tgce-0.1.2.tar.gz
+[2024-05-21 05:48:17] INFO root fetch - processPackages [mb-pytorch]: executing diffoscope
+[2024-05-21 05:48:17] INFO root fetch - processPackages [mb-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mb_pytorch-1.0.4.tar.gz tmp/mb_pytorch-1.0.5.tar.gz --markdown 20240521/m/mb-pytorch/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-21 05:48:17] INFO root fetch - processPackages [model-checker]: executing diffoscope
+[2024-05-21 05:48:17] INFO root fetch - processPackages [model-checker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model_checker-0.3.8.tar.gz tmp/model_checker-0.3.9.tar.gz --markdown 20240521/m/model-checker/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-21 05:48:17] INFO root fetch - processPackages [seg_tgce]: executing diffoscope
+[2024-05-21 05:48:17] INFO root fetch - processPackages [seg_tgce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seg_tgce-0.1.1.tar.gz tmp/seg_tgce-0.1.2.tar.gz --markdown 20240521/s/seg_tgce/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-21 05:48:18] INFO root fetch - processPackages [mb-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/mb_pytorch-1.0.4.tar.gz]
+[2024-05-21 05:48:18] INFO root fetch - processPackages [mb-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/mb_pytorch-1.0.5.tar.gz]
+[2024-05-21 05:48:18] INFO root fetch - main [MainThread]: End processing [mb-pytorch]: success
+[2024-05-21 05:48:18] INFO root fetch - processPackages [model-checker]: Remove: archive file [/home/abi/fetcher/tmp/model_checker-0.3.8.tar.gz]
+[2024-05-21 05:48:18] INFO root fetch - processPackages [model-checker]: Remove: archive file [/home/abi/fetcher/tmp/model_checker-0.3.9.tar.gz]
+[2024-05-21 05:48:18] INFO root fetch - main [MainThread]: End processing [model-checker]: success
+[2024-05-21 05:48:18] INFO root fetch - processPackages [seg_tgce]: Remove: archive file [/home/abi/fetcher/tmp/seg_tgce-0.1.1.tar.gz]
+[2024-05-21 05:48:18] INFO root fetch - processPackages [seg_tgce]: Remove: archive file [/home/abi/fetcher/tmp/seg_tgce-0.1.2.tar.gz]
+[2024-05-21 05:48:18] INFO root fetch - main [MainThread]: End processing [seg_tgce]: success
+[2024-05-21 05:48:18] INFO root fetch - main [MainThread]: Store serial: [23300642]
