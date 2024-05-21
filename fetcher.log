@@ -21818,3 +21818,69 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-21 13:19:15] INFO root fetch - processPackages [piccolo]: Remove: archive file [/home/abi/fetcher/tmp/piccolo-1.5.1.tar.gz]
 [2024-05-21 13:19:15] INFO root fetch - main [MainThread]: End processing [piccolo]: success
 [2024-05-21 13:19:15] INFO root fetch - main [MainThread]: Store serial: [23305304]
+[2024-05-21 13:21:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23305304]
+[2024-05-21 13:21:24] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-21 13:21:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dzidb
+[2024-05-21 13:21:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lsm303d
+[2024-05-21 13:21:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: optimask
+[2024-05-21 13:21:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odbc2deltalake
+[2024-05-21 13:21:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: segysak
+[2024-05-21 13:21:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyodre
+[2024-05-21 13:21:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: langchain-googledrive
+[2024-05-21 13:21:24] INFO root fetch - processPackages [odbc2deltalake]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-21 13:21:24] INFO root fetch - processPackages [pyodre]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-21 13:21:24] INFO root fetch - processPackages [dzidb]: New version: [1.1] Old Version: [1.0.8]
+[2024-05-21 13:21:24] INFO root fetch - processPackages [segysak]: New version: [0.4rc1] Old Version: [0.4.3]
+[2024-05-21 13:21:24] INFO root fetch - processPackages [odbc2deltalake]: Downloading https://files.pythonhosted.org/packages/60/8a/62f1a75f4a93a252dbb188a71192d3fa69b90655d827f1a90464c09306d8/odbc2deltalake-0.9.0.tar.gz
+[2024-05-21 13:21:24] INFO root fetch - processPackages [pyodre]: Downloading https://files.pythonhosted.org/packages/8e/a0/65cdb76921c04ecf510028094dc61ac9278360667a61087dfb2269566c47/pyodre-0.0.5.tar.gz
+[2024-05-21 13:21:24] INFO root fetch - processPackages [optimask]: New version: [1.1a0] Old Version: [1.0]
+[2024-05-21 13:21:24] INFO root fetch - processPackages [lsm303d]: New version: [1.0.0] Old Version: [0.0.5]
+[2024-05-21 13:21:24] INFO root fetch - processPackages [langchain-googledrive]: New version: [0.2.0] Old Version: [0.1.52]
+[2024-05-21 13:21:24] INFO root fetch - processPackages [dzidb]: Downloading https://files.pythonhosted.org/packages/72/bb/a08dd5b03f4b8aa27664a27111b99d794a04b6ea05812a34c7a800bb10a3/dzidb-1.0.8.tar.gz
+[2024-05-21 13:21:24] INFO root fetch - processPackages [segysak]: Downloading https://files.pythonhosted.org/packages/5f/8d/fd27c17beb15fd244f7be3ad7154efba395e0053f6e669013b1837b12627/segysak-0.4.3-py3-none-any.whl
+[2024-05-21 13:21:25] INFO root fetch - processPackages [optimask]: Downloading https://files.pythonhosted.org/packages/39/15/ea98cce62993940298e0115beec16f0eeccecb61a764b98fabd7a92d54fc/optimask-1.0.tar.gz
+[2024-05-21 13:21:25] INFO root fetch - processPackages [lsm303d]: Downloading https://files.pythonhosted.org/packages/18/cc/f000b74faf4cbf134a5b933f0673fee27542a60457a66cac02dc1b7cb24c/lsm303d-0.0.5.tar.gz
+[2024-05-21 13:21:25] INFO root fetch - processPackages [langchain-googledrive]: Downloading https://files.pythonhosted.org/packages/5c/c9/d5033d6237edb1834b7890d59f1684f967cef9ffca41ffe8854a4a2e089e/langchain_googledrive-0.1.52.tar.gz
+[2024-05-21 13:21:25] INFO root fetch - processPackages [dzidb]: Downloading https://files.pythonhosted.org/packages/ab/7b/1eb783cec2be6c8f5f50400132b6afae58c752421a84c34ef92cb658707b/dzidb-1.1.tar.gz
+[2024-05-21 13:21:25] INFO root fetch - processPackages [segysak]: Downloading https://files.pythonhosted.org/packages/ec/bf/f8e2e6fe96263d399285a0cfd966e38b2180d9706db212b1c1a8e33fec9b/segysak-0.4rc1-py3-none-any.whl
+[2024-05-21 13:21:25] INFO root fetch - processPackages [odbc2deltalake]: Downloading https://files.pythonhosted.org/packages/c5/78/1f89a261b7929df384f9ba80767aa8cb2943103f07c2773672f1ebc74e9d/odbc2deltalake-0.9.1.tar.gz
+[2024-05-21 13:21:25] INFO root fetch - processPackages [pyodre]: Downloading https://files.pythonhosted.org/packages/62/51/d496797df362839fcc21227b2792e7e8609b2dca501c55c1b952316982a2/pyodre-0.0.6.tar.gz
+[2024-05-21 13:21:25] INFO root fetch - processPackages [dzidb]: executing diffoscope
+[2024-05-21 13:21:25] INFO root fetch - processPackages [dzidb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dzidb-1.0.8.tar.gz tmp/dzidb-1.1.tar.gz --markdown 20240521/d/dzidb/1.0.8-1.1/README.md --exclude *.pyd
+[2024-05-21 13:21:25] INFO root fetch - processPackages [odbc2deltalake]: executing diffoscope
+[2024-05-21 13:21:25] INFO root fetch - processPackages [odbc2deltalake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odbc2deltalake-0.9.0.tar.gz tmp/odbc2deltalake-0.9.1.tar.gz --markdown 20240521/o/odbc2deltalake/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-21 13:21:25] INFO root fetch - processPackages [segysak]: executing diffoscope
+[2024-05-21 13:21:25] INFO root fetch - processPackages [segysak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/segysak-0.4.3-py3-none-any.whl.zip tmp/segysak-0.4rc1-py3-none-any.whl.zip --markdown 20240521/s/segysak/0.4.3-0.4rc1/README.md --exclude *.pyd
+[2024-05-21 13:21:25] INFO root fetch - processPackages [pyodre]: executing diffoscope
+[2024-05-21 13:21:25] INFO root fetch - processPackages [pyodre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyodre-0.0.5.tar.gz tmp/pyodre-0.0.6.tar.gz --markdown 20240521/p/pyodre/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-21 13:21:25] INFO root fetch - processPackages [optimask]: Downloading https://files.pythonhosted.org/packages/6e/ad/f613bb017b6782caf0b20b52428dc2f511ae61decc2b6dd8427fbe0dc464/optimask-1.1a0.tar.gz
+[2024-05-21 13:21:25] INFO root fetch - processPackages [lsm303d]: Downloading https://files.pythonhosted.org/packages/20/2c/f77b8e232d3c668046e750c979822ae5d2ba2eedf9811af48894bcbcf942/lsm303d-1.0.0.tar.gz
+[2024-05-21 13:21:25] INFO root fetch - processPackages [langchain-googledrive]: Downloading https://files.pythonhosted.org/packages/9e/d0/1181c6aa45257a7da892292e5b8e92c54e802fc3a08a5a3018d7987c9ede/langchain_googledrive-0.2.0.tar.gz
+[2024-05-21 13:21:25] INFO root fetch - processPackages [optimask]: executing diffoscope
+[2024-05-21 13:21:25] INFO root fetch - processPackages [optimask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optimask-1.0.tar.gz tmp/optimask-1.1a0.tar.gz --markdown 20240521/o/optimask/1.0-1.1a0/README.md --exclude *.pyd
+[2024-05-21 13:21:25] INFO root fetch - processPackages [lsm303d]: executing diffoscope
+[2024-05-21 13:21:25] INFO root fetch - processPackages [lsm303d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsm303d-0.0.5.tar.gz tmp/lsm303d-1.0.0.tar.gz --markdown 20240521/l/lsm303d/0.0.5-1.0.0/README.md --exclude *.pyd
+[2024-05-21 13:21:25] INFO root fetch - processPackages [langchain-googledrive]: executing diffoscope
+[2024-05-21 13:21:25] INFO root fetch - processPackages [langchain-googledrive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_googledrive-0.1.52.tar.gz tmp/langchain_googledrive-0.2.0.tar.gz --markdown 20240521/l/langchain-googledrive/0.1.52-0.2.0/README.md --exclude *.pyd
+[2024-05-21 13:21:26] INFO root fetch - processPackages [dzidb]: Remove: archive file [/home/abi/fetcher/tmp/dzidb-1.0.8.tar.gz]
+[2024-05-21 13:21:26] INFO root fetch - processPackages [dzidb]: Remove: archive file [/home/abi/fetcher/tmp/dzidb-1.1.tar.gz]
+[2024-05-21 13:21:26] INFO root fetch - main [MainThread]: End processing [dzidb]: success
+[2024-05-21 13:21:26] INFO root fetch - processPackages [odbc2deltalake]: Remove: archive file [/home/abi/fetcher/tmp/odbc2deltalake-0.9.0.tar.gz]
+[2024-05-21 13:21:26] INFO root fetch - processPackages [odbc2deltalake]: Remove: archive file [/home/abi/fetcher/tmp/odbc2deltalake-0.9.1.tar.gz]
+[2024-05-21 13:21:26] INFO root fetch - main [MainThread]: End processing [odbc2deltalake]: success
+[2024-05-21 13:21:26] INFO root fetch - processPackages [pyodre]: Remove: archive file [/home/abi/fetcher/tmp/pyodre-0.0.5.tar.gz]
+[2024-05-21 13:21:26] INFO root fetch - processPackages [pyodre]: Remove: archive file [/home/abi/fetcher/tmp/pyodre-0.0.6.tar.gz]
+[2024-05-21 13:21:26] INFO root fetch - main [MainThread]: End processing [pyodre]: success
+[2024-05-21 13:21:26] INFO root fetch - processPackages [optimask]: Remove: archive file [/home/abi/fetcher/tmp/optimask-1.0.tar.gz]
+[2024-05-21 13:21:26] INFO root fetch - processPackages [optimask]: Remove: archive file [/home/abi/fetcher/tmp/optimask-1.1a0.tar.gz]
+[2024-05-21 13:21:26] INFO root fetch - main [MainThread]: End processing [optimask]: success
+[2024-05-21 13:21:26] INFO root fetch - processPackages [lsm303d]: Remove: archive file [/home/abi/fetcher/tmp/lsm303d-0.0.5.tar.gz]
+[2024-05-21 13:21:26] INFO root fetch - processPackages [lsm303d]: Remove: archive file [/home/abi/fetcher/tmp/lsm303d-1.0.0.tar.gz]
+[2024-05-21 13:21:26] INFO root fetch - main [MainThread]: End processing [lsm303d]: success
+[2024-05-21 13:21:26] INFO root fetch - processPackages [langchain-googledrive]: Remove: archive file [/home/abi/fetcher/tmp/langchain_googledrive-0.1.52.tar.gz]
+[2024-05-21 13:21:26] INFO root fetch - processPackages [langchain-googledrive]: Remove: archive file [/home/abi/fetcher/tmp/langchain_googledrive-0.2.0.tar.gz]
+[2024-05-21 13:21:26] INFO root fetch - main [MainThread]: End processing [langchain-googledrive]: success
+[2024-05-21 13:21:26] INFO root fetch - processPackages [segysak]: Remove: archive file [/home/abi/fetcher/tmp/segysak-0.4.3-py3-none-any.whl.zip]
+[2024-05-21 13:21:26] INFO root fetch - processPackages [segysak]: Remove: archive file [/home/abi/fetcher/tmp/segysak-0.4rc1-py3-none-any.whl.zip]
+[2024-05-21 13:21:26] INFO root fetch - main [MainThread]: End processing [segysak]: success
+[2024-05-21 13:21:26] INFO root fetch - main [MainThread]: Store serial: [23305325]
