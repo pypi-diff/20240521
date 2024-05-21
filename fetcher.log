@@ -8913,3 +8913,31 @@
 [2024-05-21 05:02:29] INFO root fetch - processPackages [intelliw]: Remove: archive file [/home/abi/fetcher/tmp/intelliw-2.1.1-py3-none-any.whl.zip]
 [2024-05-21 05:02:29] INFO root fetch - main [MainThread]: End processing [intelliw]: success
 [2024-05-21 05:02:29] INFO root fetch - main [MainThread]: Store serial: [23300332]
+[2024-05-21 05:04:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23300332]
+[2024-05-21 05:04:39] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-21 05:04:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-account-tax-one-vat-purchase
+[2024-05-21 05:04:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: blue-plugin
+[2024-05-21 05:04:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: blue-plugin
+[2024-05-21 05:04:39] INFO root fetch - processPackages [blue-plugin]: New version: [3.21.1] Old Version: [3.20.1]
+[2024-05-21 05:04:39] INFO root fetch - processPackages [blue-plugin]: New version: [3.21.1] Old Version: [3.20.1]
+[2024-05-21 05:04:39] INFO root fetch - processPackages [blue-plugin]: Downloading https://files.pythonhosted.org/packages/25/1d/6417ed1caadfa6801c1d7c0544f033c64a793b07e18c4ea7720512274b1a/blue_plugin-3.20.1.tar.gz
+[2024-05-21 05:04:39] INFO root fetch - processPackages [blue-plugin]: Downloading https://files.pythonhosted.org/packages/25/1d/6417ed1caadfa6801c1d7c0544f033c64a793b07e18c4ea7720512274b1a/blue_plugin-3.20.1.tar.gz
+[2024-05-21 05:04:39] INFO root fetch - processPackages [odoo-addon-account-tax-one-vat-purchase]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2024-05-21 05:04:39] INFO root fetch - processPackages [odoo-addon-account-tax-one-vat-purchase]: Downloading https://files.pythonhosted.org/packages/de/c3/75d9c56c0b9149ee12ada42f878834e6ca519f3268bf3ff94af5af5ad66d/odoo_addon_account_tax_one_vat_purchase-16.0.1.0.0.2-py3-none-any.whl
+[2024-05-21 05:04:39] INFO root fetch - processPackages [blue-plugin]: Downloading https://files.pythonhosted.org/packages/a0/42/fde9edcb6b6a38e344be99936b79a1d2012708c6929424a5c02ac9a34c5c/blue_plugin-3.21.1.tar.gz
+[2024-05-21 05:04:39] INFO root fetch - processPackages [blue-plugin]: Downloading https://files.pythonhosted.org/packages/a0/42/fde9edcb6b6a38e344be99936b79a1d2012708c6929424a5c02ac9a34c5c/blue_plugin-3.21.1.tar.gz
+[2024-05-21 05:04:39] INFO root fetch - processPackages [blue-plugin]: executing diffoscope
+[2024-05-21 05:04:39] INFO root fetch - processPackages [blue-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blue_plugin-3.20.1.tar.gz tmp/blue_plugin-3.21.1.tar.gz --markdown 20240521/b/blue-plugin/3.20.1-3.21.1/README.md --exclude *.pyd
+[2024-05-21 05:04:39] INFO root fetch - processPackages [odoo-addon-account-tax-one-vat-purchase]: Downloading https://files.pythonhosted.org/packages/a8/f9/4bba739e3abcf73541b1950d4a9c2aa909778522dd26ccf81377568d0d45/odoo_addon_account_tax_one_vat_purchase-16.0.1.0.0.3-py3-none-any.whl
+[2024-05-21 05:04:39] INFO root fetch - processPackages [blue-plugin]: executing diffoscope
+[2024-05-21 05:04:39] INFO root fetch - processPackages [blue-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blue_plugin-3.20.1.tar.gz tmp/blue_plugin-3.21.1.tar.gz --markdown 20240521/b/blue-plugin/3.20.1-3.21.1/README.md --exclude *.pyd
+[2024-05-21 05:04:40] INFO root fetch - processPackages [odoo-addon-account-tax-one-vat-purchase]: executing diffoscope
+[2024-05-21 05:04:40] INFO root fetch - processPackages [odoo-addon-account-tax-one-vat-purchase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_tax_one_vat_purchase-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_account_tax_one_vat_purchase-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240521/o/odoo-addon-account-tax-one-vat-purchase/16.0.1.0.0.2-16.0.1.0.0.3/README.md --exclude *.pyd
+[2024-05-21 05:04:40] INFO root fetch - processPackages [blue-plugin]: Remove: archive file [/home/abi/fetcher/tmp/blue_plugin-3.20.1.tar.gz]
+[2024-05-21 05:04:40] INFO root fetch - processPackages [blue-plugin]: Remove: archive file [/home/abi/fetcher/tmp/blue_plugin-3.21.1.tar.gz]
+[2024-05-21 05:04:40] INFO root fetch - main [MainThread]: End processing [blue-plugin]: success
+[2024-05-21 05:04:40] INFO root fetch - processPackages [odoo-addon-account-tax-one-vat-purchase]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_tax_one_vat_purchase-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-21 05:04:40] INFO root fetch - processPackages [odoo-addon-account-tax-one-vat-purchase]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_tax_one_vat_purchase-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-21 05:04:40] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-tax-one-vat-purchase]: success
+[2024-05-21 05:04:40] INFO root fetch - main [MainThread]: End processing [blue-plugin]: success
+[2024-05-21 05:04:40] INFO root fetch - main [MainThread]: Store serial: [23300337]
