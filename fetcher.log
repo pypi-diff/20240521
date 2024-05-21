@@ -8074,3 +8074,24 @@
 [2024-05-21 04:11:40] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.2.2.dev1.tar.gz]
 [2024-05-21 04:11:40] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
 [2024-05-21 04:11:40] INFO root fetch - main [MainThread]: Store serial: [23299792]
+[2024-05-21 04:13:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23299792]
+[2024-05-21 04:13:49] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-21 04:13:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: model-explorer-onnx
+[2024-05-21 04:13:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pioreactor
+[2024-05-21 04:13:49] INFO root fetch - processPackages [model-explorer-onnx]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-21 04:13:49] INFO root fetch - processPackages [model-explorer-onnx]: Downloading https://files.pythonhosted.org/packages/cd/94/7ca721ce2d40549877956bf6bc12c26a7fa19032fc3783d231cb90333578/model_explorer_onnx-0.2.1.tar.gz
+[2024-05-21 04:13:49] INFO root fetch - processPackages [pioreactor]: New version: [24.5.20rc0] Old Version: [24.5.1rc0]
+[2024-05-21 04:13:49] INFO root fetch - processPackages [pioreactor]: Downloading https://files.pythonhosted.org/packages/c9/2b/8342138ccc27aead088b08bb5f7071f8b243d21fd8b1360506474c73ee1f/pioreactor-24.5.1rc0-py3-none-any.whl
+[2024-05-21 04:13:49] INFO root fetch - processPackages [model-explorer-onnx]: Downloading https://files.pythonhosted.org/packages/40/b2/18ef3723151b26bf70191574a38175423cf744393378824aecd8b0e9743c/model_explorer_onnx-0.2.2.tar.gz
+[2024-05-21 04:13:50] INFO root fetch - processPackages [model-explorer-onnx]: executing diffoscope
+[2024-05-21 04:13:50] INFO root fetch - processPackages [model-explorer-onnx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model_explorer_onnx-0.2.1.tar.gz tmp/model_explorer_onnx-0.2.2.tar.gz --markdown 20240521/m/model-explorer-onnx/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-21 04:13:50] INFO root fetch - processPackages [pioreactor]: Downloading https://files.pythonhosted.org/packages/70/63/5ad3137b5c77725199e9fd8004a300da9750414719384ad23d5c5b7cf674/pioreactor-24.5.20rc0-py3-none-any.whl
+[2024-05-21 04:13:50] INFO root fetch - processPackages [pioreactor]: executing diffoscope
+[2024-05-21 04:13:50] INFO root fetch - processPackages [pioreactor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pioreactor-24.5.1rc0-py3-none-any.whl.zip tmp/pioreactor-24.5.20rc0-py3-none-any.whl.zip --markdown 20240521/p/pioreactor/24.5.1rc0-24.5.20rc0/README.md --exclude *.pyd
+[2024-05-21 04:13:50] INFO root fetch - processPackages [model-explorer-onnx]: Remove: archive file [/home/abi/fetcher/tmp/model_explorer_onnx-0.2.1.tar.gz]
+[2024-05-21 04:13:50] INFO root fetch - processPackages [model-explorer-onnx]: Remove: archive file [/home/abi/fetcher/tmp/model_explorer_onnx-0.2.2.tar.gz]
+[2024-05-21 04:13:50] INFO root fetch - main [MainThread]: End processing [model-explorer-onnx]: success
+[2024-05-21 04:13:51] INFO root fetch - processPackages [pioreactor]: Remove: archive file [/home/abi/fetcher/tmp/pioreactor-24.5.1rc0-py3-none-any.whl.zip]
+[2024-05-21 04:13:51] INFO root fetch - processPackages [pioreactor]: Remove: archive file [/home/abi/fetcher/tmp/pioreactor-24.5.20rc0-py3-none-any.whl.zip]
+[2024-05-21 04:13:51] INFO root fetch - main [MainThread]: End processing [pioreactor]: success
+[2024-05-21 04:13:51] INFO root fetch - main [MainThread]: Store serial: [23299797]
