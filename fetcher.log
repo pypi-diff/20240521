@@ -7400,3 +7400,33 @@
 [2024-05-21 03:23:36] INFO root fetch - processPackages [botocore-a-la-carte-chime-sdk-voice]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-chime-sdk-voice-1.34.99.tar.gz]
 [2024-05-21 03:23:36] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-chime-sdk-voice]: success
 [2024-05-21 03:23:36] INFO root fetch - main [MainThread]: Store serial: [23299131]
+[2024-05-21 03:25:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23299131]
+[2024-05-21 03:25:45] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-21 03:25:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: esiaccel
+[2024-05-21 03:25:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: specklia
+[2024-05-21 03:25:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: parameterframe
+[2024-05-21 03:25:45] INFO root fetch - processPackages [parameterframe]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-21 03:25:45] INFO root fetch - processPackages [specklia]: New version: [1.8.9] Old Version: [1.8.81]
+[2024-05-21 03:25:45] INFO root fetch - processPackages [parameterframe]: Downloading https://files.pythonhosted.org/packages/1f/1f/4aa12e7f045514e8ae4b8f48a2f35b9a880806de001fd195b2cd55bef37b/parameterframe-0.1.4.tar.gz
+[2024-05-21 03:25:45] INFO root fetch - processPackages [esiaccel]: New version: [0.0.4] Old Version: [0.0.2.dev98]
+[2024-05-21 03:25:45] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/18/11/093591076f54a748d3176fb33adb67b7613b1f9d1bbd75dd30a70cfb0c5d/specklia-1.8.81.tar.gz
+[2024-05-21 03:25:45] INFO root fetch - processPackages [esiaccel]: Downloading https://files.pythonhosted.org/packages/93/f4/9beed7381169f21f10e10f09e5d57c93ea7dededbb225c62da2f27907b7d/esiaccel-0.0.2.dev98-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-21 03:25:45] INFO root fetch - processPackages [parameterframe]: Downloading https://files.pythonhosted.org/packages/86/ab/941a196fe30d282bd492d9b848f8090baf3376dc91bc40b2ca0d8931e6a5/parameterframe-0.1.5.tar.gz
+[2024-05-21 03:25:46] INFO root fetch - processPackages [parameterframe]: executing diffoscope
+[2024-05-21 03:25:46] INFO root fetch - processPackages [parameterframe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parameterframe-0.1.4.tar.gz tmp/parameterframe-0.1.5.tar.gz --markdown 20240521/p/parameterframe/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-21 03:25:46] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/0d/ec/3815cb2a18ad5b8029e09da92f85c68b28ffd5dbcf20be7c41214190aeaf/specklia-1.8.9.tar.gz
+[2024-05-21 03:25:46] INFO root fetch - processPackages [specklia]: executing diffoscope
+[2024-05-21 03:25:46] INFO root fetch - processPackages [specklia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/specklia-1.8.81.tar.gz tmp/specklia-1.8.9.tar.gz --markdown 20240521/s/specklia/1.8.81-1.8.9/README.md --exclude *.pyd
+[2024-05-21 03:25:46] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.8.81.tar.gz]
+[2024-05-21 03:25:46] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.8.9.tar.gz]
+[2024-05-21 03:25:46] INFO root fetch - main [MainThread]: End processing [specklia]: success
+[2024-05-21 03:25:46] INFO root fetch - processPackages [parameterframe]: Remove: archive file [/home/abi/fetcher/tmp/parameterframe-0.1.4.tar.gz]
+[2024-05-21 03:25:46] INFO root fetch - processPackages [parameterframe]: Remove: archive file [/home/abi/fetcher/tmp/parameterframe-0.1.5.tar.gz]
+[2024-05-21 03:25:46] INFO root fetch - main [MainThread]: End processing [parameterframe]: success
+[2024-05-21 03:25:48] INFO root fetch - processPackages [esiaccel]: Downloading https://files.pythonhosted.org/packages/f3/73/781c53b79fd2831c12c2d76cf1a677dac26f9b8757c0add505191f140d80/esiaccel-0.0.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-21 03:25:48] INFO root fetch - processPackages [esiaccel]: executing diffoscope
+[2024-05-21 03:25:48] INFO root fetch - processPackages [esiaccel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esiaccel-0.0.2.dev98-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/esiaccel-0.0.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240521/e/esiaccel/0.0.2.dev98-0.0.4/README.md --exclude *.pyd
+[2024-05-21 03:25:57] INFO root fetch - processPackages [esiaccel]: Remove: archive file [/home/abi/fetcher/tmp/esiaccel-0.0.2.dev98-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-21 03:25:57] INFO root fetch - processPackages [esiaccel]: Remove: archive file [/home/abi/fetcher/tmp/esiaccel-0.0.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-21 03:25:57] INFO root fetch - main [MainThread]: End processing [esiaccel]: success
+[2024-05-21 03:25:57] INFO root fetch - main [MainThread]: Store serial: [23299202]
