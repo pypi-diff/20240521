@@ -14659,3 +14659,24 @@
 [2024-05-21 09:20:06] INFO root fetch - processPackages [panda-server]: Remove: archive file [/home/abi/fetcher/tmp/panda_server-0.3.6.tar.gz]
 [2024-05-21 09:20:06] INFO root fetch - main [MainThread]: End processing [panda-server]: success
 [2024-05-21 09:20:06] INFO root fetch - main [MainThread]: Store serial: [23302424]
+[2024-05-21 09:22:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23302424]
+[2024-05-21 09:22:15] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-21 09:22:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytbai
+[2024-05-21 09:22:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: api-management-local
+[2024-05-21 09:22:15] INFO root fetch - processPackages [api-management-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-21 09:22:15] INFO root fetch - processPackages [api-management-local]: Downloading https://files.pythonhosted.org/packages/32/8d/91ba0097e4ccea06453a14838b92b8ee48bc1880e8710d022d215299ae02/api-management-local-0.0.8.tar.gz
+[2024-05-21 09:22:16] INFO root fetch - processPackages [pytbai]: New version: [1.4.7] Old Version: [1.4.6]
+[2024-05-21 09:22:16] INFO root fetch - processPackages [pytbai]: Downloading https://files.pythonhosted.org/packages/59/84/52779c52935831fccd05d62400ccfa165640ed121f97a75a73599226ac0c/pytbai-1.4.6.tar.gz
+[2024-05-21 09:22:16] INFO root fetch - processPackages [api-management-local]: Downloading https://files.pythonhosted.org/packages/cb/96/c6e4476ef16ac62a0dbb73d152f9e62d4bdc20962b3c26c38313ac1ba76b/api-management-local-0.0.9.tar.gz
+[2024-05-21 09:22:16] INFO root fetch - processPackages [api-management-local]: executing diffoscope
+[2024-05-21 09:22:16] INFO root fetch - processPackages [api-management-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/api-management-local-0.0.8.tar.gz tmp/api-management-local-0.0.9.tar.gz --markdown 20240521/a/api-management-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-21 09:22:16] INFO root fetch - processPackages [pytbai]: Downloading https://files.pythonhosted.org/packages/39/0c/a12f2504690ac9a6681c6515d524cce9cd5955ed820e2c1d28b3c9f5538f/pytbai-1.4.7.tar.gz
+[2024-05-21 09:22:16] INFO root fetch - processPackages [pytbai]: executing diffoscope
+[2024-05-21 09:22:16] INFO root fetch - processPackages [pytbai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytbai-1.4.6.tar.gz tmp/pytbai-1.4.7.tar.gz --markdown 20240521/p/pytbai/1.4.6-1.4.7/README.md --exclude *.pyd
+[2024-05-21 09:22:16] INFO root fetch - processPackages [api-management-local]: Remove: archive file [/home/abi/fetcher/tmp/api-management-local-0.0.8.tar.gz]
+[2024-05-21 09:22:16] INFO root fetch - processPackages [api-management-local]: Remove: archive file [/home/abi/fetcher/tmp/api-management-local-0.0.9.tar.gz]
+[2024-05-21 09:22:16] INFO root fetch - main [MainThread]: End processing [api-management-local]: success
+[2024-05-21 09:22:17] INFO root fetch - processPackages [pytbai]: Remove: archive file [/home/abi/fetcher/tmp/pytbai-1.4.6.tar.gz]
+[2024-05-21 09:22:17] INFO root fetch - processPackages [pytbai]: Remove: archive file [/home/abi/fetcher/tmp/pytbai-1.4.7.tar.gz]
+[2024-05-21 09:22:17] INFO root fetch - main [MainThread]: End processing [pytbai]: success
+[2024-05-21 09:22:17] INFO root fetch - main [MainThread]: Store serial: [23302429]
