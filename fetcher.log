@@ -15426,3 +15426,72 @@
 [2024-05-21 09:44:53] INFO root fetch - processPackages [AutoRAG]: Remove: archive file [/home/abi/fetcher/tmp/autorag-0.2.0.tar.gz]
 [2024-05-21 09:44:53] INFO root fetch - main [MainThread]: End processing [AutoRAG]: success
 [2024-05-21 09:44:53] INFO root fetch - main [MainThread]: Store serial: [23302680]
+[2024-05-21 09:46:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23302680]
+[2024-05-21 09:47:02] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-21 09:47:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: isagog-ai
+[2024-05-21 09:47:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: test-nvf-builds
+[2024-05-21 09:47:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: slsvd2
+[2024-05-21 09:47:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bclib
+[2024-05-21 09:47:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: eodc-faas-openeo
+[2024-05-21 09:47:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: swarmauri
+[2024-05-21 09:47:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rqsdk
+[2024-05-21 09:47:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ctrip-app-ui
+[2024-05-21 09:47:03] INFO root fetch - processPackages [swarmauri]: New version: [0.2.4.dev4] Old Version: [0.2.4.dev3]
+[2024-05-21 09:47:03] INFO root fetch - processPackages [ctrip-app-ui]: New version: [0.7.3] Old Version: [0.7.2]
+[2024-05-21 09:47:03] INFO root fetch - processPackages [bclib]: New version: [3.9.1] Old Version: [3.8.8]
+[2024-05-21 09:47:03] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/74/ca/cd43bbc507ea89d1ee9b77f7cd1bada1c0784bd9d6fc55fce66ee3a97691/swarmauri-0.2.4.dev3.tar.gz
+[2024-05-21 09:47:03] INFO root fetch - processPackages [isagog-ai]: New version: [0.9.0] Old Version: [0.8.7]
+[2024-05-21 09:47:03] INFO root fetch - processPackages [rqsdk]: New version: [1.5.9] Old Version: [1.5.8]
+[2024-05-21 09:47:03] WARNING root fetch - processPackages [slsvd2]: Skipping, unable to determine old version
+[2024-05-21 09:47:03] INFO root fetch - main [MainThread]: End processing [slsvd2] error
+[2024-05-21 09:47:03] INFO root fetch - processPackages [ctrip-app-ui]: Downloading https://files.pythonhosted.org/packages/bc/ac/9ea7866638875c38f902b342c649a6a35732a85c0c427d989baeaeaf946a/ctrip-app-ui-0.7.2.tar.gz
+[2024-05-21 09:47:03] INFO root fetch - processPackages [test-nvf-builds]: New version: [0.0.3.5] Old Version: [0.0.3.4]
+[2024-05-21 09:47:03] INFO root fetch - processPackages [eodc-faas-openeo]: New version: [2024.5.9] Old Version: [2024.5.8]
+[2024-05-21 09:47:03] INFO root fetch - processPackages [bclib]: Downloading https://files.pythonhosted.org/packages/5d/64/c1299b1433ad9d5f2dce58f38e0ce9ce9987d2e6feff884dd25c82232f02/bclib-3.8.8.tar.gz
+[2024-05-21 09:47:03] INFO root fetch - processPackages [isagog-ai]: Downloading https://files.pythonhosted.org/packages/d0/d7/53a51b08e23016ba3ca49512b4081628c06c904e14cf9ea30968235471a0/isagog_ai-0.8.7.tar.gz
+[2024-05-21 09:47:03] INFO root fetch - processPackages [test-nvf-builds]: Downloading https://files.pythonhosted.org/packages/18/4e/1b9781041a25780d3816e2afd3bb12cbf853d8276956c02fdf904ce9ed26/test_nvf_builds-0.0.3.4.tar.gz
+[2024-05-21 09:47:03] INFO root fetch - processPackages [rqsdk]: Downloading https://files.pythonhosted.org/packages/7b/1a/134d912d9139051fcd24cc22eb8a61974e77d7b4afbec6e5c161278e6722/rqsdk-1.5.8.tar.gz
+[2024-05-21 09:47:03] INFO root fetch - processPackages [eodc-faas-openeo]: Downloading https://files.pythonhosted.org/packages/ca/be/0cac445d65820cd08e905a2a081f566a22c846175ec54bf2dcb1d760fd54/eodc_faas_openeo-2024.5.8.tar.gz
+[2024-05-21 09:47:03] INFO root fetch - processPackages [ctrip-app-ui]: Downloading https://files.pythonhosted.org/packages/1d/7c/2bb30c477a2814c240cb1cdca6cf1481e1fbeaf09bd00f1eb24fbee9a074/ctrip-app-ui-0.7.3.tar.gz
+[2024-05-21 09:47:03] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/7e/0b/91548df7c907ae359d039a733aaf4522020b87a390e270a409c203c2ea6e/swarmauri-0.2.4.dev4.tar.gz
+[2024-05-21 09:47:03] INFO root fetch - processPackages [bclib]: Downloading https://files.pythonhosted.org/packages/5a/cc/fb2f58e3b615ae1358bc11145a84624b1429de857959e9c544fd5aedfb1d/bclib-3.9.1.tar.gz
+[2024-05-21 09:47:03] INFO root fetch - processPackages [isagog-ai]: Downloading https://files.pythonhosted.org/packages/7b/b9/fbec889110ac6e91fda97daacc0b23f69122ccdfb5a352ddf8141f775874/isagog_ai-0.9.0.tar.gz
+[2024-05-21 09:47:03] INFO root fetch - processPackages [test-nvf-builds]: Downloading https://files.pythonhosted.org/packages/7a/07/23b3ff1fac178315bd272589ee7f1c23aed7c68ff4da4468bdc256ea8dd2/test_nvf_builds-0.0.3.5.tar.gz
+[2024-05-21 09:47:03] INFO root fetch - processPackages [ctrip-app-ui]: executing diffoscope
+[2024-05-21 09:47:03] INFO root fetch - processPackages [ctrip-app-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctrip-app-ui-0.7.2.tar.gz tmp/ctrip-app-ui-0.7.3.tar.gz --markdown 20240521/c/ctrip-app-ui/0.7.2-0.7.3/README.md --exclude *.pyd
+[2024-05-21 09:47:03] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-05-21 09:47:03] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.2.4.dev3.tar.gz tmp/swarmauri-0.2.4.dev4.tar.gz --markdown 20240521/s/swarmauri/0.2.4.dev3-0.2.4.dev4/README.md --exclude *.pyd
+[2024-05-21 09:47:03] INFO root fetch - processPackages [eodc-faas-openeo]: Downloading https://files.pythonhosted.org/packages/70/a2/67861a0850781907e58d3018eb24cc9a315713ff6b39c0d686305dfc2295/eodc_faas_openeo-2024.5.9.tar.gz
+[2024-05-21 09:47:03] INFO root fetch - processPackages [isagog-ai]: executing diffoscope
+[2024-05-21 09:47:03] INFO root fetch - processPackages [isagog-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/isagog_ai-0.8.7.tar.gz tmp/isagog_ai-0.9.0.tar.gz --markdown 20240521/i/isagog-ai/0.8.7-0.9.0/README.md --exclude *.pyd
+[2024-05-21 09:47:03] INFO root fetch - processPackages [test-nvf-builds]: executing diffoscope
+[2024-05-21 09:47:03] INFO root fetch - processPackages [test-nvf-builds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test_nvf_builds-0.0.3.4.tar.gz tmp/test_nvf_builds-0.0.3.5.tar.gz --markdown 20240521/t/test-nvf-builds/0.0.3.4-0.0.3.5/README.md --exclude *.pyd
+[2024-05-21 09:47:03] INFO root fetch - processPackages [rqsdk]: Downloading https://files.pythonhosted.org/packages/01/62/a04c15c64689604d14c46f3bba08eb7dffc5d5fbab17ff20578d5c1fc8e1/rqsdk-1.5.9.tar.gz
+[2024-05-21 09:47:03] INFO root fetch - processPackages [bclib]: executing diffoscope
+[2024-05-21 09:47:03] INFO root fetch - processPackages [bclib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bclib-3.8.8.tar.gz tmp/bclib-3.9.1.tar.gz --markdown 20240521/b/bclib/3.8.8-3.9.1/README.md --exclude *.pyd
+[2024-05-21 09:47:03] INFO root fetch - processPackages [eodc-faas-openeo]: executing diffoscope
+[2024-05-21 09:47:03] INFO root fetch - processPackages [eodc-faas-openeo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodc_faas_openeo-2024.5.8.tar.gz tmp/eodc_faas_openeo-2024.5.9.tar.gz --markdown 20240521/e/eodc-faas-openeo/2024.5.8-2024.5.9/README.md --exclude *.pyd
+[2024-05-21 09:47:04] INFO root fetch - processPackages [rqsdk]: executing diffoscope
+[2024-05-21 09:47:04] INFO root fetch - processPackages [rqsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rqsdk-1.5.8.tar.gz tmp/rqsdk-1.5.9.tar.gz --markdown 20240521/r/rqsdk/1.5.8-1.5.9/README.md --exclude *.pyd
+[2024-05-21 09:47:04] INFO root fetch - processPackages [test-nvf-builds]: Remove: archive file [/home/abi/fetcher/tmp/test_nvf_builds-0.0.3.4.tar.gz]
+[2024-05-21 09:47:04] INFO root fetch - processPackages [test-nvf-builds]: Remove: archive file [/home/abi/fetcher/tmp/test_nvf_builds-0.0.3.5.tar.gz]
+[2024-05-21 09:47:04] INFO root fetch - main [MainThread]: End processing [test-nvf-builds]: success
+[2024-05-21 09:47:04] INFO root fetch - processPackages [eodc-faas-openeo]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_openeo-2024.5.8.tar.gz]
+[2024-05-21 09:47:04] INFO root fetch - processPackages [eodc-faas-openeo]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_openeo-2024.5.9.tar.gz]
+[2024-05-21 09:47:04] INFO root fetch - main [MainThread]: End processing [eodc-faas-openeo]: success
+[2024-05-21 09:47:04] INFO root fetch - processPackages [isagog-ai]: Remove: archive file [/home/abi/fetcher/tmp/isagog_ai-0.8.7.tar.gz]
+[2024-05-21 09:47:04] INFO root fetch - processPackages [isagog-ai]: Remove: archive file [/home/abi/fetcher/tmp/isagog_ai-0.9.0.tar.gz]
+[2024-05-21 09:47:04] INFO root fetch - main [MainThread]: End processing [isagog-ai]: success
+[2024-05-21 09:47:04] INFO root fetch - processPackages [ctrip-app-ui]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-app-ui-0.7.2.tar.gz]
+[2024-05-21 09:47:04] INFO root fetch - processPackages [ctrip-app-ui]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-app-ui-0.7.3.tar.gz]
+[2024-05-21 09:47:04] INFO root fetch - main [MainThread]: End processing [ctrip-app-ui]: success
+[2024-05-21 09:47:04] INFO root fetch - processPackages [bclib]: Remove: archive file [/home/abi/fetcher/tmp/bclib-3.8.8.tar.gz]
+[2024-05-21 09:47:04] INFO root fetch - processPackages [bclib]: Remove: archive file [/home/abi/fetcher/tmp/bclib-3.9.1.tar.gz]
+[2024-05-21 09:47:04] INFO root fetch - main [MainThread]: End processing [bclib]: success
+[2024-05-21 09:47:04] INFO root fetch - processPackages [rqsdk]: Remove: archive file [/home/abi/fetcher/tmp/rqsdk-1.5.8.tar.gz]
+[2024-05-21 09:47:04] INFO root fetch - processPackages [rqsdk]: Remove: archive file [/home/abi/fetcher/tmp/rqsdk-1.5.9.tar.gz]
+[2024-05-21 09:47:04] INFO root fetch - main [MainThread]: End processing [rqsdk]: success
+[2024-05-21 09:47:05] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.2.4.dev3.tar.gz]
+[2024-05-21 09:47:05] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.2.4.dev4.tar.gz]
+[2024-05-21 09:47:05] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
+[2024-05-21 09:47:05] INFO root fetch - main [MainThread]: Store serial: [23302707]
