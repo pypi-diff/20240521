@@ -11474,3 +11474,54 @@
 [2024-05-21 06:56:13] INFO root fetch - processPackages [jzai]: Remove: archive file [/home/abi/fetcher/tmp/jzai-59.83.60.tar.gz]
 [2024-05-21 06:56:13] INFO root fetch - main [MainThread]: End processing [jzai]: success
 [2024-05-21 06:56:13] INFO root fetch - main [MainThread]: Store serial: [23301158]
+[2024-05-21 06:58:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23301158]
+[2024-05-21 06:58:22] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-21 06:58:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jzai
+[2024-05-21 06:58:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-l10n-it-vat-settlement-date
+[2024-05-21 06:58:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: divinegift
+[2024-05-21 06:58:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: validate-pyproject-schema-store
+[2024-05-21 06:58:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sshnpd
+[2024-05-21 06:58:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addons-oca-l10n-italy
+[2024-05-21 06:58:22] WARNING root fetch - processPackages [odoo-addon-l10n-it-vat-settlement-date]: Skipping, unable to determine old version
+[2024-05-21 06:58:22] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-it-vat-settlement-date] error
+[2024-05-21 06:58:22] INFO root fetch - processPackages [jzai]: New version: [59.83.61] Old Version: [59.83.60]
+[2024-05-21 06:58:22] INFO root fetch - processPackages [divinegift]: New version: [2.9.2.2] Old Version: [2.9.2.1]
+[2024-05-21 06:58:22] INFO root fetch - processPackages [jzai]: Downloading https://files.pythonhosted.org/packages/dd/11/c9657070cdc088fcd0a4ea1024af4982f2f05554c72472f0d5e34d4f71fb/jzai-59.83.60.tar.gz
+[2024-05-21 06:58:22] INFO root fetch - processPackages [odoo-addons-oca-l10n-italy]: New version: [16.0.20240520.0] Old Version: [16.0.20240412.0]
+[2024-05-21 06:58:22] INFO root fetch - processPackages [divinegift]: Downloading https://files.pythonhosted.org/packages/20/54/9cd490ce912447c2d9c28af6ef4a7879ad6c4951e4146bfb5408537f3941/divinegift-2.9.2.1.tar.gz
+[2024-05-21 06:58:22] INFO root fetch - processPackages [sshnpd]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-21 06:58:22] INFO root fetch - processPackages [validate-pyproject-schema-store]: New version: [2024.5.20] Old Version: [2024.5.13]
+[2024-05-21 06:58:22] INFO root fetch - processPackages [sshnpd]: Downloading https://files.pythonhosted.org/packages/9f/4b/5c6ecc5a98227a50642761dfff25b81424b74fe0944b368dff7f67d17497/sshnpd-0.4.8.tar.gz
+[2024-05-21 06:58:22] INFO root fetch - processPackages [divinegift]: Downloading https://files.pythonhosted.org/packages/2e/f4/a6b82fab8e04ce99fd85cffa08df2970b44a8b3b33c001530d8de0e99ff8/divinegift-2.9.2.2.tar.gz
+[2024-05-21 06:58:22] INFO root fetch - processPackages [odoo-addons-oca-l10n-italy]: Downloading https://files.pythonhosted.org/packages/65/92/db916f478d6172ecb10e3945ddd1f28cbdb363fa32c9cb0f9aea17645721/odoo_addons_oca_l10n_italy-16.0.20240412.0-py3-none-any.whl
+[2024-05-21 06:58:22] INFO root fetch - processPackages [jzai]: Downloading https://files.pythonhosted.org/packages/34/b0/190edf893f38235393f9476a81d353ad326a3e539b22bdf6e20ea5eb1252/jzai-59.83.61.tar.gz
+[2024-05-21 06:58:22] INFO root fetch - processPackages [validate-pyproject-schema-store]: Downloading https://files.pythonhosted.org/packages/3c/3f/d7480bfca54e6e0d30f75e57b1c554f3aaf6f9587734ef6e8ea231aa4317/validate_pyproject_schema_store-2024.5.13.tar.gz
+[2024-05-21 06:58:22] INFO root fetch - processPackages [divinegift]: executing diffoscope
+[2024-05-21 06:58:22] INFO root fetch - processPackages [divinegift]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/divinegift-2.9.2.1.tar.gz tmp/divinegift-2.9.2.2.tar.gz --markdown 20240521/d/divinegift/2.9.2.1-2.9.2.2/README.md --exclude *.pyd
+[2024-05-21 06:58:22] INFO root fetch - processPackages [jzai]: executing diffoscope
+[2024-05-21 06:58:22] INFO root fetch - processPackages [jzai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jzai-59.83.60.tar.gz tmp/jzai-59.83.61.tar.gz --markdown 20240521/j/jzai/59.83.60-59.83.61/README.md --exclude *.pyd
+[2024-05-21 06:58:23] INFO root fetch - processPackages [sshnpd]: Downloading https://files.pythonhosted.org/packages/a7/2a/2cf19788a3bc677dfce76cd05c7d7520e420fbb885f283ade4a1e7af3dee/sshnpd-0.4.9.tar.gz
+[2024-05-21 06:58:23] INFO root fetch - processPackages [validate-pyproject-schema-store]: Downloading https://files.pythonhosted.org/packages/ae/31/7a4338cbe7916d62493e161ba2be2816bf09dc50fd5b6a73226d516f8a95/validate_pyproject_schema_store-2024.5.20.tar.gz
+[2024-05-21 06:58:23] INFO root fetch - processPackages [odoo-addons-oca-l10n-italy]: Downloading https://files.pythonhosted.org/packages/f1/e8/87e3d08eb925e38a3bd4eaa1e31f74ca5768dee41a3dd719f4553a168fe8/odoo_addons_oca_l10n_italy-16.0.20240520.0-py3-none-any.whl
+[2024-05-21 06:58:23] INFO root fetch - processPackages [sshnpd]: executing diffoscope
+[2024-05-21 06:58:23] INFO root fetch - processPackages [sshnpd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sshnpd-0.4.8.tar.gz tmp/sshnpd-0.4.9.tar.gz --markdown 20240521/s/sshnpd/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-21 06:58:23] INFO root fetch - processPackages [validate-pyproject-schema-store]: executing diffoscope
+[2024-05-21 06:58:23] INFO root fetch - processPackages [validate-pyproject-schema-store]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/validate_pyproject_schema_store-2024.5.13.tar.gz tmp/validate_pyproject_schema_store-2024.5.20.tar.gz --markdown 20240521/v/validate-pyproject-schema-store/2024.5.13-2024.5.20/README.md --exclude *.pyd
+[2024-05-21 06:58:23] INFO root fetch - processPackages [odoo-addons-oca-l10n-italy]: executing diffoscope
+[2024-05-21 06:58:23] INFO root fetch - processPackages [odoo-addons-oca-l10n-italy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_l10n_italy-16.0.20240412.0-py3-none-any.whl.zip tmp/odoo_addons_oca_l10n_italy-16.0.20240520.0-py3-none-any.whl.zip --markdown 20240521/o/odoo-addons-oca-l10n-italy/16.0.20240412.0-16.0.20240520.0/README.md --exclude *.pyd
+[2024-05-21 06:58:23] INFO root fetch - processPackages [jzai]: Remove: archive file [/home/abi/fetcher/tmp/jzai-59.83.60.tar.gz]
+[2024-05-21 06:58:23] INFO root fetch - processPackages [jzai]: Remove: archive file [/home/abi/fetcher/tmp/jzai-59.83.61.tar.gz]
+[2024-05-21 06:58:23] INFO root fetch - main [MainThread]: End processing [jzai]: success
+[2024-05-21 06:58:23] INFO root fetch - processPackages [divinegift]: Remove: archive file [/home/abi/fetcher/tmp/divinegift-2.9.2.1.tar.gz]
+[2024-05-21 06:58:23] INFO root fetch - processPackages [divinegift]: Remove: archive file [/home/abi/fetcher/tmp/divinegift-2.9.2.2.tar.gz]
+[2024-05-21 06:58:23] INFO root fetch - main [MainThread]: End processing [divinegift]: success
+[2024-05-21 06:58:23] INFO root fetch - processPackages [sshnpd]: Remove: archive file [/home/abi/fetcher/tmp/sshnpd-0.4.8.tar.gz]
+[2024-05-21 06:58:23] INFO root fetch - processPackages [sshnpd]: Remove: archive file [/home/abi/fetcher/tmp/sshnpd-0.4.9.tar.gz]
+[2024-05-21 06:58:23] INFO root fetch - main [MainThread]: End processing [sshnpd]: success
+[2024-05-21 06:58:23] INFO root fetch - processPackages [validate-pyproject-schema-store]: Remove: archive file [/home/abi/fetcher/tmp/validate_pyproject_schema_store-2024.5.13.tar.gz]
+[2024-05-21 06:58:23] INFO root fetch - processPackages [validate-pyproject-schema-store]: Remove: archive file [/home/abi/fetcher/tmp/validate_pyproject_schema_store-2024.5.20.tar.gz]
+[2024-05-21 06:58:23] INFO root fetch - main [MainThread]: End processing [validate-pyproject-schema-store]: success
+[2024-05-21 06:58:23] INFO root fetch - processPackages [odoo-addons-oca-l10n-italy]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_l10n_italy-16.0.20240412.0-py3-none-any.whl.zip]
+[2024-05-21 06:58:23] INFO root fetch - processPackages [odoo-addons-oca-l10n-italy]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_l10n_italy-16.0.20240520.0-py3-none-any.whl.zip]
+[2024-05-21 06:58:23] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-l10n-italy]: success
+[2024-05-21 06:58:23] INFO root fetch - main [MainThread]: Store serial: [23301174]
