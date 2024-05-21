@@ -8802,3 +8802,33 @@
 [2024-05-21 04:55:58] INFO root fetch - processPackages [helloai]: Remove: archive file [/home/abi/fetcher/tmp/helloai-2.3-py3-none-any.whl.zip]
 [2024-05-21 04:55:58] INFO root fetch - main [MainThread]: End processing [helloai]: success
 [2024-05-21 04:55:58] INFO root fetch - main [MainThread]: Store serial: [23300298]
+[2024-05-21 04:58:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23300298]
+[2024-05-21 04:58:07] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-21 04:58:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tsugu
+[2024-05-21 04:58:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: devicebay
+[2024-05-21 04:58:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jacksung
+[2024-05-21 04:58:07] INFO root fetch - processPackages [devicebay]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-21 04:58:07] INFO root fetch - processPackages [tsugu]: New version: [1.1.0rc1] Old Version: [1.0.5]
+[2024-05-21 04:58:07] INFO root fetch - processPackages [devicebay]: Downloading https://files.pythonhosted.org/packages/5d/35/9e41c1d2bd15e88729fdcd5b62b4a7de5dbc1c8a97674c8e26f2bbb51cc2/devicebay-0.1.8.tar.gz
+[2024-05-21 04:58:07] INFO root fetch - processPackages [jacksung]: New version: [0.0.2.99] Old Version: [0.0.2.98]
+[2024-05-21 04:58:07] INFO root fetch - processPackages [tsugu]: Downloading https://files.pythonhosted.org/packages/ba/44/70736d79c69f5348d5d82794a9c31ac1fb2bb63128d4e33ca77208a7e79e/tsugu-1.0.5.tar.gz
+[2024-05-21 04:58:07] INFO root fetch - processPackages [jacksung]: Downloading https://files.pythonhosted.org/packages/53/49/29d6064a8fb6ccc0f6823e713582dc73298157d8802aa60a65240347ef14/jacksung-0.0.2.98.tar.gz
+[2024-05-21 04:58:07] INFO root fetch - processPackages [tsugu]: Downloading https://files.pythonhosted.org/packages/6d/c5/e1a0a2519a7405cdda5d5d41ccf534695f7485ab17983e19ae6696405581/tsugu-1.1.0rc1.tar.gz
+[2024-05-21 04:58:07] INFO root fetch - processPackages [devicebay]: Downloading https://files.pythonhosted.org/packages/e5/96/b13c67b11af0747066e9d93a63ece2bb5f80d597ff1909a2e3178ec12a2c/devicebay-0.1.9.tar.gz
+[2024-05-21 04:58:07] INFO root fetch - processPackages [tsugu]: executing diffoscope
+[2024-05-21 04:58:07] INFO root fetch - processPackages [tsugu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsugu-1.0.5.tar.gz tmp/tsugu-1.1.0rc1.tar.gz --markdown 20240521/t/tsugu/1.0.5-1.1.0rc1/README.md --exclude *.pyd
+[2024-05-21 04:58:07] INFO root fetch - processPackages [devicebay]: executing diffoscope
+[2024-05-21 04:58:07] INFO root fetch - processPackages [devicebay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devicebay-0.1.8.tar.gz tmp/devicebay-0.1.9.tar.gz --markdown 20240521/d/devicebay/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-21 04:58:07] INFO root fetch - processPackages [jacksung]: Downloading https://files.pythonhosted.org/packages/b5/22/0dfab66df22ada378e333e97f6287eef4c68d06fd84d4bc9a8d76c3ba65e/jacksung-0.0.2.99.tar.gz
+[2024-05-21 04:58:08] INFO root fetch - processPackages [jacksung]: executing diffoscope
+[2024-05-21 04:58:08] INFO root fetch - processPackages [jacksung]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jacksung-0.0.2.98.tar.gz tmp/jacksung-0.0.2.99.tar.gz --markdown 20240521/j/jacksung/0.0.2.98-0.0.2.99/README.md --exclude *.pyd
+[2024-05-21 04:58:08] INFO root fetch - processPackages [devicebay]: Remove: archive file [/home/abi/fetcher/tmp/devicebay-0.1.8.tar.gz]
+[2024-05-21 04:58:08] INFO root fetch - processPackages [devicebay]: Remove: archive file [/home/abi/fetcher/tmp/devicebay-0.1.9.tar.gz]
+[2024-05-21 04:58:08] INFO root fetch - main [MainThread]: End processing [devicebay]: success
+[2024-05-21 04:58:08] INFO root fetch - processPackages [tsugu]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-1.0.5.tar.gz]
+[2024-05-21 04:58:08] INFO root fetch - processPackages [tsugu]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-1.1.0rc1.tar.gz]
+[2024-05-21 04:58:08] INFO root fetch - main [MainThread]: End processing [tsugu]: success
+[2024-05-21 04:58:08] INFO root fetch - processPackages [jacksung]: Remove: archive file [/home/abi/fetcher/tmp/jacksung-0.0.2.98.tar.gz]
+[2024-05-21 04:58:08] INFO root fetch - processPackages [jacksung]: Remove: archive file [/home/abi/fetcher/tmp/jacksung-0.0.2.99.tar.gz]
+[2024-05-21 04:58:08] INFO root fetch - main [MainThread]: End processing [jacksung]: success
+[2024-05-21 04:58:08] INFO root fetch - main [MainThread]: Store serial: [23300308]
