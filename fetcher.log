@@ -17029,3 +17029,54 @@
 [2024-05-21 10:42:17] INFO root fetch - processPackages [django_herobiz_dental]: Remove: archive file [/home/abi/fetcher/tmp/django_herobiz_dental-2.1.0.tar.gz]
 [2024-05-21 10:42:17] INFO root fetch - main [MainThread]: End processing [django_herobiz_dental]: success
 [2024-05-21 10:42:17] INFO root fetch - main [MainThread]: Store serial: [23303302]
+[2024-05-21 10:44:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23303302]
+[2024-05-21 10:44:25] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-21 10:44:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ragpy-new
+[2024-05-21 10:44:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: model3501api
+[2024-05-21 10:44:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: timezone-loc
+[2024-05-21 10:44:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: webchecks
+[2024-05-21 10:44:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sharklog
+[2024-05-21 10:44:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: prem-utils
+[2024-05-21 10:44:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: DataExtractorOEG
+[2024-05-21 10:44:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: openvisuspy
+[2024-05-21 10:44:25] WARNING root fetch - processPackages [sharklog]: Skipping, unable to determine old version
+[2024-05-21 10:44:25] INFO root fetch - main [MainThread]: End processing [sharklog] error
+[2024-05-21 10:44:25] INFO root fetch - processPackages [openvisuspy]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-21 10:44:26] WARNING root fetch - processPackages [ragpy-new]: Skipping, unable to determine old version
+[2024-05-21 10:44:26] INFO root fetch - main [MainThread]: End processing [ragpy-new] error
+[2024-05-21 10:44:26] INFO root fetch - processPackages [prem-utils]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-21 10:44:26] WARNING root fetch - processPackages [timezone-loc]: Skipping, unable to determine old version
+[2024-05-21 10:44:26] INFO root fetch - main [MainThread]: End processing [timezone-loc] error
+[2024-05-21 10:44:26] INFO root fetch - processPackages [openvisuspy]: Downloading https://files.pythonhosted.org/packages/b0/d9/2beb92d505396d836dfa5f3e5da1672e30a0795d20b21b932be407898836/openvisuspy-1.0.8-py3-none-any.whl
+[2024-05-21 10:44:26] WARNING root fetch - processPackages [model3501api]: Skipping, unable to determine old version
+[2024-05-21 10:44:26] INFO root fetch - main [MainThread]: End processing [model3501api] error
+[2024-05-21 10:44:26] INFO root fetch - processPackages [webchecks]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-21 10:44:26] INFO root fetch - processPackages [DataExtractorOEG]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-05-21 10:44:26] INFO root fetch - processPackages [openvisuspy]: Downloading https://files.pythonhosted.org/packages/76/33/2a7a818fea912f1354d65d0e959108baf4be55e1a1bcd773277f12b26582/openvisuspy-1.0.9-py3-none-any.whl
+[2024-05-21 10:44:26] INFO root fetch - processPackages [prem-utils]: Downloading https://files.pythonhosted.org/packages/0b/c2/ef6412c36b4879b14a69ad4cafc10a7cc7f017db696d2d8e7e978238aaa9/prem-utils-0.0.7.tar.gz
+[2024-05-21 10:44:26] INFO root fetch - processPackages [DataExtractorOEG]: Downloading https://files.pythonhosted.org/packages/dd/db/5698df8f9cc5d658d8e4ebbe21a0b92cdeb8012f211dafdf6faa93cf88bc/dataextractoroeg-0.5.1.tar.gz
+[2024-05-21 10:44:26] INFO root fetch - processPackages [webchecks]: Downloading https://files.pythonhosted.org/packages/e3/6f/440be0e9c1ee3817f74202855ceb2fe9bda2f1dcff1a7bc301e325294d2c/webchecks-0.1.1.tar.gz
+[2024-05-21 10:44:26] INFO root fetch - processPackages [openvisuspy]: executing diffoscope
+[2024-05-21 10:44:26] INFO root fetch - processPackages [openvisuspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openvisuspy-1.0.8-py3-none-any.whl.zip tmp/openvisuspy-1.0.9-py3-none-any.whl.zip --markdown 20240521/o/openvisuspy/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-21 10:44:26] INFO root fetch - processPackages [DataExtractorOEG]: Downloading https://files.pythonhosted.org/packages/8c/1e/6dfae14770b0f19e4d6181b1430d4ec213dae473ccf3dc0e682a0bd48080/dataextractoroeg-0.5.2.tar.gz
+[2024-05-21 10:44:26] INFO root fetch - processPackages [prem-utils]: Downloading https://files.pythonhosted.org/packages/33/0f/fc806fe5db50f59926c6cd92925e6ccc6665f01f20e6ba25faabe2d2211d/prem-utils-0.0.8.tar.gz
+[2024-05-21 10:44:26] INFO root fetch - processPackages [webchecks]: Downloading https://files.pythonhosted.org/packages/4b/cc/5a62df2ff40e7f4b2af37e647630a5827eb6b41e6d1eaf009aad027c6f94/webchecks-0.1.2.tar.gz
+[2024-05-21 10:44:26] INFO root fetch - processPackages [DataExtractorOEG]: executing diffoscope
+[2024-05-21 10:44:26] INFO root fetch - processPackages [DataExtractorOEG]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataextractoroeg-0.5.1.tar.gz tmp/dataextractoroeg-0.5.2.tar.gz --markdown 20240521/D/DataExtractorOEG/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-05-21 10:44:26] INFO root fetch - processPackages [prem-utils]: executing diffoscope
+[2024-05-21 10:44:26] INFO root fetch - processPackages [prem-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prem-utils-0.0.7.tar.gz tmp/prem-utils-0.0.8.tar.gz --markdown 20240521/p/prem-utils/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-21 10:44:26] INFO root fetch - processPackages [webchecks]: executing diffoscope
+[2024-05-21 10:44:26] INFO root fetch - processPackages [webchecks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webchecks-0.1.1.tar.gz tmp/webchecks-0.1.2.tar.gz --markdown 20240521/w/webchecks/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-21 10:44:27] INFO root fetch - processPackages [openvisuspy]: Remove: archive file [/home/abi/fetcher/tmp/openvisuspy-1.0.8-py3-none-any.whl.zip]
+[2024-05-21 10:44:27] INFO root fetch - processPackages [openvisuspy]: Remove: archive file [/home/abi/fetcher/tmp/openvisuspy-1.0.9-py3-none-any.whl.zip]
+[2024-05-21 10:44:27] INFO root fetch - main [MainThread]: End processing [openvisuspy]: success
+[2024-05-21 10:44:27] INFO root fetch - processPackages [DataExtractorOEG]: Remove: archive file [/home/abi/fetcher/tmp/dataextractoroeg-0.5.1.tar.gz]
+[2024-05-21 10:44:27] INFO root fetch - processPackages [DataExtractorOEG]: Remove: archive file [/home/abi/fetcher/tmp/dataextractoroeg-0.5.2.tar.gz]
+[2024-05-21 10:44:27] INFO root fetch - main [MainThread]: End processing [DataExtractorOEG]: success
+[2024-05-21 10:44:27] INFO root fetch - processPackages [webchecks]: Remove: archive file [/home/abi/fetcher/tmp/webchecks-0.1.1.tar.gz]
+[2024-05-21 10:44:27] INFO root fetch - processPackages [webchecks]: Remove: archive file [/home/abi/fetcher/tmp/webchecks-0.1.2.tar.gz]
+[2024-05-21 10:44:27] INFO root fetch - main [MainThread]: End processing [webchecks]: success
+[2024-05-21 10:44:27] INFO root fetch - processPackages [prem-utils]: Remove: archive file [/home/abi/fetcher/tmp/prem-utils-0.0.7.tar.gz]
+[2024-05-21 10:44:27] INFO root fetch - processPackages [prem-utils]: Remove: archive file [/home/abi/fetcher/tmp/prem-utils-0.0.8.tar.gz]
+[2024-05-21 10:44:27] INFO root fetch - main [MainThread]: End processing [prem-utils]: success
+[2024-05-21 10:44:27] INFO root fetch - main [MainThread]: Store serial: [23303331]
