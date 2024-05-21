@@ -8757,3 +8757,27 @@
 [2024-05-21 04:51:37] INFO root fetch - processPackages [itk-registration]: Remove: archive file [/home/abi/fetcher/tmp/itk_registration-5.4rc4-cp39-cp39-win_amd64.whl.zip]
 [2024-05-21 04:51:37] INFO root fetch - main [MainThread]: End processing [itk-registration]: success
 [2024-05-21 04:51:37] INFO root fetch - main [MainThread]: Store serial: [23300259]
+[2024-05-21 04:53:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23300259]
+[2024-05-21 04:53:46] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-21 04:53:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py50-streamlit-support
+[2024-05-21 04:53:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kamangir
+[2024-05-21 04:53:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TreeSAK
+[2024-05-21 04:53:46] WARNING root fetch - processPackages [py50-streamlit-support]: Skipping, unable to determine old version
+[2024-05-21 04:53:46] INFO root fetch - main [MainThread]: End processing [py50-streamlit-support] error
+[2024-05-21 04:53:46] INFO root fetch - processPackages [kamangir]: New version: [3.40.1] Old Version: [3.38.1]
+[2024-05-21 04:53:46] INFO root fetch - processPackages [TreeSAK]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-05-21 04:53:46] INFO root fetch - processPackages [TreeSAK]: Downloading https://files.pythonhosted.org/packages/33/3d/03ab6748b3aed0610812e461492b58278718c5c15236ce439a758aa3fc27/TreeSAK-1.9.1.tar.gz
+[2024-05-21 04:53:46] INFO root fetch - processPackages [kamangir]: Downloading https://files.pythonhosted.org/packages/05/08/f064d5746815ae3d62b558149888165b189e9025d996b6f6dddcae9cefff/kamangir-3.38.1.tar.gz
+[2024-05-21 04:53:47] INFO root fetch - processPackages [TreeSAK]: Downloading https://files.pythonhosted.org/packages/3d/18/0b0f8a2c565de5415024065f522c859677184cac283a7e4af0060f267891/TreeSAK-1.9.2.tar.gz
+[2024-05-21 04:53:47] INFO root fetch - processPackages [TreeSAK]: executing diffoscope
+[2024-05-21 04:53:47] INFO root fetch - processPackages [TreeSAK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TreeSAK-1.9.1.tar.gz tmp/TreeSAK-1.9.2.tar.gz --markdown 20240521/T/TreeSAK/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-05-21 04:53:47] INFO root fetch - processPackages [kamangir]: Downloading https://files.pythonhosted.org/packages/4a/53/7f15b9ff6232c42cf1774b618e4daa830a00f95638ec20c7474643d1e47f/kamangir-3.40.1.tar.gz
+[2024-05-21 04:53:47] INFO root fetch - processPackages [kamangir]: executing diffoscope
+[2024-05-21 04:53:47] INFO root fetch - processPackages [kamangir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kamangir-3.38.1.tar.gz tmp/kamangir-3.40.1.tar.gz --markdown 20240521/k/kamangir/3.38.1-3.40.1/README.md --exclude *.pyd
+[2024-05-21 04:53:47] INFO root fetch - processPackages [TreeSAK]: Remove: archive file [/home/abi/fetcher/tmp/TreeSAK-1.9.1.tar.gz]
+[2024-05-21 04:53:47] INFO root fetch - processPackages [TreeSAK]: Remove: archive file [/home/abi/fetcher/tmp/TreeSAK-1.9.2.tar.gz]
+[2024-05-21 04:53:47] INFO root fetch - main [MainThread]: End processing [TreeSAK]: success
+[2024-05-21 04:53:48] INFO root fetch - processPackages [kamangir]: Remove: archive file [/home/abi/fetcher/tmp/kamangir-3.38.1.tar.gz]
+[2024-05-21 04:53:48] INFO root fetch - processPackages [kamangir]: Remove: archive file [/home/abi/fetcher/tmp/kamangir-3.40.1.tar.gz]
+[2024-05-21 04:53:48] INFO root fetch - main [MainThread]: End processing [kamangir]: success
+[2024-05-21 04:53:48] INFO root fetch - main [MainThread]: Store serial: [23300293]
