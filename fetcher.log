@@ -8125,3 +8125,48 @@
 [2024-05-21 04:16:02] INFO root fetch - processPackages [developergpt]: Remove: archive file [/home/abi/fetcher/tmp/developergpt-0.7.3.tar.gz]
 [2024-05-21 04:16:02] INFO root fetch - main [MainThread]: End processing [developergpt]: success
 [2024-05-21 04:16:02] INFO root fetch - main [MainThread]: Store serial: [23299807]
+[2024-05-21 04:18:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23299807]
+[2024-05-21 04:18:10] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-21 04:18:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hugtokencraft
+[2024-05-21 04:18:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: developergpt
+[2024-05-21 04:18:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: heytorvas
+[2024-05-21 04:18:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zaku
+[2024-05-21 04:18:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: transstellar-antd
+[2024-05-21 04:18:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: extended-mypy-django-plugin
+[2024-05-21 04:18:11] WARNING root fetch - processPackages [heytorvas]: Skipping, unable to determine old version
+[2024-05-21 04:18:11] INFO root fetch - main [MainThread]: End processing [heytorvas] error
+[2024-05-21 04:18:11] INFO root fetch - processPackages [developergpt]: New version: [0.7.3] Old Version: [0.7.2]
+[2024-05-21 04:18:11] INFO root fetch - processPackages [developergpt]: Downloading https://files.pythonhosted.org/packages/d8/93/173430a8ab092792c0dca92c4e402bbceaa440081d811680ba39c569c0dc/developergpt-0.7.2.tar.gz
+[2024-05-21 04:18:11] WARNING root fetch - processPackages [hugtokencraft]: Skipping, unable to determine old version
+[2024-05-21 04:18:11] INFO root fetch - main [MainThread]: End processing [hugtokencraft] error
+[2024-05-21 04:18:11] INFO root fetch - processPackages [zaku]: New version: [0.0.9] Old Version: [0.0.8rc1]
+[2024-05-21 04:18:11] INFO root fetch - processPackages [transstellar-antd]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-05-21 04:18:11] INFO root fetch - processPackages [extended-mypy-django-plugin]: New version: [0.5.1] Old Version: [0.5]
+[2024-05-21 04:18:11] INFO root fetch - processPackages [developergpt]: Downloading https://files.pythonhosted.org/packages/54/68/5363bfcc36ab0b5384f59fccbd2fcf3754a3157c132e5f166fbb311f77b8/developergpt-0.7.3.tar.gz
+[2024-05-21 04:18:11] INFO root fetch - processPackages [zaku]: Downloading https://files.pythonhosted.org/packages/36/63/843de81065e8c450c9dd14f7dd36425a40393dc131450c91bebeb4c5dd43/zaku-0.0.8rc1-py3-none-any.whl
+[2024-05-21 04:18:11] INFO root fetch - processPackages [developergpt]: executing diffoscope
+[2024-05-21 04:18:11] INFO root fetch - processPackages [developergpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/developergpt-0.7.2.tar.gz tmp/developergpt-0.7.3.tar.gz --markdown 20240521/d/developergpt/0.7.2-0.7.3/README.md --exclude *.pyd
+[2024-05-21 04:18:11] INFO root fetch - processPackages [extended-mypy-django-plugin]: Downloading https://files.pythonhosted.org/packages/5e/6f/91328ff23dd517cf22d8c785825bbfc734ffbeee8773a6c2162737752cc9/extended_mypy_django_plugin-0.5.tar.gz
+[2024-05-21 04:18:11] INFO root fetch - processPackages [transstellar-antd]: Downloading https://files.pythonhosted.org/packages/e9/b1/d1a67acd92bc2b6e540a6927403592813ac493f57542fef91cedb6fc46b3/transstellar_antd-0.6.0.tar.gz
+[2024-05-21 04:18:11] INFO root fetch - processPackages [zaku]: Downloading https://files.pythonhosted.org/packages/cf/0e/96a80c4cc62c4a2fa75fb4a3fbfabb21a029116202d8e513617930bcdd4a/zaku-0.0.9-py3-none-any.whl
+[2024-05-21 04:18:11] INFO root fetch - processPackages [zaku]: executing diffoscope
+[2024-05-21 04:18:11] INFO root fetch - processPackages [zaku]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zaku-0.0.8rc1-py3-none-any.whl.zip tmp/zaku-0.0.9-py3-none-any.whl.zip --markdown 20240521/z/zaku/0.0.8rc1-0.0.9/README.md --exclude *.pyd
+[2024-05-21 04:18:11] INFO root fetch - processPackages [extended-mypy-django-plugin]: Downloading https://files.pythonhosted.org/packages/99/0e/78292089083bf15fd7af736914b6376bd2784038b471b04f507200f4d95c/extended_mypy_django_plugin-0.5.1.tar.gz
+[2024-05-21 04:18:11] INFO root fetch - processPackages [transstellar-antd]: Downloading https://files.pythonhosted.org/packages/72/1c/d71ba533c9ab3f0b1d9bb938050b2e313a46001785ccbd5ca6365325b2c7/transstellar_antd-0.7.0.tar.gz
+[2024-05-21 04:18:12] INFO root fetch - processPackages [extended-mypy-django-plugin]: executing diffoscope
+[2024-05-21 04:18:12] INFO root fetch - processPackages [extended-mypy-django-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extended_mypy_django_plugin-0.5.tar.gz tmp/extended_mypy_django_plugin-0.5.1.tar.gz --markdown 20240521/e/extended-mypy-django-plugin/0.5-0.5.1/README.md --exclude *.pyd
+[2024-05-21 04:18:12] INFO root fetch - processPackages [transstellar-antd]: executing diffoscope
+[2024-05-21 04:18:12] INFO root fetch - processPackages [transstellar-antd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transstellar_antd-0.6.0.tar.gz tmp/transstellar_antd-0.7.0.tar.gz --markdown 20240521/t/transstellar-antd/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-05-21 04:18:12] INFO root fetch - processPackages [developergpt]: Remove: archive file [/home/abi/fetcher/tmp/developergpt-0.7.2.tar.gz]
+[2024-05-21 04:18:12] INFO root fetch - processPackages [developergpt]: Remove: archive file [/home/abi/fetcher/tmp/developergpt-0.7.3.tar.gz]
+[2024-05-21 04:18:12] INFO root fetch - main [MainThread]: End processing [developergpt]: success
+[2024-05-21 04:18:12] INFO root fetch - processPackages [zaku]: Remove: archive file [/home/abi/fetcher/tmp/zaku-0.0.8rc1-py3-none-any.whl.zip]
+[2024-05-21 04:18:12] INFO root fetch - processPackages [zaku]: Remove: archive file [/home/abi/fetcher/tmp/zaku-0.0.9-py3-none-any.whl.zip]
+[2024-05-21 04:18:12] INFO root fetch - main [MainThread]: End processing [zaku]: success
+[2024-05-21 04:18:12] INFO root fetch - processPackages [extended-mypy-django-plugin]: Remove: archive file [/home/abi/fetcher/tmp/extended_mypy_django_plugin-0.5.tar.gz]
+[2024-05-21 04:18:12] INFO root fetch - processPackages [extended-mypy-django-plugin]: Remove: archive file [/home/abi/fetcher/tmp/extended_mypy_django_plugin-0.5.1.tar.gz]
+[2024-05-21 04:18:12] INFO root fetch - main [MainThread]: End processing [extended-mypy-django-plugin]: success
+[2024-05-21 04:18:12] INFO root fetch - processPackages [transstellar-antd]: Remove: archive file [/home/abi/fetcher/tmp/transstellar_antd-0.6.0.tar.gz]
+[2024-05-21 04:18:12] INFO root fetch - processPackages [transstellar-antd]: Remove: archive file [/home/abi/fetcher/tmp/transstellar_antd-0.7.0.tar.gz]
+[2024-05-21 04:18:12] INFO root fetch - main [MainThread]: End processing [transstellar-antd]: success
+[2024-05-21 04:18:12] INFO root fetch - main [MainThread]: Store serial: [23299826]
