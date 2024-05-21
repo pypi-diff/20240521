@@ -10105,3 +10105,24 @@
 [2024-05-21 06:01:28] INFO root fetch - processPackages [accelbyte-py-sdk-service-iam]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte-py-sdk-service-iam-0.9.0.tar.gz]
 [2024-05-21 06:01:28] INFO root fetch - main [MainThread]: End processing [accelbyte-py-sdk-service-iam]: success
 [2024-05-21 06:01:28] INFO root fetch - main [MainThread]: Store serial: [23300742]
+[2024-05-21 06:03:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23300742]
+[2024-05-21 06:03:37] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-21 06:03:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdktf-cdktf-provider-pagerduty
+[2024-05-21 06:03:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: accelbyte-py-sdk-service-legal
+[2024-05-21 06:03:38] INFO root fetch - processPackages [accelbyte-py-sdk-service-legal]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-21 06:03:38] INFO root fetch - processPackages [cdktf-cdktf-provider-pagerduty]: New version: [9.0.3] Old Version: [9.0.2]
+[2024-05-21 06:03:38] INFO root fetch - processPackages [accelbyte-py-sdk-service-legal]: Downloading https://files.pythonhosted.org/packages/6e/09/8dce435804a73f8e1e61c0eef0aca335e102c52aebb99706c782a8e67f98/accelbyte-py-sdk-service-legal-0.8.0.tar.gz
+[2024-05-21 06:03:38] INFO root fetch - processPackages [cdktf-cdktf-provider-pagerduty]: Downloading https://files.pythonhosted.org/packages/4c/e5/8b7f0d082a46e17d4eedf3d3f444f81c6f7e91d578b29c24936a3a90a4c4/cdktf-cdktf-provider-pagerduty-9.0.2.tar.gz
+[2024-05-21 06:03:38] INFO root fetch - processPackages [accelbyte-py-sdk-service-legal]: Downloading https://files.pythonhosted.org/packages/cf/8e/edd9b760222972d945282cbbe8f64e534d4094343d46e0d723bd6ab06228/accelbyte_py_sdk_service_legal-0.9.0.tar.gz
+[2024-05-21 06:03:38] INFO root fetch - processPackages [accelbyte-py-sdk-service-legal]: executing diffoscope
+[2024-05-21 06:03:38] INFO root fetch - processPackages [accelbyte-py-sdk-service-legal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/accelbyte-py-sdk-service-legal-0.8.0.tar.gz tmp/accelbyte_py_sdk_service_legal-0.9.0.tar.gz --markdown 20240521/a/accelbyte-py-sdk-service-legal/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-21 06:03:38] INFO root fetch - processPackages [cdktf-cdktf-provider-pagerduty]: Downloading https://files.pythonhosted.org/packages/95/46/968f71be0a17bdfa82dc9a050fb2e6b2954d37c5d625ae2e68fece911353/cdktf-cdktf-provider-pagerduty-9.0.3.tar.gz
+[2024-05-21 06:03:38] INFO root fetch - processPackages [cdktf-cdktf-provider-pagerduty]: executing diffoscope
+[2024-05-21 06:03:38] INFO root fetch - processPackages [cdktf-cdktf-provider-pagerduty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-pagerduty-9.0.2.tar.gz tmp/cdktf-cdktf-provider-pagerduty-9.0.3.tar.gz --markdown 20240521/c/cdktf-cdktf-provider-pagerduty/9.0.2-9.0.3/README.md --exclude *.pyd
+[2024-05-21 06:03:40] INFO root fetch - processPackages [accelbyte-py-sdk-service-legal]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte-py-sdk-service-legal-0.8.0.tar.gz]
+[2024-05-21 06:03:40] INFO root fetch - processPackages [accelbyte-py-sdk-service-legal]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte_py_sdk_service_legal-0.9.0.tar.gz]
+[2024-05-21 06:03:40] INFO root fetch - main [MainThread]: End processing [accelbyte-py-sdk-service-legal]: success
+[2024-05-21 06:03:41] INFO root fetch - processPackages [cdktf-cdktf-provider-pagerduty]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-pagerduty-9.0.2.tar.gz]
+[2024-05-21 06:03:41] INFO root fetch - processPackages [cdktf-cdktf-provider-pagerduty]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-pagerduty-9.0.3.tar.gz]
+[2024-05-21 06:03:41] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-pagerduty]: success
+[2024-05-21 06:03:41] INFO root fetch - main [MainThread]: Store serial: [23300748]
