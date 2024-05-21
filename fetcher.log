@@ -12484,3 +12484,36 @@
 [2024-05-21 07:46:48] INFO root fetch - processPackages [dash-spread-grid]: Remove: archive file [/home/abi/fetcher/tmp/dash_spread_grid-0.0.9.tar.gz]
 [2024-05-21 07:46:48] INFO root fetch - main [MainThread]: End processing [dash-spread-grid]: success
 [2024-05-21 07:46:48] INFO root fetch - main [MainThread]: Store serial: [23301597]
+[2024-05-21 07:48:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23301597]
+[2024-05-21 07:48:57] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-21 07:48:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fridaylabs
+[2024-05-21 07:48:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-partner-firstname
+[2024-05-21 07:48:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pydantic-pkgr
+[2024-05-21 07:48:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: SciServerApi
+[2024-05-21 07:48:57] WARNING root fetch - processPackages [fridaylabs]: Skipping, unable to determine old version
+[2024-05-21 07:48:57] INFO root fetch - main [MainThread]: End processing [fridaylabs] error
+[2024-05-21 07:48:57] INFO root fetch - processPackages [odoo14-addon-partner-firstname]: New version: [14.0.1.1.1.dev9] Old Version: [14.0.1.1.1.dev8]
+[2024-05-21 07:48:57] INFO root fetch - processPackages [pydantic-pkgr]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-21 07:48:57] INFO root fetch - processPackages [SciServerApi]: New version: [2.0.0] Old Version: [1.0.0]
+[2024-05-21 07:48:57] INFO root fetch - processPackages [odoo14-addon-partner-firstname]: Downloading https://files.pythonhosted.org/packages/ed/1a/be5dbe9876bbfee326b598a05ac345a118a6248f07795ea4c0ed112dae7b/odoo14_addon_partner_firstname-14.0.1.1.1.dev8-py3-none-any.whl
+[2024-05-21 07:48:57] INFO root fetch - processPackages [pydantic-pkgr]: Downloading https://files.pythonhosted.org/packages/3d/4c/8fba534202f3a19dfe65062e67a54394b4e55745c4cb5be8a91997e04fab/pydantic_pkgr-0.1.1.tar.gz
+[2024-05-21 07:48:57] INFO root fetch - processPackages [SciServerApi]: Downloading https://files.pythonhosted.org/packages/2b/69/359f92ba7b5456a9b73576e417f25da637698317b684204caec2edc35f44/SciServerApi-1.0.0.tar.gz
+[2024-05-21 07:48:58] INFO root fetch - processPackages [pydantic-pkgr]: Downloading https://files.pythonhosted.org/packages/9c/3f/6c566eb881ffa4289d9a2e84883dca5dda365fa4a2fa1fb8449db1f51e87/pydantic_pkgr-0.1.2.tar.gz
+[2024-05-21 07:48:58] INFO root fetch - processPackages [SciServerApi]: Downloading https://files.pythonhosted.org/packages/b9/6a/d6e3e1efb734de168a96f840b9ca30faad634986e50612b869c91cb2cd07/SciServerApi-2.0.0.tar.gz
+[2024-05-21 07:48:58] INFO root fetch - processPackages [odoo14-addon-partner-firstname]: Downloading https://files.pythonhosted.org/packages/60/f1/9fbf5fe835b34c5dca963e8ec5172b635c001ec7abb9f613a7581a49680e/odoo14_addon_partner_firstname-14.0.1.1.1.dev9-py3-none-any.whl
+[2024-05-21 07:48:58] INFO root fetch - processPackages [pydantic-pkgr]: executing diffoscope
+[2024-05-21 07:48:58] INFO root fetch - processPackages [pydantic-pkgr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_pkgr-0.1.1.tar.gz tmp/pydantic_pkgr-0.1.2.tar.gz --markdown 20240521/p/pydantic-pkgr/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-21 07:48:58] INFO root fetch - processPackages [odoo14-addon-partner-firstname]: executing diffoscope
+[2024-05-21 07:48:58] INFO root fetch - processPackages [odoo14-addon-partner-firstname]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_partner_firstname-14.0.1.1.1.dev8-py3-none-any.whl.zip tmp/odoo14_addon_partner_firstname-14.0.1.1.1.dev9-py3-none-any.whl.zip --markdown 20240521/o/odoo14-addon-partner-firstname/14.0.1.1.1.dev8-14.0.1.1.1.dev9/README.md --exclude *.pyd
+[2024-05-21 07:48:58] INFO root fetch - processPackages [SciServerApi]: executing diffoscope
+[2024-05-21 07:48:58] INFO root fetch - processPackages [SciServerApi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SciServerApi-1.0.0.tar.gz tmp/SciServerApi-2.0.0.tar.gz --markdown 20240521/S/SciServerApi/1.0.0-2.0.0/README.md --exclude *.pyd
+[2024-05-21 07:48:59] INFO root fetch - processPackages [pydantic-pkgr]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_pkgr-0.1.1.tar.gz]
+[2024-05-21 07:48:59] INFO root fetch - processPackages [pydantic-pkgr]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_pkgr-0.1.2.tar.gz]
+[2024-05-21 07:48:59] INFO root fetch - main [MainThread]: End processing [pydantic-pkgr]: success
+[2024-05-21 07:48:59] INFO root fetch - processPackages [odoo14-addon-partner-firstname]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_partner_firstname-14.0.1.1.1.dev8-py3-none-any.whl.zip]
+[2024-05-21 07:48:59] INFO root fetch - processPackages [odoo14-addon-partner-firstname]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_partner_firstname-14.0.1.1.1.dev9-py3-none-any.whl.zip]
+[2024-05-21 07:48:59] INFO root fetch - main [MainThread]: End processing [odoo14-addon-partner-firstname]: success
+[2024-05-21 07:48:59] INFO root fetch - processPackages [SciServerApi]: Remove: archive file [/home/abi/fetcher/tmp/SciServerApi-1.0.0.tar.gz]
+[2024-05-21 07:48:59] INFO root fetch - processPackages [SciServerApi]: Remove: archive file [/home/abi/fetcher/tmp/SciServerApi-2.0.0.tar.gz]
+[2024-05-21 07:48:59] INFO root fetch - main [MainThread]: End processing [SciServerApi]: success
+[2024-05-21 07:48:59] INFO root fetch - main [MainThread]: Store serial: [23301630]
