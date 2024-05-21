@@ -11558,3 +11558,15 @@
 [2024-05-21 07:02:43] WARNING root fetch - processPackages [opendp]: Skipping package: exceeds size limit 36048210>=10485760
 [2024-05-21 07:02:43] INFO root fetch - main [MainThread]: End processing [opendp] error
 [2024-05-21 07:02:43] INFO root fetch - main [MainThread]: Store serial: [23301201]
+[2024-05-21 07:04:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23301201]
+[2024-05-21 07:04:52] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-21 07:04:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: contact-email-address-local
+[2024-05-21 07:04:52] INFO root fetch - processPackages [contact-email-address-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-21 07:04:52] INFO root fetch - processPackages [contact-email-address-local]: Downloading https://files.pythonhosted.org/packages/45/e5/8c05c5cc1f7122ebe442383a5ad976af6991ffade381619160f614b030cf/contact_email_address_local-0.0.8.tar.gz
+[2024-05-21 07:04:52] INFO root fetch - processPackages [contact-email-address-local]: Downloading https://files.pythonhosted.org/packages/b0/76/1d966bca88d8d64a3d93fa1704b27864994febe1a9d7d4d97fde54eb590b/contact_email_address_local-0.0.9.tar.gz
+[2024-05-21 07:04:52] INFO root fetch - processPackages [contact-email-address-local]: executing diffoscope
+[2024-05-21 07:04:52] INFO root fetch - processPackages [contact-email-address-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contact_email_address_local-0.0.8.tar.gz tmp/contact_email_address_local-0.0.9.tar.gz --markdown 20240521/c/contact-email-address-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-21 07:04:53] INFO root fetch - processPackages [contact-email-address-local]: Remove: archive file [/home/abi/fetcher/tmp/contact_email_address_local-0.0.8.tar.gz]
+[2024-05-21 07:04:53] INFO root fetch - processPackages [contact-email-address-local]: Remove: archive file [/home/abi/fetcher/tmp/contact_email_address_local-0.0.9.tar.gz]
+[2024-05-21 07:04:53] INFO root fetch - main [MainThread]: End processing [contact-email-address-local]: success
+[2024-05-21 07:04:53] INFO root fetch - main [MainThread]: Store serial: [23301204]
