@@ -21463,3 +21463,54 @@
 [2024-05-21 13:09:50] INFO root fetch - processPackages [NEMO-CE]: Remove: archive file [/home/abi/fetcher/tmp/NEMO_CE-2.5.6-py3-none-any.whl.zip]
 [2024-05-21 13:09:50] INFO root fetch - main [MainThread]: End processing [NEMO-CE]: success
 [2024-05-21 13:09:50] INFO root fetch - main [MainThread]: Store serial: [23305214]
+[2024-05-21 13:11:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23305214]
+[2024-05-21 13:11:59] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-21 13:11:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ioxplugin
+[2024-05-21 13:11:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: boss_runs
+[2024-05-21 13:11:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: seg_tgce
+[2024-05-21 13:11:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: BarteSDK
+[2024-05-21 13:11:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: outpostcli
+[2024-05-21 13:11:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ryry-cli
+[2024-05-21 13:11:59] INFO root fetch - processPackages [seg_tgce]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-21 13:11:59] INFO root fetch - processPackages [BarteSDK]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-21 13:11:59] INFO root fetch - processPackages [outpostcli]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-21 13:11:59] INFO root fetch - processPackages [BarteSDK]: Downloading https://files.pythonhosted.org/packages/1c/24/f265a111f10a855a327643e87273d1f3ba56190ad02e0175f3b5b6319e4c/bartesdk-0.1.8.tar.gz
+[2024-05-21 13:11:59] INFO root fetch - processPackages [seg_tgce]: Downloading https://files.pythonhosted.org/packages/1b/c1/0737887bc678e7c19f9e76555a36d61b803f6a3e1cd607e30ccc2deb7a6c/seg_tgce-0.1.2.tar.gz
+[2024-05-21 13:11:59] INFO root fetch - processPackages [outpostcli]: Downloading https://files.pythonhosted.org/packages/7e/e2/114a39eac567286d0418645c0ea24089c48fcbe4cccec6c79191a5cefccf/outpostcli-0.0.8.tar.gz
+[2024-05-21 13:11:59] WARNING root fetch - processPackages [ryry-cli]: Skipping, unable to determine old version
+[2024-05-21 13:11:59] INFO root fetch - main [MainThread]: End processing [ryry-cli] error
+[2024-05-21 13:11:59] INFO root fetch - processPackages [boss_runs]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-21 13:11:59] INFO root fetch - processPackages [ioxplugin]: New version: [1.1.4] Old Version: [1.1.2]
+[2024-05-21 13:11:59] INFO root fetch - processPackages [BarteSDK]: Downloading https://files.pythonhosted.org/packages/15/ee/a85c9e9d9f84f12e1c3ab4801827286e3ad5588e1683d13c5130caaa29f2/bartesdk-0.1.9.tar.gz
+[2024-05-21 13:11:59] INFO root fetch - processPackages [outpostcli]: Downloading https://files.pythonhosted.org/packages/df/ab/82b6853cec170d33c2aff19e3a298b0bf56f7ba1b885f6f7d42a10ae43dc/outpostcli-0.0.9.tar.gz
+[2024-05-21 13:11:59] INFO root fetch - processPackages [boss_runs]: Downloading https://files.pythonhosted.org/packages/53/87/9ae7634ecc078920ef2a6cdea4995d9a05855690cc1d44deda9e7cb499f1/boss_runs-0.1.0.tar.gz
+[2024-05-21 13:11:59] INFO root fetch - processPackages [ioxplugin]: Downloading https://files.pythonhosted.org/packages/bd/ca/7b8ecab5ab316b23447002a2d287986d5ebfc17327af8f76b66223316ef7/ioxplugin-1.1.2.tar.gz
+[2024-05-21 13:11:59] INFO root fetch - processPackages [BarteSDK]: executing diffoscope
+[2024-05-21 13:11:59] INFO root fetch - processPackages [BarteSDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bartesdk-0.1.8.tar.gz tmp/bartesdk-0.1.9.tar.gz --markdown 20240521/B/BarteSDK/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-21 13:11:59] INFO root fetch - processPackages [seg_tgce]: Downloading https://files.pythonhosted.org/packages/9f/04/5a27adbfb52e416d9b011630e102bb959bc10fd7b8fce5224da769adf0fa/seg_tgce-0.1.3.tar.gz
+[2024-05-21 13:11:59] INFO root fetch - processPackages [outpostcli]: executing diffoscope
+[2024-05-21 13:11:59] INFO root fetch - processPackages [outpostcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/outpostcli-0.0.8.tar.gz tmp/outpostcli-0.0.9.tar.gz --markdown 20240521/o/outpostcli/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-21 13:12:00] INFO root fetch - processPackages [seg_tgce]: executing diffoscope
+[2024-05-21 13:12:00] INFO root fetch - processPackages [seg_tgce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seg_tgce-0.1.2.tar.gz tmp/seg_tgce-0.1.3.tar.gz --markdown 20240521/s/seg_tgce/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-21 13:12:00] INFO root fetch - processPackages [ioxplugin]: Downloading https://files.pythonhosted.org/packages/ac/ca/c1ad785233b250c4b74b54aecc1f3ab7dc316333d8787959853d7b846d8a/ioxplugin-1.1.4.tar.gz
+[2024-05-21 13:12:00] INFO root fetch - processPackages [boss_runs]: Downloading https://files.pythonhosted.org/packages/f0/01/6c00ab099d2c28c10b7aa0a92b17458bed7fb407161c69a9809df17d6cfb/boss_runs-0.1.1.tar.gz
+[2024-05-21 13:12:00] INFO root fetch - processPackages [ioxplugin]: executing diffoscope
+[2024-05-21 13:12:00] INFO root fetch - processPackages [ioxplugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ioxplugin-1.1.2.tar.gz tmp/ioxplugin-1.1.4.tar.gz --markdown 20240521/i/ioxplugin/1.1.2-1.1.4/README.md --exclude *.pyd
+[2024-05-21 13:12:00] INFO root fetch - processPackages [boss_runs]: executing diffoscope
+[2024-05-21 13:12:00] INFO root fetch - processPackages [boss_runs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boss_runs-0.1.0.tar.gz tmp/boss_runs-0.1.1.tar.gz --markdown 20240521/b/boss_runs/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-21 13:12:00] INFO root fetch - processPackages [BarteSDK]: Remove: archive file [/home/abi/fetcher/tmp/bartesdk-0.1.8.tar.gz]
+[2024-05-21 13:12:00] INFO root fetch - processPackages [BarteSDK]: Remove: archive file [/home/abi/fetcher/tmp/bartesdk-0.1.9.tar.gz]
+[2024-05-21 13:12:00] INFO root fetch - main [MainThread]: End processing [BarteSDK]: success
+[2024-05-21 13:12:00] INFO root fetch - processPackages [outpostcli]: Remove: archive file [/home/abi/fetcher/tmp/outpostcli-0.0.8.tar.gz]
+[2024-05-21 13:12:00] INFO root fetch - processPackages [outpostcli]: Remove: archive file [/home/abi/fetcher/tmp/outpostcli-0.0.9.tar.gz]
+[2024-05-21 13:12:00] INFO root fetch - main [MainThread]: End processing [outpostcli]: success
+[2024-05-21 13:12:00] INFO root fetch - processPackages [seg_tgce]: Remove: archive file [/home/abi/fetcher/tmp/seg_tgce-0.1.2.tar.gz]
+[2024-05-21 13:12:00] INFO root fetch - processPackages [seg_tgce]: Remove: archive file [/home/abi/fetcher/tmp/seg_tgce-0.1.3.tar.gz]
+[2024-05-21 13:12:00] INFO root fetch - main [MainThread]: End processing [seg_tgce]: success
+[2024-05-21 13:12:00] INFO root fetch - processPackages [ioxplugin]: Remove: archive file [/home/abi/fetcher/tmp/ioxplugin-1.1.2.tar.gz]
+[2024-05-21 13:12:00] INFO root fetch - processPackages [ioxplugin]: Remove: archive file [/home/abi/fetcher/tmp/ioxplugin-1.1.4.tar.gz]
+[2024-05-21 13:12:00] INFO root fetch - main [MainThread]: End processing [ioxplugin]: success
+[2024-05-21 13:12:00] INFO root fetch - processPackages [boss_runs]: Remove: archive file [/home/abi/fetcher/tmp/boss_runs-0.1.0.tar.gz]
+[2024-05-21 13:12:00] INFO root fetch - processPackages [boss_runs]: Remove: archive file [/home/abi/fetcher/tmp/boss_runs-0.1.1.tar.gz]
+[2024-05-21 13:12:00] INFO root fetch - main [MainThread]: End processing [boss_runs]: success
+[2024-05-21 13:12:00] INFO root fetch - main [MainThread]: Store serial: [23305234]
