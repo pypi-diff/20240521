@@ -16513,3 +16513,42 @@
 [2024-05-21 10:24:25] INFO root fetch - processPackages [abnosql]: Remove: archive file [/home/abi/fetcher/tmp/abnosql-0.0.9.tar.gz]
 [2024-05-21 10:24:25] INFO root fetch - main [MainThread]: End processing [abnosql]: success
 [2024-05-21 10:24:25] INFO root fetch - main [MainThread]: Store serial: [23303109]
+[2024-05-21 10:26:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23303109]
+[2024-05-21 10:26:34] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-21 10:26:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: starrydata
+[2024-05-21 10:26:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jacksung
+[2024-05-21 10:26:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vbpy
+[2024-05-21 10:26:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: novum-api-client
+[2024-05-21 10:26:34] INFO root fetch - processPackages [starrydata]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-21 10:26:34] INFO root fetch - processPackages [vbpy]: New version: [2.0.8] Old Version: [2.0.7]
+[2024-05-21 10:26:34] INFO root fetch - processPackages [jacksung]: New version: [0.0.2.99] Old Version: [0.0.2.98]
+[2024-05-21 10:26:34] INFO root fetch - processPackages [starrydata]: Downloading https://files.pythonhosted.org/packages/f9/1c/79c08b9d0ef9288ec3adb3928156a3d4d063afd81813841824463e4787c5/starrydata-1.1.0.tar.gz
+[2024-05-21 10:26:34] INFO root fetch - processPackages [novum-api-client]: New version: [2.0.1] Old Version: [2.0.0]
+[2024-05-21 10:26:34] INFO root fetch - processPackages [vbpy]: Downloading https://files.pythonhosted.org/packages/fc/ef/4c21f2ee9de2bbc5b87279269219cd092ed40a978b4193c4ff82164a8997/vbpy-2.0.7.tar.gz
+[2024-05-21 10:26:34] INFO root fetch - processPackages [jacksung]: Downloading https://files.pythonhosted.org/packages/53/49/29d6064a8fb6ccc0f6823e713582dc73298157d8802aa60a65240347ef14/jacksung-0.0.2.98.tar.gz
+[2024-05-21 10:26:34] INFO root fetch - processPackages [novum-api-client]: Downloading https://files.pythonhosted.org/packages/6b/74/a5652c4676b38aae749776f570aaae62e0bdcc40d1b902077ff08694200f/novum_api_client-2.0.0.tar.gz
+[2024-05-21 10:26:34] INFO root fetch - processPackages [vbpy]: Downloading https://files.pythonhosted.org/packages/d2/37/edcea3d66a407bf13c71970ddca012f680efb95dd081351e1ac9cfce3fc8/vbpy-2.0.8.tar.gz
+[2024-05-21 10:26:35] INFO root fetch - processPackages [starrydata]: Downloading https://files.pythonhosted.org/packages/9f/d3/4281e08b08598283a509fc66090f5ccaf57df98030113fad032d7b47bb43/starrydata-1.1.1.tar.gz
+[2024-05-21 10:26:35] INFO root fetch - processPackages [jacksung]: Downloading https://files.pythonhosted.org/packages/b5/22/0dfab66df22ada378e333e97f6287eef4c68d06fd84d4bc9a8d76c3ba65e/jacksung-0.0.2.99.tar.gz
+[2024-05-21 10:26:35] INFO root fetch - processPackages [vbpy]: executing diffoscope
+[2024-05-21 10:26:35] INFO root fetch - processPackages [vbpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vbpy-2.0.7.tar.gz tmp/vbpy-2.0.8.tar.gz --markdown 20240521/v/vbpy/2.0.7-2.0.8/README.md --exclude *.pyd
+[2024-05-21 10:26:35] INFO root fetch - processPackages [starrydata]: executing diffoscope
+[2024-05-21 10:26:35] INFO root fetch - processPackages [starrydata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starrydata-1.1.0.tar.gz tmp/starrydata-1.1.1.tar.gz --markdown 20240521/s/starrydata/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-21 10:26:35] INFO root fetch - processPackages [jacksung]: executing diffoscope
+[2024-05-21 10:26:35] INFO root fetch - processPackages [jacksung]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jacksung-0.0.2.98.tar.gz tmp/jacksung-0.0.2.99.tar.gz --markdown 20240521/j/jacksung/0.0.2.98-0.0.2.99/README.md --exclude *.pyd
+[2024-05-21 10:26:35] INFO root fetch - processPackages [novum-api-client]: Downloading https://files.pythonhosted.org/packages/fb/86/ffb78588460a71660a394dd1abe3fc5aeff6d63d2e3c96efa87e1114f8c7/novum_api_client-2.0.1.tar.gz
+[2024-05-21 10:26:35] INFO root fetch - processPackages [novum-api-client]: executing diffoscope
+[2024-05-21 10:26:35] INFO root fetch - processPackages [novum-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/novum_api_client-2.0.0.tar.gz tmp/novum_api_client-2.0.1.tar.gz --markdown 20240521/n/novum-api-client/2.0.0-2.0.1/README.md --exclude *.pyd
+[2024-05-21 10:26:35] INFO root fetch - processPackages [vbpy]: Remove: archive file [/home/abi/fetcher/tmp/vbpy-2.0.7.tar.gz]
+[2024-05-21 10:26:35] INFO root fetch - processPackages [vbpy]: Remove: archive file [/home/abi/fetcher/tmp/vbpy-2.0.8.tar.gz]
+[2024-05-21 10:26:35] INFO root fetch - main [MainThread]: End processing [vbpy]: success
+[2024-05-21 10:26:35] INFO root fetch - processPackages [jacksung]: Remove: archive file [/home/abi/fetcher/tmp/jacksung-0.0.2.98.tar.gz]
+[2024-05-21 10:26:35] INFO root fetch - processPackages [jacksung]: Remove: archive file [/home/abi/fetcher/tmp/jacksung-0.0.2.99.tar.gz]
+[2024-05-21 10:26:35] INFO root fetch - main [MainThread]: End processing [jacksung]: success
+[2024-05-21 10:26:35] INFO root fetch - processPackages [starrydata]: Remove: archive file [/home/abi/fetcher/tmp/starrydata-1.1.0.tar.gz]
+[2024-05-21 10:26:35] INFO root fetch - processPackages [starrydata]: Remove: archive file [/home/abi/fetcher/tmp/starrydata-1.1.1.tar.gz]
+[2024-05-21 10:26:35] INFO root fetch - main [MainThread]: End processing [starrydata]: success
+[2024-05-21 10:26:36] INFO root fetch - processPackages [novum-api-client]: Remove: archive file [/home/abi/fetcher/tmp/novum_api_client-2.0.0.tar.gz]
+[2024-05-21 10:26:36] INFO root fetch - processPackages [novum-api-client]: Remove: archive file [/home/abi/fetcher/tmp/novum_api_client-2.0.1.tar.gz]
+[2024-05-21 10:26:36] INFO root fetch - main [MainThread]: End processing [novum-api-client]: success
+[2024-05-21 10:26:36] INFO root fetch - main [MainThread]: Store serial: [23303120]
