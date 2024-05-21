@@ -15537,3 +15537,60 @@
 [2024-05-21 09:49:16] INFO root fetch - processPackages [impsparc]: Remove: archive file [/home/abi/fetcher/tmp/impsparc-3.1.5.tar.gz]
 [2024-05-21 09:49:16] INFO root fetch - main [MainThread]: End processing [impsparc]: success
 [2024-05-21 09:49:16] INFO root fetch - main [MainThread]: Store serial: [23302724]
+[2024-05-21 09:51:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23302724]
+[2024-05-21 09:51:25] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-21 09:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dzidb
+[2024-05-21 09:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: promg
+[2024-05-21 09:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: indexify-extractor-sdk
+[2024-05-21 09:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: markdown_convert
+[2024-05-21 09:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dekdjtools
+[2024-05-21 09:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: decoutilities
+[2024-05-21 09:51:25] INFO root fetch - processPackages [promg]: New version: [1.1.0] Old Version: [1.0.9]
+[2024-05-21 09:51:25] INFO root fetch - processPackages [decoutilities]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-05-21 09:51:25] INFO root fetch - processPackages [dekdjtools]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-21 09:51:25] INFO root fetch - processPackages [dzidb]: New version: [1.1] Old Version: [1.0]
+[2024-05-21 09:51:25] INFO root fetch - processPackages [promg]: Downloading https://files.pythonhosted.org/packages/31/38/6775c8a1667d5b17ff6bf44ae1f6a195f2fd6ec7bf3222f4f1c3e9e426f3/promg-1.0.9.tar.gz
+[2024-05-21 09:51:25] INFO root fetch - processPackages [markdown_convert]: New version: [1.2.0] Old Version: [1.1.9]
+[2024-05-21 09:51:25] INFO root fetch - processPackages [indexify-extractor-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-21 09:51:25] INFO root fetch - processPackages [dekdjtools]: Downloading https://files.pythonhosted.org/packages/e4/df/58d5e7aaa205acddbf1ba3c7e480bde075d90f3cf2f9a4ef8b1023fb4c14/dekdjtools-0.1.8.tar.gz
+[2024-05-21 09:51:25] INFO root fetch - processPackages [decoutilities]: Downloading https://files.pythonhosted.org/packages/df/c6/0a9f23cb35ff162a7c12f8d98e16d2b193f300a5c8689cbb57ae99b55ded/decoutilities-0.2.7.tar.gz
+[2024-05-21 09:51:25] INFO root fetch - processPackages [dzidb]: Downloading https://files.pythonhosted.org/packages/d2/6b/3871c246de0722bb548a73155b1a16498492565d1cba5fa5607387d429b8/dzidb-1.0.tar.gz
+[2024-05-21 09:51:25] INFO root fetch - processPackages [markdown_convert]: Downloading https://files.pythonhosted.org/packages/7f/3d/07d814752ab89819f913c5a6c52d49c14f5a1e8189fa36bbf63dfebb1118/markdown_convert-1.1.9.tar.gz
+[2024-05-21 09:51:25] INFO root fetch - processPackages [promg]: Downloading https://files.pythonhosted.org/packages/da/ab/59a04cce727a10dbb4f16778e93959656d1ec0ffb691dbca421e391e7805/promg-1.1.0.tar.gz
+[2024-05-21 09:51:25] INFO root fetch - processPackages [indexify-extractor-sdk]: Downloading https://files.pythonhosted.org/packages/25/fb/8dcfb1ddf593ada77ca7aebff3d9add072c6922c5b3efddeb31e991f5968/indexify-extractor-sdk-0.0.8.tar.gz
+[2024-05-21 09:51:25] INFO root fetch - processPackages [dekdjtools]: Downloading https://files.pythonhosted.org/packages/38/d3/1ea767a7367db4793980cd61bc83abf62a6c7e853f2c1d75e2e4e7070d71/dekdjtools-0.1.9.tar.gz
+[2024-05-21 09:51:25] INFO root fetch - processPackages [promg]: executing diffoscope
+[2024-05-21 09:51:25] INFO root fetch - processPackages [promg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promg-1.0.9.tar.gz tmp/promg-1.1.0.tar.gz --markdown 20240521/p/promg/1.0.9-1.1.0/README.md --exclude *.pyd
+[2024-05-21 09:51:25] INFO root fetch - processPackages [dekdjtools]: executing diffoscope
+[2024-05-21 09:51:25] INFO root fetch - processPackages [dekdjtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dekdjtools-0.1.8.tar.gz tmp/dekdjtools-0.1.9.tar.gz --markdown 20240521/d/dekdjtools/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-21 09:51:25] INFO root fetch - processPackages [decoutilities]: Downloading https://files.pythonhosted.org/packages/93/71/7b26f367464423669f034d2dfbe4cd54271a67109d738d2bd0befc5e6cbc/decoutilities-0.2.8.tar.gz
+[2024-05-21 09:51:25] INFO root fetch - processPackages [dzidb]: Downloading https://files.pythonhosted.org/packages/ab/7b/1eb783cec2be6c8f5f50400132b6afae58c752421a84c34ef92cb658707b/dzidb-1.1.tar.gz
+[2024-05-21 09:51:26] INFO root fetch - processPackages [markdown_convert]: Downloading https://files.pythonhosted.org/packages/aa/da/27c48cefd31fd43b8209420c9a88b1d97baad90041eca6f2b49b9ca86705/markdown_convert-1.2.0.tar.gz
+[2024-05-21 09:51:26] INFO root fetch - processPackages [indexify-extractor-sdk]: Downloading https://files.pythonhosted.org/packages/6b/69/1a816cb64f283ffbd7a285fc0aacdf84a8f4bc7214eaab78ac42be5e93ba/indexify-extractor-sdk-0.0.9.tar.gz
+[2024-05-21 09:51:26] INFO root fetch - processPackages [decoutilities]: executing diffoscope
+[2024-05-21 09:51:26] INFO root fetch - processPackages [decoutilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decoutilities-0.2.7.tar.gz tmp/decoutilities-0.2.8.tar.gz --markdown 20240521/d/decoutilities/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-05-21 09:51:26] INFO root fetch - processPackages [dzidb]: executing diffoscope
+[2024-05-21 09:51:26] INFO root fetch - processPackages [dzidb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dzidb-1.0.tar.gz tmp/dzidb-1.1.tar.gz --markdown 20240521/d/dzidb/1.0-1.1/README.md --exclude *.pyd
+[2024-05-21 09:51:26] INFO root fetch - processPackages [markdown_convert]: executing diffoscope
+[2024-05-21 09:51:26] INFO root fetch - processPackages [markdown_convert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/markdown_convert-1.1.9.tar.gz tmp/markdown_convert-1.2.0.tar.gz --markdown 20240521/m/markdown_convert/1.1.9-1.2.0/README.md --exclude *.pyd
+[2024-05-21 09:51:26] INFO root fetch - processPackages [indexify-extractor-sdk]: executing diffoscope
+[2024-05-21 09:51:26] INFO root fetch - processPackages [indexify-extractor-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indexify-extractor-sdk-0.0.8.tar.gz tmp/indexify-extractor-sdk-0.0.9.tar.gz --markdown 20240521/i/indexify-extractor-sdk/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-21 09:51:26] INFO root fetch - processPackages [dekdjtools]: Remove: archive file [/home/abi/fetcher/tmp/dekdjtools-0.1.8.tar.gz]
+[2024-05-21 09:51:26] INFO root fetch - processPackages [dekdjtools]: Remove: archive file [/home/abi/fetcher/tmp/dekdjtools-0.1.9.tar.gz]
+[2024-05-21 09:51:26] INFO root fetch - main [MainThread]: End processing [dekdjtools]: success
+[2024-05-21 09:51:26] INFO root fetch - processPackages [decoutilities]: Remove: archive file [/home/abi/fetcher/tmp/decoutilities-0.2.7.tar.gz]
+[2024-05-21 09:51:26] INFO root fetch - processPackages [decoutilities]: Remove: archive file [/home/abi/fetcher/tmp/decoutilities-0.2.8.tar.gz]
+[2024-05-21 09:51:26] INFO root fetch - main [MainThread]: End processing [decoutilities]: success
+[2024-05-21 09:51:26] INFO root fetch - processPackages [promg]: Remove: archive file [/home/abi/fetcher/tmp/promg-1.0.9.tar.gz]
+[2024-05-21 09:51:26] INFO root fetch - processPackages [promg]: Remove: archive file [/home/abi/fetcher/tmp/promg-1.1.0.tar.gz]
+[2024-05-21 09:51:26] INFO root fetch - main [MainThread]: End processing [promg]: success
+[2024-05-21 09:51:26] INFO root fetch - processPackages [markdown_convert]: Remove: archive file [/home/abi/fetcher/tmp/markdown_convert-1.1.9.tar.gz]
+[2024-05-21 09:51:26] INFO root fetch - processPackages [markdown_convert]: Remove: archive file [/home/abi/fetcher/tmp/markdown_convert-1.2.0.tar.gz]
+[2024-05-21 09:51:26] INFO root fetch - main [MainThread]: End processing [markdown_convert]: success
+[2024-05-21 09:51:26] INFO root fetch - processPackages [dzidb]: Remove: archive file [/home/abi/fetcher/tmp/dzidb-1.0.tar.gz]
+[2024-05-21 09:51:26] INFO root fetch - processPackages [dzidb]: Remove: archive file [/home/abi/fetcher/tmp/dzidb-1.1.tar.gz]
+[2024-05-21 09:51:26] INFO root fetch - main [MainThread]: End processing [dzidb]: success
+[2024-05-21 09:51:26] INFO root fetch - processPackages [indexify-extractor-sdk]: Remove: archive file [/home/abi/fetcher/tmp/indexify-extractor-sdk-0.0.8.tar.gz]
+[2024-05-21 09:51:26] INFO root fetch - processPackages [indexify-extractor-sdk]: Remove: archive file [/home/abi/fetcher/tmp/indexify-extractor-sdk-0.0.9.tar.gz]
+[2024-05-21 09:51:26] INFO root fetch - main [MainThread]: End processing [indexify-extractor-sdk]: success
+[2024-05-21 09:51:26] INFO root fetch - main [MainThread]: Store serial: [23302741]
