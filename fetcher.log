@@ -9859,3 +9859,51 @@
 [2024-05-21 05:52:39] INFO root fetch - processPackages [seislib]: Remove: archive file [/home/abi/fetcher/tmp/seislib-0.6.9.tar.gz]
 [2024-05-21 05:52:39] INFO root fetch - main [MainThread]: End processing [seislib]: success
 [2024-05-21 05:52:39] INFO root fetch - main [MainThread]: Store serial: [23300666]
+[2024-05-21 05:54:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23300666]
+[2024-05-21 05:54:48] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-21 05:54:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: accelbyte-py-sdk-service-challenge
+[2024-05-21 05:54:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wah
+[2024-05-21 05:54:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: accelbyte-py-sdk-service-chat
+[2024-05-21 05:54:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pandorapsf
+[2024-05-21 05:54:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: accelbyte-py-sdk-service-cloudsave
+[2024-05-21 05:54:49] INFO root fetch - processPackages [wah]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-21 05:54:49] INFO root fetch - processPackages [wah]: Downloading https://files.pythonhosted.org/packages/1e/98/86b56f53d2270da5a315b2f0d5733e61fd0dabbbde1d17bcff2dd938939e/wah-0.1.8.tar.gz
+[2024-05-21 05:54:49] INFO root fetch - processPackages [pandorapsf]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-21 05:54:49] INFO root fetch - processPackages [accelbyte-py-sdk-service-chat]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-21 05:54:49] INFO root fetch - processPackages [accelbyte-py-sdk-service-challenge]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-05-21 05:54:49] INFO root fetch - processPackages [accelbyte-py-sdk-service-cloudsave]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-21 05:54:49] INFO root fetch - processPackages [wah]: Downloading https://files.pythonhosted.org/packages/6c/57/7be641139065b67640542a312a3988d0a93024cdc145ea667b7e8d432eb8/wah-0.1.9.tar.gz
+[2024-05-21 05:54:49] INFO root fetch - processPackages [accelbyte-py-sdk-service-chat]: Downloading https://files.pythonhosted.org/packages/b9/1a/ff2d848f4cb3f20fb3e79f178f97226812fd0b28ec9ec173a8691ac8a024/accelbyte-py-sdk-service-chat-0.8.0.tar.gz
+[2024-05-21 05:54:49] INFO root fetch - processPackages [accelbyte-py-sdk-service-challenge]: Downloading https://files.pythonhosted.org/packages/e4/0a/79c84ee1362e9fab20b047c1583d2250b96869150d37b7cab5e319ee7642/accelbyte_py_sdk_service_challenge-0.3.0.tar.gz
+[2024-05-21 05:54:49] INFO root fetch - processPackages [pandorapsf]: Downloading https://files.pythonhosted.org/packages/d2/b0/dabd75beb3ba672b573f0636340d9eb2dcdff55ae201cecefb3b608be49c/pandorapsf-0.2.8.tar.gz
+[2024-05-21 05:54:49] INFO root fetch - processPackages [wah]: executing diffoscope
+[2024-05-21 05:54:49] INFO root fetch - processPackages [wah]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wah-0.1.8.tar.gz tmp/wah-0.1.9.tar.gz --markdown 20240521/w/wah/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-21 05:54:49] INFO root fetch - processPackages [accelbyte-py-sdk-service-cloudsave]: Downloading https://files.pythonhosted.org/packages/34/86/ad45a5d784f0034f299d1748cc4d056f4e5a3a7bb977cc3df522b93e3836/accelbyte-py-sdk-service-cloudsave-0.8.0.tar.gz
+[2024-05-21 05:54:49] INFO root fetch - processPackages [accelbyte-py-sdk-service-challenge]: Downloading https://files.pythonhosted.org/packages/19/f7/dd225c333185fa117e04a58d4440f4647ccee2b1814badd4df6a916e1794/accelbyte_py_sdk_service_challenge-0.4.0.tar.gz
+[2024-05-21 05:54:49] INFO root fetch - processPackages [accelbyte-py-sdk-service-chat]: Downloading https://files.pythonhosted.org/packages/cb/56/2d2ce0b89dbff2f330c0a0db1551ea2324deaf18f91e4191e21b05448774/accelbyte-py-sdk-service-chat-0.9.0.tar.gz
+[2024-05-21 05:54:49] INFO root fetch - processPackages [accelbyte-py-sdk-service-cloudsave]: Downloading https://files.pythonhosted.org/packages/d1/30/52f79024f82d49c7f5cfba4f52bb339c676f6c22650c3bc0d80872fde23c/accelbyte-py-sdk-service-cloudsave-0.9.0.tar.gz
+[2024-05-21 05:54:49] INFO root fetch - processPackages [accelbyte-py-sdk-service-challenge]: executing diffoscope
+[2024-05-21 05:54:49] INFO root fetch - processPackages [accelbyte-py-sdk-service-challenge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/accelbyte_py_sdk_service_challenge-0.3.0.tar.gz tmp/accelbyte_py_sdk_service_challenge-0.4.0.tar.gz --markdown 20240521/a/accelbyte-py-sdk-service-challenge/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-05-21 05:54:49] INFO root fetch - processPackages [pandorapsf]: Downloading https://files.pythonhosted.org/packages/46/58/81a67240c25981f8cb318c56051b271d240cb1b4ff34d940c636a81f854f/pandorapsf-0.2.9.tar.gz
+[2024-05-21 05:54:49] INFO root fetch - processPackages [accelbyte-py-sdk-service-chat]: executing diffoscope
+[2024-05-21 05:54:49] INFO root fetch - processPackages [accelbyte-py-sdk-service-chat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/accelbyte-py-sdk-service-chat-0.8.0.tar.gz tmp/accelbyte-py-sdk-service-chat-0.9.0.tar.gz --markdown 20240521/a/accelbyte-py-sdk-service-chat/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-21 05:54:50] INFO root fetch - processPackages [pandorapsf]: executing diffoscope
+[2024-05-21 05:54:50] INFO root fetch - processPackages [pandorapsf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandorapsf-0.2.8.tar.gz tmp/pandorapsf-0.2.9.tar.gz --markdown 20240521/p/pandorapsf/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-21 05:54:50] INFO root fetch - processPackages [accelbyte-py-sdk-service-cloudsave]: executing diffoscope
+[2024-05-21 05:54:50] INFO root fetch - processPackages [accelbyte-py-sdk-service-cloudsave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/accelbyte-py-sdk-service-cloudsave-0.8.0.tar.gz tmp/accelbyte-py-sdk-service-cloudsave-0.9.0.tar.gz --markdown 20240521/a/accelbyte-py-sdk-service-cloudsave/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-21 05:54:50] INFO root fetch - processPackages [wah]: Remove: archive file [/home/abi/fetcher/tmp/wah-0.1.8.tar.gz]
+[2024-05-21 05:54:50] INFO root fetch - processPackages [wah]: Remove: archive file [/home/abi/fetcher/tmp/wah-0.1.9.tar.gz]
+[2024-05-21 05:54:50] INFO root fetch - main [MainThread]: End processing [wah]: success
+[2024-05-21 05:54:50] INFO root fetch - processPackages [pandorapsf]: Remove: archive file [/home/abi/fetcher/tmp/pandorapsf-0.2.8.tar.gz]
+[2024-05-21 05:54:50] INFO root fetch - processPackages [pandorapsf]: Remove: archive file [/home/abi/fetcher/tmp/pandorapsf-0.2.9.tar.gz]
+[2024-05-21 05:54:50] INFO root fetch - main [MainThread]: End processing [pandorapsf]: success
+[2024-05-21 05:54:50] INFO root fetch - processPackages [accelbyte-py-sdk-service-challenge]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte_py_sdk_service_challenge-0.3.0.tar.gz]
+[2024-05-21 05:54:50] INFO root fetch - processPackages [accelbyte-py-sdk-service-challenge]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte_py_sdk_service_challenge-0.4.0.tar.gz]
+[2024-05-21 05:54:50] INFO root fetch - main [MainThread]: End processing [accelbyte-py-sdk-service-challenge]: success
+[2024-05-21 05:54:51] INFO root fetch - processPackages [accelbyte-py-sdk-service-chat]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte-py-sdk-service-chat-0.8.0.tar.gz]
+[2024-05-21 05:54:51] INFO root fetch - processPackages [accelbyte-py-sdk-service-chat]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte-py-sdk-service-chat-0.9.0.tar.gz]
+[2024-05-21 05:54:51] INFO root fetch - main [MainThread]: End processing [accelbyte-py-sdk-service-chat]: success
+[2024-05-21 05:54:51] INFO root fetch - processPackages [accelbyte-py-sdk-service-cloudsave]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte-py-sdk-service-cloudsave-0.8.0.tar.gz]
+[2024-05-21 05:54:51] INFO root fetch - processPackages [accelbyte-py-sdk-service-cloudsave]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte-py-sdk-service-cloudsave-0.9.0.tar.gz]
+[2024-05-21 05:54:51] INFO root fetch - main [MainThread]: End processing [accelbyte-py-sdk-service-cloudsave]: success
+[2024-05-21 05:54:51] INFO root fetch - main [MainThread]: Store serial: [23300680]
