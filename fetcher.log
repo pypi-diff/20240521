@@ -18662,3 +18662,62 @@
 [2024-05-21 11:36:10] INFO root fetch - processPackages [OpenFisca-France]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca_France-99.0.1-py3-none-any.whl.zip]
 [2024-05-21 11:36:10] INFO root fetch - main [MainThread]: End processing [OpenFisca-France]: success
 [2024-05-21 11:36:10] INFO root fetch - main [MainThread]: Store serial: [23303907]
+[2024-05-21 11:38:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23303907]
+[2024-05-21 11:38:19] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-21 11:38:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flask-auditor
+[2024-05-21 11:38:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: erlc-rbx
+[2024-05-21 11:38:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: substratools
+[2024-05-21 11:38:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wsppchem
+[2024-05-21 11:38:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: substra
+[2024-05-21 11:38:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: substrafl
+[2024-05-21 11:38:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: streamback
+[2024-05-21 11:38:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tiledb-vector-search
+[2024-05-21 11:38:19] INFO root fetch - processPackages [wsppchem]: New version: [0.9] Old Version: [0.8]
+[2024-05-21 11:38:19] INFO root fetch - processPackages [streamback]: New version: [0.2] Old Version: [0.1.25]
+[2024-05-21 11:38:19] INFO root fetch - processPackages [wsppchem]: Downloading https://files.pythonhosted.org/packages/8b/29/f6c9d6455a5c54d8212f82418cc47789cd548895200283dace734d6164fc/wsppchem-0.8.tar.gz
+[2024-05-21 11:38:19] INFO root fetch - processPackages [substratools]: New version: [0.7.0] Old Version: [0.6.1]
+[2024-05-21 11:38:19] WARNING root fetch - processPackages [flask-auditor]: Skipping, unable to determine old version
+[2024-05-21 11:38:19] WARNING root fetch - processPackages [erlc-rbx]: Skipping, unable to determine old version
+[2024-05-21 11:38:19] INFO root fetch - main [MainThread]: End processing [flask-auditor] error
+[2024-05-21 11:38:19] INFO root fetch - main [MainThread]: End processing [erlc-rbx] error
+[2024-05-21 11:38:19] INFO root fetch - processPackages [substrafl]: New version: [0.45.1rc1] Old Version: [0.45.0rc2]
+[2024-05-21 11:38:19] INFO root fetch - processPackages [substra]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-21 11:38:20] INFO root fetch - processPackages [tiledb-vector-search]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-05-21 11:38:20] INFO root fetch - processPackages [streamback]: Downloading https://files.pythonhosted.org/packages/62/81/87750c7ce3601b25f44391d93b3e2638194dc10010a86fa33fb8596428a0/streamback-0.1.25.tar.gz
+[2024-05-21 11:38:20] INFO root fetch - processPackages [substratools]: Downloading https://files.pythonhosted.org/packages/78/9e/f0070d531acd5d4e90a703639ee9c77c31315a8c75a9605ab3a802d0db42/substratools-0.6.1.tar.gz
+[2024-05-21 11:38:20] INFO root fetch - processPackages [substrafl]: Downloading https://files.pythonhosted.org/packages/07/bf/7ec783bdca2efda6c5f81946f46a0661125b2468833341f68dab463ebc6c/substrafl-0.45.0rc2.tar.gz
+[2024-05-21 11:38:20] INFO root fetch - processPackages [substra]: Downloading https://files.pythonhosted.org/packages/c1/2d/62d507b5e63bb0e3cd624dc4bb5883f9df9428cae7cd0cba68722367b89e/substra-0.8.0.tar.gz
+[2024-05-21 11:38:20] INFO root fetch - processPackages [wsppchem]: Downloading https://files.pythonhosted.org/packages/7c/43/3c8f7eba6aece78d252cb5264e2d70fd554127ea402274c0e467f21f1678/wsppchem-0.9.tar.gz
+[2024-05-21 11:38:20] INFO root fetch - processPackages [tiledb-vector-search]: Downloading https://files.pythonhosted.org/packages/65/e8/daa94dbe2d808ebad4026ff04863021f2cc214a968ddb2177139732568f8/tiledb_vector_search-0.4.0.tar.gz
+[2024-05-21 11:38:20] WARNING root fetch - processPackages [tiledb-vector-search]: Skipping package: exceeds size limit 17294802>=10485760
+[2024-05-21 11:38:20] INFO root fetch - main [MainThread]: End processing [tiledb-vector-search] error
+[2024-05-21 11:38:20] INFO root fetch - processPackages [streamback]: Downloading https://files.pythonhosted.org/packages/8c/09/9eaa3001287486440f86e9a259833e60c20903540c530d2bb05d17701044/streamback-0.2.tar.gz
+[2024-05-21 11:38:20] INFO root fetch - processPackages [wsppchem]: executing diffoscope
+[2024-05-21 11:38:20] INFO root fetch - processPackages [wsppchem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wsppchem-0.8.tar.gz tmp/wsppchem-0.9.tar.gz --markdown 20240521/w/wsppchem/0.8-0.9/README.md --exclude *.pyd
+[2024-05-21 11:38:20] INFO root fetch - processPackages [streamback]: executing diffoscope
+[2024-05-21 11:38:20] INFO root fetch - processPackages [streamback]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamback-0.1.25.tar.gz tmp/streamback-0.2.tar.gz --markdown 20240521/s/streamback/0.1.25-0.2/README.md --exclude *.pyd
+[2024-05-21 11:38:20] INFO root fetch - processPackages [substrafl]: Downloading https://files.pythonhosted.org/packages/b1/26/66df09fa4dcceefa5ee9639682b29b04f7352b35050e85c382f1ae8e01b0/substrafl-0.45.1rc1.tar.gz
+[2024-05-21 11:38:20] INFO root fetch - processPackages [substra]: Downloading https://files.pythonhosted.org/packages/77/94/7ac07b92e6d0a9e079501fd00e84ccda59ae39ff73ac88360496f72aef29/substra-0.9.0.tar.gz
+[2024-05-21 11:38:20] INFO root fetch - processPackages [substra]: executing diffoscope
+[2024-05-21 11:38:20] INFO root fetch - processPackages [substra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/substra-0.8.0.tar.gz tmp/substra-0.9.0.tar.gz --markdown 20240521/s/substra/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-21 11:38:21] INFO root fetch - processPackages [substrafl]: executing diffoscope
+[2024-05-21 11:38:21] INFO root fetch - processPackages [substrafl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/substrafl-0.45.0rc2.tar.gz tmp/substrafl-0.45.1rc1.tar.gz --markdown 20240521/s/substrafl/0.45.0rc2-0.45.1rc1/README.md --exclude *.pyd
+[2024-05-21 11:38:21] INFO root fetch - processPackages [substratools]: Downloading https://files.pythonhosted.org/packages/48/f1/3525bab5e109e45e4ff185bb9c07479d3e8d2561be6e8a96ed2bdf52511a/substratools-0.7.0.tar.gz
+[2024-05-21 11:38:21] INFO root fetch - processPackages [substratools]: executing diffoscope
+[2024-05-21 11:38:21] INFO root fetch - processPackages [substratools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/substratools-0.6.1.tar.gz tmp/substratools-0.7.0.tar.gz --markdown 20240521/s/substratools/0.6.1-0.7.0/README.md --exclude *.pyd
+[2024-05-21 11:38:21] INFO root fetch - processPackages [streamback]: Remove: archive file [/home/abi/fetcher/tmp/streamback-0.1.25.tar.gz]
+[2024-05-21 11:38:21] INFO root fetch - processPackages [streamback]: Remove: archive file [/home/abi/fetcher/tmp/streamback-0.2.tar.gz]
+[2024-05-21 11:38:21] INFO root fetch - main [MainThread]: End processing [streamback]: success
+[2024-05-21 11:38:21] INFO root fetch - processPackages [wsppchem]: Remove: archive file [/home/abi/fetcher/tmp/wsppchem-0.8.tar.gz]
+[2024-05-21 11:38:21] INFO root fetch - processPackages [wsppchem]: Remove: archive file [/home/abi/fetcher/tmp/wsppchem-0.9.tar.gz]
+[2024-05-21 11:38:21] INFO root fetch - main [MainThread]: End processing [wsppchem]: success
+[2024-05-21 11:38:22] INFO root fetch - processPackages [substra]: Remove: archive file [/home/abi/fetcher/tmp/substra-0.8.0.tar.gz]
+[2024-05-21 11:38:22] INFO root fetch - processPackages [substra]: Remove: archive file [/home/abi/fetcher/tmp/substra-0.9.0.tar.gz]
+[2024-05-21 11:38:22] INFO root fetch - main [MainThread]: End processing [substra]: success
+[2024-05-21 11:38:22] INFO root fetch - processPackages [substratools]: Remove: archive file [/home/abi/fetcher/tmp/substratools-0.6.1.tar.gz]
+[2024-05-21 11:38:22] INFO root fetch - processPackages [substratools]: Remove: archive file [/home/abi/fetcher/tmp/substratools-0.7.0.tar.gz]
+[2024-05-21 11:38:22] INFO root fetch - main [MainThread]: End processing [substratools]: success
+[2024-05-21 11:38:22] INFO root fetch - processPackages [substrafl]: Remove: archive file [/home/abi/fetcher/tmp/substrafl-0.45.0rc2.tar.gz]
+[2024-05-21 11:38:22] INFO root fetch - processPackages [substrafl]: Remove: archive file [/home/abi/fetcher/tmp/substrafl-0.45.1rc1.tar.gz]
+[2024-05-21 11:38:22] INFO root fetch - main [MainThread]: End processing [substrafl]: success
+[2024-05-21 11:38:22] INFO root fetch - main [MainThread]: Store serial: [23303948]
