@@ -11053,3 +11053,38 @@
 [2024-05-21 06:30:06] INFO root fetch - main [MainThread]: End processing [everai]: success
 [2024-05-21 06:30:06] INFO root fetch - main [MainThread]: End processing [everai]: success
 [2024-05-21 06:30:06] INFO root fetch - main [MainThread]: Store serial: [23301014]
+[2024-05-21 06:32:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23301014]
+[2024-05-21 06:32:15] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-21 06:32:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: acryl-sqlglot
+[2024-05-21 06:32:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-confluentcloud
+[2024-05-21 06:32:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ralium
+[2024-05-21 06:32:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-civo
+[2024-05-21 06:32:16] INFO root fetch - processPackages [ralium]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-21 06:32:16] INFO root fetch - processPackages [ralium]: Downloading https://files.pythonhosted.org/packages/85/8e/b787cc594099788e855d8bafd0bbd5b493101507a8c3d1195cc14f722150/ralium-1.0.0.tar.gz
+[2024-05-21 06:32:16] INFO root fetch - processPackages [acryl-sqlglot]: New version: [23.2.1.dev5] Old Version: [23.2.1.dev4]
+[2024-05-21 06:32:16] INFO root fetch - processPackages [pulumi-civo]: New version: [2.4.0a1716264836] Old Version: [2.4.0a1715923260]
+[2024-05-21 06:32:16] INFO root fetch - processPackages [pulumi-confluentcloud]: New version: [1.9.0a1675887560] Old Version: [1.9.0]
+[2024-05-21 06:32:16] INFO root fetch - processPackages [acryl-sqlglot]: Downloading https://files.pythonhosted.org/packages/d6/c2/55d664dc24868b9aaeca363af74d323eff3a7c23c5aa4303f6ca598ca9f9/acryl-sqlglot-23.2.1.dev4.tar.gz
+[2024-05-21 06:32:16] INFO root fetch - processPackages [pulumi-civo]: Downloading https://files.pythonhosted.org/packages/5d/73/a023d3dc07a566bcacebecf5b2c1cb80677cd6226d20186568ee18e7d72a/pulumi_civo-2.4.0a1715923260.tar.gz
+[2024-05-21 06:32:16] INFO root fetch - processPackages [ralium]: Downloading https://files.pythonhosted.org/packages/fa/17/0241b0c012272caa9cfcabc203223a37ad8ab34c0d6403e545f9397f021d/ralium-1.0.1.tar.gz
+[2024-05-21 06:32:16] WARNING root fetch - processPackages [acryl-sqlglot]: Skipping package: exceeds size limit 12888272>=10485760
+[2024-05-21 06:32:16] INFO root fetch - main [MainThread]: End processing [acryl-sqlglot] error
+[2024-05-21 06:32:16] INFO root fetch - processPackages [pulumi-confluentcloud]: Downloading https://files.pythonhosted.org/packages/ee/5c/83ab7b1cf2467d8b22165c469862d15e131885dbf277da0d1bb686af03fe/pulumi_confluentcloud-1.9.0.tar.gz
+[2024-05-21 06:32:16] INFO root fetch - processPackages [ralium]: executing diffoscope
+[2024-05-21 06:32:16] INFO root fetch - processPackages [ralium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ralium-1.0.0.tar.gz tmp/ralium-1.0.1.tar.gz --markdown 20240521/r/ralium/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-21 06:32:16] INFO root fetch - processPackages [pulumi-civo]: Downloading https://files.pythonhosted.org/packages/ee/a6/2370ddc84755f392f25efb1428d3ee9a4e9cc4263e0b147153f3a4ec101c/pulumi_civo-2.4.0a1716264836.tar.gz
+[2024-05-21 06:32:17] INFO root fetch - processPackages [pulumi-confluentcloud]: Downloading https://files.pythonhosted.org/packages/ec/f6/4c3900e97797a3f84c4c58458a6334035e702bd96d9ed3ec48d8e6e20f4e/pulumi_confluentcloud-1.9.0a1675887560.tar.gz
+[2024-05-21 06:32:17] INFO root fetch - processPackages [pulumi-civo]: executing diffoscope
+[2024-05-21 06:32:17] INFO root fetch - processPackages [pulumi-civo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_civo-2.4.0a1715923260.tar.gz tmp/pulumi_civo-2.4.0a1716264836.tar.gz --markdown 20240521/p/pulumi-civo/2.4.0a1715923260-2.4.0a1716264836/README.md --exclude *.pyd
+[2024-05-21 06:32:17] INFO root fetch - processPackages [pulumi-confluentcloud]: executing diffoscope
+[2024-05-21 06:32:17] INFO root fetch - processPackages [pulumi-confluentcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_confluentcloud-1.9.0.tar.gz tmp/pulumi_confluentcloud-1.9.0a1675887560.tar.gz --markdown 20240521/p/pulumi-confluentcloud/1.9.0-1.9.0a1675887560/README.md --exclude *.pyd
+[2024-05-21 06:32:17] INFO root fetch - processPackages [ralium]: Remove: archive file [/home/abi/fetcher/tmp/ralium-1.0.0.tar.gz]
+[2024-05-21 06:32:17] INFO root fetch - processPackages [ralium]: Remove: archive file [/home/abi/fetcher/tmp/ralium-1.0.1.tar.gz]
+[2024-05-21 06:32:17] INFO root fetch - main [MainThread]: End processing [ralium]: success
+[2024-05-21 06:32:17] INFO root fetch - processPackages [pulumi-civo]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_civo-2.4.0a1715923260.tar.gz]
+[2024-05-21 06:32:17] INFO root fetch - processPackages [pulumi-civo]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_civo-2.4.0a1716264836.tar.gz]
+[2024-05-21 06:32:17] INFO root fetch - main [MainThread]: End processing [pulumi-civo]: success
+[2024-05-21 06:32:17] INFO root fetch - processPackages [pulumi-confluentcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_confluentcloud-1.9.0.tar.gz]
+[2024-05-21 06:32:17] INFO root fetch - processPackages [pulumi-confluentcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_confluentcloud-1.9.0a1675887560.tar.gz]
+[2024-05-21 06:32:17] INFO root fetch - main [MainThread]: End processing [pulumi-confluentcloud]: success
+[2024-05-21 06:32:17] INFO root fetch - main [MainThread]: Store serial: [23301026]
