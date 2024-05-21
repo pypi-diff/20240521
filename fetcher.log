@@ -9358,3 +9358,42 @@
 [2024-05-21 05:27:57] INFO root fetch - processPackages [cakephpsphinx]: Remove: archive file [/home/abi/fetcher/tmp/cakephpsphinx-0.1.9.tar.gz]
 [2024-05-21 05:27:57] INFO root fetch - main [MainThread]: End processing [cakephpsphinx]: success
 [2024-05-21 05:27:57] INFO root fetch - main [MainThread]: Store serial: [23300482]
+[2024-05-21 05:30:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23300482]
+[2024-05-21 05:30:09] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-21 05:30:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: abcli
+[2024-05-21 05:30:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-test-component
+[2024-05-21 05:30:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-test-component
+[2024-05-21 05:30:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-test-connector
+[2024-05-21 05:30:10] INFO root fetch - processPackages [abcli]: New version: [8.202.1] Old Version: [8.200.1]
+[2024-05-21 05:30:10] INFO root fetch - processPackages [abcli]: Downloading https://files.pythonhosted.org/packages/67/0c/e439869f85eaa5afac16668e4d1eceed669730ca0d74b1b7950c12c3b56d/abcli-8.200.1.tar.gz
+[2024-05-21 05:30:10] INFO root fetch - processPackages [odoo14-addon-test-component]: New version: [14.0.1.0.1.dev8] Old Version: [14.0.1.0.1.dev7]
+[2024-05-21 05:30:10] INFO root fetch - processPackages [odoo-addon-test-component]: New version: [17.0.1.0.0.3] Old Version: [17.0.1.0.0.2]
+[2024-05-21 05:30:10] INFO root fetch - processPackages [odoo-addon-test-connector]: New version: [17.0.1.0.0.5] Old Version: [17.0.1.0.0.4]
+[2024-05-21 05:30:10] INFO root fetch - processPackages [odoo14-addon-test-component]: Downloading https://files.pythonhosted.org/packages/82/a9/869d61a417e7bb0c8731355878cb3cdd749b2e77dc7425512af0ffc2b0f3/odoo14_addon_test_component-14.0.1.0.1.dev7-py3-none-any.whl
+[2024-05-21 05:30:10] INFO root fetch - processPackages [odoo-addon-test-connector]: Downloading https://files.pythonhosted.org/packages/4e/ae/b1c6a653aa46dea01ea07ce06b833af0ca37743978681506163b9d83b263/odoo_addon_test_connector-17.0.1.0.0.4-py3-none-any.whl
+[2024-05-21 05:30:10] INFO root fetch - processPackages [abcli]: Downloading https://files.pythonhosted.org/packages/33/85/765c8e2147a7f08ac70034fb8eb6553797adeb1de1ff226e24e11295f5ef/abcli-8.202.1.tar.gz
+[2024-05-21 05:30:10] INFO root fetch - processPackages [abcli]: executing diffoscope
+[2024-05-21 05:30:10] INFO root fetch - processPackages [abcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abcli-8.200.1.tar.gz tmp/abcli-8.202.1.tar.gz --markdown 20240521/a/abcli/8.200.1-8.202.1/README.md --exclude *.pyd
+[2024-05-21 05:30:10] INFO root fetch - processPackages [odoo-addon-test-component]: Downloading https://files.pythonhosted.org/packages/3b/ca/e9741f59327711aeee352c6311431fd568db024b1fb6bcc74f522e1549ad/odoo_addon_test_component-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-21 05:30:10] INFO root fetch - processPackages [odoo14-addon-test-component]: Downloading https://files.pythonhosted.org/packages/37/e7/a963f2f580306a4ea3ed225dc061a4d8eac361a148a4d0c6ba506d840013/odoo14_addon_test_component-14.0.1.0.1.dev8-py3-none-any.whl
+[2024-05-21 05:30:10] INFO root fetch - processPackages [odoo-addon-test-connector]: Downloading https://files.pythonhosted.org/packages/07/51/1694c853a36f3f7227075803cb0e51b5d7f8fcfea240b009df3bf905be33/odoo_addon_test_connector-17.0.1.0.0.5-py3-none-any.whl
+[2024-05-21 05:30:10] INFO root fetch - processPackages [odoo14-addon-test-component]: executing diffoscope
+[2024-05-21 05:30:10] INFO root fetch - processPackages [odoo14-addon-test-component]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_test_component-14.0.1.0.1.dev7-py3-none-any.whl.zip tmp/odoo14_addon_test_component-14.0.1.0.1.dev8-py3-none-any.whl.zip --markdown 20240521/o/odoo14-addon-test-component/14.0.1.0.1.dev7-14.0.1.0.1.dev8/README.md --exclude *.pyd
+[2024-05-21 05:30:10] INFO root fetch - processPackages [odoo-addon-test-component]: Downloading https://files.pythonhosted.org/packages/05/eb/96e43aad9bb497691114c98c12c52d1384c08da0116f8dc95ce7b255dfe9/odoo_addon_test_component-17.0.1.0.0.3-py3-none-any.whl
+[2024-05-21 05:30:11] INFO root fetch - processPackages [odoo-addon-test-connector]: executing diffoscope
+[2024-05-21 05:30:11] INFO root fetch - processPackages [odoo-addon-test-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_test_connector-17.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_test_connector-17.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240521/o/odoo-addon-test-connector/17.0.1.0.0.4-17.0.1.0.0.5/README.md --exclude *.pyd
+[2024-05-21 05:30:11] INFO root fetch - processPackages [odoo-addon-test-component]: executing diffoscope
+[2024-05-21 05:30:11] INFO root fetch - processPackages [odoo-addon-test-component]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_test_component-17.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_test_component-17.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240521/o/odoo-addon-test-component/17.0.1.0.0.2-17.0.1.0.0.3/README.md --exclude *.pyd
+[2024-05-21 05:30:11] INFO root fetch - processPackages [abcli]: Remove: archive file [/home/abi/fetcher/tmp/abcli-8.200.1.tar.gz]
+[2024-05-21 05:30:11] INFO root fetch - processPackages [abcli]: Remove: archive file [/home/abi/fetcher/tmp/abcli-8.202.1.tar.gz]
+[2024-05-21 05:30:11] INFO root fetch - main [MainThread]: End processing [abcli]: success
+[2024-05-21 05:30:11] INFO root fetch - processPackages [odoo14-addon-test-component]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_test_component-14.0.1.0.1.dev7-py3-none-any.whl.zip]
+[2024-05-21 05:30:11] INFO root fetch - processPackages [odoo14-addon-test-component]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_test_component-14.0.1.0.1.dev8-py3-none-any.whl.zip]
+[2024-05-21 05:30:11] INFO root fetch - main [MainThread]: End processing [odoo14-addon-test-component]: success
+[2024-05-21 05:30:11] INFO root fetch - processPackages [odoo-addon-test-connector]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_test_connector-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-21 05:30:11] INFO root fetch - processPackages [odoo-addon-test-connector]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_test_connector-17.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-05-21 05:30:11] INFO root fetch - main [MainThread]: End processing [odoo-addon-test-connector]: success
+[2024-05-21 05:30:11] INFO root fetch - processPackages [odoo-addon-test-component]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_test_component-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-21 05:30:11] INFO root fetch - processPackages [odoo-addon-test-component]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_test_component-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-21 05:30:11] INFO root fetch - main [MainThread]: End processing [odoo-addon-test-component]: success
+[2024-05-21 05:30:11] INFO root fetch - main [MainThread]: Store serial: [23300490]
