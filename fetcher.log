@@ -17184,3 +17184,84 @@
 [2024-05-21 10:49:43] INFO root fetch - processPackages [bokeh]: Remove: archive file [/home/abi/fetcher/tmp/bokeh-3.5.0.dev4.tar.gz]
 [2024-05-21 10:49:43] INFO root fetch - main [MainThread]: End processing [bokeh]: success
 [2024-05-21 10:49:43] INFO root fetch - main [MainThread]: Store serial: [23303364]
+[2024-05-21 10:51:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23303364]
+[2024-05-21 10:51:52] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-21 10:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mteb
+[2024-05-21 10:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tf-nightly-cpu
+[2024-05-21 10:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyworxcloud
+[2024-05-21 10:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: holonote
+[2024-05-21 10:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: agi-med-utils
+[2024-05-21 10:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: agi-med-metrics
+[2024-05-21 10:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: MPSPEnv
+[2024-05-21 10:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: example-roxy
+[2024-05-21 10:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: charted
+[2024-05-21 10:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: django-superapp
+[2024-05-21 10:51:52] INFO root fetch - processPackages [agi-med-utils]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-21 10:51:52] INFO root fetch - processPackages [MPSPEnv]: New version: [0.1.0] Old Version: [0.0.9]
+[2024-05-21 10:51:52] INFO root fetch - processPackages [agi-med-metrics]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-21 10:51:52] INFO root fetch - processPackages [mteb]: New version: [1.9.3] Old Version: [1.9.2]
+[2024-05-21 10:51:52] INFO root fetch - processPackages [agi-med-utils]: Downloading https://files.pythonhosted.org/packages/8b/51/ac73089aea944e2243b1d6145ab29366bb244eba023e865372e30ada0dfd/agi_med_utils-0.0.2.tar.gz
+[2024-05-21 10:51:52] INFO root fetch - processPackages [holonote]: New version: [0.1.1a2] Old Version: [0.1.1a1]
+[2024-05-21 10:51:52] WARNING root fetch - processPackages [charted]: Skipping, unable to determine old version
+[2024-05-21 10:51:52] INFO root fetch - main [MainThread]: End processing [charted] error
+[2024-05-21 10:51:52] WARNING root fetch - processPackages [example-roxy]: Skipping, unable to determine old version
+[2024-05-21 10:51:52] INFO root fetch - main [MainThread]: End processing [example-roxy] error
+[2024-05-21 10:51:52] INFO root fetch - processPackages [django-superapp]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-05-21 10:51:52] INFO root fetch - processPackages [agi-med-metrics]: Downloading https://files.pythonhosted.org/packages/0e/e9/7353f60ce4457ec486c8a2a8bf17b7f5b3969e3f9c1ef701360eb0f6dc82/agi_med_metrics-0.0.2.tar.gz
+[2024-05-21 10:51:52] INFO root fetch - processPackages [pyworxcloud]: New version: [4.1.9] Old Version: [4.1.8]
+[2024-05-21 10:51:53] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.17.0.dev20240521] Old Version: [2.17.0.dev20240520]
+[2024-05-21 10:51:53] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/aa/99/be58df74a89833b5d44fbd8f00e5c99b4ca82aa67a9c1487fd782328d3b5/mteb-1.9.2.tar.gz
+[2024-05-21 10:51:53] INFO root fetch - processPackages [MPSPEnv]: Downloading https://files.pythonhosted.org/packages/49/f7/3d0031c911e5d69c9e8536e156ebae2cf1453167270f34f5b3ba240b8672/MPSPEnv-0.0.9.tar.gz
+[2024-05-21 10:51:53] INFO root fetch - processPackages [holonote]: Downloading https://files.pythonhosted.org/packages/70/98/fa13943ca7adbe4f58c895c80660522488cdc588db95c8fd152732fd58b6/holonote-0.1.1a1.tar.gz
+[2024-05-21 10:51:53] INFO root fetch - processPackages [agi-med-utils]: Downloading https://files.pythonhosted.org/packages/7b/a1/bd98810f754c52b14dc6884bea3a67269387cc21d61fd1c811af924b376c/agi_med_utils-0.0.3.tar.gz
+[2024-05-21 10:51:53] INFO root fetch - processPackages [pyworxcloud]: Downloading https://files.pythonhosted.org/packages/a4/c0/0059322e7b2c1ad481301b528d5d2aeff7bd4818b7d90510f1402d6e1c68/pyworxcloud-4.1.8.tar.gz
+[2024-05-21 10:51:53] INFO root fetch - processPackages [django-superapp]: Downloading https://files.pythonhosted.org/packages/91/fe/21e87b69e48ddef8cef85e1fdbd50df92c3bdd0af5e9d40801c8c9202cf5/django_superapp-1.0.5.tar.gz
+[2024-05-21 10:51:53] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/16/8b/0df183a20d411768f38ec1c34b6b6fc09403811fd9669af4c47010c3ca58/tf_nightly_cpu-2.17.0.dev20240520-cp39-cp39-win_amd64.whl
+[2024-05-21 10:51:53] INFO root fetch - processPackages [agi-med-metrics]: Downloading https://files.pythonhosted.org/packages/f3/f4/15e98216479c6f84f8db80eb6c22947f7c23679ddf32e7e2f875e4293db7/agi_med_metrics-0.0.3.tar.gz
+[2024-05-21 10:51:53] INFO root fetch - processPackages [agi-med-utils]: executing diffoscope
+[2024-05-21 10:51:53] INFO root fetch - processPackages [agi-med-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agi_med_utils-0.0.2.tar.gz tmp/agi_med_utils-0.0.3.tar.gz --markdown 20240521/a/agi-med-utils/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-21 10:51:53] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/1a/05/483a4778dcfb42b672c3c28ac435e64d386b1df507d3c0059e5da9194653/mteb-1.9.3.tar.gz
+[2024-05-21 10:51:53] INFO root fetch - processPackages [MPSPEnv]: Downloading https://files.pythonhosted.org/packages/73/83/fd687e0c4339f90ccc4bd5e85a788c532ad4b3b4a73736d9accbe4e41882/mpspenv-0.1.0.tar.gz
+[2024-05-21 10:51:53] INFO root fetch - processPackages [agi-med-metrics]: executing diffoscope
+[2024-05-21 10:51:53] INFO root fetch - processPackages [agi-med-metrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agi_med_metrics-0.0.2.tar.gz tmp/agi_med_metrics-0.0.3.tar.gz --markdown 20240521/a/agi-med-metrics/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-21 10:51:53] INFO root fetch - processPackages [django-superapp]: Downloading https://files.pythonhosted.org/packages/4f/61/290169e0c5e63b98a3d13413468d3059b1fbf815c8c661a75656e95c48fe/django_superapp-1.0.6.tar.gz
+[2024-05-21 10:51:53] INFO root fetch - processPackages [MPSPEnv]: executing diffoscope
+[2024-05-21 10:51:53] INFO root fetch - processPackages [MPSPEnv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MPSPEnv-0.0.9.tar.gz tmp/mpspenv-0.1.0.tar.gz --markdown 20240521/M/MPSPEnv/0.0.9-0.1.0/README.md --exclude *.pyd
+[2024-05-21 10:51:53] INFO root fetch - processPackages [mteb]: executing diffoscope
+[2024-05-21 10:51:53] INFO root fetch - processPackages [mteb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mteb-1.9.2.tar.gz tmp/mteb-1.9.3.tar.gz --markdown 20240521/m/mteb/1.9.2-1.9.3/README.md --exclude *.pyd
+[2024-05-21 10:51:53] INFO root fetch - processPackages [holonote]: Downloading https://files.pythonhosted.org/packages/d6/b4/f8eb853f150a074bc85b41599677f6dbd83840b0a11a2807bb362d0d249d/holonote-0.1.1a2.tar.gz
+[2024-05-21 10:51:53] INFO root fetch - processPackages [pyworxcloud]: Downloading https://files.pythonhosted.org/packages/12/4d/2b2447a08954ec87133970966f929613b5b41156b26ecefdd26695183e9a/pyworxcloud-4.1.9.tar.gz
+[2024-05-21 10:51:53] INFO root fetch - processPackages [django-superapp]: executing diffoscope
+[2024-05-21 10:51:53] INFO root fetch - processPackages [django-superapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_superapp-1.0.5.tar.gz tmp/django_superapp-1.0.6.tar.gz --markdown 20240521/d/django-superapp/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-05-21 10:51:53] INFO root fetch - processPackages [holonote]: executing diffoscope
+[2024-05-21 10:51:53] INFO root fetch - processPackages [holonote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/holonote-0.1.1a1.tar.gz tmp/holonote-0.1.1a2.tar.gz --markdown 20240521/h/holonote/0.1.1a1-0.1.1a2/README.md --exclude *.pyd
+[2024-05-21 10:51:53] INFO root fetch - processPackages [pyworxcloud]: executing diffoscope
+[2024-05-21 10:51:53] INFO root fetch - processPackages [pyworxcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyworxcloud-4.1.8.tar.gz tmp/pyworxcloud-4.1.9.tar.gz --markdown 20240521/p/pyworxcloud/4.1.8-4.1.9/README.md --exclude *.pyd
+[2024-05-21 10:51:53] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/71/7c/e22acb4a360b5c817c48d9ddb5396e6b9b2161e1336ea1e710a8c01726c7/tf_nightly_cpu-2.17.0.dev20240521-cp39-cp39-win_amd64.whl
+[2024-05-21 10:51:54] INFO root fetch - processPackages [agi-med-utils]: Remove: archive file [/home/abi/fetcher/tmp/agi_med_utils-0.0.2.tar.gz]
+[2024-05-21 10:51:54] INFO root fetch - processPackages [agi-med-utils]: Remove: archive file [/home/abi/fetcher/tmp/agi_med_utils-0.0.3.tar.gz]
+[2024-05-21 10:51:54] INFO root fetch - main [MainThread]: End processing [agi-med-utils]: success
+[2024-05-21 10:51:54] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2024-05-21 10:51:54] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.17.0.dev20240520-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.17.0.dev20240521-cp39-cp39-win_amd64.whl.zip --markdown 20240521/t/tf-nightly-cpu/2.17.0.dev20240520-2.17.0.dev20240521/README.md --exclude *.pyd
+[2024-05-21 10:51:54] INFO root fetch - processPackages [agi-med-metrics]: Remove: archive file [/home/abi/fetcher/tmp/agi_med_metrics-0.0.2.tar.gz]
+[2024-05-21 10:51:54] INFO root fetch - processPackages [agi-med-metrics]: Remove: archive file [/home/abi/fetcher/tmp/agi_med_metrics-0.0.3.tar.gz]
+[2024-05-21 10:51:54] INFO root fetch - main [MainThread]: End processing [agi-med-metrics]: success
+[2024-05-21 10:51:54] INFO root fetch - processPackages [MPSPEnv]: Remove: archive file [/home/abi/fetcher/tmp/MPSPEnv-0.0.9.tar.gz]
+[2024-05-21 10:51:54] INFO root fetch - processPackages [MPSPEnv]: Remove: archive file [/home/abi/fetcher/tmp/mpspenv-0.1.0.tar.gz]
+[2024-05-21 10:51:54] INFO root fetch - main [MainThread]: End processing [MPSPEnv]: success
+[2024-05-21 10:51:54] INFO root fetch - processPackages [django-superapp]: Remove: archive file [/home/abi/fetcher/tmp/django_superapp-1.0.5.tar.gz]
+[2024-05-21 10:51:54] INFO root fetch - processPackages [django-superapp]: Remove: archive file [/home/abi/fetcher/tmp/django_superapp-1.0.6.tar.gz]
+[2024-05-21 10:51:54] INFO root fetch - main [MainThread]: End processing [django-superapp]: success
+[2024-05-21 10:51:54] INFO root fetch - processPackages [pyworxcloud]: Remove: archive file [/home/abi/fetcher/tmp/pyworxcloud-4.1.8.tar.gz]
+[2024-05-21 10:51:54] INFO root fetch - processPackages [pyworxcloud]: Remove: archive file [/home/abi/fetcher/tmp/pyworxcloud-4.1.9.tar.gz]
+[2024-05-21 10:51:54] INFO root fetch - main [MainThread]: End processing [pyworxcloud]: success
+[2024-05-21 10:51:54] INFO root fetch - processPackages [holonote]: Remove: archive file [/home/abi/fetcher/tmp/holonote-0.1.1a1.tar.gz]
+[2024-05-21 10:51:54] INFO root fetch - processPackages [holonote]: Remove: archive file [/home/abi/fetcher/tmp/holonote-0.1.1a2.tar.gz]
+[2024-05-21 10:51:54] INFO root fetch - main [MainThread]: End processing [holonote]: success
+[2024-05-21 10:51:54] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.17.0.dev20240520-cp39-cp39-win_amd64.whl.zip]
+[2024-05-21 10:51:54] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.17.0.dev20240521-cp39-cp39-win_amd64.whl.zip]
+[2024-05-21 10:51:54] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2024-05-21 10:51:56] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.9.2.tar.gz]
+[2024-05-21 10:51:56] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.9.3.tar.gz]
+[2024-05-21 10:51:56] INFO root fetch - main [MainThread]: End processing [mteb]: success
+[2024-05-21 10:51:56] INFO root fetch - main [MainThread]: Store serial: [23303401]
