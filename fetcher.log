@@ -3514,3 +3514,24 @@
 [2024-05-21 03:00:31] INFO root fetch - processPackages [blue-plugin]: Remove: archive file [/home/abi/fetcher/tmp/blue_plugin-2.187.1.tar.gz]
 [2024-05-21 03:00:31] INFO root fetch - main [MainThread]: End processing [blue-plugin]: success
 [2024-05-21 03:00:31] INFO root fetch - main [MainThread]: Store serial: [23298186]
+[2024-05-21 03:02:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23298186]
+[2024-05-21 03:02:40] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-21 03:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: blue-plugin
+[2024-05-21 03:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wawona
+[2024-05-21 03:02:40] INFO root fetch - processPackages [blue-plugin]: New version: [2.190.1] Old Version: [2.187.1]
+[2024-05-21 03:02:40] INFO root fetch - processPackages [wawona]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-05-21 03:02:40] INFO root fetch - processPackages [blue-plugin]: Downloading https://files.pythonhosted.org/packages/f6/99/610352e49155cc7acc87f23fd124f4757e13cc4da9952713e260feb407a5/blue_plugin-2.187.1.tar.gz
+[2024-05-21 03:02:40] INFO root fetch - processPackages [wawona]: Downloading https://files.pythonhosted.org/packages/67/c1/c83aeea4984217f2dd1918065043ff53f4354bb6e7dfbab17c1321b04de6/wawona-1.2.0.tar.gz
+[2024-05-21 03:02:40] INFO root fetch - processPackages [blue-plugin]: Downloading https://files.pythonhosted.org/packages/d4/93/6f60d989b7a247b744fa0ed4ce8fe93d2eb3267aeb0c9c25671a1a779ef1/blue_plugin-2.190.1.tar.gz
+[2024-05-21 03:02:40] INFO root fetch - processPackages [wawona]: Downloading https://files.pythonhosted.org/packages/59/68/1b114c1b48641cb356b4fb3c0f3c99e414c8cffec07ccd935a1ad72c27f9/wawona-1.2.1.tar.gz
+[2024-05-21 03:02:40] INFO root fetch - processPackages [blue-plugin]: executing diffoscope
+[2024-05-21 03:02:40] INFO root fetch - processPackages [blue-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blue_plugin-2.187.1.tar.gz tmp/blue_plugin-2.190.1.tar.gz --markdown 20240521/b/blue-plugin/2.187.1-2.190.1/README.md --exclude *.pyd
+[2024-05-21 03:02:40] INFO root fetch - processPackages [wawona]: executing diffoscope
+[2024-05-21 03:02:40] INFO root fetch - processPackages [wawona]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wawona-1.2.0.tar.gz tmp/wawona-1.2.1.tar.gz --markdown 20240521/w/wawona/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-05-21 03:02:41] INFO root fetch - processPackages [wawona]: Remove: archive file [/home/abi/fetcher/tmp/wawona-1.2.0.tar.gz]
+[2024-05-21 03:02:41] INFO root fetch - processPackages [wawona]: Remove: archive file [/home/abi/fetcher/tmp/wawona-1.2.1.tar.gz]
+[2024-05-21 03:02:41] INFO root fetch - main [MainThread]: End processing [wawona]: success
+[2024-05-21 03:02:41] INFO root fetch - processPackages [blue-plugin]: Remove: archive file [/home/abi/fetcher/tmp/blue_plugin-2.187.1.tar.gz]
+[2024-05-21 03:02:41] INFO root fetch - processPackages [blue-plugin]: Remove: archive file [/home/abi/fetcher/tmp/blue_plugin-2.190.1.tar.gz]
+[2024-05-21 03:02:41] INFO root fetch - main [MainThread]: End processing [blue-plugin]: success
+[2024-05-21 03:02:41] INFO root fetch - main [MainThread]: Store serial: [23298192]
