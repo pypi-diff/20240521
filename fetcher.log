@@ -21212,3 +21212,78 @@
 [2024-05-21 13:01:02] INFO root fetch - processPackages [itkwasm]: Remove: archive file [/home/abi/fetcher/tmp/itkwasm-1.0b97.tar.gz]
 [2024-05-21 13:01:02] INFO root fetch - main [MainThread]: End processing [itkwasm]: success
 [2024-05-21 13:01:02] INFO root fetch - main [MainThread]: Store serial: [23305120]
+[2024-05-21 13:03:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23305120]
+[2024-05-21 13:03:11] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-21 13:03:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dzidb
+[2024-05-21 13:03:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-hr-timesheet-report
+[2024-05-21 13:03:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: BarteSDK
+[2024-05-21 13:03:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dwd-global-radiation
+[2024-05-21 13:03:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-l10n-es-aeat-sii-oca
+[2024-05-21 13:03:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gdtransform
+[2024-05-21 13:03:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kerykeion
+[2024-05-21 13:03:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dja-sepp
+[2024-05-21 13:03:11] INFO root fetch - processPackages [BarteSDK]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-21 13:03:11] INFO root fetch - processPackages [dzidb]: New version: [1.1] Old Version: [1.0.8]
+[2024-05-21 13:03:11] INFO root fetch - processPackages [gdtransform]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-21 13:03:11] INFO root fetch - processPackages [BarteSDK]: Downloading https://files.pythonhosted.org/packages/1c/24/f265a111f10a855a327643e87273d1f3ba56190ad02e0175f3b5b6319e4c/bartesdk-0.1.8.tar.gz
+[2024-05-21 13:03:11] INFO root fetch - processPackages [dzidb]: Downloading https://files.pythonhosted.org/packages/72/bb/a08dd5b03f4b8aa27664a27111b99d794a04b6ea05812a34c7a800bb10a3/dzidb-1.0.8.tar.gz
+[2024-05-21 13:03:11] INFO root fetch - processPackages [dwd-global-radiation]: New version: [1.0.0rc5] Old Version: [1.0.0rc4]
+[2024-05-21 13:03:11] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-report]: New version: [14.0.1.0.1.dev9] Old Version: [14.0.1.0.1.dev8]
+[2024-05-21 13:03:11] INFO root fetch - processPackages [odoo14-addon-l10n-es-aeat-sii-oca]: New version: [14.0.2.9.1.dev3] Old Version: [14.0.2.9.1.dev2]
+[2024-05-21 13:03:11] INFO root fetch - processPackages [kerykeion]: New version: [4.6.2] Old Version: [4.6.1]
+[2024-05-21 13:03:11] INFO root fetch - processPackages [dja-sepp]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-21 13:03:11] INFO root fetch - processPackages [gdtransform]: Downloading https://files.pythonhosted.org/packages/10/d6/cdd67bba6a4adda2aa4249f7dff4cfe0660d1b45f4e7ccd11d3d6dc83729/gdtransform-0.0.6.tar.gz
+[2024-05-21 13:03:11] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-report]: Downloading https://files.pythonhosted.org/packages/fe/fd/c48d0500511c18622fa213b5ff0d21ac741903be30c982250f7e9422a65d/odoo14_addon_hr_timesheet_report-14.0.1.0.1.dev8-py3-none-any.whl
+[2024-05-21 13:03:11] INFO root fetch - processPackages [BarteSDK]: Downloading https://files.pythonhosted.org/packages/15/ee/a85c9e9d9f84f12e1c3ab4801827286e3ad5588e1683d13c5130caaa29f2/bartesdk-0.1.9.tar.gz
+[2024-05-21 13:03:11] INFO root fetch - processPackages [odoo14-addon-l10n-es-aeat-sii-oca]: Downloading https://files.pythonhosted.org/packages/cb/51/e2e7eae4b59e20bd53d2371b50f9b0536b5eef62c8f6c0f7d34c36945647/odoo14_addon_l10n_es_aeat_sii_oca-14.0.2.9.1.dev2-py3-none-any.whl
+[2024-05-21 13:03:11] INFO root fetch - processPackages [dwd-global-radiation]: Downloading https://files.pythonhosted.org/packages/91/7c/e44fc79fc4a1e6b681922376aae23bd00e3ca94b3e511844a765a3acf8d3/dwd_global_radiation-1.0.0rc4.tar.gz
+[2024-05-21 13:03:11] INFO root fetch - processPackages [dzidb]: Downloading https://files.pythonhosted.org/packages/ab/7b/1eb783cec2be6c8f5f50400132b6afae58c752421a84c34ef92cb658707b/dzidb-1.1.tar.gz
+[2024-05-21 13:03:11] INFO root fetch - processPackages [dja-sepp]: Downloading https://files.pythonhosted.org/packages/15/89/041ca7cedcb342eb0de9169874162352cc47198936ea7f38a2c2841c023d/dja_sepp-0.1.8.tar.gz
+[2024-05-21 13:03:11] INFO root fetch - processPackages [kerykeion]: Downloading https://files.pythonhosted.org/packages/67/e4/f16833c2dcea5e15d18f839825002f3a35af72ae0146f0d97e19374f6a16/kerykeion-4.6.1.tar.gz
+[2024-05-21 13:03:11] INFO root fetch - processPackages [BarteSDK]: executing diffoscope
+[2024-05-21 13:03:11] INFO root fetch - processPackages [BarteSDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bartesdk-0.1.8.tar.gz tmp/bartesdk-0.1.9.tar.gz --markdown 20240521/B/BarteSDK/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-21 13:03:11] INFO root fetch - processPackages [dzidb]: executing diffoscope
+[2024-05-21 13:03:11] INFO root fetch - processPackages [dzidb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dzidb-1.0.8.tar.gz tmp/dzidb-1.1.tar.gz --markdown 20240521/d/dzidb/1.0.8-1.1/README.md --exclude *.pyd
+[2024-05-21 13:03:12] INFO root fetch - processPackages [gdtransform]: Downloading https://files.pythonhosted.org/packages/d3/89/81a694f5d53abfbd54f583911b87142fa440c16bf7624f5126c00c3c7340/gdtransform-0.0.7.tar.gz
+[2024-05-21 13:03:12] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-report]: Downloading https://files.pythonhosted.org/packages/88/55/fe6086e72c64361b031a5853e4d0461c68f0ce5d326b07bbac5c484fed81/odoo14_addon_hr_timesheet_report-14.0.1.0.1.dev9-py3-none-any.whl
+[2024-05-21 13:03:12] INFO root fetch - processPackages [dwd-global-radiation]: Downloading https://files.pythonhosted.org/packages/60/bd/ffd6a0356fa3b5299d123c40c64b3db61f81abacea7393ca87c1993cf8b4/dwd_global_radiation-1.0.0rc5.tar.gz
+[2024-05-21 13:03:12] INFO root fetch - processPackages [odoo14-addon-l10n-es-aeat-sii-oca]: Downloading https://files.pythonhosted.org/packages/dc/aa/ed47bf9b2f637276d01147f5386ad8645bc15497fec795e7632877512b26/odoo14_addon_l10n_es_aeat_sii_oca-14.0.2.9.1.dev3-py3-none-any.whl
+[2024-05-21 13:03:12] INFO root fetch - processPackages [gdtransform]: executing diffoscope
+[2024-05-21 13:03:12] INFO root fetch - processPackages [gdtransform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdtransform-0.0.6.tar.gz tmp/gdtransform-0.0.7.tar.gz --markdown 20240521/g/gdtransform/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-21 13:03:12] INFO root fetch - processPackages [kerykeion]: Downloading https://files.pythonhosted.org/packages/6d/7b/55f6863a2e16f911f19b104b278d6ccc01a8bc093c24fc76b5ae2d027eca/kerykeion-4.6.2.tar.gz
+[2024-05-21 13:03:12] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-report]: executing diffoscope
+[2024-05-21 13:03:12] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_hr_timesheet_report-14.0.1.0.1.dev8-py3-none-any.whl.zip tmp/odoo14_addon_hr_timesheet_report-14.0.1.0.1.dev9-py3-none-any.whl.zip --markdown 20240521/o/odoo14-addon-hr-timesheet-report/14.0.1.0.1.dev8-14.0.1.0.1.dev9/README.md --exclude *.pyd
+[2024-05-21 13:03:12] INFO root fetch - processPackages [dja-sepp]: Downloading https://files.pythonhosted.org/packages/dc/99/79f7c555ed0b9b042fd75f870161596235966a3cd97d490b8314749bc090/dja_sepp-0.1.9.tar.gz
+[2024-05-21 13:03:12] INFO root fetch - processPackages [dwd-global-radiation]: executing diffoscope
+[2024-05-21 13:03:12] INFO root fetch - processPackages [dwd-global-radiation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dwd_global_radiation-1.0.0rc4.tar.gz tmp/dwd_global_radiation-1.0.0rc5.tar.gz --markdown 20240521/d/dwd-global-radiation/1.0.0rc4-1.0.0rc5/README.md --exclude *.pyd
+[2024-05-21 13:03:12] INFO root fetch - processPackages [odoo14-addon-l10n-es-aeat-sii-oca]: executing diffoscope
+[2024-05-21 13:03:12] INFO root fetch - processPackages [odoo14-addon-l10n-es-aeat-sii-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_es_aeat_sii_oca-14.0.2.9.1.dev2-py3-none-any.whl.zip tmp/odoo14_addon_l10n_es_aeat_sii_oca-14.0.2.9.1.dev3-py3-none-any.whl.zip --markdown 20240521/o/odoo14-addon-l10n-es-aeat-sii-oca/14.0.2.9.1.dev2-14.0.2.9.1.dev3/README.md --exclude *.pyd
+[2024-05-21 13:03:12] INFO root fetch - processPackages [kerykeion]: executing diffoscope
+[2024-05-21 13:03:12] INFO root fetch - processPackages [kerykeion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kerykeion-4.6.1.tar.gz tmp/kerykeion-4.6.2.tar.gz --markdown 20240521/k/kerykeion/4.6.1-4.6.2/README.md --exclude *.pyd
+[2024-05-21 13:03:12] INFO root fetch - processPackages [dja-sepp]: executing diffoscope
+[2024-05-21 13:03:12] INFO root fetch - processPackages [dja-sepp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dja_sepp-0.1.8.tar.gz tmp/dja_sepp-0.1.9.tar.gz --markdown 20240521/d/dja-sepp/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-21 13:03:12] INFO root fetch - processPackages [dzidb]: Remove: archive file [/home/abi/fetcher/tmp/dzidb-1.0.8.tar.gz]
+[2024-05-21 13:03:12] INFO root fetch - processPackages [dzidb]: Remove: archive file [/home/abi/fetcher/tmp/dzidb-1.1.tar.gz]
+[2024-05-21 13:03:12] INFO root fetch - main [MainThread]: End processing [dzidb]: success
+[2024-05-21 13:03:12] INFO root fetch - processPackages [BarteSDK]: Remove: archive file [/home/abi/fetcher/tmp/bartesdk-0.1.8.tar.gz]
+[2024-05-21 13:03:12] INFO root fetch - processPackages [BarteSDK]: Remove: archive file [/home/abi/fetcher/tmp/bartesdk-0.1.9.tar.gz]
+[2024-05-21 13:03:12] INFO root fetch - main [MainThread]: End processing [BarteSDK]: success
+[2024-05-21 13:03:13] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_hr_timesheet_report-14.0.1.0.1.dev8-py3-none-any.whl.zip]
+[2024-05-21 13:03:13] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_hr_timesheet_report-14.0.1.0.1.dev9-py3-none-any.whl.zip]
+[2024-05-21 13:03:13] INFO root fetch - main [MainThread]: End processing [odoo14-addon-hr-timesheet-report]: success
+[2024-05-21 13:03:13] INFO root fetch - processPackages [gdtransform]: Remove: archive file [/home/abi/fetcher/tmp/gdtransform-0.0.6.tar.gz]
+[2024-05-21 13:03:13] INFO root fetch - processPackages [gdtransform]: Remove: archive file [/home/abi/fetcher/tmp/gdtransform-0.0.7.tar.gz]
+[2024-05-21 13:03:13] INFO root fetch - main [MainThread]: End processing [gdtransform]: success
+[2024-05-21 13:03:13] INFO root fetch - processPackages [kerykeion]: Remove: archive file [/home/abi/fetcher/tmp/kerykeion-4.6.1.tar.gz]
+[2024-05-21 13:03:13] INFO root fetch - processPackages [kerykeion]: Remove: archive file [/home/abi/fetcher/tmp/kerykeion-4.6.2.tar.gz]
+[2024-05-21 13:03:13] INFO root fetch - main [MainThread]: End processing [kerykeion]: success
+[2024-05-21 13:03:13] INFO root fetch - processPackages [dwd-global-radiation]: Remove: archive file [/home/abi/fetcher/tmp/dwd_global_radiation-1.0.0rc4.tar.gz]
+[2024-05-21 13:03:13] INFO root fetch - processPackages [dwd-global-radiation]: Remove: archive file [/home/abi/fetcher/tmp/dwd_global_radiation-1.0.0rc5.tar.gz]
+[2024-05-21 13:03:13] INFO root fetch - main [MainThread]: End processing [dwd-global-radiation]: success
+[2024-05-21 13:03:13] INFO root fetch - processPackages [dja-sepp]: Remove: archive file [/home/abi/fetcher/tmp/dja_sepp-0.1.8.tar.gz]
+[2024-05-21 13:03:13] INFO root fetch - processPackages [dja-sepp]: Remove: archive file [/home/abi/fetcher/tmp/dja_sepp-0.1.9.tar.gz]
+[2024-05-21 13:03:13] INFO root fetch - main [MainThread]: End processing [dja-sepp]: success
+[2024-05-21 13:03:13] INFO root fetch - processPackages [odoo14-addon-l10n-es-aeat-sii-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_es_aeat_sii_oca-14.0.2.9.1.dev2-py3-none-any.whl.zip]
+[2024-05-21 13:03:13] INFO root fetch - processPackages [odoo14-addon-l10n-es-aeat-sii-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_es_aeat_sii_oca-14.0.2.9.1.dev3-py3-none-any.whl.zip]
+[2024-05-21 13:03:13] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-es-aeat-sii-oca]: success
+[2024-05-21 13:03:13] INFO root fetch - main [MainThread]: Store serial: [23305144]
