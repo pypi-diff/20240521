@@ -11088,3 +11088,51 @@
 [2024-05-21 06:32:17] INFO root fetch - processPackages [pulumi-confluentcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_confluentcloud-1.9.0a1675887560.tar.gz]
 [2024-05-21 06:32:17] INFO root fetch - main [MainThread]: End processing [pulumi-confluentcloud]: success
 [2024-05-21 06:32:17] INFO root fetch - main [MainThread]: Store serial: [23301026]
+[2024-05-21 06:34:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23301026]
+[2024-05-21 06:34:26] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-21 06:34:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: json-repair
+[2024-05-21 06:34:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jzai
+[2024-05-21 06:34:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: redivis
+[2024-05-21 06:34:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mirascope
+[2024-05-21 06:34:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pinjected
+[2024-05-21 06:34:26] INFO root fetch - processPackages [jzai]: New version: [59.83.58] Old Version: [59.83.57]
+[2024-05-21 06:34:26] INFO root fetch - processPackages [redivis]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-21 06:34:26] INFO root fetch - processPackages [jzai]: Downloading https://files.pythonhosted.org/packages/71/eb/faee104db5af6e206f70b8f9c132bd8823c390b2127c29082a055316db96/jzai-59.83.57.tar.gz
+[2024-05-21 06:34:26] INFO root fetch - processPackages [redivis]: Downloading https://files.pythonhosted.org/packages/3d/83/fbeb47bc43c8d9c7b8608fd4c9ffb0993a894a6141f62a5031201ed2920b/redivis-0.9.0.tar.gz
+[2024-05-21 06:34:26] INFO root fetch - processPackages [mirascope]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-21 06:34:26] INFO root fetch - processPackages [json-repair]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-21 06:34:27] INFO root fetch - processPackages [pinjected]: New version: [0.2.70] Old Version: [0.2.69]
+[2024-05-21 06:34:27] INFO root fetch - processPackages [redivis]: Downloading https://files.pythonhosted.org/packages/fc/b7/8e87aa3597067847f359d7f578b25dc23c16d87725161e60bf98df2b4289/redivis-0.9.1.tar.gz
+[2024-05-21 06:34:27] INFO root fetch - processPackages [mirascope]: Downloading https://files.pythonhosted.org/packages/1e/60/6b94f4a0c0a3442e0030ec4b7912738aea1506f5f2cfbbaab0f9f6c973ee/mirascope-0.9.0.tar.gz
+[2024-05-21 06:34:27] INFO root fetch - processPackages [json-repair]: Downloading https://files.pythonhosted.org/packages/30/98/8e5e70109f1541aeeeccf67fa2876d53b95f4dbf67deb476eaa6931ff9b5/json_repair-0.8.1.tar.gz
+[2024-05-21 06:34:27] INFO root fetch - processPackages [redivis]: executing diffoscope
+[2024-05-21 06:34:27] INFO root fetch - processPackages [redivis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redivis-0.9.0.tar.gz tmp/redivis-0.9.1.tar.gz --markdown 20240521/r/redivis/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-21 06:34:27] INFO root fetch - processPackages [pinjected]: Downloading https://files.pythonhosted.org/packages/e1/d3/5b1aaadb25e3c883376922784866e4c662b9e4007a056694a48aebc4441b/pinjected-0.2.69.tar.gz
+[2024-05-21 06:34:27] INFO root fetch - processPackages [jzai]: Downloading https://files.pythonhosted.org/packages/77/49/c97ed6dbf4db51928dd5b5366de78377030990bf81e23f10961305b7c20a/jzai-59.83.58.tar.gz
+[2024-05-21 06:34:27] INFO root fetch - processPackages [jzai]: executing diffoscope
+[2024-05-21 06:34:27] INFO root fetch - processPackages [jzai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jzai-59.83.57.tar.gz tmp/jzai-59.83.58.tar.gz --markdown 20240521/j/jzai/59.83.57-59.83.58/README.md --exclude *.pyd
+[2024-05-21 06:34:27] INFO root fetch - processPackages [json-repair]: Downloading https://files.pythonhosted.org/packages/a3/6d/f3cff9a4b72bae984511e3b5e198dc886ea044b979e7d59ebd53d0583a10/json_repair-0.9.0.tar.gz
+[2024-05-21 06:34:27] INFO root fetch - processPackages [mirascope]: Downloading https://files.pythonhosted.org/packages/86/be/fe2b9be44a23959a996ae2f04f7f17cca344b0da85a954965c102e97d624/mirascope-0.9.1.tar.gz
+[2024-05-21 06:34:27] INFO root fetch - processPackages [pinjected]: Downloading https://files.pythonhosted.org/packages/00/c4/f48a48e7ac5c81902e8f1c2338888e5b4224ba88cf4ebebf22ded17b693b/pinjected-0.2.70.tar.gz
+[2024-05-21 06:34:27] INFO root fetch - processPackages [json-repair]: executing diffoscope
+[2024-05-21 06:34:27] INFO root fetch - processPackages [json-repair]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json_repair-0.8.1.tar.gz tmp/json_repair-0.9.0.tar.gz --markdown 20240521/j/json-repair/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-21 06:34:27] INFO root fetch - processPackages [mirascope]: executing diffoscope
+[2024-05-21 06:34:27] INFO root fetch - processPackages [mirascope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mirascope-0.9.0.tar.gz tmp/mirascope-0.9.1.tar.gz --markdown 20240521/m/mirascope/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-21 06:34:27] INFO root fetch - processPackages [pinjected]: executing diffoscope
+[2024-05-21 06:34:27] INFO root fetch - processPackages [pinjected]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinjected-0.2.69.tar.gz tmp/pinjected-0.2.70.tar.gz --markdown 20240521/p/pinjected/0.2.69-0.2.70/README.md --exclude *.pyd
+[2024-05-21 06:34:27] INFO root fetch - processPackages [redivis]: Remove: archive file [/home/abi/fetcher/tmp/redivis-0.9.0.tar.gz]
+[2024-05-21 06:34:27] INFO root fetch - processPackages [redivis]: Remove: archive file [/home/abi/fetcher/tmp/redivis-0.9.1.tar.gz]
+[2024-05-21 06:34:27] INFO root fetch - main [MainThread]: End processing [redivis]: success
+[2024-05-21 06:34:27] INFO root fetch - processPackages [jzai]: Remove: archive file [/home/abi/fetcher/tmp/jzai-59.83.57.tar.gz]
+[2024-05-21 06:34:27] INFO root fetch - processPackages [jzai]: Remove: archive file [/home/abi/fetcher/tmp/jzai-59.83.58.tar.gz]
+[2024-05-21 06:34:27] INFO root fetch - main [MainThread]: End processing [jzai]: success
+[2024-05-21 06:34:28] INFO root fetch - processPackages [json-repair]: Remove: archive file [/home/abi/fetcher/tmp/json_repair-0.8.1.tar.gz]
+[2024-05-21 06:34:28] INFO root fetch - processPackages [json-repair]: Remove: archive file [/home/abi/fetcher/tmp/json_repair-0.9.0.tar.gz]
+[2024-05-21 06:34:28] INFO root fetch - main [MainThread]: End processing [json-repair]: success
+[2024-05-21 06:34:28] INFO root fetch - processPackages [mirascope]: Remove: archive file [/home/abi/fetcher/tmp/mirascope-0.9.0.tar.gz]
+[2024-05-21 06:34:28] INFO root fetch - processPackages [mirascope]: Remove: archive file [/home/abi/fetcher/tmp/mirascope-0.9.1.tar.gz]
+[2024-05-21 06:34:28] INFO root fetch - main [MainThread]: End processing [mirascope]: success
+[2024-05-21 06:34:28] INFO root fetch - processPackages [pinjected]: Remove: archive file [/home/abi/fetcher/tmp/pinjected-0.2.69.tar.gz]
+[2024-05-21 06:34:28] INFO root fetch - processPackages [pinjected]: Remove: archive file [/home/abi/fetcher/tmp/pinjected-0.2.70.tar.gz]
+[2024-05-21 06:34:28] INFO root fetch - main [MainThread]: End processing [pinjected]: success
+[2024-05-21 06:34:28] INFO root fetch - main [MainThread]: Store serial: [23301042]
