@@ -7499,3 +7499,51 @@
 [2024-05-21 03:32:31] INFO root fetch - processPackages [play3slib]: Remove: archive file [/home/abi/fetcher/tmp/play3slib-0.0.2.tar.gz]
 [2024-05-21 03:32:31] INFO root fetch - main [MainThread]: End processing [play3slib]: success
 [2024-05-21 03:32:31] INFO root fetch - main [MainThread]: Store serial: [23299399]
+[2024-05-21 03:34:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23299399]
+[2024-05-21 03:34:40] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-21 03:34:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: testcontainers-iris
+[2024-05-21 03:34:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-iris
+[2024-05-21 03:34:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lsst-sphgeom
+[2024-05-21 03:34:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: moltx
+[2024-05-21 03:34:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mlv
+[2024-05-21 03:34:40] INFO root fetch - processPackages [testcontainers-iris]: New version: [1.1.1b2] Old Version: [1.1.1b1]
+[2024-05-21 03:34:40] INFO root fetch - processPackages [testcontainers-iris]: Downloading https://files.pythonhosted.org/packages/37/dd/89cdc3b25f03cae18f2d766f4581625d0016e3f3e2f257600bff8ce33ce7/testcontainers-iris-1.1.1b1.tar.gz
+[2024-05-21 03:34:40] INFO root fetch - processPackages [mlv]: New version: [1.3.8] Old Version: [1.3.7]
+[2024-05-21 03:34:40] INFO root fetch - processPackages [django-iris]: New version: [0.2.5b3] Old Version: [0.2.5b2]
+[2024-05-21 03:34:40] INFO root fetch - processPackages [moltx]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-21 03:34:40] INFO root fetch - processPackages [lsst-sphgeom]: New version: [27.2024.2000] Old Version: [27.2024.1900]
+[2024-05-21 03:34:40] INFO root fetch - processPackages [django-iris]: Downloading https://files.pythonhosted.org/packages/2e/27/17440642768579936079bca98d2c21a8edd9bcb00054fdf2447fd4c9ac2c/django_iris-0.2.5b2.tar.gz
+[2024-05-21 03:34:40] INFO root fetch - processPackages [mlv]: Downloading https://files.pythonhosted.org/packages/85/d3/5e939640019a39e244b5a13b36128c5eeb83a33922553120fcf1cde6688c/mlv-1.3.7.tar.gz
+[2024-05-21 03:34:40] INFO root fetch - processPackages [moltx]: Downloading https://files.pythonhosted.org/packages/35/ba/0d73d4cd646d539e14cbdb919e0fdf06ed9682171a9714e49c922619debd/moltx-1.0.2.tar.gz
+[2024-05-21 03:34:40] INFO root fetch - processPackages [lsst-sphgeom]: Downloading https://files.pythonhosted.org/packages/a3/aa/c4189f7e09b203aa311c2f7842d8affe7dd6058b381518c2cacc070a3978/lsst_sphgeom-27.2024.1900-cp39-cp39-macosx_11_0_arm64.whl
+[2024-05-21 03:34:41] INFO root fetch - processPackages [testcontainers-iris]: Downloading https://files.pythonhosted.org/packages/12/93/c845067a2f3dd912481af49bf518648b79a87d9618498bd75f4b068f6180/testcontainers_iris-1.1.1b2.tar.gz
+[2024-05-21 03:34:41] INFO root fetch - processPackages [testcontainers-iris]: executing diffoscope
+[2024-05-21 03:34:41] INFO root fetch - processPackages [testcontainers-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testcontainers-iris-1.1.1b1.tar.gz tmp/testcontainers_iris-1.1.1b2.tar.gz --markdown 20240521/t/testcontainers-iris/1.1.1b1-1.1.1b2/README.md --exclude *.pyd
+[2024-05-21 03:34:41] INFO root fetch - processPackages [django-iris]: Downloading https://files.pythonhosted.org/packages/d8/f8/c2417c8316862670be4b351399d085f1bd485662771cf61d420693a97006/django_iris-0.2.5b3.tar.gz
+[2024-05-21 03:34:41] INFO root fetch - processPackages [mlv]: Downloading https://files.pythonhosted.org/packages/98/ca/9b9ef282bd27ac0ec074dd22807799c2fe7a5abb1183e50a431d682fda6f/mlv-1.3.8.tar.gz
+[2024-05-21 03:34:41] INFO root fetch - processPackages [django-iris]: executing diffoscope
+[2024-05-21 03:34:41] INFO root fetch - processPackages [django-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_iris-0.2.5b2.tar.gz tmp/django_iris-0.2.5b3.tar.gz --markdown 20240521/d/django-iris/0.2.5b2-0.2.5b3/README.md --exclude *.pyd
+[2024-05-21 03:34:41] INFO root fetch - processPackages [moltx]: Downloading https://files.pythonhosted.org/packages/b9/5b/5d420bd0c821887f0a671b6e42438b4424aaf1c1770919315f36eaa41dd3/moltx-1.0.3.tar.gz
+[2024-05-21 03:34:41] INFO root fetch - processPackages [lsst-sphgeom]: Downloading https://files.pythonhosted.org/packages/94/8e/5c4057787bc78d3d2f776301fe1ca922ef2e9e8fbcbb32bcf6b6b02e634a/lsst_sphgeom-27.2024.2000-cp39-cp39-macosx_11_0_arm64.whl
+[2024-05-21 03:34:41] INFO root fetch - processPackages [mlv]: executing diffoscope
+[2024-05-21 03:34:41] INFO root fetch - processPackages [mlv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlv-1.3.7.tar.gz tmp/mlv-1.3.8.tar.gz --markdown 20240521/m/mlv/1.3.7-1.3.8/README.md --exclude *.pyd
+[2024-05-21 03:34:41] INFO root fetch - processPackages [moltx]: executing diffoscope
+[2024-05-21 03:34:41] INFO root fetch - processPackages [moltx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moltx-1.0.2.tar.gz tmp/moltx-1.0.3.tar.gz --markdown 20240521/m/moltx/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-21 03:34:41] INFO root fetch - processPackages [lsst-sphgeom]: executing diffoscope
+[2024-05-21 03:34:41] INFO root fetch - processPackages [lsst-sphgeom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst_sphgeom-27.2024.1900-cp39-cp39-macosx_11_0_arm64.whl.zip tmp/lsst_sphgeom-27.2024.2000-cp39-cp39-macosx_11_0_arm64.whl.zip --markdown 20240521/l/lsst-sphgeom/27.2024.1900-27.2024.2000/README.md --exclude *.pyd
+[2024-05-21 03:34:41] INFO root fetch - processPackages [testcontainers-iris]: Remove: archive file [/home/abi/fetcher/tmp/testcontainers-iris-1.1.1b1.tar.gz]
+[2024-05-21 03:34:41] INFO root fetch - processPackages [testcontainers-iris]: Remove: archive file [/home/abi/fetcher/tmp/testcontainers_iris-1.1.1b2.tar.gz]
+[2024-05-21 03:34:41] INFO root fetch - main [MainThread]: End processing [testcontainers-iris]: success
+[2024-05-21 03:34:41] INFO root fetch - processPackages [mlv]: Remove: archive file [/home/abi/fetcher/tmp/mlv-1.3.7.tar.gz]
+[2024-05-21 03:34:41] INFO root fetch - processPackages [mlv]: Remove: archive file [/home/abi/fetcher/tmp/mlv-1.3.8.tar.gz]
+[2024-05-21 03:34:41] INFO root fetch - main [MainThread]: End processing [mlv]: success
+[2024-05-21 03:34:42] INFO root fetch - processPackages [moltx]: Remove: archive file [/home/abi/fetcher/tmp/moltx-1.0.2.tar.gz]
+[2024-05-21 03:34:42] INFO root fetch - processPackages [moltx]: Remove: archive file [/home/abi/fetcher/tmp/moltx-1.0.3.tar.gz]
+[2024-05-21 03:34:42] INFO root fetch - main [MainThread]: End processing [moltx]: success
+[2024-05-21 03:34:42] INFO root fetch - processPackages [django-iris]: Remove: archive file [/home/abi/fetcher/tmp/django_iris-0.2.5b2.tar.gz]
+[2024-05-21 03:34:42] INFO root fetch - processPackages [django-iris]: Remove: archive file [/home/abi/fetcher/tmp/django_iris-0.2.5b3.tar.gz]
+[2024-05-21 03:34:42] INFO root fetch - main [MainThread]: End processing [django-iris]: success
+[2024-05-21 03:34:42] INFO root fetch - processPackages [lsst-sphgeom]: Remove: archive file [/home/abi/fetcher/tmp/lsst_sphgeom-27.2024.1900-cp39-cp39-macosx_11_0_arm64.whl.zip]
+[2024-05-21 03:34:42] INFO root fetch - processPackages [lsst-sphgeom]: Remove: archive file [/home/abi/fetcher/tmp/lsst_sphgeom-27.2024.2000-cp39-cp39-macosx_11_0_arm64.whl.zip]
+[2024-05-21 03:34:42] INFO root fetch - main [MainThread]: End processing [lsst-sphgeom]: success
+[2024-05-21 03:34:42] INFO root fetch - main [MainThread]: Store serial: [23299477]
