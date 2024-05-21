@@ -17373,3 +17373,86 @@
 [2024-05-21 10:56:19] INFO root fetch - processPackages [mlfoundry]: Remove: archive file [/home/abi/fetcher/tmp/mlfoundry-0.9.9.tar.gz]
 [2024-05-21 10:56:19] INFO root fetch - main [MainThread]: End processing [mlfoundry]: success
 [2024-05-21 10:56:19] INFO root fetch - main [MainThread]: Store serial: [23303438]
+[2024-05-21 10:58:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23303438]
+[2024-05-21 10:58:28] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-21 10:58:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: edwh-auth-rbac
+[2024-05-21 10:58:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: unionllm
+[2024-05-21 10:58:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyZlBus
+[2024-05-21 10:58:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zfx
+[2024-05-21 10:58:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-openai
+[2024-05-21 10:58:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo12-addon-sm-partago-invoicing-rest-api
+[2024-05-21 10:58:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: data-snack
+[2024-05-21 10:58:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gitlab-languages
+[2024-05-21 10:58:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: udata-front
+[2024-05-21 10:58:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mg-pso-gui
+[2024-05-21 10:58:28] INFO root fetch - processPackages [zfx]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-21 10:58:28] INFO root fetch - processPackages [mg-pso-gui]: New version: [0.1.9] Old Version: [0.1.85]
+[2024-05-21 10:58:28] INFO root fetch - processPackages [data-snack]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-21 10:58:28] INFO root fetch - processPackages [pyZlBus]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-21 10:58:28] INFO root fetch - processPackages [unionllm]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-21 10:58:28] INFO root fetch - processPackages [edwh-auth-rbac]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-21 10:58:28] INFO root fetch - processPackages [odoo12-addon-sm-partago-invoicing-rest-api]: New version: [12.0.0.1.8.dev1] Old Version: [12.0.0.1.8]
+[2024-05-21 10:58:28] WARNING root fetch - processPackages [pulumi-openai]: Skipping, unable to determine old version
+[2024-05-21 10:58:28] INFO root fetch - processPackages [gitlab-languages]: New version: [2.4.0] Old Version: [2.3.2]
+[2024-05-21 10:58:28] INFO root fetch - main [MainThread]: End processing [pulumi-openai] error
+[2024-05-21 10:58:28] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/59/eb/f257e3407edfa0e36bd6d262b25e02023066e104ba26d20cee83a63198f0/zfx-1.0.8.tar.gz
+[2024-05-21 10:58:28] INFO root fetch - processPackages [udata-front]: New version: [4.0.3.dev19974] Old Version: [4.0.3.dev19867]
+[2024-05-21 10:58:28] INFO root fetch - processPackages [data-snack]: Downloading https://files.pythonhosted.org/packages/02/85/ec711394f51a3d2e50d68d1d329d3c0cd3820378a06d5085978b4192374b/data_snack-1.0.2.tar.gz
+[2024-05-21 10:58:28] INFO root fetch - processPackages [pyZlBus]: Downloading https://files.pythonhosted.org/packages/aa/3d/3c2df5816cb20c17157925cadc04072f02f2da3de169278dde04689de208/pyZlBus-0.1.8-py3-none-any.whl
+[2024-05-21 10:58:28] INFO root fetch - processPackages [unionllm]: Downloading https://files.pythonhosted.org/packages/ea/3a/eeefda40b84b843484cc89ea862a2cc65c616bd1885f44434cd0241e76f5/unionllm-0.1.2.tar.gz
+[2024-05-21 10:58:28] INFO root fetch - processPackages [mg-pso-gui]: Downloading https://files.pythonhosted.org/packages/5d/49/e4a560638dea701f8ce39ff755e45178746c1537dbc94e92c51f8fde7576/mg-pso-gui-0.1.85.tar.gz
+[2024-05-21 10:58:28] INFO root fetch - processPackages [odoo12-addon-sm-partago-invoicing-rest-api]: Downloading https://files.pythonhosted.org/packages/91/d8/b99c30880f617cd5a47828762eb0f95651acbd68fbda71ecef0f4e2aa1a9/odoo12-addon-sm_partago_invoicing_rest_api-12.0.0.1.8.tar.gz
+[2024-05-21 10:58:28] INFO root fetch - processPackages [gitlab-languages]: Downloading https://files.pythonhosted.org/packages/86/67/0c6d3bddbcf9ece8bf2fa613395c930a547a6d3cf57150844b6bbce9efef/gitlab_languages-2.3.2.tar.gz
+[2024-05-21 10:58:28] INFO root fetch - processPackages [edwh-auth-rbac]: Downloading https://files.pythonhosted.org/packages/48/83/8077a631a39a2c3bb53c151c082789c64dd6c8af321ec38d956a87344b6c/edwh_auth_rbac-0.1.0.tar.gz
+[2024-05-21 10:58:28] WARNING root fetch - processPackages [edwh-auth-rbac]: Skipping package: exceeds size limit 66049603>=10485760
+[2024-05-21 10:58:28] INFO root fetch - main [MainThread]: End processing [edwh-auth-rbac] error
+[2024-05-21 10:58:28] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/79/72/81e8c9f95e9effa80a25b20d494a3c3b21ed5cbbd53440c562d52fe8fe8a/zfx-1.0.9.tar.gz
+[2024-05-21 10:58:29] INFO root fetch - processPackages [udata-front]: Downloading https://files.pythonhosted.org/packages/76/9d/d7000683d3bf3b99f8505d282a0099a329d439d1c00d86ef8c06253904eb/udata_front-4.0.3.dev19867-py2.py3-none-any.whl
+[2024-05-21 10:58:29] INFO root fetch - processPackages [zfx]: executing diffoscope
+[2024-05-21 10:58:29] INFO root fetch - processPackages [zfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zfx-1.0.8.tar.gz tmp/zfx-1.0.9.tar.gz --markdown 20240521/z/zfx/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-21 10:58:29] INFO root fetch - processPackages [mg-pso-gui]: Downloading https://files.pythonhosted.org/packages/29/bb/6e298a4662149de339e056d2e3fd47d836e1cc07f109b6309c4e0f4c97b3/mg-pso-gui-0.1.9.tar.gz
+[2024-05-21 10:58:29] INFO root fetch - processPackages [data-snack]: Downloading https://files.pythonhosted.org/packages/ca/bd/fb9c3d473421a2c2810352a2aaea0f83213cf770c87f027ab4817270209c/data_snack-1.0.3.tar.gz
+[2024-05-21 10:58:29] INFO root fetch - processPackages [odoo12-addon-sm-partago-invoicing-rest-api]: Downloading https://files.pythonhosted.org/packages/7b/19/47ef9977fa6d9718375a0905d6cf14f48774e90dbec24482f849fad1321c/odoo12-addon-sm_partago_invoicing_rest_api-12.0.0.1.8.dev1.tar.gz
+[2024-05-21 10:58:29] INFO root fetch - processPackages [unionllm]: Downloading https://files.pythonhosted.org/packages/15/b5/73cd5af02ed6b13cd9a9d84b073419179c4b35db57cf00407f312817fbeb/unionllm-0.1.3.tar.gz
+[2024-05-21 10:58:29] INFO root fetch - processPackages [gitlab-languages]: Downloading https://files.pythonhosted.org/packages/69/d8/6546889aeaa7efb77623a548a8ccc4310a2de42b9a6c887ac6caa8d793ed/gitlab_languages-2.4.0.tar.gz
+[2024-05-21 10:58:29] INFO root fetch - processPackages [data-snack]: executing diffoscope
+[2024-05-21 10:58:29] INFO root fetch - processPackages [data-snack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_snack-1.0.2.tar.gz tmp/data_snack-1.0.3.tar.gz --markdown 20240521/d/data-snack/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-21 10:58:29] INFO root fetch - processPackages [odoo12-addon-sm-partago-invoicing-rest-api]: executing diffoscope
+[2024-05-21 10:58:29] INFO root fetch - processPackages [odoo12-addon-sm-partago-invoicing-rest-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12-addon-sm_partago_invoicing_rest_api-12.0.0.1.8.tar.gz tmp/odoo12-addon-sm_partago_invoicing_rest_api-12.0.0.1.8.dev1.tar.gz --markdown 20240521/o/odoo12-addon-sm-partago-invoicing-rest-api/12.0.0.1.8-12.0.0.1.8.dev1/README.md --exclude *.pyd
+[2024-05-21 10:58:29] INFO root fetch - processPackages [unionllm]: executing diffoscope
+[2024-05-21 10:58:29] INFO root fetch - processPackages [unionllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unionllm-0.1.2.tar.gz tmp/unionllm-0.1.3.tar.gz --markdown 20240521/u/unionllm/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-21 10:58:29] INFO root fetch - processPackages [mg-pso-gui]: executing diffoscope
+[2024-05-21 10:58:29] INFO root fetch - processPackages [mg-pso-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mg-pso-gui-0.1.85.tar.gz tmp/mg-pso-gui-0.1.9.tar.gz --markdown 20240521/m/mg-pso-gui/0.1.85-0.1.9/README.md --exclude *.pyd
+[2024-05-21 10:58:29] INFO root fetch - processPackages [gitlab-languages]: executing diffoscope
+[2024-05-21 10:58:29] INFO root fetch - processPackages [gitlab-languages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitlab_languages-2.3.2.tar.gz tmp/gitlab_languages-2.4.0.tar.gz --markdown 20240521/g/gitlab-languages/2.3.2-2.4.0/README.md --exclude *.pyd
+[2024-05-21 10:58:29] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.8.tar.gz]
+[2024-05-21 10:58:29] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.9.tar.gz]
+[2024-05-21 10:58:29] INFO root fetch - main [MainThread]: End processing [zfx]: success
+[2024-05-21 10:58:30] INFO root fetch - processPackages [odoo12-addon-sm-partago-invoicing-rest-api]: Remove: archive file [/home/abi/fetcher/tmp/odoo12-addon-sm_partago_invoicing_rest_api-12.0.0.1.8.tar.gz]
+[2024-05-21 10:58:30] INFO root fetch - processPackages [odoo12-addon-sm-partago-invoicing-rest-api]: Remove: archive file [/home/abi/fetcher/tmp/odoo12-addon-sm_partago_invoicing_rest_api-12.0.0.1.8.dev1.tar.gz]
+[2024-05-21 10:58:30] INFO root fetch - main [MainThread]: End processing [odoo12-addon-sm-partago-invoicing-rest-api]: success
+[2024-05-21 10:58:30] INFO root fetch - processPackages [udata-front]: Downloading https://files.pythonhosted.org/packages/db/18/681852bb4f93212101dcc1dde5df437d2434cafd7df62ce4f78e6d0c9834/udata_front-4.0.3.dev19974-py2.py3-none-any.whl
+[2024-05-21 10:58:30] INFO root fetch - processPackages [pyZlBus]: Downloading https://files.pythonhosted.org/packages/b9/0b/3dd6a7cafb698360ced9274fb7c514e638e7c089b41871b8a85aa12e2605/pyZlBus-0.1.9-py3-none-any.whl
+[2024-05-21 10:58:30] INFO root fetch - processPackages [gitlab-languages]: Remove: archive file [/home/abi/fetcher/tmp/gitlab_languages-2.3.2.tar.gz]
+[2024-05-21 10:58:30] INFO root fetch - processPackages [gitlab-languages]: Remove: archive file [/home/abi/fetcher/tmp/gitlab_languages-2.4.0.tar.gz]
+[2024-05-21 10:58:30] INFO root fetch - main [MainThread]: End processing [gitlab-languages]: success
+[2024-05-21 10:58:30] INFO root fetch - processPackages [data-snack]: Remove: archive file [/home/abi/fetcher/tmp/data_snack-1.0.2.tar.gz]
+[2024-05-21 10:58:30] INFO root fetch - processPackages [data-snack]: Remove: archive file [/home/abi/fetcher/tmp/data_snack-1.0.3.tar.gz]
+[2024-05-21 10:58:30] INFO root fetch - main [MainThread]: End processing [data-snack]: success
+[2024-05-21 10:58:30] INFO root fetch - processPackages [unionllm]: Remove: archive file [/home/abi/fetcher/tmp/unionllm-0.1.2.tar.gz]
+[2024-05-21 10:58:30] INFO root fetch - processPackages [unionllm]: Remove: archive file [/home/abi/fetcher/tmp/unionllm-0.1.3.tar.gz]
+[2024-05-21 10:58:30] INFO root fetch - main [MainThread]: End processing [unionllm]: success
+[2024-05-21 10:58:30] INFO root fetch - processPackages [mg-pso-gui]: Remove: archive file [/home/abi/fetcher/tmp/mg-pso-gui-0.1.85.tar.gz]
+[2024-05-21 10:58:30] INFO root fetch - processPackages [mg-pso-gui]: Remove: archive file [/home/abi/fetcher/tmp/mg-pso-gui-0.1.9.tar.gz]
+[2024-05-21 10:58:30] INFO root fetch - main [MainThread]: End processing [mg-pso-gui]: success
+[2024-05-21 10:58:30] INFO root fetch - processPackages [udata-front]: executing diffoscope
+[2024-05-21 10:58:30] INFO root fetch - processPackages [udata-front]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udata_front-4.0.3.dev19867-py2.py3-none-any.whl.zip tmp/udata_front-4.0.3.dev19974-py2.py3-none-any.whl.zip --markdown 20240521/u/udata-front/4.0.3.dev19867-4.0.3.dev19974/README.md --exclude *.pyd
+[2024-05-21 10:58:31] INFO root fetch - processPackages [pyZlBus]: executing diffoscope
+[2024-05-21 10:58:31] INFO root fetch - processPackages [pyZlBus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyZlBus-0.1.8-py3-none-any.whl.zip tmp/pyZlBus-0.1.9-py3-none-any.whl.zip --markdown 20240521/p/pyZlBus/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-21 10:58:32] INFO root fetch - processPackages [pyZlBus]: Remove: archive file [/home/abi/fetcher/tmp/pyZlBus-0.1.8-py3-none-any.whl.zip]
+[2024-05-21 10:58:32] INFO root fetch - processPackages [pyZlBus]: Remove: archive file [/home/abi/fetcher/tmp/pyZlBus-0.1.9-py3-none-any.whl.zip]
+[2024-05-21 10:58:32] INFO root fetch - main [MainThread]: End processing [pyZlBus]: success
+[2024-05-21 10:59:56] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-4.0.3.dev19867-py2.py3-none-any.whl.zip]
+[2024-05-21 10:59:56] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-4.0.3.dev19974-py2.py3-none-any.whl.zip]
+[2024-05-21 10:59:56] INFO root fetch - main [MainThread]: End processing [udata-front]: success
+[2024-05-21 10:59:56] INFO root fetch - main [MainThread]: Store serial: [23303467]
