@@ -13419,3 +13419,51 @@
 [2024-05-21 08:30:37] INFO root fetch - processPackages [taskflow]: Remove: archive file [/home/abi/fetcher/tmp/taskflow-5.8.0.tar.gz]
 [2024-05-21 08:30:37] INFO root fetch - main [MainThread]: End processing [taskflow]: success
 [2024-05-21 08:30:37] INFO root fetch - main [MainThread]: Store serial: [23302007]
+[2024-05-21 08:32:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23302007]
+[2024-05-21 08:32:46] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-21 08:32:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: delphix-dct-api
+[2024-05-21 08:32:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: paddleocr-onnx
+[2024-05-21 08:32:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ixontray
+[2024-05-21 08:32:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pypipup
+[2024-05-21 08:32:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pms-encoder
+[2024-05-21 08:32:46] INFO root fetch - processPackages [paddleocr-onnx]: New version: [0.4.0] Old Version: [0.2.2]
+[2024-05-21 08:32:46] INFO root fetch - processPackages [pypipup]: New version: [1.2.1] Old Version: [1.2]
+[2024-05-21 08:32:46] INFO root fetch - processPackages [pms-encoder]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-21 08:32:46] INFO root fetch - processPackages [ixontray]: New version: [0.3.0] Old Version: [0.2.8]
+[2024-05-21 08:32:46] INFO root fetch - processPackages [delphix-dct-api]: New version: [9.0.0rc3] Old Version: [9.0.0rc2]
+[2024-05-21 08:32:46] INFO root fetch - processPackages [paddleocr-onnx]: Downloading https://files.pythonhosted.org/packages/5f/71/9191addce1acceeb82b0ebffbe3f038a7ef3c2fa36ebf51fdcffcab6618d/paddleocr_onnx-0.2.2.tar.gz
+[2024-05-21 08:32:46] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/80/f1/88f2f54188c15bf6cca5ba7a3a347b8d1c83b15a626f541acf3dde5aa63d/pms_encoder-0.0.8.tar.gz
+[2024-05-21 08:32:46] INFO root fetch - processPackages [pypipup]: Downloading https://files.pythonhosted.org/packages/6c/49/fa6ecd13d7c937ef76961b54c510e08929e1d4a0e071ef0229121abab516/pypipup-1.2.tar.gz
+[2024-05-21 08:32:46] INFO root fetch - processPackages [ixontray]: Downloading https://files.pythonhosted.org/packages/75/da/6f91747336f6eca7edef2f6eb8a17ace2ee50822a083156cffba19a49eae/ixontray-0.2.8.tar.gz
+[2024-05-21 08:32:46] INFO root fetch - processPackages [delphix-dct-api]: Downloading https://files.pythonhosted.org/packages/bb/87/21d8d43cd1d47753f43b488346b68bb02e276ba99e71258f60d3c6f504e8/delphix-dct-api-9.0.0rc2.tar.gz
+[2024-05-21 08:32:46] INFO root fetch - processPackages [pypipup]: Downloading https://files.pythonhosted.org/packages/27/84/6ea066d0e06c3727aa4ad6a39b39c449565f224c05ce57ffd40201967bc8/pypipup-1.2.1.tar.gz
+[2024-05-21 08:32:46] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/93/31/8bb081756db42925fab6507b6e0f497d6bf45acd407ff38cb00f2aaec54c/pms_encoder-0.0.9.tar.gz
+[2024-05-21 08:32:46] INFO root fetch - processPackages [pypipup]: executing diffoscope
+[2024-05-21 08:32:46] INFO root fetch - processPackages [pypipup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypipup-1.2.tar.gz tmp/pypipup-1.2.1.tar.gz --markdown 20240521/p/pypipup/1.2-1.2.1/README.md --exclude *.pyd
+[2024-05-21 08:32:46] INFO root fetch - processPackages [paddleocr-onnx]: Downloading https://files.pythonhosted.org/packages/c4/1c/632335c374a40a32ac7f1d6553b493757915bbe3625f3e637d4f397a37be/paddleocr_onnx-0.4.0.tar.gz
+[2024-05-21 08:32:46] INFO root fetch - processPackages [pms-encoder]: executing diffoscope
+[2024-05-21 08:32:46] INFO root fetch - processPackages [pms-encoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pms_encoder-0.0.8.tar.gz tmp/pms_encoder-0.0.9.tar.gz --markdown 20240521/p/pms-encoder/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-21 08:32:46] INFO root fetch - processPackages [ixontray]: Downloading https://files.pythonhosted.org/packages/46/53/dc98716f9e4d220b2baee3c1e0438089bd14cd9c8a996f75a740f8f35c4e/ixontray-0.3.0.tar.gz
+[2024-05-21 08:32:47] INFO root fetch - processPackages [delphix-dct-api]: Downloading https://files.pythonhosted.org/packages/cf/59/1ebda927c866f75511f4dfd6d6e4005c7178413d53de4fcf7a4c0bbc8f1b/delphix-dct-api-9.0.0rc3.tar.gz
+[2024-05-21 08:32:47] INFO root fetch - processPackages [ixontray]: executing diffoscope
+[2024-05-21 08:32:47] INFO root fetch - processPackages [ixontray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ixontray-0.2.8.tar.gz tmp/ixontray-0.3.0.tar.gz --markdown 20240521/i/ixontray/0.2.8-0.3.0/README.md --exclude *.pyd
+[2024-05-21 08:32:47] INFO root fetch - processPackages [delphix-dct-api]: executing diffoscope
+[2024-05-21 08:32:47] INFO root fetch - processPackages [delphix-dct-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/delphix-dct-api-9.0.0rc2.tar.gz tmp/delphix-dct-api-9.0.0rc3.tar.gz --markdown 20240521/d/delphix-dct-api/9.0.0rc2-9.0.0rc3/README.md --exclude *.pyd
+[2024-05-21 08:32:47] INFO root fetch - processPackages [paddleocr-onnx]: executing diffoscope
+[2024-05-21 08:32:47] INFO root fetch - processPackages [paddleocr-onnx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paddleocr_onnx-0.2.2.tar.gz tmp/paddleocr_onnx-0.4.0.tar.gz --markdown 20240521/p/paddleocr-onnx/0.2.2-0.4.0/README.md --exclude *.pyd
+[2024-05-21 08:32:47] INFO root fetch - processPackages [pypipup]: Remove: archive file [/home/abi/fetcher/tmp/pypipup-1.2.tar.gz]
+[2024-05-21 08:32:47] INFO root fetch - processPackages [pypipup]: Remove: archive file [/home/abi/fetcher/tmp/pypipup-1.2.1.tar.gz]
+[2024-05-21 08:32:47] INFO root fetch - main [MainThread]: End processing [pypipup]: success
+[2024-05-21 08:32:47] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.8.tar.gz]
+[2024-05-21 08:32:47] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.9.tar.gz]
+[2024-05-21 08:32:47] INFO root fetch - main [MainThread]: End processing [pms-encoder]: success
+[2024-05-21 08:32:47] INFO root fetch - processPackages [ixontray]: Remove: archive file [/home/abi/fetcher/tmp/ixontray-0.2.8.tar.gz]
+[2024-05-21 08:32:47] INFO root fetch - processPackages [ixontray]: Remove: archive file [/home/abi/fetcher/tmp/ixontray-0.3.0.tar.gz]
+[2024-05-21 08:32:47] INFO root fetch - main [MainThread]: End processing [ixontray]: success
+[2024-05-21 08:32:48] INFO root fetch - processPackages [paddleocr-onnx]: Remove: archive file [/home/abi/fetcher/tmp/paddleocr_onnx-0.2.2.tar.gz]
+[2024-05-21 08:32:48] INFO root fetch - processPackages [paddleocr-onnx]: Remove: archive file [/home/abi/fetcher/tmp/paddleocr_onnx-0.4.0.tar.gz]
+[2024-05-21 08:32:48] INFO root fetch - main [MainThread]: End processing [paddleocr-onnx]: success
+[2024-05-21 08:32:50] INFO root fetch - processPackages [delphix-dct-api]: Remove: archive file [/home/abi/fetcher/tmp/delphix-dct-api-9.0.0rc2.tar.gz]
+[2024-05-21 08:32:50] INFO root fetch - processPackages [delphix-dct-api]: Remove: archive file [/home/abi/fetcher/tmp/delphix-dct-api-9.0.0rc3.tar.gz]
+[2024-05-21 08:32:50] INFO root fetch - main [MainThread]: End processing [delphix-dct-api]: success
+[2024-05-21 08:32:50] INFO root fetch - main [MainThread]: Store serial: [23302021]
