@@ -15926,3 +15926,85 @@
 [2024-05-21 10:02:26] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.45.20240521.387.tar.gz]
 [2024-05-21 10:02:26] INFO root fetch - main [MainThread]: End processing [pkscreener]: success
 [2024-05-21 10:02:26] INFO root fetch - main [MainThread]: Store serial: [23302895]
+[2024-05-21 10:04:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23302895]
+[2024-05-21 10:04:35] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-21 10:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mapmaker
+[2024-05-21 10:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: asknews
+[2024-05-21 10:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ETH-GTD-cli
+[2024-05-21 10:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dekdjtools
+[2024-05-21 10:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ETH-GTD-cli
+[2024-05-21 10:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: views-tensor-utilities
+[2024-05-21 10:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: langfun
+[2024-05-21 10:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ctfcicd
+[2024-05-21 10:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: starrydata
+[2024-05-21 10:04:36] INFO root fetch - processPackages [langfun]: New version: [0.0.2.dev20240520] Old Version: [0.0.2.dev20240519]
+[2024-05-21 10:04:36] INFO root fetch - processPackages [dekdjtools]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-21 10:04:36] INFO root fetch - processPackages [starrydata]: New version: [1.1.0] Old Version: [1.0.2]
+[2024-05-21 10:04:36] INFO root fetch - processPackages [views-tensor-utilities]: New version: [0.8.6] Old Version: [0.8.5]
+[2024-05-21 10:04:36] INFO root fetch - processPackages [langfun]: Downloading https://files.pythonhosted.org/packages/cb/0a/a2e7b5351e078b75d74772d679e0fe1721e79fe695036f6f73f65a6ecd06/langfun-0.0.2.dev20240519.tar.gz
+[2024-05-21 10:04:36] INFO root fetch - processPackages [ETH-GTD-cli]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-21 10:04:36] INFO root fetch - processPackages [ETH-GTD-cli]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-21 10:04:36] INFO root fetch - processPackages [asknews]: New version: [0.6.4] Old Version: [0.6.3]
+[2024-05-21 10:04:36] INFO root fetch - processPackages [ctfcicd]: New version: [1.2.0] Old Version: [1.1.2]
+[2024-05-21 10:04:36] INFO root fetch - processPackages [starrydata]: Downloading https://files.pythonhosted.org/packages/43/08/e151178e69d817f5a69ac4841e59d13d7c03368c1bc73dd3e5d83b32e6a4/starrydata-1.0.2.tar.gz
+[2024-05-21 10:04:36] INFO root fetch - processPackages [dekdjtools]: Downloading https://files.pythonhosted.org/packages/e4/df/58d5e7aaa205acddbf1ba3c7e480bde075d90f3cf2f9a4ef8b1023fb4c14/dekdjtools-0.1.8.tar.gz
+[2024-05-21 10:04:36] INFO root fetch - processPackages [mapmaker]: New version: [1.6.1] Old Version: [1.6.0]
+[2024-05-21 10:04:36] INFO root fetch - processPackages [views-tensor-utilities]: Downloading https://files.pythonhosted.org/packages/4d/1d/3cbcab602df1da15a970963a3228b3d8680efb686c7fabe34750dbf92824/views_tensor_utilities-0.8.5.tar.gz
+[2024-05-21 10:04:36] INFO root fetch - processPackages [starrydata]: Downloading https://files.pythonhosted.org/packages/f9/1c/79c08b9d0ef9288ec3adb3928156a3d4d063afd81813841824463e4787c5/starrydata-1.1.0.tar.gz
+[2024-05-21 10:04:36] INFO root fetch - processPackages [ETH-GTD-cli]: Downloading https://files.pythonhosted.org/packages/fa/bf/f37225e39cf80233dda242202230d3aa7858202e0130177c173dff3cccac/eth_gtd_cli-0.0.5.tar.gz
+[2024-05-21 10:04:36] INFO root fetch - processPackages [dekdjtools]: Downloading https://files.pythonhosted.org/packages/38/d3/1ea767a7367db4793980cd61bc83abf62a6c7e853f2c1d75e2e4e7070d71/dekdjtools-0.1.9.tar.gz
+[2024-05-21 10:04:36] INFO root fetch - processPackages [ETH-GTD-cli]: Downloading https://files.pythonhosted.org/packages/fa/bf/f37225e39cf80233dda242202230d3aa7858202e0130177c173dff3cccac/eth_gtd_cli-0.0.5.tar.gz
+[2024-05-21 10:04:36] INFO root fetch - processPackages [ctfcicd]: Downloading https://files.pythonhosted.org/packages/7f/22/b9889800feb9c5e1591992fffc3afb718fcb89a7a266dfca42835853dd4d/ctfcicd-1.1.2.tar.gz
+[2024-05-21 10:04:36] INFO root fetch - processPackages [mapmaker]: Downloading https://files.pythonhosted.org/packages/ee/c7/2e050c21b385c2389993297aa3c660b6a28ef9987678f7329084ff966f02/mapmaker-1.6.0.tar.gz
+[2024-05-21 10:04:36] INFO root fetch - processPackages [asknews]: Downloading https://files.pythonhosted.org/packages/89/37/c1ab6ee0e39eeefe79deb23c167d856426441acf416d26c80435dfbe3281/asknews-0.6.3-py3-none-any.whl
+[2024-05-21 10:04:36] INFO root fetch - processPackages [langfun]: Downloading https://files.pythonhosted.org/packages/3c/6c/71908f3390d3a4e9652e4f537142c41748fd18c337a0f1401ec437de96ad/langfun-0.0.2.dev20240520.tar.gz
+[2024-05-21 10:04:36] INFO root fetch - processPackages [starrydata]: executing diffoscope
+[2024-05-21 10:04:36] INFO root fetch - processPackages [starrydata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starrydata-1.0.2.tar.gz tmp/starrydata-1.1.0.tar.gz --markdown 20240521/s/starrydata/1.0.2-1.1.0/README.md --exclude *.pyd
+[2024-05-21 10:04:36] INFO root fetch - processPackages [dekdjtools]: executing diffoscope
+[2024-05-21 10:04:36] INFO root fetch - processPackages [dekdjtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dekdjtools-0.1.8.tar.gz tmp/dekdjtools-0.1.9.tar.gz --markdown 20240521/d/dekdjtools/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-21 10:04:36] INFO root fetch - processPackages [views-tensor-utilities]: Downloading https://files.pythonhosted.org/packages/45/8f/fd1ca614618f84c99fd0a8b5f53b32697919a34c695154ba3ee7198c2fb1/views_tensor_utilities-0.8.6.tar.gz
+[2024-05-21 10:04:36] INFO root fetch - processPackages [ETH-GTD-cli]: Downloading https://files.pythonhosted.org/packages/6a/74/b21a71d538176d49ec154051347ee067a9f4c12f713be212c60f0982d748/eth_gtd_cli-0.0.6.tar.gz
+[2024-05-21 10:04:36] INFO root fetch - processPackages [ETH-GTD-cli]: Downloading https://files.pythonhosted.org/packages/6a/74/b21a71d538176d49ec154051347ee067a9f4c12f713be212c60f0982d748/eth_gtd_cli-0.0.6.tar.gz
+[2024-05-21 10:04:36] INFO root fetch - processPackages [langfun]: executing diffoscope
+[2024-05-21 10:04:36] INFO root fetch - processPackages [langfun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langfun-0.0.2.dev20240519.tar.gz tmp/langfun-0.0.2.dev20240520.tar.gz --markdown 20240521/l/langfun/0.0.2.dev20240519-0.0.2.dev20240520/README.md --exclude *.pyd
+[2024-05-21 10:04:36] INFO root fetch - processPackages [ETH-GTD-cli]: executing diffoscope
+[2024-05-21 10:04:36] INFO root fetch - processPackages [ETH-GTD-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eth_gtd_cli-0.0.5.tar.gz tmp/eth_gtd_cli-0.0.6.tar.gz --markdown 20240521/E/ETH-GTD-cli/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-21 10:04:36] INFO root fetch - processPackages [ETH-GTD-cli]: executing diffoscope
+[2024-05-21 10:04:36] INFO root fetch - processPackages [ETH-GTD-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eth_gtd_cli-0.0.5.tar.gz tmp/eth_gtd_cli-0.0.6.tar.gz --markdown 20240521/E/ETH-GTD-cli/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-21 10:04:36] INFO root fetch - processPackages [ctfcicd]: Downloading https://files.pythonhosted.org/packages/20/23/868e55b73781e6b923b89c082998764d966d52540b008249d250f99dbd29/ctfcicd-1.2.0.tar.gz
+[2024-05-21 10:04:36] INFO root fetch - processPackages [mapmaker]: Downloading https://files.pythonhosted.org/packages/af/e5/10a93d5a0b3b0839b84f5e5a5986f424bba8fb7a2ed1f178ee8511e16fa4/mapmaker-1.6.1.tar.gz
+[2024-05-21 10:04:37] INFO root fetch - processPackages [views-tensor-utilities]: executing diffoscope
+[2024-05-21 10:04:37] INFO root fetch - processPackages [views-tensor-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/views_tensor_utilities-0.8.5.tar.gz tmp/views_tensor_utilities-0.8.6.tar.gz --markdown 20240521/v/views-tensor-utilities/0.8.5-0.8.6/README.md --exclude *.pyd
+[2024-05-21 10:04:37] INFO root fetch - processPackages [asknews]: Downloading https://files.pythonhosted.org/packages/98/98/8805d60301541437ce811c66ed9aa78a8fc96b074922d340008d40d18561/asknews-0.6.4-py3-none-any.whl
+[2024-05-21 10:04:37] INFO root fetch - processPackages [mapmaker]: executing diffoscope
+[2024-05-21 10:04:37] INFO root fetch - processPackages [mapmaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapmaker-1.6.0.tar.gz tmp/mapmaker-1.6.1.tar.gz --markdown 20240521/m/mapmaker/1.6.0-1.6.1/README.md --exclude *.pyd
+[2024-05-21 10:04:37] INFO root fetch - processPackages [asknews]: executing diffoscope
+[2024-05-21 10:04:37] INFO root fetch - processPackages [asknews]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asknews-0.6.3-py3-none-any.whl.zip tmp/asknews-0.6.4-py3-none-any.whl.zip --markdown 20240521/a/asknews/0.6.3-0.6.4/README.md --exclude *.pyd
+[2024-05-21 10:04:37] INFO root fetch - processPackages [ctfcicd]: executing diffoscope
+[2024-05-21 10:04:37] INFO root fetch - processPackages [ctfcicd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctfcicd-1.1.2.tar.gz tmp/ctfcicd-1.2.0.tar.gz --markdown 20240521/c/ctfcicd/1.1.2-1.2.0/README.md --exclude *.pyd
+[2024-05-21 10:04:37] INFO root fetch - processPackages [starrydata]: Remove: archive file [/home/abi/fetcher/tmp/starrydata-1.0.2.tar.gz]
+[2024-05-21 10:04:37] INFO root fetch - processPackages [starrydata]: Remove: archive file [/home/abi/fetcher/tmp/starrydata-1.1.0.tar.gz]
+[2024-05-21 10:04:37] INFO root fetch - main [MainThread]: End processing [starrydata]: success
+[2024-05-21 10:04:38] INFO root fetch - processPackages [ETH-GTD-cli]: Remove: archive file [/home/abi/fetcher/tmp/eth_gtd_cli-0.0.5.tar.gz]
+[2024-05-21 10:04:38] INFO root fetch - processPackages [ETH-GTD-cli]: Remove: archive file [/home/abi/fetcher/tmp/eth_gtd_cli-0.0.6.tar.gz]
+[2024-05-21 10:04:38] INFO root fetch - main [MainThread]: End processing [ETH-GTD-cli]: success
+[2024-05-21 10:04:38] INFO root fetch - processPackages [dekdjtools]: Remove: archive file [/home/abi/fetcher/tmp/dekdjtools-0.1.8.tar.gz]
+[2024-05-21 10:04:38] INFO root fetch - processPackages [dekdjtools]: Remove: archive file [/home/abi/fetcher/tmp/dekdjtools-0.1.9.tar.gz]
+[2024-05-21 10:04:38] INFO root fetch - main [MainThread]: End processing [dekdjtools]: success
+[2024-05-21 10:04:38] INFO root fetch - processPackages [views-tensor-utilities]: Remove: archive file [/home/abi/fetcher/tmp/views_tensor_utilities-0.8.5.tar.gz]
+[2024-05-21 10:04:38] INFO root fetch - processPackages [views-tensor-utilities]: Remove: archive file [/home/abi/fetcher/tmp/views_tensor_utilities-0.8.6.tar.gz]
+[2024-05-21 10:04:38] INFO root fetch - main [MainThread]: End processing [views-tensor-utilities]: success
+[2024-05-21 10:04:38] INFO root fetch - main [MainThread]: End processing [ETH-GTD-cli]: success
+[2024-05-21 10:04:38] INFO root fetch - processPackages [ctfcicd]: Remove: archive file [/home/abi/fetcher/tmp/ctfcicd-1.1.2.tar.gz]
+[2024-05-21 10:04:38] INFO root fetch - processPackages [ctfcicd]: Remove: archive file [/home/abi/fetcher/tmp/ctfcicd-1.2.0.tar.gz]
+[2024-05-21 10:04:38] INFO root fetch - main [MainThread]: End processing [ctfcicd]: success
+[2024-05-21 10:04:38] INFO root fetch - processPackages [asknews]: Remove: archive file [/home/abi/fetcher/tmp/asknews-0.6.3-py3-none-any.whl.zip]
+[2024-05-21 10:04:38] INFO root fetch - processPackages [asknews]: Remove: archive file [/home/abi/fetcher/tmp/asknews-0.6.4-py3-none-any.whl.zip]
+[2024-05-21 10:04:38] INFO root fetch - main [MainThread]: End processing [asknews]: success
+[2024-05-21 10:04:38] INFO root fetch - processPackages [mapmaker]: Remove: archive file [/home/abi/fetcher/tmp/mapmaker-1.6.0.tar.gz]
+[2024-05-21 10:04:38] INFO root fetch - processPackages [mapmaker]: Remove: archive file [/home/abi/fetcher/tmp/mapmaker-1.6.1.tar.gz]
+[2024-05-21 10:04:38] INFO root fetch - main [MainThread]: End processing [mapmaker]: success
+[2024-05-21 10:04:38] INFO root fetch - processPackages [langfun]: Remove: archive file [/home/abi/fetcher/tmp/langfun-0.0.2.dev20240519.tar.gz]
+[2024-05-21 10:04:38] INFO root fetch - processPackages [langfun]: Remove: archive file [/home/abi/fetcher/tmp/langfun-0.0.2.dev20240520.tar.gz]
+[2024-05-21 10:04:38] INFO root fetch - main [MainThread]: End processing [langfun]: success
+[2024-05-21 10:04:38] INFO root fetch - main [MainThread]: Store serial: [23302921]
