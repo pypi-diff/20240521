@@ -16420,3 +16420,54 @@
 [2024-05-21 10:20:02] INFO root fetch - processPackages [thirdai]: Remove: archive file [/home/abi/fetcher/tmp/thirdai-0.8.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-05-21 10:20:02] INFO root fetch - main [MainThread]: End processing [thirdai]: success
 [2024-05-21 10:20:02] INFO root fetch - main [MainThread]: Store serial: [23303066]
+[2024-05-21 10:22:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23303066]
+[2024-05-21 10:22:11] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-21 10:22:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: glances-api
+[2024-05-21 10:22:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: slurpkit
+[2024-05-21 10:22:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qontract-reconcile
+[2024-05-21 10:22:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flickr-photos-api
+[2024-05-21 10:22:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dzidb
+[2024-05-21 10:22:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: views-tensor-utilities
+[2024-05-21 10:22:11] INFO root fetch - processPackages [dzidb]: New version: [1.1] Old Version: [1.0.2]
+[2024-05-21 10:22:11] WARNING root fetch - processPackages [slurpkit]: Skipping, unable to determine old version
+[2024-05-21 10:22:11] INFO root fetch - main [MainThread]: End processing [slurpkit] error
+[2024-05-21 10:22:11] INFO root fetch - processPackages [glances-api]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-05-21 10:22:11] INFO root fetch - processPackages [views-tensor-utilities]: New version: [0.8.6] Old Version: [0.8.5]
+[2024-05-21 10:22:11] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-05-21 10:22:12] INFO root fetch - processPackages [flickr-photos-api]: New version: [2.3.1] Old Version: [2.3.0]
+[2024-05-21 10:22:12] INFO root fetch - processPackages [views-tensor-utilities]: Downloading https://files.pythonhosted.org/packages/4d/1d/3cbcab602df1da15a970963a3228b3d8680efb686c7fabe34750dbf92824/views_tensor_utilities-0.8.5.tar.gz
+[2024-05-21 10:22:12] INFO root fetch - processPackages [glances-api]: Downloading https://files.pythonhosted.org/packages/02/2a/8319c1cb77c49cb73f989906592f795c83731802f5988f8125487fbac188/glances_api-0.6.0.tar.gz
+[2024-05-21 10:22:12] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-05-21 10:22:12] INFO root fetch - processPackages [dzidb]: Downloading https://files.pythonhosted.org/packages/b1/2b/8f2c30abb226fd2c4d375a02f7476b906ff717d0c5931582ec9209df6761/dzidb-1.0.2.tar.gz
+[2024-05-21 10:22:12] INFO root fetch - processPackages [flickr-photos-api]: Downloading https://files.pythonhosted.org/packages/77/b7/03de7cec63746ffdcbdc61c738956ba5c453b8686629cebe700c3768b930/flickr_photos_api-2.3.0.tar.gz
+[2024-05-21 10:22:12] INFO root fetch - processPackages [glances-api]: Downloading https://files.pythonhosted.org/packages/ba/6c/6b055e3e5589b002ac3c35b8bb9bcde4fcbeb9deb04a759ba303d0131b8e/glances_api-0.7.0-py3-none-any.whl
+[2024-05-21 10:22:12] INFO root fetch - processPackages [views-tensor-utilities]: Downloading https://files.pythonhosted.org/packages/45/8f/fd1ca614618f84c99fd0a8b5f53b32697919a34c695154ba3ee7198c2fb1/views_tensor_utilities-0.8.6.tar.gz
+[2024-05-21 10:22:12] INFO root fetch - processPackages [dzidb]: Downloading https://files.pythonhosted.org/packages/ab/7b/1eb783cec2be6c8f5f50400132b6afae58c752421a84c34ef92cb658707b/dzidb-1.1.tar.gz
+[2024-05-21 10:22:12] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-05-21 10:22:12] INFO root fetch - processPackages [glances-api]: executing diffoscope
+[2024-05-21 10:22:12] INFO root fetch - processPackages [glances-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glances_api-0.6.0.tar.gz tmp/glances_api-0.7.0-py3-none-any.whl.zip --markdown 20240521/g/glances-api/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-05-21 10:22:12] INFO root fetch - processPackages [views-tensor-utilities]: executing diffoscope
+[2024-05-21 10:22:12] INFO root fetch - processPackages [views-tensor-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/views_tensor_utilities-0.8.5.tar.gz tmp/views_tensor_utilities-0.8.6.tar.gz --markdown 20240521/v/views-tensor-utilities/0.8.5-0.8.6/README.md --exclude *.pyd
+[2024-05-21 10:22:12] INFO root fetch - processPackages [dzidb]: executing diffoscope
+[2024-05-21 10:22:12] INFO root fetch - processPackages [dzidb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dzidb-1.0.2.tar.gz tmp/dzidb-1.1.tar.gz --markdown 20240521/d/dzidb/1.0.2-1.1/README.md --exclude *.pyd
+[2024-05-21 10:22:12] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-05-21 10:22:12] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240521/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-05-21 10:22:12] INFO root fetch - processPackages [flickr-photos-api]: Downloading https://files.pythonhosted.org/packages/a7/5c/2d78b762c95a7a30b98dcd54be1793da7d8401bb94643afe6d75bafc8556/flickr_photos_api-2.3.1.tar.gz
+[2024-05-21 10:22:12] INFO root fetch - processPackages [flickr-photos-api]: executing diffoscope
+[2024-05-21 10:22:12] INFO root fetch - processPackages [flickr-photos-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flickr_photos_api-2.3.0.tar.gz tmp/flickr_photos_api-2.3.1.tar.gz --markdown 20240521/f/flickr-photos-api/2.3.0-2.3.1/README.md --exclude *.pyd
+[2024-05-21 10:22:13] INFO root fetch - processPackages [glances-api]: Remove: archive file [/home/abi/fetcher/tmp/glances_api-0.6.0.tar.gz]
+[2024-05-21 10:22:13] INFO root fetch - processPackages [glances-api]: Remove: archive file [/home/abi/fetcher/tmp/glances_api-0.7.0-py3-none-any.whl.zip]
+[2024-05-21 10:22:13] INFO root fetch - main [MainThread]: End processing [glances-api]: success
+[2024-05-21 10:22:13] INFO root fetch - processPackages [dzidb]: Remove: archive file [/home/abi/fetcher/tmp/dzidb-1.0.2.tar.gz]
+[2024-05-21 10:22:13] INFO root fetch - processPackages [dzidb]: Remove: archive file [/home/abi/fetcher/tmp/dzidb-1.1.tar.gz]
+[2024-05-21 10:22:13] INFO root fetch - main [MainThread]: End processing [dzidb]: success
+[2024-05-21 10:22:13] INFO root fetch - processPackages [views-tensor-utilities]: Remove: archive file [/home/abi/fetcher/tmp/views_tensor_utilities-0.8.5.tar.gz]
+[2024-05-21 10:22:13] INFO root fetch - processPackages [views-tensor-utilities]: Remove: archive file [/home/abi/fetcher/tmp/views_tensor_utilities-0.8.6.tar.gz]
+[2024-05-21 10:22:13] INFO root fetch - main [MainThread]: End processing [views-tensor-utilities]: success
+[2024-05-21 10:22:13] INFO root fetch - processPackages [flickr-photos-api]: Remove: archive file [/home/abi/fetcher/tmp/flickr_photos_api-2.3.0.tar.gz]
+[2024-05-21 10:22:13] INFO root fetch - processPackages [flickr-photos-api]: Remove: archive file [/home/abi/fetcher/tmp/flickr_photos_api-2.3.1.tar.gz]
+[2024-05-21 10:22:13] INFO root fetch - main [MainThread]: End processing [flickr-photos-api]: success
+[2024-05-21 10:22:15] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-05-21 10:22:15] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-05-21 10:22:15] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-05-21 10:22:15] INFO root fetch - main [MainThread]: Store serial: [23303092]
