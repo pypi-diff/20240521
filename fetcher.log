@@ -10879,3 +10879,15 @@
 [2024-05-21 06:23:33] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_helpdesk_mgmt-16.0.2.2.2.4-py3-none-any.whl.zip]
 [2024-05-21 06:23:33] INFO root fetch - main [MainThread]: End processing [odoo-addon-helpdesk-mgmt]: success
 [2024-05-21 06:23:33] INFO root fetch - main [MainThread]: Store serial: [23300969]
+[2024-05-21 06:25:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23300969]
+[2024-05-21 06:25:42] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-21 06:25:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-auth0
+[2024-05-21 06:25:42] INFO root fetch - processPackages [pulumi-auth0]: New version: [3.4.0a1716264620] Old Version: [3.4.0a1715922834]
+[2024-05-21 06:25:42] INFO root fetch - processPackages [pulumi-auth0]: Downloading https://files.pythonhosted.org/packages/56/d4/4b047548ff0646c44b7b1c5d2dd988a7638a99748290e9ec16868b3ec319/pulumi_auth0-3.4.0a1715922834.tar.gz
+[2024-05-21 06:25:42] INFO root fetch - processPackages [pulumi-auth0]: Downloading https://files.pythonhosted.org/packages/83/f3/877e9d46626fb57b9e7d4ae57bd7f68dc9d8c6be50810cf2957909fde277/pulumi_auth0-3.4.0a1716264620.tar.gz
+[2024-05-21 06:25:42] INFO root fetch - processPackages [pulumi-auth0]: executing diffoscope
+[2024-05-21 06:25:42] INFO root fetch - processPackages [pulumi-auth0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_auth0-3.4.0a1715922834.tar.gz tmp/pulumi_auth0-3.4.0a1716264620.tar.gz --markdown 20240521/p/pulumi-auth0/3.4.0a1715922834-3.4.0a1716264620/README.md --exclude *.pyd
+[2024-05-21 06:25:43] INFO root fetch - processPackages [pulumi-auth0]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_auth0-3.4.0a1715922834.tar.gz]
+[2024-05-21 06:25:43] INFO root fetch - processPackages [pulumi-auth0]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_auth0-3.4.0a1716264620.tar.gz]
+[2024-05-21 06:25:43] INFO root fetch - main [MainThread]: End processing [pulumi-auth0]: success
+[2024-05-21 06:25:43] INFO root fetch - main [MainThread]: Store serial: [23300972]
