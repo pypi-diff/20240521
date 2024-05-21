@@ -7642,3 +7642,27 @@
 [2024-05-21 03:45:33] INFO root fetch - processPackages [spark-ai-python]: Remove: archive file [/home/abi/fetcher/tmp/spark_ai_python-0.3.9.tar.gz]
 [2024-05-21 03:45:33] INFO root fetch - main [MainThread]: End processing [spark-ai-python]: success
 [2024-05-21 03:45:33] INFO root fetch - main [MainThread]: Store serial: [23299606]
+[2024-05-21 03:47:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23299606]
+[2024-05-21 03:47:41] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-21 03:47:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spark-ai-python
+[2024-05-21 03:47:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: opvious
+[2024-05-21 03:47:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: paquete-prueba-rms
+[2024-05-21 03:47:41] INFO root fetch - processPackages [spark-ai-python]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-21 03:47:41] INFO root fetch - processPackages [spark-ai-python]: Downloading https://files.pythonhosted.org/packages/f4/fb/add24d391c9e74bdc54b217e18d2a6003fb4db73d26fd757acf24fc284b0/spark_ai_python-0.3.8.tar.gz
+[2024-05-21 03:47:41] WARNING root fetch - processPackages [paquete-prueba-rms]: Skipping, unable to determine old version
+[2024-05-21 03:47:41] INFO root fetch - main [MainThread]: End processing [paquete-prueba-rms] error
+[2024-05-21 03:47:41] INFO root fetch - processPackages [opvious]: New version: [0.9.6] Old Version: [0.9.5]
+[2024-05-21 03:47:42] INFO root fetch - processPackages [spark-ai-python]: Downloading https://files.pythonhosted.org/packages/9c/8f/839a31dcb40a663647214e2c2a849dd29aba055b051276318cae0b879c67/spark_ai_python-0.3.9.tar.gz
+[2024-05-21 03:47:42] INFO root fetch - processPackages [opvious]: Downloading https://files.pythonhosted.org/packages/d1/8f/b7e05d9b24e4dd1af2b9eab96fa7d1f97af088ed0836d9d8cfdb60c51360/opvious-0.9.5.tar.gz
+[2024-05-21 03:47:42] INFO root fetch - processPackages [spark-ai-python]: executing diffoscope
+[2024-05-21 03:47:42] INFO root fetch - processPackages [spark-ai-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark_ai_python-0.3.8.tar.gz tmp/spark_ai_python-0.3.9.tar.gz --markdown 20240521/s/spark-ai-python/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-21 03:47:42] INFO root fetch - processPackages [opvious]: Downloading https://files.pythonhosted.org/packages/c2/c3/e2b95ca71e91eb624497389cb2391d3310907b4f9f25dee1a75b99798c14/opvious-0.9.6.tar.gz
+[2024-05-21 03:47:42] INFO root fetch - processPackages [opvious]: executing diffoscope
+[2024-05-21 03:47:42] INFO root fetch - processPackages [opvious]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opvious-0.9.5.tar.gz tmp/opvious-0.9.6.tar.gz --markdown 20240521/o/opvious/0.9.5-0.9.6/README.md --exclude *.pyd
+[2024-05-21 03:47:43] INFO root fetch - processPackages [spark-ai-python]: Remove: archive file [/home/abi/fetcher/tmp/spark_ai_python-0.3.8.tar.gz]
+[2024-05-21 03:47:43] INFO root fetch - processPackages [spark-ai-python]: Remove: archive file [/home/abi/fetcher/tmp/spark_ai_python-0.3.9.tar.gz]
+[2024-05-21 03:47:43] INFO root fetch - main [MainThread]: End processing [spark-ai-python]: success
+[2024-05-21 03:47:43] INFO root fetch - processPackages [opvious]: Remove: archive file [/home/abi/fetcher/tmp/opvious-0.9.5.tar.gz]
+[2024-05-21 03:47:43] INFO root fetch - processPackages [opvious]: Remove: archive file [/home/abi/fetcher/tmp/opvious-0.9.6.tar.gz]
+[2024-05-21 03:47:43] INFO root fetch - main [MainThread]: End processing [opvious]: success
+[2024-05-21 03:47:43] INFO root fetch - main [MainThread]: Store serial: [23299618]
