@@ -20586,3 +20586,104 @@
 [2024-05-21 12:35:56] INFO root fetch - processPackages [snowddl]: Remove: archive file [/home/abi/fetcher/tmp/snowddl-0.9.9.tar.gz]
 [2024-05-21 12:35:56] INFO root fetch - main [MainThread]: End processing [snowddl]: success
 [2024-05-21 12:35:56] INFO root fetch - main [MainThread]: Store serial: [23304786]
+[2024-05-21 12:38:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23304786]
+[2024-05-21 12:38:05] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-21 12:38:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-azuread
+[2024-05-21 12:38:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: s3p-sdk
+[2024-05-21 12:38:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: buzz-client
+[2024-05-21 12:38:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bartesdk
+[2024-05-21 12:38:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: c2cgeoportal-commons
+[2024-05-21 12:38:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: c2cgeoportal-geoportal
+[2024-05-21 12:38:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: c2cgeoportal-admin
+[2024-05-21 12:38:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: datasiphon
+[2024-05-21 12:38:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: elorus
+[2024-05-21 12:38:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyodre
+[2024-05-21 12:38:06] INFO root fetch - processPackages [bartesdk]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-21 12:38:06] INFO root fetch - processPackages [buzz-client]: New version: [1.0.4a0] Old Version: [1.0.3b0]
+[2024-05-21 12:38:06] INFO root fetch - processPackages [datasiphon]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-05-21 12:38:06] INFO root fetch - processPackages [bartesdk]: Downloading https://files.pythonhosted.org/packages/28/24/d202025463245fdc4e3940f9351241ff18dbc351a6b2872c310f6f42c8b5/BarteSDK-0.1.7.tar.gz
+[2024-05-21 12:38:06] INFO root fetch - processPackages [buzz-client]: Downloading https://files.pythonhosted.org/packages/32/f4/dc12adae47ac2518f6ea60c6efb81ea052e39a3404d6979efcb9962f9b62/buzz_client-1.0.3b0.tar.gz
+[2024-05-21 12:38:06] INFO root fetch - processPackages [datasiphon]: Downloading https://files.pythonhosted.org/packages/3d/3e/9ab84f21d2abc4c1aa7b0acc36c93576744972f3c889ff7cdda5078cd894/datasiphon-0.2.6.tar.gz
+[2024-05-21 12:38:06] WARNING root fetch - processPackages [elorus]: Skipping, unable to determine old version
+[2024-05-21 12:38:06] INFO root fetch - processPackages [elorus]: Start processing: DLMS-SPODES
+[2024-05-21 12:38:06] INFO root fetch - main [MainThread]: End processing [elorus] error
+[2024-05-21 12:38:06] INFO root fetch - processPackages [pulumi-azuread]: New version: [5.9.0a1637590268] Old Version: [5.9.0]
+[2024-05-21 12:38:06] INFO root fetch - processPackages [pyodre]: New version: [0.0.4] Old Version: [0.0.2]
+[2024-05-21 12:38:06] INFO root fetch - processPackages [c2cgeoportal-commons]: New version: [2.8.1.94] Old Version: [2.8.1.93]
+[2024-05-21 12:38:06] INFO root fetch - processPackages [c2cgeoportal-geoportal]: New version: [2.8.1.94] Old Version: [2.8.1.93]
+[2024-05-21 12:38:06] INFO root fetch - processPackages [c2cgeoportal-admin]: New version: [2.8.1.94] Old Version: [2.8.1.93]
+[2024-05-21 12:38:06] INFO root fetch - processPackages [s3p-sdk]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-21 12:38:06] INFO root fetch - processPackages [DLMS-SPODES]: New version: [0.9.0] Old Version: [0.8.3]
+[2024-05-21 12:38:06] INFO root fetch - processPackages [DLMS-SPODES]: Downloading https://files.pythonhosted.org/packages/97/e2/60be495fca055220080de90e294b2c16ad5a60ea6485cdee969131f05bf4/DLMS_SPODES-0.8.3.tar.gz
+[2024-05-21 12:38:06] INFO root fetch - processPackages [bartesdk]: Downloading https://files.pythonhosted.org/packages/1c/24/f265a111f10a855a327643e87273d1f3ba56190ad02e0175f3b5b6319e4c/bartesdk-0.1.8.tar.gz
+[2024-05-21 12:38:06] ERROR root fetch - processPackages [buzz-client]: Unable to fetch info: No such project/version 'buzz-client' 1.0.4a0
+[2024-05-21 12:38:06] INFO root fetch - processPackages [buzz-client]: Start processing: matrix-synapse
+[2024-05-21 12:38:06] INFO root fetch - main [MainThread]: End processing [buzz-client] error
+[2024-05-21 12:38:06] INFO root fetch - processPackages [pulumi-azuread]: Downloading https://files.pythonhosted.org/packages/f4/f7/ac3012c15949ee976d13803f93ece9979adca66c4e8ad22f982d9ef2bd26/pulumi_azuread-5.9.0.tar.gz
+[2024-05-21 12:38:06] INFO root fetch - processPackages [pyodre]: Downloading https://files.pythonhosted.org/packages/64/bc/74d3e73a098f32756131a1ca3221ae11ba00a8f9ad91a9b306e703966c40/pyodre-0.0.2.tar.gz
+[2024-05-21 12:38:06] INFO root fetch - processPackages [c2cgeoportal-commons]: Downloading https://files.pythonhosted.org/packages/53/74/196718101e2f066cdc29d0d6434bc12271b14c70362816fe9055060ebd98/c2cgeoportal_commons-2.8.1.93-py3-none-any.whl
+[2024-05-21 12:38:06] INFO root fetch - processPackages [c2cgeoportal-geoportal]: Downloading https://files.pythonhosted.org/packages/35/75/74c97238634dfd2ace1a1e31bac11869a87663a5722e28366bd5dce5b043/c2cgeoportal_geoportal-2.8.1.93-py2.py3-none-any.whl
+[2024-05-21 12:38:06] INFO root fetch - processPackages [c2cgeoportal-admin]: Downloading https://files.pythonhosted.org/packages/c8/30/4cc556a2f9f1c53a30b98914d6d6208d3fd51cf5d3733c400e76ea089d2d/c2cgeoportal_admin-2.8.1.93-py3-none-any.whl
+[2024-05-21 12:38:06] INFO root fetch - processPackages [s3p-sdk]: Downloading https://files.pythonhosted.org/packages/a8/b0/e74f085e28cbac8ded2d54ce6edc848187c8b12ed21d7d876541cdb5ab73/s3p_sdk-0.1.1.tar.gz
+[2024-05-21 12:38:06] INFO root fetch - processPackages [bartesdk]: executing diffoscope
+[2024-05-21 12:38:06] INFO root fetch - processPackages [bartesdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BarteSDK-0.1.7.tar.gz tmp/bartesdk-0.1.8.tar.gz --markdown 20240521/b/bartesdk/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-21 12:38:06] INFO root fetch - processPackages [matrix-synapse]: New version: [1.99.0rc1] Old Version: [1.99.0]
+[2024-05-21 12:38:06] INFO root fetch - processPackages [DLMS-SPODES]: Downloading https://files.pythonhosted.org/packages/78/a8/0e1e9fd1aa9750b28e12462781d408863affaeb92dbdb8c020b6d3078e67/DLMS_SPODES-0.9.0.tar.gz
+[2024-05-21 12:38:06] INFO root fetch - processPackages [datasiphon]: Downloading https://files.pythonhosted.org/packages/ce/c5/b7f6ec9b312f5d053667524ffacbcc2b7719f6c732ab5852c079c2f82338/datasiphon-0.2.7.tar.gz
+[2024-05-21 12:38:06] INFO root fetch - processPackages [pyodre]: Downloading https://files.pythonhosted.org/packages/fa/6c/52b69d6cfdfb2bac57e2a8c04e07d7d83c08a43d37c8a7f2c2512978051d/pyodre-0.0.4.tar.gz
+[2024-05-21 12:38:06] INFO root fetch - processPackages [DLMS-SPODES]: executing diffoscope
+[2024-05-21 12:38:06] INFO root fetch - processPackages [DLMS-SPODES]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_SPODES-0.8.3.tar.gz tmp/DLMS_SPODES-0.9.0.tar.gz --markdown 20240521/D/DLMS-SPODES/0.8.3-0.9.0/README.md --exclude *.pyd
+[2024-05-21 12:38:06] INFO root fetch - processPackages [datasiphon]: executing diffoscope
+[2024-05-21 12:38:06] INFO root fetch - processPackages [datasiphon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasiphon-0.2.6.tar.gz tmp/datasiphon-0.2.7.tar.gz --markdown 20240521/d/datasiphon/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-05-21 12:38:06] INFO root fetch - processPackages [matrix-synapse]: Downloading https://files.pythonhosted.org/packages/89/f5/eb0e715c71186843043051dac9dd76aaf56f228421b93d18f9114c85f4a8/matrix_synapse-1.99.0.tar.gz
+[2024-05-21 12:38:06] INFO root fetch - processPackages [c2cgeoportal-commons]: Downloading https://files.pythonhosted.org/packages/7a/a5/278f87913db47c703bc0a57c1798acca5c99e9558715269af2dbf0464df6/c2cgeoportal_commons-2.8.1.94-py3-none-any.whl
+[2024-05-21 12:38:06] INFO root fetch - processPackages [s3p-sdk]: Downloading https://files.pythonhosted.org/packages/1f/ea/ce4f1bd9ab862f8fceff7c0e1e33ea4af9c7879c2deb5ff64b875b02d867/s3p_sdk-0.1.2.tar.gz
+[2024-05-21 12:38:07] INFO root fetch - processPackages [c2cgeoportal-admin]: Downloading https://files.pythonhosted.org/packages/44/9e/ed9414db135a3fc7b4d492fd5b51ba5251b380d67642cbf19135e257af51/c2cgeoportal_admin-2.8.1.94-py3-none-any.whl
+[2024-05-21 12:38:07] INFO root fetch - processPackages [pulumi-azuread]: Downloading https://files.pythonhosted.org/packages/80/14/c6fa237dd848e602cd45db3de0b2cd017ce8857a3e21b8e9a3802d60ebbb/pulumi_azuread-5.9.0a1637590268.tar.gz
+[2024-05-21 12:38:07] INFO root fetch - processPackages [s3p-sdk]: executing diffoscope
+[2024-05-21 12:38:07] INFO root fetch - processPackages [c2cgeoportal-commons]: executing diffoscope
+[2024-05-21 12:38:07] INFO root fetch - processPackages [s3p-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s3p_sdk-0.1.1.tar.gz tmp/s3p_sdk-0.1.2.tar.gz --markdown 20240521/s/s3p-sdk/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-21 12:38:07] INFO root fetch - processPackages [c2cgeoportal-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cgeoportal_commons-2.8.1.93-py3-none-any.whl.zip tmp/c2cgeoportal_commons-2.8.1.94-py3-none-any.whl.zip --markdown 20240521/c/c2cgeoportal-commons/2.8.1.93-2.8.1.94/README.md --exclude *.pyd
+[2024-05-21 12:38:07] INFO root fetch - processPackages [pyodre]: executing diffoscope
+[2024-05-21 12:38:07] INFO root fetch - processPackages [c2cgeoportal-geoportal]: Downloading https://files.pythonhosted.org/packages/a6/ac/e5689b621f876a934c05abe2c4583865c7c8bb2764ce253fae12da66d67a/c2cgeoportal_geoportal-2.8.1.94-py2.py3-none-any.whl
+[2024-05-21 12:38:07] INFO root fetch - processPackages [pyodre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyodre-0.0.2.tar.gz tmp/pyodre-0.0.4.tar.gz --markdown 20240521/p/pyodre/0.0.2-0.0.4/README.md --exclude *.pyd
+[2024-05-21 12:38:07] INFO root fetch - processPackages [pulumi-azuread]: executing diffoscope
+[2024-05-21 12:38:07] INFO root fetch - processPackages [pulumi-azuread]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_azuread-5.9.0.tar.gz tmp/pulumi_azuread-5.9.0a1637590268.tar.gz --markdown 20240521/p/pulumi-azuread/5.9.0-5.9.0a1637590268/README.md --exclude *.pyd
+[2024-05-21 12:38:07] INFO root fetch - processPackages [c2cgeoportal-admin]: executing diffoscope
+[2024-05-21 12:38:07] INFO root fetch - processPackages [c2cgeoportal-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cgeoportal_admin-2.8.1.93-py3-none-any.whl.zip tmp/c2cgeoportal_admin-2.8.1.94-py3-none-any.whl.zip --markdown 20240521/c/c2cgeoportal-admin/2.8.1.93-2.8.1.94/README.md --exclude *.pyd
+[2024-05-21 12:38:07] INFO root fetch - processPackages [bartesdk]: Remove: archive file [/home/abi/fetcher/tmp/BarteSDK-0.1.7.tar.gz]
+[2024-05-21 12:38:07] INFO root fetch - processPackages [bartesdk]: Remove: archive file [/home/abi/fetcher/tmp/bartesdk-0.1.8.tar.gz]
+[2024-05-21 12:38:07] INFO root fetch - main [MainThread]: End processing [bartesdk]: success
+[2024-05-21 12:38:07] INFO root fetch - processPackages [c2cgeoportal-geoportal]: executing diffoscope
+[2024-05-21 12:38:07] INFO root fetch - processPackages [c2cgeoportal-geoportal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cgeoportal_geoportal-2.8.1.93-py2.py3-none-any.whl.zip tmp/c2cgeoportal_geoportal-2.8.1.94-py2.py3-none-any.whl.zip --markdown 20240521/c/c2cgeoportal-geoportal/2.8.1.93-2.8.1.94/README.md --exclude *.pyd
+[2024-05-21 12:38:07] INFO root fetch - processPackages [datasiphon]: Remove: archive file [/home/abi/fetcher/tmp/datasiphon-0.2.6.tar.gz]
+[2024-05-21 12:38:07] INFO root fetch - processPackages [datasiphon]: Remove: archive file [/home/abi/fetcher/tmp/datasiphon-0.2.7.tar.gz]
+[2024-05-21 12:38:07] INFO root fetch - main [MainThread]: End processing [datasiphon]: success
+[2024-05-21 12:38:07] INFO root fetch - processPackages [pyodre]: Remove: archive file [/home/abi/fetcher/tmp/pyodre-0.0.2.tar.gz]
+[2024-05-21 12:38:07] INFO root fetch - processPackages [pyodre]: Remove: archive file [/home/abi/fetcher/tmp/pyodre-0.0.4.tar.gz]
+[2024-05-21 12:38:07] INFO root fetch - main [MainThread]: End processing [pyodre]: success
+[2024-05-21 12:38:08] INFO root fetch - processPackages [s3p-sdk]: Remove: archive file [/home/abi/fetcher/tmp/s3p_sdk-0.1.1.tar.gz]
+[2024-05-21 12:38:08] INFO root fetch - processPackages [s3p-sdk]: Remove: archive file [/home/abi/fetcher/tmp/s3p_sdk-0.1.2.tar.gz]
+[2024-05-21 12:38:08] INFO root fetch - main [MainThread]: End processing [s3p-sdk]: success
+[2024-05-21 12:38:08] INFO root fetch - processPackages [DLMS-SPODES]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES-0.8.3.tar.gz]
+[2024-05-21 12:38:08] INFO root fetch - processPackages [DLMS-SPODES]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES-0.9.0.tar.gz]
+[2024-05-21 12:38:08] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES]: success
+[2024-05-21 12:38:08] INFO root fetch - processPackages [c2cgeoportal-commons]: Remove: archive file [/home/abi/fetcher/tmp/c2cgeoportal_commons-2.8.1.93-py3-none-any.whl.zip]
+[2024-05-21 12:38:08] INFO root fetch - processPackages [c2cgeoportal-commons]: Remove: archive file [/home/abi/fetcher/tmp/c2cgeoportal_commons-2.8.1.94-py3-none-any.whl.zip]
+[2024-05-21 12:38:08] INFO root fetch - main [MainThread]: End processing [c2cgeoportal-commons]: success
+[2024-05-21 12:38:08] INFO root fetch - processPackages [c2cgeoportal-admin]: Remove: archive file [/home/abi/fetcher/tmp/c2cgeoportal_admin-2.8.1.93-py3-none-any.whl.zip]
+[2024-05-21 12:38:08] INFO root fetch - processPackages [c2cgeoportal-admin]: Remove: archive file [/home/abi/fetcher/tmp/c2cgeoportal_admin-2.8.1.94-py3-none-any.whl.zip]
+[2024-05-21 12:38:08] INFO root fetch - main [MainThread]: End processing [c2cgeoportal-admin]: success
+[2024-05-21 12:38:08] INFO root fetch - processPackages [pulumi-azuread]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuread-5.9.0.tar.gz]
+[2024-05-21 12:38:08] INFO root fetch - processPackages [pulumi-azuread]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuread-5.9.0a1637590268.tar.gz]
+[2024-05-21 12:38:08] INFO root fetch - main [MainThread]: End processing [pulumi-azuread]: success
+[2024-05-21 12:38:08] INFO root fetch - processPackages [c2cgeoportal-geoportal]: Remove: archive file [/home/abi/fetcher/tmp/c2cgeoportal_geoportal-2.8.1.93-py2.py3-none-any.whl.zip]
+[2024-05-21 12:38:08] INFO root fetch - processPackages [c2cgeoportal-geoportal]: Remove: archive file [/home/abi/fetcher/tmp/c2cgeoportal_geoportal-2.8.1.94-py2.py3-none-any.whl.zip]
+[2024-05-21 12:38:08] INFO root fetch - main [MainThread]: End processing [c2cgeoportal-geoportal]: success
+[2024-05-21 12:38:20] INFO root fetch - processPackages [matrix-synapse]: Downloading https://files.pythonhosted.org/packages/6c/fe/e273f8c35c77d2559df0eb252ceb34aceeae5d58b419a6d799ef16b52792/matrix_synapse-1.99.0rc1.tar.gz
+[2024-05-21 12:38:45] INFO root fetch - processPackages [matrix-synapse]: executing diffoscope
+[2024-05-21 12:38:45] INFO root fetch - processPackages [matrix-synapse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matrix_synapse-1.99.0.tar.gz tmp/matrix_synapse-1.99.0rc1.tar.gz --markdown 20240521/m/matrix-synapse/1.99.0-1.99.0rc1/README.md --exclude *.pyd
+[2024-05-21 12:38:52] INFO root fetch - processPackages [matrix-synapse]: Remove: archive file [/home/abi/fetcher/tmp/matrix_synapse-1.99.0.tar.gz]
+[2024-05-21 12:38:52] INFO root fetch - processPackages [matrix-synapse]: Remove: archive file [/home/abi/fetcher/tmp/matrix_synapse-1.99.0rc1.tar.gz]
+[2024-05-21 12:38:52] INFO root fetch - main [MainThread]: End processing [matrix-synapse]: success
+[2024-05-21 12:38:52] INFO root fetch - main [MainThread]: Store serial: [23304822]
