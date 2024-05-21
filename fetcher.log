@@ -9237,3 +9237,45 @@
 [2024-05-21 05:21:24] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-3.3.3.dev2024052003.tar.gz]
 [2024-05-21 05:21:24] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
 [2024-05-21 05:21:24] INFO root fetch - main [MainThread]: Store serial: [23300442]
+[2024-05-21 05:23:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23300442]
+[2024-05-21 05:23:33] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-21 05:23:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xcloudforlinux
+[2024-05-21 05:23:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pandorasim
+[2024-05-21 05:23:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: blue-plugin
+[2024-05-21 05:23:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-business-requirement
+[2024-05-21 05:23:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: blue-plugin
+[2024-05-21 05:23:33] INFO root fetch - processPackages [blue-plugin]: New version: [3.35.1] Old Version: [3.34.1]
+[2024-05-21 05:23:33] INFO root fetch - processPackages [blue-plugin]: New version: [3.35.1] Old Version: [3.34.1]
+[2024-05-21 05:23:33] INFO root fetch - processPackages [xcloudforlinux]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-21 05:23:34] INFO root fetch - processPackages [odoo14-addon-business-requirement]: New version: [14.0.1.2.2.dev2] Old Version: [14.0.1.2.2.dev1]
+[2024-05-21 05:23:34] INFO root fetch - processPackages [pandorasim]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-21 05:23:34] INFO root fetch - processPackages [xcloudforlinux]: Downloading https://files.pythonhosted.org/packages/83/64/e3cf245778061439202d6a0446e173fd9c00904ac43a4951ac849b083b43/xcloudforlinux-0.3.0.tar.gz
+[2024-05-21 05:23:34] INFO root fetch - processPackages [blue-plugin]: Downloading https://files.pythonhosted.org/packages/34/89/e056a3580886a8ebca30d9bcbb0dfcaefafd918c77e7310c1d5db23a2571/blue_plugin-3.34.1.tar.gz
+[2024-05-21 05:23:34] INFO root fetch - processPackages [blue-plugin]: Downloading https://files.pythonhosted.org/packages/34/89/e056a3580886a8ebca30d9bcbb0dfcaefafd918c77e7310c1d5db23a2571/blue_plugin-3.34.1.tar.gz
+[2024-05-21 05:23:34] INFO root fetch - processPackages [odoo14-addon-business-requirement]: Downloading https://files.pythonhosted.org/packages/59/95/92b0b7faf9524c28142f7ef2d21c88ed0279763a8b9ab796cad69a0200dd/odoo14_addon_business_requirement-14.0.1.2.2.dev1-py3-none-any.whl
+[2024-05-21 05:23:34] INFO root fetch - processPackages [pandorasim]: Downloading https://files.pythonhosted.org/packages/d9/71/f3096bad410f187577ea9639ce3e2c33e8638a46620520f09e9cc308b87f/pandorasim-1.0.0.tar.gz
+[2024-05-21 05:23:34] WARNING root fetch - processPackages [pandorasim]: Skipping package: exceeds size limit 24501180>=10485760
+[2024-05-21 05:23:34] INFO root fetch - main [MainThread]: End processing [pandorasim] error
+[2024-05-21 05:23:34] INFO root fetch - processPackages [blue-plugin]: Downloading https://files.pythonhosted.org/packages/59/16/f18c2538bee1fe96ed2be45d81d0e033c47f8b9da875f24142103feb6e88/blue_plugin-3.35.1.tar.gz
+[2024-05-21 05:23:34] INFO root fetch - processPackages [blue-plugin]: Downloading https://files.pythonhosted.org/packages/59/16/f18c2538bee1fe96ed2be45d81d0e033c47f8b9da875f24142103feb6e88/blue_plugin-3.35.1.tar.gz
+[2024-05-21 05:23:34] INFO root fetch - processPackages [blue-plugin]: executing diffoscope
+[2024-05-21 05:23:34] INFO root fetch - processPackages [blue-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blue_plugin-3.34.1.tar.gz tmp/blue_plugin-3.35.1.tar.gz --markdown 20240521/b/blue-plugin/3.34.1-3.35.1/README.md --exclude *.pyd
+[2024-05-21 05:23:34] INFO root fetch - processPackages [blue-plugin]: executing diffoscope
+[2024-05-21 05:23:34] INFO root fetch - processPackages [blue-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blue_plugin-3.34.1.tar.gz tmp/blue_plugin-3.35.1.tar.gz --markdown 20240521/b/blue-plugin/3.34.1-3.35.1/README.md --exclude *.pyd
+[2024-05-21 05:23:34] INFO root fetch - processPackages [xcloudforlinux]: Downloading https://files.pythonhosted.org/packages/bc/ad/47f5a8953962359bae886906ec6206546adf638c6c2f1c9e04a08efb2399/xcloudforlinux-0.3.1.tar.gz
+[2024-05-21 05:23:34] INFO root fetch - processPackages [odoo14-addon-business-requirement]: Downloading https://files.pythonhosted.org/packages/2b/7c/a23f8eafcbc02717d709d8f931f240f8710d46b470240f718e2894c93264/odoo14_addon_business_requirement-14.0.1.2.2.dev2-py3-none-any.whl
+[2024-05-21 05:23:34] INFO root fetch - processPackages [xcloudforlinux]: executing diffoscope
+[2024-05-21 05:23:34] INFO root fetch - processPackages [xcloudforlinux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xcloudforlinux-0.3.0.tar.gz tmp/xcloudforlinux-0.3.1.tar.gz --markdown 20240521/x/xcloudforlinux/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-21 05:23:35] INFO root fetch - processPackages [odoo14-addon-business-requirement]: executing diffoscope
+[2024-05-21 05:23:35] INFO root fetch - processPackages [odoo14-addon-business-requirement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_business_requirement-14.0.1.2.2.dev1-py3-none-any.whl.zip tmp/odoo14_addon_business_requirement-14.0.1.2.2.dev2-py3-none-any.whl.zip --markdown 20240521/o/odoo14-addon-business-requirement/14.0.1.2.2.dev1-14.0.1.2.2.dev2/README.md --exclude *.pyd
+[2024-05-21 05:23:35] INFO root fetch - processPackages [blue-plugin]: Remove: archive file [/home/abi/fetcher/tmp/blue_plugin-3.34.1.tar.gz]
+[2024-05-21 05:23:35] INFO root fetch - processPackages [blue-plugin]: Remove: archive file [/home/abi/fetcher/tmp/blue_plugin-3.35.1.tar.gz]
+[2024-05-21 05:23:35] INFO root fetch - main [MainThread]: End processing [blue-plugin]: success
+[2024-05-21 05:23:35] INFO root fetch - main [MainThread]: End processing [blue-plugin]: success
+[2024-05-21 05:23:35] INFO root fetch - processPackages [xcloudforlinux]: Remove: archive file [/home/abi/fetcher/tmp/xcloudforlinux-0.3.0.tar.gz]
+[2024-05-21 05:23:35] INFO root fetch - processPackages [xcloudforlinux]: Remove: archive file [/home/abi/fetcher/tmp/xcloudforlinux-0.3.1.tar.gz]
+[2024-05-21 05:23:35] INFO root fetch - main [MainThread]: End processing [xcloudforlinux]: success
+[2024-05-21 05:23:35] INFO root fetch - processPackages [odoo14-addon-business-requirement]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_business_requirement-14.0.1.2.2.dev1-py3-none-any.whl.zip]
+[2024-05-21 05:23:35] INFO root fetch - processPackages [odoo14-addon-business-requirement]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_business_requirement-14.0.1.2.2.dev2-py3-none-any.whl.zip]
+[2024-05-21 05:23:35] INFO root fetch - main [MainThread]: End processing [odoo14-addon-business-requirement]: success
+[2024-05-21 05:23:35] INFO root fetch - main [MainThread]: Store serial: [23300456]
