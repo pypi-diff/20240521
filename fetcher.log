@@ -19506,3 +19506,48 @@
 [2024-05-21 12:02:16] INFO root fetch - processPackages [neuro-cli]: Remove: archive file [/home/abi/fetcher/tmp/neuro_cli-24.5.0.tar.gz]
 [2024-05-21 12:02:16] INFO root fetch - main [MainThread]: End processing [neuro-cli]: success
 [2024-05-21 12:02:16] INFO root fetch - main [MainThread]: Store serial: [23304334]
+[2024-05-21 12:04:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23304334]
+[2024-05-21 12:04:25] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-21 12:04:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gOdoo-cli
+[2024-05-21 12:04:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Pyfrontier
+[2024-05-21 12:04:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ics-utils
+[2024-05-21 12:04:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: funcs-aux
+[2024-05-21 12:04:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: terobot
+[2024-05-21 12:04:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: youqu
+[2024-05-21 12:04:25] WARNING root fetch - processPackages [terobot]: Skipping, unable to determine old version
+[2024-05-21 12:04:25] INFO root fetch - main [MainThread]: End processing [terobot] error
+[2024-05-21 12:04:25] INFO root fetch - processPackages [gOdoo-cli]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-05-21 12:04:25] INFO root fetch - processPackages [Pyfrontier]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-21 12:04:25] INFO root fetch - processPackages [gOdoo-cli]: Downloading https://files.pythonhosted.org/packages/c5/d3/4f4b53fefe2c0aca33263dc5ed7136b0ab995817f6ff226b64f5e663c157/godoo_cli-0.9.4.tar.gz
+[2024-05-21 12:04:25] INFO root fetch - processPackages [youqu]: New version: [2.6.1] Old Version: [2.6.0]
+[2024-05-21 12:04:25] INFO root fetch - processPackages [funcs-aux]: New version: [0.2.0] Old Version: [0.1.9]
+[2024-05-21 12:04:25] WARNING root fetch - processPackages [ics-utils]: Skipping, unable to determine old version
+[2024-05-21 12:04:25] INFO root fetch - main [MainThread]: End processing [ics-utils] error
+[2024-05-21 12:04:25] INFO root fetch - processPackages [Pyfrontier]: Downloading https://files.pythonhosted.org/packages/2e/f2/398c0400567994f5685be4eaa27ee7bd51d6e371fb6627e1fee1f23decf2/Pyfrontier-1.0.1.tar.gz
+[2024-05-21 12:04:25] INFO root fetch - processPackages [gOdoo-cli]: Downloading https://files.pythonhosted.org/packages/73/1f/cf5f1371627bddacae7ee9809d0f2ab97d9cca9c2d1235ab650f7c9eb721/godoo_cli-0.9.5.tar.gz
+[2024-05-21 12:04:25] INFO root fetch - processPackages [funcs-aux]: Downloading https://files.pythonhosted.org/packages/b2/49/675da9dedb8987e385c750581c5db92150ccb54f56431f6210bbf6013063/funcs_aux-0.1.9.tar.gz
+[2024-05-21 12:04:25] INFO root fetch - processPackages [youqu]: Downloading https://files.pythonhosted.org/packages/38/b4/096b11de6ab5c5fbc100eb85d493f172e7b7eb50f8f9c2e8bb3285a2dba6/youqu-2.6.0.tar.gz
+[2024-05-21 12:04:25] INFO root fetch - processPackages [gOdoo-cli]: executing diffoscope
+[2024-05-21 12:04:25] INFO root fetch - processPackages [gOdoo-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/godoo_cli-0.9.4.tar.gz tmp/godoo_cli-0.9.5.tar.gz --markdown 20240521/g/gOdoo-cli/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-05-21 12:04:26] INFO root fetch - processPackages [Pyfrontier]: Downloading https://files.pythonhosted.org/packages/be/f0/9a559456513c548bdc3249a3c81d1b952ac5cdc886c6cb5905b7cd98b4eb/pyfrontier-1.0.2.tar.gz
+[2024-05-21 12:04:26] INFO root fetch - processPackages [funcs-aux]: Downloading https://files.pythonhosted.org/packages/19/d7/4a1b7afc26662aa08c7801a10d1177d226fbe3450fe12b3abd27180def0c/funcs_aux-0.2.0.tar.gz
+[2024-05-21 12:04:26] INFO root fetch - processPackages [Pyfrontier]: executing diffoscope
+[2024-05-21 12:04:26] INFO root fetch - processPackages [Pyfrontier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pyfrontier-1.0.1.tar.gz tmp/pyfrontier-1.0.2.tar.gz --markdown 20240521/P/Pyfrontier/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-21 12:04:26] INFO root fetch - processPackages [youqu]: Downloading https://files.pythonhosted.org/packages/74/12/c6e49ba007485b0b638b526460bd96a51778532acc3ed5a638b7eefddc0c/youqu-2.6.1.tar.gz
+[2024-05-21 12:04:26] INFO root fetch - processPackages [funcs-aux]: executing diffoscope
+[2024-05-21 12:04:26] INFO root fetch - processPackages [funcs-aux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funcs_aux-0.1.9.tar.gz tmp/funcs_aux-0.2.0.tar.gz --markdown 20240521/f/funcs-aux/0.1.9-0.2.0/README.md --exclude *.pyd
+[2024-05-21 12:04:26] INFO root fetch - processPackages [youqu]: executing diffoscope
+[2024-05-21 12:04:26] INFO root fetch - processPackages [youqu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/youqu-2.6.0.tar.gz tmp/youqu-2.6.1.tar.gz --markdown 20240521/y/youqu/2.6.0-2.6.1/README.md --exclude *.pyd
+[2024-05-21 12:04:26] INFO root fetch - processPackages [gOdoo-cli]: Remove: archive file [/home/abi/fetcher/tmp/godoo_cli-0.9.4.tar.gz]
+[2024-05-21 12:04:26] INFO root fetch - processPackages [gOdoo-cli]: Remove: archive file [/home/abi/fetcher/tmp/godoo_cli-0.9.5.tar.gz]
+[2024-05-21 12:04:26] INFO root fetch - main [MainThread]: End processing [gOdoo-cli]: success
+[2024-05-21 12:04:26] INFO root fetch - processPackages [Pyfrontier]: Remove: archive file [/home/abi/fetcher/tmp/Pyfrontier-1.0.1.tar.gz]
+[2024-05-21 12:04:26] INFO root fetch - processPackages [Pyfrontier]: Remove: archive file [/home/abi/fetcher/tmp/pyfrontier-1.0.2.tar.gz]
+[2024-05-21 12:04:26] INFO root fetch - main [MainThread]: End processing [Pyfrontier]: success
+[2024-05-21 12:04:27] INFO root fetch - processPackages [funcs-aux]: Remove: archive file [/home/abi/fetcher/tmp/funcs_aux-0.1.9.tar.gz]
+[2024-05-21 12:04:27] INFO root fetch - processPackages [funcs-aux]: Remove: archive file [/home/abi/fetcher/tmp/funcs_aux-0.2.0.tar.gz]
+[2024-05-21 12:04:27] INFO root fetch - main [MainThread]: End processing [funcs-aux]: success
+[2024-05-21 12:04:27] INFO root fetch - processPackages [youqu]: Remove: archive file [/home/abi/fetcher/tmp/youqu-2.6.0.tar.gz]
+[2024-05-21 12:04:27] INFO root fetch - processPackages [youqu]: Remove: archive file [/home/abi/fetcher/tmp/youqu-2.6.1.tar.gz]
+[2024-05-21 12:04:27] INFO root fetch - main [MainThread]: End processing [youqu]: success
+[2024-05-21 12:04:27] INFO root fetch - main [MainThread]: Store serial: [23304374]
