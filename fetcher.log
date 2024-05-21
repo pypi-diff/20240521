@@ -22992,3 +22992,36 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-21 14:06:09] INFO root fetch - processPackages [smol_k8s_lab]: Remove: archive file [/home/abi/fetcher/tmp/smol_k8s_lab-5.1.0.tar.gz]
 [2024-05-21 14:06:09] INFO root fetch - main [MainThread]: End processing [smol_k8s_lab]: success
 [2024-05-21 14:06:09] INFO root fetch - main [MainThread]: Store serial: [23305834]
+[2024-05-21 14:08:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23305834]
+[2024-05-21 14:08:18] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-21 14:08:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: smol_k8s_lab
+[2024-05-21 14:08:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: better-hydroponics
+[2024-05-21 14:08:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lusid-workflow-sdk-preview
+[2024-05-21 14:08:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: WSIdemerger
+[2024-05-21 14:08:18] INFO root fetch - processPackages [WSIdemerger]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-21 14:08:18] INFO root fetch - processPackages [smol_k8s_lab]: New version: [5.1.0] Old Version: [5.0.4]
+[2024-05-21 14:08:18] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: New version: [0.1.996] Old Version: [0.1.995]
+[2024-05-21 14:08:18] INFO root fetch - processPackages [WSIdemerger]: Downloading https://files.pythonhosted.org/packages/a3/e9/a1025150cf5181d449f651cca9a11dd64ae058ae772744e50086152ec8f7/wsidemerger-0.1.1.tar.gz
+[2024-05-21 14:08:18] WARNING root fetch - processPackages [better-hydroponics]: Skipping, unable to determine old version
+[2024-05-21 14:08:18] INFO root fetch - main [MainThread]: End processing [better-hydroponics] error
+[2024-05-21 14:08:18] INFO root fetch - processPackages [smol_k8s_lab]: Downloading https://files.pythonhosted.org/packages/52/dc/e3187657bcf2ab5ccdd0f52e5599823ca8fca849087737dbe216f085e5ef/smol_k8s_lab-5.0.4.tar.gz
+[2024-05-21 14:08:18] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Downloading https://files.pythonhosted.org/packages/56/ac/c34b1b8edd4a745ceacc5a310a38b3dcca685fe17507cacc1cd57db81fdd/lusid-workflow-sdk-preview-0.1.995.tar.gz
+[2024-05-21 14:08:18] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Downloading https://files.pythonhosted.org/packages/ad/65/93d0e7790f005c1bba7ae75a47e2b35b3d8a514713f549fccca0619a2df9/lusid-workflow-sdk-preview-0.1.996.tar.gz
+[2024-05-21 14:08:19] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: executing diffoscope
+[2024-05-21 14:08:19] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-workflow-sdk-preview-0.1.995.tar.gz tmp/lusid-workflow-sdk-preview-0.1.996.tar.gz --markdown 20240521/l/lusid-workflow-sdk-preview/0.1.995-0.1.996/README.md --exclude *.pyd
+[2024-05-21 14:08:19] INFO root fetch - processPackages [WSIdemerger]: Downloading https://files.pythonhosted.org/packages/69/f5/7a143dab1b2bc0b6507e1aff08b208cc78adbd7152b0d83fdfd76b3e232b/wsidemerger-0.1.2.tar.gz
+[2024-05-21 14:08:19] INFO root fetch - processPackages [smol_k8s_lab]: Downloading https://files.pythonhosted.org/packages/a9/52/b2ab20dbb52cc15155596f4b487266b0c745c4eaddcb089f9f37fef211dc/smol_k8s_lab-5.1.0.tar.gz
+[2024-05-21 14:08:19] INFO root fetch - processPackages [WSIdemerger]: executing diffoscope
+[2024-05-21 14:08:19] INFO root fetch - processPackages [WSIdemerger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wsidemerger-0.1.1.tar.gz tmp/wsidemerger-0.1.2.tar.gz --markdown 20240521/W/WSIdemerger/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-21 14:08:19] INFO root fetch - processPackages [smol_k8s_lab]: executing diffoscope
+[2024-05-21 14:08:19] INFO root fetch - processPackages [smol_k8s_lab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smol_k8s_lab-5.0.4.tar.gz tmp/smol_k8s_lab-5.1.0.tar.gz --markdown 20240521/s/smol_k8s_lab/5.0.4-5.1.0/README.md --exclude *.pyd
+[2024-05-21 14:08:19] INFO root fetch - processPackages [WSIdemerger]: Remove: archive file [/home/abi/fetcher/tmp/wsidemerger-0.1.1.tar.gz]
+[2024-05-21 14:08:19] INFO root fetch - processPackages [WSIdemerger]: Remove: archive file [/home/abi/fetcher/tmp/wsidemerger-0.1.2.tar.gz]
+[2024-05-21 14:08:19] INFO root fetch - main [MainThread]: End processing [WSIdemerger]: success
+[2024-05-21 14:08:20] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-workflow-sdk-preview-0.1.995.tar.gz]
+[2024-05-21 14:08:20] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-workflow-sdk-preview-0.1.996.tar.gz]
+[2024-05-21 14:08:20] INFO root fetch - main [MainThread]: End processing [lusid-workflow-sdk-preview]: success
+[2024-05-21 14:08:20] INFO root fetch - processPackages [smol_k8s_lab]: Remove: archive file [/home/abi/fetcher/tmp/smol_k8s_lab-5.0.4.tar.gz]
+[2024-05-21 14:08:20] INFO root fetch - processPackages [smol_k8s_lab]: Remove: archive file [/home/abi/fetcher/tmp/smol_k8s_lab-5.1.0.tar.gz]
+[2024-05-21 14:08:20] INFO root fetch - main [MainThread]: End processing [smol_k8s_lab]: success
+[2024-05-21 14:08:20] INFO root fetch - main [MainThread]: Store serial: [23305867]
