@@ -2657,3 +2657,51 @@
 [2024-05-21 02:13:31] INFO root fetch - processPackages [cdk-nag]: Remove: archive file [/home/abi/fetcher/tmp/cdk-nag-2.9.7.tar.gz]
 [2024-05-21 02:13:31] INFO root fetch - main [MainThread]: End processing [cdk-nag]: success
 [2024-05-21 02:13:31] INFO root fetch - main [MainThread]: Store serial: [23297884]
+[2024-05-21 02:15:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23297884]
+[2024-05-21 02:15:39] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-21 02:15:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-skylight
+[2024-05-21 02:15:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytorch-ignite
+[2024-05-21 02:15:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pypowerwall
+[2024-05-21 02:15:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-common
+[2024-05-21 02:15:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qualystbx
+[2024-05-21 02:15:39] INFO root fetch - processPackages [qualystbx]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-05-21 02:15:39] INFO root fetch - processPackages [pytorch-ignite]: New version: [0.6.0.dev20240520] Old Version: [0.6.0.dev20240519]
+[2024-05-21 02:15:39] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-21 02:15:39] INFO root fetch - processPackages [pypowerwall]: New version: [0.9.0] Old Version: [0.8.5]
+[2024-05-21 02:15:40] INFO root fetch - processPackages [qualystbx]: Downloading https://files.pythonhosted.org/packages/3d/13/d82c3acb0e9ea3a9ff76fe6e73a521edc75e84ab686d483a4f360a6a88cb/qualystbx-0.7.0.tar.gz
+[2024-05-21 02:15:40] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2024-05-21 02:15:40] INFO root fetch - processPackages [cdk-skylight]: New version: [1.1.99] Old Version: [1.1.98]
+[2024-05-21 02:15:40] INFO root fetch - processPackages [pytorch-ignite]: Downloading https://files.pythonhosted.org/packages/03/6f/6c5cc0fea30c636c823b69d827f1009ea08db258c19fc633663118dedf76/pytorch_ignite-0.6.0.dev20240519.tar.gz
+[2024-05-21 02:15:40] INFO root fetch - processPackages [qualystbx]: Downloading https://files.pythonhosted.org/packages/88/de/04f9bde377b2e4f3959a99661bf58cb5824a3b55cd37d179c781c0db6773/qualystbx-0.8.0.tar.gz
+[2024-05-21 02:15:40] INFO root fetch - processPackages [pypowerwall]: Downloading https://files.pythonhosted.org/packages/9e/48/edeb39149c6c75c6fc79f954aebd04862541654475fc918b914d568cfa24/pypowerwall-0.8.5-py2.py3-none-any.whl
+[2024-05-21 02:15:40] INFO root fetch - processPackages [qualystbx]: executing diffoscope
+[2024-05-21 02:15:40] INFO root fetch - processPackages [qualystbx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qualystbx-0.7.0.tar.gz tmp/qualystbx-0.8.0.tar.gz --markdown 20240521/q/qualystbx/0.7.0-0.8.0/README.md --exclude *.pyd
+[2024-05-21 02:15:40] INFO root fetch - processPackages [cdk-skylight]: Downloading https://files.pythonhosted.org/packages/86/f2/01b58f6183b48ce1105016a7f5045925a49464b8c20408459bd101fe5f25/cdk-skylight-1.1.98.tar.gz
+[2024-05-21 02:15:40] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2024-05-21 02:15:40] INFO root fetch - processPackages [pytorch-ignite]: Downloading https://files.pythonhosted.org/packages/51/57/908992aa28feafeefcbc47ba2ed47be491fce0eaee0c14001900e6e1e665/pytorch_ignite-0.6.0.dev20240520.tar.gz
+[2024-05-21 02:15:40] INFO root fetch - processPackages [pypowerwall]: Downloading https://files.pythonhosted.org/packages/37/90/6149d358a0b49593bb684371560220a9a91ca1f3616c0fac619193b5227d/pypowerwall-0.9.0-py2.py3-none-any.whl
+[2024-05-21 02:15:40] INFO root fetch - processPackages [pypowerwall]: executing diffoscope
+[2024-05-21 02:15:40] INFO root fetch - processPackages [pypowerwall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypowerwall-0.8.5-py2.py3-none-any.whl.zip tmp/pypowerwall-0.9.0-py2.py3-none-any.whl.zip --markdown 20240521/p/pypowerwall/0.8.5-0.9.0/README.md --exclude *.pyd
+[2024-05-21 02:15:40] INFO root fetch - processPackages [pytorch-ignite]: executing diffoscope
+[2024-05-21 02:15:40] INFO root fetch - processPackages [pytorch-ignite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch_ignite-0.6.0.dev20240519.tar.gz tmp/pytorch_ignite-0.6.0.dev20240520.tar.gz --markdown 20240521/p/pytorch-ignite/0.6.0.dev20240519-0.6.0.dev20240520/README.md --exclude *.pyd
+[2024-05-21 02:15:40] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2024-05-21 02:15:40] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20240521/c/cdk-common/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-21 02:15:40] INFO root fetch - processPackages [cdk-skylight]: Downloading https://files.pythonhosted.org/packages/59/49/3e035cb98d5f97f79c174e211129a2dbe596df70c5df50ac701242fabea2/cdk-skylight-1.1.99.tar.gz
+[2024-05-21 02:15:41] INFO root fetch - processPackages [cdk-skylight]: executing diffoscope
+[2024-05-21 02:15:41] INFO root fetch - processPackages [cdk-skylight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-skylight-1.1.98.tar.gz tmp/cdk-skylight-1.1.99.tar.gz --markdown 20240521/c/cdk-skylight/1.1.98-1.1.99/README.md --exclude *.pyd
+[2024-05-21 02:15:41] INFO root fetch - processPackages [qualystbx]: Remove: archive file [/home/abi/fetcher/tmp/qualystbx-0.7.0.tar.gz]
+[2024-05-21 02:15:41] INFO root fetch - processPackages [qualystbx]: Remove: archive file [/home/abi/fetcher/tmp/qualystbx-0.8.0.tar.gz]
+[2024-05-21 02:15:41] INFO root fetch - main [MainThread]: End processing [qualystbx]: success
+[2024-05-21 02:15:41] INFO root fetch - processPackages [pypowerwall]: Remove: archive file [/home/abi/fetcher/tmp/pypowerwall-0.8.5-py2.py3-none-any.whl.zip]
+[2024-05-21 02:15:41] INFO root fetch - processPackages [pypowerwall]: Remove: archive file [/home/abi/fetcher/tmp/pypowerwall-0.9.0-py2.py3-none-any.whl.zip]
+[2024-05-21 02:15:41] INFO root fetch - main [MainThread]: End processing [pypowerwall]: success
+[2024-05-21 02:15:41] INFO root fetch - processPackages [cdk-skylight]: Remove: archive file [/home/abi/fetcher/tmp/cdk-skylight-1.1.98.tar.gz]
+[2024-05-21 02:15:41] INFO root fetch - processPackages [cdk-skylight]: Remove: archive file [/home/abi/fetcher/tmp/cdk-skylight-1.1.99.tar.gz]
+[2024-05-21 02:15:41] INFO root fetch - main [MainThread]: End processing [cdk-skylight]: success
+[2024-05-21 02:15:41] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2024-05-21 02:15:41] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2024-05-21 02:15:41] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2024-05-21 02:15:41] INFO root fetch - processPackages [pytorch-ignite]: Remove: archive file [/home/abi/fetcher/tmp/pytorch_ignite-0.6.0.dev20240519.tar.gz]
+[2024-05-21 02:15:41] INFO root fetch - processPackages [pytorch-ignite]: Remove: archive file [/home/abi/fetcher/tmp/pytorch_ignite-0.6.0.dev20240520.tar.gz]
+[2024-05-21 02:15:41] INFO root fetch - main [MainThread]: End processing [pytorch-ignite]: success
+[2024-05-21 02:15:41] INFO root fetch - main [MainThread]: Store serial: [23297898]
