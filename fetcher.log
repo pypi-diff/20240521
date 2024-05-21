@@ -2542,3 +2542,33 @@
 [2024-05-21 02:06:57] INFO root fetch - processPackages [onnxscript]: Remove: archive file [/home/abi/fetcher/tmp/onnxscript-0.1.0.dev20240520.tar.gz]
 [2024-05-21 02:06:57] INFO root fetch - main [MainThread]: End processing [onnxscript]: success
 [2024-05-21 02:06:57] INFO root fetch - main [MainThread]: Store serial: [23297849]
+[2024-05-21 02:09:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23297849]
+[2024-05-21 02:09:06] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-21 02:09:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xarizmi
+[2024-05-21 02:09:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: blueness
+[2024-05-21 02:09:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-common
+[2024-05-21 02:09:06] INFO root fetch - processPackages [blueness]: New version: [3.9.1] Old Version: [3.7.1]
+[2024-05-21 02:09:06] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-21 02:09:07] INFO root fetch - processPackages [xarizmi]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-21 02:09:07] INFO root fetch - processPackages [blueness]: Downloading https://files.pythonhosted.org/packages/86/d4/e8b769417baf31b335408a29a80b371b6421e59db03087a6e1c943bb5d84/blueness-3.7.1.tar.gz
+[2024-05-21 02:09:07] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2024-05-21 02:09:07] INFO root fetch - processPackages [xarizmi]: Downloading https://files.pythonhosted.org/packages/ae/45/37841fd30960cc1290913f5e5aaac629cf4966687ad32da9657432640f86/xarizmi-0.3.0.tar.gz
+[2024-05-21 02:09:07] INFO root fetch - processPackages [blueness]: Downloading https://files.pythonhosted.org/packages/bb/6c/4f8063f6de43bbfcce0c161a49b6afe38d15dfecb071f23bc7663a1b1714/blueness-3.9.1.tar.gz
+[2024-05-21 02:09:07] INFO root fetch - processPackages [blueness]: executing diffoscope
+[2024-05-21 02:09:07] INFO root fetch - processPackages [blueness]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blueness-3.7.1.tar.gz tmp/blueness-3.9.1.tar.gz --markdown 20240521/b/blueness/3.7.1-3.9.1/README.md --exclude *.pyd
+[2024-05-21 02:09:07] INFO root fetch - processPackages [xarizmi]: Downloading https://files.pythonhosted.org/packages/b2/9d/b7e1f7c191eaa90ce4f5ec5379a599539a6dce9dfb8df076881a12fe3986/xarizmi-0.3.1.tar.gz
+[2024-05-21 02:09:07] INFO root fetch - processPackages [xarizmi]: executing diffoscope
+[2024-05-21 02:09:07] INFO root fetch - processPackages [xarizmi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xarizmi-0.3.0.tar.gz tmp/xarizmi-0.3.1.tar.gz --markdown 20240521/x/xarizmi/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-21 02:09:08] INFO root fetch - processPackages [blueness]: Remove: archive file [/home/abi/fetcher/tmp/blueness-3.7.1.tar.gz]
+[2024-05-21 02:09:08] INFO root fetch - processPackages [blueness]: Remove: archive file [/home/abi/fetcher/tmp/blueness-3.9.1.tar.gz]
+[2024-05-21 02:09:08] INFO root fetch - main [MainThread]: End processing [blueness]: success
+[2024-05-21 02:09:08] INFO root fetch - processPackages [xarizmi]: Remove: archive file [/home/abi/fetcher/tmp/xarizmi-0.3.0.tar.gz]
+[2024-05-21 02:09:08] INFO root fetch - processPackages [xarizmi]: Remove: archive file [/home/abi/fetcher/tmp/xarizmi-0.3.1.tar.gz]
+[2024-05-21 02:09:08] INFO root fetch - main [MainThread]: End processing [xarizmi]: success
+[2024-05-21 02:09:09] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2024-05-21 02:09:09] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2024-05-21 02:09:09] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20240521/c/cdk-common/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-21 02:09:10] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2024-05-21 02:09:10] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2024-05-21 02:09:10] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2024-05-21 02:09:10] INFO root fetch - main [MainThread]: Store serial: [23297859]
