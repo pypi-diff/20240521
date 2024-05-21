@@ -17316,3 +17316,60 @@
 [2024-05-21 10:54:08] INFO root fetch - processPackages [mg-pso-gui]: Remove: archive file [/home/abi/fetcher/tmp/mg-pso-gui-0.1.9.tar.gz]
 [2024-05-21 10:54:08] INFO root fetch - main [MainThread]: End processing [mg-pso-gui]: success
 [2024-05-21 10:54:08] INFO root fetch - main [MainThread]: Store serial: [23303421]
+[2024-05-21 10:56:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23303421]
+[2024-05-21 10:56:17] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-21 10:56:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: views-tensor-utilities
+[2024-05-21 10:56:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openxlab
+[2024-05-21 10:56:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zeval
+[2024-05-21 10:56:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fastapi-keycloak-middleware
+[2024-05-21 10:56:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mlfoundry
+[2024-05-21 10:56:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mg-pso-gui
+[2024-05-21 10:56:17] INFO root fetch - processPackages [views-tensor-utilities]: New version: [0.8.7] Old Version: [0.8.6]
+[2024-05-21 10:56:17] INFO root fetch - processPackages [mg-pso-gui]: New version: [0.1.9] Old Version: [0.1.84]
+[2024-05-21 10:56:17] INFO root fetch - processPackages [views-tensor-utilities]: Downloading https://files.pythonhosted.org/packages/45/8f/fd1ca614618f84c99fd0a8b5f53b32697919a34c695154ba3ee7198c2fb1/views_tensor_utilities-0.8.6.tar.gz
+[2024-05-21 10:56:17] INFO root fetch - processPackages [zeval]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-21 10:56:17] INFO root fetch - processPackages [fastapi-keycloak-middleware]: New version: [1.0.1] Old Version: [0.4.2]
+[2024-05-21 10:56:17] INFO root fetch - processPackages [openxlab]: New version: [0.1.0] Old Version: [0.0.9]
+[2024-05-21 10:56:17] INFO root fetch - processPackages [mlfoundry]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-21 10:56:17] INFO root fetch - processPackages [mg-pso-gui]: Downloading https://files.pythonhosted.org/packages/de/5a/0b2826761a94ff7baf4eb8969e88e298b6632dc4308573cc415d21328e59/mg-pso-gui-0.1.84.tar.gz
+[2024-05-21 10:56:17] INFO root fetch - processPackages [zeval]: Downloading https://files.pythonhosted.org/packages/4e/05/1898741ff66d03ff8e33b7b0b4703b7628d4cb99d00e298185aff46c9073/zeval-0.1.0.tar.gz
+[2024-05-21 10:56:17] INFO root fetch - processPackages [openxlab]: Downloading https://files.pythonhosted.org/packages/6a/1d/5228aeb4ea0ccbdd809515190411e99f89a35bd35fc8834087f7052355b5/openxlab-0.0.9.tar.gz
+[2024-05-21 10:56:18] INFO root fetch - processPackages [fastapi-keycloak-middleware]: Downloading https://files.pythonhosted.org/packages/19/bf/c2b63f34e54c23d33ec343f37aee2a0759b7c38b807b809d3924b10c4cc7/fastapi_keycloak_middleware-0.4.2.tar.gz
+[2024-05-21 10:56:18] INFO root fetch - processPackages [mlfoundry]: Downloading https://files.pythonhosted.org/packages/26/f5/e89c9f84599f284f0ad4216acfdc9fa744a757b625b5ddb3391e4ec56ec8/mlfoundry-0.9.8.tar.gz
+[2024-05-21 10:56:18] INFO root fetch - processPackages [views-tensor-utilities]: Downloading https://files.pythonhosted.org/packages/e3/ee/fcd170383d749df93044cf7d61a133012fed1dfcd987d5c51a7b489428f3/views_tensor_utilities-0.8.7.tar.gz
+[2024-05-21 10:56:18] INFO root fetch - processPackages [mg-pso-gui]: Downloading https://files.pythonhosted.org/packages/29/bb/6e298a4662149de339e056d2e3fd47d836e1cc07f109b6309c4e0f4c97b3/mg-pso-gui-0.1.9.tar.gz
+[2024-05-21 10:56:18] INFO root fetch - processPackages [views-tensor-utilities]: executing diffoscope
+[2024-05-21 10:56:18] INFO root fetch - processPackages [views-tensor-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/views_tensor_utilities-0.8.6.tar.gz tmp/views_tensor_utilities-0.8.7.tar.gz --markdown 20240521/v/views-tensor-utilities/0.8.6-0.8.7/README.md --exclude *.pyd
+[2024-05-21 10:56:18] INFO root fetch - processPackages [mg-pso-gui]: executing diffoscope
+[2024-05-21 10:56:18] INFO root fetch - processPackages [mg-pso-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mg-pso-gui-0.1.84.tar.gz tmp/mg-pso-gui-0.1.9.tar.gz --markdown 20240521/m/mg-pso-gui/0.1.84-0.1.9/README.md --exclude *.pyd
+[2024-05-21 10:56:18] INFO root fetch - processPackages [zeval]: Downloading https://files.pythonhosted.org/packages/f5/22/f19b055d6d34eb3d035c26e08f01f1fe352b25bfa91edc6fbbfbbe45c46b/zeval-0.1.1.tar.gz
+[2024-05-21 10:56:18] INFO root fetch - processPackages [fastapi-keycloak-middleware]: Downloading https://files.pythonhosted.org/packages/86/73/be786b6f1533edc84cbf6cb3f699e4ec1c86494b03a04ae97fe410f4a1fc/fastapi_keycloak_middleware-1.0.1.tar.gz
+[2024-05-21 10:56:18] INFO root fetch - processPackages [openxlab]: Downloading https://files.pythonhosted.org/packages/0d/73/f4efa9b06b27e1e80543e5b48d3a3eee6e710604150411a0013dc3ca04b9/openxlab-0.1.0.tar.gz
+[2024-05-21 10:56:18] INFO root fetch - processPackages [zeval]: executing diffoscope
+[2024-05-21 10:56:18] INFO root fetch - processPackages [zeval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zeval-0.1.0.tar.gz tmp/zeval-0.1.1.tar.gz --markdown 20240521/z/zeval/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-21 10:56:18] INFO root fetch - processPackages [fastapi-keycloak-middleware]: executing diffoscope
+[2024-05-21 10:56:18] INFO root fetch - processPackages [fastapi-keycloak-middleware]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_keycloak_middleware-0.4.2.tar.gz tmp/fastapi_keycloak_middleware-1.0.1.tar.gz --markdown 20240521/f/fastapi-keycloak-middleware/0.4.2-1.0.1/README.md --exclude *.pyd
+[2024-05-21 10:56:18] INFO root fetch - processPackages [mlfoundry]: Downloading https://files.pythonhosted.org/packages/ff/a2/260681b48091976e23334a5a93881b8530818e94c5626aa0e91268036046/mlfoundry-0.9.9.tar.gz
+[2024-05-21 10:56:18] INFO root fetch - processPackages [openxlab]: executing diffoscope
+[2024-05-21 10:56:18] INFO root fetch - processPackages [openxlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openxlab-0.0.9.tar.gz tmp/openxlab-0.1.0.tar.gz --markdown 20240521/o/openxlab/0.0.9-0.1.0/README.md --exclude *.pyd
+[2024-05-21 10:56:18] INFO root fetch - processPackages [mlfoundry]: executing diffoscope
+[2024-05-21 10:56:18] INFO root fetch - processPackages [mlfoundry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlfoundry-0.9.8.tar.gz tmp/mlfoundry-0.9.9.tar.gz --markdown 20240521/m/mlfoundry/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-21 10:56:18] INFO root fetch - processPackages [views-tensor-utilities]: Remove: archive file [/home/abi/fetcher/tmp/views_tensor_utilities-0.8.6.tar.gz]
+[2024-05-21 10:56:18] INFO root fetch - processPackages [views-tensor-utilities]: Remove: archive file [/home/abi/fetcher/tmp/views_tensor_utilities-0.8.7.tar.gz]
+[2024-05-21 10:56:18] INFO root fetch - main [MainThread]: End processing [views-tensor-utilities]: success
+[2024-05-21 10:56:19] INFO root fetch - processPackages [zeval]: Remove: archive file [/home/abi/fetcher/tmp/zeval-0.1.0.tar.gz]
+[2024-05-21 10:56:19] INFO root fetch - processPackages [zeval]: Remove: archive file [/home/abi/fetcher/tmp/zeval-0.1.1.tar.gz]
+[2024-05-21 10:56:19] INFO root fetch - main [MainThread]: End processing [zeval]: success
+[2024-05-21 10:56:19] INFO root fetch - processPackages [fastapi-keycloak-middleware]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_keycloak_middleware-0.4.2.tar.gz]
+[2024-05-21 10:56:19] INFO root fetch - processPackages [fastapi-keycloak-middleware]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_keycloak_middleware-1.0.1.tar.gz]
+[2024-05-21 10:56:19] INFO root fetch - main [MainThread]: End processing [fastapi-keycloak-middleware]: success
+[2024-05-21 10:56:19] INFO root fetch - processPackages [mg-pso-gui]: Remove: archive file [/home/abi/fetcher/tmp/mg-pso-gui-0.1.84.tar.gz]
+[2024-05-21 10:56:19] INFO root fetch - processPackages [mg-pso-gui]: Remove: archive file [/home/abi/fetcher/tmp/mg-pso-gui-0.1.9.tar.gz]
+[2024-05-21 10:56:19] INFO root fetch - main [MainThread]: End processing [mg-pso-gui]: success
+[2024-05-21 10:56:19] INFO root fetch - processPackages [openxlab]: Remove: archive file [/home/abi/fetcher/tmp/openxlab-0.0.9.tar.gz]
+[2024-05-21 10:56:19] INFO root fetch - processPackages [openxlab]: Remove: archive file [/home/abi/fetcher/tmp/openxlab-0.1.0.tar.gz]
+[2024-05-21 10:56:19] INFO root fetch - main [MainThread]: End processing [openxlab]: success
+[2024-05-21 10:56:19] INFO root fetch - processPackages [mlfoundry]: Remove: archive file [/home/abi/fetcher/tmp/mlfoundry-0.9.8.tar.gz]
+[2024-05-21 10:56:19] INFO root fetch - processPackages [mlfoundry]: Remove: archive file [/home/abi/fetcher/tmp/mlfoundry-0.9.9.tar.gz]
+[2024-05-21 10:56:19] INFO root fetch - main [MainThread]: End processing [mlfoundry]: success
+[2024-05-21 10:56:19] INFO root fetch - main [MainThread]: Store serial: [23303438]
