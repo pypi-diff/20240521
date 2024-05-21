@@ -23226,3 +23226,53 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-21 14:17:38] INFO root fetch - processPackages [PyPartMC]: Remove: archive file [/home/abi/fetcher/tmp/pypartmc-1.2.1.tar.gz]
 [2024-05-21 14:17:38] INFO root fetch - main [MainThread]: End processing [PyPartMC]: success
 [2024-05-21 14:17:38] INFO root fetch - main [MainThread]: Store serial: [23305997]
+[2024-05-21 14:19:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23305997]
+[2024-05-21 14:19:53] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-21 14:19:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dizest
+[2024-05-21 14:19:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: BarteSDK
+[2024-05-21 14:19:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tgedr-dataops
+[2024-05-21 14:19:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cheetah-GH
+[2024-05-21 14:19:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ellis-django-views
+[2024-05-21 14:19:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: haaslib
+[2024-05-21 14:19:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyodre
+[2024-05-21 14:19:53] INFO root fetch - processPackages [ellis-django-views]: New version: [0.1888] Old Version: [0.188]
+[2024-05-21 14:19:53] INFO root fetch - processPackages [BarteSDK]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-21 14:19:53] INFO root fetch - processPackages [pyodre]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-21 14:19:53] WARNING root fetch - processPackages [cheetah-GH]: Skipping, unable to determine old version
+[2024-05-21 14:19:53] INFO root fetch - main [MainThread]: End processing [cheetah-GH] error
+[2024-05-21 14:19:53] INFO root fetch - processPackages [BarteSDK]: Downloading https://files.pythonhosted.org/packages/1c/24/f265a111f10a855a327643e87273d1f3ba56190ad02e0175f3b5b6319e4c/bartesdk-0.1.8.tar.gz
+[2024-05-21 14:19:53] INFO root fetch - processPackages [tgedr-dataops]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-21 14:19:53] WARNING root fetch - processPackages [haaslib]: Skipping, unable to determine old version
+[2024-05-21 14:19:53] INFO root fetch - processPackages [pyodre]: Downloading https://files.pythonhosted.org/packages/7c/bb/ca9956e55427a06277d623d8d3420da4422b73459bee10667802e48978c3/pyodre-0.0.8.tar.gz
+[2024-05-21 14:19:53] INFO root fetch - main [MainThread]: End processing [haaslib] error
+[2024-05-21 14:19:53] INFO root fetch - processPackages [dizest]: New version: [3.4.9] Old Version: [3.4.8]
+[2024-05-21 14:19:53] INFO root fetch - processPackages [ellis-django-views]: Downloading https://files.pythonhosted.org/packages/48/cc/53afc75eafe04fcfa7488f6c13455d967f7e30cbdae7bba9346f1293c330/ellis_django_views-0.188.tar.gz
+[2024-05-21 14:19:53] INFO root fetch - processPackages [tgedr-dataops]: Downloading https://files.pythonhosted.org/packages/b4/76/d8edec3eb0fa4e85b82785a270815d5e84c2d89fad52fe7f73e50b5605ff/tgedr-dataops-0.0.8.tar.gz
+[2024-05-21 14:19:53] INFO root fetch - processPackages [dizest]: Downloading https://files.pythonhosted.org/packages/94/17/e9bfbc6f6e2148b06d30d9ca2d1848990b7c5cb4aeba66f3cd3634ce005a/dizest-3.4.8-py3-none-any.whl
+[2024-05-21 14:19:53] INFO root fetch - processPackages [BarteSDK]: Downloading https://files.pythonhosted.org/packages/15/ee/a85c9e9d9f84f12e1c3ab4801827286e3ad5588e1683d13c5130caaa29f2/bartesdk-0.1.9.tar.gz
+[2024-05-21 14:19:53] INFO root fetch - processPackages [pyodre]: Downloading https://files.pythonhosted.org/packages/54/34/4a25c2c9b573a30bbeb478fc066c7f0653d6c79f0b45e39087817d2bb9ad/pyodre-0.0.9.tar.gz
+[2024-05-21 14:19:53] WARNING root fetch - processPackages [dizest]: Skipping package: exceeds size limit 14884346>=10485760
+[2024-05-21 14:19:53] INFO root fetch - main [MainThread]: End processing [dizest] error
+[2024-05-21 14:19:53] INFO root fetch - processPackages [BarteSDK]: executing diffoscope
+[2024-05-21 14:19:53] INFO root fetch - processPackages [BarteSDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bartesdk-0.1.8.tar.gz tmp/bartesdk-0.1.9.tar.gz --markdown 20240521/B/BarteSDK/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-21 14:19:53] INFO root fetch - processPackages [pyodre]: executing diffoscope
+[2024-05-21 14:19:53] INFO root fetch - processPackages [pyodre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyodre-0.0.8.tar.gz tmp/pyodre-0.0.9.tar.gz --markdown 20240521/p/pyodre/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-21 14:19:53] INFO root fetch - processPackages [ellis-django-views]: Downloading https://files.pythonhosted.org/packages/05/d8/fbc6995eeaa21181538d7863cafda04510de6cf864b665fd4f02203f1145/ellis_django_views-0.1888.tar.gz
+[2024-05-21 14:19:54] INFO root fetch - processPackages [tgedr-dataops]: Downloading https://files.pythonhosted.org/packages/e4/87/f10ef9ea6518ce92da3038190aff39bfbb00bf04216a67b7418ab6ab2803/tgedr-dataops-0.0.9.tar.gz
+[2024-05-21 14:19:54] INFO root fetch - processPackages [ellis-django-views]: executing diffoscope
+[2024-05-21 14:19:54] INFO root fetch - processPackages [ellis-django-views]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ellis_django_views-0.188.tar.gz tmp/ellis_django_views-0.1888.tar.gz --markdown 20240521/e/ellis-django-views/0.188-0.1888/README.md --exclude *.pyd
+[2024-05-21 14:19:54] INFO root fetch - processPackages [tgedr-dataops]: executing diffoscope
+[2024-05-21 14:19:54] INFO root fetch - processPackages [tgedr-dataops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tgedr-dataops-0.0.8.tar.gz tmp/tgedr-dataops-0.0.9.tar.gz --markdown 20240521/t/tgedr-dataops/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-21 14:19:54] INFO root fetch - processPackages [pyodre]: Remove: archive file [/home/abi/fetcher/tmp/pyodre-0.0.8.tar.gz]
+[2024-05-21 14:19:54] INFO root fetch - processPackages [pyodre]: Remove: archive file [/home/abi/fetcher/tmp/pyodre-0.0.9.tar.gz]
+[2024-05-21 14:19:54] INFO root fetch - main [MainThread]: End processing [pyodre]: success
+[2024-05-21 14:19:54] INFO root fetch - processPackages [BarteSDK]: Remove: archive file [/home/abi/fetcher/tmp/bartesdk-0.1.8.tar.gz]
+[2024-05-21 14:19:54] INFO root fetch - processPackages [BarteSDK]: Remove: archive file [/home/abi/fetcher/tmp/bartesdk-0.1.9.tar.gz]
+[2024-05-21 14:19:54] INFO root fetch - main [MainThread]: End processing [BarteSDK]: success
+[2024-05-21 14:19:54] INFO root fetch - processPackages [ellis-django-views]: Remove: archive file [/home/abi/fetcher/tmp/ellis_django_views-0.188.tar.gz]
+[2024-05-21 14:19:54] INFO root fetch - processPackages [ellis-django-views]: Remove: archive file [/home/abi/fetcher/tmp/ellis_django_views-0.1888.tar.gz]
+[2024-05-21 14:19:54] INFO root fetch - main [MainThread]: End processing [ellis-django-views]: success
+[2024-05-21 14:19:54] INFO root fetch - processPackages [tgedr-dataops]: Remove: archive file [/home/abi/fetcher/tmp/tgedr-dataops-0.0.8.tar.gz]
+[2024-05-21 14:19:54] INFO root fetch - processPackages [tgedr-dataops]: Remove: archive file [/home/abi/fetcher/tmp/tgedr-dataops-0.0.9.tar.gz]
+[2024-05-21 14:19:54] INFO root fetch - main [MainThread]: End processing [tgedr-dataops]: success
+[2024-05-21 14:19:54] INFO root fetch - main [MainThread]: Store serial: [23306024]
