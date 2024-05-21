@@ -14093,3 +14093,30 @@
 [2024-05-21 08:54:46] INFO root fetch - processPackages [supervisely]: Remove: archive file [/home/abi/fetcher/tmp/supervisely-6.9.2.tar.gz]
 [2024-05-21 08:54:46] INFO root fetch - main [MainThread]: End processing [supervisely]: success
 [2024-05-21 08:54:46] INFO root fetch - main [MainThread]: Store serial: [23302229]
+[2024-05-21 08:56:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23302229]
+[2024-05-21 08:56:55] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-21 08:56:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: plotai
+[2024-05-21 08:56:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-base-technical-features
+[2024-05-21 08:56:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: GraphWiseLearn
+[2024-05-21 08:56:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: videodotdev
+[2024-05-21 08:56:55] WARNING root fetch - processPackages [videodotdev]: Skipping, unable to determine old version
+[2024-05-21 08:56:55] INFO root fetch - main [MainThread]: End processing [videodotdev] error
+[2024-05-21 08:56:55] INFO root fetch - processPackages [plotai]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-21 08:56:55] INFO root fetch - processPackages [odoo-addon-base-technical-features]: New version: [17.0.1.0.0.4] Old Version: [17.0.1.0.0.3]
+[2024-05-21 08:56:55] WARNING root fetch - processPackages [GraphWiseLearn]: Skipping, unable to determine old version
+[2024-05-21 08:56:55] INFO root fetch - main [MainThread]: End processing [GraphWiseLearn] error
+[2024-05-21 08:56:56] INFO root fetch - processPackages [plotai]: Downloading https://files.pythonhosted.org/packages/86/1f/542ae456fab4e71d44c13f50ea42c7047621dfd476e92a78daf4ff9ea696/plotai-0.0.3.tar.gz
+[2024-05-21 08:56:56] INFO root fetch - processPackages [odoo-addon-base-technical-features]: Downloading https://files.pythonhosted.org/packages/36/9e/89749f3e0cd760cfbf7b211c8e175e49e0b269c5d89d60623df12359b18c/odoo_addon_base_technical_features-17.0.1.0.0.3-py3-none-any.whl
+[2024-05-21 08:56:56] INFO root fetch - processPackages [plotai]: Downloading https://files.pythonhosted.org/packages/58/1f/6e5e3c282dc3dbc652e2ac93e1c374b05685ce234657915caf7fc1b72b63/plotai-0.0.4.tar.gz
+[2024-05-21 08:56:56] INFO root fetch - processPackages [plotai]: executing diffoscope
+[2024-05-21 08:56:56] INFO root fetch - processPackages [plotai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plotai-0.0.3.tar.gz tmp/plotai-0.0.4.tar.gz --markdown 20240521/p/plotai/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-21 08:56:56] INFO root fetch - processPackages [odoo-addon-base-technical-features]: Downloading https://files.pythonhosted.org/packages/d0/05/2028ebeab62c18260a1f244b0f97c62400083155a2f2546a3665e9d1aa61/odoo_addon_base_technical_features-17.0.1.0.0.4-py3-none-any.whl
+[2024-05-21 08:56:56] INFO root fetch - processPackages [odoo-addon-base-technical-features]: executing diffoscope
+[2024-05-21 08:56:56] INFO root fetch - processPackages [odoo-addon-base-technical-features]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_technical_features-17.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_base_technical_features-17.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240521/o/odoo-addon-base-technical-features/17.0.1.0.0.3-17.0.1.0.0.4/README.md --exclude *.pyd
+[2024-05-21 08:56:57] INFO root fetch - processPackages [plotai]: Remove: archive file [/home/abi/fetcher/tmp/plotai-0.0.3.tar.gz]
+[2024-05-21 08:56:57] INFO root fetch - processPackages [plotai]: Remove: archive file [/home/abi/fetcher/tmp/plotai-0.0.4.tar.gz]
+[2024-05-21 08:56:57] INFO root fetch - main [MainThread]: End processing [plotai]: success
+[2024-05-21 08:56:57] INFO root fetch - processPackages [odoo-addon-base-technical-features]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_technical_features-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-21 08:56:57] INFO root fetch - processPackages [odoo-addon-base-technical-features]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_technical_features-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-21 08:56:57] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-technical-features]: success
+[2024-05-21 08:56:57] INFO root fetch - main [MainThread]: Store serial: [23302242]
