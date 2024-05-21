@@ -19031,3 +19031,75 @@
 [2024-05-21 11:49:23] INFO root fetch - processPackages [pubtools-quay]: Remove: archive file [/home/abi/fetcher/tmp/pubtools-quay-0.9.3.tar.gz]
 [2024-05-21 11:49:23] INFO root fetch - main [MainThread]: End processing [pubtools-quay]: success
 [2024-05-21 11:49:23] INFO root fetch - main [MainThread]: Store serial: [23304134]
+[2024-05-21 11:51:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23304134]
+[2024-05-21 11:51:32] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-21 11:51:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datatrails-archivist
+[2024-05-21 11:51:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: webgui-jupyter-widgets
+[2024-05-21 11:51:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: streamback
+[2024-05-21 11:51:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: olas-operate-middleware
+[2024-05-21 11:51:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: optimask
+[2024-05-21 11:51:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: coben
+[2024-05-21 11:51:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: calculate-savings
+[2024-05-21 11:51:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: terobot
+[2024-05-21 11:51:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: weaverbird
+[2024-05-21 11:51:32] INFO root fetch - processPackages [optimask]: New version: [1.1.1] Old Version: [1.1]
+[2024-05-21 11:51:32] INFO root fetch - processPackages [olas-operate-middleware]: New version: [0.1.0rc9] Old Version: [0.1.0rc8]
+[2024-05-21 11:51:32] INFO root fetch - processPackages [calculate-savings]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-21 11:51:32] INFO root fetch - processPackages [streamback]: New version: [0.2.1] Old Version: [0.2]
+[2024-05-21 11:51:32] INFO root fetch - processPackages [optimask]: Downloading https://files.pythonhosted.org/packages/31/e4/f4e663c5f0f7d39dc579f7d5db75c72a4b75bbcca2b80511c7d7b8acd748/optimask-1.1.tar.gz
+[2024-05-21 11:51:32] INFO root fetch - processPackages [olas-operate-middleware]: Downloading https://files.pythonhosted.org/packages/d2/22/dc91171f9f5c12f72fbef4ec6b6962b4e66e69f3a3fde86b4f32a9648c5c/olas_operate_middleware-0.1.0rc8.tar.gz
+[2024-05-21 11:51:32] WARNING root fetch - processPackages [coben]: Skipping, unable to determine old version
+[2024-05-21 11:51:32] INFO root fetch - main [MainThread]: End processing [coben] error
+[2024-05-21 11:51:32] INFO root fetch - processPackages [datatrails-archivist]: New version: [0.30.1] Old Version: [0.30.0]
+[2024-05-21 11:51:32] WARNING root fetch - processPackages [terobot]: Skipping, unable to determine old version
+[2024-05-21 11:51:32] INFO root fetch - main [MainThread]: End processing [terobot] error
+[2024-05-21 11:51:32] INFO root fetch - processPackages [webgui-jupyter-widgets]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-21 11:51:32] INFO root fetch - processPackages [streamback]: Downloading https://files.pythonhosted.org/packages/8c/09/9eaa3001287486440f86e9a259833e60c20903540c530d2bb05d17701044/streamback-0.2.tar.gz
+[2024-05-21 11:51:32] INFO root fetch - processPackages [calculate-savings]: Downloading https://files.pythonhosted.org/packages/c1/a6/6844e1b75317944d50e0367e6f70de9bcfd6923ffc8ccc31f6f5b3ea47c3/calculate_savings-0.0.2.tar.gz
+[2024-05-21 11:51:32] INFO root fetch - processPackages [weaverbird]: New version: [0.9.0] Old Version: [0.8.9]
+[2024-05-21 11:51:32] INFO root fetch - processPackages [optimask]: Downloading https://files.pythonhosted.org/packages/ba/06/547d95c694149e9bd903f68e02db9e8d3a7791420825b38b89fd522dc131/optimask-1.1.1.tar.gz
+[2024-05-21 11:51:32] INFO root fetch - processPackages [olas-operate-middleware]: Downloading https://files.pythonhosted.org/packages/8f/69/3a83cbcad75fcbdca3d7a77b5edfa7b4511dea20e87d2aacfe22a9188bc8/olas_operate_middleware-0.1.0rc9.tar.gz
+[2024-05-21 11:51:32] INFO root fetch - processPackages [webgui-jupyter-widgets]: Downloading https://files.pythonhosted.org/packages/50/1e/95ee9a6cc81dedd75b0ab0cabec9708b8665e6e4339930ec1ced9dd1a1b0/webgui_jupyter_widgets-0.2.8-py2.py3-none-any.whl
+[2024-05-21 11:51:32] INFO root fetch - processPackages [datatrails-archivist]: Downloading https://files.pythonhosted.org/packages/08/47/85f92c8a419d598aece050e756a0a345b21cdb54807145d3de4b7986477b/datatrails-archivist-0.30.0.tar.gz
+[2024-05-21 11:51:33] INFO root fetch - processPackages [streamback]: Downloading https://files.pythonhosted.org/packages/22/ba/27452147dd5317692bbc2cd298e53ff551a303f55f24a26cf9c25ed1a56a/streamback-0.2.1.tar.gz
+[2024-05-21 11:51:33] INFO root fetch - processPackages [optimask]: executing diffoscope
+[2024-05-21 11:51:33] INFO root fetch - processPackages [optimask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optimask-1.1.tar.gz tmp/optimask-1.1.1.tar.gz --markdown 20240521/o/optimask/1.1-1.1.1/README.md --exclude *.pyd
+[2024-05-21 11:51:33] INFO root fetch - processPackages [weaverbird]: Downloading https://files.pythonhosted.org/packages/13/d4/a67794d24aede09e2291acd8527a2687b1bb832998e72426432346f1c29b/weaverbird-0.8.9.tar.gz
+[2024-05-21 11:51:33] INFO root fetch - processPackages [calculate-savings]: Downloading https://files.pythonhosted.org/packages/95/29/ef4ad00fbe6362dc38686286148ad60774a94a05f26d8f63c6cee54de951/calculate_savings-0.0.3.tar.gz
+[2024-05-21 11:51:33] INFO root fetch - processPackages [olas-operate-middleware]: executing diffoscope
+[2024-05-21 11:51:33] INFO root fetch - processPackages [olas-operate-middleware]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/olas_operate_middleware-0.1.0rc8.tar.gz tmp/olas_operate_middleware-0.1.0rc9.tar.gz --markdown 20240521/o/olas-operate-middleware/0.1.0rc8-0.1.0rc9/README.md --exclude *.pyd
+[2024-05-21 11:51:33] INFO root fetch - processPackages [streamback]: executing diffoscope
+[2024-05-21 11:51:33] INFO root fetch - processPackages [streamback]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamback-0.2.tar.gz tmp/streamback-0.2.1.tar.gz --markdown 20240521/s/streamback/0.2-0.2.1/README.md --exclude *.pyd
+[2024-05-21 11:51:33] INFO root fetch - processPackages [calculate-savings]: executing diffoscope
+[2024-05-21 11:51:33] INFO root fetch - processPackages [calculate-savings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calculate_savings-0.0.2.tar.gz tmp/calculate_savings-0.0.3.tar.gz --markdown 20240521/c/calculate-savings/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-21 11:51:33] INFO root fetch - processPackages [datatrails-archivist]: Downloading https://files.pythonhosted.org/packages/20/cd/3a64be5fed9f10028fbf17114729e944018c0cdd8d93b88b4142b6833aa4/datatrails_archivist-0.30.1.tar.gz
+[2024-05-21 11:51:33] INFO root fetch - processPackages [weaverbird]: Downloading https://files.pythonhosted.org/packages/7d/6c/1b304fa798ee7d82dbc5bc587a90653cc03647f25d1c498a0020b52a5f78/weaverbird-0.9.0.tar.gz
+[2024-05-21 11:51:33] INFO root fetch - processPackages [datatrails-archivist]: executing diffoscope
+[2024-05-21 11:51:33] INFO root fetch - processPackages [datatrails-archivist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datatrails-archivist-0.30.0.tar.gz tmp/datatrails_archivist-0.30.1.tar.gz --markdown 20240521/d/datatrails-archivist/0.30.0-0.30.1/README.md --exclude *.pyd
+[2024-05-21 11:51:33] INFO root fetch - processPackages [webgui-jupyter-widgets]: Downloading https://files.pythonhosted.org/packages/fc/d0/da80f94ec53ce62ad1628630b00e6735f285f65a586f0a53e570f18ed05d/webgui_jupyter_widgets-0.2.9-py2.py3-none-any.whl
+[2024-05-21 11:51:33] INFO root fetch - processPackages [weaverbird]: executing diffoscope
+[2024-05-21 11:51:33] INFO root fetch - processPackages [weaverbird]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weaverbird-0.8.9.tar.gz tmp/weaverbird-0.9.0.tar.gz --markdown 20240521/w/weaverbird/0.8.9-0.9.0/README.md --exclude *.pyd
+[2024-05-21 11:51:33] INFO root fetch - processPackages [optimask]: Remove: archive file [/home/abi/fetcher/tmp/optimask-1.1.tar.gz]
+[2024-05-21 11:51:33] INFO root fetch - processPackages [optimask]: Remove: archive file [/home/abi/fetcher/tmp/optimask-1.1.1.tar.gz]
+[2024-05-21 11:51:33] INFO root fetch - main [MainThread]: End processing [optimask]: success
+[2024-05-21 11:51:33] INFO root fetch - processPackages [olas-operate-middleware]: Remove: archive file [/home/abi/fetcher/tmp/olas_operate_middleware-0.1.0rc8.tar.gz]
+[2024-05-21 11:51:33] INFO root fetch - processPackages [olas-operate-middleware]: Remove: archive file [/home/abi/fetcher/tmp/olas_operate_middleware-0.1.0rc9.tar.gz]
+[2024-05-21 11:51:33] INFO root fetch - main [MainThread]: End processing [olas-operate-middleware]: success
+[2024-05-21 11:51:34] INFO root fetch - processPackages [calculate-savings]: Remove: archive file [/home/abi/fetcher/tmp/calculate_savings-0.0.2.tar.gz]
+[2024-05-21 11:51:34] INFO root fetch - processPackages [calculate-savings]: Remove: archive file [/home/abi/fetcher/tmp/calculate_savings-0.0.3.tar.gz]
+[2024-05-21 11:51:34] INFO root fetch - main [MainThread]: End processing [calculate-savings]: success
+[2024-05-21 11:51:34] INFO root fetch - processPackages [streamback]: Remove: archive file [/home/abi/fetcher/tmp/streamback-0.2.tar.gz]
+[2024-05-21 11:51:34] INFO root fetch - processPackages [streamback]: Remove: archive file [/home/abi/fetcher/tmp/streamback-0.2.1.tar.gz]
+[2024-05-21 11:51:34] INFO root fetch - main [MainThread]: End processing [streamback]: success
+[2024-05-21 11:51:34] INFO root fetch - processPackages [datatrails-archivist]: Remove: archive file [/home/abi/fetcher/tmp/datatrails-archivist-0.30.0.tar.gz]
+[2024-05-21 11:51:34] INFO root fetch - processPackages [datatrails-archivist]: Remove: archive file [/home/abi/fetcher/tmp/datatrails_archivist-0.30.1.tar.gz]
+[2024-05-21 11:51:34] INFO root fetch - main [MainThread]: End processing [datatrails-archivist]: success
+[2024-05-21 11:51:34] INFO root fetch - processPackages [webgui-jupyter-widgets]: executing diffoscope
+[2024-05-21 11:51:34] INFO root fetch - processPackages [webgui-jupyter-widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webgui_jupyter_widgets-0.2.8-py2.py3-none-any.whl.zip tmp/webgui_jupyter_widgets-0.2.9-py2.py3-none-any.whl.zip --markdown 20240521/w/webgui-jupyter-widgets/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-21 11:51:34] INFO root fetch - processPackages [weaverbird]: Remove: archive file [/home/abi/fetcher/tmp/weaverbird-0.8.9.tar.gz]
+[2024-05-21 11:51:34] INFO root fetch - processPackages [weaverbird]: Remove: archive file [/home/abi/fetcher/tmp/weaverbird-0.9.0.tar.gz]
+[2024-05-21 11:51:34] INFO root fetch - main [MainThread]: End processing [weaverbird]: success
+[2024-05-21 11:52:35] INFO root fetch - processPackages [webgui-jupyter-widgets]: Remove: archive file [/home/abi/fetcher/tmp/webgui_jupyter_widgets-0.2.8-py2.py3-none-any.whl.zip]
+[2024-05-21 11:52:35] INFO root fetch - processPackages [webgui-jupyter-widgets]: Remove: archive file [/home/abi/fetcher/tmp/webgui_jupyter_widgets-0.2.9-py2.py3-none-any.whl.zip]
+[2024-05-21 11:52:35] INFO root fetch - main [MainThread]: End processing [webgui-jupyter-widgets]: success
+[2024-05-21 11:52:35] INFO root fetch - main [MainThread]: Store serial: [23304165]
