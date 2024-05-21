@@ -23146,3 +23146,50 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-21 14:12:43] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-inventory-2.0.dev99.tar.gz]
 [2024-05-21 14:12:43] INFO root fetch - main [MainThread]: End processing [spaceone-inventory]: success
 [2024-05-21 14:12:43] INFO root fetch - main [MainThread]: Store serial: [23305937]
+[2024-05-21 14:14:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23305937]
+[2024-05-21 14:14:52] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-21 14:14:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyodre
+[2024-05-21 14:14:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: up-symk
+[2024-05-21 14:14:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ares-ai
+[2024-05-21 14:14:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zigzag-dse
+[2024-05-21 14:14:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: clarabel
+[2024-05-21 14:14:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: slurpit_sdk
+[2024-05-21 14:14:53] WARNING root fetch - processPackages [slurpit_sdk]: Skipping, unable to determine old version
+[2024-05-21 14:14:53] INFO root fetch - main [MainThread]: End processing [slurpit_sdk] error
+[2024-05-21 14:14:53] INFO root fetch - processPackages [pyodre]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-21 14:14:53] INFO root fetch - processPackages [pyodre]: Downloading https://files.pythonhosted.org/packages/7c/bb/ca9956e55427a06277d623d8d3420da4422b73459bee10667802e48978c3/pyodre-0.0.8.tar.gz
+[2024-05-21 14:14:53] INFO root fetch - processPackages [up-symk]: New version: [1.3.1] Old Version: [1.3.0]
+[2024-05-21 14:14:53] INFO root fetch - processPackages [ares-ai]: New version: [0.5.8] Old Version: [0.5.7]
+[2024-05-21 14:14:53] INFO root fetch - processPackages [clarabel]: New version: [0.8.0] Old Version: [0.7.1]
+[2024-05-21 14:14:53] INFO root fetch - processPackages [zigzag-dse]: New version: [3.1.2] Old Version: [3.1.1]
+[2024-05-21 14:14:53] INFO root fetch - processPackages [clarabel]: Downloading https://files.pythonhosted.org/packages/a2/1b/571478ec8a425cce3736eb51de8db45a9ea6a6a5c8be4705711306a6baea/clarabel-0.7.1.tar.gz
+[2024-05-21 14:14:53] INFO root fetch - processPackages [up-symk]: Downloading https://files.pythonhosted.org/packages/f2/f6/7ec59d06d67e6139fbc9254f81b21a356ff48ad32c2619098a9fb237410a/up_symk-1.3.0-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-21 14:14:53] INFO root fetch - processPackages [zigzag-dse]: Downloading https://files.pythonhosted.org/packages/c6/6d/129a49c62b4a60bdd3247fdd58ccf2bbf2f36341ba20d03fbfd455ae1b91/zigzag_dse-3.1.1.tar.gz
+[2024-05-21 14:14:53] WARNING root fetch - processPackages [up-symk]: Skipping package: exceeds size limit 66655746>=10485760
+[2024-05-21 14:14:53] INFO root fetch - main [MainThread]: End processing [up-symk] error
+[2024-05-21 14:14:53] INFO root fetch - processPackages [ares-ai]: Downloading https://files.pythonhosted.org/packages/e2/80/4d3ead5f94fc7c052505795520832df643610e99cac438e172768a0d4080/ares_ai-0.5.7.tar.gz
+[2024-05-21 14:14:53] INFO root fetch - processPackages [pyodre]: Downloading https://files.pythonhosted.org/packages/54/34/4a25c2c9b573a30bbeb478fc066c7f0653d6c79f0b45e39087817d2bb9ad/pyodre-0.0.9.tar.gz
+[2024-05-21 14:14:53] INFO root fetch - processPackages [pyodre]: executing diffoscope
+[2024-05-21 14:14:53] INFO root fetch - processPackages [pyodre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyodre-0.0.8.tar.gz tmp/pyodre-0.0.9.tar.gz --markdown 20240521/p/pyodre/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-21 14:14:53] INFO root fetch - processPackages [clarabel]: Downloading https://files.pythonhosted.org/packages/9c/0c/21f5247c74357a8ad943b878a12fb78fc663a9f6ada5061c510388d14165/clarabel-0.8.0.tar.gz
+[2024-05-21 14:14:53] INFO root fetch - processPackages [zigzag-dse]: Downloading https://files.pythonhosted.org/packages/a4/35/1cfc467afc3befc30b9d5aab8cb10c1b9822e358d8b6bcde330cb1d38e9d/zigzag_dse-3.1.2.tar.gz
+[2024-05-21 14:14:53] INFO root fetch - processPackages [ares-ai]: Downloading https://files.pythonhosted.org/packages/e1/55/0bd3802738e116c9f9352c23aab579e3501f5e58bd927dbeb52fd97ee4d2/ares_ai-0.5.8.tar.gz
+[2024-05-21 14:14:53] INFO root fetch - processPackages [clarabel]: executing diffoscope
+[2024-05-21 14:14:53] INFO root fetch - processPackages [clarabel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clarabel-0.7.1.tar.gz tmp/clarabel-0.8.0.tar.gz --markdown 20240521/c/clarabel/0.7.1-0.8.0/README.md --exclude *.pyd
+[2024-05-21 14:14:53] INFO root fetch - processPackages [zigzag-dse]: executing diffoscope
+[2024-05-21 14:14:53] INFO root fetch - processPackages [zigzag-dse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zigzag_dse-3.1.1.tar.gz tmp/zigzag_dse-3.1.2.tar.gz --markdown 20240521/z/zigzag-dse/3.1.1-3.1.2/README.md --exclude *.pyd
+[2024-05-21 14:14:53] INFO root fetch - processPackages [ares-ai]: executing diffoscope
+[2024-05-21 14:14:53] INFO root fetch - processPackages [ares-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ares_ai-0.5.7.tar.gz tmp/ares_ai-0.5.8.tar.gz --markdown 20240521/a/ares-ai/0.5.7-0.5.8/README.md --exclude *.pyd
+[2024-05-21 14:14:54] INFO root fetch - processPackages [pyodre]: Remove: archive file [/home/abi/fetcher/tmp/pyodre-0.0.8.tar.gz]
+[2024-05-21 14:14:54] INFO root fetch - processPackages [pyodre]: Remove: archive file [/home/abi/fetcher/tmp/pyodre-0.0.9.tar.gz]
+[2024-05-21 14:14:54] INFO root fetch - main [MainThread]: End processing [pyodre]: success
+[2024-05-21 14:14:54] INFO root fetch - processPackages [ares-ai]: Remove: archive file [/home/abi/fetcher/tmp/ares_ai-0.5.7.tar.gz]
+[2024-05-21 14:14:54] INFO root fetch - processPackages [ares-ai]: Remove: archive file [/home/abi/fetcher/tmp/ares_ai-0.5.8.tar.gz]
+[2024-05-21 14:14:54] INFO root fetch - main [MainThread]: End processing [ares-ai]: success
+[2024-05-21 14:14:54] INFO root fetch - processPackages [zigzag-dse]: Remove: archive file [/home/abi/fetcher/tmp/zigzag_dse-3.1.1.tar.gz]
+[2024-05-21 14:14:54] INFO root fetch - processPackages [zigzag-dse]: Remove: archive file [/home/abi/fetcher/tmp/zigzag_dse-3.1.2.tar.gz]
+[2024-05-21 14:14:54] INFO root fetch - main [MainThread]: End processing [zigzag-dse]: success
+[2024-05-21 14:14:55] INFO root fetch - processPackages [clarabel]: Remove: archive file [/home/abi/fetcher/tmp/clarabel-0.7.1.tar.gz]
+[2024-05-21 14:14:55] INFO root fetch - processPackages [clarabel]: Remove: archive file [/home/abi/fetcher/tmp/clarabel-0.8.0.tar.gz]
+[2024-05-21 14:14:55] INFO root fetch - main [MainThread]: End processing [clarabel]: success
+[2024-05-21 14:14:55] INFO root fetch - main [MainThread]: Store serial: [23305963]
