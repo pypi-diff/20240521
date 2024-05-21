@@ -20427,3 +20427,87 @@
 [2024-05-21 12:31:31] WARNING root fetch - processPackages [tf-nightly-intel]: Skipping package: exceeds size limit 218637191>=10485760
 [2024-05-21 12:31:31] INFO root fetch - main [MainThread]: End processing [tf-nightly-intel] error
 [2024-05-21 12:31:31] INFO root fetch - main [MainThread]: Store serial: [23304739]
+[2024-05-21 12:33:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23304739]
+[2024-05-21 12:33:40] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-21 12:33:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: server-templates
+[2024-05-21 12:33:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: outpostcli
+[2024-05-21 12:33:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dzidb
+[2024-05-21 12:33:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: soil-sdk
+[2024-05-21 12:33:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aiocmcapi
+[2024-05-21 12:33:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: axoden
+[2024-05-21 12:33:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nucliadb
+[2024-05-21 12:33:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nucliadb-dataset
+[2024-05-21 12:33:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nucliadb-models
+[2024-05-21 12:33:41] INFO root fetch - processPackages [outpostcli]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-21 12:33:41] INFO root fetch - processPackages [dzidb]: New version: [1.1] Old Version: [1.0.8]
+[2024-05-21 12:33:41] INFO root fetch - processPackages [server-templates]: New version: [0.3.0] Old Version: [0.2.9]
+[2024-05-21 12:33:41] INFO root fetch - processPackages [nucliadb-dataset]: New version: [4.0.0.post528] Old Version: [4.0.0.post527]
+[2024-05-21 12:33:41] INFO root fetch - processPackages [nucliadb]: New version: [4.0.0.post528] Old Version: [4.0.0.post527]
+[2024-05-21 12:33:41] INFO root fetch - processPackages [nucliadb-models]: New version: [4.0.0.post528] Old Version: [4.0.0.post527]
+[2024-05-21 12:33:41] INFO root fetch - processPackages [axoden]: New version: [1.1.0] Old Version: [1.0.2]
+[2024-05-21 12:33:41] INFO root fetch - processPackages [outpostcli]: Downloading https://files.pythonhosted.org/packages/7e/e2/114a39eac567286d0418645c0ea24089c48fcbe4cccec6c79191a5cefccf/outpostcli-0.0.8.tar.gz
+[2024-05-21 12:33:41] INFO root fetch - processPackages [server-templates]: Downloading https://files.pythonhosted.org/packages/11/84/d7da14623575908f087ae536a6c380ca047ec1dbd8e633d855019a35bb7c/server_templates-0.2.9.tar.gz
+[2024-05-21 12:33:41] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/82/8a/c1a0934ed200df603311e73e9b29e6290fe98dc386cdc6b1a537b4ce0554/nucliadb-4.0.0.post527-py3-none-any.whl
+[2024-05-21 12:33:41] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/9e/52/9ca1a3c9affa29f529d53b6706229ff6fc3bb0a4e2ff729d0e263b8dad51/nucliadb_models-4.0.0.post527-py3-none-any.whl
+[2024-05-21 12:33:41] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/7d/9a/075d18ad931802662cd74fec216f00d997614777ba5993225f497e8b38c5/nucliadb_dataset-4.0.0.post527-py3-none-any.whl
+[2024-05-21 12:33:41] INFO root fetch - processPackages [dzidb]: Downloading https://files.pythonhosted.org/packages/72/bb/a08dd5b03f4b8aa27664a27111b99d794a04b6ea05812a34c7a800bb10a3/dzidb-1.0.8.tar.gz
+[2024-05-21 12:33:41] INFO root fetch - processPackages [aiocmcapi]: New version: [0.7] Old Version: [0.6.5]
+[2024-05-21 12:33:41] INFO root fetch - processPackages [axoden]: Downloading https://files.pythonhosted.org/packages/e9/d5/7acf5241914c79402c064a212b91e1a1de3e4ff84609905ca9fc87e9392e/axoden-1.0.2.tar.gz
+[2024-05-21 12:33:41] INFO root fetch - processPackages [outpostcli]: Downloading https://files.pythonhosted.org/packages/df/ab/82b6853cec170d33c2aff19e3a298b0bf56f7ba1b885f6f7d42a10ae43dc/outpostcli-0.0.9.tar.gz
+[2024-05-21 12:33:41] INFO root fetch - processPackages [server-templates]: Downloading https://files.pythonhosted.org/packages/97/1e/6d99e1a479434f007070331168cd94597d60a5b8cae190bd2f893126b016/server_templates-0.3.0.tar.gz
+[2024-05-21 12:33:41] INFO root fetch - processPackages [outpostcli]: executing diffoscope
+[2024-05-21 12:33:41] INFO root fetch - processPackages [outpostcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/outpostcli-0.0.8.tar.gz tmp/outpostcli-0.0.9.tar.gz --markdown 20240521/o/outpostcli/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-21 12:33:41] INFO root fetch - processPackages [dzidb]: Downloading https://files.pythonhosted.org/packages/ab/7b/1eb783cec2be6c8f5f50400132b6afae58c752421a84c34ef92cb658707b/dzidb-1.1.tar.gz
+[2024-05-21 12:33:41] INFO root fetch - processPackages [aiocmcapi]: Downloading https://files.pythonhosted.org/packages/6f/45/77c8893d8d98847a47e33fca061f638ffc268df4e67c7edc420a5ae50954/aiocmcapi-0.6.5.tar.gz
+[2024-05-21 12:33:41] INFO root fetch - processPackages [server-templates]: executing diffoscope
+[2024-05-21 12:33:41] INFO root fetch - processPackages [server-templates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/server_templates-0.2.9.tar.gz tmp/server_templates-0.3.0.tar.gz --markdown 20240521/s/server-templates/0.2.9-0.3.0/README.md --exclude *.pyd
+[2024-05-21 12:33:41] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/5b/c1/9b57462690980d8f2563566c56d8dcb725a132d73fb8811d8f01d226aa46/nucliadb-4.0.0.post528-py3-none-any.whl
+[2024-05-21 12:33:41] INFO root fetch - processPackages [dzidb]: executing diffoscope
+[2024-05-21 12:33:41] INFO root fetch - processPackages [dzidb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dzidb-1.0.8.tar.gz tmp/dzidb-1.1.tar.gz --markdown 20240521/d/dzidb/1.0.8-1.1/README.md --exclude *.pyd
+[2024-05-21 12:33:41] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/e1/68/391298e6825ac5b66f404e19bd6a71a2a0779d5d805401fdb1df5ae80a84/nucliadb_dataset-4.0.0.post528-py3-none-any.whl
+[2024-05-21 12:33:41] INFO root fetch - processPackages [soil-sdk]: New version: [0.6.9] Old Version: [0.6.8.dev2]
+[2024-05-21 12:33:41] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2024-05-21 12:33:41] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-4.0.0.post527-py3-none-any.whl.zip tmp/nucliadb_dataset-4.0.0.post528-py3-none-any.whl.zip --markdown 20240521/n/nucliadb-dataset/4.0.0.post527-4.0.0.post528/README.md --exclude *.pyd
+[2024-05-21 12:33:41] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2024-05-21 12:33:41] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-4.0.0.post527-py3-none-any.whl.zip tmp/nucliadb-4.0.0.post528-py3-none-any.whl.zip --markdown 20240521/n/nucliadb/4.0.0.post527-4.0.0.post528/README.md --exclude *.pyd
+[2024-05-21 12:33:41] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/f7/9e/56bc8172216179f59abba34a3c80c83cec098866427ff2a96bc76dd97d5f/nucliadb_models-4.0.0.post528-py3-none-any.whl
+[2024-05-21 12:33:42] INFO root fetch - processPackages [aiocmcapi]: Downloading https://files.pythonhosted.org/packages/0b/0c/5db6b9efc327184b1c736f62687f8b1655fb751ab65e13d68c953bdcc68a/aiocmcapi-0.7.tar.gz
+[2024-05-21 12:33:42] INFO root fetch - processPackages [axoden]: Downloading https://files.pythonhosted.org/packages/19/9f/d5357955030e73f4986961725c8dbf2f770ee858d4939a115c8ca542a176/axoden-1.1.0.tar.gz
+[2024-05-21 12:33:42] INFO root fetch - processPackages [soil-sdk]: Downloading https://files.pythonhosted.org/packages/43/64/68f336f248034f5496c0f6133882d758ff76d98fbc108383165e5c203e35/soil-sdk-0.6.8.dev2.tar.gz
+[2024-05-21 12:33:42] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2024-05-21 12:33:42] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-4.0.0.post527-py3-none-any.whl.zip tmp/nucliadb_models-4.0.0.post528-py3-none-any.whl.zip --markdown 20240521/n/nucliadb-models/4.0.0.post527-4.0.0.post528/README.md --exclude *.pyd
+[2024-05-21 12:33:42] INFO root fetch - processPackages [aiocmcapi]: executing diffoscope
+[2024-05-21 12:33:42] INFO root fetch - processPackages [aiocmcapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiocmcapi-0.6.5.tar.gz tmp/aiocmcapi-0.7.tar.gz --markdown 20240521/a/aiocmcapi/0.6.5-0.7/README.md --exclude *.pyd
+[2024-05-21 12:33:42] INFO root fetch - processPackages [axoden]: executing diffoscope
+[2024-05-21 12:33:42] INFO root fetch - processPackages [axoden]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/axoden-1.0.2.tar.gz tmp/axoden-1.1.0.tar.gz --markdown 20240521/a/axoden/1.0.2-1.1.0/README.md --exclude *.pyd
+[2024-05-21 12:33:42] INFO root fetch - processPackages [soil-sdk]: Downloading https://files.pythonhosted.org/packages/95/a4/5d6fcf9c297529ccac89f00ed380d87a066c0f04eab9df8f4237645e0542/soil-sdk-0.6.9.tar.gz
+[2024-05-21 12:33:42] INFO root fetch - processPackages [server-templates]: Remove: archive file [/home/abi/fetcher/tmp/server_templates-0.2.9.tar.gz]
+[2024-05-21 12:33:42] INFO root fetch - processPackages [server-templates]: Remove: archive file [/home/abi/fetcher/tmp/server_templates-0.3.0.tar.gz]
+[2024-05-21 12:33:42] INFO root fetch - main [MainThread]: End processing [server-templates]: success
+[2024-05-21 12:33:42] INFO root fetch - processPackages [dzidb]: Remove: archive file [/home/abi/fetcher/tmp/dzidb-1.0.8.tar.gz]
+[2024-05-21 12:33:42] INFO root fetch - processPackages [dzidb]: Remove: archive file [/home/abi/fetcher/tmp/dzidb-1.1.tar.gz]
+[2024-05-21 12:33:42] INFO root fetch - main [MainThread]: End processing [dzidb]: success
+[2024-05-21 12:33:42] INFO root fetch - processPackages [outpostcli]: Remove: archive file [/home/abi/fetcher/tmp/outpostcli-0.0.8.tar.gz]
+[2024-05-21 12:33:42] INFO root fetch - processPackages [outpostcli]: Remove: archive file [/home/abi/fetcher/tmp/outpostcli-0.0.9.tar.gz]
+[2024-05-21 12:33:42] INFO root fetch - main [MainThread]: End processing [outpostcli]: success
+[2024-05-21 12:33:42] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-4.0.0.post527-py3-none-any.whl.zip]
+[2024-05-21 12:33:42] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-4.0.0.post528-py3-none-any.whl.zip]
+[2024-05-21 12:33:42] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2024-05-21 12:33:42] INFO root fetch - processPackages [soil-sdk]: executing diffoscope
+[2024-05-21 12:33:42] INFO root fetch - processPackages [soil-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soil-sdk-0.6.8.dev2.tar.gz tmp/soil-sdk-0.6.9.tar.gz --markdown 20240521/s/soil-sdk/0.6.8.dev2-0.6.9/README.md --exclude *.pyd
+[2024-05-21 12:33:42] INFO root fetch - processPackages [aiocmcapi]: Remove: archive file [/home/abi/fetcher/tmp/aiocmcapi-0.6.5.tar.gz]
+[2024-05-21 12:33:42] INFO root fetch - processPackages [aiocmcapi]: Remove: archive file [/home/abi/fetcher/tmp/aiocmcapi-0.7.tar.gz]
+[2024-05-21 12:33:42] INFO root fetch - main [MainThread]: End processing [aiocmcapi]: success
+[2024-05-21 12:33:42] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-4.0.0.post527-py3-none-any.whl.zip]
+[2024-05-21 12:33:42] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-4.0.0.post528-py3-none-any.whl.zip]
+[2024-05-21 12:33:42] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2024-05-21 12:33:43] INFO root fetch - processPackages [axoden]: Remove: archive file [/home/abi/fetcher/tmp/axoden-1.0.2.tar.gz]
+[2024-05-21 12:33:43] INFO root fetch - processPackages [axoden]: Remove: archive file [/home/abi/fetcher/tmp/axoden-1.1.0.tar.gz]
+[2024-05-21 12:33:43] INFO root fetch - main [MainThread]: End processing [axoden]: success
+[2024-05-21 12:33:44] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-4.0.0.post527-py3-none-any.whl.zip]
+[2024-05-21 12:33:44] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-4.0.0.post528-py3-none-any.whl.zip]
+[2024-05-21 12:33:44] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2024-05-21 12:33:44] INFO root fetch - processPackages [soil-sdk]: Remove: archive file [/home/abi/fetcher/tmp/soil-sdk-0.6.8.dev2.tar.gz]
+[2024-05-21 12:33:44] INFO root fetch - processPackages [soil-sdk]: Remove: archive file [/home/abi/fetcher/tmp/soil-sdk-0.6.9.tar.gz]
+[2024-05-21 12:33:44] INFO root fetch - main [MainThread]: End processing [soil-sdk]: success
+[2024-05-21 12:33:44] INFO root fetch - main [MainThread]: Store serial: [23304764]
