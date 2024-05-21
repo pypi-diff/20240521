@@ -17618,3 +17618,179 @@
 [2024-05-21 11:04:19] INFO root fetch - processPackages [pytorch_optimizer]: Remove: archive file [/home/abi/fetcher/tmp/pytorch_optimizer-3.0.0.tar.gz]
 [2024-05-21 11:04:19] INFO root fetch - main [MainThread]: End processing [pytorch_optimizer]: success
 [2024-05-21 11:04:19] INFO root fetch - main [MainThread]: Store serial: [23303527]
+[2024-05-21 11:06:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23303527]
+[2024-05-21 11:06:28] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2024-05-21 11:06:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autogluon.core
+[2024-05-21 11:06:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: timezone-location
+[2024-05-21 11:06:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: co6co.permissions
+[2024-05-21 11:06:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: deafrica-tools
+[2024-05-21 11:06:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mg-pso-gui
+[2024-05-21 11:06:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qtealeaves
+[2024-05-21 11:06:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: techgram
+[2024-05-21 11:06:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: autogluon.features
+[2024-05-21 11:06:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: co6co.web-db
+[2024-05-21 11:06:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: autogluon.cloud
+[2024-05-21 11:06:28] INFO root fetch - processPackages [autogluon.core]: New version: [1.1.1b20240520] Old Version: [1.1.1b20240519]
+[2024-05-21 11:06:28] INFO root fetch - processPackages [techgram]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-21 11:06:28] WARNING root fetch - processPackages [timezone-location]: Skipping, unable to determine old version
+[2024-05-21 11:06:28] INFO root fetch - processPackages [timezone-location]: Start processing: dzidb
+[2024-05-21 11:06:28] INFO root fetch - main [MainThread]: End processing [timezone-location] error
+[2024-05-21 11:06:28] INFO root fetch - processPackages [deafrica-tools]: New version: [2.3.9] Old Version: [2.3.8]
+[2024-05-21 11:06:28] INFO root fetch - processPackages [mg-pso-gui]: New version: [0.1.9] Old Version: [0.1.88]
+[2024-05-21 11:06:28] INFO root fetch - processPackages [autogluon.cloud]: New version: [0.4.0b20240520] Old Version: [0.4.0b20240519]
+[2024-05-21 11:06:28] INFO root fetch - processPackages [autogluon.features]: New version: [1.1.1b20240520] Old Version: [1.1.1b20240519]
+[2024-05-21 11:06:28] INFO root fetch - processPackages [dzidb]: New version: [1.1] Old Version: [1.0.5]
+[2024-05-21 11:06:28] INFO root fetch - processPackages [techgram]: Downloading https://files.pythonhosted.org/packages/bb/6a/8f42ce2261917180e04383db934b3337df0e0e91cb53fa81e5c1a25f8e52/techgram-1.0.8-cp39-cp39-manylinux2014_x86_64.whl
+[2024-05-21 11:06:28] INFO root fetch - processPackages [co6co.web-db]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-21 11:06:28] INFO root fetch - processPackages [co6co.permissions]: New version: [0.0.3] Old Version: [0.0.1]
+[2024-05-21 11:06:28] INFO root fetch - processPackages [qtealeaves]: New version: [1.1.8] Old Version: [1.1.7]
+[2024-05-21 11:06:28] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/68/2c/f314acbeb0b2065456952c5b8b9bbfb1cc9c7c666785f9c72c64243d1dcf/autogluon.core-1.1.1b20240519.tar.gz
+[2024-05-21 11:06:29] INFO root fetch - processPackages [autogluon.features]: Downloading https://files.pythonhosted.org/packages/99/1d/1397de9df268e46f484be9d59ea68c013fef7ccfc5cd6b0186c52e1cc540/autogluon.features-1.1.1b20240519.tar.gz
+[2024-05-21 11:06:29] INFO root fetch - processPackages [mg-pso-gui]: Downloading https://files.pythonhosted.org/packages/48/21/fe2f35a52aef469de89b62a68b0892384da26356966f9f98d9910d23a00c/mg-pso-gui-0.1.88.tar.gz
+[2024-05-21 11:06:29] INFO root fetch - processPackages [autogluon.cloud]: Downloading https://files.pythonhosted.org/packages/ec/d5/56aa116f348f90da3920af7e94642e11427e1e8e51161cace59c754330b9/autogluon.cloud-0.4.0b20240519.tar.gz
+[2024-05-21 11:06:29] WARNING root fetch - processPackages [techgram]: Skipping package: exceeds size limit 11235555>=10485760
+[2024-05-21 11:06:29] INFO root fetch - processPackages [techgram]: Start processing: autogluon.tabular
+[2024-05-21 11:06:29] INFO root fetch - main [MainThread]: End processing [techgram] error
+[2024-05-21 11:06:29] INFO root fetch - processPackages [deafrica-tools]: Downloading https://files.pythonhosted.org/packages/20/de/24a8b37940b9d04b05be833d668a586fb60dc429b8af6094da5dfd62e6be/deafrica_tools-2.3.8.tar.gz
+[2024-05-21 11:06:29] INFO root fetch - processPackages [dzidb]: Downloading https://files.pythonhosted.org/packages/2d/bf/0a3df71a19ca94cb248eeee1ec152148b188652b525cbdfd650504b192b6/dzidb-1.0.5.tar.gz
+[2024-05-21 11:06:29] INFO root fetch - processPackages [co6co.web-db]: Downloading https://files.pythonhosted.org/packages/b0/76/cf73715c60c3777933a31edd589613b9527117d08828e8ad0f75b7a3ca62/co6co.web_db-0.0.4.tar.gz
+[2024-05-21 11:06:29] INFO root fetch - processPackages [co6co.permissions]: Downloading https://files.pythonhosted.org/packages/43/a9/b000c0900ba292dfac6f3c1482f040a8e65a42143761425c94f1387d77bd/co6co.permissions-0.0.1.tar.gz
+[2024-05-21 11:06:29] INFO root fetch - processPackages [qtealeaves]: Downloading https://files.pythonhosted.org/packages/2d/05/62d5f92b7fca735a261ef09cd94d320542f26bec2769a0f4ac45028f9a30/qtealeaves-1.1.7.tar.gz
+[2024-05-21 11:06:29] INFO root fetch - processPackages [autogluon.tabular]: New version: [1.1.1b20240520] Old Version: [1.1.1b20240519]
+[2024-05-21 11:06:29] INFO root fetch - processPackages [autogluon.tabular]: Downloading https://files.pythonhosted.org/packages/0f/31/11e66d4f5614b9dfcfa9fb607a7329ba8c9f9d5d4925d9bfbfa6f286c78d/autogluon.tabular-1.1.1b20240519.tar.gz
+[2024-05-21 11:06:29] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/90/42/2ec6685926218f52ac1634f987e488afd4e0d65a2d7cee5d684f0d6c530e/autogluon.core-1.1.1b20240520.tar.gz
+[2024-05-21 11:06:29] INFO root fetch - processPackages [autogluon.features]: Downloading https://files.pythonhosted.org/packages/db/a9/e800c9a0439fe4e39cf415900dab2103f75eea8b34019e3beae3f15e5210/autogluon.features-1.1.1b20240520.tar.gz
+[2024-05-21 11:06:29] INFO root fetch - processPackages [mg-pso-gui]: Downloading https://files.pythonhosted.org/packages/29/bb/6e298a4662149de339e056d2e3fd47d836e1cc07f109b6309c4e0f4c97b3/mg-pso-gui-0.1.9.tar.gz
+[2024-05-21 11:06:29] INFO root fetch - processPackages [dzidb]: Downloading https://files.pythonhosted.org/packages/ab/7b/1eb783cec2be6c8f5f50400132b6afae58c752421a84c34ef92cb658707b/dzidb-1.1.tar.gz
+[2024-05-21 11:06:29] INFO root fetch - processPackages [autogluon.cloud]: Downloading https://files.pythonhosted.org/packages/81/e5/c778311a2fd9ab433d5232a6cf56ac1183b9d555cb13ed35b275b1f9ecc4/autogluon.cloud-0.4.0b20240520.tar.gz
+[2024-05-21 11:06:29] INFO root fetch - processPackages [deafrica-tools]: Downloading https://files.pythonhosted.org/packages/9b/d3/37ab32e296f79e3cdd46b033eae9d0b711af4b95c3ab4431289cbfcb708c/deafrica_tools-2.3.9.tar.gz
+[2024-05-21 11:06:29] INFO root fetch - processPackages [co6co.web-db]: Downloading https://files.pythonhosted.org/packages/bf/84/031aca3c50382432190cb5b5c4d28cd7f3611c35044b1344437bb968333e/co6co.web_db-0.0.5.tar.gz
+[2024-05-21 11:06:29] INFO root fetch - processPackages [autogluon.core]: executing diffoscope
+[2024-05-21 11:06:29] INFO root fetch - processPackages [autogluon.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.core-1.1.1b20240519.tar.gz tmp/autogluon.core-1.1.1b20240520.tar.gz --markdown 20240521/a/autogluon.core/1.1.1b20240519-1.1.1b20240520/README.md --exclude *.pyd
+[2024-05-21 11:06:29] INFO root fetch - processPackages [co6co.permissions]: Downloading https://files.pythonhosted.org/packages/c1/7a/3e2ce6226e447ef62ba14ea6c8885416bc47c35d86efe2b2049355b61616/co6co.permissions-0.0.3.tar.gz
+[2024-05-21 11:06:29] INFO root fetch - processPackages [autogluon.features]: executing diffoscope
+[2024-05-21 11:06:29] INFO root fetch - processPackages [autogluon.features]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.features-1.1.1b20240519.tar.gz tmp/autogluon.features-1.1.1b20240520.tar.gz --markdown 20240521/a/autogluon.features/1.1.1b20240519-1.1.1b20240520/README.md --exclude *.pyd
+[2024-05-21 11:06:29] INFO root fetch - processPackages [dzidb]: executing diffoscope
+[2024-05-21 11:06:29] INFO root fetch - processPackages [dzidb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dzidb-1.0.5.tar.gz tmp/dzidb-1.1.tar.gz --markdown 20240521/d/dzidb/1.0.5-1.1/README.md --exclude *.pyd
+[2024-05-21 11:06:29] INFO root fetch - processPackages [autogluon.cloud]: executing diffoscope
+[2024-05-21 11:06:29] INFO root fetch - processPackages [autogluon.cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.cloud-0.4.0b20240519.tar.gz tmp/autogluon.cloud-0.4.0b20240520.tar.gz --markdown 20240521/a/autogluon.cloud/0.4.0b20240519-0.4.0b20240520/README.md --exclude *.pyd
+[2024-05-21 11:06:29] INFO root fetch - processPackages [mg-pso-gui]: executing diffoscope
+[2024-05-21 11:06:29] INFO root fetch - processPackages [mg-pso-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mg-pso-gui-0.1.88.tar.gz tmp/mg-pso-gui-0.1.9.tar.gz --markdown 20240521/m/mg-pso-gui/0.1.88-0.1.9/README.md --exclude *.pyd
+[2024-05-21 11:06:29] INFO root fetch - processPackages [deafrica-tools]: executing diffoscope
+[2024-05-21 11:06:29] INFO root fetch - processPackages [deafrica-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deafrica_tools-2.3.8.tar.gz tmp/deafrica_tools-2.3.9.tar.gz --markdown 20240521/d/deafrica-tools/2.3.8-2.3.9/README.md --exclude *.pyd
+[2024-05-21 11:06:29] INFO root fetch - processPackages [qtealeaves]: Downloading https://files.pythonhosted.org/packages/ee/d8/38888b5ffbf4fd8ab27cfd2e755f9454503f07d2b5b8ef3de4258513c18e/qtealeaves-1.1.8.tar.gz
+[2024-05-21 11:06:29] INFO root fetch - processPackages [co6co.permissions]: executing diffoscope
+[2024-05-21 11:06:29] INFO root fetch - processPackages [co6co.permissions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/co6co.permissions-0.0.1.tar.gz tmp/co6co.permissions-0.0.3.tar.gz --markdown 20240521/c/co6co.permissions/0.0.1-0.0.3/README.md --exclude *.pyd
+[2024-05-21 11:06:29] INFO root fetch - processPackages [co6co.web-db]: executing diffoscope
+[2024-05-21 11:06:29] INFO root fetch - processPackages [co6co.web-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/co6co.web_db-0.0.4.tar.gz tmp/co6co.web_db-0.0.5.tar.gz --markdown 20240521/c/co6co.web-db/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-21 11:06:30] INFO root fetch - processPackages [autogluon.tabular]: Downloading https://files.pythonhosted.org/packages/73/2b/82351110b66cbb5a762f9c0859fbcd5d9592b72a1f6f44fc5a2781c93272/autogluon.tabular-1.1.1b20240520.tar.gz
+[2024-05-21 11:06:30] INFO root fetch - processPackages [qtealeaves]: executing diffoscope
+[2024-05-21 11:06:30] INFO root fetch - processPackages [qtealeaves]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtealeaves-1.1.7.tar.gz tmp/qtealeaves-1.1.8.tar.gz --markdown 20240521/q/qtealeaves/1.1.7-1.1.8/README.md --exclude *.pyd
+[2024-05-21 11:06:30] INFO root fetch - processPackages [autogluon.tabular]: executing diffoscope
+[2024-05-21 11:06:30] INFO root fetch - processPackages [autogluon.tabular]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.tabular-1.1.1b20240519.tar.gz tmp/autogluon.tabular-1.1.1b20240520.tar.gz --markdown 20240521/a/autogluon.tabular/1.1.1b20240519-1.1.1b20240520/README.md --exclude *.pyd
+[2024-05-21 11:06:30] INFO root fetch - processPackages [dzidb]: Remove: archive file [/home/abi/fetcher/tmp/dzidb-1.0.5.tar.gz]
+[2024-05-21 11:06:30] INFO root fetch - processPackages [dzidb]: Remove: archive file [/home/abi/fetcher/tmp/dzidb-1.1.tar.gz]
+[2024-05-21 11:06:30] INFO root fetch - processPackages [dzidb]: Start processing: autogluon.multimodal
+[2024-05-21 11:06:30] INFO root fetch - main [MainThread]: End processing [dzidb]: success
+[2024-05-21 11:06:30] INFO root fetch - processPackages [autogluon.multimodal]: New version: [1.1.1b20240520] Old Version: [1.1.1b20240519]
+[2024-05-21 11:06:30] INFO root fetch - processPackages [autogluon.multimodal]: Downloading https://files.pythonhosted.org/packages/a5/68/160f5391d2822ec19c2c1026dac17c9269359bd011930cd82ef7e9f771f2/autogluon.multimodal-1.1.1b20240519.tar.gz
+[2024-05-21 11:06:30] INFO root fetch - processPackages [co6co.web-db]: Remove: archive file [/home/abi/fetcher/tmp/co6co.web_db-0.0.4.tar.gz]
+[2024-05-21 11:06:30] INFO root fetch - processPackages [co6co.web-db]: Remove: archive file [/home/abi/fetcher/tmp/co6co.web_db-0.0.5.tar.gz]
+[2024-05-21 11:06:31] INFO root fetch - processPackages [co6co.web-db]: Start processing: CVE-2020-35489
+[2024-05-21 11:06:31] INFO root fetch - main [MainThread]: End processing [co6co.web-db]: success
+[2024-05-21 11:06:31] WARNING root fetch - processPackages [CVE-2020-35489]: Skipping, unable to determine old version
+[2024-05-21 11:06:31] INFO root fetch - processPackages [CVE-2020-35489]: Start processing: autogluon.timeseries
+[2024-05-21 11:06:31] INFO root fetch - main [MainThread]: End processing [CVE-2020-35489] error
+[2024-05-21 11:06:31] INFO root fetch - processPackages [autogluon.features]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.features-1.1.1b20240519.tar.gz]
+[2024-05-21 11:06:31] INFO root fetch - processPackages [autogluon.features]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.features-1.1.1b20240520.tar.gz]
+[2024-05-21 11:06:31] INFO root fetch - processPackages [autogluon.features]: Start processing: alibabacloud-btripopen20220520
+[2024-05-21 11:06:31] INFO root fetch - main [MainThread]: End processing [autogluon.features]: success
+[2024-05-21 11:06:31] INFO root fetch - processPackages [autogluon.timeseries]: New version: [1.1.1b20240520] Old Version: [1.1.1b20240519]
+[2024-05-21 11:06:31] INFO root fetch - processPackages [autogluon.core]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.core-1.1.1b20240519.tar.gz]
+[2024-05-21 11:06:31] INFO root fetch - processPackages [autogluon.core]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.core-1.1.1b20240520.tar.gz]
+[2024-05-21 11:06:31] INFO root fetch - processPackages [autogluon.core]: Start processing: smartpredict
+[2024-05-21 11:06:31] INFO root fetch - main [MainThread]: End processing [autogluon.core]: success
+[2024-05-21 11:06:31] INFO root fetch - processPackages [smartpredict]: New version: [0.2] Old Version: [0.1]
+[2024-05-21 11:06:31] INFO root fetch - processPackages [co6co.permissions]: Remove: archive file [/home/abi/fetcher/tmp/co6co.permissions-0.0.1.tar.gz]
+[2024-05-21 11:06:31] INFO root fetch - processPackages [co6co.permissions]: Remove: archive file [/home/abi/fetcher/tmp/co6co.permissions-0.0.3.tar.gz]
+[2024-05-21 11:06:31] INFO root fetch - processPackages [co6co.permissions]: Start processing: autogluon
+[2024-05-21 11:06:31] INFO root fetch - main [MainThread]: End processing [co6co.permissions]: success
+[2024-05-21 11:06:31] INFO root fetch - processPackages [autogluon.cloud]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.cloud-0.4.0b20240519.tar.gz]
+[2024-05-21 11:06:31] INFO root fetch - processPackages [autogluon.cloud]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.cloud-0.4.0b20240520.tar.gz]
+[2024-05-21 11:06:31] INFO root fetch - processPackages [autogluon.cloud]: Start processing: ocrmypdf
+[2024-05-21 11:06:31] INFO root fetch - main [MainThread]: End processing [autogluon.cloud]: success
+[2024-05-21 11:06:31] INFO root fetch - processPackages [autogluon.timeseries]: Downloading https://files.pythonhosted.org/packages/d9/70/5b25af707bba4658a780ce996a9e824d685e7097c1538a4bc555a89251e0/autogluon.timeseries-1.1.1b20240519.tar.gz
+[2024-05-21 11:06:31] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: New version: [3.1.0] Old Version: [3.0.0]
+[2024-05-21 11:06:31] INFO root fetch - processPackages [ocrmypdf]: New version: [9.8.2] Old Version: [9.8.1]
+[2024-05-21 11:06:31] INFO root fetch - processPackages [deafrica-tools]: Remove: archive file [/home/abi/fetcher/tmp/deafrica_tools-2.3.8.tar.gz]
+[2024-05-21 11:06:31] INFO root fetch - processPackages [deafrica-tools]: Remove: archive file [/home/abi/fetcher/tmp/deafrica_tools-2.3.9.tar.gz]
+[2024-05-21 11:06:31] INFO root fetch - processPackages [deafrica-tools]: Start processing: odoo14-addon-ssi-hr-payroll
+[2024-05-21 11:06:31] INFO root fetch - main [MainThread]: End processing [deafrica-tools]: success
+[2024-05-21 11:06:31] INFO root fetch - processPackages [mg-pso-gui]: Remove: archive file [/home/abi/fetcher/tmp/mg-pso-gui-0.1.88.tar.gz]
+[2024-05-21 11:06:31] INFO root fetch - processPackages [mg-pso-gui]: Remove: archive file [/home/abi/fetcher/tmp/mg-pso-gui-0.1.9.tar.gz]
+[2024-05-21 11:06:31] INFO root fetch - processPackages [mg-pso-gui]: Start processing: pyZlBus
+[2024-05-21 11:06:31] INFO root fetch - main [MainThread]: End processing [mg-pso-gui]: success
+[2024-05-21 11:06:31] INFO root fetch - processPackages [autogluon]: New version: [1.1.1b20240520] Old Version: [1.1.1b20240519]
+[2024-05-21 11:06:31] INFO root fetch - processPackages [pyZlBus]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-21 11:06:31] INFO root fetch - processPackages [autogluon.multimodal]: Downloading https://files.pythonhosted.org/packages/56/20/b556839e601a71e9bf100e8b29fc6518c900ef7e851921574f4fe2d263cf/autogluon.multimodal-1.1.1b20240520.tar.gz
+[2024-05-21 11:06:31] INFO root fetch - processPackages [smartpredict]: Downloading https://files.pythonhosted.org/packages/d4/b2/526849e761ff0d053e03241e3381e865c991a81087e759ed80b4b7f5c991/smartpredict-0.1.tar.gz
+[2024-05-21 11:06:31] INFO root fetch - processPackages [odoo14-addon-ssi-hr-payroll]: New version: [14.0.1.6.1] Old Version: [14.0.1.6.0]
+[2024-05-21 11:06:31] INFO root fetch - processPackages [pyZlBus]: Downloading https://files.pythonhosted.org/packages/aa/3d/3c2df5816cb20c17157925cadc04072f02f2da3de169278dde04689de208/pyZlBus-0.1.8-py3-none-any.whl
+[2024-05-21 11:06:31] INFO root fetch - processPackages [ocrmypdf]: Downloading https://files.pythonhosted.org/packages/14/45/a2315680b83ec61fee6771408338754b37b678e56dacb9abdc770190b759/ocrmypdf-9.8.1.tar.gz
+[2024-05-21 11:06:31] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: Downloading https://files.pythonhosted.org/packages/6b/8b/38036efe91de8f4d7cc1db0fe9351e085c85295d04aba1b08914b47a4779/alibabacloud_btripopen20220520-3.0.0.tar.gz
+[2024-05-21 11:06:31] INFO root fetch - processPackages [autogluon]: Downloading https://files.pythonhosted.org/packages/21/bb/60ce94fc8d962e63195dae255d05caeacd9b310231606ea7f28d8791c007/autogluon-1.1.1b20240519.tar.gz
+[2024-05-21 11:06:31] INFO root fetch - processPackages [autogluon.tabular]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.tabular-1.1.1b20240519.tar.gz]
+[2024-05-21 11:06:31] INFO root fetch - processPackages [autogluon.tabular]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.tabular-1.1.1b20240520.tar.gz]
+[2024-05-21 11:06:31] INFO root fetch - main [MainThread]: End processing [autogluon.tabular]: success
+[2024-05-21 11:06:31] INFO root fetch - processPackages [qtealeaves]: Remove: archive file [/home/abi/fetcher/tmp/qtealeaves-1.1.7.tar.gz]
+[2024-05-21 11:06:31] INFO root fetch - processPackages [qtealeaves]: Remove: archive file [/home/abi/fetcher/tmp/qtealeaves-1.1.8.tar.gz]
+[2024-05-21 11:06:31] INFO root fetch - main [MainThread]: End processing [qtealeaves]: success
+[2024-05-21 11:06:31] INFO root fetch - processPackages [autogluon.multimodal]: executing diffoscope
+[2024-05-21 11:06:31] INFO root fetch - processPackages [autogluon.multimodal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.multimodal-1.1.1b20240519.tar.gz tmp/autogluon.multimodal-1.1.1b20240520.tar.gz --markdown 20240521/a/autogluon.multimodal/1.1.1b20240519-1.1.1b20240520/README.md --exclude *.pyd
+[2024-05-21 11:06:31] INFO root fetch - processPackages [odoo14-addon-ssi-hr-payroll]: Downloading https://files.pythonhosted.org/packages/8d/8c/fd1d469228d0164498ba3da57cfa83aaf546edc7538263514a2715eb8842/odoo14_addon_ssi_hr_payroll-14.0.1.6.0-py3-none-any.whl
+[2024-05-21 11:06:31] INFO root fetch - processPackages [autogluon.timeseries]: Downloading https://files.pythonhosted.org/packages/c2/0d/79df33e6c996e56a0297d9cdb8172dde4323eb25551d01926bdcf7b44ee1/autogluon.timeseries-1.1.1b20240520.tar.gz
+[2024-05-21 11:06:31] INFO root fetch - processPackages [smartpredict]: Downloading https://files.pythonhosted.org/packages/09/4e/8efe45df3fc59b305d5673ca6e7b56605577096a08a63bacf21210a369e4/smartpredict-0.2.tar.gz
+[2024-05-21 11:06:31] INFO root fetch - processPackages [autogluon.timeseries]: executing diffoscope
+[2024-05-21 11:06:31] INFO root fetch - processPackages [autogluon.timeseries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.timeseries-1.1.1b20240519.tar.gz tmp/autogluon.timeseries-1.1.1b20240520.tar.gz --markdown 20240521/a/autogluon.timeseries/1.1.1b20240519-1.1.1b20240520/README.md --exclude *.pyd
+[2024-05-21 11:06:31] INFO root fetch - processPackages [smartpredict]: executing diffoscope
+[2024-05-21 11:06:31] INFO root fetch - processPackages [smartpredict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartpredict-0.1.tar.gz tmp/smartpredict-0.2.tar.gz --markdown 20240521/s/smartpredict/0.1-0.2/README.md --exclude *.pyd
+[2024-05-21 11:06:31] INFO root fetch - processPackages [pyZlBus]: Downloading https://files.pythonhosted.org/packages/b9/0b/3dd6a7cafb698360ced9274fb7c514e638e7c089b41871b8a85aa12e2605/pyZlBus-0.1.9-py3-none-any.whl
+[2024-05-21 11:06:32] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: Downloading https://files.pythonhosted.org/packages/f2/e2/3d7b6579b4f2d6d2a21dea8b4322c49683aa74af3220342e2d9535dedca4/alibabacloud_btripopen20220520-3.1.0.tar.gz
+[2024-05-21 11:06:32] INFO root fetch - processPackages [autogluon]: Downloading https://files.pythonhosted.org/packages/e1/e0/8974093e8a9ebfb636a99daa0706740cc8fa644942f9888a6f09030deefb/autogluon-1.1.1b20240520.tar.gz
+[2024-05-21 11:06:32] INFO root fetch - processPackages [odoo14-addon-ssi-hr-payroll]: Downloading https://files.pythonhosted.org/packages/32/cc/8ad5e782687483426429d600d5d8493f5d75906fcfad6d208ab8107517b4/odoo14_addon_ssi_hr_payroll-14.0.1.6.1-py3-none-any.whl
+[2024-05-21 11:06:32] INFO root fetch - processPackages [autogluon]: executing diffoscope
+[2024-05-21 11:06:32] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: executing diffoscope
+[2024-05-21 11:06:32] INFO root fetch - processPackages [autogluon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon-1.1.1b20240519.tar.gz tmp/autogluon-1.1.1b20240520.tar.gz --markdown 20240521/a/autogluon/1.1.1b20240519-1.1.1b20240520/README.md --exclude *.pyd
+[2024-05-21 11:06:32] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_btripopen20220520-3.0.0.tar.gz tmp/alibabacloud_btripopen20220520-3.1.0.tar.gz --markdown 20240521/a/alibabacloud-btripopen20220520/3.0.0-3.1.0/README.md --exclude *.pyd
+[2024-05-21 11:06:32] INFO root fetch - processPackages [ocrmypdf]: Downloading https://files.pythonhosted.org/packages/e9/15/f126999a5fa467662835013d51793ea20eb24aac509252b0a5b1a5f403f3/ocrmypdf-9.8.2.tar.gz
+[2024-05-21 11:06:32] INFO root fetch - processPackages [odoo14-addon-ssi-hr-payroll]: executing diffoscope
+[2024-05-21 11:06:32] INFO root fetch - processPackages [odoo14-addon-ssi-hr-payroll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_ssi_hr_payroll-14.0.1.6.0-py3-none-any.whl.zip tmp/odoo14_addon_ssi_hr_payroll-14.0.1.6.1-py3-none-any.whl.zip --markdown 20240521/o/odoo14-addon-ssi-hr-payroll/14.0.1.6.0-14.0.1.6.1/README.md --exclude *.pyd
+[2024-05-21 11:06:32] INFO root fetch - processPackages [pyZlBus]: executing diffoscope
+[2024-05-21 11:06:32] INFO root fetch - processPackages [pyZlBus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyZlBus-0.1.8-py3-none-any.whl.zip tmp/pyZlBus-0.1.9-py3-none-any.whl.zip --markdown 20240521/p/pyZlBus/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-21 11:06:32] INFO root fetch - processPackages [smartpredict]: Remove: archive file [/home/abi/fetcher/tmp/smartpredict-0.1.tar.gz]
+[2024-05-21 11:06:32] INFO root fetch - processPackages [smartpredict]: Remove: archive file [/home/abi/fetcher/tmp/smartpredict-0.2.tar.gz]
+[2024-05-21 11:06:32] INFO root fetch - main [MainThread]: End processing [smartpredict]: success
+[2024-05-21 11:06:32] INFO root fetch - processPackages [ocrmypdf]: executing diffoscope
+[2024-05-21 11:06:32] INFO root fetch - processPackages [ocrmypdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocrmypdf-9.8.1.tar.gz tmp/ocrmypdf-9.8.2.tar.gz --markdown 20240521/o/ocrmypdf/9.8.1-9.8.2/README.md --exclude *.pyd
+[2024-05-21 11:06:32] INFO root fetch - processPackages [autogluon.timeseries]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.timeseries-1.1.1b20240519.tar.gz]
+[2024-05-21 11:06:32] INFO root fetch - processPackages [autogluon.timeseries]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.timeseries-1.1.1b20240520.tar.gz]
+[2024-05-21 11:06:32] INFO root fetch - main [MainThread]: End processing [autogluon.timeseries]: success
+[2024-05-21 11:06:33] INFO root fetch - processPackages [autogluon]: Remove: archive file [/home/abi/fetcher/tmp/autogluon-1.1.1b20240519.tar.gz]
+[2024-05-21 11:06:33] INFO root fetch - processPackages [autogluon]: Remove: archive file [/home/abi/fetcher/tmp/autogluon-1.1.1b20240520.tar.gz]
+[2024-05-21 11:06:33] INFO root fetch - main [MainThread]: End processing [autogluon]: success
+[2024-05-21 11:06:33] INFO root fetch - processPackages [autogluon.multimodal]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.multimodal-1.1.1b20240519.tar.gz]
+[2024-05-21 11:06:33] INFO root fetch - processPackages [autogluon.multimodal]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.multimodal-1.1.1b20240520.tar.gz]
+[2024-05-21 11:06:33] INFO root fetch - main [MainThread]: End processing [autogluon.multimodal]: success
+[2024-05-21 11:06:33] INFO root fetch - processPackages [odoo14-addon-ssi-hr-payroll]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_hr_payroll-14.0.1.6.0-py3-none-any.whl.zip]
+[2024-05-21 11:06:33] INFO root fetch - processPackages [odoo14-addon-ssi-hr-payroll]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_hr_payroll-14.0.1.6.1-py3-none-any.whl.zip]
+[2024-05-21 11:06:33] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-hr-payroll]: success
+[2024-05-21 11:06:33] INFO root fetch - processPackages [pyZlBus]: Remove: archive file [/home/abi/fetcher/tmp/pyZlBus-0.1.8-py3-none-any.whl.zip]
+[2024-05-21 11:06:33] INFO root fetch - processPackages [pyZlBus]: Remove: archive file [/home/abi/fetcher/tmp/pyZlBus-0.1.9-py3-none-any.whl.zip]
+[2024-05-21 11:06:33] INFO root fetch - main [MainThread]: End processing [pyZlBus]: success
+[2024-05-21 11:06:35] INFO root fetch - processPackages [ocrmypdf]: Remove: archive file [/home/abi/fetcher/tmp/ocrmypdf-9.8.1.tar.gz]
+[2024-05-21 11:06:35] INFO root fetch - processPackages [ocrmypdf]: Remove: archive file [/home/abi/fetcher/tmp/ocrmypdf-9.8.2.tar.gz]
+[2024-05-21 11:06:35] INFO root fetch - main [MainThread]: End processing [ocrmypdf]: success
+[2024-05-21 11:06:36] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_btripopen20220520-3.0.0.tar.gz]
+[2024-05-21 11:06:36] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_btripopen20220520-3.1.0.tar.gz]
+[2024-05-21 11:06:36] INFO root fetch - main [MainThread]: End processing [alibabacloud-btripopen20220520]: success
+[2024-05-21 11:06:36] INFO root fetch - main [MainThread]: Store serial: [23303593]
