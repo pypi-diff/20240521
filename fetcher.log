@@ -14413,3 +14413,87 @@
 [2024-05-21 09:09:03] INFO root fetch - processPackages [lyrebird]: Remove: archive file [/home/abi/fetcher/tmp/lyrebird-3.0.0.tar.gz]
 [2024-05-21 09:09:03] INFO root fetch - main [MainThread]: End processing [lyrebird]: success
 [2024-05-21 09:09:03] INFO root fetch - main [MainThread]: Store serial: [23302341]
+[2024-05-21 09:11:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23302341]
+[2024-05-21 09:11:17] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-21 09:11:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tf-hub-nightly
+[2024-05-21 09:11:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: swarmauri
+[2024-05-21 09:11:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chain_harvester
+[2024-05-21 09:11:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dungeonmaker
+[2024-05-21 09:11:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-stock-quant-manual-assign
+[2024-05-21 09:11:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jpegtran
+[2024-05-21 09:11:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-stock-available
+[2024-05-21 09:11:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sourmash-plugin-directsketch
+[2024-05-21 09:11:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: shopcloud-serverless
+[2024-05-21 09:11:17] INFO root fetch - processPackages [dungeonmaker]: New version: [0.6.8] Old Version: [0.6.7]
+[2024-05-21 09:11:17] INFO root fetch - processPackages [jpegtran]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-21 09:11:17] INFO root fetch - processPackages [chain_harvester]: New version: [0.9.0] Old Version: [0.8.2]
+[2024-05-21 09:11:17] INFO root fetch - processPackages [swarmauri]: New version: [0.2.4.dev1] Old Version: [0.2.3]
+[2024-05-21 09:11:17] INFO root fetch - processPackages [dungeonmaker]: Downloading https://files.pythonhosted.org/packages/69/07/468d13ac28428a5cdee08b7abb437878d65e8b9cd950a3ad0e607f9ca309/dungeonmaker-0.6.7.tar.gz
+[2024-05-21 09:11:17] INFO root fetch - processPackages [tf-hub-nightly]: New version: [0.9.0.dev202008190006] Old Version: [0.9.0.dev202008180006]
+[2024-05-21 09:11:17] INFO root fetch - processPackages [odoo14-addon-stock-quant-manual-assign]: New version: [14.0.1.4.1.dev5] Old Version: [14.0.1.4.1.dev4]
+[2024-05-21 09:11:17] INFO root fetch - processPackages [sourmash-plugin-directsketch]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-21 09:11:17] INFO root fetch - processPackages [chain_harvester]: Downloading https://files.pythonhosted.org/packages/16/60/f265332a04ee2777e528be8ce8129f9b0e7ad12af86de1027880291a1c17/chain_harvester-0.8.2.tar.gz
+[2024-05-21 09:11:17] INFO root fetch - processPackages [odoo14-addon-stock-available]: New version: [14.0.1.1.1.dev7] Old Version: [14.0.1.1.1.dev6]
+[2024-05-21 09:11:17] INFO root fetch - processPackages [shopcloud-serverless]: New version: [4.9.0] Old Version: [4.8.0]
+[2024-05-21 09:11:17] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/6f/23/609da57f2f56228a87bfcbd5ee134292517e27b02a6e6dbb83fca46177a7/swarmauri-0.2.3.tar.gz
+[2024-05-21 09:11:17] INFO root fetch - processPackages [jpegtran]: Downloading https://files.pythonhosted.org/packages/d0/fe/50904122bf9309ca0557fa45d4887503b1336efa7c78254b3d686ea2128b/jpegtran-0.0.1.tar.gz
+[2024-05-21 09:11:17] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/e8/6b/02811fcd79aec590e7355647130c822f1bd53092a205ce986e6df7364f52/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl
+[2024-05-21 09:11:17] INFO root fetch - processPackages [odoo14-addon-stock-quant-manual-assign]: Downloading https://files.pythonhosted.org/packages/fe/55/1f6e0a600ce9e8dc81775ad68e9c03b8a09766efe9e6331305a1ed2e2f26/odoo14_addon_stock_quant_manual_assign-14.0.1.4.1.dev4-py3-none-any.whl
+[2024-05-21 09:11:17] INFO root fetch - processPackages [odoo14-addon-stock-available]: Downloading https://files.pythonhosted.org/packages/fd/67/1b911ba481251789ce443082d56a67ce7d4e2542f3b7342ebfd2920d8aa2/odoo14_addon_stock_available-14.0.1.1.1.dev6-py3-none-any.whl
+[2024-05-21 09:11:17] INFO root fetch - processPackages [sourmash-plugin-directsketch]: Downloading https://files.pythonhosted.org/packages/ed/cf/14b263ebb972475110495db579ccab89a94c947ea68d0784e55e522144cb/sourmash_plugin_directsketch-0.3.0.tar.gz
+[2024-05-21 09:11:17] INFO root fetch - processPackages [shopcloud-serverless]: Downloading https://files.pythonhosted.org/packages/22/2d/a36ab8dd3a5fda38dba120f23b4f30a418483df29c64cedb0221c0bc290f/shopcloud-serverless-4.8.0.tar.gz
+[2024-05-21 09:11:17] INFO root fetch - processPackages [chain_harvester]: Downloading https://files.pythonhosted.org/packages/83/14/897023e0e39bb7ca75cd127d2dc307fb8364bb3378d2b0ea1ae88279986b/chain_harvester-0.9.0.tar.gz
+[2024-05-21 09:11:17] INFO root fetch - processPackages [dungeonmaker]: Downloading https://files.pythonhosted.org/packages/6b/ec/113bb7a4880cd341f9f901d0895e30902f534b061fe3f409ec825ca0b36f/dungeonmaker-0.6.8.tar.gz
+[2024-05-21 09:11:17] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/f9/32/0683a05e032edea7e30d748261189ce57e13d3f1683d2e754d147fd369ab/swarmauri-0.2.4.dev1.tar.gz
+[2024-05-21 09:11:17] INFO root fetch - processPackages [chain_harvester]: executing diffoscope
+[2024-05-21 09:11:17] INFO root fetch - processPackages [chain_harvester]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chain_harvester-0.8.2.tar.gz tmp/chain_harvester-0.9.0.tar.gz --markdown 20240521/c/chain_harvester/0.8.2-0.9.0/README.md --exclude *.pyd
+[2024-05-21 09:11:17] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/d1/9a/6b02d0906847e11386093420119d147f7306d7a9cad79e8e575a9d29ae76/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl
+[2024-05-21 09:11:18] INFO root fetch - processPackages [jpegtran]: Downloading https://files.pythonhosted.org/packages/24/1e/879b18440156df8b0578a62a695e7ad875e8ab22db5f3eafa9b6ec2e24ed/jpegtran-0.0.2.tar.gz
+[2024-05-21 09:11:18] INFO root fetch - processPackages [dungeonmaker]: executing diffoscope
+[2024-05-21 09:11:18] INFO root fetch - processPackages [dungeonmaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dungeonmaker-0.6.7.tar.gz tmp/dungeonmaker-0.6.8.tar.gz --markdown 20240521/d/dungeonmaker/0.6.7-0.6.8/README.md --exclude *.pyd
+[2024-05-21 09:11:18] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-05-21 09:11:18] INFO root fetch - processPackages [tf-hub-nightly]: executing diffoscope
+[2024-05-21 09:11:18] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.2.3.tar.gz tmp/swarmauri-0.2.4.dev1.tar.gz --markdown 20240521/s/swarmauri/0.2.3-0.2.4.dev1/README.md --exclude *.pyd
+[2024-05-21 09:11:18] INFO root fetch - processPackages [tf-hub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip --markdown 20240521/t/tf-hub-nightly/0.9.0.dev202008180006-0.9.0.dev202008190006/README.md --exclude *.pyd
+[2024-05-21 09:11:18] INFO root fetch - processPackages [jpegtran]: executing diffoscope
+[2024-05-21 09:11:18] INFO root fetch - processPackages [jpegtran]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jpegtran-0.0.1.tar.gz tmp/jpegtran-0.0.2.tar.gz --markdown 20240521/j/jpegtran/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-21 09:11:18] INFO root fetch - processPackages [sourmash-plugin-directsketch]: Downloading https://files.pythonhosted.org/packages/06/f4/ddc6ec7c91278cf7becd12c1816e92db8d9a4727744170afcb7c1d2f5702/sourmash_plugin_directsketch-0.3.1.tar.gz
+[2024-05-21 09:11:18] INFO root fetch - processPackages [shopcloud-serverless]: Downloading https://files.pythonhosted.org/packages/4f/d4/70f3d770f4c6a21a1e2ef9d025083f271f16743383fe9e9d410d4046e9fe/shopcloud-serverless-4.9.0.tar.gz
+[2024-05-21 09:11:18] INFO root fetch - processPackages [odoo14-addon-stock-quant-manual-assign]: Downloading https://files.pythonhosted.org/packages/03/fc/78a3fc925bb90467e039b2fd6b4838ec1ffce896fcfa547af4436f575cb3/odoo14_addon_stock_quant_manual_assign-14.0.1.4.1.dev5-py3-none-any.whl
+[2024-05-21 09:11:18] INFO root fetch - processPackages [odoo14-addon-stock-available]: Downloading https://files.pythonhosted.org/packages/cf/bf/87255c4b6c91b4ba0eb7fa62ebd5ee7945599f54c0a4e1eaf7cc407b436b/odoo14_addon_stock_available-14.0.1.1.1.dev7-py3-none-any.whl
+[2024-05-21 09:11:18] INFO root fetch - processPackages [sourmash-plugin-directsketch]: executing diffoscope
+[2024-05-21 09:11:18] INFO root fetch - processPackages [sourmash-plugin-directsketch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sourmash_plugin_directsketch-0.3.0.tar.gz tmp/sourmash_plugin_directsketch-0.3.1.tar.gz --markdown 20240521/s/sourmash-plugin-directsketch/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-21 09:11:18] INFO root fetch - processPackages [shopcloud-serverless]: executing diffoscope
+[2024-05-21 09:11:18] INFO root fetch - processPackages [shopcloud-serverless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shopcloud-serverless-4.8.0.tar.gz tmp/shopcloud-serverless-4.9.0.tar.gz --markdown 20240521/s/shopcloud-serverless/4.8.0-4.9.0/README.md --exclude *.pyd
+[2024-05-21 09:11:18] INFO root fetch - processPackages [odoo14-addon-stock-available]: executing diffoscope
+[2024-05-21 09:11:18] INFO root fetch - processPackages [odoo14-addon-stock-available]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_stock_available-14.0.1.1.1.dev6-py3-none-any.whl.zip tmp/odoo14_addon_stock_available-14.0.1.1.1.dev7-py3-none-any.whl.zip --markdown 20240521/o/odoo14-addon-stock-available/14.0.1.1.1.dev6-14.0.1.1.1.dev7/README.md --exclude *.pyd
+[2024-05-21 09:11:18] INFO root fetch - processPackages [odoo14-addon-stock-quant-manual-assign]: executing diffoscope
+[2024-05-21 09:11:18] INFO root fetch - processPackages [odoo14-addon-stock-quant-manual-assign]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_stock_quant_manual_assign-14.0.1.4.1.dev4-py3-none-any.whl.zip tmp/odoo14_addon_stock_quant_manual_assign-14.0.1.4.1.dev5-py3-none-any.whl.zip --markdown 20240521/o/odoo14-addon-stock-quant-manual-assign/14.0.1.4.1.dev4-14.0.1.4.1.dev5/README.md --exclude *.pyd
+[2024-05-21 09:11:18] INFO root fetch - processPackages [dungeonmaker]: Remove: archive file [/home/abi/fetcher/tmp/dungeonmaker-0.6.7.tar.gz]
+[2024-05-21 09:11:18] INFO root fetch - processPackages [dungeonmaker]: Remove: archive file [/home/abi/fetcher/tmp/dungeonmaker-0.6.8.tar.gz]
+[2024-05-21 09:11:18] INFO root fetch - main [MainThread]: End processing [dungeonmaker]: success
+[2024-05-21 09:11:18] INFO root fetch - processPackages [chain_harvester]: Remove: archive file [/home/abi/fetcher/tmp/chain_harvester-0.8.2.tar.gz]
+[2024-05-21 09:11:18] INFO root fetch - processPackages [chain_harvester]: Remove: archive file [/home/abi/fetcher/tmp/chain_harvester-0.9.0.tar.gz]
+[2024-05-21 09:11:18] INFO root fetch - main [MainThread]: End processing [chain_harvester]: success
+[2024-05-21 09:11:19] INFO root fetch - processPackages [shopcloud-serverless]: Remove: archive file [/home/abi/fetcher/tmp/shopcloud-serverless-4.8.0.tar.gz]
+[2024-05-21 09:11:19] INFO root fetch - processPackages [shopcloud-serverless]: Remove: archive file [/home/abi/fetcher/tmp/shopcloud-serverless-4.9.0.tar.gz]
+[2024-05-21 09:11:19] INFO root fetch - main [MainThread]: End processing [shopcloud-serverless]: success
+[2024-05-21 09:11:19] INFO root fetch - processPackages [jpegtran]: Remove: archive file [/home/abi/fetcher/tmp/jpegtran-0.0.1.tar.gz]
+[2024-05-21 09:11:19] INFO root fetch - processPackages [jpegtran]: Remove: archive file [/home/abi/fetcher/tmp/jpegtran-0.0.2.tar.gz]
+[2024-05-21 09:11:19] INFO root fetch - main [MainThread]: End processing [jpegtran]: success
+[2024-05-21 09:11:19] INFO root fetch - processPackages [odoo14-addon-stock-available]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_available-14.0.1.1.1.dev6-py3-none-any.whl.zip]
+[2024-05-21 09:11:19] INFO root fetch - processPackages [odoo14-addon-stock-available]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_available-14.0.1.1.1.dev7-py3-none-any.whl.zip]
+[2024-05-21 09:11:19] INFO root fetch - main [MainThread]: End processing [odoo14-addon-stock-available]: success
+[2024-05-21 09:11:19] INFO root fetch - processPackages [sourmash-plugin-directsketch]: Remove: archive file [/home/abi/fetcher/tmp/sourmash_plugin_directsketch-0.3.0.tar.gz]
+[2024-05-21 09:11:19] INFO root fetch - processPackages [sourmash-plugin-directsketch]: Remove: archive file [/home/abi/fetcher/tmp/sourmash_plugin_directsketch-0.3.1.tar.gz]
+[2024-05-21 09:11:19] INFO root fetch - main [MainThread]: End processing [sourmash-plugin-directsketch]: success
+[2024-05-21 09:11:19] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip]
+[2024-05-21 09:11:19] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip]
+[2024-05-21 09:11:19] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
+[2024-05-21 09:11:19] INFO root fetch - processPackages [odoo14-addon-stock-quant-manual-assign]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_quant_manual_assign-14.0.1.4.1.dev4-py3-none-any.whl.zip]
+[2024-05-21 09:11:19] INFO root fetch - processPackages [odoo14-addon-stock-quant-manual-assign]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_quant_manual_assign-14.0.1.4.1.dev5-py3-none-any.whl.zip]
+[2024-05-21 09:11:19] INFO root fetch - main [MainThread]: End processing [odoo14-addon-stock-quant-manual-assign]: success
+[2024-05-21 09:11:19] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.2.3.tar.gz]
+[2024-05-21 09:11:19] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.2.4.dev1.tar.gz]
+[2024-05-21 09:11:19] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
+[2024-05-21 09:11:19] INFO root fetch - main [MainThread]: Store serial: [23302367]
