@@ -8832,3 +8832,27 @@
 [2024-05-21 04:58:08] INFO root fetch - processPackages [jacksung]: Remove: archive file [/home/abi/fetcher/tmp/jacksung-0.0.2.99.tar.gz]
 [2024-05-21 04:58:08] INFO root fetch - main [MainThread]: End processing [jacksung]: success
 [2024-05-21 04:58:08] INFO root fetch - main [MainThread]: Store serial: [23300308]
+[2024-05-21 05:00:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23300308]
+[2024-05-21 05:00:17] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-21 05:00:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: arch-flow
+[2024-05-21 05:00:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py50-streamlit-support
+[2024-05-21 05:00:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qtmodel
+[2024-05-21 05:00:17] INFO root fetch - processPackages [arch-flow]: New version: [0.1.7.3] Old Version: [0.1.7.2]
+[2024-05-21 05:00:17] WARNING root fetch - processPackages [py50-streamlit-support]: Skipping, unable to determine old version
+[2024-05-21 05:00:17] INFO root fetch - main [MainThread]: End processing [py50-streamlit-support] error
+[2024-05-21 05:00:17] INFO root fetch - processPackages [qtmodel]: New version: [0.3.7] Old Version: [0.3.5]
+[2024-05-21 05:00:17] INFO root fetch - processPackages [arch-flow]: Downloading https://files.pythonhosted.org/packages/5e/2c/7e4bae97574306dfe0882363067b60fc8330ab7fd4f61923d46f42500062/arch_flow-0.1.7.2.tar.gz
+[2024-05-21 05:00:17] INFO root fetch - processPackages [qtmodel]: Downloading https://files.pythonhosted.org/packages/61/b6/e6331acab0dfe1f792a67950c04ac1b0757bb48efa4aa90a4c16fc4453a2/qtmodel-0.3.5.tar.gz
+[2024-05-21 05:00:18] INFO root fetch - processPackages [qtmodel]: Downloading https://files.pythonhosted.org/packages/30/84/5b1424d9ed019a6919821fc26d2c342374415b81f526603ffd9d42bd2cf1/qtmodel-0.3.7.tar.gz
+[2024-05-21 05:00:18] INFO root fetch - processPackages [arch-flow]: Downloading https://files.pythonhosted.org/packages/c7/46/a8b1f6397ca251f22f893d72b17a0ab0607f26539693cd9fd81b4df3981c/arch_flow-0.1.7.3.tar.gz
+[2024-05-21 05:00:18] INFO root fetch - processPackages [qtmodel]: executing diffoscope
+[2024-05-21 05:00:18] INFO root fetch - processPackages [qtmodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtmodel-0.3.5.tar.gz tmp/qtmodel-0.3.7.tar.gz --markdown 20240521/q/qtmodel/0.3.5-0.3.7/README.md --exclude *.pyd
+[2024-05-21 05:00:18] INFO root fetch - processPackages [arch-flow]: executing diffoscope
+[2024-05-21 05:00:18] INFO root fetch - processPackages [arch-flow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arch_flow-0.1.7.2.tar.gz tmp/arch_flow-0.1.7.3.tar.gz --markdown 20240521/a/arch-flow/0.1.7.2-0.1.7.3/README.md --exclude *.pyd
+[2024-05-21 05:00:18] INFO root fetch - processPackages [arch-flow]: Remove: archive file [/home/abi/fetcher/tmp/arch_flow-0.1.7.2.tar.gz]
+[2024-05-21 05:00:18] INFO root fetch - processPackages [arch-flow]: Remove: archive file [/home/abi/fetcher/tmp/arch_flow-0.1.7.3.tar.gz]
+[2024-05-21 05:00:18] INFO root fetch - main [MainThread]: End processing [arch-flow]: success
+[2024-05-21 05:00:18] INFO root fetch - processPackages [qtmodel]: Remove: archive file [/home/abi/fetcher/tmp/qtmodel-0.3.5.tar.gz]
+[2024-05-21 05:00:18] INFO root fetch - processPackages [qtmodel]: Remove: archive file [/home/abi/fetcher/tmp/qtmodel-0.3.7.tar.gz]
+[2024-05-21 05:00:18] INFO root fetch - main [MainThread]: End processing [qtmodel]: success
+[2024-05-21 05:00:18] INFO root fetch - main [MainThread]: Store serial: [23300316]
