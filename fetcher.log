@@ -13087,3 +13087,45 @@
 [2024-05-21 08:15:21] INFO root fetch - processPackages [reloadium]: Remove: archive file [/home/abi/fetcher/tmp/reloadium-1.5.0-py3-none-any.whl.zip]
 [2024-05-21 08:15:21] INFO root fetch - main [MainThread]: End processing [reloadium]: success
 [2024-05-21 08:15:21] INFO root fetch - main [MainThread]: Store serial: [23301874]
+[2024-05-21 08:17:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23301874]
+[2024-05-21 08:17:30] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-21 08:17:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pynenv
+[2024-05-21 08:17:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: email-address-local
+[2024-05-21 08:17:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ridgeplot-py
+[2024-05-21 08:17:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rero-invenio-files
+[2024-05-21 08:17:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: oci-cli
+[2024-05-21 08:17:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pms-encoder
+[2024-05-21 08:17:30] INFO root fetch - processPackages [email-address-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-21 08:17:30] WARNING root fetch - processPackages [pynenv]: Skipping, unable to determine old version
+[2024-05-21 08:17:30] INFO root fetch - main [MainThread]: End processing [pynenv] error
+[2024-05-21 08:17:30] INFO root fetch - processPackages [pms-encoder]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-21 08:17:30] INFO root fetch - processPackages [email-address-local]: Downloading https://files.pythonhosted.org/packages/a8/f2/75317f90ccacb6655c8fefd773dce9c2359b86e434bf4e98c3aa377dd835/email-address-local-0.0.8.tar.gz
+[2024-05-21 08:17:30] INFO root fetch - processPackages [ridgeplot-py]: New version: [0.2.7] Old Version: [0.2.5]
+[2024-05-21 08:17:30] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/80/f1/88f2f54188c15bf6cca5ba7a3a347b8d1c83b15a626f541acf3dde5aa63d/pms_encoder-0.0.8.tar.gz
+[2024-05-21 08:17:30] INFO root fetch - processPackages [oci-cli]: New version: [3.9.1] Old Version: [3.9.0]
+[2024-05-21 08:17:30] WARNING root fetch - processPackages [rero-invenio-files]: Skipping, unable to determine old version
+[2024-05-21 08:17:30] INFO root fetch - main [MainThread]: End processing [rero-invenio-files] error
+[2024-05-21 08:17:30] INFO root fetch - processPackages [email-address-local]: Downloading https://files.pythonhosted.org/packages/33/0b/4f49c0e576b54988a9115fa0e8fd17a049b0cfaffdd95e2b721055a03b07/email-address-local-0.0.9.tar.gz
+[2024-05-21 08:17:30] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/93/31/8bb081756db42925fab6507b6e0f497d6bf45acd407ff38cb00f2aaec54c/pms_encoder-0.0.9.tar.gz
+[2024-05-21 08:17:30] INFO root fetch - processPackages [ridgeplot-py]: Downloading https://files.pythonhosted.org/packages/20/74/45f11c01898d0e103b34fd2306c4004a95c71de6c08264f87c2dec99ae07/ridgeplot_py-0.2.5.tar.gz
+[2024-05-21 08:17:30] INFO root fetch - processPackages [email-address-local]: executing diffoscope
+[2024-05-21 08:17:30] INFO root fetch - processPackages [email-address-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/email-address-local-0.0.8.tar.gz tmp/email-address-local-0.0.9.tar.gz --markdown 20240521/e/email-address-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-21 08:17:30] INFO root fetch - processPackages [pms-encoder]: executing diffoscope
+[2024-05-21 08:17:30] INFO root fetch - processPackages [pms-encoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pms_encoder-0.0.8.tar.gz tmp/pms_encoder-0.0.9.tar.gz --markdown 20240521/p/pms-encoder/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-21 08:17:31] INFO root fetch - processPackages [oci-cli]: executing diffoscope
+[2024-05-21 08:17:31] INFO root fetch - processPackages [oci-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oci-cli-3.9.0.tar.gz tmp/oci-cli-3.9.1.tar.gz --markdown 20240521/o/oci-cli/3.9.0-3.9.1/README.md --exclude *.pyd
+[2024-05-21 08:17:31] INFO root fetch - processPackages [ridgeplot-py]: Downloading https://files.pythonhosted.org/packages/e7/14/bb758171a01e8f64360499106b1ba233cea7568a178936af65e798637e5a/ridgeplot_py-0.2.7.tar.gz
+[2024-05-21 08:17:31] INFO root fetch - processPackages [ridgeplot-py]: executing diffoscope
+[2024-05-21 08:17:31] INFO root fetch - processPackages [ridgeplot-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ridgeplot_py-0.2.5.tar.gz tmp/ridgeplot_py-0.2.7.tar.gz --markdown 20240521/r/ridgeplot-py/0.2.5-0.2.7/README.md --exclude *.pyd
+[2024-05-21 08:17:31] INFO root fetch - processPackages [email-address-local]: Remove: archive file [/home/abi/fetcher/tmp/email-address-local-0.0.8.tar.gz]
+[2024-05-21 08:17:31] INFO root fetch - processPackages [email-address-local]: Remove: archive file [/home/abi/fetcher/tmp/email-address-local-0.0.9.tar.gz]
+[2024-05-21 08:17:31] INFO root fetch - main [MainThread]: End processing [email-address-local]: success
+[2024-05-21 08:17:31] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.8.tar.gz]
+[2024-05-21 08:17:31] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.9.tar.gz]
+[2024-05-21 08:17:31] INFO root fetch - main [MainThread]: End processing [pms-encoder]: success
+[2024-05-21 08:17:31] INFO root fetch - processPackages [ridgeplot-py]: Remove: archive file [/home/abi/fetcher/tmp/ridgeplot_py-0.2.5.tar.gz]
+[2024-05-21 08:17:31] INFO root fetch - processPackages [ridgeplot-py]: Remove: archive file [/home/abi/fetcher/tmp/ridgeplot_py-0.2.7.tar.gz]
+[2024-05-21 08:17:31] INFO root fetch - main [MainThread]: End processing [ridgeplot-py]: success
+[2024-05-21 08:20:31] ERROR root fetch - processPackages [oci-cli]: Timeout during execution of pkgdiff
+[2024-05-21 08:20:31] INFO root fetch - main [MainThread]: End processing [oci-cli] error
+[2024-05-21 08:20:31] INFO root fetch - main [MainThread]: Store serial: [23301894]
