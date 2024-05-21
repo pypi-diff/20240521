@@ -15495,3 +15495,45 @@
 [2024-05-21 09:47:05] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.2.4.dev4.tar.gz]
 [2024-05-21 09:47:05] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
 [2024-05-21 09:47:05] INFO root fetch - main [MainThread]: Store serial: [23302707]
+[2024-05-21 09:49:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23302707]
+[2024-05-21 09:49:14] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-21 09:49:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: BlockchainServer
+[2024-05-21 09:49:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: orca_nw_lib
+[2024-05-21 09:49:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: impsparc
+[2024-05-21 09:49:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: st-signedUrl-uploader
+[2024-05-21 09:49:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zjbbintest
+[2024-05-21 09:49:14] INFO root fetch - processPackages [st-signedUrl-uploader]: New version: [1.2.6] Old Version: [1.2.5]
+[2024-05-21 09:49:14] INFO root fetch - processPackages [impsparc]: New version: [3.1.5] Old Version: [3.1.4]
+[2024-05-21 09:49:14] INFO root fetch - processPackages [st-signedUrl-uploader]: Downloading https://files.pythonhosted.org/packages/2b/3d/365bac8e390ee7fa5f599ac4584140666eb0e14266dcd53a8535d078e911/st_signedurl_uploader-1.2.5.tar.gz
+[2024-05-21 09:49:14] WARNING root fetch - processPackages [BlockchainServer]: Skipping, unable to determine old version
+[2024-05-21 09:49:14] INFO root fetch - main [MainThread]: End processing [BlockchainServer] error
+[2024-05-21 09:49:14] INFO root fetch - processPackages [impsparc]: Downloading https://files.pythonhosted.org/packages/45/72/f39794cbae4154ae987c0408d106c25500877fe8c06b0f5131bcc567f637/impsparc-3.1.4.tar.gz
+[2024-05-21 09:49:14] INFO root fetch - processPackages [zjbbintest]: New version: [2.7] Old Version: [2.6]
+[2024-05-21 09:49:14] INFO root fetch - processPackages [orca_nw_lib]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-05-21 09:49:14] INFO root fetch - processPackages [orca_nw_lib]: Downloading https://files.pythonhosted.org/packages/03/03/55355652cab14af5b970d9910434ba1b2dfdd8caa7743638a1389343ccf3/orca_nw_lib-1.3.8.tar.gz
+[2024-05-21 09:49:14] INFO root fetch - processPackages [zjbbintest]: Downloading https://files.pythonhosted.org/packages/25/b4/0b925a4e817da6d79f41a3fc8a3b53c72f8a671e0bdc7857fd8f99fed5aa/zjbbintest-2.6.tar.gz
+[2024-05-21 09:49:14] INFO root fetch - processPackages [st-signedUrl-uploader]: Downloading https://files.pythonhosted.org/packages/95/cf/faebb5d6f1139fb2e2f3393d5b42dad7c1235a01a4fba21d7ea3d7287e5e/st_signedurl_uploader-1.2.6.tar.gz
+[2024-05-21 09:49:14] INFO root fetch - processPackages [st-signedUrl-uploader]: executing diffoscope
+[2024-05-21 09:49:14] INFO root fetch - processPackages [st-signedUrl-uploader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st_signedurl_uploader-1.2.5.tar.gz tmp/st_signedurl_uploader-1.2.6.tar.gz --markdown 20240521/s/st-signedUrl-uploader/1.2.5-1.2.6/README.md --exclude *.pyd
+[2024-05-21 09:49:14] INFO root fetch - processPackages [impsparc]: Downloading https://files.pythonhosted.org/packages/ee/df/507354733dc03c64f29d8a71c9a1c46583c1388d7a1f123e7ff099ef1141/impsparc-3.1.5.tar.gz
+[2024-05-21 09:49:15] INFO root fetch - processPackages [orca_nw_lib]: Downloading https://files.pythonhosted.org/packages/e7/7b/755a67f1b2fdd6e9642f585e4c8117d10bdd1540dd8223b3540948417c32/orca_nw_lib-1.3.9.tar.gz
+[2024-05-21 09:49:15] INFO root fetch - processPackages [zjbbintest]: Downloading https://files.pythonhosted.org/packages/39/54/411ed9e7d63011893f298d6e7595ff9f0b5a349990e46a03aa6fd7c25fbc/zjbbintest-2.7.tar.gz
+[2024-05-21 09:49:15] INFO root fetch - processPackages [impsparc]: executing diffoscope
+[2024-05-21 09:49:15] INFO root fetch - processPackages [impsparc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/impsparc-3.1.4.tar.gz tmp/impsparc-3.1.5.tar.gz --markdown 20240521/i/impsparc/3.1.4-3.1.5/README.md --exclude *.pyd
+[2024-05-21 09:49:15] INFO root fetch - processPackages [orca_nw_lib]: executing diffoscope
+[2024-05-21 09:49:15] INFO root fetch - processPackages [orca_nw_lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orca_nw_lib-1.3.8.tar.gz tmp/orca_nw_lib-1.3.9.tar.gz --markdown 20240521/o/orca_nw_lib/1.3.8-1.3.9/README.md --exclude *.pyd
+[2024-05-21 09:49:15] INFO root fetch - processPackages [zjbbintest]: executing diffoscope
+[2024-05-21 09:49:15] INFO root fetch - processPackages [zjbbintest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zjbbintest-2.6.tar.gz tmp/zjbbintest-2.7.tar.gz --markdown 20240521/z/zjbbintest/2.6-2.7/README.md --exclude *.pyd
+[2024-05-21 09:49:15] INFO root fetch - processPackages [st-signedUrl-uploader]: Remove: archive file [/home/abi/fetcher/tmp/st_signedurl_uploader-1.2.5.tar.gz]
+[2024-05-21 09:49:15] INFO root fetch - processPackages [st-signedUrl-uploader]: Remove: archive file [/home/abi/fetcher/tmp/st_signedurl_uploader-1.2.6.tar.gz]
+[2024-05-21 09:49:15] INFO root fetch - main [MainThread]: End processing [st-signedUrl-uploader]: success
+[2024-05-21 09:49:15] INFO root fetch - processPackages [zjbbintest]: Remove: archive file [/home/abi/fetcher/tmp/zjbbintest-2.6.tar.gz]
+[2024-05-21 09:49:15] INFO root fetch - processPackages [zjbbintest]: Remove: archive file [/home/abi/fetcher/tmp/zjbbintest-2.7.tar.gz]
+[2024-05-21 09:49:15] INFO root fetch - main [MainThread]: End processing [zjbbintest]: success
+[2024-05-21 09:49:15] INFO root fetch - processPackages [orca_nw_lib]: Remove: archive file [/home/abi/fetcher/tmp/orca_nw_lib-1.3.8.tar.gz]
+[2024-05-21 09:49:15] INFO root fetch - processPackages [orca_nw_lib]: Remove: archive file [/home/abi/fetcher/tmp/orca_nw_lib-1.3.9.tar.gz]
+[2024-05-21 09:49:15] INFO root fetch - main [MainThread]: End processing [orca_nw_lib]: success
+[2024-05-21 09:49:16] INFO root fetch - processPackages [impsparc]: Remove: archive file [/home/abi/fetcher/tmp/impsparc-3.1.4.tar.gz]
+[2024-05-21 09:49:16] INFO root fetch - processPackages [impsparc]: Remove: archive file [/home/abi/fetcher/tmp/impsparc-3.1.5.tar.gz]
+[2024-05-21 09:49:16] INFO root fetch - main [MainThread]: End processing [impsparc]: success
+[2024-05-21 09:49:16] INFO root fetch - main [MainThread]: Store serial: [23302724]
