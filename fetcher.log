@@ -13763,3 +13763,69 @@
 [2024-05-21 08:41:38] INFO root fetch - processPackages [timeout-sampler]: Remove: archive file [/home/abi/fetcher/tmp/timeout_sampler-0.0.9.tar.gz]
 [2024-05-21 08:41:38] INFO root fetch - main [MainThread]: End processing [timeout-sampler]: success
 [2024-05-21 08:41:38] INFO root fetch - main [MainThread]: Store serial: [23302108]
+[2024-05-21 08:43:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23302108]
+[2024-05-21 08:43:47] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-21 08:43:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fizzysearch
+[2024-05-21 08:43:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-auth-user-case-insensitive
+[2024-05-21 08:43:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: powerlift
+[2024-05-21 08:43:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: prophecy-build-tool
+[2024-05-21 08:43:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-auth-session-timeout
+[2024-05-21 08:43:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chain_harvester
+[2024-05-21 08:43:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xmonkey-namonica
+[2024-05-21 08:43:47] INFO root fetch - processPackages [powerlift]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-21 08:43:47] INFO root fetch - processPackages [xmonkey-namonica]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-21 08:43:47] INFO root fetch - processPackages [powerlift]: Downloading https://files.pythonhosted.org/packages/06/08/6604b578406055b6d10e2442a928fe8187b5d92c573ab31b784933ca484e/powerlift-0.1.1-py3-none-any.whl
+[2024-05-21 08:43:47] INFO root fetch - processPackages [chain_harvester]: New version: [0.9.0] Old Version: [0.8.2]
+[2024-05-21 08:43:47] INFO root fetch - processPackages [prophecy-build-tool]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-05-21 08:43:47] INFO root fetch - processPackages [xmonkey-namonica]: Downloading https://files.pythonhosted.org/packages/b0/3d/6203ff7af6294781f051903a25270845fd90f2978f0aad2922baf027467a/xmonkey_namonica-0.1.8.tar.gz
+[2024-05-21 08:43:47] INFO root fetch - processPackages [odoo-addon-auth-session-timeout]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.8]
+[2024-05-21 08:43:47] INFO root fetch - processPackages [odoo-addon-auth-user-case-insensitive]: New version: [17.0.1.0.0.3] Old Version: [17.0.1.0.0.2]
+[2024-05-21 08:43:47] INFO root fetch - processPackages [fizzysearch]: New version: [0.4] Old Version: [0.3]
+[2024-05-21 08:43:47] INFO root fetch - processPackages [fizzysearch]: Downloading https://files.pythonhosted.org/packages/f3/0a/2128755a91734639ddaf5dbfdb7f85f8180ca6fdca2b929f4224b072f211/fizzysearch-0.3.tar.gz
+[2024-05-21 08:43:47] INFO root fetch - processPackages [xmonkey-namonica]: Downloading https://files.pythonhosted.org/packages/cf/b8/696ff3c9499cdf66adacf2f654a1d6d3e21fc8d3f60fedd73208f3172235/xmonkey_namonica-0.1.9.tar.gz
+[2024-05-21 08:43:47] INFO root fetch - processPackages [odoo-addon-auth-user-case-insensitive]: Downloading https://files.pythonhosted.org/packages/b0/ae/8070af084040811c66bf7354c1834521f26634ec68d248326dd42e53708c/odoo_addon_auth_user_case_insensitive-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-21 08:43:47] INFO root fetch - processPackages [odoo-addon-auth-session-timeout]: Downloading https://files.pythonhosted.org/packages/c4/0f/fd9129c59b947997ca4d5ad096b939ba313c6063f01b1e0eacd4fa7cd076/odoo_addon_auth_session_timeout-16.0.1.0.0.8-py3-none-any.whl
+[2024-05-21 08:43:47] INFO root fetch - processPackages [prophecy-build-tool]: Downloading https://files.pythonhosted.org/packages/31/f0/ed4aa0a70a6fd06211faed01254c9ddbfa86f70a2dd8665718c9fde9a3f6/prophecy-build-tool-1.2.8.tar.gz
+[2024-05-21 08:43:47] INFO root fetch - processPackages [chain_harvester]: Downloading https://files.pythonhosted.org/packages/16/60/f265332a04ee2777e528be8ce8129f9b0e7ad12af86de1027880291a1c17/chain_harvester-0.8.2.tar.gz
+[2024-05-21 08:43:47] INFO root fetch - processPackages [xmonkey-namonica]: executing diffoscope
+[2024-05-21 08:43:47] INFO root fetch - processPackages [xmonkey-namonica]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xmonkey_namonica-0.1.8.tar.gz tmp/xmonkey_namonica-0.1.9.tar.gz --markdown 20240521/x/xmonkey-namonica/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-21 08:43:47] INFO root fetch - processPackages [powerlift]: Downloading https://files.pythonhosted.org/packages/10/3f/212ec4f9a6a2a0f5afc43105d085194cdf2190e58adfba85e23accbd9dde/powerlift-0.1.2-py3-none-any.whl
+[2024-05-21 08:43:47] INFO root fetch - processPackages [fizzysearch]: Downloading https://files.pythonhosted.org/packages/39/49/d210288c8f89bb303541342121187b50c66803b59b9ae2badd9032be1bc7/fizzysearch-0.4.tar.gz
+[2024-05-21 08:43:47] INFO root fetch - processPackages [odoo-addon-auth-user-case-insensitive]: Downloading https://files.pythonhosted.org/packages/ae/ba/cff8a1e10d9d2a544bdea658188de4639bc0eae82e36323481a262662247/odoo_addon_auth_user_case_insensitive-17.0.1.0.0.3-py3-none-any.whl
+[2024-05-21 08:43:48] INFO root fetch - processPackages [powerlift]: executing diffoscope
+[2024-05-21 08:43:48] INFO root fetch - processPackages [powerlift]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/powerlift-0.1.1-py3-none-any.whl.zip tmp/powerlift-0.1.2-py3-none-any.whl.zip --markdown 20240521/p/powerlift/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-21 08:43:48] INFO root fetch - processPackages [fizzysearch]: executing diffoscope
+[2024-05-21 08:43:48] INFO root fetch - processPackages [fizzysearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fizzysearch-0.3.tar.gz tmp/fizzysearch-0.4.tar.gz --markdown 20240521/f/fizzysearch/0.3-0.4/README.md --exclude *.pyd
+[2024-05-21 08:43:48] INFO root fetch - processPackages [prophecy-build-tool]: Downloading https://files.pythonhosted.org/packages/6e/8b/758d03240b291c40dbffda699fd64edadca124a085daf5f71250b010298b/prophecy-build-tool-1.2.9.tar.gz
+[2024-05-21 08:43:48] INFO root fetch - processPackages [chain_harvester]: Downloading https://files.pythonhosted.org/packages/83/14/897023e0e39bb7ca75cd127d2dc307fb8364bb3378d2b0ea1ae88279986b/chain_harvester-0.9.0.tar.gz
+[2024-05-21 08:43:48] INFO root fetch - processPackages [odoo-addon-auth-user-case-insensitive]: executing diffoscope
+[2024-05-21 08:43:48] INFO root fetch - processPackages [odoo-addon-auth-user-case-insensitive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_auth_user_case_insensitive-17.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_auth_user_case_insensitive-17.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240521/o/odoo-addon-auth-user-case-insensitive/17.0.1.0.0.2-17.0.1.0.0.3/README.md --exclude *.pyd
+[2024-05-21 08:43:48] INFO root fetch - processPackages [chain_harvester]: executing diffoscope
+[2024-05-21 08:43:48] INFO root fetch - processPackages [chain_harvester]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chain_harvester-0.8.2.tar.gz tmp/chain_harvester-0.9.0.tar.gz --markdown 20240521/c/chain_harvester/0.8.2-0.9.0/README.md --exclude *.pyd
+[2024-05-21 08:43:48] INFO root fetch - processPackages [prophecy-build-tool]: executing diffoscope
+[2024-05-21 08:43:48] INFO root fetch - processPackages [prophecy-build-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prophecy-build-tool-1.2.8.tar.gz tmp/prophecy-build-tool-1.2.9.tar.gz --markdown 20240521/p/prophecy-build-tool/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-05-21 08:43:48] INFO root fetch - processPackages [odoo-addon-auth-session-timeout]: Downloading https://files.pythonhosted.org/packages/e7/a8/46e85502a2ccb3b038d50b0554537f99ae55ed52b31613844162cadfbda7/odoo_addon_auth_session_timeout-16.0.1.0.0.9-py3-none-any.whl
+[2024-05-21 08:43:48] INFO root fetch - processPackages [odoo-addon-auth-session-timeout]: executing diffoscope
+[2024-05-21 08:43:48] INFO root fetch - processPackages [odoo-addon-auth-session-timeout]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_auth_session_timeout-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_auth_session_timeout-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20240521/o/odoo-addon-auth-session-timeout/16.0.1.0.0.8-16.0.1.0.0.9/README.md --exclude *.pyd
+[2024-05-21 08:43:48] INFO root fetch - processPackages [xmonkey-namonica]: Remove: archive file [/home/abi/fetcher/tmp/xmonkey_namonica-0.1.8.tar.gz]
+[2024-05-21 08:43:48] INFO root fetch - processPackages [xmonkey-namonica]: Remove: archive file [/home/abi/fetcher/tmp/xmonkey_namonica-0.1.9.tar.gz]
+[2024-05-21 08:43:48] INFO root fetch - main [MainThread]: End processing [xmonkey-namonica]: success
+[2024-05-21 08:43:48] INFO root fetch - processPackages [fizzysearch]: Remove: archive file [/home/abi/fetcher/tmp/fizzysearch-0.3.tar.gz]
+[2024-05-21 08:43:48] INFO root fetch - processPackages [fizzysearch]: Remove: archive file [/home/abi/fetcher/tmp/fizzysearch-0.4.tar.gz]
+[2024-05-21 08:43:48] INFO root fetch - main [MainThread]: End processing [fizzysearch]: success
+[2024-05-21 08:43:48] INFO root fetch - processPackages [powerlift]: Remove: archive file [/home/abi/fetcher/tmp/powerlift-0.1.1-py3-none-any.whl.zip]
+[2024-05-21 08:43:48] INFO root fetch - processPackages [powerlift]: Remove: archive file [/home/abi/fetcher/tmp/powerlift-0.1.2-py3-none-any.whl.zip]
+[2024-05-21 08:43:48] INFO root fetch - main [MainThread]: End processing [powerlift]: success
+[2024-05-21 08:43:48] INFO root fetch - processPackages [chain_harvester]: Remove: archive file [/home/abi/fetcher/tmp/chain_harvester-0.8.2.tar.gz]
+[2024-05-21 08:43:48] INFO root fetch - processPackages [chain_harvester]: Remove: archive file [/home/abi/fetcher/tmp/chain_harvester-0.9.0.tar.gz]
+[2024-05-21 08:43:48] INFO root fetch - main [MainThread]: End processing [chain_harvester]: success
+[2024-05-21 08:43:48] INFO root fetch - processPackages [odoo-addon-auth-user-case-insensitive]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_auth_user_case_insensitive-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-21 08:43:48] INFO root fetch - processPackages [odoo-addon-auth-user-case-insensitive]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_auth_user_case_insensitive-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-21 08:43:48] INFO root fetch - main [MainThread]: End processing [odoo-addon-auth-user-case-insensitive]: success
+[2024-05-21 08:43:49] INFO root fetch - processPackages [prophecy-build-tool]: Remove: archive file [/home/abi/fetcher/tmp/prophecy-build-tool-1.2.8.tar.gz]
+[2024-05-21 08:43:49] INFO root fetch - processPackages [prophecy-build-tool]: Remove: archive file [/home/abi/fetcher/tmp/prophecy-build-tool-1.2.9.tar.gz]
+[2024-05-21 08:43:49] INFO root fetch - main [MainThread]: End processing [prophecy-build-tool]: success
+[2024-05-21 08:43:49] INFO root fetch - processPackages [odoo-addon-auth-session-timeout]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_auth_session_timeout-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2024-05-21 08:43:49] INFO root fetch - processPackages [odoo-addon-auth-session-timeout]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_auth_session_timeout-16.0.1.0.0.9-py3-none-any.whl.zip]
+[2024-05-21 08:43:49] INFO root fetch - main [MainThread]: End processing [odoo-addon-auth-session-timeout]: success
+[2024-05-21 08:43:49] INFO root fetch - main [MainThread]: Store serial: [23302125]
