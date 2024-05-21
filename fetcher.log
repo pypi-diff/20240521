@@ -2448,3 +2448,42 @@
 [2024-05-21 02:02:18] INFO root fetch - processPackages [adbc-driver-flightsql]: Remove: archive file [/home/abi/fetcher/tmp/adbc_driver_flightsql-1.0.0.tar.gz]
 [2024-05-21 02:02:18] INFO root fetch - main [MainThread]: End processing [adbc-driver-flightsql]: success
 [2024-05-21 02:02:18] INFO root fetch - main [MainThread]: Store serial: [23297812]
+[2024-05-21 02:04:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23297812]
+[2024-05-21 02:04:44] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-21 02:04:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bencode-c
+[2024-05-21 02:04:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: semantic-kernel
+[2024-05-21 02:04:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: biondi
+[2024-05-21 02:04:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mct-nightly
+[2024-05-21 02:04:44] INFO root fetch - processPackages [bencode-c]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-21 02:04:44] INFO root fetch - processPackages [mct-nightly]: New version: [2.0.0.20240520.424] Old Version: [2.0.0.20240519.436]
+[2024-05-21 02:04:44] INFO root fetch - processPackages [semantic-kernel]: New version: [1.0.0rc1] Old Version: [1.0.0]
+[2024-05-21 02:04:44] INFO root fetch - processPackages [bencode-c]: Downloading https://files.pythonhosted.org/packages/7d/59/cb6dd684ad372691f0fd95a50e360566516c08ded4938dc5f04568243d8c/bencode_c-0.0.4.tar.gz
+[2024-05-21 02:04:44] INFO root fetch - processPackages [biondi]: New version: [0.1.6.1] Old Version: [0.1.5.0]
+[2024-05-21 02:04:44] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/43/ff/57a7a63ead7c54c687575c88d70c68ac25787f543027ca8e8642b725c8f3/mct-nightly-2.0.0.20240519.436.tar.gz
+[2024-05-21 02:04:44] INFO root fetch - processPackages [semantic-kernel]: Downloading https://files.pythonhosted.org/packages/cb/e4/58e96dae2ab3716e6541e81290fe3e6cf149f3f113dd66f0e618975b73dc/semantic_kernel-1.0.0.tar.gz
+[2024-05-21 02:04:44] INFO root fetch - processPackages [biondi]: Downloading https://files.pythonhosted.org/packages/43/2d/70ec4a0484db3bf6c83f33a85540ce6460ce90992b77c69d1ba437e386b1/biondi-0.1.5.0.tar.gz
+[2024-05-21 02:04:44] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/c5/11/fe2da8caf01d5961f9972c97f8c9e2c2d2e7c2e142ee7b5e7290f4f13f04/mct-nightly-2.0.0.20240520.424.tar.gz
+[2024-05-21 02:04:44] INFO root fetch - processPackages [bencode-c]: Downloading https://files.pythonhosted.org/packages/be/24/2d3c89e326c539c20378f3b86230589a4dc87f2bc91812e8c698cf5979b2/bencode_c-0.0.5.tar.gz
+[2024-05-21 02:04:44] INFO root fetch - processPackages [bencode-c]: executing diffoscope
+[2024-05-21 02:04:44] INFO root fetch - processPackages [bencode-c]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bencode_c-0.0.4.tar.gz tmp/bencode_c-0.0.5.tar.gz --markdown 20240521/b/bencode-c/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-21 02:04:44] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2024-05-21 02:04:44] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-2.0.0.20240519.436.tar.gz tmp/mct-nightly-2.0.0.20240520.424.tar.gz --markdown 20240521/m/mct-nightly/2.0.0.20240519.436-2.0.0.20240520.424/README.md --exclude *.pyd
+[2024-05-21 02:04:44] INFO root fetch - processPackages [semantic-kernel]: Downloading https://files.pythonhosted.org/packages/6b/d0/c81659455227a94dd8f3967e894b8773173a480b93eb1fb9fe6702368329/semantic_kernel-1.0.0rc1.tar.gz
+[2024-05-21 02:04:44] INFO root fetch - processPackages [biondi]: Downloading https://files.pythonhosted.org/packages/40/3e/a6a2871b21aec18ce473dafcb33d1867e16ab1dec7f73b9c8467edbbd9e9/biondi-0.1.6.1.tar.gz
+[2024-05-21 02:04:44] INFO root fetch - processPackages [semantic-kernel]: executing diffoscope
+[2024-05-21 02:04:44] INFO root fetch - processPackages [semantic-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semantic_kernel-1.0.0.tar.gz tmp/semantic_kernel-1.0.0rc1.tar.gz --markdown 20240521/s/semantic-kernel/1.0.0-1.0.0rc1/README.md --exclude *.pyd
+[2024-05-21 02:04:45] INFO root fetch - processPackages [biondi]: executing diffoscope
+[2024-05-21 02:04:45] INFO root fetch - processPackages [biondi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biondi-0.1.5.0.tar.gz tmp/biondi-0.1.6.1.tar.gz --markdown 20240521/b/biondi/0.1.5.0-0.1.6.1/README.md --exclude *.pyd
+[2024-05-21 02:04:45] INFO root fetch - processPackages [bencode-c]: Remove: archive file [/home/abi/fetcher/tmp/bencode_c-0.0.4.tar.gz]
+[2024-05-21 02:04:45] INFO root fetch - processPackages [bencode-c]: Remove: archive file [/home/abi/fetcher/tmp/bencode_c-0.0.5.tar.gz]
+[2024-05-21 02:04:45] INFO root fetch - main [MainThread]: End processing [bencode-c]: success
+[2024-05-21 02:04:45] INFO root fetch - processPackages [biondi]: Remove: archive file [/home/abi/fetcher/tmp/biondi-0.1.5.0.tar.gz]
+[2024-05-21 02:04:45] INFO root fetch - processPackages [biondi]: Remove: archive file [/home/abi/fetcher/tmp/biondi-0.1.6.1.tar.gz]
+[2024-05-21 02:04:45] INFO root fetch - main [MainThread]: End processing [biondi]: success
+[2024-05-21 02:04:46] INFO root fetch - processPackages [semantic-kernel]: Remove: archive file [/home/abi/fetcher/tmp/semantic_kernel-1.0.0.tar.gz]
+[2024-05-21 02:04:46] INFO root fetch - processPackages [semantic-kernel]: Remove: archive file [/home/abi/fetcher/tmp/semantic_kernel-1.0.0rc1.tar.gz]
+[2024-05-21 02:04:46] INFO root fetch - main [MainThread]: End processing [semantic-kernel]: success
+[2024-05-21 02:04:46] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-2.0.0.20240519.436.tar.gz]
+[2024-05-21 02:04:46] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-2.0.0.20240520.424.tar.gz]
+[2024-05-21 02:04:46] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2024-05-21 02:04:46] INFO root fetch - main [MainThread]: Store serial: [23297830]
