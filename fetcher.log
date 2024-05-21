@@ -14680,3 +14680,72 @@
 [2024-05-21 09:22:17] INFO root fetch - processPackages [pytbai]: Remove: archive file [/home/abi/fetcher/tmp/pytbai-1.4.7.tar.gz]
 [2024-05-21 09:22:17] INFO root fetch - main [MainThread]: End processing [pytbai]: success
 [2024-05-21 09:22:17] INFO root fetch - main [MainThread]: Store serial: [23302429]
+[2024-05-21 09:24:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23302429]
+[2024-05-21 09:24:26] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-21 09:24:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-authrespond
+[2024-05-21 09:24:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dekdjtools
+[2024-05-21 09:24:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alibabacloud-umeng-apm20220214
+[2024-05-21 09:24:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bonsai-prp
+[2024-05-21 09:24:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-hr-timesheet-sheet
+[2024-05-21 09:24:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-sale-timesheet-task-exclude
+[2024-05-21 09:24:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-project-task-analytic-propagation
+[2024-05-21 09:24:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: openvisuspy
+[2024-05-21 09:24:26] INFO root fetch - processPackages [bonsai-prp]: New version: [0.8.2] Old Version: [0.8.1]
+[2024-05-21 09:24:26] INFO root fetch - processPackages [openvisuspy]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-21 09:24:26] INFO root fetch - processPackages [dekdjtools]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-21 09:24:26] WARNING root fetch - processPackages [nonebot-plugin-authrespond]: Skipping, unable to determine old version
+[2024-05-21 09:24:26] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-authrespond] error
+[2024-05-21 09:24:26] INFO root fetch - processPackages [odoo-addon-project-task-analytic-propagation]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.3]
+[2024-05-21 09:24:26] INFO root fetch - processPackages [alibabacloud-umeng-apm20220214]: New version: [1.1.3] Old Version: [1.1.2]
+[2024-05-21 09:24:26] INFO root fetch - processPackages [openvisuspy]: Downloading https://files.pythonhosted.org/packages/b0/d9/2beb92d505396d836dfa5f3e5da1672e30a0795d20b21b932be407898836/openvisuspy-1.0.8-py3-none-any.whl
+[2024-05-21 09:24:26] INFO root fetch - processPackages [bonsai-prp]: Downloading https://files.pythonhosted.org/packages/9b/ba/c732d196db103ec8815265cd5857c7a8150d8b3124032832c54877436466/bonsai_prp-0.8.1.tar.gz
+[2024-05-21 09:24:26] INFO root fetch - processPackages [odoo-addon-sale-timesheet-task-exclude]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.3]
+[2024-05-21 09:24:26] INFO root fetch - processPackages [odoo-addon-hr-timesheet-sheet]: New version: [16.0.1.1.1.5] Old Version: [16.0.1.1.1.4]
+[2024-05-21 09:24:27] INFO root fetch - processPackages [alibabacloud-umeng-apm20220214]: Downloading https://files.pythonhosted.org/packages/13/c5/0cd644716d9f054ab868bd2320dd7968778e661b5918b2003922e647a22f/alibabacloud_umeng-apm20220214-1.1.2.tar.gz
+[2024-05-21 09:24:27] INFO root fetch - processPackages [dekdjtools]: Downloading https://files.pythonhosted.org/packages/e4/df/58d5e7aaa205acddbf1ba3c7e480bde075d90f3cf2f9a4ef8b1023fb4c14/dekdjtools-0.1.8.tar.gz
+[2024-05-21 09:24:27] INFO root fetch - processPackages [odoo-addon-project-task-analytic-propagation]: Downloading https://files.pythonhosted.org/packages/86/eb/0968857dc92d6b15e6429e6120fd6d3b78ee99c1292fd0dd268090cb2565/odoo_addon_project_task_analytic_propagation-16.0.1.0.0.3-py3-none-any.whl
+[2024-05-21 09:24:27] INFO root fetch - processPackages [odoo-addon-hr-timesheet-sheet]: Downloading https://files.pythonhosted.org/packages/f0/7f/f7038ceff85f31bcc45b6659aad462a67dcc4273d3a77ac2ed106899369c/odoo_addon_hr_timesheet_sheet-16.0.1.1.1.4-py3-none-any.whl
+[2024-05-21 09:24:27] INFO root fetch - processPackages [odoo-addon-sale-timesheet-task-exclude]: Downloading https://files.pythonhosted.org/packages/54/fe/c6c8753445d00c8ba7cc573d3aa1a8ff625a47ce1b0dfd1da807ed16af04/odoo_addon_sale_timesheet_task_exclude-16.0.1.0.0.3-py3-none-any.whl
+[2024-05-21 09:24:27] INFO root fetch - processPackages [openvisuspy]: Downloading https://files.pythonhosted.org/packages/76/33/2a7a818fea912f1354d65d0e959108baf4be55e1a1bcd773277f12b26582/openvisuspy-1.0.9-py3-none-any.whl
+[2024-05-21 09:24:27] INFO root fetch - processPackages [bonsai-prp]: Downloading https://files.pythonhosted.org/packages/e3/87/30177b48831174b301b93cca50b7eb9d44616ca262489070e462019d257c/bonsai_prp-0.8.2.tar.gz
+[2024-05-21 09:24:27] INFO root fetch - processPackages [openvisuspy]: executing diffoscope
+[2024-05-21 09:24:27] INFO root fetch - processPackages [openvisuspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openvisuspy-1.0.8-py3-none-any.whl.zip tmp/openvisuspy-1.0.9-py3-none-any.whl.zip --markdown 20240521/o/openvisuspy/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-21 09:24:27] INFO root fetch - processPackages [alibabacloud-umeng-apm20220214]: Downloading https://files.pythonhosted.org/packages/7c/1e/1b5eb7f83b00357d7f5e58f3a6911be554ceee4f6f3d7a91b9cc827fb2ce/alibabacloud_umeng-apm20220214-1.1.3.tar.gz
+[2024-05-21 09:24:27] INFO root fetch - processPackages [dekdjtools]: Downloading https://files.pythonhosted.org/packages/38/d3/1ea767a7367db4793980cd61bc83abf62a6c7e853f2c1d75e2e4e7070d71/dekdjtools-0.1.9.tar.gz
+[2024-05-21 09:24:27] INFO root fetch - processPackages [bonsai-prp]: executing diffoscope
+[2024-05-21 09:24:27] INFO root fetch - processPackages [bonsai-prp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bonsai_prp-0.8.1.tar.gz tmp/bonsai_prp-0.8.2.tar.gz --markdown 20240521/b/bonsai-prp/0.8.1-0.8.2/README.md --exclude *.pyd
+[2024-05-21 09:24:27] INFO root fetch - processPackages [odoo-addon-sale-timesheet-task-exclude]: Downloading https://files.pythonhosted.org/packages/e6/e7/c8fbbed2374b9e3e542c8e3e73d30eaa2c3955a156fe047981503f84c899/odoo_addon_sale_timesheet_task_exclude-16.0.1.0.0.4-py3-none-any.whl
+[2024-05-21 09:24:27] INFO root fetch - processPackages [alibabacloud-umeng-apm20220214]: executing diffoscope
+[2024-05-21 09:24:27] INFO root fetch - processPackages [alibabacloud-umeng-apm20220214]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_umeng-apm20220214-1.1.2.tar.gz tmp/alibabacloud_umeng-apm20220214-1.1.3.tar.gz --markdown 20240521/a/alibabacloud-umeng-apm20220214/1.1.2-1.1.3/README.md --exclude *.pyd
+[2024-05-21 09:24:27] INFO root fetch - processPackages [odoo-addon-hr-timesheet-sheet]: Downloading https://files.pythonhosted.org/packages/4f/36/f084ed9a76be97f93dc2ec6f5e1ffcad0b04ab80e1b614220daa43e5a048/odoo_addon_hr_timesheet_sheet-16.0.1.1.1.5-py3-none-any.whl
+[2024-05-21 09:24:27] INFO root fetch - processPackages [odoo-addon-project-task-analytic-propagation]: Downloading https://files.pythonhosted.org/packages/6d/56/88fd1e711be8b10c83a8986dedf4d492e050ae3465371d09199b6d1788e5/odoo_addon_project_task_analytic_propagation-16.0.1.0.0.4-py3-none-any.whl
+[2024-05-21 09:24:27] INFO root fetch - processPackages [dekdjtools]: executing diffoscope
+[2024-05-21 09:24:27] INFO root fetch - processPackages [dekdjtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dekdjtools-0.1.8.tar.gz tmp/dekdjtools-0.1.9.tar.gz --markdown 20240521/d/dekdjtools/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-21 09:24:27] INFO root fetch - processPackages [odoo-addon-sale-timesheet-task-exclude]: executing diffoscope
+[2024-05-21 09:24:27] INFO root fetch - processPackages [odoo-addon-sale-timesheet-task-exclude]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_timesheet_task_exclude-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_sale_timesheet_task_exclude-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240521/o/odoo-addon-sale-timesheet-task-exclude/16.0.1.0.0.3-16.0.1.0.0.4/README.md --exclude *.pyd
+[2024-05-21 09:24:27] INFO root fetch - processPackages [odoo-addon-project-task-analytic-propagation]: executing diffoscope
+[2024-05-21 09:24:27] INFO root fetch - processPackages [odoo-addon-project-task-analytic-propagation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_project_task_analytic_propagation-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_project_task_analytic_propagation-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240521/o/odoo-addon-project-task-analytic-propagation/16.0.1.0.0.3-16.0.1.0.0.4/README.md --exclude *.pyd
+[2024-05-21 09:24:27] INFO root fetch - processPackages [odoo-addon-hr-timesheet-sheet]: executing diffoscope
+[2024-05-21 09:24:27] INFO root fetch - processPackages [odoo-addon-hr-timesheet-sheet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_hr_timesheet_sheet-16.0.1.1.1.4-py3-none-any.whl.zip tmp/odoo_addon_hr_timesheet_sheet-16.0.1.1.1.5-py3-none-any.whl.zip --markdown 20240521/o/odoo-addon-hr-timesheet-sheet/16.0.1.1.1.4-16.0.1.1.1.5/README.md --exclude *.pyd
+[2024-05-21 09:24:28] INFO root fetch - processPackages [bonsai-prp]: Remove: archive file [/home/abi/fetcher/tmp/bonsai_prp-0.8.1.tar.gz]
+[2024-05-21 09:24:28] INFO root fetch - processPackages [bonsai-prp]: Remove: archive file [/home/abi/fetcher/tmp/bonsai_prp-0.8.2.tar.gz]
+[2024-05-21 09:24:28] INFO root fetch - main [MainThread]: End processing [bonsai-prp]: success
+[2024-05-21 09:24:28] INFO root fetch - processPackages [openvisuspy]: Remove: archive file [/home/abi/fetcher/tmp/openvisuspy-1.0.8-py3-none-any.whl.zip]
+[2024-05-21 09:24:28] INFO root fetch - processPackages [openvisuspy]: Remove: archive file [/home/abi/fetcher/tmp/openvisuspy-1.0.9-py3-none-any.whl.zip]
+[2024-05-21 09:24:28] INFO root fetch - main [MainThread]: End processing [openvisuspy]: success
+[2024-05-21 09:24:28] INFO root fetch - processPackages [dekdjtools]: Remove: archive file [/home/abi/fetcher/tmp/dekdjtools-0.1.8.tar.gz]
+[2024-05-21 09:24:28] INFO root fetch - processPackages [dekdjtools]: Remove: archive file [/home/abi/fetcher/tmp/dekdjtools-0.1.9.tar.gz]
+[2024-05-21 09:24:28] INFO root fetch - main [MainThread]: End processing [dekdjtools]: success
+[2024-05-21 09:24:28] INFO root fetch - processPackages [alibabacloud-umeng-apm20220214]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_umeng-apm20220214-1.1.2.tar.gz]
+[2024-05-21 09:24:28] INFO root fetch - processPackages [alibabacloud-umeng-apm20220214]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_umeng-apm20220214-1.1.3.tar.gz]
+[2024-05-21 09:24:28] INFO root fetch - main [MainThread]: End processing [alibabacloud-umeng-apm20220214]: success
+[2024-05-21 09:24:28] INFO root fetch - processPackages [odoo-addon-project-task-analytic-propagation]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_task_analytic_propagation-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-21 09:24:28] INFO root fetch - processPackages [odoo-addon-project-task-analytic-propagation]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_task_analytic_propagation-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-21 09:24:28] INFO root fetch - main [MainThread]: End processing [odoo-addon-project-task-analytic-propagation]: success
+[2024-05-21 09:24:28] INFO root fetch - processPackages [odoo-addon-sale-timesheet-task-exclude]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_timesheet_task_exclude-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-21 09:24:28] INFO root fetch - processPackages [odoo-addon-sale-timesheet-task-exclude]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_timesheet_task_exclude-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-21 09:24:28] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-timesheet-task-exclude]: success
+[2024-05-21 09:24:28] INFO root fetch - processPackages [odoo-addon-hr-timesheet-sheet]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hr_timesheet_sheet-16.0.1.1.1.4-py3-none-any.whl.zip]
+[2024-05-21 09:24:28] INFO root fetch - processPackages [odoo-addon-hr-timesheet-sheet]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hr_timesheet_sheet-16.0.1.1.1.5-py3-none-any.whl.zip]
+[2024-05-21 09:24:28] INFO root fetch - main [MainThread]: End processing [odoo-addon-hr-timesheet-sheet]: success
+[2024-05-21 09:24:28] INFO root fetch - main [MainThread]: Store serial: [23302449]
