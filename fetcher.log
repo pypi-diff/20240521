@@ -16103,3 +16103,51 @@
 [2024-05-21 10:06:50] INFO root fetch - processPackages [tree-sitter-idl]: Remove: archive file [/home/abi/fetcher/tmp/tree-sitter-idl-0.0.5.tar.gz]
 [2024-05-21 10:06:50] INFO root fetch - main [MainThread]: End processing [tree-sitter-idl]: success
 [2024-05-21 10:06:50] INFO root fetch - main [MainThread]: Store serial: [23302963]
+[2024-05-21 10:08:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23302963]
+[2024-05-21 10:08:59] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-21 10:08:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: video-dev
+[2024-05-21 10:08:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PlumedToHTML
+[2024-05-21 10:08:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyglove
+[2024-05-21 10:08:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: swarmauri
+[2024-05-21 10:08:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: transstellar
+[2024-05-21 10:09:00] INFO root fetch - processPackages [video-dev]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-21 10:09:00] INFO root fetch - processPackages [PlumedToHTML]: New version: [0.9] Old Version: [0.8]
+[2024-05-21 10:09:00] INFO root fetch - processPackages [pyglove]: New version: [0.4.5.dev20240520] Old Version: [0.4.5.dev20240519]
+[2024-05-21 10:09:00] INFO root fetch - processPackages [swarmauri]: New version: [0.2.5] Old Version: [0.2.4.dev4]
+[2024-05-21 10:09:00] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/26/b8/426a8074f4ef02aaff3c2d5300d4fd02400b739b73a67017882282fa6132/pyglove-0.4.5.dev20240519.tar.gz
+[2024-05-21 10:09:00] INFO root fetch - processPackages [video-dev]: Downloading https://files.pythonhosted.org/packages/5a/52/237476e9e766ff1621a5251f0527f034277257db09a30db6270e2df795ed/video.dev-0.0.1.tar.gz
+[2024-05-21 10:09:00] INFO root fetch - processPackages [transstellar]: New version: [2.2.0] Old Version: [2.1.0]
+[2024-05-21 10:09:00] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/7e/0b/91548df7c907ae359d039a733aaf4522020b87a390e270a409c203c2ea6e/swarmauri-0.2.4.dev4.tar.gz
+[2024-05-21 10:09:00] INFO root fetch - processPackages [PlumedToHTML]: Downloading https://files.pythonhosted.org/packages/81/95/5ed2d773d95e4fcba932cfdf67091abff694ff6ee4f10462588473535c97/PlumedToHTML-0.8.tar.gz
+[2024-05-21 10:09:00] INFO root fetch - processPackages [video-dev]: Downloading https://files.pythonhosted.org/packages/81/9f/9fdf84a84e70eac747bbaaec11af1bb127326031088fbbef0d415bd73550/video.dev-0.0.2.tar.gz
+[2024-05-21 10:09:00] INFO root fetch - processPackages [transstellar]: Downloading https://files.pythonhosted.org/packages/b7/fa/c75c61d87884d708225e0b96998be9f23efbe790f536753281089e80c01f/transstellar-2.1.0.tar.gz
+[2024-05-21 10:09:00] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/1c/3f/e5f7a5b83ccea8c7396994c4bcab50dc641711c7092352e99f0dd6dc65c1/pyglove-0.4.5.dev20240520.tar.gz
+[2024-05-21 10:09:00] INFO root fetch - processPackages [video-dev]: executing diffoscope
+[2024-05-21 10:09:00] INFO root fetch - processPackages [video-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/video.dev-0.0.1.tar.gz tmp/video.dev-0.0.2.tar.gz --markdown 20240521/v/video-dev/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-21 10:09:00] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/aa/67/f881cd51c2264858f1c6ea02e3c864067041e3ad1f1a942faac3ad06f5a1/swarmauri-0.2.5.tar.gz
+[2024-05-21 10:09:00] INFO root fetch - processPackages [PlumedToHTML]: Downloading https://files.pythonhosted.org/packages/d0/90/42341120e8c5d44ef5413125d4ea0ec3c0e2ca685bfe6358a3c5aa6fc7f9/PlumedToHTML-0.9.tar.gz
+[2024-05-21 10:09:00] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2024-05-21 10:09:00] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.4.5.dev20240519.tar.gz tmp/pyglove-0.4.5.dev20240520.tar.gz --markdown 20240521/p/pyglove/0.4.5.dev20240519-0.4.5.dev20240520/README.md --exclude *.pyd
+[2024-05-21 10:09:00] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-05-21 10:09:00] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.2.4.dev4.tar.gz tmp/swarmauri-0.2.5.tar.gz --markdown 20240521/s/swarmauri/0.2.4.dev4-0.2.5/README.md --exclude *.pyd
+[2024-05-21 10:09:00] INFO root fetch - processPackages [PlumedToHTML]: executing diffoscope
+[2024-05-21 10:09:00] INFO root fetch - processPackages [PlumedToHTML]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PlumedToHTML-0.8.tar.gz tmp/PlumedToHTML-0.9.tar.gz --markdown 20240521/P/PlumedToHTML/0.8-0.9/README.md --exclude *.pyd
+[2024-05-21 10:09:00] INFO root fetch - processPackages [transstellar]: Downloading https://files.pythonhosted.org/packages/d8/be/dc88fbfd7dab3cddf2e196089342bc60c154efd3ae1ab134912f2bfc5d00/transstellar-2.2.0.tar.gz
+[2024-05-21 10:09:01] INFO root fetch - processPackages [transstellar]: executing diffoscope
+[2024-05-21 10:09:01] INFO root fetch - processPackages [transstellar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transstellar-2.1.0.tar.gz tmp/transstellar-2.2.0.tar.gz --markdown 20240521/t/transstellar/2.1.0-2.2.0/README.md --exclude *.pyd
+[2024-05-21 10:09:01] INFO root fetch - processPackages [video-dev]: Remove: archive file [/home/abi/fetcher/tmp/video.dev-0.0.1.tar.gz]
+[2024-05-21 10:09:01] INFO root fetch - processPackages [video-dev]: Remove: archive file [/home/abi/fetcher/tmp/video.dev-0.0.2.tar.gz]
+[2024-05-21 10:09:01] INFO root fetch - main [MainThread]: End processing [video-dev]: success
+[2024-05-21 10:09:01] INFO root fetch - processPackages [PlumedToHTML]: Remove: archive file [/home/abi/fetcher/tmp/PlumedToHTML-0.8.tar.gz]
+[2024-05-21 10:09:01] INFO root fetch - processPackages [PlumedToHTML]: Remove: archive file [/home/abi/fetcher/tmp/PlumedToHTML-0.9.tar.gz]
+[2024-05-21 10:09:01] INFO root fetch - main [MainThread]: End processing [PlumedToHTML]: success
+[2024-05-21 10:09:01] INFO root fetch - processPackages [transstellar]: Remove: archive file [/home/abi/fetcher/tmp/transstellar-2.1.0.tar.gz]
+[2024-05-21 10:09:01] INFO root fetch - processPackages [transstellar]: Remove: archive file [/home/abi/fetcher/tmp/transstellar-2.2.0.tar.gz]
+[2024-05-21 10:09:01] INFO root fetch - main [MainThread]: End processing [transstellar]: success
+[2024-05-21 10:09:02] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.5.dev20240519.tar.gz]
+[2024-05-21 10:09:02] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.5.dev20240520.tar.gz]
+[2024-05-21 10:09:02] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2024-05-21 10:09:02] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.2.4.dev4.tar.gz]
+[2024-05-21 10:09:02] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.2.5.tar.gz]
+[2024-05-21 10:09:02] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
+[2024-05-21 10:09:02] INFO root fetch - main [MainThread]: Store serial: [23302977]
