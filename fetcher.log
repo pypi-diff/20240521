@@ -9093,3 +9093,38 @@
 [2024-05-21 05:11:13] INFO root fetch - processPackages [odoo14-addon-account-reconciliation-widget]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_reconciliation_widget-14.0.2.0.8.dev4-py3-none-any.whl.zip]
 [2024-05-21 05:11:13] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-reconciliation-widget]: success
 [2024-05-21 05:11:13] INFO root fetch - main [MainThread]: Store serial: [23300388]
+[2024-05-21 05:13:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23300388]
+[2024-05-21 05:13:22] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-21 05:13:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: TPE-Bot
+[2024-05-21 05:13:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spins2
+[2024-05-21 05:13:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spacy-thai
+[2024-05-21 05:13:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Leonardo-Ai-SDK
+[2024-05-21 05:13:22] INFO root fetch - processPackages [TPE-Bot]: New version: [6.9.2] Old Version: [6.9.1]
+[2024-05-21 05:13:22] INFO root fetch - processPackages [spacy-thai]: New version: [0.7.5] Old Version: [0.7.4]
+[2024-05-21 05:13:22] INFO root fetch - processPackages [spins2]: New version: [0.0.3.4] Old Version: [0.0.3.3]
+[2024-05-21 05:13:22] INFO root fetch - processPackages [TPE-Bot]: Downloading https://files.pythonhosted.org/packages/c4/19/a7cdacae0c224cc02ea5e0684804edf5c37ae3a7da40033bda6432e0e2e3/TPE-Bot-6.9.1.tar.gz
+[2024-05-21 05:13:22] INFO root fetch - processPackages [spacy-thai]: Downloading https://files.pythonhosted.org/packages/fa/25/145491811adf6c2ebdf7baf7d5943d068e64d75befe9649db4b072d5ccea/spacy_thai-0.7.4-py3-none-any.whl
+[2024-05-21 05:13:22] INFO root fetch - processPackages [Leonardo-Ai-SDK]: New version: [5.4.2] Old Version: [5.4.1]
+[2024-05-21 05:13:22] WARNING root fetch - processPackages [spacy-thai]: Skipping package: exceeds size limit 15708592>=10485760
+[2024-05-21 05:13:22] INFO root fetch - main [MainThread]: End processing [spacy-thai] error
+[2024-05-21 05:13:22] INFO root fetch - processPackages [spins2]: Downloading https://files.pythonhosted.org/packages/25/7f/031a388e19c53467fc92034a2385e0bdc89ceffd5f8c9ef76bcc2fd38191/spins2-0.0.3.3-py3-none-any.whl
+[2024-05-21 05:13:23] INFO root fetch - processPackages [TPE-Bot]: Downloading https://files.pythonhosted.org/packages/70/7f/575b827c491ae2bce901b106dad351e35f042fb74bc67a5e86613a1358d8/TPE-Bot-6.9.2.tar.gz
+[2024-05-21 05:13:23] INFO root fetch - processPackages [Leonardo-Ai-SDK]: Downloading https://files.pythonhosted.org/packages/a5/37/1fbbe3f6dc02d785e7c2d66f1decc95de48ddf0e7411559ad34d230bf557/Leonardo-Ai-SDK-5.4.1.tar.gz
+[2024-05-21 05:13:23] INFO root fetch - processPackages [TPE-Bot]: executing diffoscope
+[2024-05-21 05:13:23] INFO root fetch - processPackages [TPE-Bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TPE-Bot-6.9.1.tar.gz tmp/TPE-Bot-6.9.2.tar.gz --markdown 20240521/T/TPE-Bot/6.9.1-6.9.2/README.md --exclude *.pyd
+[2024-05-21 05:13:23] INFO root fetch - processPackages [spins2]: Downloading https://files.pythonhosted.org/packages/89/1c/37faa169ce3fee0ff5e358f300963a1276ba84412e3321449983fe3554a7/spins2-0.0.3.4-py3-none-any.whl
+[2024-05-21 05:13:23] INFO root fetch - processPackages [Leonardo-Ai-SDK]: Downloading https://files.pythonhosted.org/packages/2e/b0/b6e0be2fa669cc0d398fe4391456018bb1d4c809c0d6b244fa8bbc7ae498/Leonardo-Ai-SDK-5.4.2.tar.gz
+[2024-05-21 05:13:23] INFO root fetch - processPackages [spins2]: executing diffoscope
+[2024-05-21 05:13:23] INFO root fetch - processPackages [spins2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spins2-0.0.3.3-py3-none-any.whl.zip tmp/spins2-0.0.3.4-py3-none-any.whl.zip --markdown 20240521/s/spins2/0.0.3.3-0.0.3.4/README.md --exclude *.pyd
+[2024-05-21 05:13:23] INFO root fetch - processPackages [Leonardo-Ai-SDK]: executing diffoscope
+[2024-05-21 05:13:23] INFO root fetch - processPackages [Leonardo-Ai-SDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Leonardo-Ai-SDK-5.4.1.tar.gz tmp/Leonardo-Ai-SDK-5.4.2.tar.gz --markdown 20240521/L/Leonardo-Ai-SDK/5.4.1-5.4.2/README.md --exclude *.pyd
+[2024-05-21 05:13:24] INFO root fetch - processPackages [TPE-Bot]: Remove: archive file [/home/abi/fetcher/tmp/TPE-Bot-6.9.1.tar.gz]
+[2024-05-21 05:13:24] INFO root fetch - processPackages [TPE-Bot]: Remove: archive file [/home/abi/fetcher/tmp/TPE-Bot-6.9.2.tar.gz]
+[2024-05-21 05:13:24] INFO root fetch - main [MainThread]: End processing [TPE-Bot]: success
+[2024-05-21 05:13:24] INFO root fetch - processPackages [spins2]: Remove: archive file [/home/abi/fetcher/tmp/spins2-0.0.3.3-py3-none-any.whl.zip]
+[2024-05-21 05:13:24] INFO root fetch - processPackages [spins2]: Remove: archive file [/home/abi/fetcher/tmp/spins2-0.0.3.4-py3-none-any.whl.zip]
+[2024-05-21 05:13:24] INFO root fetch - main [MainThread]: End processing [spins2]: success
+[2024-05-21 05:13:24] INFO root fetch - processPackages [Leonardo-Ai-SDK]: Remove: archive file [/home/abi/fetcher/tmp/Leonardo-Ai-SDK-5.4.1.tar.gz]
+[2024-05-21 05:13:24] INFO root fetch - processPackages [Leonardo-Ai-SDK]: Remove: archive file [/home/abi/fetcher/tmp/Leonardo-Ai-SDK-5.4.2.tar.gz]
+[2024-05-21 05:13:24] INFO root fetch - main [MainThread]: End processing [Leonardo-Ai-SDK]: success
+[2024-05-21 05:13:24] INFO root fetch - main [MainThread]: Store serial: [23300397]
