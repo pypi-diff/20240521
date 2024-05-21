@@ -10822,3 +10822,60 @@
 [2024-05-21 06:21:22] INFO root fetch - processPackages [ethyca-fides]: Remove: archive file [/home/abi/fetcher/tmp/ethyca-fides-2.9.2.tar.gz]
 [2024-05-21 06:21:22] INFO root fetch - main [MainThread]: End processing [ethyca-fides]: success
 [2024-05-21 06:21:22] INFO root fetch - main [MainThread]: Store serial: [23300953]
+[2024-05-21 06:23:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23300953]
+[2024-05-21 06:23:31] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-21 06:23:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cyberonix
+[2024-05-21 06:23:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyRHEED
+[2024-05-21 06:23:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: switch-api
+[2024-05-21 06:23:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-helpdesk-mgmt-fieldservice
+[2024-05-21 06:23:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-helpdesk-mgmt
+[2024-05-21 06:23:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jzai
+[2024-05-21 06:23:31] INFO root fetch - processPackages [PyRHEED]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-21 06:23:31] INFO root fetch - processPackages [cyberonix]: New version: [3.0.3] Old Version: [3.0.2]
+[2024-05-21 06:23:31] INFO root fetch - processPackages [jzai]: New version: [59.83.57] Old Version: [59.83.56]
+[2024-05-21 06:23:31] INFO root fetch - processPackages [switch-api]: New version: [0.5.7] Old Version: [0.5.6]
+[2024-05-21 06:23:31] INFO root fetch - processPackages [PyRHEED]: Downloading https://files.pythonhosted.org/packages/3e/80/2a87cb0840eec48a03880868ea6ac20921579f3e34c6fb89dde3b358894e/pyrheed-1.0.0.tar.gz
+[2024-05-21 06:23:31] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt-fieldservice]: New version: [14.0.1.1.3.dev6] Old Version: [14.0.1.1.3.dev5]
+[2024-05-21 06:23:31] INFO root fetch - processPackages [jzai]: Downloading https://files.pythonhosted.org/packages/f7/a6/da6e29fe03b84d6e8b831372cf59fd711b0adebc910b3d44ab5fc1d5f90d/jzai-59.83.56.tar.gz
+[2024-05-21 06:23:31] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: New version: [16.0.2.2.2.4] Old Version: [16.0.2.2.2.3]
+[2024-05-21 06:23:31] INFO root fetch - processPackages [switch-api]: Downloading https://files.pythonhosted.org/packages/c5/05/be8bdeb8dc1caa1be5551a1086fd6a011e7315c3cffdf80ecc938210ad98/switch_api-0.5.6.tar.gz
+[2024-05-21 06:23:31] INFO root fetch - processPackages [cyberonix]: Downloading https://files.pythonhosted.org/packages/1d/c4/bfbece76d0889252f84f9a118b24cb53059fca82e207eb0a344f3cd71a3c/cyberonix-3.0.2.tar.gz
+[2024-05-21 06:23:31] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt-fieldservice]: Downloading https://files.pythonhosted.org/packages/a1/56/3d298727d0c07291ea723d9bfec9050207d5d42954a9c8785cea68d0848e/odoo14_addon_helpdesk_mgmt_fieldservice-14.0.1.1.3.dev5-py3-none-any.whl
+[2024-05-21 06:23:31] INFO root fetch - processPackages [PyRHEED]: Downloading https://files.pythonhosted.org/packages/fd/07/7c01274c967c87aaf7291a229408dd72134ec5d038a651d6df3f33b72a0c/pyrheed-1.0.1.tar.gz
+[2024-05-21 06:23:31] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: Downloading https://files.pythonhosted.org/packages/ee/6f/8c91458b5e11480afa697e530b535083dbd2c1be207a81070a71d68e0e5c/odoo_addon_helpdesk_mgmt-16.0.2.2.2.3-py3-none-any.whl
+[2024-05-21 06:23:31] INFO root fetch - processPackages [switch-api]: Downloading https://files.pythonhosted.org/packages/1f/48/99b8540292bd98b7984dd5ea316555197febfb178b7b823917c8a4149a45/switch_api-0.5.7.tar.gz
+[2024-05-21 06:23:31] INFO root fetch - processPackages [jzai]: Downloading https://files.pythonhosted.org/packages/71/eb/faee104db5af6e206f70b8f9c132bd8823c390b2127c29082a055316db96/jzai-59.83.57.tar.gz
+[2024-05-21 06:23:31] INFO root fetch - processPackages [PyRHEED]: executing diffoscope
+[2024-05-21 06:23:31] INFO root fetch - processPackages [PyRHEED]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrheed-1.0.0.tar.gz tmp/pyrheed-1.0.1.tar.gz --markdown 20240521/P/PyRHEED/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-21 06:23:31] INFO root fetch - processPackages [cyberonix]: Downloading https://files.pythonhosted.org/packages/4b/e9/bcc840a10a605b2337f354546854e4920d35e6e39286cc54b96ff4e6bfa0/cyberonix-3.0.3.tar.gz
+[2024-05-21 06:23:32] INFO root fetch - processPackages [switch-api]: executing diffoscope
+[2024-05-21 06:23:32] INFO root fetch - processPackages [switch-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/switch_api-0.5.6.tar.gz tmp/switch_api-0.5.7.tar.gz --markdown 20240521/s/switch-api/0.5.6-0.5.7/README.md --exclude *.pyd
+[2024-05-21 06:23:32] INFO root fetch - processPackages [jzai]: executing diffoscope
+[2024-05-21 06:23:32] INFO root fetch - processPackages [jzai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jzai-59.83.56.tar.gz tmp/jzai-59.83.57.tar.gz --markdown 20240521/j/jzai/59.83.56-59.83.57/README.md --exclude *.pyd
+[2024-05-21 06:23:32] INFO root fetch - processPackages [cyberonix]: executing diffoscope
+[2024-05-21 06:23:32] INFO root fetch - processPackages [cyberonix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyberonix-3.0.2.tar.gz tmp/cyberonix-3.0.3.tar.gz --markdown 20240521/c/cyberonix/3.0.2-3.0.3/README.md --exclude *.pyd
+[2024-05-21 06:23:32] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: Downloading https://files.pythonhosted.org/packages/4d/5a/13bffb66797b599b91447d47b1acea356cb5e22546de546032685686890f/odoo_addon_helpdesk_mgmt-16.0.2.2.2.4-py3-none-any.whl
+[2024-05-21 06:23:32] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt-fieldservice]: Downloading https://files.pythonhosted.org/packages/e8/40/75218a382056ebd8f083ea8dd2bd5616bf2f55e7e39bc613e6b7a0728889/odoo14_addon_helpdesk_mgmt_fieldservice-14.0.1.1.3.dev6-py3-none-any.whl
+[2024-05-21 06:23:32] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt-fieldservice]: executing diffoscope
+[2024-05-21 06:23:32] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt-fieldservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_helpdesk_mgmt_fieldservice-14.0.1.1.3.dev5-py3-none-any.whl.zip tmp/odoo14_addon_helpdesk_mgmt_fieldservice-14.0.1.1.3.dev6-py3-none-any.whl.zip --markdown 20240521/o/odoo14-addon-helpdesk-mgmt-fieldservice/14.0.1.1.3.dev5-14.0.1.1.3.dev6/README.md --exclude *.pyd
+[2024-05-21 06:23:32] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: executing diffoscope
+[2024-05-21 06:23:32] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_helpdesk_mgmt-16.0.2.2.2.3-py3-none-any.whl.zip tmp/odoo_addon_helpdesk_mgmt-16.0.2.2.2.4-py3-none-any.whl.zip --markdown 20240521/o/odoo-addon-helpdesk-mgmt/16.0.2.2.2.3-16.0.2.2.2.4/README.md --exclude *.pyd
+[2024-05-21 06:23:32] INFO root fetch - processPackages [PyRHEED]: Remove: archive file [/home/abi/fetcher/tmp/pyrheed-1.0.0.tar.gz]
+[2024-05-21 06:23:32] INFO root fetch - processPackages [PyRHEED]: Remove: archive file [/home/abi/fetcher/tmp/pyrheed-1.0.1.tar.gz]
+[2024-05-21 06:23:32] INFO root fetch - main [MainThread]: End processing [PyRHEED]: success
+[2024-05-21 06:23:32] INFO root fetch - processPackages [jzai]: Remove: archive file [/home/abi/fetcher/tmp/jzai-59.83.56.tar.gz]
+[2024-05-21 06:23:32] INFO root fetch - processPackages [jzai]: Remove: archive file [/home/abi/fetcher/tmp/jzai-59.83.57.tar.gz]
+[2024-05-21 06:23:32] INFO root fetch - main [MainThread]: End processing [jzai]: success
+[2024-05-21 06:23:32] INFO root fetch - processPackages [switch-api]: Remove: archive file [/home/abi/fetcher/tmp/switch_api-0.5.6.tar.gz]
+[2024-05-21 06:23:32] INFO root fetch - processPackages [switch-api]: Remove: archive file [/home/abi/fetcher/tmp/switch_api-0.5.7.tar.gz]
+[2024-05-21 06:23:32] INFO root fetch - main [MainThread]: End processing [switch-api]: success
+[2024-05-21 06:23:33] INFO root fetch - processPackages [cyberonix]: Remove: archive file [/home/abi/fetcher/tmp/cyberonix-3.0.2.tar.gz]
+[2024-05-21 06:23:33] INFO root fetch - processPackages [cyberonix]: Remove: archive file [/home/abi/fetcher/tmp/cyberonix-3.0.3.tar.gz]
+[2024-05-21 06:23:33] INFO root fetch - main [MainThread]: End processing [cyberonix]: success
+[2024-05-21 06:23:33] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt-fieldservice]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_helpdesk_mgmt_fieldservice-14.0.1.1.3.dev5-py3-none-any.whl.zip]
+[2024-05-21 06:23:33] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt-fieldservice]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_helpdesk_mgmt_fieldservice-14.0.1.1.3.dev6-py3-none-any.whl.zip]
+[2024-05-21 06:23:33] INFO root fetch - main [MainThread]: End processing [odoo14-addon-helpdesk-mgmt-fieldservice]: success
+[2024-05-21 06:23:33] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_helpdesk_mgmt-16.0.2.2.2.3-py3-none-any.whl.zip]
+[2024-05-21 06:23:33] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_helpdesk_mgmt-16.0.2.2.2.4-py3-none-any.whl.zip]
+[2024-05-21 06:23:33] INFO root fetch - main [MainThread]: End processing [odoo-addon-helpdesk-mgmt]: success
+[2024-05-21 06:23:33] INFO root fetch - main [MainThread]: Store serial: [23300969]
