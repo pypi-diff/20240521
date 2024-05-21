@@ -14324,3 +14324,59 @@
 [2024-05-21 09:03:32] INFO root fetch - processPackages [tf-models-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl.zip]
 [2024-05-21 09:03:32] INFO root fetch - main [MainThread]: End processing [tf-models-nightly]: success
 [2024-05-21 09:03:32] INFO root fetch - main [MainThread]: Store serial: [23302309]
+[2024-05-21 09:05:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23302309]
+[2024-05-21 09:05:42] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-21 09:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: VASP2KP
+[2024-05-21 09:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fastlabel
+[2024-05-21 09:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sqs-client
+[2024-05-21 09:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pms-encoder
+[2024-05-21 09:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: plantdrppred
+[2024-05-21 09:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: injector-collections
+[2024-05-21 09:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: modelmerge
+[2024-05-21 09:05:42] INFO root fetch - processPackages [plantdrppred]: New version: [1.0] Old Version: [0.4]
+[2024-05-21 09:05:42] WARNING root fetch - processPackages [injector-collections]: Skipping, unable to determine old version
+[2024-05-21 09:05:42] INFO root fetch - main [MainThread]: End processing [injector-collections] error
+[2024-05-21 09:05:42] INFO root fetch - processPackages [pms-encoder]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-21 09:05:42] INFO root fetch - processPackages [sqs-client]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-21 09:05:42] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/80/f1/88f2f54188c15bf6cca5ba7a3a347b8d1c83b15a626f541acf3dde5aa63d/pms_encoder-0.0.8.tar.gz
+[2024-05-21 09:05:42] INFO root fetch - processPackages [fastlabel]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-21 09:05:42] INFO root fetch - processPackages [VASP2KP]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-05-21 09:05:42] INFO root fetch - processPackages [modelmerge]: New version: [0.5.5] Old Version: [0.5.4]
+[2024-05-21 09:05:42] INFO root fetch - processPackages [plantdrppred]: Downloading https://files.pythonhosted.org/packages/15/c0/ab31b3823140b9ef691ca32a598b34a8e59094cc74a438435efc3d5e5233/plantdrppred-0.4.tar.gz
+[2024-05-21 09:05:42] WARNING root fetch - processPackages [plantdrppred]: Skipping package: exceeds size limit 61316406>=10485760
+[2024-05-21 09:05:42] INFO root fetch - main [MainThread]: End processing [plantdrppred] error
+[2024-05-21 09:05:42] INFO root fetch - processPackages [sqs-client]: Downloading https://files.pythonhosted.org/packages/fe/96/a58365fcdd366cf5079c6f2f290f858c6938906f3ca424ecd846390a6114/sqs_client-0.1.6.tar.gz
+[2024-05-21 09:05:42] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/93/31/8bb081756db42925fab6507b6e0f497d6bf45acd407ff38cb00f2aaec54c/pms_encoder-0.0.9.tar.gz
+[2024-05-21 09:05:42] INFO root fetch - processPackages [fastlabel]: Downloading https://files.pythonhosted.org/packages/57/be/7f95f0710f3736b944abf8635802ed7c4fa9ed908af29b88814533d5d1aa/fastlabel-0.9.8.tar.gz
+[2024-05-21 09:05:42] INFO root fetch - processPackages [VASP2KP]: Downloading https://files.pythonhosted.org/packages/c2/cf/aaa87743e269a381048315283797e257819c2e293b4f04446bd6fffb8adf/VASP2KP-1.1.3.tar.gz
+[2024-05-21 09:05:42] INFO root fetch - processPackages [modelmerge]: Downloading https://files.pythonhosted.org/packages/4d/f7/035e6eec7e739cc228bc017b38bfeda501e9aea7e581c7db1b9233759cf7/modelmerge-0.5.4.tar.gz
+[2024-05-21 09:05:42] INFO root fetch - processPackages [pms-encoder]: executing diffoscope
+[2024-05-21 09:05:42] INFO root fetch - processPackages [pms-encoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pms_encoder-0.0.8.tar.gz tmp/pms_encoder-0.0.9.tar.gz --markdown 20240521/p/pms-encoder/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-21 09:05:42] INFO root fetch - processPackages [sqs-client]: Downloading https://files.pythonhosted.org/packages/54/85/a3c6fed902eab13027c0ab1f5e38bda45055c26e516eb4e33078521eabf1/sqs_client-0.1.7.tar.gz
+[2024-05-21 09:05:43] INFO root fetch - processPackages [sqs-client]: executing diffoscope
+[2024-05-21 09:05:43] INFO root fetch - processPackages [sqs-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqs_client-0.1.6.tar.gz tmp/sqs_client-0.1.7.tar.gz --markdown 20240521/s/sqs-client/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-21 09:05:43] INFO root fetch - processPackages [VASP2KP]: Downloading https://files.pythonhosted.org/packages/8c/e9/57a8a6b2adc39fa189397708381aec9d0d76bbac79f18989ab7046333ab5/VASP2KP-1.1.4.tar.gz
+[2024-05-21 09:05:43] INFO root fetch - processPackages [fastlabel]: Downloading https://files.pythonhosted.org/packages/d0/e5/f18c001dc7450d962af6e6925a6600fb1877e202166062e99e6d1fadf36b/fastlabel-0.9.9.tar.gz
+[2024-05-21 09:05:43] INFO root fetch - processPackages [VASP2KP]: executing diffoscope
+[2024-05-21 09:05:43] INFO root fetch - processPackages [VASP2KP]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VASP2KP-1.1.3.tar.gz tmp/VASP2KP-1.1.4.tar.gz --markdown 20240521/V/VASP2KP/1.1.3-1.1.4/README.md --exclude *.pyd
+[2024-05-21 09:05:43] INFO root fetch - processPackages [modelmerge]: Downloading https://files.pythonhosted.org/packages/8d/ee/471b3eda5160336e2bdcad1b49b1c44425c10874f3f57be2c52a0c306ad3/modelmerge-0.5.5.tar.gz
+[2024-05-21 09:05:43] INFO root fetch - processPackages [fastlabel]: executing diffoscope
+[2024-05-21 09:05:43] INFO root fetch - processPackages [fastlabel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastlabel-0.9.8.tar.gz tmp/fastlabel-0.9.9.tar.gz --markdown 20240521/f/fastlabel/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-21 09:05:43] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.8.tar.gz]
+[2024-05-21 09:05:43] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.9.tar.gz]
+[2024-05-21 09:05:43] INFO root fetch - main [MainThread]: End processing [pms-encoder]: success
+[2024-05-21 09:05:43] INFO root fetch - processPackages [sqs-client]: Remove: archive file [/home/abi/fetcher/tmp/sqs_client-0.1.6.tar.gz]
+[2024-05-21 09:05:43] INFO root fetch - processPackages [sqs-client]: Remove: archive file [/home/abi/fetcher/tmp/sqs_client-0.1.7.tar.gz]
+[2024-05-21 09:05:43] INFO root fetch - main [MainThread]: End processing [sqs-client]: success
+[2024-05-21 09:05:43] INFO root fetch - processPackages [VASP2KP]: Remove: archive file [/home/abi/fetcher/tmp/VASP2KP-1.1.3.tar.gz]
+[2024-05-21 09:05:43] INFO root fetch - processPackages [VASP2KP]: Remove: archive file [/home/abi/fetcher/tmp/VASP2KP-1.1.4.tar.gz]
+[2024-05-21 09:05:43] INFO root fetch - main [MainThread]: End processing [VASP2KP]: success
+[2024-05-21 09:05:43] INFO root fetch - processPackages [modelmerge]: executing diffoscope
+[2024-05-21 09:05:43] INFO root fetch - processPackages [modelmerge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelmerge-0.5.4.tar.gz tmp/modelmerge-0.5.5.tar.gz --markdown 20240521/m/modelmerge/0.5.4-0.5.5/README.md --exclude *.pyd
+[2024-05-21 09:05:43] INFO root fetch - processPackages [fastlabel]: Remove: archive file [/home/abi/fetcher/tmp/fastlabel-0.9.8.tar.gz]
+[2024-05-21 09:05:43] INFO root fetch - processPackages [fastlabel]: Remove: archive file [/home/abi/fetcher/tmp/fastlabel-0.9.9.tar.gz]
+[2024-05-21 09:05:43] INFO root fetch - main [MainThread]: End processing [fastlabel]: success
+[2024-05-21 09:05:44] INFO root fetch - processPackages [modelmerge]: Remove: archive file [/home/abi/fetcher/tmp/modelmerge-0.5.4.tar.gz]
+[2024-05-21 09:05:44] INFO root fetch - processPackages [modelmerge]: Remove: archive file [/home/abi/fetcher/tmp/modelmerge-0.5.5.tar.gz]
+[2024-05-21 09:05:44] INFO root fetch - main [MainThread]: End processing [modelmerge]: success
+[2024-05-21 09:05:44] INFO root fetch - main [MainThread]: Store serial: [23302327]
