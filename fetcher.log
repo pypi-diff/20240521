@@ -12138,3 +12138,42 @@
 [2024-05-21 07:31:22] INFO root fetch - processPackages [lightningchart]: Remove: archive file [/home/abi/fetcher/tmp/lightningchart-0.6.9-py3-none-any.whl.zip]
 [2024-05-21 07:31:22] INFO root fetch - main [MainThread]: End processing [lightningchart]: success
 [2024-05-21 07:31:22] INFO root fetch - main [MainThread]: Store serial: [23301430]
+[2024-05-21 07:33:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23301430]
+[2024-05-21 07:33:31] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-21 07:33:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: airbyte-source-captain-data
+[2024-05-21 07:33:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: localstack-core
+[2024-05-21 07:33:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tflite-runtime-nightly
+[2024-05-21 07:33:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PyRHEED
+[2024-05-21 07:33:31] INFO root fetch - processPackages [PyRHEED]: New version: [1.0.9] Old Version: [1.0.8rc0]
+[2024-05-21 07:33:31] INFO root fetch - processPackages [localstack-core]: New version: [3.4.1.dev20240521052246] Old Version: [3.4.1.dev20240520160636]
+[2024-05-21 07:33:31] INFO root fetch - processPackages [airbyte-source-captain-data]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-21 07:33:31] INFO root fetch - processPackages [PyRHEED]: Downloading https://files.pythonhosted.org/packages/4d/53/09f1243ffa2006a172b5958572706bc933d5d993299231b4caee7ac9e458/pyrheed-1.0.8rc0.tar.gz
+[2024-05-21 07:33:31] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/a4/3a/1ea80e4da5b973706ce22c09dba634c35295613ab74e7651df170ee5c3a5/localstack_core-3.4.1.dev20240520160636.tar.gz
+[2024-05-21 07:33:31] INFO root fetch - processPackages [tflite-runtime-nightly]: New version: [2.17.0.dev20240520] Old Version: [2.17.0.dev20240519]
+[2024-05-21 07:33:31] INFO root fetch - processPackages [airbyte-source-captain-data]: Downloading https://files.pythonhosted.org/packages/1c/6d/4cb3e62e76075e7003064ed1d334ad1673688fa517a35399cb9bf5e0bdf1/airbyte-source-captain-data-0.1.0.tar.gz
+[2024-05-21 07:33:31] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/49/a7/ac1418d5fe703316b6764a7b833640e83ae87c00d1c73350cd4be2da4b38/tflite_runtime_nightly-2.17.0.dev20240519-cp39-cp39-manylinux_2_34_armv7l.whl
+[2024-05-21 07:33:31] INFO root fetch - processPackages [PyRHEED]: Downloading https://files.pythonhosted.org/packages/59/7c/757385a6f45e5461897bee08eafc8b3ad66dcdf51af3b19fbd25590f8db9/pyrheed-1.0.9.tar.gz
+[2024-05-21 07:33:31] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/cd/f2/119d3b22ee7422414bab1926988ccc75940fc514034353720e6793c1c60d/localstack_core-3.4.1.dev20240521052246.tar.gz
+[2024-05-21 07:33:31] INFO root fetch - processPackages [airbyte-source-captain-data]: Downloading https://files.pythonhosted.org/packages/21/ae/128f69d52ddffcf3bff868ae63741272fbe896d493304afdec70ffa56ae7/airbyte_source_captain_data-0.1.1.tar.gz
+[2024-05-21 07:33:31] INFO root fetch - processPackages [PyRHEED]: executing diffoscope
+[2024-05-21 07:33:31] INFO root fetch - processPackages [PyRHEED]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrheed-1.0.8rc0.tar.gz tmp/pyrheed-1.0.9.tar.gz --markdown 20240521/P/PyRHEED/1.0.8rc0-1.0.9/README.md --exclude *.pyd
+[2024-05-21 07:33:32] INFO root fetch - processPackages [airbyte-source-captain-data]: executing diffoscope
+[2024-05-21 07:33:32] INFO root fetch - processPackages [airbyte-source-captain-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-source-captain-data-0.1.0.tar.gz tmp/airbyte_source_captain_data-0.1.1.tar.gz --markdown 20240521/a/airbyte-source-captain-data/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-21 07:33:32] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/a7/3f/66c8be789d48a7d7f23607da99d33c1b31ce0d268d8b319995a64b78e404/tflite_runtime_nightly-2.17.0.dev20240520-cp39-cp39-manylinux_2_34_armv7l.whl
+[2024-05-21 07:33:32] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2024-05-21 07:33:32] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack_core-3.4.1.dev20240520160636.tar.gz tmp/localstack_core-3.4.1.dev20240521052246.tar.gz --markdown 20240521/l/localstack-core/3.4.1.dev20240520160636-3.4.1.dev20240521052246/README.md --exclude *.pyd
+[2024-05-21 07:33:32] INFO root fetch - processPackages [PyRHEED]: Remove: archive file [/home/abi/fetcher/tmp/pyrheed-1.0.8rc0.tar.gz]
+[2024-05-21 07:33:32] INFO root fetch - processPackages [PyRHEED]: Remove: archive file [/home/abi/fetcher/tmp/pyrheed-1.0.9.tar.gz]
+[2024-05-21 07:33:32] INFO root fetch - main [MainThread]: End processing [PyRHEED]: success
+[2024-05-21 07:33:32] INFO root fetch - processPackages [airbyte-source-captain-data]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-source-captain-data-0.1.0.tar.gz]
+[2024-05-21 07:33:32] INFO root fetch - processPackages [airbyte-source-captain-data]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_captain_data-0.1.1.tar.gz]
+[2024-05-21 07:33:32] INFO root fetch - main [MainThread]: End processing [airbyte-source-captain-data]: success
+[2024-05-21 07:33:34] INFO root fetch - processPackages [tflite-runtime-nightly]: executing diffoscope
+[2024-05-21 07:33:34] INFO root fetch - processPackages [tflite-runtime-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite_runtime_nightly-2.17.0.dev20240519-cp39-cp39-manylinux_2_34_armv7l.whl.zip tmp/tflite_runtime_nightly-2.17.0.dev20240520-cp39-cp39-manylinux_2_34_armv7l.whl.zip --markdown 20240521/t/tflite-runtime-nightly/2.17.0.dev20240519-2.17.0.dev20240520/README.md --exclude *.pyd
+[2024-05-21 07:33:34] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.17.0.dev20240519-cp39-cp39-manylinux_2_34_armv7l.whl.zip]
+[2024-05-21 07:33:34] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.17.0.dev20240520-cp39-cp39-manylinux_2_34_armv7l.whl.zip]
+[2024-05-21 07:33:34] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
+[2024-05-21 07:33:35] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240520160636.tar.gz]
+[2024-05-21 07:33:35] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240521052246.tar.gz]
+[2024-05-21 07:33:35] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2024-05-21 07:33:35] INFO root fetch - main [MainThread]: Store serial: [23301449]
