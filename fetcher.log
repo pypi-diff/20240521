@@ -12661,3 +12661,18 @@
 [2024-05-21 07:55:34] INFO root fetch - processPackages [BrickAgx]: Remove: archive file [/home/abi/fetcher/tmp/brickagx-0.8.1-cp39-cp39-win_amd64.whl.zip]
 [2024-05-21 07:55:34] INFO root fetch - main [MainThread]: End processing [BrickAgx]: success
 [2024-05-21 07:55:34] INFO root fetch - main [MainThread]: Store serial: [23301707]
+[2024-05-21 07:57:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23301707]
+[2024-05-21 07:57:43] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-21 07:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: paddleocr-onnx
+[2024-05-21 07:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-product-secondary-unit
+[2024-05-21 07:57:44] INFO root fetch - processPackages [odoo14-addon-product-secondary-unit]: New version: [14.0.1.0.5.dev8] Old Version: [14.0.1.0.5.dev7]
+[2024-05-21 07:57:44] WARNING root fetch - processPackages [paddleocr-onnx]: Skipping, unable to determine old version
+[2024-05-21 07:57:44] INFO root fetch - main [MainThread]: End processing [paddleocr-onnx] error
+[2024-05-21 07:57:44] INFO root fetch - processPackages [odoo14-addon-product-secondary-unit]: Downloading https://files.pythonhosted.org/packages/74/f4/e34b2a779c1e4bdb37eb2b3aac236919ae0f2aa71d2add8e662827f4b0dd/odoo14_addon_product_secondary_unit-14.0.1.0.5.dev7-py3-none-any.whl
+[2024-05-21 07:57:44] INFO root fetch - processPackages [odoo14-addon-product-secondary-unit]: Downloading https://files.pythonhosted.org/packages/91/88/fcb53e2242b91ffd0d1e4a1e699129a4646c3be45f45d927372d25ebebad/odoo14_addon_product_secondary_unit-14.0.1.0.5.dev8-py3-none-any.whl
+[2024-05-21 07:57:44] INFO root fetch - processPackages [odoo14-addon-product-secondary-unit]: executing diffoscope
+[2024-05-21 07:57:44] INFO root fetch - processPackages [odoo14-addon-product-secondary-unit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_product_secondary_unit-14.0.1.0.5.dev7-py3-none-any.whl.zip tmp/odoo14_addon_product_secondary_unit-14.0.1.0.5.dev8-py3-none-any.whl.zip --markdown 20240521/o/odoo14-addon-product-secondary-unit/14.0.1.0.5.dev7-14.0.1.0.5.dev8/README.md --exclude *.pyd
+[2024-05-21 07:57:45] INFO root fetch - processPackages [odoo14-addon-product-secondary-unit]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_product_secondary_unit-14.0.1.0.5.dev7-py3-none-any.whl.zip]
+[2024-05-21 07:57:45] INFO root fetch - processPackages [odoo14-addon-product-secondary-unit]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_product_secondary_unit-14.0.1.0.5.dev8-py3-none-any.whl.zip]
+[2024-05-21 07:57:45] INFO root fetch - main [MainThread]: End processing [odoo14-addon-product-secondary-unit]: success
+[2024-05-21 07:57:45] INFO root fetch - main [MainThread]: Store serial: [23301714]
