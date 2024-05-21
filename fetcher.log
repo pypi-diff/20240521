@@ -17794,3 +17794,78 @@
 [2024-05-21 11:06:36] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_btripopen20220520-3.1.0.tar.gz]
 [2024-05-21 11:06:36] INFO root fetch - main [MainThread]: End processing [alibabacloud-btripopen20220520]: success
 [2024-05-21 11:06:36] INFO root fetch - main [MainThread]: Store serial: [23303593]
+[2024-05-21 11:08:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23303593]
+[2024-05-21 11:08:49] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-21 11:08:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datasiphon
+[2024-05-21 11:08:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: outpostcli
+[2024-05-21 11:08:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: prophecy-build-tool
+[2024-05-21 11:08:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ccxt-idax
+[2024-05-21 11:08:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flatpack
+[2024-05-21 11:08:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mg-pso-gui
+[2024-05-21 11:08:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hyjinx
+[2024-05-21 11:08:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mlrun-pipelines-kfp-v1-8-experiment
+[2024-05-21 11:08:49] INFO root fetch - processPackages [datasiphon]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-05-21 11:08:49] INFO root fetch - processPackages [mlrun-pipelines-kfp-v1-8-experiment]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-21 11:08:49] INFO root fetch - processPackages [outpostcli]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-21 11:08:49] INFO root fetch - processPackages [mg-pso-gui]: New version: [0.1.9] Old Version: [0.1.89]
+[2024-05-21 11:08:49] INFO root fetch - processPackages [flatpack]: New version: [3.4.99] Old Version: [3.4.98]
+[2024-05-21 11:08:49] INFO root fetch - processPackages [hyjinx]: New version: [0.29.0] Old Version: [0.28.9]
+[2024-05-21 11:08:49] INFO root fetch - processPackages [ccxt-idax]: New version: [4.3.23] Old Version: [4.3.22]
+[2024-05-21 11:08:49] INFO root fetch - processPackages [outpostcli]: Downloading https://files.pythonhosted.org/packages/7e/e2/114a39eac567286d0418645c0ea24089c48fcbe4cccec6c79191a5cefccf/outpostcli-0.0.8.tar.gz
+[2024-05-21 11:08:49] INFO root fetch - processPackages [prophecy-build-tool]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-05-21 11:08:49] INFO root fetch - processPackages [datasiphon]: Downloading https://files.pythonhosted.org/packages/48/60/f5be98f8c154d5d0f7c567c8f1ddd73178edec6560f7fb13893fb6552de2/datasiphon-0.2.4.tar.gz
+[2024-05-21 11:08:49] INFO root fetch - processPackages [mlrun-pipelines-kfp-v1-8-experiment]: Downloading https://files.pythonhosted.org/packages/a1/6e/1dacaae3914f126a514296a07ba506d6e9420086eea087f39ee93a15c8b0/mlrun_pipelines_kfp_v1_8_experiment-0.2.2.tar.gz
+[2024-05-21 11:08:49] INFO root fetch - processPackages [prophecy-build-tool]: Downloading https://files.pythonhosted.org/packages/31/f0/ed4aa0a70a6fd06211faed01254c9ddbfa86f70a2dd8665718c9fde9a3f6/prophecy-build-tool-1.2.8.tar.gz
+[2024-05-21 11:08:49] INFO root fetch - processPackages [mg-pso-gui]: Downloading https://files.pythonhosted.org/packages/8f/f7/f2ec11aaa5fea55a7d14e4d72bcc51ca69ddf8e76c95e120d706682744a4/mg-pso-gui-0.1.89.tar.gz
+[2024-05-21 11:08:49] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/cb/39/adcd388eba8071e3318b3a2224e5c96179761da6dbd7cfa96b20311e810f/flatpack-3.4.98.tar.gz
+[2024-05-21 11:08:49] INFO root fetch - processPackages [hyjinx]: Downloading https://files.pythonhosted.org/packages/bc/20/3bbc29f72f1b59cfe3f831ef05d6a0cf629676f050ac2fef0d527b7ae046/hyjinx-0.28.9.tar.gz
+[2024-05-21 11:08:49] INFO root fetch - processPackages [outpostcli]: Downloading https://files.pythonhosted.org/packages/df/ab/82b6853cec170d33c2aff19e3a298b0bf56f7ba1b885f6f7d42a10ae43dc/outpostcli-0.0.9.tar.gz
+[2024-05-21 11:08:49] INFO root fetch - processPackages [ccxt-idax]: Downloading https://files.pythonhosted.org/packages/f7/36/916c7eeb241cfc432499ab5bffe6bfe9f7dc39fa0b6fa9dd8b1a6ca7b4f3/ccxt-idax-4.3.22.tar.gz
+[2024-05-21 11:08:49] INFO root fetch - processPackages [mlrun-pipelines-kfp-v1-8-experiment]: Downloading https://files.pythonhosted.org/packages/c9/bd/a2b83d450f41527ba0208f41743e3eaa0770528e924584feb822f646ff4b/mlrun_pipelines_kfp_v1_8_experiment-0.2.3.tar.gz
+[2024-05-21 11:08:49] INFO root fetch - processPackages [outpostcli]: executing diffoscope
+[2024-05-21 11:08:49] INFO root fetch - processPackages [outpostcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/outpostcli-0.0.8.tar.gz tmp/outpostcli-0.0.9.tar.gz --markdown 20240521/o/outpostcli/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-21 11:08:49] INFO root fetch - processPackages [mlrun-pipelines-kfp-v1-8-experiment]: executing diffoscope
+[2024-05-21 11:08:49] INFO root fetch - processPackages [mlrun-pipelines-kfp-v1-8-experiment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlrun_pipelines_kfp_v1_8_experiment-0.2.2.tar.gz tmp/mlrun_pipelines_kfp_v1_8_experiment-0.2.3.tar.gz --markdown 20240521/m/mlrun-pipelines-kfp-v1-8-experiment/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-21 11:08:49] INFO root fetch - processPackages [datasiphon]: Downloading https://files.pythonhosted.org/packages/9f/72/228edfa354914d15c3d60e2440e0dc2857c693d1e6b2391ba369eeef7485/datasiphon-0.2.5.tar.gz
+[2024-05-21 11:08:49] INFO root fetch - processPackages [datasiphon]: executing diffoscope
+[2024-05-21 11:08:49] INFO root fetch - processPackages [datasiphon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasiphon-0.2.4.tar.gz tmp/datasiphon-0.2.5.tar.gz --markdown 20240521/d/datasiphon/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-05-21 11:08:50] INFO root fetch - processPackages [hyjinx]: Downloading https://files.pythonhosted.org/packages/45/d2/f36d46419bc7399b2b2d78ca94941d2a0f9e79b06b268409443483172387/hyjinx-0.29.0.tar.gz
+[2024-05-21 11:08:50] INFO root fetch - processPackages [prophecy-build-tool]: Downloading https://files.pythonhosted.org/packages/6e/8b/758d03240b291c40dbffda699fd64edadca124a085daf5f71250b010298b/prophecy-build-tool-1.2.9.tar.gz
+[2024-05-21 11:08:50] INFO root fetch - processPackages [mg-pso-gui]: Downloading https://files.pythonhosted.org/packages/29/bb/6e298a4662149de339e056d2e3fd47d836e1cc07f109b6309c4e0f4c97b3/mg-pso-gui-0.1.9.tar.gz
+[2024-05-21 11:08:50] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/89/20/a694f72cbfa96253cdb38b9f65c7cfd5f3a4fb145d2fe2483132b80dafd4/flatpack-3.4.99.tar.gz
+[2024-05-21 11:08:50] INFO root fetch - processPackages [hyjinx]: executing diffoscope
+[2024-05-21 11:08:50] INFO root fetch - processPackages [hyjinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyjinx-0.28.9.tar.gz tmp/hyjinx-0.29.0.tar.gz --markdown 20240521/h/hyjinx/0.28.9-0.29.0/README.md --exclude *.pyd
+[2024-05-21 11:08:50] INFO root fetch - processPackages [prophecy-build-tool]: executing diffoscope
+[2024-05-21 11:08:50] INFO root fetch - processPackages [prophecy-build-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prophecy-build-tool-1.2.8.tar.gz tmp/prophecy-build-tool-1.2.9.tar.gz --markdown 20240521/p/prophecy-build-tool/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-05-21 11:08:50] INFO root fetch - processPackages [flatpack]: executing diffoscope
+[2024-05-21 11:08:50] INFO root fetch - processPackages [flatpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flatpack-3.4.98.tar.gz tmp/flatpack-3.4.99.tar.gz --markdown 20240521/f/flatpack/3.4.98-3.4.99/README.md --exclude *.pyd
+[2024-05-21 11:08:50] INFO root fetch - processPackages [mg-pso-gui]: executing diffoscope
+[2024-05-21 11:08:50] INFO root fetch - processPackages [mg-pso-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mg-pso-gui-0.1.89.tar.gz tmp/mg-pso-gui-0.1.9.tar.gz --markdown 20240521/m/mg-pso-gui/0.1.89-0.1.9/README.md --exclude *.pyd
+[2024-05-21 11:08:50] INFO root fetch - processPackages [ccxt-idax]: Downloading https://files.pythonhosted.org/packages/e5/a3/acabe5f0850bcbac2aef356a9f0de4c25b0ea416ee1daa5ceabfbc2107b9/ccxt-idax-4.3.23.tar.gz
+[2024-05-21 11:08:50] INFO root fetch - processPackages [ccxt-idax]: executing diffoscope
+[2024-05-21 11:08:50] INFO root fetch - processPackages [ccxt-idax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-idax-4.3.22.tar.gz tmp/ccxt-idax-4.3.23.tar.gz --markdown 20240521/c/ccxt-idax/4.3.22-4.3.23/README.md --exclude *.pyd
+[2024-05-21 11:08:50] INFO root fetch - processPackages [outpostcli]: Remove: archive file [/home/abi/fetcher/tmp/outpostcli-0.0.8.tar.gz]
+[2024-05-21 11:08:51] INFO root fetch - processPackages [outpostcli]: Remove: archive file [/home/abi/fetcher/tmp/outpostcli-0.0.9.tar.gz]
+[2024-05-21 11:08:51] INFO root fetch - main [MainThread]: End processing [outpostcli]: success
+[2024-05-21 11:08:51] INFO root fetch - processPackages [mlrun-pipelines-kfp-v1-8-experiment]: Remove: archive file [/home/abi/fetcher/tmp/mlrun_pipelines_kfp_v1_8_experiment-0.2.2.tar.gz]
+[2024-05-21 11:08:51] INFO root fetch - processPackages [mlrun-pipelines-kfp-v1-8-experiment]: Remove: archive file [/home/abi/fetcher/tmp/mlrun_pipelines_kfp_v1_8_experiment-0.2.3.tar.gz]
+[2024-05-21 11:08:51] INFO root fetch - main [MainThread]: End processing [mlrun-pipelines-kfp-v1-8-experiment]: success
+[2024-05-21 11:08:51] INFO root fetch - processPackages [datasiphon]: Remove: archive file [/home/abi/fetcher/tmp/datasiphon-0.2.4.tar.gz]
+[2024-05-21 11:08:51] INFO root fetch - processPackages [datasiphon]: Remove: archive file [/home/abi/fetcher/tmp/datasiphon-0.2.5.tar.gz]
+[2024-05-21 11:08:51] INFO root fetch - main [MainThread]: End processing [datasiphon]: success
+[2024-05-21 11:08:51] INFO root fetch - processPackages [hyjinx]: Remove: archive file [/home/abi/fetcher/tmp/hyjinx-0.28.9.tar.gz]
+[2024-05-21 11:08:51] INFO root fetch - processPackages [hyjinx]: Remove: archive file [/home/abi/fetcher/tmp/hyjinx-0.29.0.tar.gz]
+[2024-05-21 11:08:51] INFO root fetch - main [MainThread]: End processing [hyjinx]: success
+[2024-05-21 11:08:51] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.98.tar.gz]
+[2024-05-21 11:08:51] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.99.tar.gz]
+[2024-05-21 11:08:51] INFO root fetch - main [MainThread]: End processing [flatpack]: success
+[2024-05-21 11:08:51] INFO root fetch - processPackages [mg-pso-gui]: Remove: archive file [/home/abi/fetcher/tmp/mg-pso-gui-0.1.89.tar.gz]
+[2024-05-21 11:08:51] INFO root fetch - processPackages [mg-pso-gui]: Remove: archive file [/home/abi/fetcher/tmp/mg-pso-gui-0.1.9.tar.gz]
+[2024-05-21 11:08:51] INFO root fetch - main [MainThread]: End processing [mg-pso-gui]: success
+[2024-05-21 11:08:51] INFO root fetch - processPackages [prophecy-build-tool]: Remove: archive file [/home/abi/fetcher/tmp/prophecy-build-tool-1.2.8.tar.gz]
+[2024-05-21 11:08:51] INFO root fetch - processPackages [prophecy-build-tool]: Remove: archive file [/home/abi/fetcher/tmp/prophecy-build-tool-1.2.9.tar.gz]
+[2024-05-21 11:08:51] INFO root fetch - main [MainThread]: End processing [prophecy-build-tool]: success
+[2024-05-21 11:08:54] INFO root fetch - processPackages [ccxt-idax]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-idax-4.3.22.tar.gz]
+[2024-05-21 11:08:54] INFO root fetch - processPackages [ccxt-idax]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-idax-4.3.23.tar.gz]
+[2024-05-21 11:08:54] INFO root fetch - main [MainThread]: End processing [ccxt-idax]: success
+[2024-05-21 11:08:54] INFO root fetch - main [MainThread]: Store serial: [23303618]
