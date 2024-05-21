@@ -3333,3 +3333,42 @@
 [2024-05-21 02:47:08] INFO root fetch - processPackages [Geode-Implicit]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Implicit-2.8.7rc1-cp39-cp39-win_amd64.whl.zip]
 [2024-05-21 02:47:08] INFO root fetch - main [MainThread]: End processing [Geode-Implicit]: success
 [2024-05-21 02:47:08] INFO root fetch - main [MainThread]: Store serial: [23298125]
+[2024-05-21 02:49:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23298125]
+[2024-05-21 02:49:17] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-21 02:49:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: moteus
+[2024-05-21 02:49:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: moteus-gui
+[2024-05-21 02:49:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mybox
+[2024-05-21 02:49:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vision-agent
+[2024-05-21 02:49:17] INFO root fetch - processPackages [vision-agent]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-21 02:49:17] INFO root fetch - processPackages [mybox]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-21 02:49:17] INFO root fetch - processPackages [vision-agent]: Downloading https://files.pythonhosted.org/packages/0c/95/4cc93c0448acda0068720c68eff075929f25ab799564de37eef47b7b2c10/vision_agent-0.2.8.tar.gz
+[2024-05-21 02:49:17] INFO root fetch - processPackages [mybox]: Downloading https://files.pythonhosted.org/packages/13/f6/202f25da3129171e5c2cc6ccf7e2437ee5d65fafeeb9af158596ac60f7a8/mybox-2.0.8.tar.gz
+[2024-05-21 02:49:17] INFO root fetch - processPackages [moteus]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-21 02:49:17] INFO root fetch - processPackages [moteus-gui]: New version: [0.3.70] Old Version: [0.3.69]
+[2024-05-21 02:49:18] INFO root fetch - processPackages [mybox]: Downloading https://files.pythonhosted.org/packages/e7/74/17fd92b174ff8b20616c55e75350c20cfbb4a1b6a048c7c9f4abe75698ae/mybox-2.0.9.tar.gz
+[2024-05-21 02:49:18] INFO root fetch - processPackages [moteus-gui]: Downloading https://files.pythonhosted.org/packages/f0/fe/3def8859f9096d9316a2663c7432514e30f1d958f61e138bee1049e6dcdd/moteus_gui-0.3.69-py3-none-any.whl
+[2024-05-21 02:49:18] INFO root fetch - processPackages [moteus]: Downloading https://files.pythonhosted.org/packages/62/f9/078947536b3f3868ab5e18453c4593fb9c6bb31cb7b023fd8ed17fa1cf8c/moteus-0.3.8.tar.gz
+[2024-05-21 02:49:18] INFO root fetch - processPackages [vision-agent]: Downloading https://files.pythonhosted.org/packages/72/9f/90c2e26c1f92cadcd8c25d12307c9505ef1d189c73981f02b32432391cae/vision_agent-0.2.9.tar.gz
+[2024-05-21 02:49:18] INFO root fetch - processPackages [mybox]: executing diffoscope
+[2024-05-21 02:49:18] INFO root fetch - processPackages [mybox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mybox-2.0.8.tar.gz tmp/mybox-2.0.9.tar.gz --markdown 20240521/m/mybox/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-21 02:49:18] INFO root fetch - processPackages [moteus-gui]: Downloading https://files.pythonhosted.org/packages/9e/8e/46ddb1c733543626bd4e5814ee36a344e97adb543219339f2a62f88e6ee8/moteus_gui-0.3.70-py3-none-any.whl
+[2024-05-21 02:49:18] INFO root fetch - processPackages [vision-agent]: executing diffoscope
+[2024-05-21 02:49:18] INFO root fetch - processPackages [vision-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vision_agent-0.2.8.tar.gz tmp/vision_agent-0.2.9.tar.gz --markdown 20240521/v/vision-agent/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-21 02:49:18] INFO root fetch - processPackages [moteus-gui]: executing diffoscope
+[2024-05-21 02:49:18] INFO root fetch - processPackages [moteus-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moteus_gui-0.3.69-py3-none-any.whl.zip tmp/moteus_gui-0.3.70-py3-none-any.whl.zip --markdown 20240521/m/moteus-gui/0.3.69-0.3.70/README.md --exclude *.pyd
+[2024-05-21 02:49:18] INFO root fetch - processPackages [moteus]: Downloading https://files.pythonhosted.org/packages/78/b3/d213a086454e82f9c5f13f3fb1c01b68749bb35298812108dc75ada6083c/moteus-0.3.9.tar.gz
+[2024-05-21 02:49:18] INFO root fetch - processPackages [moteus]: executing diffoscope
+[2024-05-21 02:49:18] INFO root fetch - processPackages [moteus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moteus-0.3.8.tar.gz tmp/moteus-0.3.9.tar.gz --markdown 20240521/m/moteus/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-21 02:49:18] INFO root fetch - processPackages [mybox]: Remove: archive file [/home/abi/fetcher/tmp/mybox-2.0.8.tar.gz]
+[2024-05-21 02:49:18] INFO root fetch - processPackages [mybox]: Remove: archive file [/home/abi/fetcher/tmp/mybox-2.0.9.tar.gz]
+[2024-05-21 02:49:18] INFO root fetch - main [MainThread]: End processing [mybox]: success
+[2024-05-21 02:49:18] INFO root fetch - processPackages [moteus-gui]: Remove: archive file [/home/abi/fetcher/tmp/moteus_gui-0.3.69-py3-none-any.whl.zip]
+[2024-05-21 02:49:18] INFO root fetch - processPackages [moteus-gui]: Remove: archive file [/home/abi/fetcher/tmp/moteus_gui-0.3.70-py3-none-any.whl.zip]
+[2024-05-21 02:49:18] INFO root fetch - main [MainThread]: End processing [moteus-gui]: success
+[2024-05-21 02:49:19] INFO root fetch - processPackages [vision-agent]: Remove: archive file [/home/abi/fetcher/tmp/vision_agent-0.2.8.tar.gz]
+[2024-05-21 02:49:19] INFO root fetch - processPackages [vision-agent]: Remove: archive file [/home/abi/fetcher/tmp/vision_agent-0.2.9.tar.gz]
+[2024-05-21 02:49:19] INFO root fetch - main [MainThread]: End processing [vision-agent]: success
+[2024-05-21 02:49:19] INFO root fetch - processPackages [moteus]: Remove: archive file [/home/abi/fetcher/tmp/moteus-0.3.8.tar.gz]
+[2024-05-21 02:49:19] INFO root fetch - processPackages [moteus]: Remove: archive file [/home/abi/fetcher/tmp/moteus-0.3.9.tar.gz]
+[2024-05-21 02:49:19] INFO root fetch - main [MainThread]: End processing [moteus]: success
+[2024-05-21 02:49:19] INFO root fetch - main [MainThread]: Store serial: [23298142]
