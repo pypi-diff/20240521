@@ -21062,3 +21062,57 @@
 [2024-05-21 12:52:07] INFO root fetch - processPackages [takeoff-config]: Remove: archive file [/home/abi/fetcher/tmp/takeoff_config-0.5.3-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip]
 [2024-05-21 12:52:07] INFO root fetch - main [MainThread]: End processing [takeoff-config]: success
 [2024-05-21 12:52:07] INFO root fetch - main [MainThread]: Store serial: [23304994]
+[2024-05-21 12:54:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23304994]
+[2024-05-21 12:54:16] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-21 12:54:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: live-cells-py
+[2024-05-21 12:54:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: predict-v2-mk
+[2024-05-21 12:54:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nkululeko
+[2024-05-21 12:54:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pandas-src-cleaning
+[2024-05-21 12:54:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: terobot
+[2024-05-21 12:54:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: netbox-device-support-plugin
+[2024-05-21 12:54:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: moveread-dfy
+[2024-05-21 12:54:16] INFO root fetch - processPackages [moveread-dfy]: New version: [0.1.5] Old Version: [0.1.3]
+[2024-05-21 12:54:16] INFO root fetch - processPackages [terobot]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-21 12:54:17] WARNING root fetch - processPackages [pandas-src-cleaning]: Skipping, unable to determine old version
+[2024-05-21 12:54:17] INFO root fetch - main [MainThread]: End processing [pandas-src-cleaning] error
+[2024-05-21 12:54:17] INFO root fetch - processPackages [moveread-dfy]: Downloading https://files.pythonhosted.org/packages/9e/f2/e3eb481df6b4281db505ce0788c22eb508cb4681546ecf2869ffb4dc334f/moveread_dfy-0.1.3.tar.gz
+[2024-05-21 12:54:17] INFO root fetch - processPackages [netbox-device-support-plugin]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-21 12:54:17] WARNING root fetch - processPackages [predict-v2-mk]: Skipping, unable to determine old version
+[2024-05-21 12:54:17] INFO root fetch - main [MainThread]: End processing [predict-v2-mk] error
+[2024-05-21 12:54:17] INFO root fetch - processPackages [live-cells-py]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-21 12:54:17] INFO root fetch - processPackages [nkululeko]: New version: [0.85.2] Old Version: [0.85.1]
+[2024-05-21 12:54:17] INFO root fetch - processPackages [terobot]: Downloading https://files.pythonhosted.org/packages/56/fd/913fe06690bc927518aa60893eada3c59bef5ad025b04aeb34cef4a3438b/terobot-0.1.0-py3-none-any.whl
+[2024-05-21 12:54:17] INFO root fetch - processPackages [live-cells-py]: Downloading https://files.pythonhosted.org/packages/12/e5/cd75849899db2513d9251c4c1f0bd33e259605a9496221acc91e20a42e66/live-cells-py-0.1.1.tar.gz
+[2024-05-21 12:54:17] INFO root fetch - processPackages [moveread-dfy]: Downloading https://files.pythonhosted.org/packages/ca/84/1e56f992237ec33341a04554e7061e8330e26d78f538693b531f9b9e120d/moveread_dfy-0.1.5.tar.gz
+[2024-05-21 12:54:17] INFO root fetch - processPackages [netbox-device-support-plugin]: Downloading https://files.pythonhosted.org/packages/e1/01/0d131066075737281f608ea009283c0962197b383af82d6b134ca30e9cae/netbox_device_support_plugin-1.0.1.tar.gz
+[2024-05-21 12:54:17] INFO root fetch - processPackages [nkululeko]: Downloading https://files.pythonhosted.org/packages/61/8a/0f797e86ed9b3baad2a89e1c284472b1b0f2966e1ebb9e718d6dba3ea3f5/nkululeko-0.85.1.tar.gz
+[2024-05-21 12:54:17] INFO root fetch - processPackages [moveread-dfy]: executing diffoscope
+[2024-05-21 12:54:17] INFO root fetch - processPackages [moveread-dfy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moveread_dfy-0.1.3.tar.gz tmp/moveread_dfy-0.1.5.tar.gz --markdown 20240521/m/moveread-dfy/0.1.3-0.1.5/README.md --exclude *.pyd
+[2024-05-21 12:54:17] INFO root fetch - processPackages [live-cells-py]: Downloading https://files.pythonhosted.org/packages/ac/53/7dceacbf657bdaca437636d073af367e1b4d479483124e3a1e648e2bc6cf/live-cells-py-0.1.2.tar.gz
+[2024-05-21 12:54:17] INFO root fetch - processPackages [terobot]: Downloading https://files.pythonhosted.org/packages/d6/5b/c95ae82bd3851c69b19f40121707e03a99623970bc115223f8286b3e38a8/terobot-0.1.1.tar.gz
+[2024-05-21 12:54:17] INFO root fetch - processPackages [terobot]: executing diffoscope
+[2024-05-21 12:54:17] INFO root fetch - processPackages [terobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terobot-0.1.0-py3-none-any.whl.zip tmp/terobot-0.1.1.tar.gz --markdown 20240521/t/terobot/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-21 12:54:17] INFO root fetch - processPackages [nkululeko]: Downloading https://files.pythonhosted.org/packages/2b/08/00c93fbb147724923c954e7a5071b8cb6cedfabc4fca8171d0294781daed/nkululeko-0.85.2.tar.gz
+[2024-05-21 12:54:17] INFO root fetch - processPackages [live-cells-py]: executing diffoscope
+[2024-05-21 12:54:17] INFO root fetch - processPackages [live-cells-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/live-cells-py-0.1.1.tar.gz tmp/live-cells-py-0.1.2.tar.gz --markdown 20240521/l/live-cells-py/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-21 12:54:17] INFO root fetch - processPackages [netbox-device-support-plugin]: Downloading https://files.pythonhosted.org/packages/34/97/5b9f15713c36074d053eb8ceb03c5cf95b651b2e7a386a99b60dbf6b87bf/netbox_device_support_plugin-1.0.2.tar.gz
+[2024-05-21 12:54:17] INFO root fetch - processPackages [nkululeko]: executing diffoscope
+[2024-05-21 12:54:17] INFO root fetch - processPackages [nkululeko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nkululeko-0.85.1.tar.gz tmp/nkululeko-0.85.2.tar.gz --markdown 20240521/n/nkululeko/0.85.1-0.85.2/README.md --exclude *.pyd
+[2024-05-21 12:54:17] INFO root fetch - processPackages [netbox-device-support-plugin]: executing diffoscope
+[2024-05-21 12:54:17] INFO root fetch - processPackages [netbox-device-support-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox_device_support_plugin-1.0.1.tar.gz tmp/netbox_device_support_plugin-1.0.2.tar.gz --markdown 20240521/n/netbox-device-support-plugin/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-21 12:54:18] INFO root fetch - processPackages [moveread-dfy]: Remove: archive file [/home/abi/fetcher/tmp/moveread_dfy-0.1.3.tar.gz]
+[2024-05-21 12:54:18] INFO root fetch - processPackages [moveread-dfy]: Remove: archive file [/home/abi/fetcher/tmp/moveread_dfy-0.1.5.tar.gz]
+[2024-05-21 12:54:18] INFO root fetch - main [MainThread]: End processing [moveread-dfy]: success
+[2024-05-21 12:54:18] INFO root fetch - processPackages [terobot]: Remove: archive file [/home/abi/fetcher/tmp/terobot-0.1.0-py3-none-any.whl.zip]
+[2024-05-21 12:54:18] INFO root fetch - processPackages [terobot]: Remove: archive file [/home/abi/fetcher/tmp/terobot-0.1.1.tar.gz]
+[2024-05-21 12:54:18] INFO root fetch - main [MainThread]: End processing [terobot]: success
+[2024-05-21 12:54:18] INFO root fetch - processPackages [live-cells-py]: Remove: archive file [/home/abi/fetcher/tmp/live-cells-py-0.1.1.tar.gz]
+[2024-05-21 12:54:18] INFO root fetch - processPackages [live-cells-py]: Remove: archive file [/home/abi/fetcher/tmp/live-cells-py-0.1.2.tar.gz]
+[2024-05-21 12:54:18] INFO root fetch - main [MainThread]: End processing [live-cells-py]: success
+[2024-05-21 12:54:18] INFO root fetch - processPackages [netbox-device-support-plugin]: Remove: archive file [/home/abi/fetcher/tmp/netbox_device_support_plugin-1.0.1.tar.gz]
+[2024-05-21 12:54:18] INFO root fetch - processPackages [netbox-device-support-plugin]: Remove: archive file [/home/abi/fetcher/tmp/netbox_device_support_plugin-1.0.2.tar.gz]
+[2024-05-21 12:54:18] INFO root fetch - main [MainThread]: End processing [netbox-device-support-plugin]: success
+[2024-05-21 12:54:18] INFO root fetch - processPackages [nkululeko]: Remove: archive file [/home/abi/fetcher/tmp/nkululeko-0.85.1.tar.gz]
+[2024-05-21 12:54:18] INFO root fetch - processPackages [nkululeko]: Remove: archive file [/home/abi/fetcher/tmp/nkululeko-0.85.2.tar.gz]
+[2024-05-21 12:54:18] INFO root fetch - main [MainThread]: End processing [nkululeko]: success
+[2024-05-21 12:54:18] INFO root fetch - main [MainThread]: Store serial: [23305083]
