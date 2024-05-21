@@ -21352,3 +21352,39 @@
 [2024-05-21 13:05:24] INFO root fetch - processPackages [fisspy]: Remove: archive file [/home/abi/fetcher/tmp/fisspy-1.1.2.tar.gz]
 [2024-05-21 13:05:24] INFO root fetch - main [MainThread]: End processing [fisspy]: success
 [2024-05-21 13:05:24] INFO root fetch - main [MainThread]: Store serial: [23305170]
+[2024-05-21 13:07:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23305170]
+[2024-05-21 13:07:33] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-21 13:07:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: outpostcli
+[2024-05-21 13:07:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sipmessage
+[2024-05-21 13:07:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: uco
+[2024-05-21 13:07:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: octue-openfast
+[2024-05-21 13:07:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: geotexxx
+[2024-05-21 13:07:34] INFO root fetch - processPackages [outpostcli]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-21 13:07:34] WARNING root fetch - processPackages [octue-openfast]: Skipping, unable to determine old version
+[2024-05-21 13:07:34] INFO root fetch - processPackages [sipmessage]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-21 13:07:34] INFO root fetch - main [MainThread]: End processing [octue-openfast] error
+[2024-05-21 13:07:34] INFO root fetch - processPackages [outpostcli]: Downloading https://files.pythonhosted.org/packages/7e/e2/114a39eac567286d0418645c0ea24089c48fcbe4cccec6c79191a5cefccf/outpostcli-0.0.8.tar.gz
+[2024-05-21 13:07:34] WARNING root fetch - processPackages [uco]: Skipping, unable to determine old version
+[2024-05-21 13:07:34] INFO root fetch - main [MainThread]: End processing [uco] error
+[2024-05-21 13:07:34] INFO root fetch - processPackages [geotexxx]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-21 13:07:34] INFO root fetch - processPackages [sipmessage]: Downloading https://files.pythonhosted.org/packages/63/59/35f3bdcd08a0f7cc44448551039732668d68d6eff2d95a241d68efca8ae9/sipmessage-0.2.0.tar.gz
+[2024-05-21 13:07:34] INFO root fetch - processPackages [outpostcli]: Downloading https://files.pythonhosted.org/packages/df/ab/82b6853cec170d33c2aff19e3a298b0bf56f7ba1b885f6f7d42a10ae43dc/outpostcli-0.0.9.tar.gz
+[2024-05-21 13:07:34] INFO root fetch - processPackages [geotexxx]: Downloading https://files.pythonhosted.org/packages/79/28/33e31f28d8b8e4cf0be8f6b321c6ac55b43ad2b3c3da9e236b1c15e466d4/geotexxx-0.1.5.tar.gz
+[2024-05-21 13:07:34] INFO root fetch - processPackages [outpostcli]: executing diffoscope
+[2024-05-21 13:07:34] INFO root fetch - processPackages [outpostcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/outpostcli-0.0.8.tar.gz tmp/outpostcli-0.0.9.tar.gz --markdown 20240521/o/outpostcli/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-21 13:07:34] INFO root fetch - processPackages [sipmessage]: Downloading https://files.pythonhosted.org/packages/25/71/7cf92d6527c5956e4b82b989cb0b3356b29ef250e705b254827f5ddbec7a/sipmessage-0.2.1.tar.gz
+[2024-05-21 13:07:34] INFO root fetch - processPackages [sipmessage]: executing diffoscope
+[2024-05-21 13:07:34] INFO root fetch - processPackages [sipmessage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sipmessage-0.2.0.tar.gz tmp/sipmessage-0.2.1.tar.gz --markdown 20240521/s/sipmessage/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-21 13:07:34] INFO root fetch - processPackages [geotexxx]: Downloading https://files.pythonhosted.org/packages/1f/4b/0fcf2a4d4f7d68aaf2eebe5b15fd29aac6f5a971ed048d6df8a489c74caa/geotexxx-0.1.6.tar.gz
+[2024-05-21 13:07:34] INFO root fetch - processPackages [geotexxx]: executing diffoscope
+[2024-05-21 13:07:34] INFO root fetch - processPackages [geotexxx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geotexxx-0.1.5.tar.gz tmp/geotexxx-0.1.6.tar.gz --markdown 20240521/g/geotexxx/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-21 13:07:35] INFO root fetch - processPackages [outpostcli]: Remove: archive file [/home/abi/fetcher/tmp/outpostcli-0.0.8.tar.gz]
+[2024-05-21 13:07:35] INFO root fetch - processPackages [outpostcli]: Remove: archive file [/home/abi/fetcher/tmp/outpostcli-0.0.9.tar.gz]
+[2024-05-21 13:07:35] INFO root fetch - main [MainThread]: End processing [outpostcli]: success
+[2024-05-21 13:07:35] INFO root fetch - processPackages [sipmessage]: Remove: archive file [/home/abi/fetcher/tmp/sipmessage-0.2.0.tar.gz]
+[2024-05-21 13:07:35] INFO root fetch - processPackages [sipmessage]: Remove: archive file [/home/abi/fetcher/tmp/sipmessage-0.2.1.tar.gz]
+[2024-05-21 13:07:35] INFO root fetch - main [MainThread]: End processing [sipmessage]: success
+[2024-05-21 13:07:35] INFO root fetch - processPackages [geotexxx]: Remove: archive file [/home/abi/fetcher/tmp/geotexxx-0.1.5.tar.gz]
+[2024-05-21 13:07:35] INFO root fetch - processPackages [geotexxx]: Remove: archive file [/home/abi/fetcher/tmp/geotexxx-0.1.6.tar.gz]
+[2024-05-21 13:07:35] INFO root fetch - main [MainThread]: End processing [geotexxx]: success
+[2024-05-21 13:07:35] INFO root fetch - main [MainThread]: Store serial: [23305190]
