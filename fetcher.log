@@ -15669,3 +15669,74 @@
 [2024-05-21 09:53:38] INFO root fetch - main [MainThread]: End processing [vastdb]: success
 [2024-05-21 09:53:38] INFO root fetch - main [MainThread]: End processing [ab-test-advanced-toolkit]: success
 [2024-05-21 09:53:38] INFO root fetch - main [MainThread]: Store serial: [23302774]
+[2024-05-21 09:55:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23302774]
+[2024-05-21 09:55:47] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-21 09:55:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-stock-reserve
+[2024-05-21 09:55:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: starrydata
+[2024-05-21 09:55:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: easy-xedu
+[2024-05-21 09:55:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qontract-reconcile
+[2024-05-21 09:55:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot-plugin-osubot
+[2024-05-21 09:55:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vbpy
+[2024-05-21 09:55:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-aws-apigateway
+[2024-05-21 09:55:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bosing
+[2024-05-21 09:55:47] INFO root fetch - processPackages [bosing]: New version: [2.0.2] Old Version: [2.0.1]
+[2024-05-21 09:55:47] INFO root fetch - processPackages [easy-xedu]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-21 09:55:47] INFO root fetch - processPackages [odoo14-addon-stock-reserve]: New version: [14.0.2.1.2.dev6] Old Version: [14.0.2.1.2.dev5]
+[2024-05-21 09:55:47] INFO root fetch - processPackages [starrydata]: New version: [1.1.0] Old Version: [1.0.2]
+[2024-05-21 09:55:47] INFO root fetch - processPackages [pulumi-aws-apigateway]: New version: [2.5.0] Old Version: [2.4.0]
+[2024-05-21 09:55:47] INFO root fetch - processPackages [vbpy]: New version: [2.0.8] Old Version: [2.0.7]
+[2024-05-21 09:55:47] INFO root fetch - processPackages [nonebot-plugin-osubot]: New version: [6.2.0] Old Version: [6.1.2]
+[2024-05-21 09:55:48] INFO root fetch - processPackages [bosing]: Downloading https://files.pythonhosted.org/packages/2d/16/f5af81786f1a63f1460bd4f19933619779bd1658ad4c4654ea676240e431/bosing-2.0.1.tar.gz
+[2024-05-21 09:55:48] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-05-21 09:55:48] INFO root fetch - processPackages [easy-xedu]: Downloading https://files.pythonhosted.org/packages/8a/2b/f23575eb449be224167abaecf1823c188a76838ec695771400223ed98ed7/easy-xedu-0.1.8.tar.gz
+[2024-05-21 09:55:48] INFO root fetch - processPackages [odoo14-addon-stock-reserve]: Downloading https://files.pythonhosted.org/packages/3b/4f/78da169812b3b832ccef541bfc3d0c874fe99aa5cd4231d5cd59ccd3b9bc/odoo14_addon_stock_reserve-14.0.2.1.2.dev5-py3-none-any.whl
+[2024-05-21 09:55:48] INFO root fetch - processPackages [bosing]: Downloading https://files.pythonhosted.org/packages/44/e5/740a852dd7a513ffdec0b88ecd7bddd585bb17c0fdc2a0ea46b130447c18/bosing-2.0.2.tar.gz
+[2024-05-21 09:55:48] INFO root fetch - processPackages [pulumi-aws-apigateway]: Downloading https://files.pythonhosted.org/packages/b1/55/c98002185a0d03b49dd88e9e67710b3c2de63586742db14c09101df14468/pulumi_aws_apigateway-2.4.0.tar.gz
+[2024-05-21 09:55:48] INFO root fetch - processPackages [vbpy]: Downloading https://files.pythonhosted.org/packages/fc/ef/4c21f2ee9de2bbc5b87279269219cd092ed40a978b4193c4ff82164a8997/vbpy-2.0.7.tar.gz
+[2024-05-21 09:55:48] INFO root fetch - processPackages [starrydata]: Downloading https://files.pythonhosted.org/packages/43/08/e151178e69d817f5a69ac4841e59d13d7c03368c1bc73dd3e5d83b32e6a4/starrydata-1.0.2.tar.gz
+[2024-05-21 09:55:48] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-05-21 09:55:48] INFO root fetch - processPackages [nonebot-plugin-osubot]: Downloading https://files.pythonhosted.org/packages/3e/62/c3b664201bae43b225a5063d60accda2245ef50f5a7a18546ed831bc3c00/nonebot-plugin-osubot-6.1.2.tar.gz
+[2024-05-21 09:55:48] INFO root fetch - processPackages [bosing]: executing diffoscope
+[2024-05-21 09:55:48] INFO root fetch - processPackages [bosing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bosing-2.0.1.tar.gz tmp/bosing-2.0.2.tar.gz --markdown 20240521/b/bosing/2.0.1-2.0.2/README.md --exclude *.pyd
+[2024-05-21 09:55:48] WARNING root fetch - processPackages [nonebot-plugin-osubot]: Skipping package: exceeds size limit 29387531>=10485760
+[2024-05-21 09:55:48] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-osubot] error
+[2024-05-21 09:55:48] INFO root fetch - processPackages [easy-xedu]: Downloading https://files.pythonhosted.org/packages/9d/c7/fb870446c421e34bfbf3552d340a7d70713dee048560550e7b7e3ee97930/easy-xedu-0.1.9.tar.gz
+[2024-05-21 09:55:48] INFO root fetch - processPackages [starrydata]: Downloading https://files.pythonhosted.org/packages/f9/1c/79c08b9d0ef9288ec3adb3928156a3d4d063afd81813841824463e4787c5/starrydata-1.1.0.tar.gz
+[2024-05-21 09:55:48] INFO root fetch - processPackages [vbpy]: Downloading https://files.pythonhosted.org/packages/d2/37/edcea3d66a407bf13c71970ddca012f680efb95dd081351e1ac9cfce3fc8/vbpy-2.0.8.tar.gz
+[2024-05-21 09:55:48] INFO root fetch - processPackages [pulumi-aws-apigateway]: Downloading https://files.pythonhosted.org/packages/17/e6/34bdfb4958454efe86f4c58385ec4d81344d2217588708959d231ce65a70/pulumi_aws_apigateway-2.5.0.tar.gz
+[2024-05-21 09:55:48] INFO root fetch - processPackages [odoo14-addon-stock-reserve]: Downloading https://files.pythonhosted.org/packages/ee/e4/5fce3f5d414579822d87da05bb264acc41dd676e8106dc5c277b5913856f/odoo14_addon_stock_reserve-14.0.2.1.2.dev6-py3-none-any.whl
+[2024-05-21 09:55:48] INFO root fetch - processPackages [easy-xedu]: executing diffoscope
+[2024-05-21 09:55:48] INFO root fetch - processPackages [easy-xedu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy-xedu-0.1.8.tar.gz tmp/easy-xedu-0.1.9.tar.gz --markdown 20240521/e/easy-xedu/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-21 09:55:48] INFO root fetch - processPackages [vbpy]: executing diffoscope
+[2024-05-21 09:55:48] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-05-21 09:55:48] INFO root fetch - processPackages [vbpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vbpy-2.0.7.tar.gz tmp/vbpy-2.0.8.tar.gz --markdown 20240521/v/vbpy/2.0.7-2.0.8/README.md --exclude *.pyd
+[2024-05-21 09:55:48] INFO root fetch - processPackages [starrydata]: executing diffoscope
+[2024-05-21 09:55:48] INFO root fetch - processPackages [starrydata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starrydata-1.0.2.tar.gz tmp/starrydata-1.1.0.tar.gz --markdown 20240521/s/starrydata/1.0.2-1.1.0/README.md --exclude *.pyd
+[2024-05-21 09:55:48] INFO root fetch - processPackages [pulumi-aws-apigateway]: executing diffoscope
+[2024-05-21 09:55:48] INFO root fetch - processPackages [pulumi-aws-apigateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws_apigateway-2.4.0.tar.gz tmp/pulumi_aws_apigateway-2.5.0.tar.gz --markdown 20240521/p/pulumi-aws-apigateway/2.4.0-2.5.0/README.md --exclude *.pyd
+[2024-05-21 09:55:48] INFO root fetch - processPackages [odoo14-addon-stock-reserve]: executing diffoscope
+[2024-05-21 09:55:48] INFO root fetch - processPackages [odoo14-addon-stock-reserve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_stock_reserve-14.0.2.1.2.dev5-py3-none-any.whl.zip tmp/odoo14_addon_stock_reserve-14.0.2.1.2.dev6-py3-none-any.whl.zip --markdown 20240521/o/odoo14-addon-stock-reserve/14.0.2.1.2.dev5-14.0.2.1.2.dev6/README.md --exclude *.pyd
+[2024-05-21 09:55:49] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-05-21 09:55:49] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240521/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-05-21 09:55:49] INFO root fetch - processPackages [bosing]: Remove: archive file [/home/abi/fetcher/tmp/bosing-2.0.1.tar.gz]
+[2024-05-21 09:55:49] INFO root fetch - processPackages [bosing]: Remove: archive file [/home/abi/fetcher/tmp/bosing-2.0.2.tar.gz]
+[2024-05-21 09:55:49] INFO root fetch - main [MainThread]: End processing [bosing]: success
+[2024-05-21 09:55:49] INFO root fetch - processPackages [starrydata]: Remove: archive file [/home/abi/fetcher/tmp/starrydata-1.0.2.tar.gz]
+[2024-05-21 09:55:49] INFO root fetch - processPackages [starrydata]: Remove: archive file [/home/abi/fetcher/tmp/starrydata-1.1.0.tar.gz]
+[2024-05-21 09:55:50] INFO root fetch - main [MainThread]: End processing [starrydata]: success
+[2024-05-21 09:55:50] INFO root fetch - processPackages [vbpy]: Remove: archive file [/home/abi/fetcher/tmp/vbpy-2.0.7.tar.gz]
+[2024-05-21 09:55:50] INFO root fetch - processPackages [vbpy]: Remove: archive file [/home/abi/fetcher/tmp/vbpy-2.0.8.tar.gz]
+[2024-05-21 09:55:50] INFO root fetch - main [MainThread]: End processing [vbpy]: success
+[2024-05-21 09:55:50] INFO root fetch - processPackages [pulumi-aws-apigateway]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws_apigateway-2.4.0.tar.gz]
+[2024-05-21 09:55:50] INFO root fetch - processPackages [pulumi-aws-apigateway]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws_apigateway-2.5.0.tar.gz]
+[2024-05-21 09:55:50] INFO root fetch - main [MainThread]: End processing [pulumi-aws-apigateway]: success
+[2024-05-21 09:55:50] INFO root fetch - processPackages [odoo14-addon-stock-reserve]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_reserve-14.0.2.1.2.dev5-py3-none-any.whl.zip]
+[2024-05-21 09:55:50] INFO root fetch - processPackages [odoo14-addon-stock-reserve]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_reserve-14.0.2.1.2.dev6-py3-none-any.whl.zip]
+[2024-05-21 09:55:50] INFO root fetch - main [MainThread]: End processing [odoo14-addon-stock-reserve]: success
+[2024-05-21 09:55:51] INFO root fetch - processPackages [easy-xedu]: Remove: archive file [/home/abi/fetcher/tmp/easy-xedu-0.1.8.tar.gz]
+[2024-05-21 09:55:51] INFO root fetch - processPackages [easy-xedu]: Remove: archive file [/home/abi/fetcher/tmp/easy-xedu-0.1.9.tar.gz]
+[2024-05-21 09:55:51] INFO root fetch - main [MainThread]: End processing [easy-xedu]: success
+[2024-05-21 09:55:51] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-05-21 09:55:51] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-05-21 09:55:51] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-05-21 09:55:51] INFO root fetch - main [MainThread]: Store serial: [23302797]
