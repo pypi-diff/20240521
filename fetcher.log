@@ -11166,3 +11166,31 @@
 [2024-05-21 06:36:39] INFO root fetch - processPackages [dask-image]: Remove: archive file [/home/abi/fetcher/tmp/dask_image-2024.5.1.tar.gz]
 [2024-05-21 06:36:39] INFO root fetch - main [MainThread]: End processing [dask-image]: success
 [2024-05-21 06:36:39] INFO root fetch - main [MainThread]: Store serial: [23301050]
+[2024-05-21 06:38:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23301050]
+[2024-05-21 06:38:48] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-21 06:40:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23301051]
+[2024-05-21 06:40:53] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-21 06:40:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: everai
+[2024-05-21 06:40:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pipecat-ai
+[2024-05-21 06:40:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-newrelic
+[2024-05-21 06:40:53] INFO root fetch - processPackages [everai]: New version: [0.1.58] Old Version: [0.1.57]
+[2024-05-21 06:40:53] INFO root fetch - processPackages [pipecat-ai]: New version: [0.0.9] Old Version: [0.0.18]
+[2024-05-21 06:40:54] INFO root fetch - processPackages [everai]: Downloading https://files.pythonhosted.org/packages/f0/84/40ee3df3899597b699203600dde79d184c1a5b4e92d3ecf944a5096525c7/everai-0.1.57-py3-none-any.whl
+[2024-05-21 06:40:54] INFO root fetch - processPackages [pipecat-ai]: Downloading https://files.pythonhosted.org/packages/aa/83/7e66db44d119a9bcc5813a557d0f797c1d391dfd64a59331902f87aaa6d5/pipecat_ai-0.0.18.tar.gz
+[2024-05-21 06:40:54] INFO root fetch - processPackages [pulumi-newrelic]: New version: [5.9.1] Old Version: [5.9.0a1680282898]
+[2024-05-21 06:40:54] WARNING root fetch - processPackages [pipecat-ai]: Skipping package: exceeds size limit 63273623>=10485760
+[2024-05-21 06:40:54] INFO root fetch - main [MainThread]: End processing [pipecat-ai] error
+[2024-05-21 06:40:54] INFO root fetch - processPackages [everai]: Downloading https://files.pythonhosted.org/packages/98/2b/eb4f48fb8adc9c4d8797ac6689a419ad8d4cc4a8855ae6d6924c39b3ca16/everai-0.1.58-py3-none-any.whl
+[2024-05-21 06:40:54] INFO root fetch - processPackages [pulumi-newrelic]: Downloading https://files.pythonhosted.org/packages/1e/4c/b1f7f311d7b241db6b87ee89c05acfcff95b654eae42e5bda9788a66707c/pulumi_newrelic-5.9.0a1680282898.tar.gz
+[2024-05-21 06:40:54] INFO root fetch - processPackages [everai]: executing diffoscope
+[2024-05-21 06:40:54] INFO root fetch - processPackages [everai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/everai-0.1.57-py3-none-any.whl.zip tmp/everai-0.1.58-py3-none-any.whl.zip --markdown 20240521/e/everai/0.1.57-0.1.58/README.md --exclude *.pyd
+[2024-05-21 06:40:54] INFO root fetch - processPackages [pulumi-newrelic]: Downloading https://files.pythonhosted.org/packages/43/ba/b3c2500610b8b3fabfc1479cb763f9657e73613a00e1e2f96ee26cec9a63/pulumi_newrelic-5.9.1.tar.gz
+[2024-05-21 06:40:54] INFO root fetch - processPackages [pulumi-newrelic]: executing diffoscope
+[2024-05-21 06:40:54] INFO root fetch - processPackages [pulumi-newrelic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_newrelic-5.9.0a1680282898.tar.gz tmp/pulumi_newrelic-5.9.1.tar.gz --markdown 20240521/p/pulumi-newrelic/5.9.0a1680282898-5.9.1/README.md --exclude *.pyd
+[2024-05-21 06:40:55] INFO root fetch - processPackages [pulumi-newrelic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_newrelic-5.9.0a1680282898.tar.gz]
+[2024-05-21 06:40:55] INFO root fetch - processPackages [pulumi-newrelic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_newrelic-5.9.1.tar.gz]
+[2024-05-21 06:40:55] INFO root fetch - main [MainThread]: End processing [pulumi-newrelic]: success
+[2024-05-21 06:40:55] INFO root fetch - processPackages [everai]: Remove: archive file [/home/abi/fetcher/tmp/everai-0.1.57-py3-none-any.whl.zip]
+[2024-05-21 06:40:55] INFO root fetch - processPackages [everai]: Remove: archive file [/home/abi/fetcher/tmp/everai-0.1.58-py3-none-any.whl.zip]
+[2024-05-21 06:40:55] INFO root fetch - main [MainThread]: End processing [everai]: success
+[2024-05-21 06:40:55] INFO root fetch - main [MainThread]: Store serial: [23301059]
