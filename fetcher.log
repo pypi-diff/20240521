@@ -3031,3 +3031,33 @@
 [2024-05-21 02:28:48] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar_connect-0.1.251.tar.gz]
 [2024-05-21 02:28:48] INFO root fetch - main [MainThread]: End processing [ansar-connect]: success
 [2024-05-21 02:28:48] INFO root fetch - main [MainThread]: Store serial: [23298023]
+[2024-05-21 02:30:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23298023]
+[2024-05-21 02:30:57] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-21 02:30:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-aurora-globaldatabase
+[2024-05-21 02:30:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: coiled
+[2024-05-21 02:30:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py-alpaca-api
+[2024-05-21 02:30:57] INFO root fetch - processPackages [py-alpaca-api]: New version: [0.5.3] Old Version: [0.5.1]
+[2024-05-21 02:30:57] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2024-05-21 02:30:57] INFO root fetch - processPackages [coiled]: New version: [1.9.1.dev9] Old Version: [1.9.1.dev8]
+[2024-05-21 02:30:57] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/e4/39/e997b5acac972df8d777c4a4ad6dfd9f51e03e75fc8e23c973a7772267d5/cdk-aurora-globaldatabase-2.3.98.tar.gz
+[2024-05-21 02:30:57] INFO root fetch - processPackages [py-alpaca-api]: Downloading https://files.pythonhosted.org/packages/7a/8b/45f4b16e976d40048979e04f8dcb3123a90bddfae3970e06899f94165cf3/py_alpaca_api-0.5.1.tar.gz
+[2024-05-21 02:30:57] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/8b/97/14337c08d9fc8bec2c9c7a5961519e141cf75d7dffa582bb987eecacefa4/coiled-1.9.1.dev8.tar.gz
+[2024-05-21 02:30:57] INFO root fetch - processPackages [py-alpaca-api]: Downloading https://files.pythonhosted.org/packages/fa/ca/4ac03f5ca7685fe25047ecedc724dea5a62a7980cbe05126afc07893fb9b/py_alpaca_api-0.5.3.tar.gz
+[2024-05-21 02:30:58] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/51/53/0158facaec2becec86707148eb931de78a7ad1c2b63f80b9911a53e4c17b/cdk-aurora-globaldatabase-2.3.99.tar.gz
+[2024-05-21 02:30:58] INFO root fetch - processPackages [py-alpaca-api]: executing diffoscope
+[2024-05-21 02:30:58] INFO root fetch - processPackages [py-alpaca-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_alpaca_api-0.5.1.tar.gz tmp/py_alpaca_api-0.5.3.tar.gz --markdown 20240521/p/py-alpaca-api/0.5.1-0.5.3/README.md --exclude *.pyd
+[2024-05-21 02:30:58] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/58/16/aec6b9100728dfee740792b7dd55fc6e56240fdadb5ef317a1d120e019d7/coiled-1.9.1.dev9.tar.gz
+[2024-05-21 02:30:58] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2024-05-21 02:30:58] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20240521/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/README.md --exclude *.pyd
+[2024-05-21 02:30:58] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2024-05-21 02:30:58] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-1.9.1.dev8.tar.gz tmp/coiled-1.9.1.dev9.tar.gz --markdown 20240521/c/coiled/1.9.1.dev8-1.9.1.dev9/README.md --exclude *.pyd
+[2024-05-21 02:30:58] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz]
+[2024-05-21 02:30:58] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
+[2024-05-21 02:30:58] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2024-05-21 02:30:58] INFO root fetch - processPackages [py-alpaca-api]: Remove: archive file [/home/abi/fetcher/tmp/py_alpaca_api-0.5.1.tar.gz]
+[2024-05-21 02:30:58] INFO root fetch - processPackages [py-alpaca-api]: Remove: archive file [/home/abi/fetcher/tmp/py_alpaca_api-0.5.3.tar.gz]
+[2024-05-21 02:30:58] INFO root fetch - main [MainThread]: End processing [py-alpaca-api]: success
+[2024-05-21 02:30:58] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-1.9.1.dev8.tar.gz]
+[2024-05-21 02:30:58] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-1.9.1.dev9.tar.gz]
+[2024-05-21 02:30:58] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2024-05-21 02:30:58] INFO root fetch - main [MainThread]: Store serial: [23298033]
