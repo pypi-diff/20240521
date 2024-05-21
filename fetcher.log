@@ -13500,3 +13500,81 @@
 [2024-05-21 08:35:02] INFO root fetch - processPackages [catnekaise.ghrawel]: Remove: archive file [/home/abi/fetcher/tmp/catnekaise.ghrawel-0.0.9.tar.gz]
 [2024-05-21 08:35:02] INFO root fetch - main [MainThread]: End processing [catnekaise.ghrawel]: success
 [2024-05-21 08:35:02] INFO root fetch - main [MainThread]: Store serial: [23302034]
+[2024-05-21 08:37:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23302034]
+[2024-05-21 08:37:11] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-21 08:37:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xcloudforlinux
+[2024-05-21 08:37:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: data-source-local
+[2024-05-21 08:37:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fridaylabs
+[2024-05-21 08:37:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: redhat-qe-cloud-tools
+[2024-05-21 08:37:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-sale-start-end-dates
+[2024-05-21 08:37:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyboiler-anonoei
+[2024-05-21 08:37:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: anonipy
+[2024-05-21 08:37:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-sale-validity
+[2024-05-21 08:37:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addon-sale-product-set
+[2024-05-21 08:37:11] INFO root fetch - processPackages [data-source-local]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-21 08:37:11] INFO root fetch - processPackages [xcloudforlinux]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-21 08:37:11] INFO root fetch - processPackages [pyboiler-anonoei]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-21 08:37:11] INFO root fetch - processPackages [redhat-qe-cloud-tools]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-21 08:37:11] INFO root fetch - processPackages [fridaylabs]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-21 08:37:11] INFO root fetch - processPackages [odoo14-addon-sale-validity]: New version: [14.0.1.0.3.dev8] Old Version: [14.0.1.0.3.dev7]
+[2024-05-21 08:37:11] WARNING root fetch - processPackages [anonipy]: Skipping, unable to determine old version
+[2024-05-21 08:37:11] INFO root fetch - processPackages [odoo14-addon-sale-product-set]: New version: [14.0.1.5.6.dev3] Old Version: [14.0.1.5.6.dev2]
+[2024-05-21 08:37:11] INFO root fetch - main [MainThread]: End processing [anonipy] error
+[2024-05-21 08:37:11] INFO root fetch - processPackages [odoo14-addon-sale-start-end-dates]: New version: [14.0.1.0.2.dev4] Old Version: [14.0.1.0.2.dev3]
+[2024-05-21 08:37:11] INFO root fetch - processPackages [xcloudforlinux]: Downloading https://files.pythonhosted.org/packages/bc/ad/47f5a8953962359bae886906ec6206546adf638c6c2f1c9e04a08efb2399/xcloudforlinux-0.3.1.tar.gz
+[2024-05-21 08:37:11] INFO root fetch - processPackages [data-source-local]: Downloading https://files.pythonhosted.org/packages/45/46/fa4dff90215d2cd298b808b51968e30886b668b4d87ef1d558b04bcb5cbb/data_source_local-0.0.3.tar.gz
+[2024-05-21 08:37:11] INFO root fetch - processPackages [pyboiler-anonoei]: Downloading https://files.pythonhosted.org/packages/8f/93/e8e2e8ade5dd8ca367864dc88a180245b996d0447b6cffa72e043ee34733/pyboiler_anonoei-0.3.0.tar.gz
+[2024-05-21 08:37:11] INFO root fetch - processPackages [odoo14-addon-sale-start-end-dates]: Downloading https://files.pythonhosted.org/packages/12/89/937af6289db82362920f3924156e28a7182ae8b61be512b54a87a7f0d71e/odoo14_addon_sale_start_end_dates-14.0.1.0.2.dev3-py3-none-any.whl
+[2024-05-21 08:37:11] INFO root fetch - processPackages [redhat-qe-cloud-tools]: Downloading https://files.pythonhosted.org/packages/bb/ba/b006d094180ea2c9d36260eb23821d2bdf0bc3e11192b77282a510ac39ee/redhat_qe_cloud_tools-1.0.8.tar.gz
+[2024-05-21 08:37:11] INFO root fetch - processPackages [fridaylabs]: Downloading https://files.pythonhosted.org/packages/63/8f/3bf10f52e608c8425083f6495a9e1a834eae40d6e3a5c6f4ef0955f71354/fridaylabs-0.1.2.tar.gz
+[2024-05-21 08:37:11] INFO root fetch - processPackages [odoo14-addon-sale-product-set]: Downloading https://files.pythonhosted.org/packages/18/0e/cbdcf017c12aabbabe7b6e89ec2c7bc5251376c3878fd66d98e2af2de531/odoo14_addon_sale_product_set-14.0.1.5.6.dev2-py3-none-any.whl
+[2024-05-21 08:37:11] INFO root fetch - processPackages [odoo14-addon-sale-validity]: Downloading https://files.pythonhosted.org/packages/64/b5/7edbfd5bbd7ea5413031b5c40263c4cfbb443d96fa86a498230e1f6642f4/odoo14_addon_sale_validity-14.0.1.0.3.dev7-py3-none-any.whl
+[2024-05-21 08:37:12] INFO root fetch - processPackages [data-source-local]: Downloading https://files.pythonhosted.org/packages/4d/f0/b4019e529ed1c19077946d300f3221c9cdc90ce1d796eb186c4d32d03466/data_source_local-0.0.4.tar.gz
+[2024-05-21 08:37:12] INFO root fetch - processPackages [pyboiler-anonoei]: Downloading https://files.pythonhosted.org/packages/b2/ea/572e3d77826b0f5cf3178eab027df9b2f959b38fe7e9f357eb3f93977edf/pyboiler_anonoei-0.3.1.tar.gz
+[2024-05-21 08:37:12] INFO root fetch - processPackages [xcloudforlinux]: Downloading https://files.pythonhosted.org/packages/08/ed/6cf9b66224e2b0e67e62f6a23a80fa580a3d903b502d560a175ac5c8bd61/xcloudforlinux-0.3.2.tar.gz
+[2024-05-21 08:37:12] INFO root fetch - processPackages [data-source-local]: executing diffoscope
+[2024-05-21 08:37:12] INFO root fetch - processPackages [data-source-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_source_local-0.0.3.tar.gz tmp/data_source_local-0.0.4.tar.gz --markdown 20240521/d/data-source-local/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-21 08:37:12] INFO root fetch - processPackages [redhat-qe-cloud-tools]: Downloading https://files.pythonhosted.org/packages/73/ee/78f15b2144832b2da8cfd67c1d7f49253a5bbeabe351e94adf1af190017c/redhat_qe_cloud_tools-1.0.9.tar.gz
+[2024-05-21 08:37:12] INFO root fetch - processPackages [fridaylabs]: Downloading https://files.pythonhosted.org/packages/fe/36/624d0f52714483b941aa8def896063519425452e385193bfc2939d1a2bcf/fridaylabs-0.1.3.tar.gz
+[2024-05-21 08:37:12] INFO root fetch - processPackages [odoo14-addon-sale-start-end-dates]: Downloading https://files.pythonhosted.org/packages/02/b4/cff5a62497819ec8d4156fa5101d519dbae517ce6664def36c64b42bf71b/odoo14_addon_sale_start_end_dates-14.0.1.0.2.dev4-py3-none-any.whl
+[2024-05-21 08:37:12] INFO root fetch - processPackages [pyboiler-anonoei]: executing diffoscope
+[2024-05-21 08:37:12] INFO root fetch - processPackages [pyboiler-anonoei]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyboiler_anonoei-0.3.0.tar.gz tmp/pyboiler_anonoei-0.3.1.tar.gz --markdown 20240521/p/pyboiler-anonoei/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-21 08:37:12] INFO root fetch - processPackages [fridaylabs]: executing diffoscope
+[2024-05-21 08:37:12] INFO root fetch - processPackages [fridaylabs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fridaylabs-0.1.2.tar.gz tmp/fridaylabs-0.1.3.tar.gz --markdown 20240521/f/fridaylabs/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-21 08:37:12] INFO root fetch - processPackages [odoo14-addon-sale-validity]: Downloading https://files.pythonhosted.org/packages/28/ca/803b9dd4ca1f2361cde6a57f526a72f2d50c9c7016c4aacfa89da733fa23/odoo14_addon_sale_validity-14.0.1.0.3.dev8-py3-none-any.whl
+[2024-05-21 08:37:12] INFO root fetch - processPackages [redhat-qe-cloud-tools]: executing diffoscope
+[2024-05-21 08:37:12] INFO root fetch - processPackages [redhat-qe-cloud-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redhat_qe_cloud_tools-1.0.8.tar.gz tmp/redhat_qe_cloud_tools-1.0.9.tar.gz --markdown 20240521/r/redhat-qe-cloud-tools/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-21 08:37:12] INFO root fetch - processPackages [odoo14-addon-sale-product-set]: Downloading https://files.pythonhosted.org/packages/d5/9d/3ff2857c08e93ffb55942022ce44f40de2b0eda86a9de6fbf27df422100a/odoo14_addon_sale_product_set-14.0.1.5.6.dev3-py3-none-any.whl
+[2024-05-21 08:37:12] INFO root fetch - processPackages [odoo14-addon-sale-start-end-dates]: executing diffoscope
+[2024-05-21 08:37:12] INFO root fetch - processPackages [odoo14-addon-sale-start-end-dates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_sale_start_end_dates-14.0.1.0.2.dev3-py3-none-any.whl.zip tmp/odoo14_addon_sale_start_end_dates-14.0.1.0.2.dev4-py3-none-any.whl.zip --markdown 20240521/o/odoo14-addon-sale-start-end-dates/14.0.1.0.2.dev3-14.0.1.0.2.dev4/README.md --exclude *.pyd
+[2024-05-21 08:37:12] INFO root fetch - processPackages [xcloudforlinux]: executing diffoscope
+[2024-05-21 08:37:12] INFO root fetch - processPackages [xcloudforlinux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xcloudforlinux-0.3.1.tar.gz tmp/xcloudforlinux-0.3.2.tar.gz --markdown 20240521/x/xcloudforlinux/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-21 08:37:12] INFO root fetch - processPackages [odoo14-addon-sale-validity]: executing diffoscope
+[2024-05-21 08:37:12] INFO root fetch - processPackages [odoo14-addon-sale-validity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_sale_validity-14.0.1.0.3.dev7-py3-none-any.whl.zip tmp/odoo14_addon_sale_validity-14.0.1.0.3.dev8-py3-none-any.whl.zip --markdown 20240521/o/odoo14-addon-sale-validity/14.0.1.0.3.dev7-14.0.1.0.3.dev8/README.md --exclude *.pyd
+[2024-05-21 08:37:12] INFO root fetch - processPackages [odoo14-addon-sale-product-set]: executing diffoscope
+[2024-05-21 08:37:12] INFO root fetch - processPackages [odoo14-addon-sale-product-set]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_sale_product_set-14.0.1.5.6.dev2-py3-none-any.whl.zip tmp/odoo14_addon_sale_product_set-14.0.1.5.6.dev3-py3-none-any.whl.zip --markdown 20240521/o/odoo14-addon-sale-product-set/14.0.1.5.6.dev2-14.0.1.5.6.dev3/README.md --exclude *.pyd
+[2024-05-21 08:37:12] INFO root fetch - processPackages [data-source-local]: Remove: archive file [/home/abi/fetcher/tmp/data_source_local-0.0.3.tar.gz]
+[2024-05-21 08:37:12] INFO root fetch - processPackages [data-source-local]: Remove: archive file [/home/abi/fetcher/tmp/data_source_local-0.0.4.tar.gz]
+[2024-05-21 08:37:12] INFO root fetch - main [MainThread]: End processing [data-source-local]: success
+[2024-05-21 08:37:13] INFO root fetch - processPackages [fridaylabs]: Remove: archive file [/home/abi/fetcher/tmp/fridaylabs-0.1.2.tar.gz]
+[2024-05-21 08:37:13] INFO root fetch - processPackages [fridaylabs]: Remove: archive file [/home/abi/fetcher/tmp/fridaylabs-0.1.3.tar.gz]
+[2024-05-21 08:37:13] INFO root fetch - main [MainThread]: End processing [fridaylabs]: success
+[2024-05-21 08:37:13] INFO root fetch - processPackages [redhat-qe-cloud-tools]: Remove: archive file [/home/abi/fetcher/tmp/redhat_qe_cloud_tools-1.0.8.tar.gz]
+[2024-05-21 08:37:13] INFO root fetch - processPackages [redhat-qe-cloud-tools]: Remove: archive file [/home/abi/fetcher/tmp/redhat_qe_cloud_tools-1.0.9.tar.gz]
+[2024-05-21 08:37:13] INFO root fetch - main [MainThread]: End processing [redhat-qe-cloud-tools]: success
+[2024-05-21 08:37:13] INFO root fetch - processPackages [odoo14-addon-sale-start-end-dates]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_start_end_dates-14.0.1.0.2.dev3-py3-none-any.whl.zip]
+[2024-05-21 08:37:13] INFO root fetch - processPackages [odoo14-addon-sale-start-end-dates]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_start_end_dates-14.0.1.0.2.dev4-py3-none-any.whl.zip]
+[2024-05-21 08:37:13] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-start-end-dates]: success
+[2024-05-21 08:37:13] INFO root fetch - processPackages [pyboiler-anonoei]: Remove: archive file [/home/abi/fetcher/tmp/pyboiler_anonoei-0.3.0.tar.gz]
+[2024-05-21 08:37:13] INFO root fetch - processPackages [pyboiler-anonoei]: Remove: archive file [/home/abi/fetcher/tmp/pyboiler_anonoei-0.3.1.tar.gz]
+[2024-05-21 08:37:13] INFO root fetch - main [MainThread]: End processing [pyboiler-anonoei]: success
+[2024-05-21 08:37:13] INFO root fetch - processPackages [xcloudforlinux]: Remove: archive file [/home/abi/fetcher/tmp/xcloudforlinux-0.3.1.tar.gz]
+[2024-05-21 08:37:13] INFO root fetch - processPackages [xcloudforlinux]: Remove: archive file [/home/abi/fetcher/tmp/xcloudforlinux-0.3.2.tar.gz]
+[2024-05-21 08:37:13] INFO root fetch - main [MainThread]: End processing [xcloudforlinux]: success
+[2024-05-21 08:37:13] INFO root fetch - processPackages [odoo14-addon-sale-validity]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_validity-14.0.1.0.3.dev7-py3-none-any.whl.zip]
+[2024-05-21 08:37:13] INFO root fetch - processPackages [odoo14-addon-sale-validity]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_validity-14.0.1.0.3.dev8-py3-none-any.whl.zip]
+[2024-05-21 08:37:13] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-validity]: success
+[2024-05-21 08:37:13] INFO root fetch - processPackages [odoo14-addon-sale-product-set]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_product_set-14.0.1.5.6.dev2-py3-none-any.whl.zip]
+[2024-05-21 08:37:13] INFO root fetch - processPackages [odoo14-addon-sale-product-set]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_product_set-14.0.1.5.6.dev3-py3-none-any.whl.zip]
+[2024-05-21 08:37:13] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-product-set]: success
+[2024-05-21 08:37:13] INFO root fetch - main [MainThread]: Store serial: [23302059]
