@@ -19103,3 +19103,156 @@
 [2024-05-21 11:52:35] INFO root fetch - processPackages [webgui-jupyter-widgets]: Remove: archive file [/home/abi/fetcher/tmp/webgui_jupyter_widgets-0.2.9-py2.py3-none-any.whl.zip]
 [2024-05-21 11:52:35] INFO root fetch - main [MainThread]: End processing [webgui-jupyter-widgets]: success
 [2024-05-21 11:52:35] INFO root fetch - main [MainThread]: Store serial: [23304165]
+[2024-05-21 11:54:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23304165]
+[2024-05-21 11:54:45] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2024-05-21 11:54:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: configration
+[2024-05-21 11:54:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytoniq-core
+[2024-05-21 11:54:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: patchly
+[2024-05-21 11:54:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: avaframe
+[2024-05-21 11:54:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: groqon
+[2024-05-21 11:54:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: storage-local
+[2024-05-21 11:54:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dekdjtools
+[2024-05-21 11:54:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: alipay-sdk-python
+[2024-05-21 11:54:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: leitmotif
+[2024-05-21 11:54:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nansat
+[2024-05-21 11:54:45] INFO root fetch - processPackages [dekdjtools]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-21 11:54:45] INFO root fetch - processPackages [configration]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-21 11:54:45] INFO root fetch - processPackages [groqon]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-21 11:54:45] INFO root fetch - processPackages [patchly]: New version: [0.0.9] Old Version: [0.0.7]
+[2024-05-21 11:54:45] INFO root fetch - processPackages [storage-local]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-21 11:54:45] INFO root fetch - processPackages [nansat]: New version: [1.6.2rc1] Old Version: [1.6.1]
+[2024-05-21 11:54:45] INFO root fetch - processPackages [pytoniq-core]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-21 11:54:46] INFO root fetch - processPackages [dekdjtools]: Downloading https://files.pythonhosted.org/packages/e4/df/58d5e7aaa205acddbf1ba3c7e480bde075d90f3cf2f9a4ef8b1023fb4c14/dekdjtools-0.1.8.tar.gz
+[2024-05-21 11:54:46] INFO root fetch - processPackages [alipay-sdk-python]: New version: [3.7.78] Old Version: [3.7.61]
+[2024-05-21 11:54:46] INFO root fetch - processPackages [leitmotif]: New version: [0.1.0] Old Version: [0.0.1]
+[2024-05-21 11:54:46] INFO root fetch - processPackages [avaframe]: New version: [1.8b3] Old Version: [1.8b2]
+[2024-05-21 11:54:46] INFO root fetch - processPackages [configration]: Downloading https://files.pythonhosted.org/packages/ad/f8/206eaadbd2d3dd4f7a512f3c07c37543124e2200d0ab608803a27ee29e25/configration-2.0.8.tar.gz
+[2024-05-21 11:54:46] INFO root fetch - processPackages [patchly]: Downloading https://files.pythonhosted.org/packages/c2/42/a59778069dda367dc92ad021142b25d61f1266e35274777ff9e5d429a017/patchly-0.0.7.tar.gz
+[2024-05-21 11:54:46] INFO root fetch - processPackages [storage-local]: Downloading https://files.pythonhosted.org/packages/b7/63/976ced0597974a94e0db7472bfb4f03e6c82e5276610b0176be638f047e6/storage-local-0.1.8.tar.gz
+[2024-05-21 11:54:46] INFO root fetch - processPackages [pytoniq-core]: Downloading https://files.pythonhosted.org/packages/80/fd/17719a7a0ccfcc5482b7463af901ba6d3e4f1874aae61f884fe75c3bbdb6/pytoniq-core-0.1.8.tar.gz
+[2024-05-21 11:54:46] INFO root fetch - processPackages [groqon]: Downloading https://files.pythonhosted.org/packages/ef/1b/57d995c4f2481668bd36998b6ead008b2c7788511b7dfdf1743b9aaaae65/groqon-0.1.4.tar.gz
+[2024-05-21 11:54:46] INFO root fetch - processPackages [leitmotif]: Downloading https://files.pythonhosted.org/packages/50/61/0367d01a595b83c1a5ec13d14330c6e9960fc9e6df682ed4fd7721b76432/leitmotif-0.0.1.tar.gz
+[2024-05-21 11:54:46] INFO root fetch - processPackages [nansat]: Downloading https://files.pythonhosted.org/packages/01/43/6835008c00f6f4115631945915a3268b0be9e2971efb1918e8bbdad48041/nansat-1.6.1.tar.gz
+[2024-05-21 11:54:46] INFO root fetch - processPackages [avaframe]: Downloading https://files.pythonhosted.org/packages/be/36/c1c7827836b1f3238713a5e928dee79b45d43eedfb0195b58a8e709b4717/avaframe-1.8b2.tar.gz
+[2024-05-21 11:54:46] INFO root fetch - processPackages [dekdjtools]: Downloading https://files.pythonhosted.org/packages/38/d3/1ea767a7367db4793980cd61bc83abf62a6c7e853f2c1d75e2e4e7070d71/dekdjtools-0.1.9.tar.gz
+[2024-05-21 11:54:46] INFO root fetch - processPackages [alipay-sdk-python]: executing diffoscope
+[2024-05-21 11:54:46] INFO root fetch - processPackages [alipay-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alipay-sdk-python-3.7.61.tar.gz tmp/alipay-sdk-python-3.7.78.tar.gz --markdown 20240521/a/alipay-sdk-python/3.7.61-3.7.78/README.md --exclude *.pyd
+[2024-05-21 11:54:46] INFO root fetch - processPackages [configration]: Downloading https://files.pythonhosted.org/packages/81/b8/b1d311055e3b5c07f9e13f4e115ffdf8dd53db692c02a94bcf2464868110/configration-2.0.9.tar.gz
+[2024-05-21 11:54:46] INFO root fetch - processPackages [dekdjtools]: executing diffoscope
+[2024-05-21 11:54:46] INFO root fetch - processPackages [dekdjtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dekdjtools-0.1.8.tar.gz tmp/dekdjtools-0.1.9.tar.gz --markdown 20240521/d/dekdjtools/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-21 11:54:46] INFO root fetch - processPackages [patchly]: Downloading https://files.pythonhosted.org/packages/8b/66/b3052c5e86d381508e9ae1f0d29a5b22a4f83dd6218ba1256b3a6612c30b/patchly-0.0.9.tar.gz
+[2024-05-21 11:54:46] INFO root fetch - processPackages [storage-local]: Downloading https://files.pythonhosted.org/packages/80/92/c5f00ebfa1349b712e17441e635a7037dea493f636ec7cb5309d3f303ed3/storage-local-0.1.9.tar.gz
+[2024-05-21 11:54:46] INFO root fetch - processPackages [groqon]: Downloading https://files.pythonhosted.org/packages/a7/0c/aff5fe3c051dc213d480240c63b838d319c0c141482082171b6cdc5afbbc/groqon-0.1.5.tar.gz
+[2024-05-21 11:54:46] INFO root fetch - processPackages [pytoniq-core]: Downloading https://files.pythonhosted.org/packages/1d/c6/2c8daf13fd29ba3b0b2065bf051f422b9e3733d408a6c5931f651d3aa033/pytoniq-core-0.1.9.tar.gz
+[2024-05-21 11:54:46] INFO root fetch - processPackages [configration]: executing diffoscope
+[2024-05-21 11:54:46] INFO root fetch - processPackages [configration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/configration-2.0.8.tar.gz tmp/configration-2.0.9.tar.gz --markdown 20240521/c/configration/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-21 11:54:46] INFO root fetch - processPackages [leitmotif]: Downloading https://files.pythonhosted.org/packages/50/e3/4de8f1d0d6b38167cf890d4a9312fef7d42518ab95a1a31ff5426b9862fd/leitmotif-0.1.0.tar.gz
+[2024-05-21 11:54:46] INFO root fetch - processPackages [patchly]: executing diffoscope
+[2024-05-21 11:54:46] INFO root fetch - processPackages [patchly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/patchly-0.0.7.tar.gz tmp/patchly-0.0.9.tar.gz --markdown 20240521/p/patchly/0.0.7-0.0.9/README.md --exclude *.pyd
+[2024-05-21 11:54:46] INFO root fetch - processPackages [storage-local]: executing diffoscope
+[2024-05-21 11:54:46] INFO root fetch - processPackages [storage-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/storage-local-0.1.8.tar.gz tmp/storage-local-0.1.9.tar.gz --markdown 20240521/s/storage-local/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-21 11:54:46] INFO root fetch - processPackages [leitmotif]: executing diffoscope
+[2024-05-21 11:54:46] INFO root fetch - processPackages [leitmotif]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leitmotif-0.0.1.tar.gz tmp/leitmotif-0.1.0.tar.gz --markdown 20240521/l/leitmotif/0.0.1-0.1.0/README.md --exclude *.pyd
+[2024-05-21 11:54:46] INFO root fetch - processPackages [pytoniq-core]: executing diffoscope
+[2024-05-21 11:54:46] INFO root fetch - processPackages [pytoniq-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytoniq-core-0.1.8.tar.gz tmp/pytoniq-core-0.1.9.tar.gz --markdown 20240521/p/pytoniq-core/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-21 11:54:46] INFO root fetch - processPackages [nansat]: Downloading https://files.pythonhosted.org/packages/35/b2/723061144fd9114d026083728600878d36dbd32a0632e523e39c01999d56/nansat-1.6.2rc1.tar.gz
+[2024-05-21 11:54:46] INFO root fetch - processPackages [groqon]: executing diffoscope
+[2024-05-21 11:54:46] INFO root fetch - processPackages [groqon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/groqon-0.1.4.tar.gz tmp/groqon-0.1.5.tar.gz --markdown 20240521/g/groqon/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-21 11:54:46] INFO root fetch - processPackages [avaframe]: Downloading https://files.pythonhosted.org/packages/e7/44/71d3f31e2cf0e090c6b1b9ab6b3d653c803a8a0fc6438079fa74f590cfb6/avaframe-1.8b3.tar.gz
+[2024-05-21 11:54:47] INFO root fetch - processPackages [avaframe]: executing diffoscope
+[2024-05-21 11:54:47] INFO root fetch - processPackages [avaframe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avaframe-1.8b2.tar.gz tmp/avaframe-1.8b3.tar.gz --markdown 20240521/a/avaframe/1.8b2-1.8b3/README.md --exclude *.pyd
+[2024-05-21 11:54:47] INFO root fetch - processPackages [nansat]: executing diffoscope
+[2024-05-21 11:54:47] INFO root fetch - processPackages [nansat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nansat-1.6.1.tar.gz tmp/nansat-1.6.2rc1.tar.gz --markdown 20240521/n/nansat/1.6.1-1.6.2rc1/README.md --exclude *.pyd
+[2024-05-21 11:54:47] INFO root fetch - processPackages [dekdjtools]: Remove: archive file [/home/abi/fetcher/tmp/dekdjtools-0.1.8.tar.gz]
+[2024-05-21 11:54:47] INFO root fetch - processPackages [dekdjtools]: Remove: archive file [/home/abi/fetcher/tmp/dekdjtools-0.1.9.tar.gz]
+[2024-05-21 11:54:47] INFO root fetch - processPackages [dekdjtools]: Start processing: openobd-protocol
+[2024-05-21 11:54:47] INFO root fetch - main [MainThread]: End processing [dekdjtools]: success
+[2024-05-21 11:54:47] INFO root fetch - processPackages [storage-local]: Remove: archive file [/home/abi/fetcher/tmp/storage-local-0.1.8.tar.gz]
+[2024-05-21 11:54:47] INFO root fetch - processPackages [storage-local]: Remove: archive file [/home/abi/fetcher/tmp/storage-local-0.1.9.tar.gz]
+[2024-05-21 11:54:47] INFO root fetch - processPackages [storage-local]: Start processing: outpostcli
+[2024-05-21 11:54:47] INFO root fetch - main [MainThread]: End processing [storage-local]: success
+[2024-05-21 11:54:47] INFO root fetch - processPackages [openobd-protocol]: New version: [0.13.0] Old Version: [0.12.0]
+[2024-05-21 11:54:47] INFO root fetch - processPackages [patchly]: Remove: archive file [/home/abi/fetcher/tmp/patchly-0.0.7.tar.gz]
+[2024-05-21 11:54:47] INFO root fetch - processPackages [patchly]: Remove: archive file [/home/abi/fetcher/tmp/patchly-0.0.9.tar.gz]
+[2024-05-21 11:54:47] INFO root fetch - processPackages [patchly]: Start processing: sunray
+[2024-05-21 11:54:47] INFO root fetch - main [MainThread]: End processing [patchly]: success
+[2024-05-21 11:54:47] INFO root fetch - processPackages [outpostcli]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-21 11:54:47] INFO root fetch - processPackages [sunray]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-21 11:54:47] INFO root fetch - processPackages [groqon]: Remove: archive file [/home/abi/fetcher/tmp/groqon-0.1.4.tar.gz]
+[2024-05-21 11:54:47] INFO root fetch - processPackages [groqon]: Remove: archive file [/home/abi/fetcher/tmp/groqon-0.1.5.tar.gz]
+[2024-05-21 11:54:47] INFO root fetch - processPackages [groqon]: Start processing: odoo-addon-stock-request
+[2024-05-21 11:54:47] INFO root fetch - main [MainThread]: End processing [groqon]: success
+[2024-05-21 11:54:47] INFO root fetch - processPackages [outpostcli]: Downloading https://files.pythonhosted.org/packages/7e/e2/114a39eac567286d0418645c0ea24089c48fcbe4cccec6c79191a5cefccf/outpostcli-0.0.8.tar.gz
+[2024-05-21 11:54:47] INFO root fetch - processPackages [pytoniq-core]: Remove: archive file [/home/abi/fetcher/tmp/pytoniq-core-0.1.8.tar.gz]
+[2024-05-21 11:54:47] INFO root fetch - processPackages [pytoniq-core]: Remove: archive file [/home/abi/fetcher/tmp/pytoniq-core-0.1.9.tar.gz]
+[2024-05-21 11:54:47] INFO root fetch - processPackages [pytoniq-core]: Start processing: groqon
+[2024-05-21 11:54:47] INFO root fetch - main [MainThread]: End processing [pytoniq-core]: success
+[2024-05-21 11:54:47] INFO root fetch - processPackages [odoo-addon-stock-request]: New version: [17.0.1.0.1] Old Version: [17.0.1.0.0.7]
+[2024-05-21 11:54:47] INFO root fetch - processPackages [leitmotif]: Remove: archive file [/home/abi/fetcher/tmp/leitmotif-0.0.1.tar.gz]
+[2024-05-21 11:54:47] INFO root fetch - processPackages [leitmotif]: Remove: archive file [/home/abi/fetcher/tmp/leitmotif-0.1.0.tar.gz]
+[2024-05-21 11:54:47] INFO root fetch - processPackages [groqon]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-21 11:54:47] INFO root fetch - processPackages [leitmotif]: Start processing: pulumi-ise
+[2024-05-21 11:54:47] INFO root fetch - main [MainThread]: End processing [leitmotif]: success
+[2024-05-21 11:54:48] INFO root fetch - processPackages [configration]: Remove: archive file [/home/abi/fetcher/tmp/configration-2.0.8.tar.gz]
+[2024-05-21 11:54:48] INFO root fetch - processPackages [configration]: Remove: archive file [/home/abi/fetcher/tmp/configration-2.0.9.tar.gz]
+[2024-05-21 11:54:48] INFO root fetch - processPackages [configration]: Start processing: wsppchem
+[2024-05-21 11:54:48] INFO root fetch - main [MainThread]: End processing [configration]: success
+[2024-05-21 11:54:48] INFO root fetch - processPackages [openobd-protocol]: Downloading https://files.pythonhosted.org/packages/e0/79/e54560442fe3478e4eeeb9909e9385a953ae692960091111a3ad72cf3cd6/openobd_protocol-0.12.0.tar.gz
+[2024-05-21 11:54:48] INFO root fetch - processPackages [wsppchem]: New version: [0.91] Old Version: [0.9]
+[2024-05-21 11:54:48] INFO root fetch - processPackages [sunray]: Downloading https://files.pythonhosted.org/packages/ff/fb/a9a8a02158a751a13b7023a8311df447844af5161864e6ae93991128aa8c/sunray-0.3.0-py3-none-any.whl
+[2024-05-21 11:54:48] INFO root fetch - processPackages [groqon]: Downloading https://files.pythonhosted.org/packages/ef/1b/57d995c4f2481668bd36998b6ead008b2c7788511b7dfdf1743b9aaaae65/groqon-0.1.4.tar.gz
+[2024-05-21 11:54:48] INFO root fetch - processPackages [outpostcli]: Downloading https://files.pythonhosted.org/packages/df/ab/82b6853cec170d33c2aff19e3a298b0bf56f7ba1b885f6f7d42a10ae43dc/outpostcli-0.0.9.tar.gz
+[2024-05-21 11:54:48] INFO root fetch - processPackages [pulumi-ise]: New version: [0.2.0a1715924846] Old Version: [0.2.0a1715757808]
+[2024-05-21 11:54:48] INFO root fetch - processPackages [wsppchem]: Downloading https://files.pythonhosted.org/packages/7c/43/3c8f7eba6aece78d252cb5264e2d70fd554127ea402274c0e467f21f1678/wsppchem-0.9.tar.gz
+[2024-05-21 11:54:48] INFO root fetch - processPackages [odoo-addon-stock-request]: Downloading https://files.pythonhosted.org/packages/11/8c/9fbd4fd236211b09082314d88b2a37814c743959b046ae8c85d5b3ebad82/odoo_addon_stock_request-17.0.1.0.0.7-py3-none-any.whl
+[2024-05-21 11:54:48] INFO root fetch - processPackages [outpostcli]: executing diffoscope
+[2024-05-21 11:54:48] INFO root fetch - processPackages [outpostcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/outpostcli-0.0.8.tar.gz tmp/outpostcli-0.0.9.tar.gz --markdown 20240521/o/outpostcli/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-21 11:54:48] INFO root fetch - processPackages [openobd-protocol]: Downloading https://files.pythonhosted.org/packages/ce/4f/c6d04b778309a9ca4499bad8d98c9400266336324d8615bc51628a3bd974/openobd_protocol-0.13.0.tar.gz
+[2024-05-21 11:54:48] INFO root fetch - processPackages [groqon]: Downloading https://files.pythonhosted.org/packages/a7/0c/aff5fe3c051dc213d480240c63b838d319c0c141482082171b6cdc5afbbc/groqon-0.1.5.tar.gz
+[2024-05-21 11:54:48] INFO root fetch - processPackages [pulumi-ise]: Downloading https://files.pythonhosted.org/packages/ce/90/e74ba5f6201e576433530ed7bc60e985bfdd24e81b8f0189d1f87e41c96b/pulumi_ise-0.2.0a1715757808.tar.gz
+[2024-05-21 11:54:48] INFO root fetch - processPackages [sunray]: Downloading https://files.pythonhosted.org/packages/ac/17/650cc8e84c1c2e5e045450e969f64f7d0ebc84176628b54476a8c7962c4a/sunray-0.3.1-py3-none-any.whl
+[2024-05-21 11:54:48] INFO root fetch - processPackages [openobd-protocol]: executing diffoscope
+[2024-05-21 11:54:48] INFO root fetch - processPackages [openobd-protocol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openobd_protocol-0.12.0.tar.gz tmp/openobd_protocol-0.13.0.tar.gz --markdown 20240521/o/openobd-protocol/0.12.0-0.13.0/README.md --exclude *.pyd
+[2024-05-21 11:54:48] INFO root fetch - processPackages [groqon]: executing diffoscope
+[2024-05-21 11:54:48] INFO root fetch - processPackages [groqon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/groqon-0.1.4.tar.gz tmp/groqon-0.1.5.tar.gz --markdown 20240521/g/groqon/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-21 11:54:48] INFO root fetch - processPackages [wsppchem]: Downloading https://files.pythonhosted.org/packages/13/fa/c9c9e26bba9863971eed6062c2b20881aa66325242111d12c422d46476ac/wsppchem-0.91.tar.gz
+[2024-05-21 11:54:48] INFO root fetch - processPackages [sunray]: executing diffoscope
+[2024-05-21 11:54:48] INFO root fetch - processPackages [sunray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunray-0.3.0-py3-none-any.whl.zip tmp/sunray-0.3.1-py3-none-any.whl.zip --markdown 20240521/s/sunray/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-21 11:54:48] INFO root fetch - processPackages [odoo-addon-stock-request]: Downloading https://files.pythonhosted.org/packages/81/22/374ed174abcecff46bf56f927a1e73cbb29399bb6436a66956d405cbd28f/odoo_addon_stock_request-17.0.1.0.1-py3-none-any.whl
+[2024-05-21 11:54:48] INFO root fetch - processPackages [pulumi-ise]: Downloading https://files.pythonhosted.org/packages/8c/15/d0a3a570a3c3232dc9f55d631f1a3165ac5e69c48bdb8ed3f3fac9cd6bbf/pulumi_ise-0.2.0a1715924846.tar.gz
+[2024-05-21 11:54:48] INFO root fetch - processPackages [wsppchem]: executing diffoscope
+[2024-05-21 11:54:48] INFO root fetch - processPackages [wsppchem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wsppchem-0.9.tar.gz tmp/wsppchem-0.91.tar.gz --markdown 20240521/w/wsppchem/0.9-0.91/README.md --exclude *.pyd
+[2024-05-21 11:54:49] INFO root fetch - processPackages [nansat]: Remove: archive file [/home/abi/fetcher/tmp/nansat-1.6.1.tar.gz]
+[2024-05-21 11:54:49] INFO root fetch - processPackages [nansat]: Remove: archive file [/home/abi/fetcher/tmp/nansat-1.6.2rc1.tar.gz]
+[2024-05-21 11:54:49] INFO root fetch - main [MainThread]: End processing [nansat]: success
+[2024-05-21 11:54:49] INFO root fetch - processPackages [pulumi-ise]: executing diffoscope
+[2024-05-21 11:54:49] INFO root fetch - processPackages [pulumi-ise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_ise-0.2.0a1715757808.tar.gz tmp/pulumi_ise-0.2.0a1715924846.tar.gz --markdown 20240521/p/pulumi-ise/0.2.0a1715757808-0.2.0a1715924846/README.md --exclude *.pyd
+[2024-05-21 11:54:49] INFO root fetch - processPackages [odoo-addon-stock-request]: executing diffoscope
+[2024-05-21 11:54:49] INFO root fetch - processPackages [odoo-addon-stock-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_request-17.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_stock_request-17.0.1.0.1-py3-none-any.whl.zip --markdown 20240521/o/odoo-addon-stock-request/17.0.1.0.0.7-17.0.1.0.1/README.md --exclude *.pyd
+[2024-05-21 11:54:49] INFO root fetch - processPackages [outpostcli]: Remove: archive file [/home/abi/fetcher/tmp/outpostcli-0.0.8.tar.gz]
+[2024-05-21 11:54:49] INFO root fetch - processPackages [outpostcli]: Remove: archive file [/home/abi/fetcher/tmp/outpostcli-0.0.9.tar.gz]
+[2024-05-21 11:54:49] INFO root fetch - main [MainThread]: End processing [outpostcli]: success
+[2024-05-21 11:54:49] INFO root fetch - processPackages [avaframe]: Remove: archive file [/home/abi/fetcher/tmp/avaframe-1.8b2.tar.gz]
+[2024-05-21 11:54:49] INFO root fetch - processPackages [avaframe]: Remove: archive file [/home/abi/fetcher/tmp/avaframe-1.8b3.tar.gz]
+[2024-05-21 11:54:49] INFO root fetch - main [MainThread]: End processing [avaframe]: success
+[2024-05-21 11:54:49] INFO root fetch - processPackages [groqon]: Remove: archive file [/home/abi/fetcher/tmp/groqon-0.1.4.tar.gz]
+[2024-05-21 11:54:49] INFO root fetch - processPackages [groqon]: Remove: archive file [/home/abi/fetcher/tmp/groqon-0.1.5.tar.gz]
+[2024-05-21 11:54:49] INFO root fetch - main [MainThread]: End processing [groqon]: success
+[2024-05-21 11:54:49] INFO root fetch - processPackages [openobd-protocol]: Remove: archive file [/home/abi/fetcher/tmp/openobd_protocol-0.12.0.tar.gz]
+[2024-05-21 11:54:49] INFO root fetch - processPackages [openobd-protocol]: Remove: archive file [/home/abi/fetcher/tmp/openobd_protocol-0.13.0.tar.gz]
+[2024-05-21 11:54:49] INFO root fetch - main [MainThread]: End processing [openobd-protocol]: success
+[2024-05-21 11:54:49] INFO root fetch - processPackages [sunray]: Remove: archive file [/home/abi/fetcher/tmp/sunray-0.3.0-py3-none-any.whl.zip]
+[2024-05-21 11:54:49] INFO root fetch - processPackages [sunray]: Remove: archive file [/home/abi/fetcher/tmp/sunray-0.3.1-py3-none-any.whl.zip]
+[2024-05-21 11:54:49] INFO root fetch - main [MainThread]: End processing [sunray]: success
+[2024-05-21 11:54:50] INFO root fetch - processPackages [wsppchem]: Remove: archive file [/home/abi/fetcher/tmp/wsppchem-0.9.tar.gz]
+[2024-05-21 11:54:50] INFO root fetch - processPackages [wsppchem]: Remove: archive file [/home/abi/fetcher/tmp/wsppchem-0.91.tar.gz]
+[2024-05-21 11:54:50] INFO root fetch - main [MainThread]: End processing [wsppchem]: success
+[2024-05-21 11:54:50] INFO root fetch - processPackages [odoo-addon-stock-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_request-17.0.1.0.0.7-py3-none-any.whl.zip]
+[2024-05-21 11:54:50] INFO root fetch - processPackages [odoo-addon-stock-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_request-17.0.1.0.1-py3-none-any.whl.zip]
+[2024-05-21 11:54:50] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-request]: success
+[2024-05-21 11:54:50] INFO root fetch - processPackages [pulumi-ise]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ise-0.2.0a1715757808.tar.gz]
+[2024-05-21 11:54:50] INFO root fetch - processPackages [pulumi-ise]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ise-0.2.0a1715924846.tar.gz]
+[2024-05-21 11:54:50] INFO root fetch - main [MainThread]: End processing [pulumi-ise]: success
+[2024-05-21 11:57:46] ERROR root fetch - processPackages [alipay-sdk-python]: Timeout during execution of pkgdiff
+[2024-05-21 11:57:46] INFO root fetch - main [MainThread]: End processing [alipay-sdk-python] error
+[2024-05-21 11:57:46] INFO root fetch - main [MainThread]: Store serial: [23304222]
