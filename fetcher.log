@@ -7966,3 +7966,45 @@
 [2024-05-21 04:05:09] INFO root fetch - processPackages [BioSAK]: Remove: archive file [/home/abi/fetcher/tmp/BioSAK-1.88.9.tar.gz]
 [2024-05-21 04:05:09] INFO root fetch - main [MainThread]: End processing [BioSAK]: success
 [2024-05-21 04:05:09] INFO root fetch - main [MainThread]: Store serial: [23299727]
+[2024-05-21 04:07:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23299727]
+[2024-05-21 04:07:18] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-21 04:07:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: skia-python
+[2024-05-21 04:07:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pysect
+[2024-05-21 04:07:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: deltafi
+[2024-05-21 04:07:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: igneous-pipeline
+[2024-05-21 04:07:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: manipulation
+[2024-05-21 04:07:18] WARNING root fetch - processPackages [pysect]: Skipping, unable to determine old version
+[2024-05-21 04:07:18] INFO root fetch - main [MainThread]: End processing [pysect] error
+[2024-05-21 04:07:18] INFO root fetch - processPackages [deltafi]: New version: [2.0rc1716257100663] Old Version: [2.0rc1716000130240]
+[2024-05-21 04:07:18] INFO root fetch - processPackages [igneous-pipeline]: New version: [4.9.0] Old Version: [4.8.0]
+[2024-05-21 04:07:18] INFO root fetch - processPackages [skia-python]: New version: [87.6] Old Version: [87.5]
+[2024-05-21 04:07:18] INFO root fetch - processPackages [manipulation]: New version: [2024.5.18] Old Version: [2024.4.8]
+[2024-05-21 04:07:18] INFO root fetch - processPackages [deltafi]: Downloading https://files.pythonhosted.org/packages/4b/37/2ba91aba748e7495048c9e9253a7a830894bb207e7dec2f0fa7d8d9b0555/deltafi-2.0rc1716000130240.tar.gz
+[2024-05-21 04:07:18] INFO root fetch - processPackages [skia-python]: Downloading https://files.pythonhosted.org/packages/2d/49/6de425b4013ea34d5671b5a6fcad3ea87aa4d1286225e703c3f13999c125/skia_python-87.5-cp39-cp39-win_amd64.whl
+[2024-05-21 04:07:18] INFO root fetch - processPackages [igneous-pipeline]: Downloading https://files.pythonhosted.org/packages/44/05/223f9d80d8186c5262b494d43d08c25a5a57a20ec768157db3caa282edce/igneous-pipeline-4.8.0.tar.gz
+[2024-05-21 04:07:18] INFO root fetch - processPackages [manipulation]: Downloading https://files.pythonhosted.org/packages/21/dc/f24864a08263443a9df6b99d17da44cb862870f79a536935b1bb4edaa312/manipulation-2024.4.8.tar.gz
+[2024-05-21 04:07:18] INFO root fetch - processPackages [deltafi]: Downloading https://files.pythonhosted.org/packages/4d/47/9dd68e4fb46cd4611b4f4a996c60df100972a3a1b34cf4c80105fe1c253f/deltafi-2.0rc1716257100663.tar.gz
+[2024-05-21 04:07:19] INFO root fetch - processPackages [deltafi]: executing diffoscope
+[2024-05-21 04:07:19] INFO root fetch - processPackages [deltafi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deltafi-2.0rc1716000130240.tar.gz tmp/deltafi-2.0rc1716257100663.tar.gz --markdown 20240521/d/deltafi/2.0rc1716000130240-2.0rc1716257100663/README.md --exclude *.pyd
+[2024-05-21 04:07:19] INFO root fetch - processPackages [igneous-pipeline]: Downloading https://files.pythonhosted.org/packages/73/89/99a97070bf7edb5db3d588a78566a88207c6a26324df583d79cf41561a44/igneous-pipeline-4.9.0.tar.gz
+[2024-05-21 04:07:19] INFO root fetch - processPackages [manipulation]: Downloading https://files.pythonhosted.org/packages/b7/a7/df23818f91fd952aaa7e7efbdcea055819718ea49bdb1280920ea17c36c1/manipulation-2024.5.18.tar.gz
+[2024-05-21 04:07:19] INFO root fetch - processPackages [igneous-pipeline]: executing diffoscope
+[2024-05-21 04:07:19] INFO root fetch - processPackages [igneous-pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/igneous-pipeline-4.8.0.tar.gz tmp/igneous-pipeline-4.9.0.tar.gz --markdown 20240521/i/igneous-pipeline/4.8.0-4.9.0/README.md --exclude *.pyd
+[2024-05-21 04:07:19] INFO root fetch - processPackages [manipulation]: executing diffoscope
+[2024-05-21 04:07:19] INFO root fetch - processPackages [manipulation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manipulation-2024.4.8.tar.gz tmp/manipulation-2024.5.18.tar.gz --markdown 20240521/m/manipulation/2024.4.8-2024.5.18/README.md --exclude *.pyd
+[2024-05-21 04:07:19] INFO root fetch - processPackages [deltafi]: Remove: archive file [/home/abi/fetcher/tmp/deltafi-2.0rc1716000130240.tar.gz]
+[2024-05-21 04:07:19] INFO root fetch - processPackages [deltafi]: Remove: archive file [/home/abi/fetcher/tmp/deltafi-2.0rc1716257100663.tar.gz]
+[2024-05-21 04:07:19] INFO root fetch - main [MainThread]: End processing [deltafi]: success
+[2024-05-21 04:07:19] INFO root fetch - processPackages [skia-python]: Downloading https://files.pythonhosted.org/packages/6d/3e/35c835126493401122000e8468cb27f2642f09b11053d13a15cf14c86651/skia_python-87.6-cp39-cp39-win_amd64.whl
+[2024-05-21 04:07:20] INFO root fetch - processPackages [igneous-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/igneous-pipeline-4.8.0.tar.gz]
+[2024-05-21 04:07:20] INFO root fetch - processPackages [igneous-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/igneous-pipeline-4.9.0.tar.gz]
+[2024-05-21 04:07:20] INFO root fetch - main [MainThread]: End processing [igneous-pipeline]: success
+[2024-05-21 04:07:20] INFO root fetch - processPackages [skia-python]: executing diffoscope
+[2024-05-21 04:07:20] INFO root fetch - processPackages [skia-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skia_python-87.5-cp39-cp39-win_amd64.whl.zip tmp/skia_python-87.6-cp39-cp39-win_amd64.whl.zip --markdown 20240521/s/skia-python/87.5-87.6/README.md --exclude *.pyd
+[2024-05-21 04:07:20] INFO root fetch - processPackages [skia-python]: Remove: archive file [/home/abi/fetcher/tmp/skia_python-87.5-cp39-cp39-win_amd64.whl.zip]
+[2024-05-21 04:07:20] INFO root fetch - processPackages [skia-python]: Remove: archive file [/home/abi/fetcher/tmp/skia_python-87.6-cp39-cp39-win_amd64.whl.zip]
+[2024-05-21 04:07:20] INFO root fetch - main [MainThread]: End processing [skia-python]: success
+[2024-05-21 04:07:20] INFO root fetch - processPackages [manipulation]: Remove: archive file [/home/abi/fetcher/tmp/manipulation-2024.4.8.tar.gz]
+[2024-05-21 04:07:20] INFO root fetch - processPackages [manipulation]: Remove: archive file [/home/abi/fetcher/tmp/manipulation-2024.5.18.tar.gz]
+[2024-05-21 04:07:20] INFO root fetch - main [MainThread]: End processing [manipulation]: success
+[2024-05-21 04:07:20] INFO root fetch - main [MainThread]: Store serial: [23299765]
