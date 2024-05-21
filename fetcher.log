@@ -7666,3 +7666,75 @@
 [2024-05-21 03:47:43] INFO root fetch - processPackages [opvious]: Remove: archive file [/home/abi/fetcher/tmp/opvious-0.9.6.tar.gz]
 [2024-05-21 03:47:43] INFO root fetch - main [MainThread]: End processing [opvious]: success
 [2024-05-21 03:47:43] INFO root fetch - main [MainThread]: Store serial: [23299618]
+[2024-05-21 03:49:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23299618]
+[2024-05-21 03:49:52] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-21 03:49:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: treescript-diff
+[2024-05-21 03:49:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mypy-boto3
+[2024-05-21 03:49:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: boto3-stubs
+[2024-05-21 03:49:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: boto3-stubs-lite
+[2024-05-21 03:49:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: RACHUS
+[2024-05-21 03:49:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kbve
+[2024-05-21 03:49:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: okipy
+[2024-05-21 03:49:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: opvious
+[2024-05-21 03:49:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tmticket
+[2024-05-21 03:49:52] INFO root fetch - processPackages [okipy]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-21 03:49:52] INFO root fetch - processPackages [opvious]: New version: [0.9.6] Old Version: [0.9.5]
+[2024-05-21 03:49:52] WARNING root fetch - processPackages [RACHUS]: Skipping, unable to determine old version
+[2024-05-21 03:49:52] INFO root fetch - main [MainThread]: End processing [RACHUS] error
+[2024-05-21 03:49:52] INFO root fetch - processPackages [kbve]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-21 03:49:52] WARNING root fetch - processPackages [treescript-diff]: Skipping, unable to determine old version
+[2024-05-21 03:49:52] INFO root fetch - main [MainThread]: End processing [treescript-diff] error
+[2024-05-21 03:49:52] INFO root fetch - processPackages [opvious]: Downloading https://files.pythonhosted.org/packages/d1/8f/b7e05d9b24e4dd1af2b9eab96fa7d1f97af088ed0836d9d8cfdb60c51360/opvious-0.9.5.tar.gz
+[2024-05-21 03:49:52] INFO root fetch - processPackages [boto3-stubs-lite]: New version: [1.34.99] Old Version: [1.34.98]
+[2024-05-21 03:49:52] INFO root fetch - processPackages [tmticket]: New version: [0.2.2] Old Version: [0.2.15]
+[2024-05-21 03:49:52] INFO root fetch - processPackages [boto3-stubs]: New version: [1.34.99] Old Version: [1.34.98]
+[2024-05-21 03:49:52] INFO root fetch - processPackages [mypy-boto3]: New version: [1.34.99] Old Version: [1.34.98]
+[2024-05-21 03:49:52] INFO root fetch - processPackages [okipy]: Downloading https://files.pythonhosted.org/packages/bc/95/78db80b96e1b69b2ffdb033ee463c255537abad9e3b8a1646a0c22cfeecd/okipy-1.0.0.tar.gz
+[2024-05-21 03:49:52] INFO root fetch - processPackages [kbve]: Downloading https://files.pythonhosted.org/packages/5c/d1/3a0064d65a65da5bf37bdd88302045d47261620acbedb568f5aa9bc2bab7/kbve-1.0.8.tar.gz
+[2024-05-21 03:49:52] INFO root fetch - processPackages [opvious]: Downloading https://files.pythonhosted.org/packages/c2/c3/e2b95ca71e91eb624497389cb2391d3310907b4f9f25dee1a75b99798c14/opvious-0.9.6.tar.gz
+[2024-05-21 03:49:52] INFO root fetch - processPackages [tmticket]: Downloading https://files.pythonhosted.org/packages/f6/77/9e8ea108b13a566b225aa35ac94d1abd8a3d8d88c3be087b936d8bd28ea1/tmticket-0.2.15.tar.gz
+[2024-05-21 03:49:52] INFO root fetch - processPackages [mypy-boto3]: Downloading https://files.pythonhosted.org/packages/30/4e/c1c128695de7b71c508e935709f150b3786af0129a928e487226243306db/mypy_boto3-1.34.98.tar.gz
+[2024-05-21 03:49:52] INFO root fetch - processPackages [opvious]: executing diffoscope
+[2024-05-21 03:49:52] INFO root fetch - processPackages [opvious]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opvious-0.9.5.tar.gz tmp/opvious-0.9.6.tar.gz --markdown 20240521/o/opvious/0.9.5-0.9.6/README.md --exclude *.pyd
+[2024-05-21 03:49:52] INFO root fetch - processPackages [boto3-stubs-lite]: Downloading https://files.pythonhosted.org/packages/0e/48/561f3b18311fba8e95431da13edc2800394ffb50ada91fbb50d484d13b61/boto3_stubs_lite-1.34.98.tar.gz
+[2024-05-21 03:49:52] INFO root fetch - processPackages [okipy]: Downloading https://files.pythonhosted.org/packages/64/18/7a12355672c9e8d764b8222be1c1a87241744441647c0cae8efe2c44c1b4/okipy-1.0.1.tar.gz
+[2024-05-21 03:49:53] INFO root fetch - processPackages [kbve]: Downloading https://files.pythonhosted.org/packages/b3/2c/6bc178c921c5e75a33cbde662fd3b1aa7e3fac698ba0938bfc2d4eb484a9/kbve-1.0.9.tar.gz
+[2024-05-21 03:49:53] INFO root fetch - processPackages [boto3-stubs]: Downloading https://files.pythonhosted.org/packages/4c/cf/563ab2c2a40b8ce7b9d0e1c2d8ac58ab76d69988312d4273784129fd0f36/boto3_stubs-1.34.98.tar.gz
+[2024-05-21 03:49:53] INFO root fetch - processPackages [okipy]: executing diffoscope
+[2024-05-21 03:49:53] INFO root fetch - processPackages [okipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/okipy-1.0.0.tar.gz tmp/okipy-1.0.1.tar.gz --markdown 20240521/o/okipy/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-21 03:49:53] INFO root fetch - processPackages [kbve]: executing diffoscope
+[2024-05-21 03:49:53] INFO root fetch - processPackages [kbve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kbve-1.0.8.tar.gz tmp/kbve-1.0.9.tar.gz --markdown 20240521/k/kbve/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-21 03:49:53] INFO root fetch - processPackages [mypy-boto3]: Downloading https://files.pythonhosted.org/packages/c2/7a/2b2f6c326bd14afc8db49381f42d478f66c889557cc7e29cb87bde1debfd/mypy_boto3-1.34.99.tar.gz
+[2024-05-21 03:49:53] INFO root fetch - processPackages [mypy-boto3]: executing diffoscope
+[2024-05-21 03:49:53] INFO root fetch - processPackages [mypy-boto3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy_boto3-1.34.98.tar.gz tmp/mypy_boto3-1.34.99.tar.gz --markdown 20240521/m/mypy-boto3/1.34.98-1.34.99/README.md --exclude *.pyd
+[2024-05-21 03:49:53] INFO root fetch - processPackages [boto3-stubs-lite]: Downloading https://files.pythonhosted.org/packages/32/ef/3a06b99b3013fe6c861e0e41657b24ef0d9c8fffd7baa15ee27ca0c8af54/boto3_stubs_lite-1.34.99.tar.gz
+[2024-05-21 03:49:53] INFO root fetch - processPackages [boto3-stubs]: Downloading https://files.pythonhosted.org/packages/70/fa/2b1ff65115f3a17c2534fc7f10be825f3c1c5f760ddb01d099a5e51df41a/boto3_stubs-1.34.99.tar.gz
+[2024-05-21 03:49:53] INFO root fetch - processPackages [opvious]: Remove: archive file [/home/abi/fetcher/tmp/opvious-0.9.5.tar.gz]
+[2024-05-21 03:49:53] INFO root fetch - processPackages [opvious]: Remove: archive file [/home/abi/fetcher/tmp/opvious-0.9.6.tar.gz]
+[2024-05-21 03:49:53] INFO root fetch - main [MainThread]: End processing [opvious]: success
+[2024-05-21 03:49:53] INFO root fetch - processPackages [boto3-stubs-lite]: executing diffoscope
+[2024-05-21 03:49:53] INFO root fetch - processPackages [boto3-stubs-lite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boto3_stubs_lite-1.34.98.tar.gz tmp/boto3_stubs_lite-1.34.99.tar.gz --markdown 20240521/b/boto3-stubs-lite/1.34.98-1.34.99/README.md --exclude *.pyd
+[2024-05-21 03:49:53] INFO root fetch - processPackages [boto3-stubs]: executing diffoscope
+[2024-05-21 03:49:53] INFO root fetch - processPackages [boto3-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boto3_stubs-1.34.98.tar.gz tmp/boto3_stubs-1.34.99.tar.gz --markdown 20240521/b/boto3-stubs/1.34.98-1.34.99/README.md --exclude *.pyd
+[2024-05-21 03:49:53] INFO root fetch - processPackages [okipy]: Remove: archive file [/home/abi/fetcher/tmp/okipy-1.0.0.tar.gz]
+[2024-05-21 03:49:53] INFO root fetch - processPackages [okipy]: Remove: archive file [/home/abi/fetcher/tmp/okipy-1.0.1.tar.gz]
+[2024-05-21 03:49:53] INFO root fetch - main [MainThread]: End processing [okipy]: success
+[2024-05-21 03:49:53] INFO root fetch - processPackages [kbve]: Remove: archive file [/home/abi/fetcher/tmp/kbve-1.0.8.tar.gz]
+[2024-05-21 03:49:53] INFO root fetch - processPackages [kbve]: Remove: archive file [/home/abi/fetcher/tmp/kbve-1.0.9.tar.gz]
+[2024-05-21 03:49:53] INFO root fetch - main [MainThread]: End processing [kbve]: success
+[2024-05-21 03:49:53] INFO root fetch - processPackages [mypy-boto3]: Remove: archive file [/home/abi/fetcher/tmp/mypy_boto3-1.34.98.tar.gz]
+[2024-05-21 03:49:53] INFO root fetch - processPackages [mypy-boto3]: Remove: archive file [/home/abi/fetcher/tmp/mypy_boto3-1.34.99.tar.gz]
+[2024-05-21 03:49:53] INFO root fetch - main [MainThread]: End processing [mypy-boto3]: success
+[2024-05-21 03:49:53] INFO root fetch - processPackages [tmticket]: Downloading https://files.pythonhosted.org/packages/14/24/d9b4e8fa75d1188e9a793c4a4910d44ca119f97ff0b3779a448274e8c3fd/tmticket-0.2.2.tar.gz
+[2024-05-21 03:49:54] INFO root fetch - processPackages [tmticket]: executing diffoscope
+[2024-05-21 03:49:54] INFO root fetch - processPackages [tmticket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmticket-0.2.15.tar.gz tmp/tmticket-0.2.2.tar.gz --markdown 20240521/t/tmticket/0.2.15-0.2.2/README.md --exclude *.pyd
+[2024-05-21 03:49:54] INFO root fetch - processPackages [tmticket]: Remove: archive file [/home/abi/fetcher/tmp/tmticket-0.2.15.tar.gz]
+[2024-05-21 03:49:54] INFO root fetch - processPackages [tmticket]: Remove: archive file [/home/abi/fetcher/tmp/tmticket-0.2.2.tar.gz]
+[2024-05-21 03:49:54] INFO root fetch - main [MainThread]: End processing [tmticket]: success
+[2024-05-21 03:49:54] INFO root fetch - processPackages [boto3-stubs-lite]: Remove: archive file [/home/abi/fetcher/tmp/boto3_stubs_lite-1.34.98.tar.gz]
+[2024-05-21 03:49:54] INFO root fetch - processPackages [boto3-stubs-lite]: Remove: archive file [/home/abi/fetcher/tmp/boto3_stubs_lite-1.34.99.tar.gz]
+[2024-05-21 03:49:54] INFO root fetch - main [MainThread]: End processing [boto3-stubs-lite]: success
+[2024-05-21 03:49:54] INFO root fetch - processPackages [boto3-stubs]: Remove: archive file [/home/abi/fetcher/tmp/boto3_stubs-1.34.98.tar.gz]
+[2024-05-21 03:49:54] INFO root fetch - processPackages [boto3-stubs]: Remove: archive file [/home/abi/fetcher/tmp/boto3_stubs-1.34.99.tar.gz]
+[2024-05-21 03:49:54] INFO root fetch - main [MainThread]: End processing [boto3-stubs]: success
+[2024-05-21 03:49:54] INFO root fetch - main [MainThread]: Store serial: [23299650]
