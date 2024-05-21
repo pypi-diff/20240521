@@ -16609,3 +16609,51 @@
 [2024-05-21 10:28:48] INFO root fetch - processPackages [pynxtools]: Remove: archive file [/home/abi/fetcher/tmp/pynxtools-0.3.1.tar.gz]
 [2024-05-21 10:28:48] INFO root fetch - main [MainThread]: End processing [pynxtools]: success
 [2024-05-21 10:28:48] INFO root fetch - main [MainThread]: Store serial: [23303138]
+[2024-05-21 10:30:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23303138]
+[2024-05-21 10:30:57] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-21 10:30:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-stock-available-mrp
+[2024-05-21 10:30:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: atlas-provider-sqlalchemy
+[2024-05-21 10:30:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: splink
+[2024-05-21 10:30:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: racetrack-client
+[2024-05-21 10:30:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dzidb
+[2024-05-21 10:30:57] INFO root fetch - processPackages [dzidb]: New version: [1.1] Old Version: [1.0.3]
+[2024-05-21 10:30:57] INFO root fetch - processPackages [atlas-provider-sqlalchemy]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-21 10:30:57] INFO root fetch - processPackages [odoo-addon-stock-available-mrp]: New version: [16.0.1.0.0.8] Old Version: [16.0.1.0.0.7]
+[2024-05-21 10:30:57] INFO root fetch - processPackages [atlas-provider-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/5c/32/19af8937881e28f1cf70984b782092d8244320ca8c5ca5de2e12120c6806/atlas_provider_sqlalchemy-0.2.0.tar.gz
+[2024-05-21 10:30:57] INFO root fetch - processPackages [odoo-addon-stock-available-mrp]: Downloading https://files.pythonhosted.org/packages/a0/4f/e4a5fb80df148f8feb1e5597c76b31f12e5ff153a1cd3b357b9c3bd1654b/odoo_addon_stock_available_mrp-16.0.1.0.0.7-py3-none-any.whl
+[2024-05-21 10:30:57] INFO root fetch - processPackages [splink]: New version: [4.0.0.dev5] Old Version: [4.0.0.dev4]
+[2024-05-21 10:30:57] INFO root fetch - processPackages [racetrack-client]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-05-21 10:30:58] INFO root fetch - processPackages [dzidb]: Downloading https://files.pythonhosted.org/packages/20/6e/8c815ccc9c19dbff1561ff15b3e11813170fa563c871a891b74de978d6de/dzidb-1.0.3.tar.gz
+[2024-05-21 10:30:58] INFO root fetch - processPackages [splink]: Downloading https://files.pythonhosted.org/packages/98/e6/7ba6e20b648b2fd6181d7add7eb017cc349419e9011c5c85a568682be103/splink-4.0.0.dev4.tar.gz
+[2024-05-21 10:30:58] INFO root fetch - processPackages [atlas-provider-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/c8/05/a77b87c6f6f134c7c1bcdcd81ae77e105007a732f49e484a01f82a549358/atlas_provider_sqlalchemy-0.2.1.tar.gz
+[2024-05-21 10:30:58] INFO root fetch - processPackages [odoo-addon-stock-available-mrp]: Downloading https://files.pythonhosted.org/packages/ea/5a/09eb3aa1154ba5da8050b0c716780dd25390ab1dbcef1ae1abbe9e20add2/odoo_addon_stock_available_mrp-16.0.1.0.0.8-py3-none-any.whl
+[2024-05-21 10:30:58] INFO root fetch - processPackages [racetrack-client]: Downloading https://files.pythonhosted.org/packages/c5/e0/1b3995d689b069da3b46aac4720caa0e0ad499503dd8f940924776f80602/racetrack-client-2.9.0.tar.gz
+[2024-05-21 10:30:58] INFO root fetch - processPackages [atlas-provider-sqlalchemy]: executing diffoscope
+[2024-05-21 10:30:58] INFO root fetch - processPackages [atlas-provider-sqlalchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atlas_provider_sqlalchemy-0.2.0.tar.gz tmp/atlas_provider_sqlalchemy-0.2.1.tar.gz --markdown 20240521/a/atlas-provider-sqlalchemy/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-21 10:30:58] INFO root fetch - processPackages [dzidb]: Downloading https://files.pythonhosted.org/packages/ab/7b/1eb783cec2be6c8f5f50400132b6afae58c752421a84c34ef92cb658707b/dzidb-1.1.tar.gz
+[2024-05-21 10:30:58] INFO root fetch - processPackages [odoo-addon-stock-available-mrp]: executing diffoscope
+[2024-05-21 10:30:58] INFO root fetch - processPackages [odoo-addon-stock-available-mrp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_available_mrp-16.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_stock_available_mrp-16.0.1.0.0.8-py3-none-any.whl.zip --markdown 20240521/o/odoo-addon-stock-available-mrp/16.0.1.0.0.7-16.0.1.0.0.8/README.md --exclude *.pyd
+[2024-05-21 10:30:58] INFO root fetch - processPackages [dzidb]: executing diffoscope
+[2024-05-21 10:30:58] INFO root fetch - processPackages [dzidb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dzidb-1.0.3.tar.gz tmp/dzidb-1.1.tar.gz --markdown 20240521/d/dzidb/1.0.3-1.1/README.md --exclude *.pyd
+[2024-05-21 10:30:58] INFO root fetch - processPackages [racetrack-client]: Downloading https://files.pythonhosted.org/packages/a3/cc/fb6d40f92b96278a16e133f99ef397c97c09211913cb331b846c4dc9fa85/racetrack-client-2.9.1.tar.gz
+[2024-05-21 10:30:58] INFO root fetch - processPackages [racetrack-client]: executing diffoscope
+[2024-05-21 10:30:58] INFO root fetch - processPackages [racetrack-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/racetrack-client-2.9.0.tar.gz tmp/racetrack-client-2.9.1.tar.gz --markdown 20240521/r/racetrack-client/2.9.0-2.9.1/README.md --exclude *.pyd
+[2024-05-21 10:30:58] INFO root fetch - processPackages [splink]: Downloading https://files.pythonhosted.org/packages/a1/25/2f188c175e28cb782c6b1cf30f5b3dfa64621ff757b405284a1dd55992a0/splink-4.0.0.dev5.tar.gz
+[2024-05-21 10:30:59] INFO root fetch - processPackages [splink]: executing diffoscope
+[2024-05-21 10:30:59] INFO root fetch - processPackages [splink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splink-4.0.0.dev4.tar.gz tmp/splink-4.0.0.dev5.tar.gz --markdown 20240521/s/splink/4.0.0.dev4-4.0.0.dev5/README.md --exclude *.pyd
+[2024-05-21 10:30:59] INFO root fetch - processPackages [atlas-provider-sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/atlas_provider_sqlalchemy-0.2.0.tar.gz]
+[2024-05-21 10:30:59] INFO root fetch - processPackages [atlas-provider-sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/atlas_provider_sqlalchemy-0.2.1.tar.gz]
+[2024-05-21 10:30:59] INFO root fetch - main [MainThread]: End processing [atlas-provider-sqlalchemy]: success
+[2024-05-21 10:30:59] INFO root fetch - processPackages [dzidb]: Remove: archive file [/home/abi/fetcher/tmp/dzidb-1.0.3.tar.gz]
+[2024-05-21 10:30:59] INFO root fetch - processPackages [dzidb]: Remove: archive file [/home/abi/fetcher/tmp/dzidb-1.1.tar.gz]
+[2024-05-21 10:30:59] INFO root fetch - main [MainThread]: End processing [dzidb]: success
+[2024-05-21 10:30:59] INFO root fetch - processPackages [odoo-addon-stock-available-mrp]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_available_mrp-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2024-05-21 10:30:59] INFO root fetch - processPackages [odoo-addon-stock-available-mrp]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_available_mrp-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2024-05-21 10:30:59] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-available-mrp]: success
+[2024-05-21 10:30:59] INFO root fetch - processPackages [racetrack-client]: Remove: archive file [/home/abi/fetcher/tmp/racetrack-client-2.9.0.tar.gz]
+[2024-05-21 10:30:59] INFO root fetch - processPackages [racetrack-client]: Remove: archive file [/home/abi/fetcher/tmp/racetrack-client-2.9.1.tar.gz]
+[2024-05-21 10:30:59] INFO root fetch - main [MainThread]: End processing [racetrack-client]: success
+[2024-05-21 10:31:00] INFO root fetch - processPackages [splink]: Remove: archive file [/home/abi/fetcher/tmp/splink-4.0.0.dev4.tar.gz]
+[2024-05-21 10:31:00] INFO root fetch - processPackages [splink]: Remove: archive file [/home/abi/fetcher/tmp/splink-4.0.0.dev5.tar.gz]
+[2024-05-21 10:31:00] INFO root fetch - main [MainThread]: End processing [splink]: success
+[2024-05-21 10:31:00] INFO root fetch - main [MainThread]: Store serial: [23303151]
