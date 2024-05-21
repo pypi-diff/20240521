@@ -16008,3 +16008,98 @@
 [2024-05-21 10:04:38] INFO root fetch - processPackages [langfun]: Remove: archive file [/home/abi/fetcher/tmp/langfun-0.0.2.dev20240520.tar.gz]
 [2024-05-21 10:04:38] INFO root fetch - main [MainThread]: End processing [langfun]: success
 [2024-05-21 10:04:38] INFO root fetch - main [MainThread]: Store serial: [23302921]
+[2024-05-21 10:06:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23302921]
+[2024-05-21 10:06:47] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-21 10:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dstack
+[2024-05-21 10:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-account-financial-report
+[2024-05-21 10:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ETH-GTD-cli
+[2024-05-21 10:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pygmtsar
+[2024-05-21 10:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: reproducibly
+[2024-05-21 10:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: apollo-lunar
+[2024-05-21 10:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nonebot-plugin-osubot
+[2024-05-21 10:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dzidb
+[2024-05-21 10:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: secured
+[2024-05-21 10:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fortpyx
+[2024-05-21 10:06:47] INFO root fetch - processPackages [ETH-GTD-cli]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-21 10:06:47] INFO root fetch - processPackages [dzidb]: New version: [1.1] Old Version: [1.0]
+[2024-05-21 10:06:47] INFO root fetch - processPackages [secured]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-21 10:06:47] WARNING root fetch - processPackages [fortpyx]: Skipping, unable to determine old version
+[2024-05-21 10:06:47] INFO root fetch - processPackages [fortpyx]: Start processing: tree-sitter-idl
+[2024-05-21 10:06:47] INFO root fetch - main [MainThread]: End processing [fortpyx] error
+[2024-05-21 10:06:47] INFO root fetch - processPackages [odoo-addon-account-financial-report]: New version: [17.0.1.1.2.1] Old Version: [17.0.1.1.2]
+[2024-05-21 10:06:47] INFO root fetch - processPackages [pygmtsar]: New version: [2024.4.17.post8] Old Version: [2024.4.17.post6]
+[2024-05-21 10:06:47] INFO root fetch - processPackages [nonebot-plugin-osubot]: New version: [6.2.0] Old Version: [6.1.2]
+[2024-05-21 10:06:47] INFO root fetch - processPackages [reproducibly]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-21 10:06:47] INFO root fetch - processPackages [dstack]: New version: [0.9rc2] Old Version: [0.9.post1]
+[2024-05-21 10:06:47] INFO root fetch - processPackages [apollo-lunar]: New version: [2024.5.21] Old Version: [2024.4.4rc1]
+[2024-05-21 10:06:48] INFO root fetch - processPackages [ETH-GTD-cli]: Downloading https://files.pythonhosted.org/packages/fa/bf/f37225e39cf80233dda242202230d3aa7858202e0130177c173dff3cccac/eth_gtd_cli-0.0.5.tar.gz
+[2024-05-21 10:06:48] INFO root fetch - processPackages [dzidb]: Downloading https://files.pythonhosted.org/packages/d2/6b/3871c246de0722bb548a73155b1a16498492565d1cba5fa5607387d429b8/dzidb-1.0.tar.gz
+[2024-05-21 10:06:48] INFO root fetch - processPackages [tree-sitter-idl]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-21 10:06:48] INFO root fetch - processPackages [secured]: Downloading https://files.pythonhosted.org/packages/58/03/ce013186de14e9d77d205c63f93d3f8e694dd09e2f07e8976080ff690f2a/secured-0.1.2.tar.gz
+[2024-05-21 10:06:48] INFO root fetch - processPackages [nonebot-plugin-osubot]: Downloading https://files.pythonhosted.org/packages/3e/62/c3b664201bae43b225a5063d60accda2245ef50f5a7a18546ed831bc3c00/nonebot-plugin-osubot-6.1.2.tar.gz
+[2024-05-21 10:06:48] INFO root fetch - processPackages [pygmtsar]: Downloading https://files.pythonhosted.org/packages/36/9c/13fc01ae2eee19361162092bfa73e9e004856aee3ef268e53fa6e1999f8e/pygmtsar-2024.4.17.post6.tar.gz
+[2024-05-21 10:06:48] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Downloading https://files.pythonhosted.org/packages/81/4f/d8b81d3e54d6db919ee371e3664f509b8e698355f38665e245c16d5b88c6/odoo_addon_account_financial_report-17.0.1.1.2-py3-none-any.whl
+[2024-05-21 10:06:48] WARNING root fetch - processPackages [nonebot-plugin-osubot]: Skipping package: exceeds size limit 29387531>=10485760
+[2024-05-21 10:06:48] INFO root fetch - processPackages [nonebot-plugin-osubot]: Start processing: quickbbee
+[2024-05-21 10:06:48] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-osubot] error
+[2024-05-21 10:06:48] INFO root fetch - processPackages [reproducibly]: Downloading https://files.pythonhosted.org/packages/6a/84/be38c41955b28478b3e910b03c53c02b27d1223447019925298b4329edde/reproducibly-0.0.6.tar.gz
+[2024-05-21 10:06:48] INFO root fetch - processPackages [dstack]: Downloading https://files.pythonhosted.org/packages/8f/33/51159a0ccb0f3afa597b1288d1b6c5457782cc77d5b6ad328af94c001e8e/dstack-0.9.post1.tar.gz
+[2024-05-21 10:06:48] INFO root fetch - processPackages [apollo-lunar]: Downloading https://files.pythonhosted.org/packages/2b/7d/ac278e0c2b56e554ec91a1fe5793ba9eec4ac940340d612bc809f49fb825/apollo_lunar-2024.4.4rc1.tar.gz
+[2024-05-21 10:06:48] WARNING root fetch - processPackages [quickbbee]: Skipping, unable to determine old version
+[2024-05-21 10:06:48] INFO root fetch - main [MainThread]: End processing [quickbbee] error
+[2024-05-21 10:06:48] INFO root fetch - processPackages [tree-sitter-idl]: Downloading https://files.pythonhosted.org/packages/58/f4/62b29680cf741f33a7d63542a76476380a241293949fe6467c9115e91d53/tree-sitter-idl-0.0.4.tar.gz
+[2024-05-21 10:06:48] INFO root fetch - processPackages [dzidb]: Downloading https://files.pythonhosted.org/packages/ab/7b/1eb783cec2be6c8f5f50400132b6afae58c752421a84c34ef92cb658707b/dzidb-1.1.tar.gz
+[2024-05-21 10:06:48] INFO root fetch - processPackages [secured]: Downloading https://files.pythonhosted.org/packages/b4/85/6d1b977aa0559a24cad4d5b521d61729888c3b04159197ccef9c32a26ed9/secured-0.1.3.tar.gz
+[2024-05-21 10:06:48] INFO root fetch - processPackages [ETH-GTD-cli]: Downloading https://files.pythonhosted.org/packages/6a/74/b21a71d538176d49ec154051347ee067a9f4c12f713be212c60f0982d748/eth_gtd_cli-0.0.6.tar.gz
+[2024-05-21 10:06:48] INFO root fetch - processPackages [pygmtsar]: Downloading https://files.pythonhosted.org/packages/5e/10/fc7b6429f655eb010796654d6ebb795beccc9519690a19c1da1777a67a44/pygmtsar-2024.4.17.post8.tar.gz
+[2024-05-21 10:06:48] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Downloading https://files.pythonhosted.org/packages/40/3b/e041799de37bedb1f81654cefd3cfce800c77a29592bb5c956278ba9daa4/odoo_addon_account_financial_report-17.0.1.1.2.1-py3-none-any.whl
+[2024-05-21 10:06:48] INFO root fetch - processPackages [dzidb]: executing diffoscope
+[2024-05-21 10:06:48] INFO root fetch - processPackages [dzidb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dzidb-1.0.tar.gz tmp/dzidb-1.1.tar.gz --markdown 20240521/d/dzidb/1.0-1.1/README.md --exclude *.pyd
+[2024-05-21 10:06:48] INFO root fetch - processPackages [secured]: executing diffoscope
+[2024-05-21 10:06:48] INFO root fetch - processPackages [secured]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secured-0.1.2.tar.gz tmp/secured-0.1.3.tar.gz --markdown 20240521/s/secured/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-21 10:06:48] INFO root fetch - processPackages [reproducibly]: Downloading https://files.pythonhosted.org/packages/5a/45/fa40597cdab2272a1904d4da19403edf9f14d3cc9fda81a8b9649efa1c18/reproducibly-0.0.7.tar.gz
+[2024-05-21 10:06:48] INFO root fetch - processPackages [ETH-GTD-cli]: executing diffoscope
+[2024-05-21 10:06:48] INFO root fetch - processPackages [ETH-GTD-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eth_gtd_cli-0.0.5.tar.gz tmp/eth_gtd_cli-0.0.6.tar.gz --markdown 20240521/E/ETH-GTD-cli/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-21 10:06:48] INFO root fetch - processPackages [dstack]: Downloading https://files.pythonhosted.org/packages/0c/71/fa2b8b831003b2f30398328af884d3a70b5bda19450f6119233da4ce9edc/dstack-0.9rc2.tar.gz
+[2024-05-21 10:06:48] INFO root fetch - processPackages [apollo-lunar]: Downloading https://files.pythonhosted.org/packages/b8/81/76c144730a6c860c38cb7927f20e46371e874c9c779952ad86810c34549f/apollo_lunar-2024.5.21.tar.gz
+[2024-05-21 10:06:48] INFO root fetch - processPackages [pygmtsar]: executing diffoscope
+[2024-05-21 10:06:48] INFO root fetch - processPackages [pygmtsar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygmtsar-2024.4.17.post6.tar.gz tmp/pygmtsar-2024.4.17.post8.tar.gz --markdown 20240521/p/pygmtsar/2024.4.17.post6-2024.4.17.post8/README.md --exclude *.pyd
+[2024-05-21 10:06:48] INFO root fetch - processPackages [tree-sitter-idl]: Downloading https://files.pythonhosted.org/packages/b7/b1/b45417dc109ea26c07edbac993e73b4f79f1e5e254aa081c0c5c4fd02eb6/tree-sitter-idl-0.0.5.tar.gz
+[2024-05-21 10:06:48] INFO root fetch - processPackages [odoo-addon-account-financial-report]: executing diffoscope
+[2024-05-21 10:06:48] INFO root fetch - processPackages [odoo-addon-account-financial-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_financial_report-17.0.1.1.2-py3-none-any.whl.zip tmp/odoo_addon_account_financial_report-17.0.1.1.2.1-py3-none-any.whl.zip --markdown 20240521/o/odoo-addon-account-financial-report/17.0.1.1.2-17.0.1.1.2.1/README.md --exclude *.pyd
+[2024-05-21 10:06:48] INFO root fetch - processPackages [reproducibly]: executing diffoscope
+[2024-05-21 10:06:48] INFO root fetch - processPackages [reproducibly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reproducibly-0.0.6.tar.gz tmp/reproducibly-0.0.7.tar.gz --markdown 20240521/r/reproducibly/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-21 10:06:48] INFO root fetch - processPackages [apollo-lunar]: executing diffoscope
+[2024-05-21 10:06:48] INFO root fetch - processPackages [apollo-lunar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apollo_lunar-2024.4.4rc1.tar.gz tmp/apollo_lunar-2024.5.21.tar.gz --markdown 20240521/a/apollo-lunar/2024.4.4rc1-2024.5.21/README.md --exclude *.pyd
+[2024-05-21 10:06:48] INFO root fetch - processPackages [dstack]: executing diffoscope
+[2024-05-21 10:06:48] INFO root fetch - processPackages [dstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dstack-0.9.post1.tar.gz tmp/dstack-0.9rc2.tar.gz --markdown 20240521/d/dstack/0.9.post1-0.9rc2/README.md --exclude *.pyd
+[2024-05-21 10:06:49] INFO root fetch - processPackages [tree-sitter-idl]: executing diffoscope
+[2024-05-21 10:06:49] INFO root fetch - processPackages [tree-sitter-idl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tree-sitter-idl-0.0.4.tar.gz tmp/tree-sitter-idl-0.0.5.tar.gz --markdown 20240521/t/tree-sitter-idl/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-21 10:06:49] INFO root fetch - processPackages [dzidb]: Remove: archive file [/home/abi/fetcher/tmp/dzidb-1.0.tar.gz]
+[2024-05-21 10:06:49] INFO root fetch - processPackages [dzidb]: Remove: archive file [/home/abi/fetcher/tmp/dzidb-1.1.tar.gz]
+[2024-05-21 10:06:49] INFO root fetch - main [MainThread]: End processing [dzidb]: success
+[2024-05-21 10:06:50] INFO root fetch - processPackages [ETH-GTD-cli]: Remove: archive file [/home/abi/fetcher/tmp/eth_gtd_cli-0.0.5.tar.gz]
+[2024-05-21 10:06:50] INFO root fetch - processPackages [ETH-GTD-cli]: Remove: archive file [/home/abi/fetcher/tmp/eth_gtd_cli-0.0.6.tar.gz]
+[2024-05-21 10:06:50] INFO root fetch - main [MainThread]: End processing [ETH-GTD-cli]: success
+[2024-05-21 10:06:50] INFO root fetch - processPackages [reproducibly]: Remove: archive file [/home/abi/fetcher/tmp/reproducibly-0.0.6.tar.gz]
+[2024-05-21 10:06:50] INFO root fetch - processPackages [reproducibly]: Remove: archive file [/home/abi/fetcher/tmp/reproducibly-0.0.7.tar.gz]
+[2024-05-21 10:06:50] INFO root fetch - processPackages [secured]: Remove: archive file [/home/abi/fetcher/tmp/secured-0.1.2.tar.gz]
+[2024-05-21 10:06:50] INFO root fetch - main [MainThread]: End processing [reproducibly]: success
+[2024-05-21 10:06:50] INFO root fetch - processPackages [secured]: Remove: archive file [/home/abi/fetcher/tmp/secured-0.1.3.tar.gz]
+[2024-05-21 10:06:50] INFO root fetch - main [MainThread]: End processing [secured]: success
+[2024-05-21 10:06:50] INFO root fetch - processPackages [apollo-lunar]: Remove: archive file [/home/abi/fetcher/tmp/apollo_lunar-2024.4.4rc1.tar.gz]
+[2024-05-21 10:06:50] INFO root fetch - processPackages [apollo-lunar]: Remove: archive file [/home/abi/fetcher/tmp/apollo_lunar-2024.5.21.tar.gz]
+[2024-05-21 10:06:50] INFO root fetch - main [MainThread]: End processing [apollo-lunar]: success
+[2024-05-21 10:06:50] INFO root fetch - processPackages [pygmtsar]: Remove: archive file [/home/abi/fetcher/tmp/pygmtsar-2024.4.17.post6.tar.gz]
+[2024-05-21 10:06:50] INFO root fetch - processPackages [pygmtsar]: Remove: archive file [/home/abi/fetcher/tmp/pygmtsar-2024.4.17.post8.tar.gz]
+[2024-05-21 10:06:50] INFO root fetch - main [MainThread]: End processing [pygmtsar]: success
+[2024-05-21 10:06:50] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_financial_report-17.0.1.1.2-py3-none-any.whl.zip]
+[2024-05-21 10:06:50] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_financial_report-17.0.1.1.2.1-py3-none-any.whl.zip]
+[2024-05-21 10:06:50] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-financial-report]: success
+[2024-05-21 10:06:50] INFO root fetch - processPackages [dstack]: Remove: archive file [/home/abi/fetcher/tmp/dstack-0.9.post1.tar.gz]
+[2024-05-21 10:06:50] INFO root fetch - processPackages [dstack]: Remove: archive file [/home/abi/fetcher/tmp/dstack-0.9rc2.tar.gz]
+[2024-05-21 10:06:50] INFO root fetch - main [MainThread]: End processing [dstack]: success
+[2024-05-21 10:06:50] INFO root fetch - processPackages [tree-sitter-idl]: Remove: archive file [/home/abi/fetcher/tmp/tree-sitter-idl-0.0.4.tar.gz]
+[2024-05-21 10:06:50] INFO root fetch - processPackages [tree-sitter-idl]: Remove: archive file [/home/abi/fetcher/tmp/tree-sitter-idl-0.0.5.tar.gz]
+[2024-05-21 10:06:50] INFO root fetch - main [MainThread]: End processing [tree-sitter-idl]: success
+[2024-05-21 10:06:50] INFO root fetch - main [MainThread]: Store serial: [23302963]
