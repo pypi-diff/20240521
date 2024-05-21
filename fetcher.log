@@ -7259,3 +7259,144 @@
 [2024-05-21 03:21:23] INFO root fetch - processPackages [botocore-a-la-carte-transfer]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-transfer-1.34.99.tar.gz]
 [2024-05-21 03:21:23] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-transfer]: success
 [2024-05-21 03:21:23] INFO root fetch - main [MainThread]: Store serial: [23299044]
+[2024-05-21 03:23:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23299044]
+[2024-05-21 03:23:32] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2024-05-21 03:23:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: botocore-a-la-carte-transfer
+[2024-05-21 03:23:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: botocore-a-la-carte-cloudhsm
+[2024-05-21 03:23:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: botocore-a-la-carte-supplychain
+[2024-05-21 03:23:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-wordpress
+[2024-05-21 03:23:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: botocore-a-la-carte-lakeformation
+[2024-05-21 03:23:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: botocore-a-la-carte-mediastore-data
+[2024-05-21 03:23:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: botocore-a-la-carte-wisdom
+[2024-05-21 03:23:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: botocore-a-la-carte-savingsplans
+[2024-05-21 03:23:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: botocore-a-la-carte-iotevents
+[2024-05-21 03:23:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: botocore-a-la-carte-memorydb
+[2024-05-21 03:23:32] INFO root fetch - processPackages [botocore-a-la-carte-transfer]: New version: [1.34.99] Old Version: [1.34.98]
+[2024-05-21 03:23:32] INFO root fetch - processPackages [botocore-a-la-carte-transfer]: Downloading https://files.pythonhosted.org/packages/28/8c/f1cfaf26d412ea84ae2cee3b4532374d15ed00a12a78866a4c5dd4290d77/botocore-a-la-carte-transfer-1.34.98.tar.gz
+[2024-05-21 03:23:32] INFO root fetch - processPackages [botocore-a-la-carte-wisdom]: New version: [1.34.99] Old Version: [1.34.98]
+[2024-05-21 03:23:32] INFO root fetch - processPackages [botocore-a-la-carte-supplychain]: New version: [1.34.99] Old Version: [1.34.98]
+[2024-05-21 03:23:32] INFO root fetch - processPackages [botocore-a-la-carte-cloudhsm]: New version: [1.34.99] Old Version: [1.34.98]
+[2024-05-21 03:23:32] INFO root fetch - processPackages [botocore-a-la-carte-mediastore-data]: New version: [1.34.99] Old Version: [1.34.98]
+[2024-05-21 03:23:32] INFO root fetch - processPackages [botocore-a-la-carte-memorydb]: New version: [1.34.99] Old Version: [1.34.98]
+[2024-05-21 03:23:32] INFO root fetch - processPackages [botocore-a-la-carte-lakeformation]: New version: [1.34.99] Old Version: [1.34.98]
+[2024-05-21 03:23:32] INFO root fetch - processPackages [cdk-wordpress]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-21 03:23:32] INFO root fetch - processPackages [botocore-a-la-carte-iotevents]: New version: [1.34.99] Old Version: [1.34.98]
+[2024-05-21 03:23:32] INFO root fetch - processPackages [botocore-a-la-carte-savingsplans]: New version: [1.34.99] Old Version: [1.34.98]
+[2024-05-21 03:23:32] INFO root fetch - processPackages [botocore-a-la-carte-transfer]: Downloading https://files.pythonhosted.org/packages/1e/13/cc9be36b6f28d9276ce6b10351ce457bce223e87897e2c0853beac666706/botocore-a-la-carte-transfer-1.34.99.tar.gz
+[2024-05-21 03:23:32] INFO root fetch - processPackages [botocore-a-la-carte-cloudhsm]: Downloading https://files.pythonhosted.org/packages/d8/a2/763bd37e9e7c9afdad576063122c503c01415ce27b3f6506de38d8fa7dae/botocore-a-la-carte-cloudhsm-1.34.98.tar.gz
+[2024-05-21 03:23:32] INFO root fetch - processPackages [botocore-a-la-carte-mediastore-data]: Downloading https://files.pythonhosted.org/packages/06/9e/8970cae687f5c68d9983d7a1519c412a12f7b4b6bdeaa32844589e682e99/botocore-a-la-carte-mediastore-data-1.34.98.tar.gz
+[2024-05-21 03:23:32] INFO root fetch - processPackages [botocore-a-la-carte-supplychain]: Downloading https://files.pythonhosted.org/packages/22/4a/1f7011b55a558e2e6823b48e5552e9d34a3e58b0a12706694389390fcd0e/botocore-a-la-carte-supplychain-1.34.98.tar.gz
+[2024-05-21 03:23:33] INFO root fetch - processPackages [botocore-a-la-carte-memorydb]: Downloading https://files.pythonhosted.org/packages/5f/58/4e0843b3fa5d148f705f468fe9742ebd8614d3adde37bd6d4a341cf3a695/botocore-a-la-carte-memorydb-1.34.98.tar.gz
+[2024-05-21 03:23:33] INFO root fetch - processPackages [botocore-a-la-carte-lakeformation]: Downloading https://files.pythonhosted.org/packages/c9/01/99d5a2bdc1ae2ceb45a2557e95440726f5e61d0045d4d13452933ca2e456/botocore-a-la-carte-lakeformation-1.34.98.tar.gz
+[2024-05-21 03:23:33] INFO root fetch - processPackages [botocore-a-la-carte-wisdom]: Downloading https://files.pythonhosted.org/packages/fe/a7/c28ea8e3598057fc2a3a72398ee38e09b18a7be625b2e6135625936f861d/botocore-a-la-carte-wisdom-1.34.98.tar.gz
+[2024-05-21 03:23:33] INFO root fetch - processPackages [botocore-a-la-carte-transfer]: executing diffoscope
+[2024-05-21 03:23:33] INFO root fetch - processPackages [botocore-a-la-carte-transfer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-transfer-1.34.98.tar.gz tmp/botocore-a-la-carte-transfer-1.34.99.tar.gz --markdown 20240521/b/botocore-a-la-carte-transfer/1.34.98-1.34.99/README.md --exclude *.pyd
+[2024-05-21 03:23:33] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/95/5a/46730445b7c8db7cad33c0b319cbd75004ba42b6cbe2f00628d2191c5516/cdk-wordpress-0.0.98.tar.gz
+[2024-05-21 03:23:33] INFO root fetch - processPackages [botocore-a-la-carte-iotevents]: Downloading https://files.pythonhosted.org/packages/58/88/f20772fc04772b778ca5d1e821756c1d191558df0109519f47a150a86ff0/botocore-a-la-carte-iotevents-1.34.98.tar.gz
+[2024-05-21 03:23:33] INFO root fetch - processPackages [botocore-a-la-carte-savingsplans]: Downloading https://files.pythonhosted.org/packages/54/e4/ca830671a42193add64b2a3caeabe8196c46ff00726a3c5864a86211fd24/botocore-a-la-carte-savingsplans-1.34.98.tar.gz
+[2024-05-21 03:23:33] INFO root fetch - processPackages [botocore-a-la-carte-cloudhsm]: Downloading https://files.pythonhosted.org/packages/ae/3a/a91198afd0934d1afa11bb2556e8e4729a49bdb0e05442831d3d0a5e0d06/botocore-a-la-carte-cloudhsm-1.34.99.tar.gz
+[2024-05-21 03:23:33] INFO root fetch - processPackages [botocore-a-la-carte-mediastore-data]: Downloading https://files.pythonhosted.org/packages/21/7b/0d10312af622716e40e86f6c98c84cf7d1543db94c19eaffd9647d572881/botocore-a-la-carte-mediastore-data-1.34.99.tar.gz
+[2024-05-21 03:23:33] INFO root fetch - processPackages [botocore-a-la-carte-supplychain]: Downloading https://files.pythonhosted.org/packages/20/68/17ee27ac327801d9903c199e466cee0785b7bca37c265d64d4f30b7b0826/botocore-a-la-carte-supplychain-1.34.99.tar.gz
+[2024-05-21 03:23:33] INFO root fetch - processPackages [botocore-a-la-carte-cloudhsm]: executing diffoscope
+[2024-05-21 03:23:33] INFO root fetch - processPackages [botocore-a-la-carte-cloudhsm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-cloudhsm-1.34.98.tar.gz tmp/botocore-a-la-carte-cloudhsm-1.34.99.tar.gz --markdown 20240521/b/botocore-a-la-carte-cloudhsm/1.34.98-1.34.99/README.md --exclude *.pyd
+[2024-05-21 03:23:33] INFO root fetch - processPackages [botocore-a-la-carte-iotevents]: Downloading https://files.pythonhosted.org/packages/26/03/539c0bcfdb2df216a8348e12f34c5b79daef7d82cc6683e737fe43a7348b/botocore-a-la-carte-iotevents-1.34.99.tar.gz
+[2024-05-21 03:23:33] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/f5/33/8bc435266e926cea52eb7df452e54c2c0657beef07580a86eae44236d88b/cdk-wordpress-0.0.99.tar.gz
+[2024-05-21 03:23:33] INFO root fetch - processPackages [botocore-a-la-carte-memorydb]: Downloading https://files.pythonhosted.org/packages/d3/7b/84cbfce8bc44bb232f3b50d6c9891d91d45040caa7bb80001d077c2322c9/botocore-a-la-carte-memorydb-1.34.99.tar.gz
+[2024-05-21 03:23:33] INFO root fetch - processPackages [botocore-a-la-carte-lakeformation]: Downloading https://files.pythonhosted.org/packages/e0/de/d010bde5ec07d644fa8d5bf90de0e6c0fa35d748317aa4302ace6d5c95f4/botocore-a-la-carte-lakeformation-1.34.99.tar.gz
+[2024-05-21 03:23:33] INFO root fetch - processPackages [botocore-a-la-carte-savingsplans]: Downloading https://files.pythonhosted.org/packages/cb/1a/d225c2b91365ab56adcbdf1f436ae800b74bdb9e55cd61795eb418aa73ec/botocore-a-la-carte-savingsplans-1.34.99.tar.gz
+[2024-05-21 03:23:33] INFO root fetch - processPackages [botocore-a-la-carte-mediastore-data]: executing diffoscope
+[2024-05-21 03:23:33] INFO root fetch - processPackages [botocore-a-la-carte-mediastore-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-mediastore-data-1.34.98.tar.gz tmp/botocore-a-la-carte-mediastore-data-1.34.99.tar.gz --markdown 20240521/b/botocore-a-la-carte-mediastore-data/1.34.98-1.34.99/README.md --exclude *.pyd
+[2024-05-21 03:23:33] INFO root fetch - processPackages [botocore-a-la-carte-supplychain]: executing diffoscope
+[2024-05-21 03:23:33] INFO root fetch - processPackages [botocore-a-la-carte-supplychain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-supplychain-1.34.98.tar.gz tmp/botocore-a-la-carte-supplychain-1.34.99.tar.gz --markdown 20240521/b/botocore-a-la-carte-supplychain/1.34.98-1.34.99/README.md --exclude *.pyd
+[2024-05-21 03:23:33] INFO root fetch - processPackages [botocore-a-la-carte-iotevents]: executing diffoscope
+[2024-05-21 03:23:33] INFO root fetch - processPackages [botocore-a-la-carte-iotevents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-iotevents-1.34.98.tar.gz tmp/botocore-a-la-carte-iotevents-1.34.99.tar.gz --markdown 20240521/b/botocore-a-la-carte-iotevents/1.34.98-1.34.99/README.md --exclude *.pyd
+[2024-05-21 03:23:33] INFO root fetch - processPackages [cdk-wordpress]: executing diffoscope
+[2024-05-21 03:23:33] INFO root fetch - processPackages [cdk-wordpress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-wordpress-0.0.98.tar.gz tmp/cdk-wordpress-0.0.99.tar.gz --markdown 20240521/c/cdk-wordpress/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-21 03:23:33] INFO root fetch - processPackages [botocore-a-la-carte-transfer]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-transfer-1.34.98.tar.gz]
+[2024-05-21 03:23:33] INFO root fetch - processPackages [botocore-a-la-carte-lakeformation]: executing diffoscope
+[2024-05-21 03:23:33] INFO root fetch - processPackages [botocore-a-la-carte-savingsplans]: executing diffoscope
+[2024-05-21 03:23:33] INFO root fetch - processPackages [botocore-a-la-carte-transfer]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-transfer-1.34.99.tar.gz]
+[2024-05-21 03:23:33] INFO root fetch - processPackages [botocore-a-la-carte-savingsplans]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-savingsplans-1.34.98.tar.gz tmp/botocore-a-la-carte-savingsplans-1.34.99.tar.gz --markdown 20240521/b/botocore-a-la-carte-savingsplans/1.34.98-1.34.99/README.md --exclude *.pyd
+[2024-05-21 03:23:33] INFO root fetch - processPackages [botocore-a-la-carte-lakeformation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-lakeformation-1.34.98.tar.gz tmp/botocore-a-la-carte-lakeformation-1.34.99.tar.gz --markdown 20240521/b/botocore-a-la-carte-lakeformation/1.34.98-1.34.99/README.md --exclude *.pyd
+[2024-05-21 03:23:33] INFO root fetch - processPackages [botocore-a-la-carte-transfer]: Start processing: botocore-a-la-carte-marketplace-entitlement
+[2024-05-21 03:23:33] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-transfer]: success
+[2024-05-21 03:23:33] INFO root fetch - processPackages [botocore-a-la-carte-memorydb]: executing diffoscope
+[2024-05-21 03:23:33] INFO root fetch - processPackages [botocore-a-la-carte-memorydb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-memorydb-1.34.98.tar.gz tmp/botocore-a-la-carte-memorydb-1.34.99.tar.gz --markdown 20240521/b/botocore-a-la-carte-memorydb/1.34.98-1.34.99/README.md --exclude *.pyd
+[2024-05-21 03:23:33] INFO root fetch - processPackages [botocore-a-la-carte-wisdom]: Downloading https://files.pythonhosted.org/packages/89/31/5b00d1ed6cdea01c4131abb45ebee316cc388a2a242517958355ffa50cc9/botocore-a-la-carte-wisdom-1.34.99.tar.gz
+[2024-05-21 03:23:33] INFO root fetch - processPackages [botocore-a-la-carte-marketplace-entitlement]: New version: [1.34.99] Old Version: [1.34.98]
+[2024-05-21 03:23:33] INFO root fetch - processPackages [botocore-a-la-carte-wisdom]: executing diffoscope
+[2024-05-21 03:23:33] INFO root fetch - processPackages [botocore-a-la-carte-wisdom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-wisdom-1.34.98.tar.gz tmp/botocore-a-la-carte-wisdom-1.34.99.tar.gz --markdown 20240521/b/botocore-a-la-carte-wisdom/1.34.98-1.34.99/README.md --exclude *.pyd
+[2024-05-21 03:23:34] INFO root fetch - processPackages [botocore-a-la-carte-cloudhsm]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-cloudhsm-1.34.98.tar.gz]
+[2024-05-21 03:23:34] INFO root fetch - processPackages [botocore-a-la-carte-cloudhsm]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-cloudhsm-1.34.99.tar.gz]
+[2024-05-21 03:23:34] INFO root fetch - processPackages [botocore-a-la-carte-cloudhsm]: Start processing: botocore-a-la-carte-sts
+[2024-05-21 03:23:34] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-cloudhsm]: success
+[2024-05-21 03:23:34] INFO root fetch - processPackages [botocore-a-la-carte-marketplace-entitlement]: Downloading https://files.pythonhosted.org/packages/67/d3/82d703e0a9569d553239d8de09799007755b5a01a6fd700856b0d30c4554/botocore-a-la-carte-marketplace-entitlement-1.34.98.tar.gz
+[2024-05-21 03:23:34] INFO root fetch - processPackages [botocore-a-la-carte-supplychain]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-supplychain-1.34.98.tar.gz]
+[2024-05-21 03:23:34] INFO root fetch - processPackages [botocore-a-la-carte-supplychain]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-supplychain-1.34.99.tar.gz]
+[2024-05-21 03:23:34] INFO root fetch - processPackages [botocore-a-la-carte-supplychain]: Start processing: botocore-a-la-carte-privatenetworks
+[2024-05-21 03:23:34] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-supplychain]: success
+[2024-05-21 03:23:34] INFO root fetch - processPackages [botocore-a-la-carte-sts]: New version: [1.34.99] Old Version: [1.34.98]
+[2024-05-21 03:23:34] INFO root fetch - processPackages [botocore-a-la-carte-iotevents]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-iotevents-1.34.98.tar.gz]
+[2024-05-21 03:23:34] INFO root fetch - processPackages [botocore-a-la-carte-iotevents]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-iotevents-1.34.99.tar.gz]
+[2024-05-21 03:23:34] INFO root fetch - processPackages [botocore-a-la-carte-iotevents]: Start processing: botocore-a-la-carte-chime-sdk-voice
+[2024-05-21 03:23:34] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-iotevents]: success
+[2024-05-21 03:23:34] INFO root fetch - processPackages [botocore-a-la-carte-marketplace-entitlement]: Downloading https://files.pythonhosted.org/packages/d1/7b/a5a82ed0168ab7d4739394538d35e4486dbad07770e8daa1a61f75fc6937/botocore-a-la-carte-marketplace-entitlement-1.34.99.tar.gz
+[2024-05-21 03:23:34] INFO root fetch - processPackages [botocore-a-la-carte-privatenetworks]: New version: [1.34.99] Old Version: [1.34.98]
+[2024-05-21 03:23:34] INFO root fetch - processPackages [botocore-a-la-carte-marketplace-entitlement]: executing diffoscope
+[2024-05-21 03:23:34] INFO root fetch - processPackages [botocore-a-la-carte-marketplace-entitlement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-marketplace-entitlement-1.34.98.tar.gz tmp/botocore-a-la-carte-marketplace-entitlement-1.34.99.tar.gz --markdown 20240521/b/botocore-a-la-carte-marketplace-entitlement/1.34.98-1.34.99/README.md --exclude *.pyd
+[2024-05-21 03:23:34] INFO root fetch - processPackages [botocore-a-la-carte-sts]: Downloading https://files.pythonhosted.org/packages/20/11/d76e378e64589943c4de4fd0413f2e7df7095ba0d0a02958f59a9fc10531/botocore-a-la-carte-sts-1.34.98.tar.gz
+[2024-05-21 03:23:34] INFO root fetch - processPackages [botocore-a-la-carte-chime-sdk-voice]: New version: [1.34.99] Old Version: [1.34.98]
+[2024-05-21 03:23:34] INFO root fetch - processPackages [botocore-a-la-carte-savingsplans]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-savingsplans-1.34.98.tar.gz]
+[2024-05-21 03:23:34] INFO root fetch - processPackages [botocore-a-la-carte-savingsplans]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-savingsplans-1.34.99.tar.gz]
+[2024-05-21 03:23:34] INFO root fetch - processPackages [botocore-a-la-carte-savingsplans]: Start processing: bencode-c
+[2024-05-21 03:23:34] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-savingsplans]: success
+[2024-05-21 03:23:34] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.98.tar.gz]
+[2024-05-21 03:23:34] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.99.tar.gz]
+[2024-05-21 03:23:34] INFO root fetch - processPackages [cdk-wordpress]: Start processing: play3slib
+[2024-05-21 03:23:34] INFO root fetch - main [MainThread]: End processing [cdk-wordpress]: success
+[2024-05-21 03:23:34] INFO root fetch - processPackages [bencode-c]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-21 03:23:34] WARNING root fetch - processPackages [play3slib]: Skipping, unable to determine old version
+[2024-05-21 03:23:34] INFO root fetch - main [MainThread]: End processing [play3slib] error
+[2024-05-21 03:23:34] INFO root fetch - processPackages [botocore-a-la-carte-lakeformation]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-lakeformation-1.34.98.tar.gz]
+[2024-05-21 03:23:34] INFO root fetch - processPackages [botocore-a-la-carte-lakeformation]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-lakeformation-1.34.99.tar.gz]
+[2024-05-21 03:23:34] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-lakeformation]: success
+[2024-05-21 03:23:34] INFO root fetch - processPackages [botocore-a-la-carte-privatenetworks]: Downloading https://files.pythonhosted.org/packages/18/5c/93ef3f33c1196c4a19e2cc3c99c350c064ea301f8f50b21986b914e7076e/botocore-a-la-carte-privatenetworks-1.34.98.tar.gz
+[2024-05-21 03:23:34] INFO root fetch - processPackages [bencode-c]: Downloading https://files.pythonhosted.org/packages/be/24/2d3c89e326c539c20378f3b86230589a4dc87f2bc91812e8c698cf5979b2/bencode_c-0.0.5.tar.gz
+[2024-05-21 03:23:34] INFO root fetch - processPackages [botocore-a-la-carte-wisdom]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-wisdom-1.34.98.tar.gz]
+[2024-05-21 03:23:34] INFO root fetch - processPackages [botocore-a-la-carte-wisdom]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-wisdom-1.34.99.tar.gz]
+[2024-05-21 03:23:34] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-wisdom]: success
+[2024-05-21 03:23:34] INFO root fetch - processPackages [botocore-a-la-carte-memorydb]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-memorydb-1.34.98.tar.gz]
+[2024-05-21 03:23:34] INFO root fetch - processPackages [botocore-a-la-carte-memorydb]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-memorydb-1.34.99.tar.gz]
+[2024-05-21 03:23:34] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-memorydb]: success
+[2024-05-21 03:23:35] INFO root fetch - processPackages [botocore-a-la-carte-mediastore-data]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-mediastore-data-1.34.98.tar.gz]
+[2024-05-21 03:23:35] INFO root fetch - processPackages [botocore-a-la-carte-mediastore-data]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-mediastore-data-1.34.99.tar.gz]
+[2024-05-21 03:23:35] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-mediastore-data]: success
+[2024-05-21 03:23:35] INFO root fetch - processPackages [botocore-a-la-carte-chime-sdk-voice]: Downloading https://files.pythonhosted.org/packages/8e/be/12d333efaf006fe6e1722418ef5e1bc86f50fec612ddb41144222472d835/botocore-a-la-carte-chime-sdk-voice-1.34.98.tar.gz
+[2024-05-21 03:23:35] INFO root fetch - processPackages [botocore-a-la-carte-sts]: Downloading https://files.pythonhosted.org/packages/a9/5a/40017586827ae1f4913e5205ac79480db578cf11f3910800af98368e288d/botocore-a-la-carte-sts-1.34.99.tar.gz
+[2024-05-21 03:23:35] INFO root fetch - processPackages [botocore-a-la-carte-sts]: executing diffoscope
+[2024-05-21 03:23:35] INFO root fetch - processPackages [botocore-a-la-carte-sts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-sts-1.34.98.tar.gz tmp/botocore-a-la-carte-sts-1.34.99.tar.gz --markdown 20240521/b/botocore-a-la-carte-sts/1.34.98-1.34.99/README.md --exclude *.pyd
+[2024-05-21 03:23:35] INFO root fetch - processPackages [bencode-c]: Downloading https://files.pythonhosted.org/packages/36/cf/9512b9049b808d2e414c09fdf476498388c8b78eb330de93b12144ff9b91/bencode_c-0.0.6.tar.gz
+[2024-05-21 03:23:35] INFO root fetch - processPackages [botocore-a-la-carte-privatenetworks]: Downloading https://files.pythonhosted.org/packages/7a/37/97c9472a23521edd7c73c26fafe2657a410ab8f565d10635b27fe77a63c2/botocore-a-la-carte-privatenetworks-1.34.99.tar.gz
+[2024-05-21 03:23:35] INFO root fetch - processPackages [bencode-c]: executing diffoscope
+[2024-05-21 03:23:35] INFO root fetch - processPackages [bencode-c]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bencode_c-0.0.5.tar.gz tmp/bencode_c-0.0.6.tar.gz --markdown 20240521/b/bencode-c/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-21 03:23:35] INFO root fetch - processPackages [botocore-a-la-carte-privatenetworks]: executing diffoscope
+[2024-05-21 03:23:35] INFO root fetch - processPackages [botocore-a-la-carte-privatenetworks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-privatenetworks-1.34.98.tar.gz tmp/botocore-a-la-carte-privatenetworks-1.34.99.tar.gz --markdown 20240521/b/botocore-a-la-carte-privatenetworks/1.34.98-1.34.99/README.md --exclude *.pyd
+[2024-05-21 03:23:35] INFO root fetch - processPackages [botocore-a-la-carte-marketplace-entitlement]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-marketplace-entitlement-1.34.98.tar.gz]
+[2024-05-21 03:23:35] INFO root fetch - processPackages [botocore-a-la-carte-marketplace-entitlement]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-marketplace-entitlement-1.34.99.tar.gz]
+[2024-05-21 03:23:35] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-marketplace-entitlement]: success
+[2024-05-21 03:23:35] INFO root fetch - processPackages [botocore-a-la-carte-chime-sdk-voice]: Downloading https://files.pythonhosted.org/packages/68/f1/81d8e124f91187abc40b5c6387aac117d259405f28619a3631853e215fdb/botocore-a-la-carte-chime-sdk-voice-1.34.99.tar.gz
+[2024-05-21 03:23:35] INFO root fetch - processPackages [botocore-a-la-carte-sts]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-sts-1.34.98.tar.gz]
+[2024-05-21 03:23:35] INFO root fetch - processPackages [botocore-a-la-carte-sts]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-sts-1.34.99.tar.gz]
+[2024-05-21 03:23:35] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-sts]: success
+[2024-05-21 03:23:35] INFO root fetch - processPackages [botocore-a-la-carte-chime-sdk-voice]: executing diffoscope
+[2024-05-21 03:23:35] INFO root fetch - processPackages [botocore-a-la-carte-chime-sdk-voice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-chime-sdk-voice-1.34.98.tar.gz tmp/botocore-a-la-carte-chime-sdk-voice-1.34.99.tar.gz --markdown 20240521/b/botocore-a-la-carte-chime-sdk-voice/1.34.98-1.34.99/README.md --exclude *.pyd
+[2024-05-21 03:23:36] INFO root fetch - processPackages [bencode-c]: Remove: archive file [/home/abi/fetcher/tmp/bencode_c-0.0.5.tar.gz]
+[2024-05-21 03:23:36] INFO root fetch - processPackages [bencode-c]: Remove: archive file [/home/abi/fetcher/tmp/bencode_c-0.0.6.tar.gz]
+[2024-05-21 03:23:36] INFO root fetch - main [MainThread]: End processing [bencode-c]: success
+[2024-05-21 03:23:36] INFO root fetch - processPackages [botocore-a-la-carte-privatenetworks]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-privatenetworks-1.34.98.tar.gz]
+[2024-05-21 03:23:36] INFO root fetch - processPackages [botocore-a-la-carte-privatenetworks]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-privatenetworks-1.34.99.tar.gz]
+[2024-05-21 03:23:36] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-privatenetworks]: success
+[2024-05-21 03:23:36] INFO root fetch - processPackages [botocore-a-la-carte-chime-sdk-voice]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-chime-sdk-voice-1.34.98.tar.gz]
+[2024-05-21 03:23:36] INFO root fetch - processPackages [botocore-a-la-carte-chime-sdk-voice]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-chime-sdk-voice-1.34.99.tar.gz]
+[2024-05-21 03:23:36] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-chime-sdk-voice]: success
+[2024-05-21 03:23:36] INFO root fetch - main [MainThread]: Store serial: [23299131]
