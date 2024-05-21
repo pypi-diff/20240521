@@ -2866,3 +2866,30 @@
 [2024-05-21 02:22:14] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
 [2024-05-21 02:22:14] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
 [2024-05-21 02:22:14] INFO root fetch - main [MainThread]: Store serial: [23297952]
+[2024-05-21 02:24:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23297952]
+[2024-05-21 02:24:23] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-21 02:24:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: df-analyze
+[2024-05-21 02:24:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: docsig
+[2024-05-21 02:24:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sbcli-dev
+[2024-05-21 02:24:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: SciServerApi
+[2024-05-21 02:24:23] WARNING root fetch - processPackages [df-analyze]: Skipping, unable to determine old version
+[2024-05-21 02:24:23] INFO root fetch - main [MainThread]: End processing [df-analyze] error
+[2024-05-21 02:24:23] INFO root fetch - processPackages [sbcli-dev]: New version: [2.6.5] Old Version: [2.6.4]
+[2024-05-21 02:24:23] INFO root fetch - processPackages [sbcli-dev]: Downloading https://files.pythonhosted.org/packages/68/f4/22865db7593f21f3941147ad7e3efcff14ac307e3fc9243af9dbe0869cb9/sbcli_dev-2.6.4.zip
+[2024-05-21 02:24:23] WARNING root fetch - processPackages [SciServerApi]: Skipping, unable to determine old version
+[2024-05-21 02:24:23] INFO root fetch - main [MainThread]: End processing [SciServerApi] error
+[2024-05-21 02:24:23] INFO root fetch - processPackages [docsig]: New version: [0.9.0] Old Version: [0.7.0]
+[2024-05-21 02:24:23] INFO root fetch - processPackages [docsig]: Downloading https://files.pythonhosted.org/packages/b7/aa/3a58eed65c9cd6b8bd5a25e3fb75d0dab2ecdda4b36d07b1e482c485f72b/docsig-0.7.0.tar.gz
+[2024-05-21 02:24:23] INFO root fetch - processPackages [sbcli-dev]: Downloading https://files.pythonhosted.org/packages/21/4d/3ae86585b4fa7945d9ccf2bd706970c1a2f95de857e02a9e1472fbf0424f/sbcli_dev-2.6.5.zip
+[2024-05-21 02:24:23] INFO root fetch - processPackages [sbcli-dev]: executing diffoscope
+[2024-05-21 02:24:23] INFO root fetch - processPackages [sbcli-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbcli_dev-2.6.4.zip tmp/sbcli_dev-2.6.5.zip --markdown 20240521/s/sbcli-dev/2.6.4-2.6.5/README.md --exclude *.pyd
+[2024-05-21 02:24:24] INFO root fetch - processPackages [docsig]: Downloading https://files.pythonhosted.org/packages/a5/8b/f9b2d72f71a3977e2edb7a543e8805b8f859ed021086b9eb63b07f9aa86d/docsig-0.9.0.tar.gz
+[2024-05-21 02:24:24] INFO root fetch - processPackages [docsig]: executing diffoscope
+[2024-05-21 02:24:24] INFO root fetch - processPackages [docsig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docsig-0.7.0.tar.gz tmp/docsig-0.9.0.tar.gz --markdown 20240521/d/docsig/0.7.0-0.9.0/README.md --exclude *.pyd
+[2024-05-21 02:24:24] INFO root fetch - processPackages [docsig]: Remove: archive file [/home/abi/fetcher/tmp/docsig-0.7.0.tar.gz]
+[2024-05-21 02:24:24] INFO root fetch - processPackages [docsig]: Remove: archive file [/home/abi/fetcher/tmp/docsig-0.9.0.tar.gz]
+[2024-05-21 02:24:24] INFO root fetch - main [MainThread]: End processing [docsig]: success
+[2024-05-21 02:24:24] INFO root fetch - processPackages [sbcli-dev]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_dev-2.6.4.zip]
+[2024-05-21 02:24:24] INFO root fetch - processPackages [sbcli-dev]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_dev-2.6.5.zip]
+[2024-05-21 02:24:24] INFO root fetch - main [MainThread]: End processing [sbcli-dev]: success
+[2024-05-21 02:24:24] INFO root fetch - main [MainThread]: Store serial: [23297967]
