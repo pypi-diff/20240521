@@ -22480,3 +22480,69 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-21 13:46:18] INFO root fetch - processPackages [scalib]: Remove: archive file [/home/abi/fetcher/tmp/scalib-0.5.8.tar.gz]
 [2024-05-21 13:46:18] INFO root fetch - main [MainThread]: End processing [scalib]: success
 [2024-05-21 13:46:18] INFO root fetch - main [MainThread]: Store serial: [23305586]
+[2024-05-21 13:48:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23305586]
+[2024-05-21 13:48:27] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-21 13:48:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: outpostcli
+[2024-05-21 13:48:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kfish
+[2024-05-21 13:48:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cw-rpa
+[2024-05-21 13:48:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: preppy
+[2024-05-21 13:48:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-l10n-es-aeat-mod216
+[2024-05-21 13:48:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-l10n-es-irnr
+[2024-05-21 13:48:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: requirements-checker
+[2024-05-21 13:48:27] INFO root fetch - processPackages [outpostcli]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-21 13:48:27] INFO root fetch - processPackages [kfish]: New version: [99.0.202405201947] Old Version: [99.0.202405201945]
+[2024-05-21 13:48:27] INFO root fetch - processPackages [odoo14-addon-l10n-es-aeat-mod216]: New version: [14.0.1.2.0] Old Version: [14.0.1.1.1.dev8]
+[2024-05-21 13:48:27] INFO root fetch - processPackages [preppy]: New version: [4.2.3] Old Version: [4.2.2]
+[2024-05-21 13:48:27] INFO root fetch - processPackages [odoo14-addon-l10n-es-irnr]: New version: [14.0.1.1.0] Old Version: [14.0.1.0.2.dev2]
+[2024-05-21 13:48:27] INFO root fetch - processPackages [cw-rpa]: New version: [0.1.0b0] Old Version: [0.1.0]
+[2024-05-21 13:48:27] INFO root fetch - processPackages [requirements-checker]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-21 13:48:27] INFO root fetch - processPackages [outpostcli]: Downloading https://files.pythonhosted.org/packages/7e/e2/114a39eac567286d0418645c0ea24089c48fcbe4cccec6c79191a5cefccf/outpostcli-0.0.8.tar.gz
+[2024-05-21 13:48:27] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/f0/aa/4421d2ae1c30a9274ca222120222f68d1162550656af4a0c437bc65c0b57/kfish-99.0.202405201945-py3-none-any.whl
+[2024-05-21 13:48:28] INFO root fetch - processPackages [preppy]: Downloading https://files.pythonhosted.org/packages/a1/1f/ebf7aebe9c691c0cb42dcdaaf742b5561e6a8cf788e92b588b52344ea72e/preppy-4.2.2-py2.py3-none-any.whl
+[2024-05-21 13:48:28] INFO root fetch - processPackages [outpostcli]: Downloading https://files.pythonhosted.org/packages/df/ab/82b6853cec170d33c2aff19e3a298b0bf56f7ba1b885f6f7d42a10ae43dc/outpostcli-0.0.9.tar.gz
+[2024-05-21 13:48:28] INFO root fetch - processPackages [odoo14-addon-l10n-es-aeat-mod216]: Downloading https://files.pythonhosted.org/packages/8f/75/c10deb35a01704bbd81f12270d7e84f8a223f5b484a7651d732085e9faf4/odoo14_addon_l10n_es_aeat_mod216-14.0.1.1.1.dev8-py3-none-any.whl
+[2024-05-21 13:48:28] INFO root fetch - processPackages [odoo14-addon-l10n-es-irnr]: Downloading https://files.pythonhosted.org/packages/a3/e9/952e65100f1021336c0be229313cd84de55e89dc3e38d48eca720af31b86/odoo14_addon_l10n_es_irnr-14.0.1.0.2.dev2-py3-none-any.whl
+[2024-05-21 13:48:28] INFO root fetch - processPackages [cw-rpa]: Downloading https://files.pythonhosted.org/packages/3e/6b/b63ca600f99838b5dd28f58d8abbab30263dcf8fb5b6fe5b3d478368ec89/cw_rpa-0.1.0-py3-none-any.whl
+[2024-05-21 13:48:28] INFO root fetch - processPackages [requirements-checker]: Downloading https://files.pythonhosted.org/packages/89/1c/b5d2a0ff6e8b37530f2972ebeebaf7cb3a2228d1c30646a8c7a93516c536/requirements_checker-0.1.8.tar.gz
+[2024-05-21 13:48:28] INFO root fetch - processPackages [outpostcli]: executing diffoscope
+[2024-05-21 13:48:28] INFO root fetch - processPackages [outpostcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/outpostcli-0.0.8.tar.gz tmp/outpostcli-0.0.9.tar.gz --markdown 20240521/o/outpostcli/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-21 13:48:28] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/15/b5/e541957aeeea82f765625bd655d7f0316027c5fd0d6f734a307d2e9af447/kfish-99.0.202405201947-py3-none-any.whl
+[2024-05-21 13:48:28] INFO root fetch - processPackages [preppy]: Downloading https://files.pythonhosted.org/packages/68/0f/eeb599571a00420823c554586465dbab77763275154c0c69304d221b0b77/preppy-4.2.3.tar.gz
+[2024-05-21 13:48:28] INFO root fetch - processPackages [cw-rpa]: Downloading https://files.pythonhosted.org/packages/b7/6d/bc864b55b1a2181e788d1b6f6574844a9c040cf6003fe0f4004d9984eda1/cw_rpa-0.1.0b0-py3-none-any.whl
+[2024-05-21 13:48:28] INFO root fetch - processPackages [odoo14-addon-l10n-es-aeat-mod216]: Downloading https://files.pythonhosted.org/packages/65/ca/4befc5555d569a200e93cefbaa3fd2cdc2d23b17ebb398ee14c20d0a967c/odoo14_addon_l10n_es_aeat_mod216-14.0.1.2.0-py3-none-any.whl
+[2024-05-21 13:48:28] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2024-05-21 13:48:28] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202405201945-py3-none-any.whl.zip tmp/kfish-99.0.202405201947-py3-none-any.whl.zip --markdown 20240521/k/kfish/99.0.202405201945-99.0.202405201947/README.md --exclude *.pyd
+[2024-05-21 13:48:28] INFO root fetch - processPackages [requirements-checker]: Downloading https://files.pythonhosted.org/packages/81/53/bd2e1b82ed32c2f7cfe852f4630f7b89232eb02baf877a4ac355d41801c5/requirements_checker-0.1.9.tar.gz
+[2024-05-21 13:48:28] INFO root fetch - processPackages [preppy]: executing diffoscope
+[2024-05-21 13:48:28] INFO root fetch - processPackages [preppy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/preppy-4.2.2-py2.py3-none-any.whl.zip tmp/preppy-4.2.3.tar.gz --markdown 20240521/p/preppy/4.2.2-4.2.3/README.md --exclude *.pyd
+[2024-05-21 13:48:28] INFO root fetch - processPackages [odoo14-addon-l10n-es-irnr]: Downloading https://files.pythonhosted.org/packages/1b/5a/480cabf257c81f76a675df767a1255baa85d7a09322b767424d79a58fa34/odoo14_addon_l10n_es_irnr-14.0.1.1.0-py3-none-any.whl
+[2024-05-21 13:48:28] INFO root fetch - processPackages [odoo14-addon-l10n-es-aeat-mod216]: executing diffoscope
+[2024-05-21 13:48:28] INFO root fetch - processPackages [odoo14-addon-l10n-es-aeat-mod216]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_es_aeat_mod216-14.0.1.1.1.dev8-py3-none-any.whl.zip tmp/odoo14_addon_l10n_es_aeat_mod216-14.0.1.2.0-py3-none-any.whl.zip --markdown 20240521/o/odoo14-addon-l10n-es-aeat-mod216/14.0.1.1.1.dev8-14.0.1.2.0/README.md --exclude *.pyd
+[2024-05-21 13:48:28] INFO root fetch - processPackages [cw-rpa]: executing diffoscope
+[2024-05-21 13:48:28] INFO root fetch - processPackages [cw-rpa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cw_rpa-0.1.0-py3-none-any.whl.zip tmp/cw_rpa-0.1.0b0-py3-none-any.whl.zip --markdown 20240521/c/cw-rpa/0.1.0-0.1.0b0/README.md --exclude *.pyd
+[2024-05-21 13:48:28] INFO root fetch - processPackages [requirements-checker]: executing diffoscope
+[2024-05-21 13:48:28] INFO root fetch - processPackages [requirements-checker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/requirements_checker-0.1.8.tar.gz tmp/requirements_checker-0.1.9.tar.gz --markdown 20240521/r/requirements-checker/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-21 13:48:28] INFO root fetch - processPackages [odoo14-addon-l10n-es-irnr]: executing diffoscope
+[2024-05-21 13:48:28] INFO root fetch - processPackages [odoo14-addon-l10n-es-irnr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_es_irnr-14.0.1.0.2.dev2-py3-none-any.whl.zip tmp/odoo14_addon_l10n_es_irnr-14.0.1.1.0-py3-none-any.whl.zip --markdown 20240521/o/odoo14-addon-l10n-es-irnr/14.0.1.0.2.dev2-14.0.1.1.0/README.md --exclude *.pyd
+[2024-05-21 13:48:28] INFO root fetch - processPackages [outpostcli]: Remove: archive file [/home/abi/fetcher/tmp/outpostcli-0.0.8.tar.gz]
+[2024-05-21 13:48:28] INFO root fetch - processPackages [outpostcli]: Remove: archive file [/home/abi/fetcher/tmp/outpostcli-0.0.9.tar.gz]
+[2024-05-21 13:48:28] INFO root fetch - main [MainThread]: End processing [outpostcli]: success
+[2024-05-21 13:48:29] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202405201945-py3-none-any.whl.zip]
+[2024-05-21 13:48:29] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202405201947-py3-none-any.whl.zip]
+[2024-05-21 13:48:29] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2024-05-21 13:48:29] INFO root fetch - processPackages [preppy]: Remove: archive file [/home/abi/fetcher/tmp/preppy-4.2.2-py2.py3-none-any.whl.zip]
+[2024-05-21 13:48:29] INFO root fetch - processPackages [preppy]: Remove: archive file [/home/abi/fetcher/tmp/preppy-4.2.3.tar.gz]
+[2024-05-21 13:48:29] INFO root fetch - main [MainThread]: End processing [preppy]: success
+[2024-05-21 13:48:29] INFO root fetch - processPackages [cw-rpa]: Remove: archive file [/home/abi/fetcher/tmp/cw_rpa-0.1.0-py3-none-any.whl.zip]
+[2024-05-21 13:48:29] INFO root fetch - processPackages [cw-rpa]: Remove: archive file [/home/abi/fetcher/tmp/cw_rpa-0.1.0b0-py3-none-any.whl.zip]
+[2024-05-21 13:48:29] INFO root fetch - main [MainThread]: End processing [cw-rpa]: success
+[2024-05-21 13:48:29] INFO root fetch - processPackages [odoo14-addon-l10n-es-irnr]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_es_irnr-14.0.1.0.2.dev2-py3-none-any.whl.zip]
+[2024-05-21 13:48:29] INFO root fetch - processPackages [odoo14-addon-l10n-es-irnr]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_es_irnr-14.0.1.1.0-py3-none-any.whl.zip]
+[2024-05-21 13:48:29] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-es-irnr]: success
+[2024-05-21 13:48:29] INFO root fetch - processPackages [odoo14-addon-l10n-es-aeat-mod216]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_es_aeat_mod216-14.0.1.1.1.dev8-py3-none-any.whl.zip]
+[2024-05-21 13:48:29] INFO root fetch - processPackages [odoo14-addon-l10n-es-aeat-mod216]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_es_aeat_mod216-14.0.1.2.0-py3-none-any.whl.zip]
+[2024-05-21 13:48:29] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-es-aeat-mod216]: success
+[2024-05-21 13:48:29] INFO root fetch - processPackages [requirements-checker]: Remove: archive file [/home/abi/fetcher/tmp/requirements_checker-0.1.8.tar.gz]
+[2024-05-21 13:48:29] INFO root fetch - processPackages [requirements-checker]: Remove: archive file [/home/abi/fetcher/tmp/requirements_checker-0.1.9.tar.gz]
+[2024-05-21 13:48:29] INFO root fetch - main [MainThread]: End processing [requirements-checker]: success
+[2024-05-21 13:48:29] INFO root fetch - main [MainThread]: Store serial: [23305611]
