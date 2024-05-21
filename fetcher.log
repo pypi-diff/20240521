@@ -11454,3 +11454,23 @@
 [2024-05-21 06:54:03] INFO root fetch - processPackages [PyRHEED]: Remove: archive file [/home/abi/fetcher/tmp/pyrheed-1.0.4.tar.gz]
 [2024-05-21 06:54:03] INFO root fetch - main [MainThread]: End processing [PyRHEED]: success
 [2024-05-21 06:54:03] INFO root fetch - main [MainThread]: Store serial: [23301148]
+[2024-05-21 06:56:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23301148]
+[2024-05-21 06:56:12] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-21 06:56:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: codeguessr
+[2024-05-21 06:56:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MilesToMuppets
+[2024-05-21 06:56:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jzai
+[2024-05-21 06:56:12] INFO root fetch - processPackages [jzai]: New version: [59.83.60] Old Version: [59.83.59]
+[2024-05-21 06:56:12] INFO root fetch - processPackages [jzai]: Downloading https://files.pythonhosted.org/packages/ec/a2/0e2e92b0d792788dd0fecfd67ef67a725f4dadf7c99f4a870647a1cf4ead/jzai-59.83.59.tar.gz
+[2024-05-21 06:56:12] INFO root fetch - processPackages [codeguessr]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-21 06:56:12] WARNING root fetch - processPackages [MilesToMuppets]: Skipping, unable to determine old version
+[2024-05-21 06:56:12] INFO root fetch - main [MainThread]: End processing [MilesToMuppets] error
+[2024-05-21 06:56:12] INFO root fetch - processPackages [codeguessr]: Downloading https://files.pythonhosted.org/packages/4c/73/1b9c842051efe2659120b613df7a357253e4c01daf8f8741a422c5ba0d9d/codeguessr-0.0.1-py3-none-any.whl
+[2024-05-21 06:56:12] WARNING root fetch - processPackages [codeguessr]: Skipping package: exceeds size limit 18045827>=10485760
+[2024-05-21 06:56:12] INFO root fetch - main [MainThread]: End processing [codeguessr] error
+[2024-05-21 06:56:12] INFO root fetch - processPackages [jzai]: Downloading https://files.pythonhosted.org/packages/dd/11/c9657070cdc088fcd0a4ea1024af4982f2f05554c72472f0d5e34d4f71fb/jzai-59.83.60.tar.gz
+[2024-05-21 06:56:12] INFO root fetch - processPackages [jzai]: executing diffoscope
+[2024-05-21 06:56:12] INFO root fetch - processPackages [jzai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jzai-59.83.59.tar.gz tmp/jzai-59.83.60.tar.gz --markdown 20240521/j/jzai/59.83.59-59.83.60/README.md --exclude *.pyd
+[2024-05-21 06:56:13] INFO root fetch - processPackages [jzai]: Remove: archive file [/home/abi/fetcher/tmp/jzai-59.83.59.tar.gz]
+[2024-05-21 06:56:13] INFO root fetch - processPackages [jzai]: Remove: archive file [/home/abi/fetcher/tmp/jzai-59.83.60.tar.gz]
+[2024-05-21 06:56:13] INFO root fetch - main [MainThread]: End processing [jzai]: success
+[2024-05-21 06:56:13] INFO root fetch - main [MainThread]: Store serial: [23301158]
