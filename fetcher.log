@@ -22743,3 +22743,84 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-21 13:57:18] INFO root fetch - processPackages [fsl-sub-plugin-slurm]: Remove: archive file [/home/abi/fetcher/tmp/fsl_sub_plugin_slurm-1.6.3.tar.gz]
 [2024-05-21 13:57:18] INFO root fetch - main [MainThread]: End processing [fsl-sub-plugin-slurm]: success
 [2024-05-21 13:57:18] INFO root fetch - main [MainThread]: Store serial: [23305714]
+[2024-05-21 13:59:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23305714]
+[2024-05-21 13:59:27] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-21 13:59:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tirsvadCLI-quiz-engine-4-trivia
+[2024-05-21 13:59:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qontract-reconcile
+[2024-05-21 13:59:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dzidb
+[2024-05-21 13:59:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: caluma
+[2024-05-21 13:59:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: afeng-py-tools
+[2024-05-21 13:59:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spaceone-inventory
+[2024-05-21 13:59:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: outpostcli
+[2024-05-21 13:59:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: wrabbit
+[2024-05-21 13:59:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: geo-roughness-tool
+[2024-05-21 13:59:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: CTK-Desert
+[2024-05-21 13:59:28] INFO root fetch - processPackages [dzidb]: New version: [1.1] Old Version: [1.0.8]
+[2024-05-21 13:59:28] INFO root fetch - processPackages [outpostcli]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-21 13:59:28] INFO root fetch - processPackages [spaceone-inventory]: New version: [2.0.dev99] Old Version: [2.0.dev98]
+[2024-05-21 13:59:28] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-05-21 13:59:28] WARNING root fetch - processPackages [tirsvadCLI-quiz-engine-4-trivia]: Skipping, unable to determine old version
+[2024-05-21 13:59:28] INFO root fetch - main [MainThread]: End processing [tirsvadCLI-quiz-engine-4-trivia] error
+[2024-05-21 13:59:28] INFO root fetch - processPackages [afeng-py-tools]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-21 13:59:28] INFO root fetch - processPackages [wrabbit]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-21 13:59:28] WARNING root fetch - processPackages [geo-roughness-tool]: Skipping, unable to determine old version
+[2024-05-21 13:59:28] INFO root fetch - main [MainThread]: End processing [geo-roughness-tool] error
+[2024-05-21 13:59:28] INFO root fetch - processPackages [caluma]: New version: [9.3.3] Old Version: [9.3.2]
+[2024-05-21 13:59:28] INFO root fetch - processPackages [dzidb]: Downloading https://files.pythonhosted.org/packages/72/bb/a08dd5b03f4b8aa27664a27111b99d794a04b6ea05812a34c7a800bb10a3/dzidb-1.0.8.tar.gz
+[2024-05-21 13:59:28] INFO root fetch - processPackages [CTK-Desert]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-21 13:59:28] INFO root fetch - processPackages [outpostcli]: Downloading https://files.pythonhosted.org/packages/7e/e2/114a39eac567286d0418645c0ea24089c48fcbe4cccec6c79191a5cefccf/outpostcli-0.0.8.tar.gz
+[2024-05-21 13:59:28] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/2b/23/73e091142fbd007706604f94cc95718e79d9259d998aa9dd424fc7cc6f7f/spaceone-inventory-2.0.dev98.tar.gz
+[2024-05-21 13:59:28] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-05-21 13:59:28] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/03/96/e24f6bbf418707708ed1ab31dd8f4af000cdfcd56c3955e6bcf876e28182/afeng-py-tools-0.0.98.tar.gz
+[2024-05-21 13:59:28] INFO root fetch - processPackages [caluma]: Downloading https://files.pythonhosted.org/packages/06/67/e6de3687faa671705d0dfda7b6e630e1bcbc61f816fd6ab89e85cff8c7aa/caluma-9.3.2.tar.gz
+[2024-05-21 13:59:28] INFO root fetch - processPackages [wrabbit]: Downloading https://files.pythonhosted.org/packages/b5/52/29732ccc232111d86b2983a88d59449a95a146dd9418fb4f6f5bda0a0bf4/wrabbit-0.1.1-py3-none-any.whl
+[2024-05-21 13:59:28] INFO root fetch - processPackages [outpostcli]: Downloading https://files.pythonhosted.org/packages/df/ab/82b6853cec170d33c2aff19e3a298b0bf56f7ba1b885f6f7d42a10ae43dc/outpostcli-0.0.9.tar.gz
+[2024-05-21 13:59:28] INFO root fetch - processPackages [CTK-Desert]: Downloading https://files.pythonhosted.org/packages/9a/73/c7239044a3b6edf571c3f5feded6aab241cff792f7acd98dd42652e44c95/CTK_Desert-0.0.8.tar.gz
+[2024-05-21 13:59:28] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/e7/30/f1229bb9f69283d6576804b473d6fe73ff3118fb5543c89d48b18f899ca2/spaceone-inventory-2.0.dev99.tar.gz
+[2024-05-21 13:59:28] INFO root fetch - processPackages [dzidb]: Downloading https://files.pythonhosted.org/packages/ab/7b/1eb783cec2be6c8f5f50400132b6afae58c752421a84c34ef92cb658707b/dzidb-1.1.tar.gz
+[2024-05-21 13:59:28] INFO root fetch - processPackages [outpostcli]: executing diffoscope
+[2024-05-21 13:59:28] INFO root fetch - processPackages [outpostcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/outpostcli-0.0.8.tar.gz tmp/outpostcli-0.0.9.tar.gz --markdown 20240521/o/outpostcli/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-21 13:59:28] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-05-21 13:59:28] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/b2/0a/41c6034fd5c224a859e4249b1b09e63d7acefba4ae5ac80d406a778a1e32/afeng-py-tools-0.0.99.tar.gz
+[2024-05-21 13:59:28] INFO root fetch - processPackages [dzidb]: executing diffoscope
+[2024-05-21 13:59:28] INFO root fetch - processPackages [dzidb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dzidb-1.0.8.tar.gz tmp/dzidb-1.1.tar.gz --markdown 20240521/d/dzidb/1.0.8-1.1/README.md --exclude *.pyd
+[2024-05-21 13:59:28] INFO root fetch - processPackages [spaceone-inventory]: executing diffoscope
+[2024-05-21 13:59:28] INFO root fetch - processPackages [spaceone-inventory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-inventory-2.0.dev98.tar.gz tmp/spaceone-inventory-2.0.dev99.tar.gz --markdown 20240521/s/spaceone-inventory/2.0.dev98-2.0.dev99/README.md --exclude *.pyd
+[2024-05-21 13:59:28] INFO root fetch - processPackages [wrabbit]: Downloading https://files.pythonhosted.org/packages/74/8a/2629d3a8cb8b9b3610fad64f1d6e6df50e538126f1a19c7012b908253c74/wrabbit-0.1.2-py3-none-any.whl
+[2024-05-21 13:59:28] INFO root fetch - processPackages [caluma]: Downloading https://files.pythonhosted.org/packages/1e/fa/e05325389dac654c53f4933cff2448263ca2569ff4599ef0bb2a2272d2bc/caluma-9.3.3.tar.gz
+[2024-05-21 13:59:28] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-05-21 13:59:28] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240521/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-05-21 13:59:28] INFO root fetch - processPackages [afeng-py-tools]: executing diffoscope
+[2024-05-21 13:59:28] INFO root fetch - processPackages [afeng-py-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/afeng-py-tools-0.0.98.tar.gz tmp/afeng-py-tools-0.0.99.tar.gz --markdown 20240521/a/afeng-py-tools/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-21 13:59:28] INFO root fetch - processPackages [caluma]: executing diffoscope
+[2024-05-21 13:59:28] INFO root fetch - processPackages [caluma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caluma-9.3.2.tar.gz tmp/caluma-9.3.3.tar.gz --markdown 20240521/c/caluma/9.3.2-9.3.3/README.md --exclude *.pyd
+[2024-05-21 13:59:29] INFO root fetch - processPackages [wrabbit]: executing diffoscope
+[2024-05-21 13:59:29] INFO root fetch - processPackages [wrabbit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wrabbit-0.1.1-py3-none-any.whl.zip tmp/wrabbit-0.1.2-py3-none-any.whl.zip --markdown 20240521/w/wrabbit/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-21 13:59:29] INFO root fetch - processPackages [CTK-Desert]: Downloading https://files.pythonhosted.org/packages/6d/b4/d3af97e7bf9ae492dceb1aad8191e260b603096af0a9755ffd707156f69f/CTK_Desert-0.0.9.tar.gz
+[2024-05-21 13:59:29] INFO root fetch - processPackages [CTK-Desert]: executing diffoscope
+[2024-05-21 13:59:29] INFO root fetch - processPackages [CTK-Desert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CTK_Desert-0.0.8.tar.gz tmp/CTK_Desert-0.0.9.tar.gz --markdown 20240521/C/CTK-Desert/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-21 13:59:29] INFO root fetch - processPackages [outpostcli]: Remove: archive file [/home/abi/fetcher/tmp/outpostcli-0.0.8.tar.gz]
+[2024-05-21 13:59:29] INFO root fetch - processPackages [outpostcli]: Remove: archive file [/home/abi/fetcher/tmp/outpostcli-0.0.9.tar.gz]
+[2024-05-21 13:59:29] INFO root fetch - main [MainThread]: End processing [outpostcli]: success
+[2024-05-21 13:59:29] INFO root fetch - processPackages [dzidb]: Remove: archive file [/home/abi/fetcher/tmp/dzidb-1.0.8.tar.gz]
+[2024-05-21 13:59:29] INFO root fetch - processPackages [dzidb]: Remove: archive file [/home/abi/fetcher/tmp/dzidb-1.1.tar.gz]
+[2024-05-21 13:59:29] INFO root fetch - main [MainThread]: End processing [dzidb]: success
+[2024-05-21 13:59:29] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-inventory-2.0.dev98.tar.gz]
+[2024-05-21 13:59:29] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-inventory-2.0.dev99.tar.gz]
+[2024-05-21 13:59:29] INFO root fetch - main [MainThread]: End processing [spaceone-inventory]: success
+[2024-05-21 13:59:29] INFO root fetch - processPackages [wrabbit]: Remove: archive file [/home/abi/fetcher/tmp/wrabbit-0.1.1-py3-none-any.whl.zip]
+[2024-05-21 13:59:29] INFO root fetch - processPackages [wrabbit]: Remove: archive file [/home/abi/fetcher/tmp/wrabbit-0.1.2-py3-none-any.whl.zip]
+[2024-05-21 13:59:29] INFO root fetch - main [MainThread]: End processing [wrabbit]: success
+[2024-05-21 13:59:30] INFO root fetch - processPackages [CTK-Desert]: Remove: archive file [/home/abi/fetcher/tmp/CTK_Desert-0.0.8.tar.gz]
+[2024-05-21 13:59:30] INFO root fetch - processPackages [CTK-Desert]: Remove: archive file [/home/abi/fetcher/tmp/CTK_Desert-0.0.9.tar.gz]
+[2024-05-21 13:59:30] INFO root fetch - main [MainThread]: End processing [CTK-Desert]: success
+[2024-05-21 13:59:30] INFO root fetch - processPackages [caluma]: Remove: archive file [/home/abi/fetcher/tmp/caluma-9.3.2.tar.gz]
+[2024-05-21 13:59:30] INFO root fetch - processPackages [caluma]: Remove: archive file [/home/abi/fetcher/tmp/caluma-9.3.3.tar.gz]
+[2024-05-21 13:59:30] INFO root fetch - main [MainThread]: End processing [caluma]: success
+[2024-05-21 13:59:30] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.98.tar.gz]
+[2024-05-21 13:59:30] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.99.tar.gz]
+[2024-05-21 13:59:30] INFO root fetch - main [MainThread]: End processing [afeng-py-tools]: success
+[2024-05-21 13:59:31] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-05-21 13:59:31] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-05-21 13:59:31] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-05-21 13:59:31] INFO root fetch - main [MainThread]: Store serial: [23305748]
