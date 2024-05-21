@@ -2705,3 +2705,54 @@
 [2024-05-21 02:15:41] INFO root fetch - processPackages [pytorch-ignite]: Remove: archive file [/home/abi/fetcher/tmp/pytorch_ignite-0.6.0.dev20240520.tar.gz]
 [2024-05-21 02:15:41] INFO root fetch - main [MainThread]: End processing [pytorch-ignite]: success
 [2024-05-21 02:15:41] INFO root fetch - main [MainThread]: Store serial: [23297898]
+[2024-05-21 02:17:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23297898]
+[2024-05-21 02:17:50] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-21 02:17:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scocli
+[2024-05-21 02:17:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdklabs.cdk-hyperledger-fabric-network
+[2024-05-21 02:17:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: more-peekable
+[2024-05-21 02:17:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-kubernetes-the-hard-way
+[2024-05-21 02:17:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdklabs.appsync-utils
+[2024-05-21 02:17:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-secret-manager-wrapper-layer
+[2024-05-21 02:17:50] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: New version: [0.0.26a1716227669] Old Version: [0.0.26a1716180899]
+[2024-05-21 02:17:50] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/f2/f5/e6536e302d6aeca45de70553d3761639ae3c35c6a129b8b8b91636ef641b/pulumi_kubernetes_the_hard_way-0.0.26a1716180899.tar.gz
+[2024-05-21 02:17:50] INFO root fetch - processPackages [scocli]: New version: [1.2] Old Version: [0.1]
+[2024-05-21 02:17:50] WARNING root fetch - processPackages [more-peekable]: Skipping, unable to determine old version
+[2024-05-21 02:17:50] INFO root fetch - main [MainThread]: End processing [more-peekable] error
+[2024-05-21 02:17:50] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-21 02:17:50] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: New version: [0.8.99] Old Version: [0.8.98]
+[2024-05-21 02:17:50] INFO root fetch - processPackages [cdklabs.appsync-utils]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-21 02:17:51] INFO root fetch - processPackages [scocli]: Downloading https://files.pythonhosted.org/packages/9a/67/f5ab544618f7fc4dfb81ce8253a1683396684e4431c73028a6df88231436/scocli-0.1.tar.gz
+[2024-05-21 02:17:51] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/00/91/545869a3cc999dbc9750aad345d775087610ebf834517c928a0d0e289c4e/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz
+[2024-05-21 02:17:51] INFO root fetch - processPackages [cdklabs.appsync-utils]: Downloading https://files.pythonhosted.org/packages/c2/b6/9921880127918975163ef796466fd100a8f3a6246436ca4993eafae4915d/cdklabs.appsync-utils-0.0.98.tar.gz
+[2024-05-21 02:17:51] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Downloading https://files.pythonhosted.org/packages/9b/c8/ddb4d2575b42b36bf1ebf5daccec9c3c53a9ac9cadaeffb66bed93dc3bab/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz
+[2024-05-21 02:17:51] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/9a/d3/a954788d5d478cceaaa7b2df7ae42a9bacc9105117734c0cc31be56c66cf/pulumi_kubernetes_the_hard_way-0.0.26a1716227669.tar.gz
+[2024-05-21 02:17:51] INFO root fetch - processPackages [scocli]: Downloading https://files.pythonhosted.org/packages/e0/84/b1ae7cb8dc45b537f37b77d28b5f5e0168e1ccb54bbcd2c5ebc661241a8d/scocli-1.2.tar.gz
+[2024-05-21 02:17:51] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: executing diffoscope
+[2024-05-21 02:17:51] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes_the_hard_way-0.0.26a1716180899.tar.gz tmp/pulumi_kubernetes_the_hard_way-0.0.26a1716227669.tar.gz --markdown 20240521/p/pulumi-kubernetes-the-hard-way/0.0.26a1716180899-0.0.26a1716227669/README.md --exclude *.pyd
+[2024-05-21 02:17:51] INFO root fetch - processPackages [scocli]: executing diffoscope
+[2024-05-21 02:17:51] INFO root fetch - processPackages [scocli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scocli-0.1.tar.gz tmp/scocli-1.2.tar.gz --markdown 20240521/s/scocli/0.1-1.2/README.md --exclude *.pyd
+[2024-05-21 02:17:51] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/c2/c5/a8a13bb72ea375e2ce99dd389e945478ce7d95d8628acf6db64f14f674f5/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz
+[2024-05-21 02:17:51] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Downloading https://files.pythonhosted.org/packages/56/40/cbf52f4213018f2d82f0aad0f2fa90e69c2923704c1905bd7e090d3accf2/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz
+[2024-05-21 02:17:51] INFO root fetch - processPackages [cdklabs.appsync-utils]: Downloading https://files.pythonhosted.org/packages/fe/2c/3a8605fe934a0a120041c6190f384b00350c8036420ee8d53ac0b0906f74/cdklabs.appsync-utils-0.0.99.tar.gz
+[2024-05-21 02:17:51] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: executing diffoscope
+[2024-05-21 02:17:51] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz --markdown 20240521/c/cdk-secret-manager-wrapper-layer/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-21 02:17:51] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: executing diffoscope
+[2024-05-21 02:17:51] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz --markdown 20240521/c/cdklabs.cdk-hyperledger-fabric-network/0.8.98-0.8.99/README.md --exclude *.pyd
+[2024-05-21 02:17:51] INFO root fetch - processPackages [cdklabs.appsync-utils]: executing diffoscope
+[2024-05-21 02:17:51] INFO root fetch - processPackages [cdklabs.appsync-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.appsync-utils-0.0.98.tar.gz tmp/cdklabs.appsync-utils-0.0.99.tar.gz --markdown 20240521/c/cdklabs.appsync-utils/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-21 02:17:52] INFO root fetch - processPackages [scocli]: Remove: archive file [/home/abi/fetcher/tmp/scocli-0.1.tar.gz]
+[2024-05-21 02:17:52] INFO root fetch - processPackages [scocli]: Remove: archive file [/home/abi/fetcher/tmp/scocli-1.2.tar.gz]
+[2024-05-21 02:17:52] INFO root fetch - main [MainThread]: End processing [scocli]: success
+[2024-05-21 02:17:52] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz]
+[2024-05-21 02:17:52] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz]
+[2024-05-21 02:17:52] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz]
+[2024-05-21 02:17:52] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-hyperledger-fabric-network]: success
+[2024-05-21 02:17:52] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz]
+[2024-05-21 02:17:52] INFO root fetch - main [MainThread]: End processing [cdk-secret-manager-wrapper-layer]: success
+[2024-05-21 02:17:52] INFO root fetch - processPackages [cdklabs.appsync-utils]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.appsync-utils-0.0.98.tar.gz]
+[2024-05-21 02:17:52] INFO root fetch - processPackages [cdklabs.appsync-utils]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.appsync-utils-0.0.99.tar.gz]
+[2024-05-21 02:17:52] INFO root fetch - main [MainThread]: End processing [cdklabs.appsync-utils]: success
+[2024-05-21 02:17:52] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.26a1716180899.tar.gz]
+[2024-05-21 02:17:52] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.26a1716227669.tar.gz]
+[2024-05-21 02:17:52] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes-the-hard-way]: success
+[2024-05-21 02:17:52] INFO root fetch - main [MainThread]: Store serial: [23297918]
