@@ -16195,3 +16195,18 @@
 [2024-05-21 10:11:13] INFO root fetch - processPackages [odoo-addon-sale-planner-calendar]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_planner_calendar-15.0.1.7.1-py3-none-any.whl.zip]
 [2024-05-21 10:11:13] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-planner-calendar]: success
 [2024-05-21 10:11:13] INFO root fetch - main [MainThread]: Store serial: [23302992]
+[2024-05-21 10:13:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23302992]
+[2024-05-21 10:13:21] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-21 10:13:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: calculate-savings
+[2024-05-21 10:13:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wenxian
+[2024-05-21 10:13:22] WARNING root fetch - processPackages [calculate-savings]: Skipping, unable to determine old version
+[2024-05-21 10:13:22] INFO root fetch - main [MainThread]: End processing [calculate-savings] error
+[2024-05-21 10:13:22] INFO root fetch - processPackages [wenxian]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-21 10:13:22] INFO root fetch - processPackages [wenxian]: Downloading https://files.pythonhosted.org/packages/4d/aa/c6f3a578d8b6c06bdbfc334e8dc8fbd69933566cc9c02395085406879e9e/wenxian-0.0.1.tar.gz
+[2024-05-21 10:13:22] INFO root fetch - processPackages [wenxian]: Downloading https://files.pythonhosted.org/packages/ab/34/17df30a724c63605eef0333572ba0e2512d23a1df23bb91d5870cf874c72/wenxian-0.0.2.tar.gz
+[2024-05-21 10:13:22] INFO root fetch - processPackages [wenxian]: executing diffoscope
+[2024-05-21 10:13:22] INFO root fetch - processPackages [wenxian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wenxian-0.0.1.tar.gz tmp/wenxian-0.0.2.tar.gz --markdown 20240521/w/wenxian/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-21 10:13:23] INFO root fetch - processPackages [wenxian]: Remove: archive file [/home/abi/fetcher/tmp/wenxian-0.0.1.tar.gz]
+[2024-05-21 10:13:23] INFO root fetch - processPackages [wenxian]: Remove: archive file [/home/abi/fetcher/tmp/wenxian-0.0.2.tar.gz]
+[2024-05-21 10:13:23] INFO root fetch - main [MainThread]: End processing [wenxian]: success
+[2024-05-21 10:13:23] INFO root fetch - main [MainThread]: Store serial: [23302999]
