@@ -20881,3 +20881,84 @@
 [2024-05-21 12:45:29] INFO root fetch - processPackages [gokart]: Remove: archive file [/home/abi/fetcher/tmp/gokart-1.4.0.tar.gz]
 [2024-05-21 12:45:29] INFO root fetch - main [MainThread]: End processing [gokart]: success
 [2024-05-21 12:45:29] INFO root fetch - main [MainThread]: Store serial: [23304925]
+[2024-05-21 12:47:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23304925]
+[2024-05-21 12:47:38] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-21 12:47:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: WSI-Preprocessing
+[2024-05-21 12:47:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: BarteSDK
+[2024-05-21 12:47:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: databricks-labs-blueprint
+[2024-05-21 12:47:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyodre
+[2024-05-21 12:47:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: outputdecorator
+[2024-05-21 12:47:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nansat
+[2024-05-21 12:47:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: maji-passport
+[2024-05-21 12:47:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: LLMSmith
+[2024-05-21 12:47:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pycanum
+[2024-05-21 12:47:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dzidb
+[2024-05-21 12:47:38] INFO root fetch - processPackages [pyodre]: New version: [0.0.4] Old Version: [0.0.2]
+[2024-05-21 12:47:38] INFO root fetch - processPackages [dzidb]: New version: [1.1] Old Version: [1.0.8]
+[2024-05-21 12:47:38] INFO root fetch - processPackages [maji-passport]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-21 12:47:38] INFO root fetch - processPackages [nansat]: New version: [1.6.2rc1] Old Version: [1.6.1]
+[2024-05-21 12:47:38] INFO root fetch - processPackages [BarteSDK]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-21 12:47:38] INFO root fetch - processPackages [databricks-labs-blueprint]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-05-21 12:47:38] WARNING root fetch - processPackages [WSI-Preprocessing]: Skipping, unable to determine old version
+[2024-05-21 12:47:38] INFO root fetch - processPackages [pyodre]: Downloading https://files.pythonhosted.org/packages/64/bc/74d3e73a098f32756131a1ca3221ae11ba00a8f9ad91a9b306e703966c40/pyodre-0.0.2.tar.gz
+[2024-05-21 12:47:38] INFO root fetch - main [MainThread]: End processing [WSI-Preprocessing] error
+[2024-05-21 12:47:38] INFO root fetch - processPackages [pycanum]: New version: [4.3.0] Old Version: [4.2.7]
+[2024-05-21 12:47:38] WARNING root fetch - processPackages [outputdecorator]: Skipping, unable to determine old version
+[2024-05-21 12:47:38] INFO root fetch - main [MainThread]: End processing [outputdecorator] error
+[2024-05-21 12:47:38] INFO root fetch - processPackages [dzidb]: Downloading https://files.pythonhosted.org/packages/72/bb/a08dd5b03f4b8aa27664a27111b99d794a04b6ea05812a34c7a800bb10a3/dzidb-1.0.8.tar.gz
+[2024-05-21 12:47:38] INFO root fetch - processPackages [BarteSDK]: Downloading https://files.pythonhosted.org/packages/1c/24/f265a111f10a855a327643e87273d1f3ba56190ad02e0175f3b5b6319e4c/bartesdk-0.1.8.tar.gz
+[2024-05-21 12:47:38] INFO root fetch - processPackages [nansat]: Downloading https://files.pythonhosted.org/packages/01/43/6835008c00f6f4115631945915a3268b0be9e2971efb1918e8bbdad48041/nansat-1.6.1.tar.gz
+[2024-05-21 12:47:38] INFO root fetch - processPackages [LLMSmith]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-05-21 12:47:38] INFO root fetch - processPackages [maji-passport]: Downloading https://files.pythonhosted.org/packages/77/e9/991c2a94bf7e799ebd2863558d49170c2592dc82d33b61c7957db712ab6e/maji_passport-0.0.4.tar.gz
+[2024-05-21 12:47:38] INFO root fetch - processPackages [pyodre]: Downloading https://files.pythonhosted.org/packages/fa/6c/52b69d6cfdfb2bac57e2a8c04e07d7d83c08a43d37c8a7f2c2512978051d/pyodre-0.0.4.tar.gz
+[2024-05-21 12:47:38] INFO root fetch - processPackages [dzidb]: Downloading https://files.pythonhosted.org/packages/ab/7b/1eb783cec2be6c8f5f50400132b6afae58c752421a84c34ef92cb658707b/dzidb-1.1.tar.gz
+[2024-05-21 12:47:38] INFO root fetch - processPackages [databricks-labs-blueprint]: Downloading https://files.pythonhosted.org/packages/88/bf/50beb49756116e6c0bd51088749dd38ce6c8ded3e63a4b3e040e3c667642/databricks_labs_blueprint-0.6.0.tar.gz
+[2024-05-21 12:47:38] INFO root fetch - processPackages [LLMSmith]: Downloading https://files.pythonhosted.org/packages/21/ec/48c12434c6d23b6411e149ce2dbc0e0a10a68a5cfe67583d2e2eb14a0e59/llmsmith-0.6.0.tar.gz
+[2024-05-21 12:47:38] INFO root fetch - processPackages [pycanum]: Downloading https://files.pythonhosted.org/packages/fe/6c/b20b9fad999b7bbec7c31a4055ee6ce669bdba17c5e12e95db216d3599d7/pycanum-4.2.7-cp39-cp39-win32.whl
+[2024-05-21 12:47:39] INFO root fetch - processPackages [dzidb]: executing diffoscope
+[2024-05-21 12:47:39] INFO root fetch - processPackages [dzidb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dzidb-1.0.8.tar.gz tmp/dzidb-1.1.tar.gz --markdown 20240521/d/dzidb/1.0.8-1.1/README.md --exclude *.pyd
+[2024-05-21 12:47:39] INFO root fetch - processPackages [pyodre]: executing diffoscope
+[2024-05-21 12:47:39] INFO root fetch - processPackages [pyodre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyodre-0.0.2.tar.gz tmp/pyodre-0.0.4.tar.gz --markdown 20240521/p/pyodre/0.0.2-0.0.4/README.md --exclude *.pyd
+[2024-05-21 12:47:39] INFO root fetch - processPackages [BarteSDK]: Downloading https://files.pythonhosted.org/packages/15/ee/a85c9e9d9f84f12e1c3ab4801827286e3ad5588e1683d13c5130caaa29f2/bartesdk-0.1.9.tar.gz
+[2024-05-21 12:47:39] INFO root fetch - processPackages [nansat]: Downloading https://files.pythonhosted.org/packages/35/b2/723061144fd9114d026083728600878d36dbd32a0632e523e39c01999d56/nansat-1.6.2rc1.tar.gz
+[2024-05-21 12:47:39] INFO root fetch - processPackages [maji-passport]: Downloading https://files.pythonhosted.org/packages/7d/1c/fae0dc1db91e68824ff2e1b68233a7686863d92eaa4b7f67f1658cedad75/maji_passport-0.0.5.tar.gz
+[2024-05-21 12:47:39] INFO root fetch - processPackages [BarteSDK]: executing diffoscope
+[2024-05-21 12:47:39] INFO root fetch - processPackages [BarteSDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bartesdk-0.1.8.tar.gz tmp/bartesdk-0.1.9.tar.gz --markdown 20240521/B/BarteSDK/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-21 12:47:39] INFO root fetch - processPackages [maji-passport]: executing diffoscope
+[2024-05-21 12:47:39] INFO root fetch - processPackages [maji-passport]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maji_passport-0.0.4.tar.gz tmp/maji_passport-0.0.5.tar.gz --markdown 20240521/m/maji-passport/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-21 12:47:39] INFO root fetch - processPackages [nansat]: executing diffoscope
+[2024-05-21 12:47:39] INFO root fetch - processPackages [nansat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nansat-1.6.1.tar.gz tmp/nansat-1.6.2rc1.tar.gz --markdown 20240521/n/nansat/1.6.1-1.6.2rc1/README.md --exclude *.pyd
+[2024-05-21 12:47:39] INFO root fetch - processPackages [pycanum]: Downloading https://files.pythonhosted.org/packages/61/e8/51d7a00e1c456d6dcc07a8a1bcecc088bd411829811fa7de1e2c1464bc55/pycanum-4.3.0-py3-none-any.whl
+[2024-05-21 12:47:39] INFO root fetch - processPackages [LLMSmith]: Downloading https://files.pythonhosted.org/packages/38/d8/16fd363d398d03e5937002256b26c0017db4a1e25a01d6ea92052d4d7221/llmsmith-0.7.0.tar.gz
+[2024-05-21 12:47:39] INFO root fetch - processPackages [pycanum]: executing diffoscope
+[2024-05-21 12:47:39] INFO root fetch - processPackages [pycanum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycanum-4.2.7-cp39-cp39-win32.whl.zip tmp/pycanum-4.3.0-py3-none-any.whl.zip --markdown 20240521/p/pycanum/4.2.7-4.3.0/README.md --exclude *.pyd
+[2024-05-21 12:47:39] INFO root fetch - processPackages [LLMSmith]: executing diffoscope
+[2024-05-21 12:47:39] INFO root fetch - processPackages [LLMSmith]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llmsmith-0.6.0.tar.gz tmp/llmsmith-0.7.0.tar.gz --markdown 20240521/L/LLMSmith/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-05-21 12:47:39] INFO root fetch - processPackages [databricks-labs-blueprint]: Downloading https://files.pythonhosted.org/packages/4c/11/67c5f30e7ec7b4748f17ef290e88f61b33f671e11c6d1a07681bf8a7d123/databricks_labs_blueprint-0.6.1.tar.gz
+[2024-05-21 12:47:39] INFO root fetch - processPackages [databricks-labs-blueprint]: executing diffoscope
+[2024-05-21 12:47:39] INFO root fetch - processPackages [databricks-labs-blueprint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databricks_labs_blueprint-0.6.0.tar.gz tmp/databricks_labs_blueprint-0.6.1.tar.gz --markdown 20240521/d/databricks-labs-blueprint/0.6.0-0.6.1/README.md --exclude *.pyd
+[2024-05-21 12:47:39] INFO root fetch - processPackages [pyodre]: Remove: archive file [/home/abi/fetcher/tmp/pyodre-0.0.2.tar.gz]
+[2024-05-21 12:47:39] INFO root fetch - processPackages [pyodre]: Remove: archive file [/home/abi/fetcher/tmp/pyodre-0.0.4.tar.gz]
+[2024-05-21 12:47:39] INFO root fetch - main [MainThread]: End processing [pyodre]: success
+[2024-05-21 12:47:39] INFO root fetch - processPackages [dzidb]: Remove: archive file [/home/abi/fetcher/tmp/dzidb-1.0.8.tar.gz]
+[2024-05-21 12:47:39] INFO root fetch - processPackages [dzidb]: Remove: archive file [/home/abi/fetcher/tmp/dzidb-1.1.tar.gz]
+[2024-05-21 12:47:39] INFO root fetch - main [MainThread]: End processing [dzidb]: success
+[2024-05-21 12:47:40] INFO root fetch - processPackages [BarteSDK]: Remove: archive file [/home/abi/fetcher/tmp/bartesdk-0.1.8.tar.gz]
+[2024-05-21 12:47:40] INFO root fetch - processPackages [BarteSDK]: Remove: archive file [/home/abi/fetcher/tmp/bartesdk-0.1.9.tar.gz]
+[2024-05-21 12:47:40] INFO root fetch - main [MainThread]: End processing [BarteSDK]: success
+[2024-05-21 12:47:40] INFO root fetch - processPackages [maji-passport]: Remove: archive file [/home/abi/fetcher/tmp/maji_passport-0.0.4.tar.gz]
+[2024-05-21 12:47:40] INFO root fetch - processPackages [maji-passport]: Remove: archive file [/home/abi/fetcher/tmp/maji_passport-0.0.5.tar.gz]
+[2024-05-21 12:47:40] INFO root fetch - main [MainThread]: End processing [maji-passport]: success
+[2024-05-21 12:47:40] INFO root fetch - processPackages [pycanum]: Remove: archive file [/home/abi/fetcher/tmp/pycanum-4.2.7-cp39-cp39-win32.whl.zip]
+[2024-05-21 12:47:40] INFO root fetch - processPackages [pycanum]: Remove: archive file [/home/abi/fetcher/tmp/pycanum-4.3.0-py3-none-any.whl.zip]
+[2024-05-21 12:47:40] INFO root fetch - main [MainThread]: End processing [pycanum]: success
+[2024-05-21 12:47:40] INFO root fetch - processPackages [LLMSmith]: Remove: archive file [/home/abi/fetcher/tmp/llmsmith-0.6.0.tar.gz]
+[2024-05-21 12:47:40] INFO root fetch - processPackages [LLMSmith]: Remove: archive file [/home/abi/fetcher/tmp/llmsmith-0.7.0.tar.gz]
+[2024-05-21 12:47:40] INFO root fetch - main [MainThread]: End processing [LLMSmith]: success
+[2024-05-21 12:47:40] INFO root fetch - processPackages [databricks-labs-blueprint]: Remove: archive file [/home/abi/fetcher/tmp/databricks_labs_blueprint-0.6.0.tar.gz]
+[2024-05-21 12:47:40] INFO root fetch - processPackages [databricks-labs-blueprint]: Remove: archive file [/home/abi/fetcher/tmp/databricks_labs_blueprint-0.6.1.tar.gz]
+[2024-05-21 12:47:40] INFO root fetch - main [MainThread]: End processing [databricks-labs-blueprint]: success
+[2024-05-21 12:47:40] INFO root fetch - processPackages [nansat]: Remove: archive file [/home/abi/fetcher/tmp/nansat-1.6.1.tar.gz]
+[2024-05-21 12:47:40] INFO root fetch - processPackages [nansat]: Remove: archive file [/home/abi/fetcher/tmp/nansat-1.6.2rc1.tar.gz]
+[2024-05-21 12:47:40] INFO root fetch - main [MainThread]: End processing [nansat]: success
+[2024-05-21 12:47:40] INFO root fetch - main [MainThread]: Store serial: [23304963]
