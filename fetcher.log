@@ -11570,3 +11570,54 @@
 [2024-05-21 07:04:53] INFO root fetch - processPackages [contact-email-address-local]: Remove: archive file [/home/abi/fetcher/tmp/contact_email_address_local-0.0.9.tar.gz]
 [2024-05-21 07:04:53] INFO root fetch - main [MainThread]: End processing [contact-email-address-local]: success
 [2024-05-21 07:04:53] INFO root fetch - main [MainThread]: Store serial: [23301204]
+[2024-05-21 07:06:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23301204]
+[2024-05-21 07:07:02] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-21 07:07:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hagrid
+[2024-05-21 07:07:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rapid-pe
+[2024-05-21 07:07:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TreeSAK
+[2024-05-21 07:07:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: MilesToMuppets
+[2024-05-21 07:07:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: atlassian-python-api
+[2024-05-21 07:07:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PyRHEED
+[2024-05-21 07:07:02] WARNING root fetch - processPackages [MilesToMuppets]: Skipping, unable to determine old version
+[2024-05-21 07:07:02] INFO root fetch - main [MainThread]: End processing [MilesToMuppets] error
+[2024-05-21 07:07:02] INFO root fetch - processPackages [PyRHEED]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-21 07:07:02] INFO root fetch - processPackages [TreeSAK]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-05-21 07:07:02] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.2.dev20240520] Old Version: [0.1.2.dev20240519]
+[2024-05-21 07:07:02] INFO root fetch - processPackages [atlassian-python-api]: New version: [3.9.1] Old Version: [3.9.0]
+[2024-05-21 07:07:02] INFO root fetch - processPackages [PyRHEED]: Downloading https://files.pythonhosted.org/packages/dc/20/c9d73fd541524fc1e915f63f476593bd4ad598bcecf6b1946ae9267369ac/pyrheed-1.0.4.tar.gz
+[2024-05-21 07:07:02] INFO root fetch - processPackages [hagrid]: New version: [0.3.99] Old Version: [0.3.98]
+[2024-05-21 07:07:02] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/01/f6/7f2b71420209d943353d168206da74b67af5d5764dd66e368b20c0c346a6/rapid_pe-0.1.2.dev20240519.tar.gz
+[2024-05-21 07:07:02] INFO root fetch - processPackages [TreeSAK]: Downloading https://files.pythonhosted.org/packages/33/3d/03ab6748b3aed0610812e461492b58278718c5c15236ce439a758aa3fc27/TreeSAK-1.9.1.tar.gz
+[2024-05-21 07:07:02] INFO root fetch - processPackages [hagrid]: Downloading https://files.pythonhosted.org/packages/71/5c/7118f88cf946d0a75ccbfe7faf329364c6aa329c75e795f5321774437057/hagrid-0.3.98.tar.gz
+[2024-05-21 07:07:02] INFO root fetch - processPackages [atlassian-python-api]: Downloading https://files.pythonhosted.org/packages/de/cb/1ab14dde3ba4e20ad5cbf7512888719fead9d55905895c511f6e87875e93/atlassian-python-api-3.9.0.tar.gz
+[2024-05-21 07:07:03] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/bb/e8/aa168328d2377ded78140e6b4a1d9dd8274554f34e8ec3c84044ae886d18/rapid_pe-0.1.2.dev20240520.tar.gz
+[2024-05-21 07:07:03] INFO root fetch - processPackages [TreeSAK]: Downloading https://files.pythonhosted.org/packages/3d/18/0b0f8a2c565de5415024065f522c859677184cac283a7e4af0060f267891/TreeSAK-1.9.2.tar.gz
+[2024-05-21 07:07:03] INFO root fetch - processPackages [PyRHEED]: Downloading https://files.pythonhosted.org/packages/ba/29/fa40e3e8748a55ae8617ade624bc5a05f96a235400c7e077f590f8aebb21/pyrheed-1.0.5.tar.gz
+[2024-05-21 07:07:03] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2024-05-21 07:07:03] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.2.dev20240519.tar.gz tmp/rapid_pe-0.1.2.dev20240520.tar.gz --markdown 20240521/r/rapid-pe/0.1.2.dev20240519-0.1.2.dev20240520/README.md --exclude *.pyd
+[2024-05-21 07:07:03] INFO root fetch - processPackages [hagrid]: Downloading https://files.pythonhosted.org/packages/cd/59/f6d437913eeba7d4d9bb51ed14ede91b80dcb983f21bbafb63e54e220055/hagrid-0.3.99.tar.gz
+[2024-05-21 07:07:03] INFO root fetch - processPackages [TreeSAK]: executing diffoscope
+[2024-05-21 07:07:03] INFO root fetch - processPackages [TreeSAK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TreeSAK-1.9.1.tar.gz tmp/TreeSAK-1.9.2.tar.gz --markdown 20240521/T/TreeSAK/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-05-21 07:07:03] INFO root fetch - processPackages [PyRHEED]: executing diffoscope
+[2024-05-21 07:07:03] INFO root fetch - processPackages [PyRHEED]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrheed-1.0.4.tar.gz tmp/pyrheed-1.0.5.tar.gz --markdown 20240521/P/PyRHEED/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-21 07:07:03] INFO root fetch - processPackages [atlassian-python-api]: Downloading https://files.pythonhosted.org/packages/cb/14/85d85bbd586b56a59d3d44b5ef418c2f03547213d1ae05e8c542fbcb50e7/atlassian-python-api-3.9.1.tar.gz
+[2024-05-21 07:07:03] INFO root fetch - processPackages [hagrid]: executing diffoscope
+[2024-05-21 07:07:03] INFO root fetch - processPackages [hagrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hagrid-0.3.98.tar.gz tmp/hagrid-0.3.99.tar.gz --markdown 20240521/h/hagrid/0.3.98-0.3.99/README.md --exclude *.pyd
+[2024-05-21 07:07:03] INFO root fetch - processPackages [atlassian-python-api]: executing diffoscope
+[2024-05-21 07:07:03] INFO root fetch - processPackages [atlassian-python-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atlassian-python-api-3.9.0.tar.gz tmp/atlassian-python-api-3.9.1.tar.gz --markdown 20240521/a/atlassian-python-api/3.9.0-3.9.1/README.md --exclude *.pyd
+[2024-05-21 07:07:04] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.2.dev20240519.tar.gz]
+[2024-05-21 07:07:04] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.2.dev20240520.tar.gz]
+[2024-05-21 07:07:04] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2024-05-21 07:07:04] INFO root fetch - processPackages [TreeSAK]: Remove: archive file [/home/abi/fetcher/tmp/TreeSAK-1.9.1.tar.gz]
+[2024-05-21 07:07:04] INFO root fetch - processPackages [TreeSAK]: Remove: archive file [/home/abi/fetcher/tmp/TreeSAK-1.9.2.tar.gz]
+[2024-05-21 07:07:04] INFO root fetch - main [MainThread]: End processing [TreeSAK]: success
+[2024-05-21 07:07:04] INFO root fetch - processPackages [PyRHEED]: Remove: archive file [/home/abi/fetcher/tmp/pyrheed-1.0.4.tar.gz]
+[2024-05-21 07:07:04] INFO root fetch - processPackages [PyRHEED]: Remove: archive file [/home/abi/fetcher/tmp/pyrheed-1.0.5.tar.gz]
+[2024-05-21 07:07:04] INFO root fetch - main [MainThread]: End processing [PyRHEED]: success
+[2024-05-21 07:07:04] INFO root fetch - processPackages [hagrid]: Remove: archive file [/home/abi/fetcher/tmp/hagrid-0.3.98.tar.gz]
+[2024-05-21 07:07:04] INFO root fetch - processPackages [hagrid]: Remove: archive file [/home/abi/fetcher/tmp/hagrid-0.3.99.tar.gz]
+[2024-05-21 07:07:04] INFO root fetch - main [MainThread]: End processing [hagrid]: success
+[2024-05-21 07:07:04] INFO root fetch - processPackages [atlassian-python-api]: Remove: archive file [/home/abi/fetcher/tmp/atlassian-python-api-3.9.0.tar.gz]
+[2024-05-21 07:07:04] INFO root fetch - processPackages [atlassian-python-api]: Remove: archive file [/home/abi/fetcher/tmp/atlassian-python-api-3.9.1.tar.gz]
+[2024-05-21 07:07:04] INFO root fetch - main [MainThread]: End processing [atlassian-python-api]: success
+[2024-05-21 07:07:04] INFO root fetch - main [MainThread]: Store serial: [23301222]
