@@ -18318,3 +18318,81 @@
 [2024-05-21 11:27:06] INFO root fetch - processPackages [nwon_django_toolbox]: Remove: archive file [/home/abi/fetcher/tmp/nwon_django_toolbox-0.6.6.tar.gz]
 [2024-05-21 11:27:06] INFO root fetch - main [MainThread]: End processing [nwon_django_toolbox]: success
 [2024-05-21 11:27:06] INFO root fetch - main [MainThread]: Store serial: [23303792]
+[2024-05-21 11:29:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23303792]
+[2024-05-21 11:29:16] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-21 11:29:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: avtdl
+[2024-05-21 11:29:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: shippinglabel
+[2024-05-21 11:29:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wsppchem
+[2024-05-21 11:29:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: impsparc
+[2024-05-21 11:29:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: smartpredict
+[2024-05-21 11:29:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: luminesce-sdk-preview
+[2024-05-21 11:29:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: whey
+[2024-05-21 11:29:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gable
+[2024-05-21 11:29:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: model3501api
+[2024-05-21 11:29:16] INFO root fetch - processPackages [impsparc]: New version: [3.1.6] Old Version: [3.1.5]
+[2024-05-21 11:29:16] WARNING root fetch - processPackages [model3501api]: Skipping, unable to determine old version
+[2024-05-21 11:29:16] INFO root fetch - main [MainThread]: End processing [model3501api] error
+[2024-05-21 11:29:16] INFO root fetch - processPackages [avtdl]: New version: [0.9.9] Old Version: [0.9.18.1]
+[2024-05-21 11:29:16] INFO root fetch - processPackages [smartpredict]: New version: [0.3] Old Version: [0.2]
+[2024-05-21 11:29:16] INFO root fetch - processPackages [luminesce-sdk-preview]: New version: [1.9.92] Old Version: [1.9.88]
+[2024-05-21 11:29:16] INFO root fetch - processPackages [whey]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-21 11:29:16] INFO root fetch - processPackages [wsppchem]: New version: [0.9] Old Version: [0.8]
+[2024-05-21 11:29:16] INFO root fetch - processPackages [impsparc]: Downloading https://files.pythonhosted.org/packages/ee/df/507354733dc03c64f29d8a71c9a1c46583c1388d7a1f123e7ff099ef1141/impsparc-3.1.5.tar.gz
+[2024-05-21 11:29:16] INFO root fetch - processPackages [gable]: New version: [0.9.0a3] Old Version: [0.9.0a2]
+[2024-05-21 11:29:16] INFO root fetch - processPackages [shippinglabel]: New version: [1.7.2] Old Version: [1.7.1]
+[2024-05-21 11:29:16] INFO root fetch - processPackages [smartpredict]: Downloading https://files.pythonhosted.org/packages/09/4e/8efe45df3fc59b305d5673ca6e7b56605577096a08a63bacf21210a369e4/smartpredict-0.2.tar.gz
+[2024-05-21 11:29:16] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/d3/7b/a9c3e829fb03ae79379224fe34adb99d80c6dbfc5f00ccc44cf429d34f61/luminesce-sdk-preview-1.9.88.tar.gz
+[2024-05-21 11:29:16] INFO root fetch - processPackages [avtdl]: Downloading https://files.pythonhosted.org/packages/dd/b6/427f5c58138193e286dcec061a07610e221dd0dac2df289d7361d5c8ae53/avtdl-0.9.18.1.tar.gz
+[2024-05-21 11:29:16] INFO root fetch - processPackages [whey]: Downloading https://files.pythonhosted.org/packages/e7/60/5f68e88d1716c63c6c774b275013abcc78a19d06590a98cd308f45ededd1/whey-0.1.0.tar.gz
+[2024-05-21 11:29:16] INFO root fetch - processPackages [wsppchem]: Downloading https://files.pythonhosted.org/packages/8b/29/f6c9d6455a5c54d8212f82418cc47789cd548895200283dace734d6164fc/wsppchem-0.8.tar.gz
+[2024-05-21 11:29:16] INFO root fetch - processPackages [gable]: Downloading https://files.pythonhosted.org/packages/3c/25/205ee4d565d0bf0f974e4b429be2eb6f978c964647c940357bfa9601db85/gable-0.9.0a2.tar.gz
+[2024-05-21 11:29:16] INFO root fetch - processPackages [shippinglabel]: Downloading https://files.pythonhosted.org/packages/78/66/ffa2209d5073b6c45a507c5f972b7481741349ca62c5ab9a0fefb7650348/shippinglabel-1.7.1.tar.gz
+[2024-05-21 11:29:16] INFO root fetch - processPackages [smartpredict]: Downloading https://files.pythonhosted.org/packages/1d/97/19079a9ea2efd9de9d9d25b271d2acdce888a7f42cd0ebf0c97e116ec40f/smartpredict-0.3.tar.gz
+[2024-05-21 11:29:16] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/b4/a1/29e30342ad6b0ee5f31f57c9ebeee25c12a4805f3f972e1908bf31abd599/luminesce-sdk-preview-1.9.92.tar.gz
+[2024-05-21 11:29:16] INFO root fetch - processPackages [avtdl]: Downloading https://files.pythonhosted.org/packages/57/f2/1b50ba48422edde9ac3e722c752a043bd064d5f016c1630c297bb7c31684/avtdl-0.9.9.tar.gz
+[2024-05-21 11:29:16] INFO root fetch - processPackages [smartpredict]: executing diffoscope
+[2024-05-21 11:29:16] INFO root fetch - processPackages [smartpredict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartpredict-0.2.tar.gz tmp/smartpredict-0.3.tar.gz --markdown 20240521/s/smartpredict/0.2-0.3/README.md --exclude *.pyd
+[2024-05-21 11:29:16] INFO root fetch - processPackages [whey]: Downloading https://files.pythonhosted.org/packages/27/a3/d2abf927b2e180c6cad3c7b004d560583f3a8d9d040f8a80a55227ebc295/whey-0.1.1.tar.gz
+[2024-05-21 11:29:16] INFO root fetch - processPackages [luminesce-sdk-preview]: executing diffoscope
+[2024-05-21 11:29:16] INFO root fetch - processPackages [luminesce-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce-sdk-preview-1.9.88.tar.gz tmp/luminesce-sdk-preview-1.9.92.tar.gz --markdown 20240521/l/luminesce-sdk-preview/1.9.88-1.9.92/README.md --exclude *.pyd
+[2024-05-21 11:29:16] INFO root fetch - processPackages [gable]: Downloading https://files.pythonhosted.org/packages/df/19/7ed3e403c062cfa539ddfa26caecd22d3365e387d62ab3f2a6db2e30ac8a/gable-0.9.0a3.tar.gz
+[2024-05-21 11:29:16] INFO root fetch - processPackages [impsparc]: Downloading https://files.pythonhosted.org/packages/c6/92/89f59607f70d48ac5ddf5c8147e4bf1c1e28e1b727b02768d00e523025ec/impsparc-3.1.6.tar.gz
+[2024-05-21 11:29:17] INFO root fetch - processPackages [shippinglabel]: Downloading https://files.pythonhosted.org/packages/87/4f/0ae1b89d4112fc3d63e7c5ebb068401e04e65d823b0c3a85544114778467/shippinglabel-1.7.2.tar.gz
+[2024-05-21 11:29:17] INFO root fetch - processPackages [avtdl]: executing diffoscope
+[2024-05-21 11:29:17] INFO root fetch - processPackages [avtdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avtdl-0.9.18.1.tar.gz tmp/avtdl-0.9.9.tar.gz --markdown 20240521/a/avtdl/0.9.18.1-0.9.9/README.md --exclude *.pyd
+[2024-05-21 11:29:17] INFO root fetch - processPackages [wsppchem]: Downloading https://files.pythonhosted.org/packages/7c/43/3c8f7eba6aece78d252cb5264e2d70fd554127ea402274c0e467f21f1678/wsppchem-0.9.tar.gz
+[2024-05-21 11:29:17] INFO root fetch - processPackages [whey]: executing diffoscope
+[2024-05-21 11:29:17] INFO root fetch - processPackages [whey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whey-0.1.0.tar.gz tmp/whey-0.1.1.tar.gz --markdown 20240521/w/whey/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-21 11:29:17] INFO root fetch - processPackages [gable]: executing diffoscope
+[2024-05-21 11:29:17] INFO root fetch - processPackages [gable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gable-0.9.0a2.tar.gz tmp/gable-0.9.0a3.tar.gz --markdown 20240521/g/gable/0.9.0a2-0.9.0a3/README.md --exclude *.pyd
+[2024-05-21 11:29:17] INFO root fetch - processPackages [shippinglabel]: executing diffoscope
+[2024-05-21 11:29:17] INFO root fetch - processPackages [shippinglabel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shippinglabel-1.7.1.tar.gz tmp/shippinglabel-1.7.2.tar.gz --markdown 20240521/s/shippinglabel/1.7.1-1.7.2/README.md --exclude *.pyd
+[2024-05-21 11:29:17] INFO root fetch - processPackages [impsparc]: executing diffoscope
+[2024-05-21 11:29:17] INFO root fetch - processPackages [impsparc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/impsparc-3.1.5.tar.gz tmp/impsparc-3.1.6.tar.gz --markdown 20240521/i/impsparc/3.1.5-3.1.6/README.md --exclude *.pyd
+[2024-05-21 11:29:17] INFO root fetch - processPackages [wsppchem]: executing diffoscope
+[2024-05-21 11:29:17] INFO root fetch - processPackages [wsppchem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wsppchem-0.8.tar.gz tmp/wsppchem-0.9.tar.gz --markdown 20240521/w/wsppchem/0.8-0.9/README.md --exclude *.pyd
+[2024-05-21 11:29:17] INFO root fetch - processPackages [smartpredict]: Remove: archive file [/home/abi/fetcher/tmp/smartpredict-0.2.tar.gz]
+[2024-05-21 11:29:17] INFO root fetch - processPackages [smartpredict]: Remove: archive file [/home/abi/fetcher/tmp/smartpredict-0.3.tar.gz]
+[2024-05-21 11:29:17] INFO root fetch - main [MainThread]: End processing [smartpredict]: success
+[2024-05-21 11:29:18] INFO root fetch - processPackages [whey]: Remove: archive file [/home/abi/fetcher/tmp/whey-0.1.0.tar.gz]
+[2024-05-21 11:29:18] INFO root fetch - processPackages [whey]: Remove: archive file [/home/abi/fetcher/tmp/whey-0.1.1.tar.gz]
+[2024-05-21 11:29:18] INFO root fetch - main [MainThread]: End processing [whey]: success
+[2024-05-21 11:29:18] INFO root fetch - processPackages [gable]: Remove: archive file [/home/abi/fetcher/tmp/gable-0.9.0a2.tar.gz]
+[2024-05-21 11:29:18] INFO root fetch - processPackages [gable]: Remove: archive file [/home/abi/fetcher/tmp/gable-0.9.0a3.tar.gz]
+[2024-05-21 11:29:18] INFO root fetch - main [MainThread]: End processing [gable]: success
+[2024-05-21 11:29:18] INFO root fetch - processPackages [avtdl]: Remove: archive file [/home/abi/fetcher/tmp/avtdl-0.9.18.1.tar.gz]
+[2024-05-21 11:29:18] INFO root fetch - processPackages [avtdl]: Remove: archive file [/home/abi/fetcher/tmp/avtdl-0.9.9.tar.gz]
+[2024-05-21 11:29:18] INFO root fetch - main [MainThread]: End processing [avtdl]: success
+[2024-05-21 11:29:18] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.88.tar.gz]
+[2024-05-21 11:29:18] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.92.tar.gz]
+[2024-05-21 11:29:18] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
+[2024-05-21 11:29:18] INFO root fetch - processPackages [shippinglabel]: Remove: archive file [/home/abi/fetcher/tmp/shippinglabel-1.7.1.tar.gz]
+[2024-05-21 11:29:18] INFO root fetch - processPackages [shippinglabel]: Remove: archive file [/home/abi/fetcher/tmp/shippinglabel-1.7.2.tar.gz]
+[2024-05-21 11:29:18] INFO root fetch - main [MainThread]: End processing [shippinglabel]: success
+[2024-05-21 11:29:18] INFO root fetch - processPackages [wsppchem]: Remove: archive file [/home/abi/fetcher/tmp/wsppchem-0.8.tar.gz]
+[2024-05-21 11:29:18] INFO root fetch - processPackages [wsppchem]: Remove: archive file [/home/abi/fetcher/tmp/wsppchem-0.9.tar.gz]
+[2024-05-21 11:29:18] INFO root fetch - main [MainThread]: End processing [wsppchem]: success
+[2024-05-21 11:29:18] INFO root fetch - processPackages [impsparc]: Remove: archive file [/home/abi/fetcher/tmp/impsparc-3.1.5.tar.gz]
+[2024-05-21 11:29:18] INFO root fetch - processPackages [impsparc]: Remove: archive file [/home/abi/fetcher/tmp/impsparc-3.1.6.tar.gz]
+[2024-05-21 11:29:18] INFO root fetch - main [MainThread]: End processing [impsparc]: success
+[2024-05-21 11:29:18] INFO root fetch - main [MainThread]: Store serial: [23303819]
