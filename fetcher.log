@@ -8513,3 +8513,77 @@
 [2024-05-21 04:38:05] INFO root fetch - processPackages [odoo14-addon-analytic-partner]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_analytic_partner-14.0.1.0.1.dev9-py3-none-any.whl.zip]
 [2024-05-21 04:38:05] INFO root fetch - main [MainThread]: End processing [odoo14-addon-analytic-partner]: success
 [2024-05-21 04:38:05] INFO root fetch - main [MainThread]: Store serial: [23300078]
+[2024-05-21 04:40:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23300078]
+[2024-05-21 04:40:14] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-21 04:40:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-analytic-base-department
+[2024-05-21 04:40:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ovos-skill-fallback-hivemind
+[2024-05-21 04:40:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-stock-analytic
+[2024-05-21 04:40:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-analytic-partner-hr-timesheet
+[2024-05-21 04:40:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mb-pytorch
+[2024-05-21 04:40:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: swarmauri
+[2024-05-21 04:40:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: itk-io
+[2024-05-21 04:40:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-account-budget-oca
+[2024-05-21 04:40:14] INFO root fetch - processPackages [ovos-skill-fallback-hivemind]: New version: [0.0.0a8] Old Version: [0.0.0a7]
+[2024-05-21 04:40:14] INFO root fetch - processPackages [swarmauri]: New version: [0.2.3] Old Version: [0.2.2.dev1]
+[2024-05-21 04:40:14] INFO root fetch - processPackages [ovos-skill-fallback-hivemind]: Downloading https://files.pythonhosted.org/packages/5f/1a/698d3c019d360c38ad175821b68c28a798492e384befb312cdde4914c536/ovos_skill_fallback_hivemind-0.0.0a7-py3-none-any.whl
+[2024-05-21 04:40:14] INFO root fetch - processPackages [mb-pytorch]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-21 04:40:14] INFO root fetch - processPackages [odoo14-addon-analytic-base-department]: New version: [14.0.1.0.1.dev8] Old Version: [14.0.1.0.1.dev7]
+[2024-05-21 04:40:14] INFO root fetch - processPackages [odoo14-addon-stock-analytic]: New version: [14.0.2.1.3.dev1] Old Version: [14.0.2.1.2.dev2]
+[2024-05-21 04:40:14] INFO root fetch - processPackages [odoo14-addon-analytic-partner-hr-timesheet]: New version: [14.0.1.0.1.dev8] Old Version: [14.0.1.0.1.dev7]
+[2024-05-21 04:40:14] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/f5/b9/ac23ca82a4087c41ea150cad336472002f3f6e02716541ef2b22b4bd5dea/swarmauri-0.2.2.dev1.tar.gz
+[2024-05-21 04:40:14] INFO root fetch - processPackages [odoo14-addon-account-budget-oca]: New version: [14.0.1.0.2.dev4] Old Version: [14.0.1.0.2.dev3]
+[2024-05-21 04:40:15] INFO root fetch - processPackages [itk-io]: New version: [5.4rc4] Old Version: [5.4rc3]
+[2024-05-21 04:40:15] INFO root fetch - processPackages [odoo14-addon-analytic-base-department]: Downloading https://files.pythonhosted.org/packages/bc/c1/19d5becee694240e739d9d546661f1877c748dc6a5b22facb617d0a377fd/odoo14_addon_analytic_base_department-14.0.1.0.1.dev7-py3-none-any.whl
+[2024-05-21 04:40:15] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/58/e8/2f828969066e1873b4359ae2a186f78135f5ac14d0abdd28ebd0b153ca53/mb_pytorch-1.0.4.tar.gz
+[2024-05-21 04:40:15] INFO root fetch - processPackages [odoo14-addon-analytic-partner-hr-timesheet]: Downloading https://files.pythonhosted.org/packages/dc/f1/517a3c547caa61c820a2518e8351eea4bff7dc56bad12a337970dff1afe8/odoo14_addon_analytic_partner_hr_timesheet-14.0.1.0.1.dev7-py3-none-any.whl
+[2024-05-21 04:40:15] INFO root fetch - processPackages [odoo14-addon-stock-analytic]: Downloading https://files.pythonhosted.org/packages/42/6f/ca38492dd7bec2bb1b36c4c0d9446b2b3581bd612e4a824cc4c5222b16a0/odoo14_addon_stock_analytic-14.0.2.1.2.dev2-py3-none-any.whl
+[2024-05-21 04:40:15] INFO root fetch - processPackages [odoo14-addon-account-budget-oca]: Downloading https://files.pythonhosted.org/packages/ec/d3/49b5f2a300e10dbe8112dcabbcfbed3e19b987c5610eb73eb464aa9ee66f/odoo14_addon_account_budget_oca-14.0.1.0.2.dev3-py3-none-any.whl
+[2024-05-21 04:40:15] INFO root fetch - processPackages [ovos-skill-fallback-hivemind]: Downloading https://files.pythonhosted.org/packages/78/a8/6233f40130706fcd5f50a139b7fa375ee1a15505abb0c738ccc8931dc87f/ovos_skill_fallback_hivemind-0.0.0a8-py3-none-any.whl
+[2024-05-21 04:40:15] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/6f/23/609da57f2f56228a87bfcbd5ee134292517e27b02a6e6dbb83fca46177a7/swarmauri-0.2.3.tar.gz
+[2024-05-21 04:40:15] INFO root fetch - processPackages [ovos-skill-fallback-hivemind]: executing diffoscope
+[2024-05-21 04:40:15] INFO root fetch - processPackages [ovos-skill-fallback-hivemind]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_skill_fallback_hivemind-0.0.0a7-py3-none-any.whl.zip tmp/ovos_skill_fallback_hivemind-0.0.0a8-py3-none-any.whl.zip --markdown 20240521/o/ovos-skill-fallback-hivemind/0.0.0a7-0.0.0a8/README.md --exclude *.pyd
+[2024-05-21 04:40:15] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-05-21 04:40:15] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.2.2.dev1.tar.gz tmp/swarmauri-0.2.3.tar.gz --markdown 20240521/s/swarmauri/0.2.2.dev1-0.2.3/README.md --exclude *.pyd
+[2024-05-21 04:40:15] INFO root fetch - processPackages [odoo14-addon-stock-analytic]: Downloading https://files.pythonhosted.org/packages/32/b0/01e62c665112daad33cc49cf02b36dc636bff34869e12d2212b222772935/odoo14_addon_stock_analytic-14.0.2.1.3.dev1-py3-none-any.whl
+[2024-05-21 04:40:15] INFO root fetch - processPackages [odoo14-addon-analytic-base-department]: Downloading https://files.pythonhosted.org/packages/22/68/6ab598e60c63ff38de054457f31ef28feb3fcfa9e872c4c1a0f9a9ae3fd9/odoo14_addon_analytic_base_department-14.0.1.0.1.dev8-py3-none-any.whl
+[2024-05-21 04:40:15] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/18/ae/b46b20b02b5f2c2a25fcae91a88f80ab1e1c18413f89f662d20e5475e824/mb_pytorch-1.0.5.tar.gz
+[2024-05-21 04:40:15] INFO root fetch - processPackages [odoo14-addon-analytic-partner-hr-timesheet]: Downloading https://files.pythonhosted.org/packages/fc/3a/91f137cf143420664a26d0dea0c9e1d0486dfb300895462cb218f3071869/odoo14_addon_analytic_partner_hr_timesheet-14.0.1.0.1.dev8-py3-none-any.whl
+[2024-05-21 04:40:15] INFO root fetch - processPackages [itk-io]: Downloading https://files.pythonhosted.org/packages/a0/12/272425d1315f3328a0df300cd31ee5eac72573f28b1b1e6eee2be13f8d33/itk_io-5.4rc4-cp39-cp39-win_amd64.whl
+[2024-05-21 04:40:15] INFO root fetch - processPackages [odoo14-addon-stock-analytic]: executing diffoscope
+[2024-05-21 04:40:15] INFO root fetch - processPackages [odoo14-addon-stock-analytic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_stock_analytic-14.0.2.1.2.dev2-py3-none-any.whl.zip tmp/odoo14_addon_stock_analytic-14.0.2.1.3.dev1-py3-none-any.whl.zip --markdown 20240521/o/odoo14-addon-stock-analytic/14.0.2.1.2.dev2-14.0.2.1.3.dev1/README.md --exclude *.pyd
+[2024-05-21 04:40:15] INFO root fetch - processPackages [odoo14-addon-account-budget-oca]: Downloading https://files.pythonhosted.org/packages/48/41/f401079daadaf5c1fddd5405fb34e5141573882a36f6e6df64a7fef57fb0/odoo14_addon_account_budget_oca-14.0.1.0.2.dev4-py3-none-any.whl
+[2024-05-21 04:40:15] INFO root fetch - processPackages [mb-pytorch]: executing diffoscope
+[2024-05-21 04:40:15] INFO root fetch - processPackages [mb-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mb_pytorch-1.0.4.tar.gz tmp/mb_pytorch-1.0.5.tar.gz --markdown 20240521/m/mb-pytorch/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-21 04:40:15] INFO root fetch - processPackages [odoo14-addon-analytic-base-department]: executing diffoscope
+[2024-05-21 04:40:15] INFO root fetch - processPackages [odoo14-addon-analytic-base-department]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_analytic_base_department-14.0.1.0.1.dev7-py3-none-any.whl.zip tmp/odoo14_addon_analytic_base_department-14.0.1.0.1.dev8-py3-none-any.whl.zip --markdown 20240521/o/odoo14-addon-analytic-base-department/14.0.1.0.1.dev7-14.0.1.0.1.dev8/README.md --exclude *.pyd
+[2024-05-21 04:40:15] INFO root fetch - processPackages [odoo14-addon-analytic-partner-hr-timesheet]: executing diffoscope
+[2024-05-21 04:40:15] INFO root fetch - processPackages [odoo14-addon-analytic-partner-hr-timesheet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_analytic_partner_hr_timesheet-14.0.1.0.1.dev7-py3-none-any.whl.zip tmp/odoo14_addon_analytic_partner_hr_timesheet-14.0.1.0.1.dev8-py3-none-any.whl.zip --markdown 20240521/o/odoo14-addon-analytic-partner-hr-timesheet/14.0.1.0.1.dev7-14.0.1.0.1.dev8/README.md --exclude *.pyd
+[2024-05-21 04:40:15] INFO root fetch - processPackages [odoo14-addon-account-budget-oca]: executing diffoscope
+[2024-05-21 04:40:15] INFO root fetch - processPackages [odoo14-addon-account-budget-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_budget_oca-14.0.1.0.2.dev3-py3-none-any.whl.zip tmp/odoo14_addon_account_budget_oca-14.0.1.0.2.dev4-py3-none-any.whl.zip --markdown 20240521/o/odoo14-addon-account-budget-oca/14.0.1.0.2.dev3-14.0.1.0.2.dev4/README.md --exclude *.pyd
+[2024-05-21 04:40:16] INFO root fetch - processPackages [ovos-skill-fallback-hivemind]: Remove: archive file [/home/abi/fetcher/tmp/ovos_skill_fallback_hivemind-0.0.0a7-py3-none-any.whl.zip]
+[2024-05-21 04:40:16] INFO root fetch - processPackages [ovos-skill-fallback-hivemind]: Remove: archive file [/home/abi/fetcher/tmp/ovos_skill_fallback_hivemind-0.0.0a8-py3-none-any.whl.zip]
+[2024-05-21 04:40:16] INFO root fetch - main [MainThread]: End processing [ovos-skill-fallback-hivemind]: success
+[2024-05-21 04:40:16] INFO root fetch - processPackages [mb-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/mb_pytorch-1.0.4.tar.gz]
+[2024-05-21 04:40:16] INFO root fetch - processPackages [mb-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/mb_pytorch-1.0.5.tar.gz]
+[2024-05-21 04:40:16] INFO root fetch - main [MainThread]: End processing [mb-pytorch]: success
+[2024-05-21 04:40:16] INFO root fetch - processPackages [odoo14-addon-stock-analytic]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_analytic-14.0.2.1.2.dev2-py3-none-any.whl.zip]
+[2024-05-21 04:40:16] INFO root fetch - processPackages [odoo14-addon-stock-analytic]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_analytic-14.0.2.1.3.dev1-py3-none-any.whl.zip]
+[2024-05-21 04:40:16] INFO root fetch - main [MainThread]: End processing [odoo14-addon-stock-analytic]: success
+[2024-05-21 04:40:16] INFO root fetch - processPackages [odoo14-addon-analytic-base-department]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_analytic_base_department-14.0.1.0.1.dev7-py3-none-any.whl.zip]
+[2024-05-21 04:40:16] INFO root fetch - processPackages [odoo14-addon-analytic-base-department]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_analytic_base_department-14.0.1.0.1.dev8-py3-none-any.whl.zip]
+[2024-05-21 04:40:16] INFO root fetch - main [MainThread]: End processing [odoo14-addon-analytic-base-department]: success
+[2024-05-21 04:40:16] INFO root fetch - processPackages [odoo14-addon-analytic-partner-hr-timesheet]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_analytic_partner_hr_timesheet-14.0.1.0.1.dev7-py3-none-any.whl.zip]
+[2024-05-21 04:40:16] INFO root fetch - processPackages [odoo14-addon-analytic-partner-hr-timesheet]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_analytic_partner_hr_timesheet-14.0.1.0.1.dev8-py3-none-any.whl.zip]
+[2024-05-21 04:40:16] INFO root fetch - main [MainThread]: End processing [odoo14-addon-analytic-partner-hr-timesheet]: success
+[2024-05-21 04:40:16] INFO root fetch - processPackages [itk-io]: executing diffoscope
+[2024-05-21 04:40:16] INFO root fetch - processPackages [itk-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itk_io-5.4rc3-cp39-cp39-win_amd64.whl.zip tmp/itk_io-5.4rc4-cp39-cp39-win_amd64.whl.zip --markdown 20240521/i/itk-io/5.4rc3-5.4rc4/README.md --exclude *.pyd
+[2024-05-21 04:40:16] INFO root fetch - processPackages [odoo14-addon-account-budget-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_budget_oca-14.0.1.0.2.dev3-py3-none-any.whl.zip]
+[2024-05-21 04:40:16] INFO root fetch - processPackages [odoo14-addon-account-budget-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_budget_oca-14.0.1.0.2.dev4-py3-none-any.whl.zip]
+[2024-05-21 04:40:16] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-budget-oca]: success
+[2024-05-21 04:40:16] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.2.2.dev1.tar.gz]
+[2024-05-21 04:40:16] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.2.3.tar.gz]
+[2024-05-21 04:40:16] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
+[2024-05-21 04:40:17] INFO root fetch - processPackages [itk-io]: Remove: archive file [/home/abi/fetcher/tmp/itk_io-5.4rc3-cp39-cp39-win_amd64.whl.zip]
+[2024-05-21 04:40:17] INFO root fetch - processPackages [itk-io]: Remove: archive file [/home/abi/fetcher/tmp/itk_io-5.4rc4-cp39-cp39-win_amd64.whl.zip]
+[2024-05-21 04:40:17] INFO root fetch - main [MainThread]: End processing [itk-io]: success
+[2024-05-21 04:40:17] INFO root fetch - main [MainThread]: Store serial: [23300124]
