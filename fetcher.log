@@ -13829,3 +13829,98 @@
 [2024-05-21 08:43:49] INFO root fetch - processPackages [odoo-addon-auth-session-timeout]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_auth_session_timeout-16.0.1.0.0.9-py3-none-any.whl.zip]
 [2024-05-21 08:43:49] INFO root fetch - main [MainThread]: End processing [odoo-addon-auth-session-timeout]: success
 [2024-05-21 08:43:49] INFO root fetch - main [MainThread]: Store serial: [23302125]
+[2024-05-21 08:45:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23302125]
+[2024-05-21 08:45:58] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-21 08:45:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: codapy
+[2024-05-21 08:45:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: plantdrppred
+[2024-05-21 08:45:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nvidia-dali-weekly-cuda120
+[2024-05-21 08:45:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: codapy
+[2024-05-21 08:45:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xdwlib
+[2024-05-21 08:45:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: handshakes
+[2024-05-21 08:45:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nvidia-dali-tf-plugin-weekly-cuda120
+[2024-05-21 08:45:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-server-action-sort
+[2024-05-21 08:45:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-server-action-navigate
+[2024-05-21 08:45:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fennel-ai
+[2024-05-21 08:45:58] INFO root fetch - processPackages [plantdrppred]: New version: [0.4] Old Version: [0.3]
+[2024-05-21 08:45:58] WARNING root fetch - processPackages [odoo-addon-server-action-navigate]: Skipping, unable to determine old version
+[2024-05-21 08:45:58] INFO root fetch - processPackages [odoo-addon-server-action-navigate]: Start processing: odoo-addons-oca-server-backend
+[2024-05-21 08:45:58] INFO root fetch - main [MainThread]: End processing [odoo-addon-server-action-navigate] error
+[2024-05-21 08:45:58] INFO root fetch - processPackages [nvidia-dali-tf-plugin-weekly-cuda120]: New version: [1.39.0.dev20240519] Old Version: [1.38.0.dev20240505]
+[2024-05-21 08:45:58] INFO root fetch - processPackages [nvidia-dali-weekly-cuda120]: New version: [1.39.0.dev20240519] Old Version: [1.38.0.dev20240505]
+[2024-05-21 08:45:58] INFO root fetch - processPackages [handshakes]: New version: [0.3.8] Old Version: [0.3.7]
+[2024-05-21 08:45:58] INFO root fetch - processPackages [odoo-addon-server-action-sort]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.3]
+[2024-05-21 08:45:58] INFO root fetch - processPackages [codapy]: New version: [0.3.8] Old Version: [0.3.7]
+[2024-05-21 08:45:58] INFO root fetch - processPackages [codapy]: New version: [0.3.8] Old Version: [0.3.7]
+[2024-05-21 08:45:58] INFO root fetch - processPackages [xdwlib]: New version: [3.9.7] Old Version: [3.9.6]
+[2024-05-21 08:45:58] INFO root fetch - processPackages [odoo-addons-oca-server-backend]: New version: [16.0.20240520.0] Old Version: [16.0.20240415.0]
+[2024-05-21 08:45:58] INFO root fetch - processPackages [fennel-ai]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-05-21 08:45:58] INFO root fetch - processPackages [plantdrppred]: Downloading https://files.pythonhosted.org/packages/51/7a/bce59bed4351da0b135013753520b6bb0bd537d0c36c054ca4a96fdf6559/plantdrppred-0.3.tar.gz
+[2024-05-21 08:45:58] WARNING root fetch - processPackages [plantdrppred]: Skipping package: exceeds size limit 61181995>=10485760
+[2024-05-21 08:45:58] INFO root fetch - processPackages [plantdrppred]: Start processing: wah
+[2024-05-21 08:45:58] INFO root fetch - main [MainThread]: End processing [plantdrppred] error
+[2024-05-21 08:45:58] INFO root fetch - processPackages [handshakes]: Downloading https://files.pythonhosted.org/packages/7e/4f/604d7f2a19505ba69d925cbadaf1adeea24cebc3339a1ab2731a76316c0e/handshakes-0.3.7.tar.gz
+[2024-05-21 08:45:58] INFO root fetch - processPackages [nvidia-dali-weekly-cuda120]: Downloading https://files.pythonhosted.org/packages/bc/3c/4233eb2431f95006f8c8f7b1d5cb07a167c6dc6b243def25313df4d1a5a4/nvidia_dali_weekly_cuda120-1.38.0.dev20240505.tar.gz
+[2024-05-21 08:45:58] INFO root fetch - processPackages [nvidia-dali-tf-plugin-weekly-cuda120]: Downloading https://files.pythonhosted.org/packages/83/94/9362014b5e58caa2cd034d19d8681657109bd3b6582878cc2c27b71065dc/nvidia_dali_tf_plugin_weekly_cuda120-1.38.0.dev20240505.tar.gz
+[2024-05-21 08:45:58] INFO root fetch - processPackages [odoo-addon-server-action-sort]: Downloading https://files.pythonhosted.org/packages/4b/4b/f9bdba812f6c9a32bb453cf37d0d35116cb58293ee45d3ed238bef52bfb8/odoo_addon_server_action_sort-16.0.1.0.0.3-py3-none-any.whl
+[2024-05-21 08:45:58] INFO root fetch - processPackages [wah]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-21 08:45:58] INFO root fetch - processPackages [codapy]: Downloading https://files.pythonhosted.org/packages/e9/f2/ab92c0117bd3918026f4e74636e976c6ca7686a84434598495dfafcf5053/codapy-0.3.7.tar.gz
+[2024-05-21 08:45:58] INFO root fetch - processPackages [codapy]: Downloading https://files.pythonhosted.org/packages/e9/f2/ab92c0117bd3918026f4e74636e976c6ca7686a84434598495dfafcf5053/codapy-0.3.7.tar.gz
+[2024-05-21 08:45:58] INFO root fetch - processPackages [xdwlib]: Downloading https://files.pythonhosted.org/packages/27/e6/94fa8ac617ccd23ee90a1e2099088cdfe26dff5b179041a125ed075ae902/xdwlib-3.9.6.zip
+[2024-05-21 08:45:58] INFO root fetch - processPackages [odoo-addons-oca-server-backend]: Downloading https://files.pythonhosted.org/packages/d4/94/14b1c15d6045b3372f3f2f46705d72e1fd50a593a9eba6e140e7530f5442/odoo_addons_oca_server_backend-16.0.20240415.0-py3-none-any.whl
+[2024-05-21 08:45:58] INFO root fetch - processPackages [fennel-ai]: Downloading https://files.pythonhosted.org/packages/29/8b/fce834f275deedf78c2cd53bd82aed7b1f61ed5492478e501e72d8f8b4b3/fennel_ai-1.3.8.tar.gz
+[2024-05-21 08:45:58] INFO root fetch - processPackages [wah]: Downloading https://files.pythonhosted.org/packages/1e/98/86b56f53d2270da5a315b2f0d5733e61fd0dabbbde1d17bcff2dd938939e/wah-0.1.8.tar.gz
+[2024-05-21 08:45:59] WARNING root fetch - processPackages [fennel-ai]: Skipping package: exceeds size limit 40207351>=10485760
+[2024-05-21 08:45:59] INFO root fetch - main [MainThread]: End processing [fennel-ai] error
+[2024-05-21 08:45:59] INFO root fetch - processPackages [nvidia-dali-weekly-cuda120]: Downloading https://files.pythonhosted.org/packages/56/c9/637690a20fffe4b81271f16fe35ed630c08507a8ec83c0ae69e4278d6d0b/nvidia_dali_weekly_cuda120-1.39.0.dev20240519.tar.gz
+[2024-05-21 08:45:59] INFO root fetch - processPackages [odoo-addons-oca-server-backend]: Downloading https://files.pythonhosted.org/packages/90/3c/2b1ddc6c3ecb7cd2eec76b95d1e5bcc3b0c5fb36a7dafef9dd3458f861e6/odoo_addons_oca_server_backend-16.0.20240520.0-py3-none-any.whl
+[2024-05-21 08:45:59] INFO root fetch - processPackages [wah]: Downloading https://files.pythonhosted.org/packages/6c/57/7be641139065b67640542a312a3988d0a93024cdc145ea667b7e8d432eb8/wah-0.1.9.tar.gz
+[2024-05-21 08:45:59] INFO root fetch - processPackages [handshakes]: Downloading https://files.pythonhosted.org/packages/d9/11/4bd7bf6a603a015807e103e7fa06d48e3d07ecd7014d85dec7641d266da3/handshakes-0.3.8.tar.gz
+[2024-05-21 08:45:59] INFO root fetch - processPackages [nvidia-dali-tf-plugin-weekly-cuda120]: Downloading https://files.pythonhosted.org/packages/27/4a/40cdc16b57a32e9877ebbb4d391e44d240ce3642dee021cc2f7e3fce3da9/nvidia_dali_tf_plugin_weekly_cuda120-1.39.0.dev20240519.tar.gz
+[2024-05-21 08:45:59] INFO root fetch - processPackages [odoo-addon-server-action-sort]: Downloading https://files.pythonhosted.org/packages/64/28/a23e918c4d2f4e89383eb75b60137411bf26ba6bed7421a9eeb67b75bd3d/odoo_addon_server_action_sort-16.0.1.0.0.5-py3-none-any.whl
+[2024-05-21 08:45:59] INFO root fetch - processPackages [nvidia-dali-weekly-cuda120]: executing diffoscope
+[2024-05-21 08:45:59] INFO root fetch - processPackages [nvidia-dali-weekly-cuda120]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia_dali_weekly_cuda120-1.38.0.dev20240505.tar.gz tmp/nvidia_dali_weekly_cuda120-1.39.0.dev20240519.tar.gz --markdown 20240521/n/nvidia-dali-weekly-cuda120/1.38.0.dev20240505-1.39.0.dev20240519/README.md --exclude *.pyd
+[2024-05-21 08:45:59] INFO root fetch - processPackages [codapy]: Downloading https://files.pythonhosted.org/packages/cb/de/04454e4e89bc40dbb9c682c9a7f9cc807f1603d5c66cfdea7cfd96120bd8/codapy-0.3.8.tar.gz
+[2024-05-21 08:45:59] INFO root fetch - processPackages [codapy]: Downloading https://files.pythonhosted.org/packages/cb/de/04454e4e89bc40dbb9c682c9a7f9cc807f1603d5c66cfdea7cfd96120bd8/codapy-0.3.8.tar.gz
+[2024-05-21 08:45:59] INFO root fetch - processPackages [odoo-addons-oca-server-backend]: executing diffoscope
+[2024-05-21 08:45:59] INFO root fetch - processPackages [odoo-addons-oca-server-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_server_backend-16.0.20240415.0-py3-none-any.whl.zip tmp/odoo_addons_oca_server_backend-16.0.20240520.0-py3-none-any.whl.zip --markdown 20240521/o/odoo-addons-oca-server-backend/16.0.20240415.0-16.0.20240520.0/README.md --exclude *.pyd
+[2024-05-21 08:45:59] INFO root fetch - processPackages [xdwlib]: Downloading https://files.pythonhosted.org/packages/3a/d8/32a43ee3e9e75d3ab12896a093a15e35b200faba0898ec7c75e93a65de40/xdwlib-3.9.7.zip
+[2024-05-21 08:45:59] INFO root fetch - processPackages [wah]: executing diffoscope
+[2024-05-21 08:45:59] INFO root fetch - processPackages [wah]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wah-0.1.8.tar.gz tmp/wah-0.1.9.tar.gz --markdown 20240521/w/wah/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-21 08:45:59] INFO root fetch - processPackages [nvidia-dali-tf-plugin-weekly-cuda120]: executing diffoscope
+[2024-05-21 08:45:59] INFO root fetch - processPackages [nvidia-dali-tf-plugin-weekly-cuda120]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia_dali_tf_plugin_weekly_cuda120-1.38.0.dev20240505.tar.gz tmp/nvidia_dali_tf_plugin_weekly_cuda120-1.39.0.dev20240519.tar.gz --markdown 20240521/n/nvidia-dali-tf-plugin-weekly-cuda120/1.38.0.dev20240505-1.39.0.dev20240519/README.md --exclude *.pyd
+[2024-05-21 08:45:59] INFO root fetch - processPackages [handshakes]: executing diffoscope
+[2024-05-21 08:45:59] INFO root fetch - processPackages [handshakes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/handshakes-0.3.7.tar.gz tmp/handshakes-0.3.8.tar.gz --markdown 20240521/h/handshakes/0.3.7-0.3.8/README.md --exclude *.pyd
+[2024-05-21 08:45:59] INFO root fetch - processPackages [codapy]: executing diffoscope
+[2024-05-21 08:45:59] INFO root fetch - processPackages [codapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codapy-0.3.7.tar.gz tmp/codapy-0.3.8.tar.gz --markdown 20240521/c/codapy/0.3.7-0.3.8/README.md --exclude *.pyd
+[2024-05-21 08:45:59] INFO root fetch - processPackages [odoo-addon-server-action-sort]: executing diffoscope
+[2024-05-21 08:45:59] INFO root fetch - processPackages [odoo-addon-server-action-sort]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_server_action_sort-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_server_action_sort-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240521/o/odoo-addon-server-action-sort/16.0.1.0.0.3-16.0.1.0.0.5/README.md --exclude *.pyd
+[2024-05-21 08:45:59] INFO root fetch - processPackages [codapy]: executing diffoscope
+[2024-05-21 08:45:59] INFO root fetch - processPackages [codapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codapy-0.3.7.tar.gz tmp/codapy-0.3.8.tar.gz --markdown 20240521/c/codapy/0.3.7-0.3.8/README.md --exclude *.pyd
+[2024-05-21 08:45:59] INFO root fetch - processPackages [xdwlib]: executing diffoscope
+[2024-05-21 08:45:59] INFO root fetch - processPackages [xdwlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xdwlib-3.9.6.zip tmp/xdwlib-3.9.7.zip --markdown 20240521/x/xdwlib/3.9.6-3.9.7/README.md --exclude *.pyd
+[2024-05-21 08:46:00] INFO root fetch - processPackages [nvidia-dali-weekly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_weekly_cuda120-1.38.0.dev20240505.tar.gz]
+[2024-05-21 08:46:00] INFO root fetch - processPackages [nvidia-dali-weekly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_weekly_cuda120-1.39.0.dev20240519.tar.gz]
+[2024-05-21 08:46:00] INFO root fetch - main [MainThread]: End processing [nvidia-dali-weekly-cuda120]: success
+[2024-05-21 08:46:00] INFO root fetch - processPackages [odoo-addons-oca-server-backend]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_server_backend-16.0.20240415.0-py3-none-any.whl.zip]
+[2024-05-21 08:46:00] INFO root fetch - processPackages [odoo-addons-oca-server-backend]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_server_backend-16.0.20240520.0-py3-none-any.whl.zip]
+[2024-05-21 08:46:00] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-server-backend]: success
+[2024-05-21 08:46:00] INFO root fetch - processPackages [nvidia-dali-tf-plugin-weekly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_tf_plugin_weekly_cuda120-1.38.0.dev20240505.tar.gz]
+[2024-05-21 08:46:00] INFO root fetch - processPackages [nvidia-dali-tf-plugin-weekly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_tf_plugin_weekly_cuda120-1.39.0.dev20240519.tar.gz]
+[2024-05-21 08:46:00] INFO root fetch - main [MainThread]: End processing [nvidia-dali-tf-plugin-weekly-cuda120]: success
+[2024-05-21 08:46:00] INFO root fetch - processPackages [codapy]: Remove: archive file [/home/abi/fetcher/tmp/codapy-0.3.7.tar.gz]
+[2024-05-21 08:46:00] INFO root fetch - processPackages [codapy]: Remove: archive file [/home/abi/fetcher/tmp/codapy-0.3.8.tar.gz]
+[2024-05-21 08:46:00] INFO root fetch - main [MainThread]: End processing [codapy]: success
+[2024-05-21 08:46:00] INFO root fetch - processPackages [wah]: Remove: archive file [/home/abi/fetcher/tmp/wah-0.1.8.tar.gz]
+[2024-05-21 08:46:00] INFO root fetch - processPackages [wah]: Remove: archive file [/home/abi/fetcher/tmp/wah-0.1.9.tar.gz]
+[2024-05-21 08:46:00] INFO root fetch - main [MainThread]: End processing [wah]: success
+[2024-05-21 08:46:00] INFO root fetch - processPackages [odoo-addon-server-action-sort]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_server_action_sort-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-21 08:46:00] INFO root fetch - processPackages [odoo-addon-server-action-sort]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_server_action_sort-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-05-21 08:46:00] INFO root fetch - main [MainThread]: End processing [odoo-addon-server-action-sort]: success
+[2024-05-21 08:46:00] INFO root fetch - processPackages [handshakes]: Remove: archive file [/home/abi/fetcher/tmp/handshakes-0.3.7.tar.gz]
+[2024-05-21 08:46:00] INFO root fetch - processPackages [handshakes]: Remove: archive file [/home/abi/fetcher/tmp/handshakes-0.3.8.tar.gz]
+[2024-05-21 08:46:00] INFO root fetch - main [MainThread]: End processing [handshakes]: success
+[2024-05-21 08:46:00] INFO root fetch - main [MainThread]: End processing [codapy]: success
+[2024-05-21 08:46:00] INFO root fetch - processPackages [xdwlib]: Remove: archive file [/home/abi/fetcher/tmp/xdwlib-3.9.6.zip]
+[2024-05-21 08:46:00] INFO root fetch - processPackages [xdwlib]: Remove: archive file [/home/abi/fetcher/tmp/xdwlib-3.9.7.zip]
+[2024-05-21 08:46:00] INFO root fetch - main [MainThread]: End processing [xdwlib]: success
+[2024-05-21 08:46:00] INFO root fetch - main [MainThread]: Store serial: [23302155]
