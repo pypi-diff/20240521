@@ -8170,3 +8170,15 @@
 [2024-05-21 04:18:12] INFO root fetch - processPackages [transstellar-antd]: Remove: archive file [/home/abi/fetcher/tmp/transstellar_antd-0.7.0.tar.gz]
 [2024-05-21 04:18:12] INFO root fetch - main [MainThread]: End processing [transstellar-antd]: success
 [2024-05-21 04:18:12] INFO root fetch - main [MainThread]: Store serial: [23299826]
+[2024-05-21 04:20:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23299826]
+[2024-05-21 04:20:21] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-21 04:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scores
+[2024-05-21 04:20:21] INFO root fetch - processPackages [scores]: New version: [0.8.2] Old Version: [0.8.1]
+[2024-05-21 04:20:21] INFO root fetch - processPackages [scores]: Downloading https://files.pythonhosted.org/packages/7e/11/6d66446ab49eccaeb0f29b4286ff54f2fad16c07736abb780e47ea4d1afa/scores-0.8.1.tar.gz
+[2024-05-21 04:20:22] INFO root fetch - processPackages [scores]: Downloading https://files.pythonhosted.org/packages/9c/3c/34cc14620e5e9e912df1390d6bfc563616e3c026581aa19b4062e9fbec5e/scores-0.8.2.tar.gz
+[2024-05-21 04:20:22] INFO root fetch - processPackages [scores]: executing diffoscope
+[2024-05-21 04:20:22] INFO root fetch - processPackages [scores]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scores-0.8.1.tar.gz tmp/scores-0.8.2.tar.gz --markdown 20240521/s/scores/0.8.1-0.8.2/README.md --exclude *.pyd
+[2024-05-21 04:20:23] INFO root fetch - processPackages [scores]: Remove: archive file [/home/abi/fetcher/tmp/scores-0.8.1.tar.gz]
+[2024-05-21 04:20:23] INFO root fetch - processPackages [scores]: Remove: archive file [/home/abi/fetcher/tmp/scores-0.8.2.tar.gz]
+[2024-05-21 04:20:23] INFO root fetch - main [MainThread]: End processing [scores]: success
+[2024-05-21 04:20:23] INFO root fetch - main [MainThread]: Store serial: [23299830]
