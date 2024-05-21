@@ -11702,3 +11702,78 @@
 [2024-05-21 07:13:45] INFO root fetch - processPackages [myplotlib]: Remove: archive file [/home/abi/fetcher/tmp/myplotlib-1.3.0.tar.gz]
 [2024-05-21 07:13:45] INFO root fetch - main [MainThread]: End processing [myplotlib]: success
 [2024-05-21 07:13:45] INFO root fetch - main [MainThread]: Store serial: [23301246]
+[2024-05-21 07:15:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23301246]
+[2024-05-21 07:15:54] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-21 07:15:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nucliadb
+[2024-05-21 07:15:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zetamarkets_py
+[2024-05-21 07:15:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nucliadb-dataset
+[2024-05-21 07:15:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nucliadb-models
+[2024-05-21 07:15:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nucliadb-protos
+[2024-05-21 07:15:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nucliadb-sdk
+[2024-05-21 07:15:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nucliadb-telemetry
+[2024-05-21 07:15:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nucliadb-utils
+[2024-05-21 07:15:54] INFO root fetch - processPackages [nucliadb-telemetry]: New version: [4.0.0.post523] Old Version: [4.0.0.post522]
+[2024-05-21 07:15:54] INFO root fetch - processPackages [nucliadb]: New version: [4.0.0.post523] Old Version: [4.0.0.post522]
+[2024-05-21 07:15:54] INFO root fetch - processPackages [nucliadb-protos]: New version: [4.0.0.post523] Old Version: [4.0.0.post522]
+[2024-05-21 07:15:54] INFO root fetch - processPackages [nucliadb-sdk]: New version: [4.0.0.post523] Old Version: [4.0.0.post522]
+[2024-05-21 07:15:54] INFO root fetch - processPackages [nucliadb-dataset]: New version: [4.0.0.post523] Old Version: [4.0.0.post522]
+[2024-05-21 07:15:54] INFO root fetch - processPackages [nucliadb-utils]: New version: [4.0.0.post523] Old Version: [4.0.0.post522]
+[2024-05-21 07:15:54] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/f6/c1/be745d03d9704008d14dfa19be9f444d7150dfa0338bd5c2f4969f28d09b/nucliadb_telemetry-4.0.0.post522-py3-none-any.whl
+[2024-05-21 07:15:54] INFO root fetch - processPackages [nucliadb-models]: New version: [4.0.0.post526] Old Version: [4.0.0.post523]
+[2024-05-21 07:15:54] INFO root fetch - processPackages [zetamarkets_py]: New version: [0.2.9] Old Version: [0.2.7]
+[2024-05-21 07:15:54] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/08/4f/33190fdbad87fb81484800f3a71bf67a4703a7ef801b0abbe49654a2615e/nucliadb-4.0.0.post522-py3-none-any.whl
+[2024-05-21 07:15:54] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/5d/e5/718e4ea055465c1aa0ff54535312f42efdc25edd0559381189704d4bc02a/nucliadb_utils-4.0.0.post522-py3-none-any.whl
+[2024-05-21 07:15:54] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/33/9e/ef87e8cd58521b001387ee4bb4b3bd10d2a66dd3eedb70b7822163b8b943/nucliadb_sdk-4.0.0.post522-py3-none-any.whl
+[2024-05-21 07:15:54] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/d6/30/13cb20911a6b519077755a4524a8dfd02ae9f6414f9ae4be6135212ccfda/nucliadb_dataset-4.0.0.post522-py3-none-any.whl
+[2024-05-21 07:15:54] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/bf/2a/b1e289a0e56f60d8e07ff51bcea196310e6c358068946d64c2e263d024b8/nucliadb_protos-4.0.0.post522-py3-none-any.whl
+[2024-05-21 07:15:54] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/c5/c1/4a261b6141f4c14695487c31a82129f124bce35d1af2a87d2364ec3c961c/nucliadb_models-4.0.0.post523-py3-none-any.whl
+[2024-05-21 07:15:54] INFO root fetch - processPackages [zetamarkets_py]: Downloading https://files.pythonhosted.org/packages/cd/af/f7f964f2260bfe51acc8dac83276d41a8222a44d8408ea92789cb6e54cdb/zetamarkets_py-0.2.7.tar.gz
+[2024-05-21 07:15:54] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/f3/a6/0cd0f8214b5d15c46b70289c0feaee6467298a53633d17dc4897319eedf6/nucliadb_telemetry-4.0.0.post523-py3-none-any.whl
+[2024-05-21 07:15:54] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/17/dd/055757003655b68381d828b779decf149a610df28fa97a736c5d3bd1cbd7/nucliadb_dataset-4.0.0.post523-py3-none-any.whl
+[2024-05-21 07:15:54] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/27/1c/a3849aeb39a6a641c8fe14317980b1df150c5bd5508796aed847d7a2580b/nucliadb_utils-4.0.0.post523-py3-none-any.whl
+[2024-05-21 07:15:54] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/74/82/74a133ebc174cc5ef5c299efac0fdd24dcacb4175cf707fbb0e8bf6b96ce/nucliadb-4.0.0.post523-py3-none-any.whl
+[2024-05-21 07:15:55] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/b6/12/98139c8e4b9a4551b25f591f5009445dee894990f29a179546db5ee31855/nucliadb_sdk-4.0.0.post523-py3-none-any.whl
+[2024-05-21 07:15:55] INFO root fetch - processPackages [nucliadb-telemetry]: executing diffoscope
+[2024-05-21 07:15:55] INFO root fetch - processPackages [nucliadb-telemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_telemetry-4.0.0.post522-py3-none-any.whl.zip tmp/nucliadb_telemetry-4.0.0.post523-py3-none-any.whl.zip --markdown 20240521/n/nucliadb-telemetry/4.0.0.post522-4.0.0.post523/README.md --exclude *.pyd
+[2024-05-21 07:15:55] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/1e/d9/c7b721352d7e7d888d6a704293b373dbf1cf4d1fca6c74953a03a891d97e/nucliadb_models-4.0.0.post526-py3-none-any.whl
+[2024-05-21 07:15:55] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2024-05-21 07:15:55] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-4.0.0.post522-py3-none-any.whl.zip tmp/nucliadb_dataset-4.0.0.post523-py3-none-any.whl.zip --markdown 20240521/n/nucliadb-dataset/4.0.0.post522-4.0.0.post523/README.md --exclude *.pyd
+[2024-05-21 07:15:55] INFO root fetch - processPackages [zetamarkets_py]: Downloading https://files.pythonhosted.org/packages/b2/a0/077585838f672a1d19c11fddd9265f944635323847353a76dcbc0bc8f2ed/zetamarkets_py-0.2.9.tar.gz
+[2024-05-21 07:15:55] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/af/cd/126eec882545d666f423d0889257a1d818c8e2e3756c54233efc806be2e0/nucliadb_protos-4.0.0.post523-py3-none-any.whl
+[2024-05-21 07:15:55] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2024-05-21 07:15:55] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-4.0.0.post522-py3-none-any.whl.zip tmp/nucliadb_utils-4.0.0.post523-py3-none-any.whl.zip --markdown 20240521/n/nucliadb-utils/4.0.0.post522-4.0.0.post523/README.md --exclude *.pyd
+[2024-05-21 07:15:55] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2024-05-21 07:15:55] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-4.0.0.post522-py3-none-any.whl.zip tmp/nucliadb_sdk-4.0.0.post523-py3-none-any.whl.zip --markdown 20240521/n/nucliadb-sdk/4.0.0.post522-4.0.0.post523/README.md --exclude *.pyd
+[2024-05-21 07:15:55] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2024-05-21 07:15:55] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-4.0.0.post522-py3-none-any.whl.zip tmp/nucliadb-4.0.0.post523-py3-none-any.whl.zip --markdown 20240521/n/nucliadb/4.0.0.post522-4.0.0.post523/README.md --exclude *.pyd
+[2024-05-21 07:15:55] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2024-05-21 07:15:55] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-4.0.0.post523-py3-none-any.whl.zip tmp/nucliadb_models-4.0.0.post526-py3-none-any.whl.zip --markdown 20240521/n/nucliadb-models/4.0.0.post523-4.0.0.post526/README.md --exclude *.pyd
+[2024-05-21 07:15:55] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2024-05-21 07:15:55] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-4.0.0.post522-py3-none-any.whl.zip tmp/nucliadb_protos-4.0.0.post523-py3-none-any.whl.zip --markdown 20240521/n/nucliadb-protos/4.0.0.post522-4.0.0.post523/README.md --exclude *.pyd
+[2024-05-21 07:15:55] INFO root fetch - processPackages [zetamarkets_py]: executing diffoscope
+[2024-05-21 07:15:55] INFO root fetch - processPackages [zetamarkets_py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zetamarkets_py-0.2.7.tar.gz tmp/zetamarkets_py-0.2.9.tar.gz --markdown 20240521/z/zetamarkets_py/0.2.7-0.2.9/README.md --exclude *.pyd
+[2024-05-21 07:15:55] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-4.0.0.post522-py3-none-any.whl.zip]
+[2024-05-21 07:15:55] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-4.0.0.post523-py3-none-any.whl.zip]
+[2024-05-21 07:15:55] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2024-05-21 07:15:55] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-4.0.0.post522-py3-none-any.whl.zip]
+[2024-05-21 07:15:55] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-4.0.0.post523-py3-none-any.whl.zip]
+[2024-05-21 07:15:55] INFO root fetch - main [MainThread]: End processing [nucliadb-telemetry]: success
+[2024-05-21 07:15:56] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-4.0.0.post522-py3-none-any.whl.zip]
+[2024-05-21 07:15:56] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-4.0.0.post523-py3-none-any.whl.zip]
+[2024-05-21 07:15:56] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2024-05-21 07:15:56] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-4.0.0.post523-py3-none-any.whl.zip]
+[2024-05-21 07:15:56] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-4.0.0.post526-py3-none-any.whl.zip]
+[2024-05-21 07:15:56] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2024-05-21 07:15:56] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-4.0.0.post522-py3-none-any.whl.zip]
+[2024-05-21 07:15:56] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-4.0.0.post523-py3-none-any.whl.zip]
+[2024-05-21 07:15:56] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2024-05-21 07:15:56] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-4.0.0.post522-py3-none-any.whl.zip]
+[2024-05-21 07:15:56] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-4.0.0.post523-py3-none-any.whl.zip]
+[2024-05-21 07:15:56] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2024-05-21 07:15:57] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-4.0.0.post522-py3-none-any.whl.zip]
+[2024-05-21 07:15:57] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-4.0.0.post523-py3-none-any.whl.zip]
+[2024-05-21 07:15:57] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2024-05-21 07:16:01] INFO root fetch - processPackages [zetamarkets_py]: Remove: archive file [/home/abi/fetcher/tmp/zetamarkets_py-0.2.7.tar.gz]
+[2024-05-21 07:16:01] INFO root fetch - processPackages [zetamarkets_py]: Remove: archive file [/home/abi/fetcher/tmp/zetamarkets_py-0.2.9.tar.gz]
+[2024-05-21 07:16:01] INFO root fetch - main [MainThread]: End processing [zetamarkets_py]: success
+[2024-05-21 07:16:01] INFO root fetch - main [MainThread]: Store serial: [23301264]
