@@ -20511,3 +20511,78 @@
 [2024-05-21 12:33:44] INFO root fetch - processPackages [soil-sdk]: Remove: archive file [/home/abi/fetcher/tmp/soil-sdk-0.6.9.tar.gz]
 [2024-05-21 12:33:44] INFO root fetch - main [MainThread]: End processing [soil-sdk]: success
 [2024-05-21 12:33:44] INFO root fetch - main [MainThread]: Store serial: [23304764]
+[2024-05-21 12:35:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23304764]
+[2024-05-21 12:35:53] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-21 12:35:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nucliadb-protos
+[2024-05-21 12:35:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nucliadb-sdk
+[2024-05-21 12:35:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nucliadb-telemetry
+[2024-05-21 12:35:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nucliadb-utils
+[2024-05-21 12:35:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: buzz-client
+[2024-05-21 12:35:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: snowddl
+[2024-05-21 12:35:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: phomo
+[2024-05-21 12:35:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Shimmy
+[2024-05-21 12:35:53] INFO root fetch - processPackages [nucliadb-sdk]: New version: [4.0.0.post528] Old Version: [4.0.0.post527]
+[2024-05-21 12:35:53] INFO root fetch - processPackages [buzz-client]: New version: [1.0.4] Old Version: [1.0.3b0]
+[2024-05-21 12:35:53] INFO root fetch - processPackages [Shimmy]: New version: [1.3.0] Old Version: [1.2.1]
+[2024-05-21 12:35:53] INFO root fetch - processPackages [nucliadb-telemetry]: New version: [4.0.0.post528] Old Version: [4.0.0.post527]
+[2024-05-21 12:35:53] INFO root fetch - processPackages [nucliadb-utils]: New version: [4.0.0.post528] Old Version: [4.0.0.post527]
+[2024-05-21 12:35:53] INFO root fetch - processPackages [nucliadb-protos]: New version: [4.0.0.post528] Old Version: [4.0.0.post527]
+[2024-05-21 12:35:53] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/2d/37/194778be31183ac296a7ef1c21a25149dc9d13b82ce1621d31a20f02b422/nucliadb_telemetry-4.0.0.post527-py3-none-any.whl
+[2024-05-21 12:35:53] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/62/93/787eea01d45b23de638ccbb1c93fa37d72484597e7a3bed0aafbeaa2d7d1/nucliadb_sdk-4.0.0.post527-py3-none-any.whl
+[2024-05-21 12:35:53] INFO root fetch - processPackages [buzz-client]: Downloading https://files.pythonhosted.org/packages/32/f4/dc12adae47ac2518f6ea60c6efb81ea052e39a3404d6979efcb9962f9b62/buzz_client-1.0.3b0.tar.gz
+[2024-05-21 12:35:53] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/13/ac/709280a41c90ddb7b1ca1d795de0f69dc2201890e2ed2d5b5c87c79cb837/nucliadb_protos-4.0.0.post527-py3-none-any.whl
+[2024-05-21 12:35:53] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/d1/86/4cb2e366f43529d6d9595df2a45c246e60b4b7f3391e3a496f1624721ed8/nucliadb_utils-4.0.0.post527-py3-none-any.whl
+[2024-05-21 12:35:54] INFO root fetch - processPackages [phomo]: New version: [0.4.7] Old Version: [0.4.6]
+[2024-05-21 12:35:54] INFO root fetch - processPackages [Shimmy]: Downloading https://files.pythonhosted.org/packages/2f/b8/64ceac035b8f1285e63c71eb64d8ffee5038734b956ee917aa62a9b9d733/Shimmy-1.2.1.tar.gz
+[2024-05-21 12:35:54] INFO root fetch - processPackages [buzz-client]: Downloading https://files.pythonhosted.org/packages/8d/36/b64c58acb57c3ad0d150b9457d08bfdbc6cbaa16dcd5a77edb8a9d5ecf5c/buzz_client-1.0.4.tar.gz
+[2024-05-21 12:35:54] INFO root fetch - processPackages [buzz-client]: executing diffoscope
+[2024-05-21 12:35:54] INFO root fetch - processPackages [buzz-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buzz_client-1.0.3b0.tar.gz tmp/buzz_client-1.0.4.tar.gz --markdown 20240521/b/buzz-client/1.0.3b0-1.0.4/README.md --exclude *.pyd
+[2024-05-21 12:35:54] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/66/ed/a73e78eccd0a8883f106213782df90471f2ccfd346d794e7f195d681ae41/nucliadb_telemetry-4.0.0.post528-py3-none-any.whl
+[2024-05-21 12:35:54] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/6a/86/310f241adc2611496646e3bd20df3b191e4f89b37a399031c0fc34b14a5a/nucliadb_sdk-4.0.0.post528-py3-none-any.whl
+[2024-05-21 12:35:54] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/e5/40/6de38938fd8dbee19116fabbcfe4674e18f3f875c901cd821c7d685493c2/nucliadb_protos-4.0.0.post528-py3-none-any.whl
+[2024-05-21 12:35:54] INFO root fetch - processPackages [phomo]: Downloading https://files.pythonhosted.org/packages/ed/b7/c8eade1c65e58e456e93680aecae0bf8b345bc33c43950cfb098495c8e5a/phomo-0.4.6.tar.gz
+[2024-05-21 12:35:54] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/96/2d/86d59f195dd7c421979776b915629fe787c56cb26bd2a9599de69141dc6b/nucliadb_utils-4.0.0.post528-py3-none-any.whl
+[2024-05-21 12:35:54] INFO root fetch - processPackages [nucliadb-telemetry]: executing diffoscope
+[2024-05-21 12:35:54] INFO root fetch - processPackages [nucliadb-telemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_telemetry-4.0.0.post527-py3-none-any.whl.zip tmp/nucliadb_telemetry-4.0.0.post528-py3-none-any.whl.zip --markdown 20240521/n/nucliadb-telemetry/4.0.0.post527-4.0.0.post528/README.md --exclude *.pyd
+[2024-05-21 12:35:54] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2024-05-21 12:35:54] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-4.0.0.post527-py3-none-any.whl.zip tmp/nucliadb_sdk-4.0.0.post528-py3-none-any.whl.zip --markdown 20240521/n/nucliadb-sdk/4.0.0.post527-4.0.0.post528/README.md --exclude *.pyd
+[2024-05-21 12:35:54] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2024-05-21 12:35:54] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-4.0.0.post527-py3-none-any.whl.zip tmp/nucliadb_protos-4.0.0.post528-py3-none-any.whl.zip --markdown 20240521/n/nucliadb-protos/4.0.0.post527-4.0.0.post528/README.md --exclude *.pyd
+[2024-05-21 12:35:54] INFO root fetch - processPackages [Shimmy]: Downloading https://files.pythonhosted.org/packages/92/a7/e2c7e4674f060a4465be9f9f1f40f07e6a0b3acd8d03f9f84832111d45b6/Shimmy-1.3.0.tar.gz
+[2024-05-21 12:35:54] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2024-05-21 12:35:54] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-4.0.0.post527-py3-none-any.whl.zip tmp/nucliadb_utils-4.0.0.post528-py3-none-any.whl.zip --markdown 20240521/n/nucliadb-utils/4.0.0.post527-4.0.0.post528/README.md --exclude *.pyd
+[2024-05-21 12:35:54] INFO root fetch - processPackages [Shimmy]: executing diffoscope
+[2024-05-21 12:35:54] INFO root fetch - processPackages [Shimmy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Shimmy-1.2.1.tar.gz tmp/Shimmy-1.3.0.tar.gz --markdown 20240521/S/Shimmy/1.2.1-1.3.0/README.md --exclude *.pyd
+[2024-05-21 12:35:54] INFO root fetch - processPackages [phomo]: Downloading https://files.pythonhosted.org/packages/e3/c4/a35e594aef8fa7e2611d80210620978e39889db7b91059a48b8bcfb27403/phomo-0.4.7.tar.gz
+[2024-05-21 12:35:54] INFO root fetch - processPackages [phomo]: executing diffoscope
+[2024-05-21 12:35:54] INFO root fetch - processPackages [phomo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phomo-0.4.6.tar.gz tmp/phomo-0.4.7.tar.gz --markdown 20240521/p/phomo/0.4.6-0.4.7/README.md --exclude *.pyd
+[2024-05-21 12:35:54] INFO root fetch - processPackages [buzz-client]: Remove: archive file [/home/abi/fetcher/tmp/buzz_client-1.0.3b0.tar.gz]
+[2024-05-21 12:35:54] INFO root fetch - processPackages [buzz-client]: Remove: archive file [/home/abi/fetcher/tmp/buzz_client-1.0.4.tar.gz]
+[2024-05-21 12:35:54] INFO root fetch - main [MainThread]: End processing [buzz-client]: success
+[2024-05-21 12:35:54] INFO root fetch - processPackages [snowddl]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-21 12:35:55] INFO root fetch - processPackages [snowddl]: Downloading https://files.pythonhosted.org/packages/de/fb/cfd61d54e05e02fe6de2cc9e2c72dd3a952770c7781bfa63593b47647600/snowddl-0.9.8.tar.gz
+[2024-05-21 12:35:55] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-4.0.0.post527-py3-none-any.whl.zip]
+[2024-05-21 12:35:55] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-4.0.0.post528-py3-none-any.whl.zip]
+[2024-05-21 12:35:55] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2024-05-21 12:35:55] INFO root fetch - processPackages [Shimmy]: Remove: archive file [/home/abi/fetcher/tmp/Shimmy-1.2.1.tar.gz]
+[2024-05-21 12:35:55] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-4.0.0.post527-py3-none-any.whl.zip]
+[2024-05-21 12:35:55] INFO root fetch - processPackages [Shimmy]: Remove: archive file [/home/abi/fetcher/tmp/Shimmy-1.3.0.tar.gz]
+[2024-05-21 12:35:55] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-4.0.0.post528-py3-none-any.whl.zip]
+[2024-05-21 12:35:55] INFO root fetch - main [MainThread]: End processing [Shimmy]: success
+[2024-05-21 12:35:55] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2024-05-21 12:35:55] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-4.0.0.post527-py3-none-any.whl.zip]
+[2024-05-21 12:35:55] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-4.0.0.post528-py3-none-any.whl.zip]
+[2024-05-21 12:35:55] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2024-05-21 12:35:55] INFO root fetch - processPackages [snowddl]: Downloading https://files.pythonhosted.org/packages/30/b1/743904be3436bae396d5a7d758a63419ad2a611878e2b644c34e43e5266b/snowddl-0.9.9.tar.gz
+[2024-05-21 12:35:55] INFO root fetch - processPackages [phomo]: Remove: archive file [/home/abi/fetcher/tmp/phomo-0.4.6.tar.gz]
+[2024-05-21 12:35:55] INFO root fetch - processPackages [phomo]: Remove: archive file [/home/abi/fetcher/tmp/phomo-0.4.7.tar.gz]
+[2024-05-21 12:35:55] INFO root fetch - main [MainThread]: End processing [phomo]: success
+[2024-05-21 12:35:55] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-4.0.0.post527-py3-none-any.whl.zip]
+[2024-05-21 12:35:55] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-4.0.0.post528-py3-none-any.whl.zip]
+[2024-05-21 12:35:55] INFO root fetch - main [MainThread]: End processing [nucliadb-telemetry]: success
+[2024-05-21 12:35:55] INFO root fetch - processPackages [snowddl]: executing diffoscope
+[2024-05-21 12:35:55] INFO root fetch - processPackages [snowddl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snowddl-0.9.8.tar.gz tmp/snowddl-0.9.9.tar.gz --markdown 20240521/s/snowddl/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-21 12:35:56] INFO root fetch - processPackages [snowddl]: Remove: archive file [/home/abi/fetcher/tmp/snowddl-0.9.8.tar.gz]
+[2024-05-21 12:35:56] INFO root fetch - processPackages [snowddl]: Remove: archive file [/home/abi/fetcher/tmp/snowddl-0.9.9.tar.gz]
+[2024-05-21 12:35:56] INFO root fetch - main [MainThread]: End processing [snowddl]: success
+[2024-05-21 12:35:56] INFO root fetch - main [MainThread]: Store serial: [23304786]
