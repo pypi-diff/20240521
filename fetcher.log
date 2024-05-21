@@ -2487,3 +2487,58 @@
 [2024-05-21 02:04:46] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-2.0.0.20240520.424.tar.gz]
 [2024-05-21 02:04:46] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
 [2024-05-21 02:04:46] INFO root fetch - main [MainThread]: Store serial: [23297830]
+[2024-05-21 02:06:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23297830]
+[2024-05-21 02:06:55] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-21 02:06:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jaxkern-nightly
+[2024-05-21 02:06:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mriqa
+[2024-05-21 02:06:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mriqa
+[2024-05-21 02:06:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: onnxscript
+[2024-05-21 02:06:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: open-ephys-python-tools
+[2024-05-21 02:06:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jaxutils-nightly
+[2024-05-21 02:06:56] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20240520] Old Version: [0.0.8.dev20240519]
+[2024-05-21 02:06:56] INFO root fetch - processPackages [onnxscript]: New version: [0.1.0.dev20240520] Old Version: [0.1.0.dev20240519]
+[2024-05-21 02:06:56] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2024-05-21 02:06:56] INFO root fetch - processPackages [mriqa]: New version: [0.2.15] Old Version: [0.2.14]
+[2024-05-21 02:06:56] INFO root fetch - processPackages [mriqa]: New version: [0.2.15] Old Version: [0.2.14]
+[2024-05-21 02:06:56] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/76/55/ef13835e3e8e1570e91b3bc7235725e556f183e3222d5e7e66ac8de58ba0/jaxkern-nightly-0.dev20221221.tar.gz
+[2024-05-21 02:06:56] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/de/6d/23a22680ceb6cc46bd0494803dce00feb8ae7948849f905b0d3dda452674/jaxutils-nightly-0.0.8.dev20240519.tar.gz
+[2024-05-21 02:06:56] INFO root fetch - processPackages [open-ephys-python-tools]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-21 02:06:56] INFO root fetch - processPackages [onnxscript]: Downloading https://files.pythonhosted.org/packages/45/4f/c8455629d4f722ca449e33b6ec173ecb32ced79f313d47f49ff7ad3ac0da/onnxscript-0.1.0.dev20240519.tar.gz
+[2024-05-21 02:06:56] INFO root fetch - processPackages [mriqa]: Downloading https://files.pythonhosted.org/packages/27/9e/e4061c07248ef224f33e15e0279bfb220668ae109e0bd0fa422c475b6b2d/mriqa-0.2.14.tar.gz
+[2024-05-21 02:06:56] INFO root fetch - processPackages [mriqa]: Downloading https://files.pythonhosted.org/packages/27/9e/e4061c07248ef224f33e15e0279bfb220668ae109e0bd0fa422c475b6b2d/mriqa-0.2.14.tar.gz
+[2024-05-21 02:06:56] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/ea/b1/fbac44f07e48f8800aada2de8e9114775baf3f3d605ee80382db18a1c728/jaxkern-nightly-0.dev20221222.tar.gz
+[2024-05-21 02:06:56] INFO root fetch - processPackages [open-ephys-python-tools]: Downloading https://files.pythonhosted.org/packages/0c/92/c28e0a9dd0af1511bfc3ebcb6b3786087cff9589c64fdde9be19dee98cca/open-ephys-python-tools-0.1.7.tar.gz
+[2024-05-21 02:06:56] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2024-05-21 02:06:56] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20240521/j/jaxkern-nightly/0.dev20221221-0.dev20221222/README.md --exclude *.pyd
+[2024-05-21 02:06:56] INFO root fetch - processPackages [onnxscript]: Downloading https://files.pythonhosted.org/packages/9f/0d/7639828dfc51669ac4d14cf28078b025b08d64e1ee6cb7c875906b163b19/onnxscript-0.1.0.dev20240520.tar.gz
+[2024-05-21 02:06:56] INFO root fetch - processPackages [mriqa]: Downloading https://files.pythonhosted.org/packages/38/fc/84eda7dfdfd040e9cc226b23a544d29adff72413292599059b863fe3f6c2/mriqa-0.2.15.tar.gz
+[2024-05-21 02:06:56] INFO root fetch - processPackages [mriqa]: Downloading https://files.pythonhosted.org/packages/38/fc/84eda7dfdfd040e9cc226b23a544d29adff72413292599059b863fe3f6c2/mriqa-0.2.15.tar.gz
+[2024-05-21 02:06:56] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/36/bc/6f0cd41141cc67b2bf1a11158e25f9960cc50e92a54626824e3184292488/jaxutils-nightly-0.0.8.dev20240520.tar.gz
+[2024-05-21 02:06:56] INFO root fetch - processPackages [open-ephys-python-tools]: Downloading https://files.pythonhosted.org/packages/6d/9c/74d1d4b22cd82eeec14806bd48d9d2948574105055442f770567a83023b6/open_ephys_python_tools-0.1.8.tar.gz
+[2024-05-21 02:06:56] INFO root fetch - processPackages [onnxscript]: executing diffoscope
+[2024-05-21 02:06:56] INFO root fetch - processPackages [onnxscript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnxscript-0.1.0.dev20240519.tar.gz tmp/onnxscript-0.1.0.dev20240520.tar.gz --markdown 20240521/o/onnxscript/0.1.0.dev20240519-0.1.0.dev20240520/README.md --exclude *.pyd
+[2024-05-21 02:06:56] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2024-05-21 02:06:56] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20240519.tar.gz tmp/jaxutils-nightly-0.0.8.dev20240520.tar.gz --markdown 20240521/j/jaxutils-nightly/0.0.8.dev20240519-0.0.8.dev20240520/README.md --exclude *.pyd
+[2024-05-21 02:06:56] INFO root fetch - processPackages [mriqa]: executing diffoscope
+[2024-05-21 02:06:56] INFO root fetch - processPackages [mriqa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mriqa-0.2.14.tar.gz tmp/mriqa-0.2.15.tar.gz --markdown 20240521/m/mriqa/0.2.14-0.2.15/README.md --exclude *.pyd
+[2024-05-21 02:06:56] INFO root fetch - processPackages [mriqa]: executing diffoscope
+[2024-05-21 02:06:56] INFO root fetch - processPackages [mriqa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mriqa-0.2.14.tar.gz tmp/mriqa-0.2.15.tar.gz --markdown 20240521/m/mriqa/0.2.14-0.2.15/README.md --exclude *.pyd
+[2024-05-21 02:06:56] INFO root fetch - processPackages [open-ephys-python-tools]: executing diffoscope
+[2024-05-21 02:06:56] INFO root fetch - processPackages [open-ephys-python-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open-ephys-python-tools-0.1.7.tar.gz tmp/open_ephys_python_tools-0.1.8.tar.gz --markdown 20240521/o/open-ephys-python-tools/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-21 02:06:57] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221221.tar.gz]
+[2024-05-21 02:06:57] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221222.tar.gz]
+[2024-05-21 02:06:57] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2024-05-21 02:06:57] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20240519.tar.gz]
+[2024-05-21 02:06:57] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20240520.tar.gz]
+[2024-05-21 02:06:57] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2024-05-21 02:06:57] INFO root fetch - processPackages [mriqa]: Remove: archive file [/home/abi/fetcher/tmp/mriqa-0.2.14.tar.gz]
+[2024-05-21 02:06:57] INFO root fetch - processPackages [mriqa]: Remove: archive file [/home/abi/fetcher/tmp/mriqa-0.2.15.tar.gz]
+[2024-05-21 02:06:57] INFO root fetch - main [MainThread]: End processing [mriqa]: success
+[2024-05-21 02:06:57] INFO root fetch - main [MainThread]: End processing [mriqa]: success
+[2024-05-21 02:06:57] INFO root fetch - processPackages [open-ephys-python-tools]: Remove: archive file [/home/abi/fetcher/tmp/open-ephys-python-tools-0.1.7.tar.gz]
+[2024-05-21 02:06:57] INFO root fetch - processPackages [open-ephys-python-tools]: Remove: archive file [/home/abi/fetcher/tmp/open_ephys_python_tools-0.1.8.tar.gz]
+[2024-05-21 02:06:57] INFO root fetch - main [MainThread]: End processing [open-ephys-python-tools]: success
+[2024-05-21 02:06:57] INFO root fetch - processPackages [onnxscript]: Remove: archive file [/home/abi/fetcher/tmp/onnxscript-0.1.0.dev20240519.tar.gz]
+[2024-05-21 02:06:57] INFO root fetch - processPackages [onnxscript]: Remove: archive file [/home/abi/fetcher/tmp/onnxscript-0.1.0.dev20240520.tar.gz]
+[2024-05-21 02:06:57] INFO root fetch - main [MainThread]: End processing [onnxscript]: success
+[2024-05-21 02:06:57] INFO root fetch - main [MainThread]: Store serial: [23297849]
