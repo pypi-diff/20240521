@@ -9805,3 +9805,27 @@
 [2024-05-21 05:48:18] INFO root fetch - processPackages [seg_tgce]: Remove: archive file [/home/abi/fetcher/tmp/seg_tgce-0.1.2.tar.gz]
 [2024-05-21 05:48:18] INFO root fetch - main [MainThread]: End processing [seg_tgce]: success
 [2024-05-21 05:48:18] INFO root fetch - main [MainThread]: Store serial: [23300642]
+[2024-05-21 05:50:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23300642]
+[2024-05-21 05:50:27] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-21 05:50:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: imagededup-cli
+[2024-05-21 05:50:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: adbutils
+[2024-05-21 05:50:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: empower-functions
+[2024-05-21 05:50:27] WARNING root fetch - processPackages [imagededup-cli]: Skipping, unable to determine old version
+[2024-05-21 05:50:27] INFO root fetch - main [MainThread]: End processing [imagededup-cli] error
+[2024-05-21 05:50:27] INFO root fetch - processPackages [empower-functions]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-21 05:50:27] INFO root fetch - processPackages [adbutils]: New version: [2.7.1] Old Version: [2.7.0]
+[2024-05-21 05:50:27] INFO root fetch - processPackages [adbutils]: Downloading https://files.pythonhosted.org/packages/25/f1/14abfad55fef78b050209a5ca369fb26d4a438ee3647464ca0015907aa7d/adbutils-2.7.0.tar.gz
+[2024-05-21 05:50:27] INFO root fetch - processPackages [empower-functions]: Downloading https://files.pythonhosted.org/packages/ba/c8/f5d1f841e018e4f23320d1133fe7a3684741f3e46fb96fcd972448989e7e/empower_functions-0.1.2.tar.gz
+[2024-05-21 05:50:27] INFO root fetch - processPackages [adbutils]: Downloading https://files.pythonhosted.org/packages/b3/9b/6cc4eb5b794ff8b1071acb930361a7e5b0b1113b76b47453d3efbbd30d63/adbutils-2.7.1.tar.gz
+[2024-05-21 05:50:27] INFO root fetch - processPackages [adbutils]: executing diffoscope
+[2024-05-21 05:50:27] INFO root fetch - processPackages [adbutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adbutils-2.7.0.tar.gz tmp/adbutils-2.7.1.tar.gz --markdown 20240521/a/adbutils/2.7.0-2.7.1/README.md --exclude *.pyd
+[2024-05-21 05:50:27] INFO root fetch - processPackages [empower-functions]: Downloading https://files.pythonhosted.org/packages/23/85/92f0d686bcb5b724f7c39d5d7366549ddfcde978ae824a26dd6f34e6b6af/empower_functions-0.1.3.tar.gz
+[2024-05-21 05:50:28] INFO root fetch - processPackages [empower-functions]: executing diffoscope
+[2024-05-21 05:50:28] INFO root fetch - processPackages [empower-functions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/empower_functions-0.1.2.tar.gz tmp/empower_functions-0.1.3.tar.gz --markdown 20240521/e/empower-functions/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-21 05:50:28] INFO root fetch - processPackages [adbutils]: Remove: archive file [/home/abi/fetcher/tmp/adbutils-2.7.0.tar.gz]
+[2024-05-21 05:50:28] INFO root fetch - processPackages [adbutils]: Remove: archive file [/home/abi/fetcher/tmp/adbutils-2.7.1.tar.gz]
+[2024-05-21 05:50:28] INFO root fetch - main [MainThread]: End processing [adbutils]: success
+[2024-05-21 05:50:28] INFO root fetch - processPackages [empower-functions]: Remove: archive file [/home/abi/fetcher/tmp/empower_functions-0.1.2.tar.gz]
+[2024-05-21 05:50:28] INFO root fetch - processPackages [empower-functions]: Remove: archive file [/home/abi/fetcher/tmp/empower_functions-0.1.3.tar.gz]
+[2024-05-21 05:50:28] INFO root fetch - main [MainThread]: End processing [empower-functions]: success
+[2024-05-21 05:50:28] INFO root fetch - main [MainThread]: Store serial: [23300658]
