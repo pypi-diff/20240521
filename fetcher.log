@@ -16270,3 +16270,96 @@
 [2024-05-21 10:15:34] INFO root fetch - processPackages [studioai]: Remove: archive file [/home/abi/fetcher/tmp/studioai-0.2.9.tar.gz]
 [2024-05-21 10:15:34] INFO root fetch - main [MainThread]: End processing [studioai]: success
 [2024-05-21 10:15:34] INFO root fetch - main [MainThread]: Store serial: [23303026]
+[2024-05-21 10:17:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23303026]
+[2024-05-21 10:17:42] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-21 10:17:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: agptools
+[2024-05-21 10:17:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: atlas-provider-sqlalchemy
+[2024-05-21 10:17:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: swarmtube
+[2024-05-21 10:17:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openvisuspy
+[2024-05-21 10:17:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: syncmodels
+[2024-05-21 10:17:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: helix.fhir.client.sdk
+[2024-05-21 10:17:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: outpostcli
+[2024-05-21 10:17:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: apollo-lunar
+[2024-05-21 10:17:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fn5
+[2024-05-21 10:17:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: onion-clustering
+[2024-05-21 10:17:43] INFO root fetch - processPackages [fn5]: New version: [2.0.1] Old Version: [2.0.0]
+[2024-05-21 10:17:43] INFO root fetch - processPackages [apollo-lunar]: New version: [2024.5.21] Old Version: [2024.4.4rc1]
+[2024-05-21 10:17:43] INFO root fetch - processPackages [openvisuspy]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-21 10:17:43] INFO root fetch - processPackages [outpostcli]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-21 10:17:43] INFO root fetch - processPackages [swarmtube]: New version: [0.1.45] Old Version: [0.1.44]
+[2024-05-21 10:17:43] INFO root fetch - processPackages [helix.fhir.client.sdk]: New version: [2.0.8] Old Version: [2.0.7]
+[2024-05-21 10:17:43] INFO root fetch - processPackages [atlas-provider-sqlalchemy]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-21 10:17:43] INFO root fetch - processPackages [syncmodels]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-21 10:17:43] INFO root fetch - processPackages [agptools]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-21 10:17:43] INFO root fetch - processPackages [apollo-lunar]: Downloading https://files.pythonhosted.org/packages/2b/7d/ac278e0c2b56e554ec91a1fe5793ba9eec4ac940340d612bc809f49fb825/apollo_lunar-2024.4.4rc1.tar.gz
+[2024-05-21 10:17:43] INFO root fetch - processPackages [fn5]: Downloading https://files.pythonhosted.org/packages/60/65/32b819fb950109a0371cce0027870d06492b3b447f627e4ecc6205d9cbd2/fn5-2.0.0.tar.gz
+[2024-05-21 10:17:43] INFO root fetch - processPackages [openvisuspy]: Downloading https://files.pythonhosted.org/packages/b0/d9/2beb92d505396d836dfa5f3e5da1672e30a0795d20b21b932be407898836/openvisuspy-1.0.8-py3-none-any.whl
+[2024-05-21 10:17:43] INFO root fetch - processPackages [outpostcli]: Downloading https://files.pythonhosted.org/packages/7e/e2/114a39eac567286d0418645c0ea24089c48fcbe4cccec6c79191a5cefccf/outpostcli-0.0.8.tar.gz
+[2024-05-21 10:17:43] INFO root fetch - processPackages [onion-clustering]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-05-21 10:17:43] INFO root fetch - processPackages [onion-clustering]: Downloading https://files.pythonhosted.org/packages/a3/4f/25d8b386fabe24e54e363cb6fe55f541f81a9aaae4173ba511e95211b165/onion_clustering-0.2.5.tar.gz
+[2024-05-21 10:17:43] INFO root fetch - processPackages [swarmtube]: Downloading https://files.pythonhosted.org/packages/5e/c2/40ad16679270f1644ac226ce096432bcb0f3ba3a9693f61fafa71de4787f/swarmtube-0.1.44-py2.py3-none-any.whl
+[2024-05-21 10:17:43] INFO root fetch - processPackages [syncmodels]: Downloading https://files.pythonhosted.org/packages/09/13/db4988a642af43523190154e2a5fc392ebeed8a8fa626973e593b7c6b635/syncmodels-0.1.8-py2.py3-none-any.whl
+[2024-05-21 10:17:43] INFO root fetch - processPackages [atlas-provider-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/5c/32/19af8937881e28f1cf70984b782092d8244320ca8c5ca5de2e12120c6806/atlas_provider_sqlalchemy-0.2.0.tar.gz
+[2024-05-21 10:17:43] INFO root fetch - processPackages [agptools]: Downloading https://files.pythonhosted.org/packages/ef/90/08317ea7b8434657a0c64c671a0ce91127781d19896203a19175d974fc12/agptools-0.1.8-py2.py3-none-any.whl
+[2024-05-21 10:17:43] INFO root fetch - processPackages [helix.fhir.client.sdk]: Downloading https://files.pythonhosted.org/packages/21/fb/a3f6002bd768177e8829cebfe625bb3e85ab3d3b33d511bf06ad1da5bdbb/helix.fhir.client.sdk-2.0.7.tar.gz
+[2024-05-21 10:17:43] INFO root fetch - processPackages [apollo-lunar]: Downloading https://files.pythonhosted.org/packages/b8/81/76c144730a6c860c38cb7927f20e46371e874c9c779952ad86810c34549f/apollo_lunar-2024.5.21.tar.gz
+[2024-05-21 10:17:43] INFO root fetch - processPackages [openvisuspy]: Downloading https://files.pythonhosted.org/packages/76/33/2a7a818fea912f1354d65d0e959108baf4be55e1a1bcd773277f12b26582/openvisuspy-1.0.9-py3-none-any.whl
+[2024-05-21 10:17:43] INFO root fetch - processPackages [outpostcli]: Downloading https://files.pythonhosted.org/packages/df/ab/82b6853cec170d33c2aff19e3a298b0bf56f7ba1b885f6f7d42a10ae43dc/outpostcli-0.0.9.tar.gz
+[2024-05-21 10:17:43] INFO root fetch - processPackages [apollo-lunar]: executing diffoscope
+[2024-05-21 10:17:43] INFO root fetch - processPackages [apollo-lunar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apollo_lunar-2024.4.4rc1.tar.gz tmp/apollo_lunar-2024.5.21.tar.gz --markdown 20240521/a/apollo-lunar/2024.4.4rc1-2024.5.21/README.md --exclude *.pyd
+[2024-05-21 10:17:43] INFO root fetch - processPackages [fn5]: Downloading https://files.pythonhosted.org/packages/78/d2/5d594d04ee74f9b54d633a72fa0ba1a2b5c4697b81fcc3dcafcc65033090/fn5-2.0.1.tar.gz
+[2024-05-21 10:17:43] INFO root fetch - processPackages [openvisuspy]: executing diffoscope
+[2024-05-21 10:17:43] INFO root fetch - processPackages [openvisuspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openvisuspy-1.0.8-py3-none-any.whl.zip tmp/openvisuspy-1.0.9-py3-none-any.whl.zip --markdown 20240521/o/openvisuspy/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-21 10:17:43] INFO root fetch - processPackages [outpostcli]: executing diffoscope
+[2024-05-21 10:17:43] INFO root fetch - processPackages [outpostcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/outpostcli-0.0.8.tar.gz tmp/outpostcli-0.0.9.tar.gz --markdown 20240521/o/outpostcli/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-21 10:17:43] INFO root fetch - processPackages [onion-clustering]: Downloading https://files.pythonhosted.org/packages/e1/f0/b3a07f5bb7d2cf73a84ae295f176d92a17271661b6ff7a3ca96dfb2a8595/onion_clustering-0.2.6.tar.gz
+[2024-05-21 10:17:43] INFO root fetch - processPackages [fn5]: executing diffoscope
+[2024-05-21 10:17:43] INFO root fetch - processPackages [fn5]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fn5-2.0.0.tar.gz tmp/fn5-2.0.1.tar.gz --markdown 20240521/f/fn5/2.0.0-2.0.1/README.md --exclude *.pyd
+[2024-05-21 10:17:44] INFO root fetch - processPackages [swarmtube]: Downloading https://files.pythonhosted.org/packages/c3/84/ebbd0ec32fe67e04e6a441cb1e4c02e9508410de3a50a23dff3cb9da197b/swarmtube-0.1.45-py2.py3-none-any.whl
+[2024-05-21 10:17:44] INFO root fetch - processPackages [atlas-provider-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/c8/05/a77b87c6f6f134c7c1bcdcd81ae77e105007a732f49e484a01f82a549358/atlas_provider_sqlalchemy-0.2.1.tar.gz
+[2024-05-21 10:17:44] INFO root fetch - processPackages [agptools]: Downloading https://files.pythonhosted.org/packages/b4/96/a1fa0a1e147cbeb8acd6a36e118eb3b3ecfbf93d5b5de31b99b5d8bef5f4/agptools-0.1.9-py2.py3-none-any.whl
+[2024-05-21 10:17:44] INFO root fetch - processPackages [syncmodels]: Downloading https://files.pythonhosted.org/packages/fa/f6/eeeb0b12fc045f5917cfc3967317eddb0f896b12df99ee9cb26dd42b0529/syncmodels-0.1.9-py2.py3-none-any.whl
+[2024-05-21 10:17:44] INFO root fetch - processPackages [helix.fhir.client.sdk]: Downloading https://files.pythonhosted.org/packages/64/11/52b17e373b44ed8c9b22631b55af846ec186753362fb5a0df655c75ef6c8/helix.fhir.client.sdk-2.0.8.tar.gz
+[2024-05-21 10:17:44] INFO root fetch - processPackages [onion-clustering]: executing diffoscope
+[2024-05-21 10:17:44] INFO root fetch - processPackages [onion-clustering]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onion_clustering-0.2.5.tar.gz tmp/onion_clustering-0.2.6.tar.gz --markdown 20240521/o/onion-clustering/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-05-21 10:17:44] INFO root fetch - processPackages [syncmodels]: executing diffoscope
+[2024-05-21 10:17:44] INFO root fetch - processPackages [syncmodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syncmodels-0.1.8-py2.py3-none-any.whl.zip tmp/syncmodels-0.1.9-py2.py3-none-any.whl.zip --markdown 20240521/s/syncmodels/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-21 10:17:44] INFO root fetch - processPackages [atlas-provider-sqlalchemy]: executing diffoscope
+[2024-05-21 10:17:44] INFO root fetch - processPackages [atlas-provider-sqlalchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atlas_provider_sqlalchemy-0.2.0.tar.gz tmp/atlas_provider_sqlalchemy-0.2.1.tar.gz --markdown 20240521/a/atlas-provider-sqlalchemy/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-21 10:17:44] INFO root fetch - processPackages [agptools]: executing diffoscope
+[2024-05-21 10:17:44] INFO root fetch - processPackages [agptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agptools-0.1.8-py2.py3-none-any.whl.zip tmp/agptools-0.1.9-py2.py3-none-any.whl.zip --markdown 20240521/a/agptools/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-21 10:17:44] INFO root fetch - processPackages [swarmtube]: executing diffoscope
+[2024-05-21 10:17:44] INFO root fetch - processPackages [swarmtube]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmtube-0.1.44-py2.py3-none-any.whl.zip tmp/swarmtube-0.1.45-py2.py3-none-any.whl.zip --markdown 20240521/s/swarmtube/0.1.44-0.1.45/README.md --exclude *.pyd
+[2024-05-21 10:17:44] INFO root fetch - processPackages [helix.fhir.client.sdk]: executing diffoscope
+[2024-05-21 10:17:44] INFO root fetch - processPackages [helix.fhir.client.sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/helix.fhir.client.sdk-2.0.7.tar.gz tmp/helix.fhir.client.sdk-2.0.8.tar.gz --markdown 20240521/h/helix.fhir.client.sdk/2.0.7-2.0.8/README.md --exclude *.pyd
+[2024-05-21 10:17:45] INFO root fetch - processPackages [apollo-lunar]: Remove: archive file [/home/abi/fetcher/tmp/apollo_lunar-2024.4.4rc1.tar.gz]
+[2024-05-21 10:17:45] INFO root fetch - processPackages [apollo-lunar]: Remove: archive file [/home/abi/fetcher/tmp/apollo_lunar-2024.5.21.tar.gz]
+[2024-05-21 10:17:45] INFO root fetch - main [MainThread]: End processing [apollo-lunar]: success
+[2024-05-21 10:17:45] INFO root fetch - processPackages [openvisuspy]: Remove: archive file [/home/abi/fetcher/tmp/openvisuspy-1.0.8-py3-none-any.whl.zip]
+[2024-05-21 10:17:45] INFO root fetch - processPackages [openvisuspy]: Remove: archive file [/home/abi/fetcher/tmp/openvisuspy-1.0.9-py3-none-any.whl.zip]
+[2024-05-21 10:17:45] INFO root fetch - main [MainThread]: End processing [openvisuspy]: success
+[2024-05-21 10:17:45] INFO root fetch - processPackages [outpostcli]: Remove: archive file [/home/abi/fetcher/tmp/outpostcli-0.0.8.tar.gz]
+[2024-05-21 10:17:45] INFO root fetch - processPackages [outpostcli]: Remove: archive file [/home/abi/fetcher/tmp/outpostcli-0.0.9.tar.gz]
+[2024-05-21 10:17:45] INFO root fetch - main [MainThread]: End processing [outpostcli]: success
+[2024-05-21 10:17:45] INFO root fetch - processPackages [fn5]: Remove: archive file [/home/abi/fetcher/tmp/fn5-2.0.0.tar.gz]
+[2024-05-21 10:17:45] INFO root fetch - processPackages [fn5]: Remove: archive file [/home/abi/fetcher/tmp/fn5-2.0.1.tar.gz]
+[2024-05-21 10:17:45] INFO root fetch - main [MainThread]: End processing [fn5]: success
+[2024-05-21 10:17:45] INFO root fetch - processPackages [onion-clustering]: Remove: archive file [/home/abi/fetcher/tmp/onion_clustering-0.2.5.tar.gz]
+[2024-05-21 10:17:45] INFO root fetch - processPackages [onion-clustering]: Remove: archive file [/home/abi/fetcher/tmp/onion_clustering-0.2.6.tar.gz]
+[2024-05-21 10:17:45] INFO root fetch - main [MainThread]: End processing [onion-clustering]: success
+[2024-05-21 10:17:45] INFO root fetch - processPackages [syncmodels]: Remove: archive file [/home/abi/fetcher/tmp/syncmodels-0.1.8-py2.py3-none-any.whl.zip]
+[2024-05-21 10:17:45] INFO root fetch - processPackages [syncmodels]: Remove: archive file [/home/abi/fetcher/tmp/syncmodels-0.1.9-py2.py3-none-any.whl.zip]
+[2024-05-21 10:17:45] INFO root fetch - main [MainThread]: End processing [syncmodels]: success
+[2024-05-21 10:17:45] INFO root fetch - processPackages [atlas-provider-sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/atlas_provider_sqlalchemy-0.2.0.tar.gz]
+[2024-05-21 10:17:45] INFO root fetch - processPackages [atlas-provider-sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/atlas_provider_sqlalchemy-0.2.1.tar.gz]
+[2024-05-21 10:17:45] INFO root fetch - main [MainThread]: End processing [atlas-provider-sqlalchemy]: success
+[2024-05-21 10:17:45] INFO root fetch - processPackages [agptools]: Remove: archive file [/home/abi/fetcher/tmp/agptools-0.1.8-py2.py3-none-any.whl.zip]
+[2024-05-21 10:17:45] INFO root fetch - processPackages [agptools]: Remove: archive file [/home/abi/fetcher/tmp/agptools-0.1.9-py2.py3-none-any.whl.zip]
+[2024-05-21 10:17:45] INFO root fetch - main [MainThread]: End processing [agptools]: success
+[2024-05-21 10:17:45] INFO root fetch - processPackages [swarmtube]: Remove: archive file [/home/abi/fetcher/tmp/swarmtube-0.1.44-py2.py3-none-any.whl.zip]
+[2024-05-21 10:17:45] INFO root fetch - processPackages [swarmtube]: Remove: archive file [/home/abi/fetcher/tmp/swarmtube-0.1.45-py2.py3-none-any.whl.zip]
+[2024-05-21 10:17:45] INFO root fetch - main [MainThread]: End processing [swarmtube]: success
+[2024-05-21 10:17:45] INFO root fetch - processPackages [helix.fhir.client.sdk]: Remove: archive file [/home/abi/fetcher/tmp/helix.fhir.client.sdk-2.0.7.tar.gz]
+[2024-05-21 10:17:45] INFO root fetch - processPackages [helix.fhir.client.sdk]: Remove: archive file [/home/abi/fetcher/tmp/helix.fhir.client.sdk-2.0.8.tar.gz]
+[2024-05-21 10:17:45] INFO root fetch - main [MainThread]: End processing [helix.fhir.client.sdk]: success
+[2024-05-21 10:17:45] INFO root fetch - main [MainThread]: Store serial: [23303051]
