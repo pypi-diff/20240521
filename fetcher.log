@@ -11439,3 +11439,18 @@
 [2024-05-21 06:51:53] INFO root fetch - processPackages [aa-incursions]: Remove: archive file [/home/abi/fetcher/tmp/aa_incursions-0.4.2a0.tar.gz]
 [2024-05-21 06:51:53] INFO root fetch - main [MainThread]: End processing [aa-incursions]: success
 [2024-05-21 06:51:53] INFO root fetch - main [MainThread]: Store serial: [23301140]
+[2024-05-21 06:53:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23301140]
+[2024-05-21 06:54:02] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-21 06:54:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyRHEED
+[2024-05-21 06:54:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pydra-niworkflows
+[2024-05-21 06:54:02] INFO root fetch - processPackages [PyRHEED]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-21 06:54:02] INFO root fetch - processPackages [PyRHEED]: Downloading https://files.pythonhosted.org/packages/25/7e/4a00410fb538c165e69c5fcb7a26061604c96fcb1337cea77940ca739b79/pyrheed-1.0.3.tar.gz
+[2024-05-21 06:54:02] WARNING root fetch - processPackages [pydra-niworkflows]: Skipping, unable to determine old version
+[2024-05-21 06:54:02] INFO root fetch - main [MainThread]: End processing [pydra-niworkflows] error
+[2024-05-21 06:54:02] INFO root fetch - processPackages [PyRHEED]: Downloading https://files.pythonhosted.org/packages/dc/20/c9d73fd541524fc1e915f63f476593bd4ad598bcecf6b1946ae9267369ac/pyrheed-1.0.4.tar.gz
+[2024-05-21 06:54:02] INFO root fetch - processPackages [PyRHEED]: executing diffoscope
+[2024-05-21 06:54:02] INFO root fetch - processPackages [PyRHEED]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrheed-1.0.3.tar.gz tmp/pyrheed-1.0.4.tar.gz --markdown 20240521/P/PyRHEED/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-21 06:54:03] INFO root fetch - processPackages [PyRHEED]: Remove: archive file [/home/abi/fetcher/tmp/pyrheed-1.0.3.tar.gz]
+[2024-05-21 06:54:03] INFO root fetch - processPackages [PyRHEED]: Remove: archive file [/home/abi/fetcher/tmp/pyrheed-1.0.4.tar.gz]
+[2024-05-21 06:54:03] INFO root fetch - main [MainThread]: End processing [PyRHEED]: success
+[2024-05-21 06:54:03] INFO root fetch - main [MainThread]: Store serial: [23301148]
