@@ -21149,3 +21149,54 @@
 [2024-05-21 12:56:38] INFO root fetch - processPackages [OpenFisca-France]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca_France-99.0.1-py3-none-any.whl.zip]
 [2024-05-21 12:56:38] INFO root fetch - main [MainThread]: End processing [OpenFisca-France]: success
 [2024-05-21 12:56:38] INFO root fetch - main [MainThread]: Store serial: [23305096]
+[2024-05-21 12:58:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23305096]
+[2024-05-21 12:58:47] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-21 12:58:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mostlyai
+[2024-05-21 12:58:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: terobot
+[2024-05-21 12:58:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spaceone-cost-analysis
+[2024-05-21 12:58:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: BarteSDK
+[2024-05-21 12:58:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tianmoucv
+[2024-05-21 12:58:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ellis-django-views
+[2024-05-21 12:58:47] WARNING root fetch - processPackages [ellis-django-views]: Skipping, unable to determine old version
+[2024-05-21 12:58:47] INFO root fetch - main [MainThread]: End processing [ellis-django-views] error
+[2024-05-21 12:58:47] INFO root fetch - processPackages [terobot]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-21 12:58:47] INFO root fetch - processPackages [BarteSDK]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-21 12:58:47] INFO root fetch - processPackages [spaceone-cost-analysis]: New version: [2.0.dev99] Old Version: [2.0.dev98]
+[2024-05-21 12:58:48] INFO root fetch - processPackages [terobot]: Downloading https://files.pythonhosted.org/packages/d6/5b/c95ae82bd3851c69b19f40121707e03a99623970bc115223f8286b3e38a8/terobot-0.1.1.tar.gz
+[2024-05-21 12:58:48] INFO root fetch - processPackages [tianmoucv]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-21 12:58:48] INFO root fetch - processPackages [spaceone-cost-analysis]: Downloading https://files.pythonhosted.org/packages/9d/ed/0868da6c86e4dc02447a82f2ea7dd601cbcd9f9457f1ffd86ffcd52166c9/spaceone-cost-analysis-2.0.dev98.tar.gz
+[2024-05-21 12:58:48] INFO root fetch - processPackages [BarteSDK]: Downloading https://files.pythonhosted.org/packages/1c/24/f265a111f10a855a327643e87273d1f3ba56190ad02e0175f3b5b6319e4c/bartesdk-0.1.8.tar.gz
+[2024-05-21 12:58:48] INFO root fetch - processPackages [mostlyai]: New version: [0.3.6] Old Version: [0.3.5]
+[2024-05-21 12:58:48] INFO root fetch - processPackages [mostlyai]: Downloading https://files.pythonhosted.org/packages/75/0c/5e9dae4ee32430f183b482e09c9a50a26371de88d36b071afe8dfd7f3df0/mostlyai-0.3.5.tar.gz
+[2024-05-21 12:58:48] INFO root fetch - processPackages [BarteSDK]: Downloading https://files.pythonhosted.org/packages/15/ee/a85c9e9d9f84f12e1c3ab4801827286e3ad5588e1683d13c5130caaa29f2/bartesdk-0.1.9.tar.gz
+[2024-05-21 12:58:48] INFO root fetch - processPackages [spaceone-cost-analysis]: Downloading https://files.pythonhosted.org/packages/69/3b/abd588017217f1cd8fff7ef2a5fece8d81258b7c7585bb8fa88833d77684/spaceone-cost-analysis-2.0.dev99.tar.gz
+[2024-05-21 12:58:48] INFO root fetch - processPackages [tianmoucv]: Downloading https://files.pythonhosted.org/packages/16/8e/1ec1e7825580d31c6466ed8bdb928158c47f79954327d266159f7e8c52dc/tianmoucv-0.3.1-py3-none-any.whl
+[2024-05-21 12:58:48] INFO root fetch - processPackages [terobot]: Downloading https://files.pythonhosted.org/packages/7b/43/b7225aaa5054ab06fc9f89f375ab67164f64bf3876955cdf9479bf210352/terobot-0.1.2.tar.gz
+[2024-05-21 12:58:48] INFO root fetch - processPackages [BarteSDK]: executing diffoscope
+[2024-05-21 12:58:48] INFO root fetch - processPackages [BarteSDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bartesdk-0.1.8.tar.gz tmp/bartesdk-0.1.9.tar.gz --markdown 20240521/B/BarteSDK/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-21 12:58:48] INFO root fetch - processPackages [spaceone-cost-analysis]: executing diffoscope
+[2024-05-21 12:58:48] INFO root fetch - processPackages [spaceone-cost-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-cost-analysis-2.0.dev98.tar.gz tmp/spaceone-cost-analysis-2.0.dev99.tar.gz --markdown 20240521/s/spaceone-cost-analysis/2.0.dev98-2.0.dev99/README.md --exclude *.pyd
+[2024-05-21 12:58:48] INFO root fetch - processPackages [terobot]: executing diffoscope
+[2024-05-21 12:58:48] INFO root fetch - processPackages [terobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terobot-0.1.1.tar.gz tmp/terobot-0.1.2.tar.gz --markdown 20240521/t/terobot/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-21 12:58:48] INFO root fetch - processPackages [tianmoucv]: Downloading https://files.pythonhosted.org/packages/37/35/9bd78b352229405d62a6831c71796e31013f2db1da33a0b0568df1534e43/tianmoucv-0.3.2-py3-none-any.whl
+[2024-05-21 12:58:48] INFO root fetch - processPackages [mostlyai]: Downloading https://files.pythonhosted.org/packages/f1/a8/5762fbdc20cef9d74561d103d8682f86c0fe5a0bec2476c639ca53c95999/mostlyai-0.3.6.tar.gz
+[2024-05-21 12:58:48] INFO root fetch - processPackages [mostlyai]: executing diffoscope
+[2024-05-21 12:58:48] INFO root fetch - processPackages [mostlyai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mostlyai-0.3.5.tar.gz tmp/mostlyai-0.3.6.tar.gz --markdown 20240521/m/mostlyai/0.3.5-0.3.6/README.md --exclude *.pyd
+[2024-05-21 12:58:48] INFO root fetch - processPackages [tianmoucv]: executing diffoscope
+[2024-05-21 12:58:48] INFO root fetch - processPackages [tianmoucv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tianmoucv-0.3.1-py3-none-any.whl.zip tmp/tianmoucv-0.3.2-py3-none-any.whl.zip --markdown 20240521/t/tianmoucv/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-21 12:58:48] INFO root fetch - processPackages [terobot]: Remove: archive file [/home/abi/fetcher/tmp/terobot-0.1.1.tar.gz]
+[2024-05-21 12:58:48] INFO root fetch - processPackages [terobot]: Remove: archive file [/home/abi/fetcher/tmp/terobot-0.1.2.tar.gz]
+[2024-05-21 12:58:48] INFO root fetch - main [MainThread]: End processing [terobot]: success
+[2024-05-21 12:58:49] INFO root fetch - processPackages [BarteSDK]: Remove: archive file [/home/abi/fetcher/tmp/bartesdk-0.1.8.tar.gz]
+[2024-05-21 12:58:49] INFO root fetch - processPackages [BarteSDK]: Remove: archive file [/home/abi/fetcher/tmp/bartesdk-0.1.9.tar.gz]
+[2024-05-21 12:58:49] INFO root fetch - main [MainThread]: End processing [BarteSDK]: success
+[2024-05-21 12:58:49] INFO root fetch - processPackages [spaceone-cost-analysis]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-cost-analysis-2.0.dev98.tar.gz]
+[2024-05-21 12:58:49] INFO root fetch - processPackages [spaceone-cost-analysis]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-cost-analysis-2.0.dev99.tar.gz]
+[2024-05-21 12:58:49] INFO root fetch - main [MainThread]: End processing [spaceone-cost-analysis]: success
+[2024-05-21 12:58:49] INFO root fetch - processPackages [mostlyai]: Remove: archive file [/home/abi/fetcher/tmp/mostlyai-0.3.5.tar.gz]
+[2024-05-21 12:58:49] INFO root fetch - processPackages [mostlyai]: Remove: archive file [/home/abi/fetcher/tmp/mostlyai-0.3.6.tar.gz]
+[2024-05-21 12:58:49] INFO root fetch - main [MainThread]: End processing [mostlyai]: success
+[2024-05-21 12:58:49] INFO root fetch - processPackages [tianmoucv]: Remove: archive file [/home/abi/fetcher/tmp/tianmoucv-0.3.1-py3-none-any.whl.zip]
+[2024-05-21 12:58:49] INFO root fetch - processPackages [tianmoucv]: Remove: archive file [/home/abi/fetcher/tmp/tianmoucv-0.3.2-py3-none-any.whl.zip]
+[2024-05-21 12:58:49] INFO root fetch - main [MainThread]: End processing [tianmoucv]: success
+[2024-05-21 12:58:49] INFO root fetch - main [MainThread]: Store serial: [23305116]
