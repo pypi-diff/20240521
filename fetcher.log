@@ -3441,3 +3441,40 @@
 [2024-05-21 02:54:00] INFO root fetch - processPackages [django_medicio_dental]: Remove: archive file [/home/abi/fetcher/tmp/django_medicio_dental-2.0.3.tar.gz]
 [2024-05-21 02:54:00] INFO root fetch - main [MainThread]: End processing [django_medicio_dental]: success
 [2024-05-21 02:54:00] INFO root fetch - main [MainThread]: Store serial: [23298162]
+[2024-05-21 02:56:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23298162]
+[2024-05-21 02:56:08] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-21 02:56:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: blue-plugin
+[2024-05-21 02:56:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: blue-plugin
+[2024-05-21 02:56:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vss-cli
+[2024-05-21 02:56:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-lambda-layer-curl
+[2024-05-21 02:56:08] INFO root fetch - processPackages [blue-plugin]: New version: [2.178.1] Old Version: [2.176.1]
+[2024-05-21 02:56:08] INFO root fetch - processPackages [blue-plugin]: New version: [2.178.1] Old Version: [2.176.1]
+[2024-05-21 02:56:08] INFO root fetch - processPackages [vss-cli]: New version: [2024.5.0.dev0] Old Version: [2023.9.0.dev8]
+[2024-05-21 02:56:09] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-21 02:56:09] INFO root fetch - processPackages [blue-plugin]: Downloading https://files.pythonhosted.org/packages/c1/05/1702ebedc427a9bea2139b0e0bfc03962ca64175c23b6ff365c466580089/blue_plugin-2.176.1.tar.gz
+[2024-05-21 02:56:09] INFO root fetch - processPackages [blue-plugin]: Downloading https://files.pythonhosted.org/packages/c1/05/1702ebedc427a9bea2139b0e0bfc03962ca64175c23b6ff365c466580089/blue_plugin-2.176.1.tar.gz
+[2024-05-21 02:56:09] INFO root fetch - processPackages [vss-cli]: Downloading https://files.pythonhosted.org/packages/75/30/a3862a17fbffbdcc1dc922572cec1563ac810ae817fc9ffcde78c14a339a/vss-cli-2023.9.0.dev8.tar.gz
+[2024-05-21 02:56:09] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2024-05-21 02:56:09] INFO root fetch - processPackages [blue-plugin]: Downloading https://files.pythonhosted.org/packages/b8/a9/bc1e1b3972454e2a9bf9bc1a6dc76ea60aefd56cb3f654a905a6a3b03a78/blue_plugin-2.178.1.tar.gz
+[2024-05-21 02:56:09] INFO root fetch - processPackages [blue-plugin]: Downloading https://files.pythonhosted.org/packages/b8/a9/bc1e1b3972454e2a9bf9bc1a6dc76ea60aefd56cb3f654a905a6a3b03a78/blue_plugin-2.178.1.tar.gz
+[2024-05-21 02:56:09] INFO root fetch - processPackages [blue-plugin]: executing diffoscope
+[2024-05-21 02:56:09] INFO root fetch - processPackages [blue-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blue_plugin-2.176.1.tar.gz tmp/blue_plugin-2.178.1.tar.gz --markdown 20240521/b/blue-plugin/2.176.1-2.178.1/README.md --exclude *.pyd
+[2024-05-21 02:56:09] INFO root fetch - processPackages [blue-plugin]: executing diffoscope
+[2024-05-21 02:56:09] INFO root fetch - processPackages [blue-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blue_plugin-2.176.1.tar.gz tmp/blue_plugin-2.178.1.tar.gz --markdown 20240521/b/blue-plugin/2.176.1-2.178.1/README.md --exclude *.pyd
+[2024-05-21 02:56:09] INFO root fetch - processPackages [vss-cli]: Downloading https://files.pythonhosted.org/packages/ee/65/5ce1099a2714f5e39422a68f8176a80532400bbdea120488e61fab1e4554/vss-cli-2024.5.0.dev0.tar.gz
+[2024-05-21 02:56:09] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2024-05-21 02:56:09] INFO root fetch - processPackages [vss-cli]: executing diffoscope
+[2024-05-21 02:56:09] INFO root fetch - processPackages [vss-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vss-cli-2023.9.0.dev8.tar.gz tmp/vss-cli-2024.5.0.dev0.tar.gz --markdown 20240521/v/vss-cli/2023.9.0.dev8-2024.5.0.dev0/README.md --exclude *.pyd
+[2024-05-21 02:56:09] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2024-05-21 02:56:09] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20240521/c/cdk-lambda-layer-curl/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-21 02:56:10] INFO root fetch - processPackages [blue-plugin]: Remove: archive file [/home/abi/fetcher/tmp/blue_plugin-2.176.1.tar.gz]
+[2024-05-21 02:56:10] INFO root fetch - processPackages [blue-plugin]: Remove: archive file [/home/abi/fetcher/tmp/blue_plugin-2.178.1.tar.gz]
+[2024-05-21 02:56:10] INFO root fetch - main [MainThread]: End processing [blue-plugin]: success
+[2024-05-21 02:56:10] INFO root fetch - main [MainThread]: End processing [blue-plugin]: success
+[2024-05-21 02:56:10] INFO root fetch - processPackages [vss-cli]: Remove: archive file [/home/abi/fetcher/tmp/vss-cli-2023.9.0.dev8.tar.gz]
+[2024-05-21 02:56:10] INFO root fetch - processPackages [vss-cli]: Remove: archive file [/home/abi/fetcher/tmp/vss-cli-2024.5.0.dev0.tar.gz]
+[2024-05-21 02:56:10] INFO root fetch - main [MainThread]: End processing [vss-cli]: success
+[2024-05-21 02:56:10] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2024-05-21 02:56:10] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2024-05-21 02:56:10] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2024-05-21 02:56:10] INFO root fetch - main [MainThread]: Store serial: [23298175]
