@@ -2572,3 +2572,33 @@
 [2024-05-21 02:09:10] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
 [2024-05-21 02:09:10] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
 [2024-05-21 02:09:10] INFO root fetch - main [MainThread]: Store serial: [23297859]
+[2024-05-21 02:11:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23297859]
+[2024-05-21 02:11:19] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-21 02:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dom-tokenizers
+[2024-05-21 02:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pleonasty
+[2024-05-21 02:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mct-quantizers-nightly
+[2024-05-21 02:11:19] INFO root fetch - processPackages [dom-tokenizers]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-21 02:11:19] INFO root fetch - processPackages [pleonasty]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-21 02:11:19] INFO root fetch - processPackages [mct-quantizers-nightly]: New version: [1.5.0.20240520.post1053] Old Version: [1.5.0.20240519.post1204]
+[2024-05-21 02:11:19] INFO root fetch - processPackages [dom-tokenizers]: Downloading https://files.pythonhosted.org/packages/f9/2b/8cbdc33017b5294b01e235b3c63e65fa238d6e08e8b753b7cd9ba16803cf/dom_tokenizers-0.0.7.tar.gz
+[2024-05-21 02:11:19] INFO root fetch - processPackages [pleonasty]: Downloading https://files.pythonhosted.org/packages/74/0c/8af3d922573c712a41f6ddb3cfae08176d36592d79d54729f26e6d2127a7/pleonasty-0.0.6.tar.gz
+[2024-05-21 02:11:19] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/65/75/19de68a80d17934747d6976f4bb239308bd19f173b181323c56883d94439/mct-quantizers-nightly-1.5.0.20240519.post1204.tar.gz
+[2024-05-21 02:11:19] INFO root fetch - processPackages [pleonasty]: Downloading https://files.pythonhosted.org/packages/60/56/7a09263fb35fdb95407ebc94f357c5845fe7194ecc4b2146bbcfed04d4a7/pleonasty-0.0.7.tar.gz
+[2024-05-21 02:11:19] INFO root fetch - processPackages [pleonasty]: executing diffoscope
+[2024-05-21 02:11:19] INFO root fetch - processPackages [pleonasty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pleonasty-0.0.6.tar.gz tmp/pleonasty-0.0.7.tar.gz --markdown 20240521/p/pleonasty/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-21 02:11:19] INFO root fetch - processPackages [dom-tokenizers]: Downloading https://files.pythonhosted.org/packages/5e/26/cf8b917ea4efabda50aefc4d664249313924e4f43c1d3bfeb4c62b42636b/dom_tokenizers-0.0.8.tar.gz
+[2024-05-21 02:11:19] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/1c/06/726455b8fa7b8d1875c9c26e9fcab08f394d7b0d18c26e98309d86820acd/mct-quantizers-nightly-1.5.0.20240520.post1053.tar.gz
+[2024-05-21 02:11:19] INFO root fetch - processPackages [dom-tokenizers]: executing diffoscope
+[2024-05-21 02:11:19] INFO root fetch - processPackages [dom-tokenizers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dom_tokenizers-0.0.7.tar.gz tmp/dom_tokenizers-0.0.8.tar.gz --markdown 20240521/d/dom-tokenizers/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-21 02:11:19] INFO root fetch - processPackages [mct-quantizers-nightly]: executing diffoscope
+[2024-05-21 02:11:19] INFO root fetch - processPackages [mct-quantizers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-quantizers-nightly-1.5.0.20240519.post1204.tar.gz tmp/mct-quantizers-nightly-1.5.0.20240520.post1053.tar.gz --markdown 20240521/m/mct-quantizers-nightly/1.5.0.20240519.post1204-1.5.0.20240520.post1053/README.md --exclude *.pyd
+[2024-05-21 02:11:20] INFO root fetch - processPackages [pleonasty]: Remove: archive file [/home/abi/fetcher/tmp/pleonasty-0.0.6.tar.gz]
+[2024-05-21 02:11:20] INFO root fetch - processPackages [pleonasty]: Remove: archive file [/home/abi/fetcher/tmp/pleonasty-0.0.7.tar.gz]
+[2024-05-21 02:11:20] INFO root fetch - main [MainThread]: End processing [pleonasty]: success
+[2024-05-21 02:11:20] INFO root fetch - processPackages [dom-tokenizers]: Remove: archive file [/home/abi/fetcher/tmp/dom_tokenizers-0.0.7.tar.gz]
+[2024-05-21 02:11:20] INFO root fetch - processPackages [dom-tokenizers]: Remove: archive file [/home/abi/fetcher/tmp/dom_tokenizers-0.0.8.tar.gz]
+[2024-05-21 02:11:20] INFO root fetch - main [MainThread]: End processing [dom-tokenizers]: success
+[2024-05-21 02:11:20] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.5.0.20240519.post1204.tar.gz]
+[2024-05-21 02:11:20] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.5.0.20240520.post1053.tar.gz]
+[2024-05-21 02:11:20] INFO root fetch - main [MainThread]: End processing [mct-quantizers-nightly]: success
+[2024-05-21 02:11:20] INFO root fetch - main [MainThread]: Store serial: [23297866]
