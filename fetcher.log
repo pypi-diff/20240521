@@ -21200,3 +21200,15 @@
 [2024-05-21 12:58:49] INFO root fetch - processPackages [tianmoucv]: Remove: archive file [/home/abi/fetcher/tmp/tianmoucv-0.3.2-py3-none-any.whl.zip]
 [2024-05-21 12:58:49] INFO root fetch - main [MainThread]: End processing [tianmoucv]: success
 [2024-05-21 12:58:49] INFO root fetch - main [MainThread]: Store serial: [23305116]
+[2024-05-21 13:00:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23305116]
+[2024-05-21 13:00:58] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-21 13:00:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: itkwasm
+[2024-05-21 13:00:58] INFO root fetch - processPackages [itkwasm]: New version: [1.0b97] Old Version: [1.0b96]
+[2024-05-21 13:00:59] INFO root fetch - processPackages [itkwasm]: Downloading https://files.pythonhosted.org/packages/f6/9d/385cbd7b8df981cfc8897da19437d04ba44da8c141afdaafa01bd7d127d5/itkwasm-1.0b96.tar.gz
+[2024-05-21 13:00:59] INFO root fetch - processPackages [itkwasm]: Downloading https://files.pythonhosted.org/packages/a9/dc/417f2dbb23b3bd56dda068878d5050c55cfbacdcbb34387a8444583f31fa/itkwasm-1.0b97.tar.gz
+[2024-05-21 13:01:00] INFO root fetch - processPackages [itkwasm]: executing diffoscope
+[2024-05-21 13:01:00] INFO root fetch - processPackages [itkwasm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itkwasm-1.0b96.tar.gz tmp/itkwasm-1.0b97.tar.gz --markdown 20240521/i/itkwasm/1.0b96-1.0b97/README.md --exclude *.pyd
+[2024-05-21 13:01:02] INFO root fetch - processPackages [itkwasm]: Remove: archive file [/home/abi/fetcher/tmp/itkwasm-1.0b96.tar.gz]
+[2024-05-21 13:01:02] INFO root fetch - processPackages [itkwasm]: Remove: archive file [/home/abi/fetcher/tmp/itkwasm-1.0b97.tar.gz]
+[2024-05-21 13:01:02] INFO root fetch - main [MainThread]: End processing [itkwasm]: success
+[2024-05-21 13:01:02] INFO root fetch - main [MainThread]: Store serial: [23305120]
