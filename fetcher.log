@@ -17558,3 +17558,63 @@
 [2024-05-21 11:02:08] INFO root fetch - processPackages [mg-pso-gui]: Remove: archive file [/home/abi/fetcher/tmp/mg-pso-gui-0.1.9.tar.gz]
 [2024-05-21 11:02:08] INFO root fetch - main [MainThread]: End processing [mg-pso-gui]: success
 [2024-05-21 11:02:08] INFO root fetch - main [MainThread]: Store serial: [23303506]
+[2024-05-21 11:04:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23303506]
+[2024-05-21 11:04:17] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-21 11:04:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: llama-index-llms-unionllm
+[2024-05-21 11:04:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mg-pso-gui
+[2024-05-21 11:04:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: simevopy
+[2024-05-21 11:04:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: graze
+[2024-05-21 11:04:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytorch_optimizer
+[2024-05-21 11:04:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: co6co
+[2024-05-21 11:04:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: autogluon.common
+[2024-05-21 11:04:17] INFO root fetch - processPackages [mg-pso-gui]: New version: [0.1.9] Old Version: [0.1.87]
+[2024-05-21 11:04:17] INFO root fetch - processPackages [autogluon.common]: New version: [1.1.1b20240520] Old Version: [1.1.1b20240519]
+[2024-05-21 11:04:17] WARNING root fetch - processPackages [llama-index-llms-unionllm]: Skipping, unable to determine old version
+[2024-05-21 11:04:17] INFO root fetch - main [MainThread]: End processing [llama-index-llms-unionllm] error
+[2024-05-21 11:04:17] INFO root fetch - processPackages [pytorch_optimizer]: New version: [3.0.0] Old Version: [2.9.1]
+[2024-05-21 11:04:17] INFO root fetch - processPackages [co6co]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-21 11:04:17] INFO root fetch - processPackages [graze]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-21 11:04:17] INFO root fetch - processPackages [simevopy]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-21 11:04:17] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/38/6d/31bf43096e118d661f74e761145db83f95712ad5a8dadbb475383f2b1bae/autogluon.common-1.1.1b20240519.tar.gz
+[2024-05-21 11:04:17] INFO root fetch - processPackages [mg-pso-gui]: Downloading https://files.pythonhosted.org/packages/f0/1f/84873c95e153627e36627b6b93c5b833c3100ec99fe1bf1c7a6ec694ad00/mg-pso-gui-0.1.87.tar.gz
+[2024-05-21 11:04:17] INFO root fetch - processPackages [pytorch_optimizer]: Downloading https://files.pythonhosted.org/packages/85/87/6b72005aaa0539e6a2bf4390c181cfc88f81721f62e02885fc8d748c99b3/pytorch_optimizer-2.9.1.tar.gz
+[2024-05-21 11:04:17] INFO root fetch - processPackages [co6co]: Downloading https://files.pythonhosted.org/packages/2b/95/ef32b330f36f461f3f3b449d3fe1961ddfdce690a735f75906166e1b95dd/co6co-0.0.4.tar.gz
+[2024-05-21 11:04:17] INFO root fetch - processPackages [graze]: Downloading https://files.pythonhosted.org/packages/fb/d4/484d0493c737da0134c6843f166f5703e26743dc989802336be176e66e07/graze-0.1.8.tar.gz
+[2024-05-21 11:04:17] INFO root fetch - processPackages [simevopy]: Downloading https://files.pythonhosted.org/packages/a7/95/7b73e01221c239dbb21ad69e6e31e4bf710b1f289bd7cdb74c540f13b0c6/simevopy-0.1.8.tar.gz
+[2024-05-21 11:04:17] INFO root fetch - processPackages [mg-pso-gui]: Downloading https://files.pythonhosted.org/packages/29/bb/6e298a4662149de339e056d2e3fd47d836e1cc07f109b6309c4e0f4c97b3/mg-pso-gui-0.1.9.tar.gz
+[2024-05-21 11:04:18] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/1e/b9/761667e50dcf77abc175acca5bdead90570bcdc003ead7310cd5a2c69740/autogluon.common-1.1.1b20240520.tar.gz
+[2024-05-21 11:04:18] INFO root fetch - processPackages [pytorch_optimizer]: Downloading https://files.pythonhosted.org/packages/c2/7b/b789d67699503f58342676605abe2453f6cbfadd8a9ecea5da4cdf65b735/pytorch_optimizer-3.0.0.tar.gz
+[2024-05-21 11:04:18] INFO root fetch - processPackages [co6co]: Downloading https://files.pythonhosted.org/packages/ca/c0/24e53db17bf7150d449930c030ddbe0d5b1591e8fcfc6d61ada7eb5b81f3/co6co-0.0.5.tar.gz
+[2024-05-21 11:04:18] INFO root fetch - processPackages [mg-pso-gui]: executing diffoscope
+[2024-05-21 11:04:18] INFO root fetch - processPackages [mg-pso-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mg-pso-gui-0.1.87.tar.gz tmp/mg-pso-gui-0.1.9.tar.gz --markdown 20240521/m/mg-pso-gui/0.1.87-0.1.9/README.md --exclude *.pyd
+[2024-05-21 11:04:18] INFO root fetch - processPackages [graze]: Downloading https://files.pythonhosted.org/packages/93/04/6562cb76ffe2dc4d3b03b86b8d8da7321c399fafb74787457b7c9ebe7a5b/graze-0.1.9.tar.gz
+[2024-05-21 11:04:18] INFO root fetch - processPackages [simevopy]: Downloading https://files.pythonhosted.org/packages/22/53/31d63eb0aba745235ab86e254349ffc473dcf70538f3ab35a99fc2cf58ed/simevopy-0.1.9.tar.gz
+[2024-05-21 11:04:18] INFO root fetch - processPackages [autogluon.common]: executing diffoscope
+[2024-05-21 11:04:18] INFO root fetch - processPackages [autogluon.common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.common-1.1.1b20240519.tar.gz tmp/autogluon.common-1.1.1b20240520.tar.gz --markdown 20240521/a/autogluon.common/1.1.1b20240519-1.1.1b20240520/README.md --exclude *.pyd
+[2024-05-21 11:04:18] INFO root fetch - processPackages [graze]: executing diffoscope
+[2024-05-21 11:04:18] INFO root fetch - processPackages [graze]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graze-0.1.8.tar.gz tmp/graze-0.1.9.tar.gz --markdown 20240521/g/graze/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-21 11:04:18] INFO root fetch - processPackages [simevopy]: executing diffoscope
+[2024-05-21 11:04:18] INFO root fetch - processPackages [simevopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simevopy-0.1.8.tar.gz tmp/simevopy-0.1.9.tar.gz --markdown 20240521/s/simevopy/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-21 11:04:18] INFO root fetch - processPackages [co6co]: executing diffoscope
+[2024-05-21 11:04:18] INFO root fetch - processPackages [co6co]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/co6co-0.0.4.tar.gz tmp/co6co-0.0.5.tar.gz --markdown 20240521/c/co6co/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-21 11:04:18] INFO root fetch - processPackages [pytorch_optimizer]: executing diffoscope
+[2024-05-21 11:04:18] INFO root fetch - processPackages [pytorch_optimizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch_optimizer-2.9.1.tar.gz tmp/pytorch_optimizer-3.0.0.tar.gz --markdown 20240521/p/pytorch_optimizer/2.9.1-3.0.0/README.md --exclude *.pyd
+[2024-05-21 11:04:19] INFO root fetch - processPackages [graze]: Remove: archive file [/home/abi/fetcher/tmp/graze-0.1.8.tar.gz]
+[2024-05-21 11:04:19] INFO root fetch - processPackages [graze]: Remove: archive file [/home/abi/fetcher/tmp/graze-0.1.9.tar.gz]
+[2024-05-21 11:04:19] INFO root fetch - main [MainThread]: End processing [graze]: success
+[2024-05-21 11:04:19] INFO root fetch - processPackages [co6co]: Remove: archive file [/home/abi/fetcher/tmp/co6co-0.0.4.tar.gz]
+[2024-05-21 11:04:19] INFO root fetch - processPackages [co6co]: Remove: archive file [/home/abi/fetcher/tmp/co6co-0.0.5.tar.gz]
+[2024-05-21 11:04:19] INFO root fetch - main [MainThread]: End processing [co6co]: success
+[2024-05-21 11:04:19] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-1.1.1b20240519.tar.gz]
+[2024-05-21 11:04:19] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-1.1.1b20240520.tar.gz]
+[2024-05-21 11:04:19] INFO root fetch - main [MainThread]: End processing [autogluon.common]: success
+[2024-05-21 11:04:19] INFO root fetch - processPackages [mg-pso-gui]: Remove: archive file [/home/abi/fetcher/tmp/mg-pso-gui-0.1.87.tar.gz]
+[2024-05-21 11:04:19] INFO root fetch - processPackages [mg-pso-gui]: Remove: archive file [/home/abi/fetcher/tmp/mg-pso-gui-0.1.9.tar.gz]
+[2024-05-21 11:04:19] INFO root fetch - main [MainThread]: End processing [mg-pso-gui]: success
+[2024-05-21 11:04:19] INFO root fetch - processPackages [simevopy]: Remove: archive file [/home/abi/fetcher/tmp/simevopy-0.1.8.tar.gz]
+[2024-05-21 11:04:19] INFO root fetch - processPackages [simevopy]: Remove: archive file [/home/abi/fetcher/tmp/simevopy-0.1.9.tar.gz]
+[2024-05-21 11:04:19] INFO root fetch - main [MainThread]: End processing [simevopy]: success
+[2024-05-21 11:04:19] INFO root fetch - processPackages [pytorch_optimizer]: Remove: archive file [/home/abi/fetcher/tmp/pytorch_optimizer-2.9.1.tar.gz]
+[2024-05-21 11:04:19] INFO root fetch - processPackages [pytorch_optimizer]: Remove: archive file [/home/abi/fetcher/tmp/pytorch_optimizer-3.0.0.tar.gz]
+[2024-05-21 11:04:19] INFO root fetch - main [MainThread]: End processing [pytorch_optimizer]: success
+[2024-05-21 11:04:19] INFO root fetch - main [MainThread]: Store serial: [23303527]
