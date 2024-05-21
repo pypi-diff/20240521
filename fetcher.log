@@ -13332,3 +13332,60 @@
 [2024-05-21 08:26:13] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.8.5.tar.gz]
 [2024-05-21 08:26:13] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
 [2024-05-21 08:26:13] INFO root fetch - main [MainThread]: Store serial: [23301972]
+[2024-05-21 08:28:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23301972]
+[2024-05-21 08:28:22] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-21 08:28:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: apimatic-core
+[2024-05-21 08:28:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: paddleocr-onnx
+[2024-05-21 08:28:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: contact-email-address-local
+[2024-05-21 08:28:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openvisuspy
+[2024-05-21 08:28:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: codecarbon
+[2024-05-21 08:28:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: plom
+[2024-05-21 08:28:22] INFO root fetch - processPackages [contact-email-address-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-21 08:28:22] INFO root fetch - processPackages [paddleocr-onnx]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-21 08:28:22] INFO root fetch - processPackages [contact-email-address-local]: Downloading https://files.pythonhosted.org/packages/45/e5/8c05c5cc1f7122ebe442383a5ad976af6991ffade381619160f614b030cf/contact_email_address_local-0.0.8.tar.gz
+[2024-05-21 08:28:22] INFO root fetch - processPackages [paddleocr-onnx]: Downloading https://files.pythonhosted.org/packages/70/d5/14dc73d1c9a3c47b98c2bdb487b07eed1f63897b326277ae81a3e1d3e337/paddleocr_onnx-0.2.1.tar.gz
+[2024-05-21 08:28:22] INFO root fetch - processPackages [openvisuspy]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-21 08:28:22] INFO root fetch - processPackages [apimatic-core]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-21 08:28:22] INFO root fetch - processPackages [codecarbon]: New version: [2.4.2] Old Version: [2.4.1]
+[2024-05-21 08:28:22] INFO root fetch - processPackages [plom]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-05-21 08:28:22] INFO root fetch - processPackages [openvisuspy]: Downloading https://files.pythonhosted.org/packages/b0/d9/2beb92d505396d836dfa5f3e5da1672e30a0795d20b21b932be407898836/openvisuspy-1.0.8-py3-none-any.whl
+[2024-05-21 08:28:22] INFO root fetch - processPackages [apimatic-core]: Downloading https://files.pythonhosted.org/packages/cb/14/64f1f595d53ef8e97a752ee8f59e9612c14e9f1f233c2cfd416c0544303b/apimatic-core-0.2.8.tar.gz
+[2024-05-21 08:28:22] INFO root fetch - processPackages [contact-email-address-local]: Downloading https://files.pythonhosted.org/packages/b0/76/1d966bca88d8d64a3d93fa1704b27864994febe1a9d7d4d97fde54eb590b/contact_email_address_local-0.0.9.tar.gz
+[2024-05-21 08:28:22] INFO root fetch - processPackages [codecarbon]: Downloading https://files.pythonhosted.org/packages/20/c6/dcbb91ea58b0c739618446eb3e2b2e4efc74c442e2fd226563a2b7bd3d1a/codecarbon-2.4.1.tar.gz
+[2024-05-21 08:28:22] INFO root fetch - processPackages [plom]: Downloading https://files.pythonhosted.org/packages/b7/81/1b078fee79f3aedaf708eb138abc2d993edc0d9cbccae2c1489964d07b9d/plom-0.9.3.tar.gz
+[2024-05-21 08:28:22] INFO root fetch - processPackages [paddleocr-onnx]: Downloading https://files.pythonhosted.org/packages/5f/71/9191addce1acceeb82b0ebffbe3f038a7ef3c2fa36ebf51fdcffcab6618d/paddleocr_onnx-0.2.2.tar.gz
+[2024-05-21 08:28:22] INFO root fetch - processPackages [contact-email-address-local]: executing diffoscope
+[2024-05-21 08:28:22] INFO root fetch - processPackages [contact-email-address-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contact_email_address_local-0.0.8.tar.gz tmp/contact_email_address_local-0.0.9.tar.gz --markdown 20240521/c/contact-email-address-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-21 08:28:23] INFO root fetch - processPackages [paddleocr-onnx]: executing diffoscope
+[2024-05-21 08:28:23] INFO root fetch - processPackages [paddleocr-onnx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paddleocr_onnx-0.2.1.tar.gz tmp/paddleocr_onnx-0.2.2.tar.gz --markdown 20240521/p/paddleocr-onnx/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-21 08:28:23] INFO root fetch - processPackages [apimatic-core]: Downloading https://files.pythonhosted.org/packages/24/59/4bb2384453b58dc5870601c747280e8e61abb667e44b97d9abcf78f1b38e/apimatic_core-0.2.9.tar.gz
+[2024-05-21 08:28:23] INFO root fetch - processPackages [codecarbon]: Downloading https://files.pythonhosted.org/packages/7d/03/580302cfea517d915501c1fb874454174813ed8fb2e0c9c43d3a47797b07/codecarbon-2.4.2.tar.gz
+[2024-05-21 08:28:23] INFO root fetch - processPackages [apimatic-core]: executing diffoscope
+[2024-05-21 08:28:23] INFO root fetch - processPackages [apimatic-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apimatic-core-0.2.8.tar.gz tmp/apimatic_core-0.2.9.tar.gz --markdown 20240521/a/apimatic-core/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-21 08:28:23] INFO root fetch - processPackages [plom]: Downloading https://files.pythonhosted.org/packages/df/29/cf8edd42fcc9085316f922d56e165eaf4e309691af920ec89baee4e3b5f0/plom-0.9.4.tar.gz
+[2024-05-21 08:28:23] INFO root fetch - processPackages [plom]: executing diffoscope
+[2024-05-21 08:28:23] INFO root fetch - processPackages [plom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plom-0.9.3.tar.gz tmp/plom-0.9.4.tar.gz --markdown 20240521/p/plom/0.9.3-0.9.4/README.md --exclude *.pyd
+[2024-05-21 08:28:23] INFO root fetch - processPackages [codecarbon]: executing diffoscope
+[2024-05-21 08:28:23] INFO root fetch - processPackages [codecarbon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codecarbon-2.4.1.tar.gz tmp/codecarbon-2.4.2.tar.gz --markdown 20240521/c/codecarbon/2.4.1-2.4.2/README.md --exclude *.pyd
+[2024-05-21 08:28:23] INFO root fetch - processPackages [openvisuspy]: Downloading https://files.pythonhosted.org/packages/76/33/2a7a818fea912f1354d65d0e959108baf4be55e1a1bcd773277f12b26582/openvisuspy-1.0.9-py3-none-any.whl
+[2024-05-21 08:28:23] INFO root fetch - processPackages [contact-email-address-local]: Remove: archive file [/home/abi/fetcher/tmp/contact_email_address_local-0.0.8.tar.gz]
+[2024-05-21 08:28:23] INFO root fetch - processPackages [contact-email-address-local]: Remove: archive file [/home/abi/fetcher/tmp/contact_email_address_local-0.0.9.tar.gz]
+[2024-05-21 08:28:23] INFO root fetch - main [MainThread]: End processing [contact-email-address-local]: success
+[2024-05-21 08:28:23] INFO root fetch - processPackages [paddleocr-onnx]: Remove: archive file [/home/abi/fetcher/tmp/paddleocr_onnx-0.2.1.tar.gz]
+[2024-05-21 08:28:23] INFO root fetch - processPackages [paddleocr-onnx]: Remove: archive file [/home/abi/fetcher/tmp/paddleocr_onnx-0.2.2.tar.gz]
+[2024-05-21 08:28:23] INFO root fetch - main [MainThread]: End processing [paddleocr-onnx]: success
+[2024-05-21 08:28:24] INFO root fetch - processPackages [apimatic-core]: Remove: archive file [/home/abi/fetcher/tmp/apimatic-core-0.2.8.tar.gz]
+[2024-05-21 08:28:24] INFO root fetch - processPackages [apimatic-core]: Remove: archive file [/home/abi/fetcher/tmp/apimatic_core-0.2.9.tar.gz]
+[2024-05-21 08:28:24] INFO root fetch - main [MainThread]: End processing [apimatic-core]: success
+[2024-05-21 08:28:24] INFO root fetch - processPackages [codecarbon]: Remove: archive file [/home/abi/fetcher/tmp/codecarbon-2.4.1.tar.gz]
+[2024-05-21 08:28:24] INFO root fetch - processPackages [codecarbon]: Remove: archive file [/home/abi/fetcher/tmp/codecarbon-2.4.2.tar.gz]
+[2024-05-21 08:28:24] INFO root fetch - main [MainThread]: End processing [codecarbon]: success
+[2024-05-21 08:28:25] INFO root fetch - processPackages [plom]: Remove: archive file [/home/abi/fetcher/tmp/plom-0.9.3.tar.gz]
+[2024-05-21 08:28:25] INFO root fetch - processPackages [plom]: Remove: archive file [/home/abi/fetcher/tmp/plom-0.9.4.tar.gz]
+[2024-05-21 08:28:25] INFO root fetch - main [MainThread]: End processing [plom]: success
+[2024-05-21 08:28:25] INFO root fetch - processPackages [openvisuspy]: executing diffoscope
+[2024-05-21 08:28:25] INFO root fetch - processPackages [openvisuspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openvisuspy-1.0.8-py3-none-any.whl.zip tmp/openvisuspy-1.0.9-py3-none-any.whl.zip --markdown 20240521/o/openvisuspy/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-21 08:28:25] INFO root fetch - processPackages [openvisuspy]: Remove: archive file [/home/abi/fetcher/tmp/openvisuspy-1.0.8-py3-none-any.whl.zip]
+[2024-05-21 08:28:25] INFO root fetch - processPackages [openvisuspy]: Remove: archive file [/home/abi/fetcher/tmp/openvisuspy-1.0.9-py3-none-any.whl.zip]
+[2024-05-21 08:28:25] INFO root fetch - main [MainThread]: End processing [openvisuspy]: success
+[2024-05-21 08:28:25] INFO root fetch - main [MainThread]: Store serial: [23301990]
