@@ -11817,3 +11817,33 @@
 [2024-05-21 07:18:12] INFO root fetch - processPackages [kyutils]: Remove: archive file [/home/abi/fetcher/tmp/kyutils-0.1.9.tar.gz]
 [2024-05-21 07:18:12] INFO root fetch - main [MainThread]: End processing [kyutils]: success
 [2024-05-21 07:18:12] INFO root fetch - main [MainThread]: Store serial: [23301281]
+[2024-05-21 07:20:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23301281]
+[2024-05-21 07:20:21] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-21 07:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rapidpe-rift-pipe
+[2024-05-21 07:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: onnxsharp
+[2024-05-21 07:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TAD-Library
+[2024-05-21 07:20:21] INFO root fetch - processPackages [TAD-Library]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-21 07:20:21] INFO root fetch - processPackages [rapidpe-rift-pipe]: New version: [0.6.9.dev20240319] Old Version: [0.6.9.dev20240318]
+[2024-05-21 07:20:21] INFO root fetch - processPackages [TAD-Library]: Downloading https://files.pythonhosted.org/packages/51/21/8300ecd1e55c2061dbe1813433a43c8f3a28b420f10895a1b5829cfa3604/TAD_Library-0.0.8.tar.gz
+[2024-05-21 07:20:21] INFO root fetch - processPackages [onnxsharp]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-21 07:20:21] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/e0/d8/d7b88a4aebe9c66f5be7749976ca4a5d90c4c1f76b8309b2528f7d696fc2/rapidpe_rift_pipe-0.6.9.dev20240318.tar.gz
+[2024-05-21 07:20:21] INFO root fetch - processPackages [TAD-Library]: Downloading https://files.pythonhosted.org/packages/93/f9/5b1fe6e2a246fe2fd7c264fab19bfb3dfb11e14ab728e4af9d2d6b7a706e/TAD_Library-0.0.9.tar.gz
+[2024-05-21 07:20:21] INFO root fetch - processPackages [onnxsharp]: Downloading https://files.pythonhosted.org/packages/00/ab/f553d56ce40bb7dc81f76a84143a0d7567c0d16bb09a5e3434fee5c7cc65/onnxsharp-0.0.7-py2.py3-none-any.whl
+[2024-05-21 07:20:21] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/57/73/f8f8961db2f4ad6df9b52d6fc88b6fc134a86d378de28ab14ee4105baea4/rapidpe_rift_pipe-0.6.9.dev20240319.tar.gz
+[2024-05-21 07:20:21] INFO root fetch - processPackages [TAD-Library]: executing diffoscope
+[2024-05-21 07:20:21] INFO root fetch - processPackages [TAD-Library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TAD_Library-0.0.8.tar.gz tmp/TAD_Library-0.0.9.tar.gz --markdown 20240521/T/TAD-Library/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-21 07:20:21] INFO root fetch - processPackages [rapidpe-rift-pipe]: executing diffoscope
+[2024-05-21 07:20:21] INFO root fetch - processPackages [rapidpe-rift-pipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapidpe_rift_pipe-0.6.9.dev20240318.tar.gz tmp/rapidpe_rift_pipe-0.6.9.dev20240319.tar.gz --markdown 20240521/r/rapidpe-rift-pipe/0.6.9.dev20240318-0.6.9.dev20240319/README.md --exclude *.pyd
+[2024-05-21 07:20:21] INFO root fetch - processPackages [onnxsharp]: Downloading https://files.pythonhosted.org/packages/d1/c7/b9005fbc50300614a285f04ca99052f827e0a380eb813a1bb704aa9a267a/onnxsharp-0.0.8-py2.py3-none-any.whl
+[2024-05-21 07:20:22] INFO root fetch - processPackages [onnxsharp]: executing diffoscope
+[2024-05-21 07:20:22] INFO root fetch - processPackages [onnxsharp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnxsharp-0.0.7-py2.py3-none-any.whl.zip tmp/onnxsharp-0.0.8-py2.py3-none-any.whl.zip --markdown 20240521/o/onnxsharp/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-21 07:20:22] INFO root fetch - processPackages [TAD-Library]: Remove: archive file [/home/abi/fetcher/tmp/TAD_Library-0.0.8.tar.gz]
+[2024-05-21 07:20:22] INFO root fetch - processPackages [TAD-Library]: Remove: archive file [/home/abi/fetcher/tmp/TAD_Library-0.0.9.tar.gz]
+[2024-05-21 07:20:22] INFO root fetch - main [MainThread]: End processing [TAD-Library]: success
+[2024-05-21 07:20:22] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.6.9.dev20240318.tar.gz]
+[2024-05-21 07:20:22] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.6.9.dev20240319.tar.gz]
+[2024-05-21 07:20:22] INFO root fetch - main [MainThread]: End processing [rapidpe-rift-pipe]: success
+[2024-05-21 07:20:22] INFO root fetch - processPackages [onnxsharp]: Remove: archive file [/home/abi/fetcher/tmp/onnxsharp-0.0.7-py2.py3-none-any.whl.zip]
+[2024-05-21 07:20:22] INFO root fetch - processPackages [onnxsharp]: Remove: archive file [/home/abi/fetcher/tmp/onnxsharp-0.0.8-py2.py3-none-any.whl.zip]
+[2024-05-21 07:20:22] INFO root fetch - main [MainThread]: End processing [onnxsharp]: success
+[2024-05-21 07:20:22] INFO root fetch - main [MainThread]: Store serial: [23301331]
