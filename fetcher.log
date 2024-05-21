@@ -7582,3 +7582,27 @@
 [2024-05-21 03:39:01] INFO root fetch - processPackages [pyAgrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl.zip]
 [2024-05-21 03:39:01] INFO root fetch - main [MainThread]: End processing [pyAgrum-nightly]: success
 [2024-05-21 03:39:01] INFO root fetch - main [MainThread]: Store serial: [23299548]
+[2024-05-21 03:41:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23299548]
+[2024-05-21 03:41:10] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-21 03:41:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cvprocessor
+[2024-05-21 03:41:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ezsmtp
+[2024-05-21 03:41:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyproject-fmt-rust
+[2024-05-21 03:41:10] WARNING root fetch - processPackages [ezsmtp]: Skipping, unable to determine old version
+[2024-05-21 03:41:10] INFO root fetch - main [MainThread]: End processing [ezsmtp] error
+[2024-05-21 03:41:10] INFO root fetch - processPackages [pyproject-fmt-rust]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-05-21 03:41:10] INFO root fetch - processPackages [pyproject-fmt-rust]: Downloading https://files.pythonhosted.org/packages/39/b8/303ab3fc6a8832c5be9baf84f7d82babc0cfcd37f551af71ba9859a612fe/pyproject_fmt_rust-1.1.1.tar.gz
+[2024-05-21 03:41:10] INFO root fetch - processPackages [cvprocessor]: New version: [1.0.0] Old Version: [0.6.4]
+[2024-05-21 03:41:10] INFO root fetch - processPackages [pyproject-fmt-rust]: Downloading https://files.pythonhosted.org/packages/9e/ca/ba93f07de33de601a8f8b182bff13e0b3cfcf863c233de9d0eb4dc442bee/pyproject_fmt_rust-1.1.2.tar.gz
+[2024-05-21 03:41:11] INFO root fetch - processPackages [cvprocessor]: Downloading https://files.pythonhosted.org/packages/9c/72/2ecdd6605dba081e04102641a3bb8acf2f992f769b7b4ee9e768e75d8208/cvprocessor-0.6.4.tar.gz
+[2024-05-21 03:41:11] INFO root fetch - processPackages [pyproject-fmt-rust]: executing diffoscope
+[2024-05-21 03:41:11] INFO root fetch - processPackages [pyproject-fmt-rust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyproject_fmt_rust-1.1.1.tar.gz tmp/pyproject_fmt_rust-1.1.2.tar.gz --markdown 20240521/p/pyproject-fmt-rust/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-05-21 03:41:11] INFO root fetch - processPackages [cvprocessor]: Downloading https://files.pythonhosted.org/packages/69/32/62e1d6faa710a738c1ebca77655e1c72107bd502ce80a68965e3aaaf2845/cvprocessor-1.0.0.tar.gz
+[2024-05-21 03:41:11] INFO root fetch - processPackages [cvprocessor]: executing diffoscope
+[2024-05-21 03:41:11] INFO root fetch - processPackages [cvprocessor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvprocessor-0.6.4.tar.gz tmp/cvprocessor-1.0.0.tar.gz --markdown 20240521/c/cvprocessor/0.6.4-1.0.0/README.md --exclude *.pyd
+[2024-05-21 03:41:11] INFO root fetch - processPackages [pyproject-fmt-rust]: Remove: archive file [/home/abi/fetcher/tmp/pyproject_fmt_rust-1.1.1.tar.gz]
+[2024-05-21 03:41:11] INFO root fetch - processPackages [pyproject-fmt-rust]: Remove: archive file [/home/abi/fetcher/tmp/pyproject_fmt_rust-1.1.2.tar.gz]
+[2024-05-21 03:41:11] INFO root fetch - main [MainThread]: End processing [pyproject-fmt-rust]: success
+[2024-05-21 03:41:12] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-0.6.4.tar.gz]
+[2024-05-21 03:41:12] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-1.0.0.tar.gz]
+[2024-05-21 03:41:12] INFO root fetch - main [MainThread]: End processing [cvprocessor]: success
+[2024-05-21 03:41:12] INFO root fetch - main [MainThread]: Store serial: [23299575]
