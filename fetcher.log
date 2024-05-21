@@ -3107,3 +3107,33 @@
 [2024-05-21 02:33:08] INFO root fetch - main [MainThread]: End processing [aeppl-nightly]: success
 [2024-05-21 02:33:08] INFO root fetch - main [MainThread]: End processing [ovos-skill-fallback-hivemind]: success
 [2024-05-21 02:33:08] INFO root fetch - main [MainThread]: Store serial: [23298045]
+[2024-05-21 02:35:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23298045]
+[2024-05-21 02:35:17] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-21 02:35:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: esphome
+[2024-05-21 02:35:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-meraki
+[2024-05-21 02:35:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Geode-Conversion
+[2024-05-21 02:35:17] INFO root fetch - processPackages [pulumi-meraki]: New version: [0.2.0a1716250106] Old Version: [0.2.0a1716250024]
+[2024-05-21 02:35:17] INFO root fetch - processPackages [esphome]: New version: [2024.5.1] Old Version: [2024.5.0b6]
+[2024-05-21 02:35:17] INFO root fetch - processPackages [Geode-Conversion]: New version: [5.2.9rc1] Old Version: [5.2.8rc1]
+[2024-05-21 02:35:17] INFO root fetch - processPackages [pulumi-meraki]: Downloading https://files.pythonhosted.org/packages/24/8a/84ce0e8521fe9adf2b0dc80741ff0ef0a10821b6905dd0be75cf561aba44/pulumi_meraki-0.2.0a1716250024.tar.gz
+[2024-05-21 02:35:17] INFO root fetch - processPackages [esphome]: Downloading https://files.pythonhosted.org/packages/97/89/fb4885420b4a459df7655b289706f8ca16f80c7c6ff5c3028672a87d4df1/esphome-2024.5.0b6.tar.gz
+[2024-05-21 02:35:17] INFO root fetch - processPackages [Geode-Conversion]: Downloading https://files.pythonhosted.org/packages/ab/f0/759a4b7905a382ec77dd8a2e9ddae0eb725b7e56cff54f74a8acf4e9c015/Geode_Conversion-5.2.8rc1-cp39-cp39-win_amd64.whl
+[2024-05-21 02:35:17] INFO root fetch - processPackages [pulumi-meraki]: Downloading https://files.pythonhosted.org/packages/38/d3/6ea0df75017c11a6beb73ded2c848dc7990319061fd58ed523284daff208/pulumi_meraki-0.2.0a1716250106.tar.gz
+[2024-05-21 02:35:17] INFO root fetch - processPackages [Geode-Conversion]: Downloading https://files.pythonhosted.org/packages/03/46/e812ca34f8bc99c989c94842945c5ed26be09b12e18cacd8f453cff00f85/Geode_Conversion-5.2.9rc1-cp39-cp39-win_amd64.whl
+[2024-05-21 02:35:18] INFO root fetch - processPackages [pulumi-meraki]: executing diffoscope
+[2024-05-21 02:35:18] INFO root fetch - processPackages [pulumi-meraki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_meraki-0.2.0a1716250024.tar.gz tmp/pulumi_meraki-0.2.0a1716250106.tar.gz --markdown 20240521/p/pulumi-meraki/0.2.0a1716250024-0.2.0a1716250106/README.md --exclude *.pyd
+[2024-05-21 02:35:18] INFO root fetch - processPackages [esphome]: Downloading https://files.pythonhosted.org/packages/4f/a0/03c4bac6a3c30bf2ec9079aed4e16bf76b304ad482d8111a7e16dad21aef/esphome-2024.5.1.tar.gz
+[2024-05-21 02:35:18] INFO root fetch - processPackages [Geode-Conversion]: executing diffoscope
+[2024-05-21 02:35:18] INFO root fetch - processPackages [Geode-Conversion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Conversion-5.2.8rc1-cp39-cp39-win_amd64.whl.zip tmp/Geode_Conversion-5.2.9rc1-cp39-cp39-win_amd64.whl.zip --markdown 20240521/G/Geode-Conversion/5.2.8rc1-5.2.9rc1/README.md --exclude *.pyd
+[2024-05-21 02:35:18] INFO root fetch - processPackages [esphome]: executing diffoscope
+[2024-05-21 02:35:18] INFO root fetch - processPackages [esphome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esphome-2024.5.0b6.tar.gz tmp/esphome-2024.5.1.tar.gz --markdown 20240521/e/esphome/2024.5.0b6-2024.5.1/README.md --exclude *.pyd
+[2024-05-21 02:35:20] INFO root fetch - processPackages [pulumi-meraki]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_meraki-0.2.0a1716250024.tar.gz]
+[2024-05-21 02:35:20] INFO root fetch - processPackages [pulumi-meraki]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_meraki-0.2.0a1716250106.tar.gz]
+[2024-05-21 02:35:20] INFO root fetch - main [MainThread]: End processing [pulumi-meraki]: success
+[2024-05-21 02:35:30] INFO root fetch - processPackages [esphome]: Remove: archive file [/home/abi/fetcher/tmp/esphome-2024.5.0b6.tar.gz]
+[2024-05-21 02:35:30] INFO root fetch - processPackages [esphome]: Remove: archive file [/home/abi/fetcher/tmp/esphome-2024.5.1.tar.gz]
+[2024-05-21 02:35:30] INFO root fetch - main [MainThread]: End processing [esphome]: success
+[2024-05-21 02:35:31] INFO root fetch - processPackages [Geode-Conversion]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Conversion-5.2.8rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-05-21 02:35:31] INFO root fetch - processPackages [Geode-Conversion]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Conversion-5.2.9rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-05-21 02:35:31] INFO root fetch - main [MainThread]: End processing [Geode-Conversion]: success
+[2024-05-21 02:35:31] INFO root fetch - main [MainThread]: Store serial: [23298056]
