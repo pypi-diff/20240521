@@ -11323,3 +11323,36 @@
 [2024-05-21 06:45:17] INFO root fetch - processPackages [odoo14-addon-l10n-br-sale-stock]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_sale_stock-14.0.1.2.2.dev6-py3-none-any.whl.zip]
 [2024-05-21 06:45:17] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-sale-stock]: success
 [2024-05-21 06:45:17] INFO root fetch - main [MainThread]: Store serial: [23301096]
+[2024-05-21 06:47:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23301096]
+[2024-05-21 06:47:26] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-21 06:47:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: monai
+[2024-05-21 06:47:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mms-client
+[2024-05-21 06:47:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: IQ-gen
+[2024-05-21 06:47:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PyRHEED
+[2024-05-21 06:47:26] INFO root fetch - processPackages [PyRHEED]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-21 06:47:26] INFO root fetch - processPackages [PyRHEED]: Downloading https://files.pythonhosted.org/packages/fd/07/7c01274c967c87aaf7291a229408dd72134ec5d038a651d6df3f33b72a0c/pyrheed-1.0.1.tar.gz
+[2024-05-21 06:47:26] INFO root fetch - processPackages [monai]: New version: [1.3.1rc8] Old Version: [1.3.1rc7]
+[2024-05-21 06:47:26] INFO root fetch - processPackages [mms-client]: New version: [1.7.0] Old Version: [1.6.0]
+[2024-05-21 06:47:26] WARNING root fetch - processPackages [IQ-gen]: Skipping, unable to determine old version
+[2024-05-21 06:47:26] INFO root fetch - main [MainThread]: End processing [IQ-gen] error
+[2024-05-21 06:47:26] INFO root fetch - processPackages [mms-client]: Downloading https://files.pythonhosted.org/packages/e5/be/d11557dad96843838683c04fa5c83925021f970f0107abb3d5108f5ab89c/mms_client-1.6.0.tar.gz
+[2024-05-21 06:47:27] INFO root fetch - processPackages [monai]: Downloading https://files.pythonhosted.org/packages/c2/5d/2222e83d4f778434415c5bf6f0cbffbf964b4b0230d3da3ba9d495c3ee4d/monai-1.3.1rc7.tar.gz
+[2024-05-21 06:47:27] INFO root fetch - processPackages [PyRHEED]: Downloading https://files.pythonhosted.org/packages/07/ff/923969f085a5ace6e8b998515147fc8d50f1bcc91d6e0c1975cccb973455/pyrheed-1.0.2.tar.gz
+[2024-05-21 06:47:27] INFO root fetch - processPackages [mms-client]: Downloading https://files.pythonhosted.org/packages/44/06/0d2178d86a34429c8dfd2d3000ee217dd0d45b3fa945805f40fe7add33a9/mms_client-1.7.0.tar.gz
+[2024-05-21 06:47:27] INFO root fetch - processPackages [PyRHEED]: executing diffoscope
+[2024-05-21 06:47:27] INFO root fetch - processPackages [PyRHEED]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrheed-1.0.1.tar.gz tmp/pyrheed-1.0.2.tar.gz --markdown 20240521/P/PyRHEED/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-21 06:47:27] INFO root fetch - processPackages [mms-client]: executing diffoscope
+[2024-05-21 06:47:27] INFO root fetch - processPackages [mms-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mms_client-1.6.0.tar.gz tmp/mms_client-1.7.0.tar.gz --markdown 20240521/m/mms-client/1.6.0-1.7.0/README.md --exclude *.pyd
+[2024-05-21 06:47:27] INFO root fetch - processPackages [monai]: Downloading https://files.pythonhosted.org/packages/6f/28/4618803cacfef5848cfe70aa9051edb503f01a179c75491cd35c8d3483f4/monai-1.3.1rc8.tar.gz
+[2024-05-21 06:47:27] INFO root fetch - processPackages [monai]: executing diffoscope
+[2024-05-21 06:47:27] INFO root fetch - processPackages [monai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monai-1.3.1rc7.tar.gz tmp/monai-1.3.1rc8.tar.gz --markdown 20240521/m/monai/1.3.1rc7-1.3.1rc8/README.md --exclude *.pyd
+[2024-05-21 06:47:28] INFO root fetch - processPackages [PyRHEED]: Remove: archive file [/home/abi/fetcher/tmp/pyrheed-1.0.1.tar.gz]
+[2024-05-21 06:47:28] INFO root fetch - processPackages [PyRHEED]: Remove: archive file [/home/abi/fetcher/tmp/pyrheed-1.0.2.tar.gz]
+[2024-05-21 06:47:28] INFO root fetch - main [MainThread]: End processing [PyRHEED]: success
+[2024-05-21 06:47:28] INFO root fetch - processPackages [mms-client]: Remove: archive file [/home/abi/fetcher/tmp/mms_client-1.6.0.tar.gz]
+[2024-05-21 06:47:28] INFO root fetch - processPackages [mms-client]: Remove: archive file [/home/abi/fetcher/tmp/mms_client-1.7.0.tar.gz]
+[2024-05-21 06:47:28] INFO root fetch - main [MainThread]: End processing [mms-client]: success
+[2024-05-21 06:47:32] INFO root fetch - processPackages [monai]: Remove: archive file [/home/abi/fetcher/tmp/monai-1.3.1rc7.tar.gz]
+[2024-05-21 06:47:32] INFO root fetch - processPackages [monai]: Remove: archive file [/home/abi/fetcher/tmp/monai-1.3.1rc8.tar.gz]
+[2024-05-21 06:47:32] INFO root fetch - main [MainThread]: End processing [monai]: success
+[2024-05-21 06:47:32] INFO root fetch - main [MainThread]: Store serial: [23301110]
