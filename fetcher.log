@@ -16954,3 +16954,78 @@
 [2024-05-21 10:40:04] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.4.3.dev6.tar.gz]
 [2024-05-21 10:40:04] INFO root fetch - main [MainThread]: End processing [kuzu]: success
 [2024-05-21 10:40:04] INFO root fetch - main [MainThread]: Store serial: [23303279]
+[2024-05-21 10:42:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23303279]
+[2024-05-21 10:42:13] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-21 10:42:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scratchcommunication
+[2024-05-21 10:42:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django_herobiz_dental
+[2024-05-21 10:42:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gOdoo-cli
+[2024-05-21 10:42:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dungeonmaker
+[2024-05-21 10:42:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scs-core
+[2024-05-21 10:42:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scs-analysis
+[2024-05-21 10:42:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: outpostcli
+[2024-05-21 10:42:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: flatpack
+[2024-05-21 10:42:14] INFO root fetch - processPackages [scratchcommunication]: New version: [2.8.1] Old Version: [2.7.2]
+[2024-05-21 10:42:14] INFO root fetch - processPackages [dungeonmaker]: New version: [0.6.9] Old Version: [0.6.8]
+[2024-05-21 10:42:14] INFO root fetch - processPackages [outpostcli]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-21 10:42:14] INFO root fetch - processPackages [flatpack]: New version: [3.4.99] Old Version: [3.4.98]
+[2024-05-21 10:42:14] INFO root fetch - processPackages [django_herobiz_dental]: New version: [2.1.0] Old Version: [2.0.0]
+[2024-05-21 10:42:14] INFO root fetch - processPackages [scratchcommunication]: Downloading https://files.pythonhosted.org/packages/06/c5/7c090605324a5c246b52ebdd08d26c840aac01bf4d09562e9aefa480e6a7/scratchcommunication-2.7.2.tar.gz
+[2024-05-21 10:42:14] INFO root fetch - processPackages [scs-analysis]: New version: [3.8.9] Old Version: [3.8.8]
+[2024-05-21 10:42:14] INFO root fetch - processPackages [scs-core]: New version: [3.9.5] Old Version: [3.9.4]
+[2024-05-21 10:42:14] INFO root fetch - processPackages [gOdoo-cli]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-05-21 10:42:14] INFO root fetch - processPackages [dungeonmaker]: Downloading https://files.pythonhosted.org/packages/6b/ec/113bb7a4880cd341f9f901d0895e30902f534b061fe3f409ec825ca0b36f/dungeonmaker-0.6.8.tar.gz
+[2024-05-21 10:42:14] INFO root fetch - processPackages [outpostcli]: Downloading https://files.pythonhosted.org/packages/7e/e2/114a39eac567286d0418645c0ea24089c48fcbe4cccec6c79191a5cefccf/outpostcli-0.0.8.tar.gz
+[2024-05-21 10:42:14] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/cb/39/adcd388eba8071e3318b3a2224e5c96179761da6dbd7cfa96b20311e810f/flatpack-3.4.98.tar.gz
+[2024-05-21 10:42:14] INFO root fetch - processPackages [django_herobiz_dental]: Downloading https://files.pythonhosted.org/packages/78/37/7d2fdba9dd7bacf47bb3a8142e423b484f82df9040b5df84628467efe90a/django_herobiz_dental-2.0.0.tar.gz
+[2024-05-21 10:42:14] INFO root fetch - processPackages [scs-core]: Downloading https://files.pythonhosted.org/packages/16/0f/cfe27fc1c173550fcd053816dea81df44643bae2859d7c1edf0cce125741/scs-core-3.9.4.tar.gz
+[2024-05-21 10:42:14] INFO root fetch - processPackages [gOdoo-cli]: Downloading https://files.pythonhosted.org/packages/c5/d3/4f4b53fefe2c0aca33263dc5ed7136b0ab995817f6ff226b64f5e663c157/godoo_cli-0.9.4.tar.gz
+[2024-05-21 10:42:14] INFO root fetch - processPackages [scs-analysis]: Downloading https://files.pythonhosted.org/packages/37/7f/d5e881e34675785f876de523357e2c4caff116df20fc9d47d9023762d2ac/scs_analysis-3.8.8.tar.gz
+[2024-05-21 10:42:14] INFO root fetch - processPackages [dungeonmaker]: Downloading https://files.pythonhosted.org/packages/ee/67/7fe45d7dc6bc1861642400f1a41b8879848ba98a249ce5d4cfe1afadb942/dungeonmaker-0.6.9.tar.gz
+[2024-05-21 10:42:14] INFO root fetch - processPackages [scratchcommunication]: Downloading https://files.pythonhosted.org/packages/5b/30/f4c79e9e09eb1e412f129170702ad22b2500cc674f6020a3eaed00b63d19/scratchcommunication-2.8.1.tar.gz
+[2024-05-21 10:42:14] INFO root fetch - processPackages [outpostcli]: Downloading https://files.pythonhosted.org/packages/df/ab/82b6853cec170d33c2aff19e3a298b0bf56f7ba1b885f6f7d42a10ae43dc/outpostcli-0.0.9.tar.gz
+[2024-05-21 10:42:14] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/89/20/a694f72cbfa96253cdb38b9f65c7cfd5f3a4fb145d2fe2483132b80dafd4/flatpack-3.4.99.tar.gz
+[2024-05-21 10:42:14] INFO root fetch - processPackages [dungeonmaker]: executing diffoscope
+[2024-05-21 10:42:14] INFO root fetch - processPackages [dungeonmaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dungeonmaker-0.6.8.tar.gz tmp/dungeonmaker-0.6.9.tar.gz --markdown 20240521/d/dungeonmaker/0.6.8-0.6.9/README.md --exclude *.pyd
+[2024-05-21 10:42:14] INFO root fetch - processPackages [outpostcli]: executing diffoscope
+[2024-05-21 10:42:14] INFO root fetch - processPackages [outpostcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/outpostcli-0.0.8.tar.gz tmp/outpostcli-0.0.9.tar.gz --markdown 20240521/o/outpostcli/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-21 10:42:14] INFO root fetch - processPackages [scratchcommunication]: executing diffoscope
+[2024-05-21 10:42:14] INFO root fetch - processPackages [scratchcommunication]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scratchcommunication-2.7.2.tar.gz tmp/scratchcommunication-2.8.1.tar.gz --markdown 20240521/s/scratchcommunication/2.7.2-2.8.1/README.md --exclude *.pyd
+[2024-05-21 10:42:14] INFO root fetch - processPackages [flatpack]: executing diffoscope
+[2024-05-21 10:42:14] INFO root fetch - processPackages [flatpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flatpack-3.4.98.tar.gz tmp/flatpack-3.4.99.tar.gz --markdown 20240521/f/flatpack/3.4.98-3.4.99/README.md --exclude *.pyd
+[2024-05-21 10:42:14] INFO root fetch - processPackages [gOdoo-cli]: Downloading https://files.pythonhosted.org/packages/73/1f/cf5f1371627bddacae7ee9809d0f2ab97d9cca9c2d1235ab650f7c9eb721/godoo_cli-0.9.5.tar.gz
+[2024-05-21 10:42:14] INFO root fetch - processPackages [scs-core]: Downloading https://files.pythonhosted.org/packages/57/af/3987873caff8cb82812e00ed94241928f47c7c6cb52e25c3163689be282c/scs-core-3.9.5.tar.gz
+[2024-05-21 10:42:14] INFO root fetch - processPackages [scs-analysis]: Downloading https://files.pythonhosted.org/packages/cd/79/9b81830fda2c462c25b5c93162add208935e953ba2eae3caa210ad6c0e44/scs_analysis-3.8.9.tar.gz
+[2024-05-21 10:42:14] INFO root fetch - processPackages [django_herobiz_dental]: Downloading https://files.pythonhosted.org/packages/e3/91/dfe36b478b424390bfe0aff1d059b57bd68e70983608c8082d395bce44aa/django_herobiz_dental-2.1.0.tar.gz
+[2024-05-21 10:42:14] INFO root fetch - processPackages [gOdoo-cli]: executing diffoscope
+[2024-05-21 10:42:14] INFO root fetch - processPackages [gOdoo-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/godoo_cli-0.9.4.tar.gz tmp/godoo_cli-0.9.5.tar.gz --markdown 20240521/g/gOdoo-cli/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-05-21 10:42:15] INFO root fetch - processPackages [scs-analysis]: executing diffoscope
+[2024-05-21 10:42:15] INFO root fetch - processPackages [scs-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scs_analysis-3.8.8.tar.gz tmp/scs_analysis-3.8.9.tar.gz --markdown 20240521/s/scs-analysis/3.8.8-3.8.9/README.md --exclude *.pyd
+[2024-05-21 10:42:15] INFO root fetch - processPackages [scs-core]: executing diffoscope
+[2024-05-21 10:42:15] INFO root fetch - processPackages [scs-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scs-core-3.9.4.tar.gz tmp/scs-core-3.9.5.tar.gz --markdown 20240521/s/scs-core/3.9.4-3.9.5/README.md --exclude *.pyd
+[2024-05-21 10:42:15] INFO root fetch - processPackages [django_herobiz_dental]: executing diffoscope
+[2024-05-21 10:42:15] INFO root fetch - processPackages [django_herobiz_dental]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_herobiz_dental-2.0.0.tar.gz tmp/django_herobiz_dental-2.1.0.tar.gz --markdown 20240521/d/django_herobiz_dental/2.0.0-2.1.0/README.md --exclude *.pyd
+[2024-05-21 10:42:15] INFO root fetch - processPackages [scratchcommunication]: Remove: archive file [/home/abi/fetcher/tmp/scratchcommunication-2.7.2.tar.gz]
+[2024-05-21 10:42:15] INFO root fetch - processPackages [scratchcommunication]: Remove: archive file [/home/abi/fetcher/tmp/scratchcommunication-2.8.1.tar.gz]
+[2024-05-21 10:42:15] INFO root fetch - main [MainThread]: End processing [scratchcommunication]: success
+[2024-05-21 10:42:15] INFO root fetch - processPackages [dungeonmaker]: Remove: archive file [/home/abi/fetcher/tmp/dungeonmaker-0.6.8.tar.gz]
+[2024-05-21 10:42:15] INFO root fetch - processPackages [dungeonmaker]: Remove: archive file [/home/abi/fetcher/tmp/dungeonmaker-0.6.9.tar.gz]
+[2024-05-21 10:42:15] INFO root fetch - main [MainThread]: End processing [dungeonmaker]: success
+[2024-05-21 10:42:15] INFO root fetch - processPackages [outpostcli]: Remove: archive file [/home/abi/fetcher/tmp/outpostcli-0.0.8.tar.gz]
+[2024-05-21 10:42:15] INFO root fetch - processPackages [outpostcli]: Remove: archive file [/home/abi/fetcher/tmp/outpostcli-0.0.9.tar.gz]
+[2024-05-21 10:42:15] INFO root fetch - main [MainThread]: End processing [outpostcli]: success
+[2024-05-21 10:42:15] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.98.tar.gz]
+[2024-05-21 10:42:15] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.99.tar.gz]
+[2024-05-21 10:42:15] INFO root fetch - main [MainThread]: End processing [flatpack]: success
+[2024-05-21 10:42:15] INFO root fetch - processPackages [gOdoo-cli]: Remove: archive file [/home/abi/fetcher/tmp/godoo_cli-0.9.4.tar.gz]
+[2024-05-21 10:42:15] INFO root fetch - processPackages [gOdoo-cli]: Remove: archive file [/home/abi/fetcher/tmp/godoo_cli-0.9.5.tar.gz]
+[2024-05-21 10:42:15] INFO root fetch - main [MainThread]: End processing [gOdoo-cli]: success
+[2024-05-21 10:42:16] INFO root fetch - processPackages [scs-analysis]: Remove: archive file [/home/abi/fetcher/tmp/scs_analysis-3.8.8.tar.gz]
+[2024-05-21 10:42:16] INFO root fetch - processPackages [scs-analysis]: Remove: archive file [/home/abi/fetcher/tmp/scs_analysis-3.8.9.tar.gz]
+[2024-05-21 10:42:16] INFO root fetch - main [MainThread]: End processing [scs-analysis]: success
+[2024-05-21 10:42:16] INFO root fetch - processPackages [scs-core]: Remove: archive file [/home/abi/fetcher/tmp/scs-core-3.9.4.tar.gz]
+[2024-05-21 10:42:16] INFO root fetch - processPackages [scs-core]: Remove: archive file [/home/abi/fetcher/tmp/scs-core-3.9.5.tar.gz]
+[2024-05-21 10:42:16] INFO root fetch - main [MainThread]: End processing [scs-core]: success
+[2024-05-21 10:42:17] INFO root fetch - processPackages [django_herobiz_dental]: Remove: archive file [/home/abi/fetcher/tmp/django_herobiz_dental-2.0.0.tar.gz]
+[2024-05-21 10:42:17] INFO root fetch - processPackages [django_herobiz_dental]: Remove: archive file [/home/abi/fetcher/tmp/django_herobiz_dental-2.1.0.tar.gz]
+[2024-05-21 10:42:17] INFO root fetch - main [MainThread]: End processing [django_herobiz_dental]: success
+[2024-05-21 10:42:17] INFO root fetch - main [MainThread]: Store serial: [23303302]
