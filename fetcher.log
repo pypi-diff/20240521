@@ -7792,3 +7792,45 @@
 [2024-05-21 03:54:16] INFO root fetch - processPackages [BioSAK]: Remove: archive file [/home/abi/fetcher/tmp/BioSAK-1.88.9.tar.gz]
 [2024-05-21 03:54:16] INFO root fetch - main [MainThread]: End processing [BioSAK]: success
 [2024-05-21 03:54:16] INFO root fetch - main [MainThread]: Store serial: [23299669]
+[2024-05-21 03:56:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23299669]
+[2024-05-21 03:56:25] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-21 03:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: heytorvas
+[2024-05-21 03:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kano-cv
+[2024-05-21 03:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tinyticker
+[2024-05-21 03:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zonevu
+[2024-05-21 03:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stencila_types
+[2024-05-21 03:56:25] INFO root fetch - processPackages [tinyticker]: New version: [0.5.7] Old Version: [0.5.6]
+[2024-05-21 03:56:25] INFO root fetch - processPackages [tinyticker]: Downloading https://files.pythonhosted.org/packages/e2/4f/80168c862fc935cf2bfda26bdcdc23fff4ae6524a905e9442dc85a4d8b99/tinyticker-0.5.6.tar.gz
+[2024-05-21 03:56:25] WARNING root fetch - processPackages [heytorvas]: Skipping, unable to determine old version
+[2024-05-21 03:56:25] INFO root fetch - main [MainThread]: End processing [heytorvas] error
+[2024-05-21 03:56:25] INFO root fetch - processPackages [kano-cv]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-05-21 03:56:25] INFO root fetch - processPackages [zonevu]: New version: [1.1.27] Old Version: [1.1.26]
+[2024-05-21 03:56:25] INFO root fetch - processPackages [stencila_types]: New version: [2.0.0a29] Old Version: [2.0.0a28]
+[2024-05-21 03:56:25] INFO root fetch - processPackages [tinyticker]: Downloading https://files.pythonhosted.org/packages/b9/51/53ac97894c87e0436bc40ce05ff7eb8d5315c90623ac6fe02e0715afa512/tinyticker-0.5.7.tar.gz
+[2024-05-21 03:56:25] INFO root fetch - processPackages [kano-cv]: Downloading https://files.pythonhosted.org/packages/c0/65/6a2e07810ee93f8537d7656e017c6e73af55effc740406c7471bd7c0ef1c/kano-cv-1.9.1.tar.gz
+[2024-05-21 03:56:25] INFO root fetch - processPackages [zonevu]: Downloading https://files.pythonhosted.org/packages/d0/77/0140d1ff4281d7eb447eeec384066b6ad0796a5254dd9ab3affde0af7b1b/zonevu-1.1.26-py3-none-any.whl
+[2024-05-21 03:56:25] INFO root fetch - processPackages [stencila_types]: Downloading https://files.pythonhosted.org/packages/58/0d/7e7910ed2d0d96808881fcf748ddfbf822a9dadc48613b8f030e56c19432/stencila_types-2.0.0a28.tar.gz
+[2024-05-21 03:56:25] INFO root fetch - processPackages [tinyticker]: executing diffoscope
+[2024-05-21 03:56:25] INFO root fetch - processPackages [tinyticker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinyticker-0.5.6.tar.gz tmp/tinyticker-0.5.7.tar.gz --markdown 20240521/t/tinyticker/0.5.6-0.5.7/README.md --exclude *.pyd
+[2024-05-21 03:56:25] INFO root fetch - processPackages [kano-cv]: Downloading https://files.pythonhosted.org/packages/97/97/49939234a345d7336412bb2072f63149b16ee9336a2184688294a6eeb1ab/kano-cv-1.9.2.tar.gz
+[2024-05-21 03:56:25] INFO root fetch - processPackages [stencila_types]: Downloading https://files.pythonhosted.org/packages/6e/3e/3d467211c4c62f6e98e7bc3be1741512e30be61580f2855407ee872b2c2f/stencila_types-2.0.0a29.tar.gz
+[2024-05-21 03:56:25] INFO root fetch - processPackages [zonevu]: Downloading https://files.pythonhosted.org/packages/96/34/4415aeadababe18a7c6c8d10e0e1eb50a491986314cd54c8ab6b522c8e72/zonevu-1.1.27-py3-none-any.whl
+[2024-05-21 03:56:25] INFO root fetch - processPackages [kano-cv]: executing diffoscope
+[2024-05-21 03:56:25] INFO root fetch - processPackages [kano-cv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kano-cv-1.9.1.tar.gz tmp/kano-cv-1.9.2.tar.gz --markdown 20240521/k/kano-cv/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-05-21 03:56:26] INFO root fetch - processPackages [stencila_types]: executing diffoscope
+[2024-05-21 03:56:26] INFO root fetch - processPackages [stencila_types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stencila_types-2.0.0a28.tar.gz tmp/stencila_types-2.0.0a29.tar.gz --markdown 20240521/s/stencila_types/2.0.0a28-2.0.0a29/README.md --exclude *.pyd
+[2024-05-21 03:56:26] INFO root fetch - processPackages [zonevu]: executing diffoscope
+[2024-05-21 03:56:26] INFO root fetch - processPackages [zonevu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zonevu-1.1.26-py3-none-any.whl.zip tmp/zonevu-1.1.27-py3-none-any.whl.zip --markdown 20240521/z/zonevu/1.1.26-1.1.27/README.md --exclude *.pyd
+[2024-05-21 03:56:26] INFO root fetch - processPackages [tinyticker]: Remove: archive file [/home/abi/fetcher/tmp/tinyticker-0.5.6.tar.gz]
+[2024-05-21 03:56:26] INFO root fetch - processPackages [tinyticker]: Remove: archive file [/home/abi/fetcher/tmp/tinyticker-0.5.7.tar.gz]
+[2024-05-21 03:56:26] INFO root fetch - main [MainThread]: End processing [tinyticker]: success
+[2024-05-21 03:56:26] INFO root fetch - processPackages [kano-cv]: Remove: archive file [/home/abi/fetcher/tmp/kano-cv-1.9.1.tar.gz]
+[2024-05-21 03:56:26] INFO root fetch - processPackages [kano-cv]: Remove: archive file [/home/abi/fetcher/tmp/kano-cv-1.9.2.tar.gz]
+[2024-05-21 03:56:26] INFO root fetch - main [MainThread]: End processing [kano-cv]: success
+[2024-05-21 03:56:26] INFO root fetch - processPackages [stencila_types]: Remove: archive file [/home/abi/fetcher/tmp/stencila_types-2.0.0a28.tar.gz]
+[2024-05-21 03:56:26] INFO root fetch - processPackages [stencila_types]: Remove: archive file [/home/abi/fetcher/tmp/stencila_types-2.0.0a29.tar.gz]
+[2024-05-21 03:56:26] INFO root fetch - main [MainThread]: End processing [stencila_types]: success
+[2024-05-21 03:56:26] INFO root fetch - processPackages [zonevu]: Remove: archive file [/home/abi/fetcher/tmp/zonevu-1.1.26-py3-none-any.whl.zip]
+[2024-05-21 03:56:26] INFO root fetch - processPackages [zonevu]: Remove: archive file [/home/abi/fetcher/tmp/zonevu-1.1.27-py3-none-any.whl.zip]
+[2024-05-21 03:56:26] INFO root fetch - main [MainThread]: End processing [zonevu]: success
+[2024-05-21 03:56:26] INFO root fetch - main [MainThread]: Store serial: [23299684]
