@@ -20112,3 +20112,85 @@
 [2024-05-21 12:22:38] INFO root fetch - processPackages [clearml]: Remove: archive file [/home/abi/fetcher/tmp/clearml-1.9.3-py2.py3-none-any.whl.zip]
 [2024-05-21 12:22:39] INFO root fetch - main [MainThread]: End processing [clearml]: success
 [2024-05-21 12:22:39] INFO root fetch - main [MainThread]: Store serial: [23304606]
+[2024-05-21 12:24:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23304606]
+[2024-05-21 12:24:47] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-21 12:24:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kubeyard
+[2024-05-21 12:24:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyselenscrapr
+[2024-05-21 12:24:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: langchain-rag
+[2024-05-21 12:24:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyodre
+[2024-05-21 12:24:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yolonnx
+[2024-05-21 12:24:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: audiostack
+[2024-05-21 12:24:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lindi
+[2024-05-21 12:24:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: optimask
+[2024-05-21 12:24:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyselenscrapr
+[2024-05-21 12:24:47] INFO root fetch - processPackages [pyodre]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-21 12:24:47] INFO root fetch - processPackages [lindi]: New version: [0.3.6] Old Version: [0.3.5]
+[2024-05-21 12:24:47] INFO root fetch - processPackages [optimask]: New version: [1.1.2] Old Version: [1.1.1rc0]
+[2024-05-21 12:24:47] INFO root fetch - processPackages [audiostack]: New version: [2.0.0a0] Old Version: [1.3.1]
+[2024-05-21 12:24:47] INFO root fetch - processPackages [langchain-rag]: New version: [0.2.0] Old Version: [0.1.52]
+[2024-05-21 12:24:47] INFO root fetch - processPackages [yolonnx]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-21 12:24:47] INFO root fetch - processPackages [pyselenscrapr]: New version: [0.0.81] Old Version: [0.0.8]
+[2024-05-21 12:24:47] INFO root fetch - processPackages [pyselenscrapr]: New version: [0.0.81] Old Version: [0.0.8]
+[2024-05-21 12:24:47] INFO root fetch - processPackages [kubeyard]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-05-21 12:24:47] INFO root fetch - processPackages [audiostack]: Downloading https://files.pythonhosted.org/packages/bf/63/3ad7ee2d9a2d4599420024bbe3ca423b4646b623fb5d0c6e570992b38588/audiostack-1.3.1.tar.gz
+[2024-05-21 12:24:47] INFO root fetch - processPackages [pyodre]: Downloading https://files.pythonhosted.org/packages/9b/2c/7f16741ac9d8d31f04326e51dc0c95a5f4ecf77cbb90c0f765901626a1fb/pyodre-0.0.1.tar.gz
+[2024-05-21 12:24:47] INFO root fetch - processPackages [lindi]: Downloading https://files.pythonhosted.org/packages/0f/e4/bf0494c17b2f1f7788c9c56dee34e8a593a76452aaab41e35d541fc6e363/lindi-0.3.5.tar.gz
+[2024-05-21 12:24:48] INFO root fetch - processPackages [optimask]: Downloading https://files.pythonhosted.org/packages/e2/73/d5438648c289e148078a91cae4921eafa8774744cec94ef6070e549c4244/optimask-1.1.1rc0.tar.gz
+[2024-05-21 12:24:48] INFO root fetch - processPackages [yolonnx]: Downloading https://files.pythonhosted.org/packages/21/1a/84cf0f685b4baa40ca09a27040c60a4cc95bf5068404321334b1e7f23249/yolonnx-0.1.4.tar.gz
+[2024-05-21 12:24:48] INFO root fetch - processPackages [pyselenscrapr]: Downloading https://files.pythonhosted.org/packages/09/34/ef0e972b1c0e1efb1f48bcbda5e5c5d4461411e5111f810099e9067496eb/pyselenscrapr-0.0.8.tar.gz
+[2024-05-21 12:24:48] INFO root fetch - processPackages [pyselenscrapr]: Downloading https://files.pythonhosted.org/packages/09/34/ef0e972b1c0e1efb1f48bcbda5e5c5d4461411e5111f810099e9067496eb/pyselenscrapr-0.0.8.tar.gz
+[2024-05-21 12:24:48] INFO root fetch - processPackages [kubeyard]: Downloading https://files.pythonhosted.org/packages/d1/b4/8cd879e6866d9124eada90649df90db96a416d4f497feebc7cba76e446a2/kubeyard-1.0.0.tar.gz
+[2024-05-21 12:24:48] INFO root fetch - processPackages [langchain-rag]: Downloading https://files.pythonhosted.org/packages/70/5f/d0077ec6423f98d04325ada82945090c9277f4d14916cd0f4d73afa64342/langchain_rag-0.1.52.tar.gz
+[2024-05-21 12:24:48] INFO root fetch - processPackages [pyodre]: Downloading https://files.pythonhosted.org/packages/64/bc/74d3e73a098f32756131a1ca3221ae11ba00a8f9ad91a9b306e703966c40/pyodre-0.0.2.tar.gz
+[2024-05-21 12:24:48] INFO root fetch - processPackages [audiostack]: Downloading https://files.pythonhosted.org/packages/da/30/78f0e1e94553d7d74b97108e52d364ce9149d40d8d279db3012b0ef60430/audiostack-2.0.0a0.tar.gz
+[2024-05-21 12:24:48] INFO root fetch - processPackages [lindi]: Downloading https://files.pythonhosted.org/packages/33/41/9c65a55e474acefaeb5879fa8ed31e29bf2e72b8596b14da951cd652aec3/lindi-0.3.6.tar.gz
+[2024-05-21 12:24:48] INFO root fetch - processPackages [optimask]: Downloading https://files.pythonhosted.org/packages/f0/3d/bc8f75138a739a5a5147a26ca5ff9da80e66a18753fb2090e24cc0164ae9/optimask-1.1.2.tar.gz
+[2024-05-21 12:24:48] INFO root fetch - processPackages [pyodre]: executing diffoscope
+[2024-05-21 12:24:48] INFO root fetch - processPackages [pyodre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyodre-0.0.1.tar.gz tmp/pyodre-0.0.2.tar.gz --markdown 20240521/p/pyodre/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-21 12:24:48] INFO root fetch - processPackages [audiostack]: executing diffoscope
+[2024-05-21 12:24:48] INFO root fetch - processPackages [audiostack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audiostack-1.3.1.tar.gz tmp/audiostack-2.0.0a0.tar.gz --markdown 20240521/a/audiostack/1.3.1-2.0.0a0/README.md --exclude *.pyd
+[2024-05-21 12:24:48] INFO root fetch - processPackages [yolonnx]: Downloading https://files.pythonhosted.org/packages/e7/81/641e63e8676e51fe61dbe52334d95ce6eeb365fb04c96f5ebc8ca36b8b76/yolonnx-0.1.5.tar.gz
+[2024-05-21 12:24:48] INFO root fetch - processPackages [lindi]: executing diffoscope
+[2024-05-21 12:24:48] INFO root fetch - processPackages [lindi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lindi-0.3.5.tar.gz tmp/lindi-0.3.6.tar.gz --markdown 20240521/l/lindi/0.3.5-0.3.6/README.md --exclude *.pyd
+[2024-05-21 12:24:48] INFO root fetch - processPackages [pyselenscrapr]: Downloading https://files.pythonhosted.org/packages/0b/35/d723e0bffd3314626ecec4f3ba90c0e598df406e6788d60b425a94653471/pyselenscrapr-0.0.81.tar.gz
+[2024-05-21 12:24:48] INFO root fetch - processPackages [pyselenscrapr]: Downloading https://files.pythonhosted.org/packages/0b/35/d723e0bffd3314626ecec4f3ba90c0e598df406e6788d60b425a94653471/pyselenscrapr-0.0.81.tar.gz
+[2024-05-21 12:24:48] INFO root fetch - processPackages [kubeyard]: Downloading https://files.pythonhosted.org/packages/fa/a8/63cd9a36609e3e3ad48eaddac8ee59fdfa86116a322fc7cda6f11ae2327c/kubeyard-1.1.0.tar.gz
+[2024-05-21 12:24:48] INFO root fetch - processPackages [optimask]: executing diffoscope
+[2024-05-21 12:24:48] INFO root fetch - processPackages [optimask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optimask-1.1.1rc0.tar.gz tmp/optimask-1.1.2.tar.gz --markdown 20240521/o/optimask/1.1.1rc0-1.1.2/README.md --exclude *.pyd
+[2024-05-21 12:24:48] INFO root fetch - processPackages [yolonnx]: executing diffoscope
+[2024-05-21 12:24:48] INFO root fetch - processPackages [yolonnx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yolonnx-0.1.4.tar.gz tmp/yolonnx-0.1.5.tar.gz --markdown 20240521/y/yolonnx/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-21 12:24:48] INFO root fetch - processPackages [langchain-rag]: Downloading https://files.pythonhosted.org/packages/af/dd/44eb1e55af3993922cfb91f827008faab619a1f513c64f078ffb05e61edf/langchain_rag-0.2.0.tar.gz
+[2024-05-21 12:24:48] INFO root fetch - processPackages [kubeyard]: executing diffoscope
+[2024-05-21 12:24:48] INFO root fetch - processPackages [kubeyard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubeyard-1.0.0.tar.gz tmp/kubeyard-1.1.0.tar.gz --markdown 20240521/k/kubeyard/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-05-21 12:24:48] INFO root fetch - processPackages [langchain-rag]: executing diffoscope
+[2024-05-21 12:24:48] INFO root fetch - processPackages [langchain-rag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_rag-0.1.52.tar.gz tmp/langchain_rag-0.2.0.tar.gz --markdown 20240521/l/langchain-rag/0.1.52-0.2.0/README.md --exclude *.pyd
+[2024-05-21 12:24:49] INFO root fetch - processPackages [pyselenscrapr]: executing diffoscope
+[2024-05-21 12:24:49] INFO root fetch - processPackages [pyselenscrapr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyselenscrapr-0.0.8.tar.gz tmp/pyselenscrapr-0.0.81.tar.gz --markdown 20240521/p/pyselenscrapr/0.0.8-0.0.81/README.md --exclude *.pyd
+[2024-05-21 12:24:49] INFO root fetch - processPackages [pyselenscrapr]: executing diffoscope
+[2024-05-21 12:24:49] INFO root fetch - processPackages [pyselenscrapr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyselenscrapr-0.0.8.tar.gz tmp/pyselenscrapr-0.0.81.tar.gz --markdown 20240521/p/pyselenscrapr/0.0.8-0.0.81/README.md --exclude *.pyd
+[2024-05-21 12:24:49] INFO root fetch - processPackages [optimask]: Remove: archive file [/home/abi/fetcher/tmp/optimask-1.1.1rc0.tar.gz]
+[2024-05-21 12:24:49] INFO root fetch - processPackages [optimask]: Remove: archive file [/home/abi/fetcher/tmp/optimask-1.1.2.tar.gz]
+[2024-05-21 12:24:49] INFO root fetch - main [MainThread]: End processing [optimask]: success
+[2024-05-21 12:24:49] INFO root fetch - processPackages [audiostack]: Remove: archive file [/home/abi/fetcher/tmp/audiostack-1.3.1.tar.gz]
+[2024-05-21 12:24:49] INFO root fetch - processPackages [pyodre]: Remove: archive file [/home/abi/fetcher/tmp/pyodre-0.0.1.tar.gz]
+[2024-05-21 12:24:49] INFO root fetch - processPackages [audiostack]: Remove: archive file [/home/abi/fetcher/tmp/audiostack-2.0.0a0.tar.gz]
+[2024-05-21 12:24:49] INFO root fetch - processPackages [pyodre]: Remove: archive file [/home/abi/fetcher/tmp/pyodre-0.0.2.tar.gz]
+[2024-05-21 12:24:49] INFO root fetch - main [MainThread]: End processing [audiostack]: success
+[2024-05-21 12:24:49] INFO root fetch - main [MainThread]: End processing [pyodre]: success
+[2024-05-21 12:24:49] INFO root fetch - processPackages [lindi]: Remove: archive file [/home/abi/fetcher/tmp/lindi-0.3.5.tar.gz]
+[2024-05-21 12:24:49] INFO root fetch - processPackages [lindi]: Remove: archive file [/home/abi/fetcher/tmp/lindi-0.3.6.tar.gz]
+[2024-05-21 12:24:49] INFO root fetch - main [MainThread]: End processing [lindi]: success
+[2024-05-21 12:24:49] INFO root fetch - processPackages [yolonnx]: Remove: archive file [/home/abi/fetcher/tmp/yolonnx-0.1.4.tar.gz]
+[2024-05-21 12:24:49] INFO root fetch - processPackages [yolonnx]: Remove: archive file [/home/abi/fetcher/tmp/yolonnx-0.1.5.tar.gz]
+[2024-05-21 12:24:49] INFO root fetch - main [MainThread]: End processing [yolonnx]: success
+[2024-05-21 12:24:49] INFO root fetch - processPackages [langchain-rag]: Remove: archive file [/home/abi/fetcher/tmp/langchain_rag-0.1.52.tar.gz]
+[2024-05-21 12:24:49] INFO root fetch - processPackages [langchain-rag]: Remove: archive file [/home/abi/fetcher/tmp/langchain_rag-0.2.0.tar.gz]
+[2024-05-21 12:24:49] INFO root fetch - main [MainThread]: End processing [langchain-rag]: success
+[2024-05-21 12:24:49] INFO root fetch - processPackages [kubeyard]: Remove: archive file [/home/abi/fetcher/tmp/kubeyard-1.0.0.tar.gz]
+[2024-05-21 12:24:49] INFO root fetch - processPackages [kubeyard]: Remove: archive file [/home/abi/fetcher/tmp/kubeyard-1.1.0.tar.gz]
+[2024-05-21 12:24:49] INFO root fetch - main [MainThread]: End processing [kubeyard]: success
+[2024-05-21 12:24:50] INFO root fetch - processPackages [pyselenscrapr]: Remove: archive file [/home/abi/fetcher/tmp/pyselenscrapr-0.0.8.tar.gz]
+[2024-05-21 12:24:50] INFO root fetch - processPackages [pyselenscrapr]: Remove: archive file [/home/abi/fetcher/tmp/pyselenscrapr-0.0.81.tar.gz]
+[2024-05-21 12:24:50] INFO root fetch - main [MainThread]: End processing [pyselenscrapr]: success
+[2024-05-21 12:24:50] INFO root fetch - main [MainThread]: End processing [pyselenscrapr]: success
+[2024-05-21 12:24:50] INFO root fetch - main [MainThread]: Store serial: [23304634]
