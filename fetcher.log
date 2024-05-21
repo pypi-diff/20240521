@@ -23354,3 +23354,90 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-21 14:22:13] INFO root fetch - processPackages [openmetadata-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata-ingestion-1.4.0.0rc4.tar.gz]
 [2024-05-21 14:22:13] INFO root fetch - main [MainThread]: End processing [openmetadata-ingestion]: success
 [2024-05-21 14:22:13] INFO root fetch - main [MainThread]: Store serial: [23306053]
+[2024-05-21 14:24:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23306053]
+[2024-05-21 14:24:23] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-21 14:24:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: typing-test-sdd
+[2024-05-21 14:24:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ellis-django-views
+[2024-05-21 14:24:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: WSIdemerger
+[2024-05-21 14:24:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openmetadata-managed-apis
+[2024-05-21 14:24:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: BasicToolsFrozen
+[2024-05-21 14:24:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: stb-tester
+[2024-05-21 14:24:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ibott-mail
+[2024-05-21 14:24:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: terobot
+[2024-05-21 14:24:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: maji-passport
+[2024-05-21 14:24:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdo-sdk-python
+[2024-05-21 14:24:23] INFO root fetch - processPackages [maji-passport]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-21 14:24:23] INFO root fetch - processPackages [WSIdemerger]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-21 14:24:23] INFO root fetch - processPackages [ellis-django-views]: New version: [0.21] Old Version: [0.2]
+[2024-05-21 14:24:23] INFO root fetch - processPackages [terobot]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-21 14:24:23] INFO root fetch - processPackages [typing-test-sdd]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-21 14:24:23] INFO root fetch - processPackages [maji-passport]: Downloading https://files.pythonhosted.org/packages/7d/1c/fae0dc1db91e68824ff2e1b68233a7686863d92eaa4b7f67f1658cedad75/maji_passport-0.0.5.tar.gz
+[2024-05-21 14:24:23] INFO root fetch - processPackages [WSIdemerger]: Downloading https://files.pythonhosted.org/packages/69/f5/7a143dab1b2bc0b6507e1aff08b208cc78adbd7152b0d83fdfd76b3e232b/wsidemerger-0.1.2.tar.gz
+[2024-05-21 14:24:23] INFO root fetch - processPackages [stb-tester]: New version: [34.7.0] Old Version: [34.6.0]
+[2024-05-21 14:24:23] ERROR root fetch - processPackages [BasicToolsFrozen]: Unable to get metadata: No such project 'BasicToolsFrozen'
+[2024-05-21 14:24:23] INFO root fetch - main [MainThread]: End processing [BasicToolsFrozen] error
+[2024-05-21 14:24:23] INFO root fetch - processPackages [ibott-mail]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-05-21 14:24:23] INFO root fetch - processPackages [openmetadata-managed-apis]: New version: [1.4.0.0rc4] Old Version: [1.4.0.0rc3]
+[2024-05-21 14:24:23] INFO root fetch - processPackages [ellis-django-views]: Downloading https://files.pythonhosted.org/packages/85/11/8e23f383e895f5f6ae719bdd7a47e3f1bff5ea1277274bcfa02956cde95a/ellis_django_views-0.2.tar.gz
+[2024-05-21 14:24:23] INFO root fetch - processPackages [cdo-sdk-python]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-05-21 14:24:23] INFO root fetch - processPackages [terobot]: Downloading https://files.pythonhosted.org/packages/7b/43/b7225aaa5054ab06fc9f89f375ab67164f64bf3876955cdf9479bf210352/terobot-0.1.2.tar.gz
+[2024-05-21 14:24:23] INFO root fetch - processPackages [typing-test-sdd]: Downloading https://files.pythonhosted.org/packages/44/2e/b307b145823407201d7ced1c366b308ab5354d46303560cfd2b69d545c6c/typing_test_sdd-1.0.1.tar.gz
+[2024-05-21 14:24:23] INFO root fetch - processPackages [stb-tester]: Downloading https://files.pythonhosted.org/packages/37/74/052e03bfbb60178b38cbee0ff973bdeea44eca7c69c480f35f05d7cd9ac4/stb-tester-34.6.0.tar.gz
+[2024-05-21 14:24:23] INFO root fetch - processPackages [ibott-mail]: Downloading https://files.pythonhosted.org/packages/dc/9a/bac5bf090c5a6cfbf9b249a0dd08739ffed5f476035af8e102414d3da8bc/ibott-mail-1.0.6.tar.gz
+[2024-05-21 14:24:23] INFO root fetch - processPackages [openmetadata-managed-apis]: Downloading https://files.pythonhosted.org/packages/fc/56/e4615f735a6ca06e52dde99052fb44f27122a824c50b61e01e167e8e895c/openmetadata_managed_apis-1.4.0.0rc3.tar.gz
+[2024-05-21 14:24:23] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/aa/54/d9c631d5702693a0921bbc1c50cad785f8fa75671cabdd662546a416a6b9/cdo-sdk-python-1.0.98.tar.gz
+[2024-05-21 14:24:23] INFO root fetch - processPackages [ellis-django-views]: Downloading https://files.pythonhosted.org/packages/d8/4d/b30d882ebf4cce6a75acb73abd1de3d8ff3986147ba2f431be7eb7e7c20f/ellis_django_views-0.21.tar.gz
+[2024-05-21 14:24:23] INFO root fetch - processPackages [maji-passport]: Downloading https://files.pythonhosted.org/packages/6c/5e/fa88a3a61c5604933759122042df143195056a2cacdedb943b8cace46697/maji_passport-0.0.6.tar.gz
+[2024-05-21 14:24:23] INFO root fetch - processPackages [WSIdemerger]: Downloading https://files.pythonhosted.org/packages/b7/9e/a0577de76de1434d4ead8f48b8055072c33ae6a4ae4f472c695ef796fa6d/wsidemerger-0.1.3.tar.gz
+[2024-05-21 14:24:24] INFO root fetch - processPackages [ellis-django-views]: executing diffoscope
+[2024-05-21 14:24:24] INFO root fetch - processPackages [ellis-django-views]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ellis_django_views-0.2.tar.gz tmp/ellis_django_views-0.21.tar.gz --markdown 20240521/e/ellis-django-views/0.2-0.21/README.md --exclude *.pyd
+[2024-05-21 14:24:24] INFO root fetch - processPackages [terobot]: Downloading https://files.pythonhosted.org/packages/51/b7/94d41afe35d158e757c28dac2d17fc9813056312a5cfbb6d53231f6b6ba5/terobot-0.1.3.tar.gz
+[2024-05-21 14:24:24] INFO root fetch - processPackages [WSIdemerger]: executing diffoscope
+[2024-05-21 14:24:24] INFO root fetch - processPackages [maji-passport]: executing diffoscope
+[2024-05-21 14:24:24] INFO root fetch - processPackages [maji-passport]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maji_passport-0.0.5.tar.gz tmp/maji_passport-0.0.6.tar.gz --markdown 20240521/m/maji-passport/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-21 14:24:24] INFO root fetch - processPackages [WSIdemerger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wsidemerger-0.1.2.tar.gz tmp/wsidemerger-0.1.3.tar.gz --markdown 20240521/W/WSIdemerger/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-21 14:24:24] INFO root fetch - processPackages [stb-tester]: Downloading https://files.pythonhosted.org/packages/c3/14/8e47afeed4f962c392de4115d8e32c3069e06a40850868e152a11937d1e1/stb-tester-34.7.0.tar.gz
+[2024-05-21 14:24:24] INFO root fetch - processPackages [ibott-mail]: Downloading https://files.pythonhosted.org/packages/cc/df/e90c8bceb8105f3a711c45b792af945a1856573f0c813afa1036e1484b80/ibott-mail-1.0.7.tar.gz
+[2024-05-21 14:24:24] INFO root fetch - processPackages [terobot]: executing diffoscope
+[2024-05-21 14:24:24] INFO root fetch - processPackages [terobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terobot-0.1.2.tar.gz tmp/terobot-0.1.3.tar.gz --markdown 20240521/t/terobot/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-21 14:24:24] INFO root fetch - processPackages [typing-test-sdd]: Downloading https://files.pythonhosted.org/packages/c4/ed/94b16482f3fe5bf737000f4d9a09f2e2d72df9a4a9e45b3a4b4a4d591123/typing_test_sdd-1.0.2.tar.gz
+[2024-05-21 14:24:24] INFO root fetch - processPackages [stb-tester]: executing diffoscope
+[2024-05-21 14:24:24] INFO root fetch - processPackages [stb-tester]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stb-tester-34.6.0.tar.gz tmp/stb-tester-34.7.0.tar.gz --markdown 20240521/s/stb-tester/34.6.0-34.7.0/README.md --exclude *.pyd
+[2024-05-21 14:24:24] INFO root fetch - processPackages [openmetadata-managed-apis]: Downloading https://files.pythonhosted.org/packages/68/4a/5f0569213d2fc617c3bc1a5ac85bd41239da9891c9b755c46a1cc312a99d/openmetadata_managed_apis-1.4.0.0rc4.tar.gz
+[2024-05-21 14:24:24] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/9b/76/7267c3f3ac308bacc9e809ed54663a42556e896ff4e2d73a469a15d3556a/cdo-sdk-python-1.0.99.tar.gz
+[2024-05-21 14:24:24] INFO root fetch - processPackages [typing-test-sdd]: executing diffoscope
+[2024-05-21 14:24:24] INFO root fetch - processPackages [typing-test-sdd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typing_test_sdd-1.0.1.tar.gz tmp/typing_test_sdd-1.0.2.tar.gz --markdown 20240521/t/typing-test-sdd/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-21 14:24:24] INFO root fetch - processPackages [ibott-mail]: executing diffoscope
+[2024-05-21 14:24:24] INFO root fetch - processPackages [ibott-mail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibott-mail-1.0.6.tar.gz tmp/ibott-mail-1.0.7.tar.gz --markdown 20240521/i/ibott-mail/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-05-21 14:24:24] INFO root fetch - processPackages [openmetadata-managed-apis]: executing diffoscope
+[2024-05-21 14:24:24] INFO root fetch - processPackages [openmetadata-managed-apis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmetadata_managed_apis-1.4.0.0rc3.tar.gz tmp/openmetadata_managed_apis-1.4.0.0rc4.tar.gz --markdown 20240521/o/openmetadata-managed-apis/1.4.0.0rc3-1.4.0.0rc4/README.md --exclude *.pyd
+[2024-05-21 14:24:24] INFO root fetch - processPackages [cdo-sdk-python]: executing diffoscope
+[2024-05-21 14:24:24] INFO root fetch - processPackages [cdo-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdo-sdk-python-1.0.98.tar.gz tmp/cdo-sdk-python-1.0.99.tar.gz --markdown 20240521/c/cdo-sdk-python/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-05-21 14:24:25] INFO root fetch - processPackages [stb-tester]: Remove: archive file [/home/abi/fetcher/tmp/stb-tester-34.6.0.tar.gz]
+[2024-05-21 14:24:25] INFO root fetch - processPackages [stb-tester]: Remove: archive file [/home/abi/fetcher/tmp/stb-tester-34.7.0.tar.gz]
+[2024-05-21 14:24:25] INFO root fetch - main [MainThread]: End processing [stb-tester]: success
+[2024-05-21 14:24:25] INFO root fetch - processPackages [terobot]: Remove: archive file [/home/abi/fetcher/tmp/terobot-0.1.2.tar.gz]
+[2024-05-21 14:24:25] INFO root fetch - processPackages [terobot]: Remove: archive file [/home/abi/fetcher/tmp/terobot-0.1.3.tar.gz]
+[2024-05-21 14:24:25] INFO root fetch - main [MainThread]: End processing [terobot]: success
+[2024-05-21 14:24:25] INFO root fetch - processPackages [maji-passport]: Remove: archive file [/home/abi/fetcher/tmp/maji_passport-0.0.5.tar.gz]
+[2024-05-21 14:24:25] INFO root fetch - processPackages [maji-passport]: Remove: archive file [/home/abi/fetcher/tmp/maji_passport-0.0.6.tar.gz]
+[2024-05-21 14:24:25] INFO root fetch - main [MainThread]: End processing [maji-passport]: success
+[2024-05-21 14:24:25] INFO root fetch - processPackages [typing-test-sdd]: Remove: archive file [/home/abi/fetcher/tmp/typing_test_sdd-1.0.1.tar.gz]
+[2024-05-21 14:24:25] INFO root fetch - processPackages [typing-test-sdd]: Remove: archive file [/home/abi/fetcher/tmp/typing_test_sdd-1.0.2.tar.gz]
+[2024-05-21 14:24:25] INFO root fetch - main [MainThread]: End processing [typing-test-sdd]: success
+[2024-05-21 14:24:25] INFO root fetch - processPackages [ibott-mail]: Remove: archive file [/home/abi/fetcher/tmp/ibott-mail-1.0.6.tar.gz]
+[2024-05-21 14:24:25] INFO root fetch - processPackages [ibott-mail]: Remove: archive file [/home/abi/fetcher/tmp/ibott-mail-1.0.7.tar.gz]
+[2024-05-21 14:24:25] INFO root fetch - main [MainThread]: End processing [ibott-mail]: success
+[2024-05-21 14:24:25] INFO root fetch - processPackages [WSIdemerger]: Remove: archive file [/home/abi/fetcher/tmp/wsidemerger-0.1.2.tar.gz]
+[2024-05-21 14:24:25] INFO root fetch - processPackages [WSIdemerger]: Remove: archive file [/home/abi/fetcher/tmp/wsidemerger-0.1.3.tar.gz]
+[2024-05-21 14:24:25] INFO root fetch - main [MainThread]: End processing [WSIdemerger]: success
+[2024-05-21 14:24:25] INFO root fetch - processPackages [openmetadata-managed-apis]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata_managed_apis-1.4.0.0rc3.tar.gz]
+[2024-05-21 14:24:25] INFO root fetch - processPackages [openmetadata-managed-apis]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata_managed_apis-1.4.0.0rc4.tar.gz]
+[2024-05-21 14:24:25] INFO root fetch - main [MainThread]: End processing [openmetadata-managed-apis]: success
+[2024-05-21 14:24:25] INFO root fetch - processPackages [ellis-django-views]: Remove: archive file [/home/abi/fetcher/tmp/ellis_django_views-0.2.tar.gz]
+[2024-05-21 14:24:25] INFO root fetch - processPackages [ellis-django-views]: Remove: archive file [/home/abi/fetcher/tmp/ellis_django_views-0.21.tar.gz]
+[2024-05-21 14:24:25] INFO root fetch - main [MainThread]: End processing [ellis-django-views]: success
+[2024-05-21 14:24:25] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.98.tar.gz]
+[2024-05-21 14:24:25] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.99.tar.gz]
+[2024-05-21 14:24:25] INFO root fetch - main [MainThread]: End processing [cdo-sdk-python]: success
+[2024-05-21 14:24:25] INFO root fetch - main [MainThread]: Store serial: [23306085]
