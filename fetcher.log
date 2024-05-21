@@ -21000,3 +21000,65 @@
 [2024-05-21 12:49:55] INFO root fetch - processPackages [CUQIpy]: Remove: archive file [/home/abi/fetcher/tmp/CUQIpy-1.0.0.post0.dev91.tar.gz]
 [2024-05-21 12:49:55] INFO root fetch - main [MainThread]: End processing [CUQIpy]: success
 [2024-05-21 12:49:55] INFO root fetch - main [MainThread]: Store serial: [23304977]
+[2024-05-21 12:51:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23304977]
+[2024-05-21 12:52:04] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-21 12:52:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dissect.target
+[2024-05-21 12:52:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sgw-tools
+[2024-05-21 12:52:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-resource-booking
+[2024-05-21 12:52:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: arion-library
+[2024-05-21 12:52:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-l10n-es-aeat-mod190
+[2024-05-21 12:52:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: plover-uinput
+[2024-05-21 12:52:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: takeoff-config
+[2024-05-21 12:52:04] INFO root fetch - processPackages [plover-uinput]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-21 12:52:04] INFO root fetch - processPackages [arion-library]: New version: [1.1rc99.dev99] Old Version: [1.1rc97.dev97]
+[2024-05-21 12:52:04] INFO root fetch - processPackages [dissect.target]: New version: [3.9] Old Version: [3.8]
+[2024-05-21 12:52:04] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod190]: New version: [16.0.1.4.0] Old Version: [16.0.1.3.0.1]
+[2024-05-21 12:52:04] INFO root fetch - processPackages [plover-uinput]: Downloading https://files.pythonhosted.org/packages/a1/ea/8b43ec2f362f06df4eb05cd3f64e44d59d815defb437368c5c56427dd482/plover_uinput-0.0.7.tar.gz
+[2024-05-21 12:52:04] INFO root fetch - processPackages [odoo-addon-resource-booking]: New version: [16.0.1.1.1] Old Version: [16.0.1.1.0.1]
+[2024-05-21 12:52:05] INFO root fetch - processPackages [sgw-tools]: New version: [1.99] Old Version: [1.98]
+[2024-05-21 12:52:05] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/25/17/5717be908ed9d21ee6240007e1f51f957f0148589c543e0d5ba749bb33bc/arion_library-1.1rc97.dev97.tar.gz
+[2024-05-21 12:52:05] INFO root fetch - processPackages [dissect.target]: Downloading https://files.pythonhosted.org/packages/fd/85/dee67cb24b471b811af4e5b31762f8244b20913dcc98ec76ec5b921e9a68/dissect.target-3.8.tar.gz
+[2024-05-21 12:52:05] WARNING root fetch - processPackages [dissect.target]: Skipping package: exceeds size limit 63551809>=10485760
+[2024-05-21 12:52:05] INFO root fetch - main [MainThread]: End processing [dissect.target] error
+[2024-05-21 12:52:05] INFO root fetch - processPackages [takeoff-config]: New version: [0.5.3] Old Version: [0.5.2]
+[2024-05-21 12:52:05] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod190]: Downloading https://files.pythonhosted.org/packages/7e/fc/e29db9ec6daa2ab0cc6619ca93e5f7eab099fc365ff97de0fa2e1802de51/odoo_addon_l10n_es_aeat_mod190-16.0.1.3.0.1-py3-none-any.whl
+[2024-05-21 12:52:05] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/eb/6a/2a118dcc80b4b2d77ee26a645a3495fb1302d856a327caeeb4d26e4d2f59/arion_library-1.1rc99.dev99.tar.gz
+[2024-05-21 12:52:05] INFO root fetch - processPackages [odoo-addon-resource-booking]: Downloading https://files.pythonhosted.org/packages/e4/8e/660e5b01230448f578232ad7925b7975882af4a9c70244ddba90ec2df164/odoo_addon_resource_booking-16.0.1.1.0.1-py3-none-any.whl
+[2024-05-21 12:52:05] INFO root fetch - processPackages [sgw-tools]: Downloading https://files.pythonhosted.org/packages/c9/fc/143bac663c2c4d6c0b09747ad41fd688add9f29bf6878afea7f815abb1df/sgw_tools-1.98.tar.gz
+[2024-05-21 12:52:05] INFO root fetch - processPackages [plover-uinput]: Downloading https://files.pythonhosted.org/packages/ea/d3/59b40efe0b31b83869ab40ce325dccef3e111a9b998171fd67c01b7f1d41/plover_uinput-0.0.8.tar.gz
+[2024-05-21 12:52:05] INFO root fetch - processPackages [arion-library]: executing diffoscope
+[2024-05-21 12:52:05] INFO root fetch - processPackages [arion-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arion_library-1.1rc97.dev97.tar.gz tmp/arion_library-1.1rc99.dev99.tar.gz --markdown 20240521/a/arion-library/1.1rc97.dev97-1.1rc99.dev99/README.md --exclude *.pyd
+[2024-05-21 12:52:05] INFO root fetch - processPackages [takeoff-config]: Downloading https://files.pythonhosted.org/packages/7b/60/5e9949096877d6d3795f311418b00e6ce0780028902c5b35cde8f7827445/takeoff_config-0.5.2.tar.gz
+[2024-05-21 12:52:05] INFO root fetch - processPackages [plover-uinput]: executing diffoscope
+[2024-05-21 12:52:05] INFO root fetch - processPackages [plover-uinput]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plover_uinput-0.0.7.tar.gz tmp/plover_uinput-0.0.8.tar.gz --markdown 20240521/p/plover-uinput/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-21 12:52:05] INFO root fetch - processPackages [odoo-addon-resource-booking]: Downloading https://files.pythonhosted.org/packages/9f/05/6c837fc8c610b052c4c5c20f20736ed6f86b0f750866f45dda18ac2724cd/odoo_addon_resource_booking-16.0.1.1.1-py3-none-any.whl
+[2024-05-21 12:52:05] INFO root fetch - processPackages [sgw-tools]: Downloading https://files.pythonhosted.org/packages/02/37/b7c02f929de3b3f0034ce9a5c5f4f8931b31b1dee60d5f90bfa3d7fad277/sgw_tools-1.99.tar.gz
+[2024-05-21 12:52:05] INFO root fetch - processPackages [takeoff-config]: Downloading https://files.pythonhosted.org/packages/6a/00/40c7cdb2e36775a780fa0bc2bc6b0c52bdfe92332b7a48354b4751e364bd/takeoff_config-0.5.3-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+[2024-05-21 12:52:05] INFO root fetch - processPackages [odoo-addon-resource-booking]: executing diffoscope
+[2024-05-21 12:52:05] INFO root fetch - processPackages [odoo-addon-resource-booking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_resource_booking-16.0.1.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_resource_booking-16.0.1.1.1-py3-none-any.whl.zip --markdown 20240521/o/odoo-addon-resource-booking/16.0.1.1.0.1-16.0.1.1.1/README.md --exclude *.pyd
+[2024-05-21 12:52:05] INFO root fetch - processPackages [sgw-tools]: executing diffoscope
+[2024-05-21 12:52:05] INFO root fetch - processPackages [sgw-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sgw_tools-1.98.tar.gz tmp/sgw_tools-1.99.tar.gz --markdown 20240521/s/sgw-tools/1.98-1.99/README.md --exclude *.pyd
+[2024-05-21 12:52:05] INFO root fetch - processPackages [plover-uinput]: Remove: archive file [/home/abi/fetcher/tmp/plover_uinput-0.0.7.tar.gz]
+[2024-05-21 12:52:05] INFO root fetch - processPackages [plover-uinput]: Remove: archive file [/home/abi/fetcher/tmp/plover_uinput-0.0.8.tar.gz]
+[2024-05-21 12:52:05] INFO root fetch - main [MainThread]: End processing [plover-uinput]: success
+[2024-05-21 12:52:06] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-1.1rc97.dev97.tar.gz]
+[2024-05-21 12:52:06] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-1.1rc99.dev99.tar.gz]
+[2024-05-21 12:52:06] INFO root fetch - main [MainThread]: End processing [arion-library]: success
+[2024-05-21 12:52:06] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod190]: Downloading https://files.pythonhosted.org/packages/97/00/7b5be939efd5238ea709a0cf4c4ab50d5ee361b71f267f7aa9ad2f8a46f9/odoo_addon_l10n_es_aeat_mod190-16.0.1.4.0-py3-none-any.whl
+[2024-05-21 12:52:06] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod190]: executing diffoscope
+[2024-05-21 12:52:06] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod190]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat_mod190-16.0.1.3.0.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat_mod190-16.0.1.4.0-py3-none-any.whl.zip --markdown 20240521/o/odoo-addon-l10n-es-aeat-mod190/16.0.1.3.0.1-16.0.1.4.0/README.md --exclude *.pyd
+[2024-05-21 12:52:06] INFO root fetch - processPackages [sgw-tools]: Remove: archive file [/home/abi/fetcher/tmp/sgw_tools-1.98.tar.gz]
+[2024-05-21 12:52:06] INFO root fetch - processPackages [sgw-tools]: Remove: archive file [/home/abi/fetcher/tmp/sgw_tools-1.99.tar.gz]
+[2024-05-21 12:52:06] INFO root fetch - main [MainThread]: End processing [sgw-tools]: success
+[2024-05-21 12:52:06] INFO root fetch - processPackages [odoo-addon-resource-booking]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_resource_booking-16.0.1.1.0.1-py3-none-any.whl.zip]
+[2024-05-21 12:52:06] INFO root fetch - processPackages [odoo-addon-resource-booking]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_resource_booking-16.0.1.1.1-py3-none-any.whl.zip]
+[2024-05-21 12:52:06] INFO root fetch - main [MainThread]: End processing [odoo-addon-resource-booking]: success
+[2024-05-21 12:52:06] INFO root fetch - processPackages [takeoff-config]: executing diffoscope
+[2024-05-21 12:52:06] INFO root fetch - processPackages [takeoff-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/takeoff_config-0.5.2.tar.gz tmp/takeoff_config-0.5.3-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip --markdown 20240521/t/takeoff-config/0.5.2-0.5.3/README.md --exclude *.pyd
+[2024-05-21 12:52:07] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod190]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_mod190-16.0.1.3.0.1-py3-none-any.whl.zip]
+[2024-05-21 12:52:07] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod190]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_mod190-16.0.1.4.0-py3-none-any.whl.zip]
+[2024-05-21 12:52:07] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat-mod190]: success
+[2024-05-21 12:52:07] INFO root fetch - processPackages [takeoff-config]: Remove: archive file [/home/abi/fetcher/tmp/takeoff_config-0.5.2.tar.gz]
+[2024-05-21 12:52:07] INFO root fetch - processPackages [takeoff-config]: Remove: archive file [/home/abi/fetcher/tmp/takeoff_config-0.5.3-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip]
+[2024-05-21 12:52:07] INFO root fetch - main [MainThread]: End processing [takeoff-config]: success
+[2024-05-21 12:52:07] INFO root fetch - main [MainThread]: Store serial: [23304994]
