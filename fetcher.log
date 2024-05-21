@@ -10984,3 +10984,72 @@
 [2024-05-21 06:27:55] INFO root fetch - processPackages [RegScale-CLI]: Remove: archive file [/home/abi/fetcher/tmp/RegScale_CLI-5.9.0-py3-none-any.whl.zip]
 [2024-05-21 06:27:55] INFO root fetch - main [MainThread]: End processing [RegScale-CLI]: success
 [2024-05-21 06:27:55] INFO root fetch - main [MainThread]: Store serial: [23300993]
+[2024-05-21 06:29:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23300993]
+[2024-05-21 06:30:04] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-21 06:30:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wah
+[2024-05-21 06:30:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: api-management-local
+[2024-05-21 06:30:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: everai
+[2024-05-21 06:30:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdktf-cdktf-provider-azurerm
+[2024-05-21 06:30:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: backtrader-bybit
+[2024-05-21 06:30:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: atsdk
+[2024-05-21 06:30:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: everai
+[2024-05-21 06:30:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: backtrader-binance
+[2024-05-21 06:30:04] INFO root fetch - processPackages [wah]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-21 06:30:04] INFO root fetch - processPackages [api-management-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-21 06:30:04] INFO root fetch - processPackages [everai]: New version: [0.1.58] Old Version: [0.1.57]
+[2024-05-21 06:30:04] INFO root fetch - processPackages [everai]: New version: [0.1.58] Old Version: [0.1.57]
+[2024-05-21 06:30:04] INFO root fetch - processPackages [wah]: Downloading https://files.pythonhosted.org/packages/1e/98/86b56f53d2270da5a315b2f0d5733e61fd0dabbbde1d17bcff2dd938939e/wah-0.1.8.tar.gz
+[2024-05-21 06:30:04] INFO root fetch - processPackages [atsdk]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-05-21 06:30:04] INFO root fetch - processPackages [backtrader-binance]: New version: [2.0.5] Old Version: [2.0.4]
+[2024-05-21 06:30:04] INFO root fetch - processPackages [backtrader-bybit]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-21 06:30:04] INFO root fetch - processPackages [cdktf-cdktf-provider-azurerm]: New version: [9.0.8] Old Version: [9.0.7]
+[2024-05-21 06:30:04] INFO root fetch - processPackages [everai]: Downloading https://files.pythonhosted.org/packages/f0/84/40ee3df3899597b699203600dde79d184c1a5b4e92d3ecf944a5096525c7/everai-0.1.57-py3-none-any.whl
+[2024-05-21 06:30:04] INFO root fetch - processPackages [everai]: Downloading https://files.pythonhosted.org/packages/f0/84/40ee3df3899597b699203600dde79d184c1a5b4e92d3ecf944a5096525c7/everai-0.1.57-py3-none-any.whl
+[2024-05-21 06:30:04] INFO root fetch - processPackages [wah]: Downloading https://files.pythonhosted.org/packages/6c/57/7be641139065b67640542a312a3988d0a93024cdc145ea667b7e8d432eb8/wah-0.1.9.tar.gz
+[2024-05-21 06:30:04] INFO root fetch - processPackages [api-management-local]: Downloading https://files.pythonhosted.org/packages/32/8d/91ba0097e4ccea06453a14838b92b8ee48bc1880e8710d022d215299ae02/api-management-local-0.0.8.tar.gz
+[2024-05-21 06:30:04] INFO root fetch - processPackages [backtrader-bybit]: Downloading https://files.pythonhosted.org/packages/19/61/b15e35fd9e90e4b7e20080b152f205f37d126b97c9ac87aaed64f2affbe8/backtrader_bybit-2.0.8.tar.gz
+[2024-05-21 06:30:04] INFO root fetch - processPackages [atsdk]: Downloading https://files.pythonhosted.org/packages/3a/94/52e4043c02706c5469ddde7c41ba9bac0b2f5ed6f6a215011e17bea94539/atsdk-0.2.7.tar.gz
+[2024-05-21 06:30:04] INFO root fetch - processPackages [cdktf-cdktf-provider-azurerm]: Downloading https://files.pythonhosted.org/packages/bf/17/c9386b4842b68525aae4b3da38fa0030881fa08061804f556c93dd424cda/cdktf-cdktf-provider-azurerm-9.0.7.tar.gz
+[2024-05-21 06:30:04] INFO root fetch - processPackages [backtrader-binance]: Downloading https://files.pythonhosted.org/packages/3e/d4/36fc865a482558c540e1dc37b752226379e1c39c31919aae062c90b49c6d/backtrader_binance-2.0.4.tar.gz
+[2024-05-21 06:30:04] INFO root fetch - processPackages [wah]: executing diffoscope
+[2024-05-21 06:30:04] INFO root fetch - processPackages [wah]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wah-0.1.8.tar.gz tmp/wah-0.1.9.tar.gz --markdown 20240521/w/wah/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-21 06:30:04] WARNING root fetch - processPackages [cdktf-cdktf-provider-azurerm]: Skipping package: exceeds size limit 31649071>=10485760
+[2024-05-21 06:30:04] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-azurerm] error
+[2024-05-21 06:30:04] INFO root fetch - processPackages [api-management-local]: Downloading https://files.pythonhosted.org/packages/cb/96/c6e4476ef16ac62a0dbb73d152f9e62d4bdc20962b3c26c38313ac1ba76b/api-management-local-0.0.9.tar.gz
+[2024-05-21 06:30:05] INFO root fetch - processPackages [everai]: Downloading https://files.pythonhosted.org/packages/98/2b/eb4f48fb8adc9c4d8797ac6689a419ad8d4cc4a8855ae6d6924c39b3ca16/everai-0.1.58-py3-none-any.whl
+[2024-05-21 06:30:05] INFO root fetch - processPackages [everai]: Downloading https://files.pythonhosted.org/packages/98/2b/eb4f48fb8adc9c4d8797ac6689a419ad8d4cc4a8855ae6d6924c39b3ca16/everai-0.1.58-py3-none-any.whl
+[2024-05-21 06:30:05] INFO root fetch - processPackages [api-management-local]: executing diffoscope
+[2024-05-21 06:30:05] INFO root fetch - processPackages [api-management-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/api-management-local-0.0.8.tar.gz tmp/api-management-local-0.0.9.tar.gz --markdown 20240521/a/api-management-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-21 06:30:05] INFO root fetch - processPackages [backtrader-bybit]: Downloading https://files.pythonhosted.org/packages/b9/6b/53093585d5fad5ef63c2642f917302e43a298a89aa5176227efb68c0ede8/backtrader_bybit-2.0.9.tar.gz
+[2024-05-21 06:30:05] INFO root fetch - processPackages [atsdk]: Downloading https://files.pythonhosted.org/packages/71/a3/c2134f04675a35de720047245d2cd68d236e1789325393f6163f0c772ed0/atsdk-0.2.8.tar.gz
+[2024-05-21 06:30:05] INFO root fetch - processPackages [backtrader-binance]: Downloading https://files.pythonhosted.org/packages/ee/89/981af1546ae4560676c2545a1f1361f7ca31c69089e9965c98774b9ed7a4/backtrader_binance-2.0.5.tar.gz
+[2024-05-21 06:30:05] INFO root fetch - processPackages [everai]: executing diffoscope
+[2024-05-21 06:30:05] INFO root fetch - processPackages [everai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/everai-0.1.57-py3-none-any.whl.zip tmp/everai-0.1.58-py3-none-any.whl.zip --markdown 20240521/e/everai/0.1.57-0.1.58/README.md --exclude *.pyd
+[2024-05-21 06:30:05] INFO root fetch - processPackages [backtrader-bybit]: executing diffoscope
+[2024-05-21 06:30:05] INFO root fetch - processPackages [backtrader-bybit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backtrader_bybit-2.0.8.tar.gz tmp/backtrader_bybit-2.0.9.tar.gz --markdown 20240521/b/backtrader-bybit/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-21 06:30:05] INFO root fetch - processPackages [everai]: executing diffoscope
+[2024-05-21 06:30:05] INFO root fetch - processPackages [everai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/everai-0.1.57-py3-none-any.whl.zip tmp/everai-0.1.58-py3-none-any.whl.zip --markdown 20240521/e/everai/0.1.57-0.1.58/README.md --exclude *.pyd
+[2024-05-21 06:30:05] INFO root fetch - processPackages [backtrader-binance]: executing diffoscope
+[2024-05-21 06:30:05] INFO root fetch - processPackages [backtrader-binance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backtrader_binance-2.0.4.tar.gz tmp/backtrader_binance-2.0.5.tar.gz --markdown 20240521/b/backtrader-binance/2.0.4-2.0.5/README.md --exclude *.pyd
+[2024-05-21 06:30:05] INFO root fetch - processPackages [atsdk]: executing diffoscope
+[2024-05-21 06:30:05] INFO root fetch - processPackages [atsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atsdk-0.2.7.tar.gz tmp/atsdk-0.2.8.tar.gz --markdown 20240521/a/atsdk/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-05-21 06:30:05] INFO root fetch - processPackages [wah]: Remove: archive file [/home/abi/fetcher/tmp/wah-0.1.8.tar.gz]
+[2024-05-21 06:30:05] INFO root fetch - processPackages [wah]: Remove: archive file [/home/abi/fetcher/tmp/wah-0.1.9.tar.gz]
+[2024-05-21 06:30:05] INFO root fetch - main [MainThread]: End processing [wah]: success
+[2024-05-21 06:30:05] INFO root fetch - processPackages [api-management-local]: Remove: archive file [/home/abi/fetcher/tmp/api-management-local-0.0.8.tar.gz]
+[2024-05-21 06:30:05] INFO root fetch - processPackages [api-management-local]: Remove: archive file [/home/abi/fetcher/tmp/api-management-local-0.0.9.tar.gz]
+[2024-05-21 06:30:05] INFO root fetch - main [MainThread]: End processing [api-management-local]: success
+[2024-05-21 06:30:05] INFO root fetch - processPackages [backtrader-binance]: Remove: archive file [/home/abi/fetcher/tmp/backtrader_binance-2.0.4.tar.gz]
+[2024-05-21 06:30:05] INFO root fetch - processPackages [backtrader-binance]: Remove: archive file [/home/abi/fetcher/tmp/backtrader_binance-2.0.5.tar.gz]
+[2024-05-21 06:30:05] INFO root fetch - main [MainThread]: End processing [backtrader-binance]: success
+[2024-05-21 06:30:06] INFO root fetch - processPackages [backtrader-bybit]: Remove: archive file [/home/abi/fetcher/tmp/backtrader_bybit-2.0.8.tar.gz]
+[2024-05-21 06:30:06] INFO root fetch - processPackages [backtrader-bybit]: Remove: archive file [/home/abi/fetcher/tmp/backtrader_bybit-2.0.9.tar.gz]
+[2024-05-21 06:30:06] INFO root fetch - main [MainThread]: End processing [backtrader-bybit]: success
+[2024-05-21 06:30:06] INFO root fetch - processPackages [atsdk]: Remove: archive file [/home/abi/fetcher/tmp/atsdk-0.2.7.tar.gz]
+[2024-05-21 06:30:06] INFO root fetch - processPackages [atsdk]: Remove: archive file [/home/abi/fetcher/tmp/atsdk-0.2.8.tar.gz]
+[2024-05-21 06:30:06] INFO root fetch - main [MainThread]: End processing [atsdk]: success
+[2024-05-21 06:30:06] INFO root fetch - processPackages [everai]: Remove: archive file [/home/abi/fetcher/tmp/everai-0.1.57-py3-none-any.whl.zip]
+[2024-05-21 06:30:06] INFO root fetch - processPackages [everai]: Remove: archive file [/home/abi/fetcher/tmp/everai-0.1.58-py3-none-any.whl.zip]
+[2024-05-21 06:30:06] INFO root fetch - main [MainThread]: End processing [everai]: success
+[2024-05-21 06:30:06] INFO root fetch - main [MainThread]: End processing [everai]: success
+[2024-05-21 06:30:06] INFO root fetch - main [MainThread]: Store serial: [23301014]
