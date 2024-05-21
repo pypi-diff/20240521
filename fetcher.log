@@ -10207,3 +10207,72 @@
 [2024-05-21 06:05:56] INFO root fetch - processPackages [accelbyte-py-sdk-service-platform]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte-py-sdk-service-platform-0.9.0.tar.gz]
 [2024-05-21 06:05:56] INFO root fetch - main [MainThread]: End processing [accelbyte-py-sdk-service-platform]: success
 [2024-05-21 06:05:56] INFO root fetch - main [MainThread]: Store serial: [23300781]
+[2024-05-21 06:08:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23300781]
+[2024-05-21 06:08:05] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-21 06:08:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jzai
+[2024-05-21 06:08:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: abcli
+[2024-05-21 06:08:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: accelbyte-py-sdk-service-seasonpass
+[2024-05-21 06:08:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: timer
+[2024-05-21 06:08:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: accelbyte-py-sdk-service-session
+[2024-05-21 06:08:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: accelbyte-py-sdk-service-sessionbrowser
+[2024-05-21 06:08:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: plover-lapwing-aio
+[2024-05-21 06:08:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: myrequests
+[2024-05-21 06:08:05] INFO root fetch - processPackages [jzai]: New version: [59.83.54] Old Version: [59.83.53]
+[2024-05-21 06:08:05] INFO root fetch - processPackages [abcli]: New version: [8.206.1] Old Version: [8.205.1]
+[2024-05-21 06:08:05] INFO root fetch - processPackages [timer]: New version: [0.3.0] Old Version: [0.2.2]
+[2024-05-21 06:08:05] WARNING root fetch - processPackages [myrequests]: Skipping, unable to determine old version
+[2024-05-21 06:08:05] INFO root fetch - main [MainThread]: End processing [myrequests] error
+[2024-05-21 06:08:05] INFO root fetch - processPackages [accelbyte-py-sdk-service-sessionbrowser]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-21 06:08:05] INFO root fetch - processPackages [abcli]: Downloading https://files.pythonhosted.org/packages/7a/8b/27c9d7f8ec86166309963f11c41f9ad0c094b038641710cc35faa179ee07/abcli-8.205.1.tar.gz
+[2024-05-21 06:08:05] INFO root fetch - processPackages [accelbyte-py-sdk-service-session]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-21 06:08:05] INFO root fetch - processPackages [accelbyte-py-sdk-service-seasonpass]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-21 06:08:05] INFO root fetch - processPackages [plover-lapwing-aio]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-05-21 06:08:05] INFO root fetch - processPackages [jzai]: Downloading https://files.pythonhosted.org/packages/88/ea/6c734277b01d6f797357123b42069a42161cf92283ad6f5dc42350a22c8b/jzai-59.83.53.tar.gz
+[2024-05-21 06:08:06] INFO root fetch - processPackages [accelbyte-py-sdk-service-seasonpass]: Downloading https://files.pythonhosted.org/packages/bd/6d/f35cd891e8531852f4cda1d399e72b884a97ca5aeb6f61f244537bf0c2e8/accelbyte-py-sdk-service-seasonpass-0.8.0.tar.gz
+[2024-05-21 06:08:06] INFO root fetch - processPackages [timer]: Downloading https://files.pythonhosted.org/packages/79/c7/30cf6cec06f1b4c05436b54c7c3144a7fd14f4b39738fb79613ed686d765/timer-0.2.2.tar.gz
+[2024-05-21 06:08:06] INFO root fetch - processPackages [accelbyte-py-sdk-service-sessionbrowser]: Downloading https://files.pythonhosted.org/packages/41/6b/fd2a960440c01d9011bd5b15c2f850117efb965e714a7f98c4ecaafb4688/accelbyte-py-sdk-service-sessionbrowser-0.8.0.tar.gz
+[2024-05-21 06:08:06] INFO root fetch - processPackages [accelbyte-py-sdk-service-session]: Downloading https://files.pythonhosted.org/packages/24/fd/e6f2b4d7d9b3376726d123051fe633eb9a6047c56c641587e03e211be591/accelbyte-py-sdk-service-session-0.8.0.tar.gz
+[2024-05-21 06:08:06] INFO root fetch - processPackages [plover-lapwing-aio]: Downloading https://files.pythonhosted.org/packages/0a/8a/1091e836071f5e5e7e100fd24ee0fc52ce8da075c00736c013602b6a4ebd/plover-lapwing-aio-1.1.8.tar.gz
+[2024-05-21 06:08:06] INFO root fetch - processPackages [abcli]: Downloading https://files.pythonhosted.org/packages/31/c3/e7bf5ad82bcd08b6b55e80195456f4d335f35e73d9c3db07e0f91756f6ae/abcli-8.206.1.tar.gz
+[2024-05-21 06:08:06] INFO root fetch - processPackages [jzai]: Downloading https://files.pythonhosted.org/packages/41/fe/e453280d25a2186328137bb90817ad5ebebc0e782b54961e3ffbac6d383d/jzai-59.83.54.tar.gz
+[2024-05-21 06:08:06] INFO root fetch - processPackages [abcli]: executing diffoscope
+[2024-05-21 06:08:06] INFO root fetch - processPackages [abcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abcli-8.205.1.tar.gz tmp/abcli-8.206.1.tar.gz --markdown 20240521/a/abcli/8.205.1-8.206.1/README.md --exclude *.pyd
+[2024-05-21 06:08:06] INFO root fetch - processPackages [timer]: Downloading https://files.pythonhosted.org/packages/2f/73/4f181969840995cfc3e160108ff91a9732c40578e1e2e0ea9a42a56bd543/timer-0.3.0.tar.gz
+[2024-05-21 06:08:06] INFO root fetch - processPackages [accelbyte-py-sdk-service-seasonpass]: Downloading https://files.pythonhosted.org/packages/fc/60/fb01c1034b457ab54bb515213f9a036cdc77f9fce62a2fc86bacee27f72f/accelbyte-py-sdk-service-seasonpass-0.9.0.tar.gz
+[2024-05-21 06:08:06] INFO root fetch - processPackages [jzai]: executing diffoscope
+[2024-05-21 06:08:06] INFO root fetch - processPackages [jzai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jzai-59.83.53.tar.gz tmp/jzai-59.83.54.tar.gz --markdown 20240521/j/jzai/59.83.53-59.83.54/README.md --exclude *.pyd
+[2024-05-21 06:08:06] INFO root fetch - processPackages [timer]: executing diffoscope
+[2024-05-21 06:08:06] INFO root fetch - processPackages [timer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timer-0.2.2.tar.gz tmp/timer-0.3.0.tar.gz --markdown 20240521/t/timer/0.2.2-0.3.0/README.md --exclude *.pyd
+[2024-05-21 06:08:06] INFO root fetch - processPackages [accelbyte-py-sdk-service-session]: Downloading https://files.pythonhosted.org/packages/a9/45/42fd84b953ae01744ce13911e6fa1d48971cc08c60e52bd80c47831c0a89/accelbyte-py-sdk-service-session-0.9.0.tar.gz
+[2024-05-21 06:08:06] INFO root fetch - processPackages [accelbyte-py-sdk-service-seasonpass]: executing diffoscope
+[2024-05-21 06:08:06] INFO root fetch - processPackages [accelbyte-py-sdk-service-seasonpass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/accelbyte-py-sdk-service-seasonpass-0.8.0.tar.gz tmp/accelbyte-py-sdk-service-seasonpass-0.9.0.tar.gz --markdown 20240521/a/accelbyte-py-sdk-service-seasonpass/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-21 06:08:06] INFO root fetch - processPackages [accelbyte-py-sdk-service-sessionbrowser]: Downloading https://files.pythonhosted.org/packages/5c/ee/6fcef1d94b3b1776c4774ddcaefb7286b74dfc6ce18498ddff4412ea6ba6/accelbyte-py-sdk-service-sessionbrowser-0.9.0.tar.gz
+[2024-05-21 06:08:06] INFO root fetch - processPackages [accelbyte-py-sdk-service-session]: executing diffoscope
+[2024-05-21 06:08:06] INFO root fetch - processPackages [accelbyte-py-sdk-service-session]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/accelbyte-py-sdk-service-session-0.8.0.tar.gz tmp/accelbyte-py-sdk-service-session-0.9.0.tar.gz --markdown 20240521/a/accelbyte-py-sdk-service-session/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-21 06:08:06] INFO root fetch - processPackages [accelbyte-py-sdk-service-sessionbrowser]: executing diffoscope
+[2024-05-21 06:08:06] INFO root fetch - processPackages [accelbyte-py-sdk-service-sessionbrowser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/accelbyte-py-sdk-service-sessionbrowser-0.8.0.tar.gz tmp/accelbyte-py-sdk-service-sessionbrowser-0.9.0.tar.gz --markdown 20240521/a/accelbyte-py-sdk-service-sessionbrowser/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-21 06:08:07] INFO root fetch - processPackages [jzai]: Remove: archive file [/home/abi/fetcher/tmp/jzai-59.83.53.tar.gz]
+[2024-05-21 06:08:07] INFO root fetch - processPackages [jzai]: Remove: archive file [/home/abi/fetcher/tmp/jzai-59.83.54.tar.gz]
+[2024-05-21 06:08:07] INFO root fetch - main [MainThread]: End processing [jzai]: success
+[2024-05-21 06:08:07] INFO root fetch - processPackages [plover-lapwing-aio]: Downloading https://files.pythonhosted.org/packages/be/95/e6f5de1346a5945f448d3c8b900682521ec598062b4280313c9c935eaefd/plover-lapwing-aio-1.1.9.tar.gz
+[2024-05-21 06:08:07] INFO root fetch - processPackages [timer]: Remove: archive file [/home/abi/fetcher/tmp/timer-0.2.2.tar.gz]
+[2024-05-21 06:08:07] INFO root fetch - processPackages [timer]: Remove: archive file [/home/abi/fetcher/tmp/timer-0.3.0.tar.gz]
+[2024-05-21 06:08:07] INFO root fetch - main [MainThread]: End processing [timer]: success
+[2024-05-21 06:08:07] INFO root fetch - processPackages [abcli]: Remove: archive file [/home/abi/fetcher/tmp/abcli-8.205.1.tar.gz]
+[2024-05-21 06:08:07] INFO root fetch - processPackages [abcli]: Remove: archive file [/home/abi/fetcher/tmp/abcli-8.206.1.tar.gz]
+[2024-05-21 06:08:07] INFO root fetch - main [MainThread]: End processing [abcli]: success
+[2024-05-21 06:08:07] INFO root fetch - processPackages [accelbyte-py-sdk-service-seasonpass]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte-py-sdk-service-seasonpass-0.8.0.tar.gz]
+[2024-05-21 06:08:07] INFO root fetch - processPackages [accelbyte-py-sdk-service-seasonpass]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte-py-sdk-service-seasonpass-0.9.0.tar.gz]
+[2024-05-21 06:08:07] INFO root fetch - main [MainThread]: End processing [accelbyte-py-sdk-service-seasonpass]: success
+[2024-05-21 06:08:07] INFO root fetch - processPackages [plover-lapwing-aio]: executing diffoscope
+[2024-05-21 06:08:07] INFO root fetch - processPackages [plover-lapwing-aio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plover-lapwing-aio-1.1.8.tar.gz tmp/plover-lapwing-aio-1.1.9.tar.gz --markdown 20240521/p/plover-lapwing-aio/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-05-21 06:08:08] INFO root fetch - processPackages [accelbyte-py-sdk-service-sessionbrowser]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte-py-sdk-service-sessionbrowser-0.8.0.tar.gz]
+[2024-05-21 06:08:08] INFO root fetch - processPackages [accelbyte-py-sdk-service-sessionbrowser]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte-py-sdk-service-sessionbrowser-0.9.0.tar.gz]
+[2024-05-21 06:08:08] INFO root fetch - main [MainThread]: End processing [accelbyte-py-sdk-service-sessionbrowser]: success
+[2024-05-21 06:08:08] INFO root fetch - processPackages [accelbyte-py-sdk-service-session]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte-py-sdk-service-session-0.8.0.tar.gz]
+[2024-05-21 06:08:08] INFO root fetch - processPackages [accelbyte-py-sdk-service-session]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte-py-sdk-service-session-0.9.0.tar.gz]
+[2024-05-21 06:08:08] INFO root fetch - main [MainThread]: End processing [accelbyte-py-sdk-service-session]: success
+[2024-05-21 06:08:09] INFO root fetch - processPackages [plover-lapwing-aio]: Remove: archive file [/home/abi/fetcher/tmp/plover-lapwing-aio-1.1.8.tar.gz]
+[2024-05-21 06:08:09] INFO root fetch - processPackages [plover-lapwing-aio]: Remove: archive file [/home/abi/fetcher/tmp/plover-lapwing-aio-1.1.9.tar.gz]
+[2024-05-21 06:08:09] INFO root fetch - main [MainThread]: End processing [plover-lapwing-aio]: success
+[2024-05-21 06:08:09] INFO root fetch - main [MainThread]: Store serial: [23300807]
