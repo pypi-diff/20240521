@@ -18510,3 +18510,93 @@
 [2024-05-21 11:31:36] INFO root fetch - processPackages [ansys-api-pyensight]: Remove: archive file [/home/abi/fetcher/tmp/ansys-api-pyensight-0.5.0.dev0.tar.gz]
 [2024-05-21 11:31:36] INFO root fetch - main [MainThread]: End processing [ansys-api-pyensight]: success
 [2024-05-21 11:31:36] INFO root fetch - main [MainThread]: Store serial: [23303856]
+[2024-05-21 11:33:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23303856]
+[2024-05-21 11:33:46] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-21 11:33:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odbc2deltalake
+[2024-05-21 11:33:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: moveread-dfy
+[2024-05-21 11:33:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: DLMS-SPODES
+[2024-05-21 11:33:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: easy-xedu
+[2024-05-21 11:33:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spear-ai-sqlfluff-config
+[2024-05-21 11:33:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dve-lumipy-testing
+[2024-05-21 11:33:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flspp
+[2024-05-21 11:33:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dbt-artifacts-parser
+[2024-05-21 11:33:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lljz-tools
+[2024-05-21 11:33:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: prophecy-build-tool
+[2024-05-21 11:33:47] INFO root fetch - processPackages [easy-xedu]: New version: [0.2.1] Old Version: [0.1.9]
+[2024-05-21 11:33:47] INFO root fetch - processPackages [prophecy-build-tool]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-05-21 11:33:47] INFO root fetch - processPackages [dbt-artifacts-parser]: New version: [0.6.0] Old Version: [0.5.1]
+[2024-05-21 11:33:47] WARNING root fetch - processPackages [spear-ai-sqlfluff-config]: Skipping, unable to determine old version
+[2024-05-21 11:33:47] INFO root fetch - processPackages [spear-ai-sqlfluff-config]: Start processing: SPLayout
+[2024-05-21 11:33:47] INFO root fetch - main [MainThread]: End processing [spear-ai-sqlfluff-config] error
+[2024-05-21 11:33:47] WARNING root fetch - processPackages [flspp]: Skipping, unable to determine old version
+[2024-05-21 11:33:47] INFO root fetch - main [MainThread]: End processing [flspp] error
+[2024-05-21 11:33:47] INFO root fetch - processPackages [dve-lumipy-testing]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-21 11:33:47] INFO root fetch - processPackages [moveread-dfy]: New version: [0.1.5] Old Version: [0.1.3]
+[2024-05-21 11:33:47] INFO root fetch - processPackages [easy-xedu]: Downloading https://files.pythonhosted.org/packages/9d/c7/fb870446c421e34bfbf3552d340a7d70713dee048560550e7b7e3ee97930/easy-xedu-0.1.9.tar.gz
+[2024-05-21 11:33:47] INFO root fetch - processPackages [odbc2deltalake]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-21 11:33:47] INFO root fetch - processPackages [lljz-tools]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-21 11:33:47] INFO root fetch - processPackages [prophecy-build-tool]: Downloading https://files.pythonhosted.org/packages/31/f0/ed4aa0a70a6fd06211faed01254c9ddbfa86f70a2dd8665718c9fde9a3f6/prophecy-build-tool-1.2.8.tar.gz
+[2024-05-21 11:33:47] INFO root fetch - processPackages [DLMS-SPODES]: New version: [0.9.0] Old Version: [0.8.3]
+[2024-05-21 11:33:47] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/2f/35/aa91d923787edb9bf5bcbfa8461c60465a9e55f7513c06e4f16d5221c3c3/dve_lumipy_testing-1.0.8-py3-none-any.whl
+[2024-05-21 11:33:47] INFO root fetch - processPackages [moveread-dfy]: Downloading https://files.pythonhosted.org/packages/9e/f2/e3eb481df6b4281db505ce0788c22eb508cb4681546ecf2869ffb4dc334f/moveread_dfy-0.1.3.tar.gz
+[2024-05-21 11:33:47] INFO root fetch - processPackages [dbt-artifacts-parser]: Downloading https://files.pythonhosted.org/packages/8b/1b/16441b079689f7379c9cf865ed0f839639c15d5b421894a893c2c4ac30d6/dbt_artifacts_parser-0.5.1.tar.gz
+[2024-05-21 11:33:47] INFO root fetch - processPackages [SPLayout]: New version: [0.5.4] Old Version: [0.5.3]
+[2024-05-21 11:33:47] INFO root fetch - processPackages [DLMS-SPODES]: Downloading https://files.pythonhosted.org/packages/97/e2/60be495fca055220080de90e294b2c16ad5a60ea6485cdee969131f05bf4/DLMS_SPODES-0.8.3.tar.gz
+[2024-05-21 11:33:47] INFO root fetch - processPackages [odbc2deltalake]: Downloading https://files.pythonhosted.org/packages/60/8a/62f1a75f4a93a252dbb188a71192d3fa69b90655d827f1a90464c09306d8/odbc2deltalake-0.9.0.tar.gz
+[2024-05-21 11:33:47] INFO root fetch - processPackages [lljz-tools]: Downloading https://files.pythonhosted.org/packages/07/e1/d8ad41d04bd7526045884eb68fffdf0d0584720dc1f876fa9b7b87605451/lljz_tools-0.2.8.tar.gz
+[2024-05-21 11:33:47] INFO root fetch - processPackages [prophecy-build-tool]: Downloading https://files.pythonhosted.org/packages/6e/8b/758d03240b291c40dbffda699fd64edadca124a085daf5f71250b010298b/prophecy-build-tool-1.2.9.tar.gz
+[2024-05-21 11:33:47] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/1e/7c/e37b3c84846734e2feb285aa04bd1d2381e9cd7415aeb1a75f2cfd40fd79/dve_lumipy_testing-1.0.9-py3-none-any.whl
+[2024-05-21 11:33:47] INFO root fetch - processPackages [easy-xedu]: Downloading https://files.pythonhosted.org/packages/00/ba/e557330e7941db951631ba66125e6e752b0e67e57349a988fbb226c1aedb/easy-xedu-0.2.1.tar.gz
+[2024-05-21 11:33:47] INFO root fetch - processPackages [SPLayout]: Downloading https://files.pythonhosted.org/packages/11/14/e7140987754590b0b7c86456a3a5efcf615e16a83f01a03d515effeab0cc/splayout-0.5.3.tar.gz
+[2024-05-21 11:33:47] INFO root fetch - processPackages [prophecy-build-tool]: executing diffoscope
+[2024-05-21 11:33:47] INFO root fetch - processPackages [prophecy-build-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prophecy-build-tool-1.2.8.tar.gz tmp/prophecy-build-tool-1.2.9.tar.gz --markdown 20240521/p/prophecy-build-tool/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-05-21 11:33:47] INFO root fetch - processPackages [moveread-dfy]: Downloading https://files.pythonhosted.org/packages/ca/84/1e56f992237ec33341a04554e7061e8330e26d78f538693b531f9b9e120d/moveread_dfy-0.1.5.tar.gz
+[2024-05-21 11:33:47] INFO root fetch - processPackages [dbt-artifacts-parser]: Downloading https://files.pythonhosted.org/packages/72/5e/0198892a7216fb0de813f7baa43bdab693128d22f848680fd72d71091c65/dbt_artifacts_parser-0.6.0.tar.gz
+[2024-05-21 11:33:47] INFO root fetch - processPackages [odbc2deltalake]: Downloading https://files.pythonhosted.org/packages/c5/78/1f89a261b7929df384f9ba80767aa8cb2943103f07c2773672f1ebc74e9d/odbc2deltalake-0.9.1.tar.gz
+[2024-05-21 11:33:47] INFO root fetch - processPackages [DLMS-SPODES]: Downloading https://files.pythonhosted.org/packages/78/a8/0e1e9fd1aa9750b28e12462781d408863affaeb92dbdb8c020b6d3078e67/DLMS_SPODES-0.9.0.tar.gz
+[2024-05-21 11:33:47] INFO root fetch - processPackages [moveread-dfy]: executing diffoscope
+[2024-05-21 11:33:47] INFO root fetch - processPackages [moveread-dfy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moveread_dfy-0.1.3.tar.gz tmp/moveread_dfy-0.1.5.tar.gz --markdown 20240521/m/moveread-dfy/0.1.3-0.1.5/README.md --exclude *.pyd
+[2024-05-21 11:33:47] INFO root fetch - processPackages [dve-lumipy-testing]: executing diffoscope
+[2024-05-21 11:33:47] INFO root fetch - processPackages [dve-lumipy-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dve_lumipy_testing-1.0.8-py3-none-any.whl.zip tmp/dve_lumipy_testing-1.0.9-py3-none-any.whl.zip --markdown 20240521/d/dve-lumipy-testing/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-21 11:33:47] INFO root fetch - processPackages [easy-xedu]: executing diffoscope
+[2024-05-21 11:33:47] INFO root fetch - processPackages [easy-xedu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy-xedu-0.1.9.tar.gz tmp/easy-xedu-0.2.1.tar.gz --markdown 20240521/e/easy-xedu/0.1.9-0.2.1/README.md --exclude *.pyd
+[2024-05-21 11:33:47] INFO root fetch - processPackages [lljz-tools]: Downloading https://files.pythonhosted.org/packages/a7/af/a18c36655f7f553567ff5dd5fb22c0f4e280c4a0200a0b3c876136e8201f/lljz_tools-0.2.9.tar.gz
+[2024-05-21 11:33:47] INFO root fetch - processPackages [dbt-artifacts-parser]: executing diffoscope
+[2024-05-21 11:33:47] INFO root fetch - processPackages [dbt-artifacts-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_artifacts_parser-0.5.1.tar.gz tmp/dbt_artifacts_parser-0.6.0.tar.gz --markdown 20240521/d/dbt-artifacts-parser/0.5.1-0.6.0/README.md --exclude *.pyd
+[2024-05-21 11:33:47] INFO root fetch - processPackages [odbc2deltalake]: executing diffoscope
+[2024-05-21 11:33:47] INFO root fetch - processPackages [odbc2deltalake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odbc2deltalake-0.9.0.tar.gz tmp/odbc2deltalake-0.9.1.tar.gz --markdown 20240521/o/odbc2deltalake/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-21 11:33:47] INFO root fetch - processPackages [lljz-tools]: executing diffoscope
+[2024-05-21 11:33:47] INFO root fetch - processPackages [lljz-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lljz_tools-0.2.8.tar.gz tmp/lljz_tools-0.2.9.tar.gz --markdown 20240521/l/lljz-tools/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-21 11:33:48] INFO root fetch - processPackages [DLMS-SPODES]: executing diffoscope
+[2024-05-21 11:33:48] INFO root fetch - processPackages [DLMS-SPODES]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_SPODES-0.8.3.tar.gz tmp/DLMS_SPODES-0.9.0.tar.gz --markdown 20240521/D/DLMS-SPODES/0.8.3-0.9.0/README.md --exclude *.pyd
+[2024-05-21 11:33:48] INFO root fetch - processPackages [SPLayout]: Downloading https://files.pythonhosted.org/packages/34/fb/6b6e8c1a62d613bfb62a9cfcb9794e6d75f7f609ed3b54444bb57e078a89/splayout-0.5.4.tar.gz
+[2024-05-21 11:33:48] INFO root fetch - processPackages [SPLayout]: executing diffoscope
+[2024-05-21 11:33:48] INFO root fetch - processPackages [SPLayout]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splayout-0.5.3.tar.gz tmp/splayout-0.5.4.tar.gz --markdown 20240521/S/SPLayout/0.5.3-0.5.4/README.md --exclude *.pyd
+[2024-05-21 11:33:48] INFO root fetch - processPackages [prophecy-build-tool]: Remove: archive file [/home/abi/fetcher/tmp/prophecy-build-tool-1.2.8.tar.gz]
+[2024-05-21 11:33:48] INFO root fetch - processPackages [prophecy-build-tool]: Remove: archive file [/home/abi/fetcher/tmp/prophecy-build-tool-1.2.9.tar.gz]
+[2024-05-21 11:33:48] INFO root fetch - main [MainThread]: End processing [prophecy-build-tool]: success
+[2024-05-21 11:33:48] INFO root fetch - processPackages [odbc2deltalake]: Remove: archive file [/home/abi/fetcher/tmp/odbc2deltalake-0.9.0.tar.gz]
+[2024-05-21 11:33:48] INFO root fetch - processPackages [odbc2deltalake]: Remove: archive file [/home/abi/fetcher/tmp/odbc2deltalake-0.9.1.tar.gz]
+[2024-05-21 11:33:48] INFO root fetch - main [MainThread]: End processing [odbc2deltalake]: success
+[2024-05-21 11:33:49] INFO root fetch - processPackages [moveread-dfy]: Remove: archive file [/home/abi/fetcher/tmp/moveread_dfy-0.1.3.tar.gz]
+[2024-05-21 11:33:49] INFO root fetch - processPackages [moveread-dfy]: Remove: archive file [/home/abi/fetcher/tmp/moveread_dfy-0.1.5.tar.gz]
+[2024-05-21 11:33:49] INFO root fetch - main [MainThread]: End processing [moveread-dfy]: success
+[2024-05-21 11:33:49] INFO root fetch - processPackages [lljz-tools]: Remove: archive file [/home/abi/fetcher/tmp/lljz_tools-0.2.8.tar.gz]
+[2024-05-21 11:33:49] INFO root fetch - processPackages [lljz-tools]: Remove: archive file [/home/abi/fetcher/tmp/lljz_tools-0.2.9.tar.gz]
+[2024-05-21 11:33:49] INFO root fetch - main [MainThread]: End processing [lljz-tools]: success
+[2024-05-21 11:33:49] INFO root fetch - processPackages [dbt-artifacts-parser]: Remove: archive file [/home/abi/fetcher/tmp/dbt_artifacts_parser-0.5.1.tar.gz]
+[2024-05-21 11:33:49] INFO root fetch - processPackages [dbt-artifacts-parser]: Remove: archive file [/home/abi/fetcher/tmp/dbt_artifacts_parser-0.6.0.tar.gz]
+[2024-05-21 11:33:49] INFO root fetch - main [MainThread]: End processing [dbt-artifacts-parser]: success
+[2024-05-21 11:33:49] INFO root fetch - processPackages [DLMS-SPODES]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES-0.8.3.tar.gz]
+[2024-05-21 11:33:49] INFO root fetch - processPackages [DLMS-SPODES]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES-0.9.0.tar.gz]
+[2024-05-21 11:33:49] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES]: success
+[2024-05-21 11:33:49] INFO root fetch - processPackages [SPLayout]: Remove: archive file [/home/abi/fetcher/tmp/splayout-0.5.3.tar.gz]
+[2024-05-21 11:33:49] INFO root fetch - processPackages [SPLayout]: Remove: archive file [/home/abi/fetcher/tmp/splayout-0.5.4.tar.gz]
+[2024-05-21 11:33:49] INFO root fetch - main [MainThread]: End processing [SPLayout]: success
+[2024-05-21 11:33:49] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.8-py3-none-any.whl.zip]
+[2024-05-21 11:33:49] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.9-py3-none-any.whl.zip]
+[2024-05-21 11:33:49] INFO root fetch - main [MainThread]: End processing [dve-lumipy-testing]: success
+[2024-05-21 11:33:49] INFO root fetch - processPackages [easy-xedu]: Remove: archive file [/home/abi/fetcher/tmp/easy-xedu-0.1.9.tar.gz]
+[2024-05-21 11:33:49] INFO root fetch - processPackages [easy-xedu]: Remove: archive file [/home/abi/fetcher/tmp/easy-xedu-0.2.1.tar.gz]
+[2024-05-21 11:33:49] INFO root fetch - main [MainThread]: End processing [easy-xedu]: success
+[2024-05-21 11:33:49] INFO root fetch - main [MainThread]: Store serial: [23303887]
