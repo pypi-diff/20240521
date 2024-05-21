@@ -12904,3 +12904,42 @@
 [2024-05-21 08:06:35] INFO root fetch - processPackages [pulumi-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gitlab-7.0.0.tar.gz]
 [2024-05-21 08:06:35] INFO root fetch - main [MainThread]: End processing [pulumi-gitlab]: success
 [2024-05-21 08:06:35] INFO root fetch - main [MainThread]: Store serial: [23301804]
+[2024-05-21 08:08:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23301804]
+[2024-05-21 08:08:45] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-21 08:08:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ucimlrepo
+[2024-05-21 08:08:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: glpic
+[2024-05-21 08:08:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bambooai
+[2024-05-21 08:08:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xbotext
+[2024-05-21 08:08:45] INFO root fetch - processPackages [ucimlrepo]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-21 08:08:45] INFO root fetch - processPackages [xbotext]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-21 08:08:45] INFO root fetch - processPackages [glpic]: New version: [99.0.202405210607] Old Version: [99.0.202405182305]
+[2024-05-21 08:08:45] INFO root fetch - processPackages [bambooai]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-21 08:08:45] INFO root fetch - processPackages [ucimlrepo]: Downloading https://files.pythonhosted.org/packages/0f/ba/06f48c060f2812c047020ee557ca8107df77593213cf509b2a6e70381cd0/ucimlrepo-0.0.6.tar.gz
+[2024-05-21 08:08:46] INFO root fetch - processPackages [glpic]: Downloading https://files.pythonhosted.org/packages/51/49/bc22223c422e6cc4a803eef6a539bf994a72eaa97ee16a027a7baf0888e3/glpic-99.0.202405182305.tar.gz
+[2024-05-21 08:08:46] INFO root fetch - processPackages [xbotext]: Downloading https://files.pythonhosted.org/packages/ec/f8/bf41cde3439ba783f65c6fa70211cc4e4374a0b877c2760f4d60ad666eb0/xbotext-0.1.7.tar.gz
+[2024-05-21 08:08:46] INFO root fetch - processPackages [bambooai]: Downloading https://files.pythonhosted.org/packages/32/81/667ba343ba60a295254f89b642987cfea30c5f5389f53750ed5c6b6865c2/bambooai-0.3.8.tar.gz
+[2024-05-21 08:08:46] INFO root fetch - processPackages [glpic]: Downloading https://files.pythonhosted.org/packages/77/8a/a7eafcb60694f237fc9e6e5b274fe9e75fdbd8b4398f52b2916fc4ae4820/glpic-99.0.202405210607.tar.gz
+[2024-05-21 08:08:46] INFO root fetch - processPackages [ucimlrepo]: Downloading https://files.pythonhosted.org/packages/87/7c/f5a400cc99a5365d153609ebf803084f78b4638b0f7925aa31d9abb62b8e/ucimlrepo-0.0.7.tar.gz
+[2024-05-21 08:08:46] INFO root fetch - processPackages [xbotext]: Downloading https://files.pythonhosted.org/packages/81/74/794b0942ec94c1cd0e214f2a72594eaa1e5bca1ad0a3baa76485449f54b7/xbotext-0.1.8.tar.gz
+[2024-05-21 08:08:46] INFO root fetch - processPackages [bambooai]: Downloading https://files.pythonhosted.org/packages/ea/a0/d05c4cc2cbb7dcb2bdaea0ccdee9f888f37edeb6b0a643084744079f4939/bambooai-0.3.9.tar.gz
+[2024-05-21 08:08:46] INFO root fetch - processPackages [glpic]: executing diffoscope
+[2024-05-21 08:08:46] INFO root fetch - processPackages [glpic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glpic-99.0.202405182305.tar.gz tmp/glpic-99.0.202405210607.tar.gz --markdown 20240521/g/glpic/99.0.202405182305-99.0.202405210607/README.md --exclude *.pyd
+[2024-05-21 08:08:46] INFO root fetch - processPackages [bambooai]: executing diffoscope
+[2024-05-21 08:08:46] INFO root fetch - processPackages [bambooai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bambooai-0.3.8.tar.gz tmp/bambooai-0.3.9.tar.gz --markdown 20240521/b/bambooai/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-21 08:08:46] INFO root fetch - processPackages [ucimlrepo]: executing diffoscope
+[2024-05-21 08:08:46] INFO root fetch - processPackages [ucimlrepo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ucimlrepo-0.0.6.tar.gz tmp/ucimlrepo-0.0.7.tar.gz --markdown 20240521/u/ucimlrepo/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-21 08:08:46] INFO root fetch - processPackages [xbotext]: executing diffoscope
+[2024-05-21 08:08:46] INFO root fetch - processPackages [xbotext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xbotext-0.1.7.tar.gz tmp/xbotext-0.1.8.tar.gz --markdown 20240521/x/xbotext/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-21 08:08:47] INFO root fetch - processPackages [glpic]: Remove: archive file [/home/abi/fetcher/tmp/glpic-99.0.202405182305.tar.gz]
+[2024-05-21 08:08:47] INFO root fetch - processPackages [glpic]: Remove: archive file [/home/abi/fetcher/tmp/glpic-99.0.202405210607.tar.gz]
+[2024-05-21 08:08:47] INFO root fetch - main [MainThread]: End processing [glpic]: success
+[2024-05-21 08:08:47] INFO root fetch - processPackages [bambooai]: Remove: archive file [/home/abi/fetcher/tmp/bambooai-0.3.8.tar.gz]
+[2024-05-21 08:08:47] INFO root fetch - processPackages [bambooai]: Remove: archive file [/home/abi/fetcher/tmp/bambooai-0.3.9.tar.gz]
+[2024-05-21 08:08:47] INFO root fetch - main [MainThread]: End processing [bambooai]: success
+[2024-05-21 08:08:47] INFO root fetch - processPackages [ucimlrepo]: Remove: archive file [/home/abi/fetcher/tmp/ucimlrepo-0.0.6.tar.gz]
+[2024-05-21 08:08:47] INFO root fetch - processPackages [ucimlrepo]: Remove: archive file [/home/abi/fetcher/tmp/ucimlrepo-0.0.7.tar.gz]
+[2024-05-21 08:08:47] INFO root fetch - main [MainThread]: End processing [ucimlrepo]: success
+[2024-05-21 08:08:47] INFO root fetch - processPackages [xbotext]: Remove: archive file [/home/abi/fetcher/tmp/xbotext-0.1.7.tar.gz]
+[2024-05-21 08:08:47] INFO root fetch - processPackages [xbotext]: Remove: archive file [/home/abi/fetcher/tmp/xbotext-0.1.8.tar.gz]
+[2024-05-21 08:08:47] INFO root fetch - main [MainThread]: End processing [xbotext]: success
+[2024-05-21 08:08:47] INFO root fetch - main [MainThread]: Store serial: [23301816]
