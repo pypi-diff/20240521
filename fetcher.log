@@ -17113,3 +17113,74 @@
 [2024-05-21 10:46:39] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2024-05-21 10:46:39] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2024-05-21 10:46:39] INFO root fetch - main [MainThread]: Store serial: [23303341]
+[2024-05-21 10:48:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23303341]
+[2024-05-21 10:48:48] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-21 10:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pinscrape
+[2024-05-21 10:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bokeh
+[2024-05-21 10:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dpkits
+[2024-05-21 10:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tfp-nightly
+[2024-05-21 10:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scbsp
+[2024-05-21 10:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dvcx
+[2024-05-21 10:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: llmstack
+[2024-05-21 10:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: xcloudforlinux
+[2024-05-21 10:48:48] INFO root fetch - processPackages [dvcx]: New version: [0.82.0] Old Version: [0.81.0]
+[2024-05-21 10:48:48] INFO root fetch - processPackages [bokeh]: New version: [3.5.0.dev4] Old Version: [3.5.0.dev3]
+[2024-05-21 10:48:48] INFO root fetch - processPackages [xcloudforlinux]: New version: [0.3.5] Old Version: [0.3.4]
+[2024-05-21 10:48:48] INFO root fetch - processPackages [scbsp]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-05-21 10:48:48] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2024-05-21 10:48:48] INFO root fetch - processPackages [dvcx]: Downloading https://files.pythonhosted.org/packages/50/25/20f40b4f47cba9db58fecef3226673cd68e0f80fe0914c5c1cf06675b96e/dvcx-0.81.0.tar.gz
+[2024-05-21 10:48:48] INFO root fetch - processPackages [pinscrape]: New version: [3.2.0] Old Version: [3.1.0]
+[2024-05-21 10:48:48] INFO root fetch - processPackages [llmstack]: New version: [0.1.0] Old Version: [0.0.31]
+[2024-05-21 10:48:48] INFO root fetch - processPackages [dpkits]: New version: [1.2.4] Old Version: [1.2.3]
+[2024-05-21 10:48:48] INFO root fetch - processPackages [xcloudforlinux]: Downloading https://files.pythonhosted.org/packages/9d/3d/45911bf4d9f2c830b8d95534b811ca5bc363722f5cd0c278452ff627390d/xcloudforlinux-0.3.4.tar.gz
+[2024-05-21 10:48:48] INFO root fetch - processPackages [scbsp]: Downloading https://files.pythonhosted.org/packages/ab/cd/d1f3b1e55ef7cdbc62dce53756159534d4e3df30e806bdbb08f8a6028bf1/scbsp-0.2.5.tar.gz
+[2024-05-21 10:48:48] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/be/16/ebf16b1094e104257af6265eee53833e4f737ef6d11426d959009fa9952a/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl
+[2024-05-21 10:48:48] INFO root fetch - processPackages [bokeh]: Downloading https://files.pythonhosted.org/packages/5a/c4/77a0b32fa34a10bd3b1b0693dbb7c12d69b4c3e73d3eb90f5b5fb2355148/bokeh-3.5.0.dev3.tar.gz
+[2024-05-21 10:48:48] INFO root fetch - processPackages [pinscrape]: Downloading https://files.pythonhosted.org/packages/0f/d9/ccc4e36a67847b2e85a3df872b520f6cc2d18889e963f8f1d14a2e3ec518/pinscrape-3.1.0.tar.gz
+[2024-05-21 10:48:48] INFO root fetch - processPackages [dpkits]: Downloading https://files.pythonhosted.org/packages/c8/e1/09f1fb197c9901d9da94dce765eeae394d61505ab67450b3b9b1e096effb/dpkits-1.2.3.tar.gz
+[2024-05-21 10:48:48] INFO root fetch - processPackages [llmstack]: Downloading https://files.pythonhosted.org/packages/31/70/1bc7f446109adc6b6ced9c0328d738b8e21eb3e1a9a0bbf66bd643a5bd08/llmstack-0.0.31.tar.gz
+[2024-05-21 10:48:48] INFO root fetch - processPackages [scbsp]: Downloading https://files.pythonhosted.org/packages/69/9e/5b43bbd3a22ef41a6f2b5d9f3a4f72007c75fbb3c1735ca47e3348cfb105/scbsp-0.2.6.tar.gz
+[2024-05-21 10:48:48] WARNING root fetch - processPackages [llmstack]: Skipping package: exceeds size limit 22192889>=10485760
+[2024-05-21 10:48:48] INFO root fetch - main [MainThread]: End processing [llmstack] error
+[2024-05-21 10:48:48] INFO root fetch - processPackages [dvcx]: Downloading https://files.pythonhosted.org/packages/aa/5d/12c0e0988a282456ae43a48df76b72221cd70af678c33c90d76e0a267e4d/dvcx-0.82.0.tar.gz
+[2024-05-21 10:48:48] INFO root fetch - processPackages [scbsp]: executing diffoscope
+[2024-05-21 10:48:48] INFO root fetch - processPackages [scbsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scbsp-0.2.5.tar.gz tmp/scbsp-0.2.6.tar.gz --markdown 20240521/s/scbsp/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-05-21 10:48:49] INFO root fetch - processPackages [pinscrape]: Downloading https://files.pythonhosted.org/packages/7b/05/43e50c3a425b648698b5d6a76abfa80f659da4e3ad2d232e173559d7f412/pinscrape-3.2.0.tar.gz
+[2024-05-21 10:48:49] INFO root fetch - processPackages [dpkits]: Downloading https://files.pythonhosted.org/packages/86/a3/1490e605e91259e79c986c8b473f3fbbcacecbe5ef503d1f43bf2a90dc72/dpkits-1.2.4.tar.gz
+[2024-05-21 10:48:49] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/f1/98/c1f5a754a26ea1f08e3558803ffb67dd65482de4f6bfadc5415573cd3cb7/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl
+[2024-05-21 10:48:49] INFO root fetch - processPackages [dvcx]: executing diffoscope
+[2024-05-21 10:48:49] INFO root fetch - processPackages [dvcx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvcx-0.81.0.tar.gz tmp/dvcx-0.82.0.tar.gz --markdown 20240521/d/dvcx/0.81.0-0.82.0/README.md --exclude *.pyd
+[2024-05-21 10:48:49] INFO root fetch - processPackages [xcloudforlinux]: Downloading https://files.pythonhosted.org/packages/d0/67/309ff02ae02bdb90f17a30e3d84b9a8ea30c594d5aad331afbdb00d045a2/xcloudforlinux-0.3.5.tar.gz
+[2024-05-21 10:48:49] INFO root fetch - processPackages [bokeh]: Downloading https://files.pythonhosted.org/packages/4a/a8/5ba4b8be8f30bc7407a870e9dd62384bd3a9c30da9ed5b13e537235664aa/bokeh-3.5.0.dev4.tar.gz
+[2024-05-21 10:48:49] INFO root fetch - processPackages [pinscrape]: executing diffoscope
+[2024-05-21 10:48:49] INFO root fetch - processPackages [pinscrape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinscrape-3.1.0.tar.gz tmp/pinscrape-3.2.0.tar.gz --markdown 20240521/p/pinscrape/3.1.0-3.2.0/README.md --exclude *.pyd
+[2024-05-21 10:48:49] INFO root fetch - processPackages [xcloudforlinux]: executing diffoscope
+[2024-05-21 10:48:49] INFO root fetch - processPackages [xcloudforlinux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xcloudforlinux-0.3.4.tar.gz tmp/xcloudforlinux-0.3.5.tar.gz --markdown 20240521/x/xcloudforlinux/0.3.4-0.3.5/README.md --exclude *.pyd
+[2024-05-21 10:48:49] INFO root fetch - processPackages [dpkits]: executing diffoscope
+[2024-05-21 10:48:49] INFO root fetch - processPackages [dpkits]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dpkits-1.2.3.tar.gz tmp/dpkits-1.2.4.tar.gz --markdown 20240521/d/dpkits/1.2.3-1.2.4/README.md --exclude *.pyd
+[2024-05-21 10:48:49] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2024-05-21 10:48:49] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20240521/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/README.md --exclude *.pyd
+[2024-05-21 10:48:49] INFO root fetch - processPackages [scbsp]: Remove: archive file [/home/abi/fetcher/tmp/scbsp-0.2.5.tar.gz]
+[2024-05-21 10:48:49] INFO root fetch - processPackages [scbsp]: Remove: archive file [/home/abi/fetcher/tmp/scbsp-0.2.6.tar.gz]
+[2024-05-21 10:48:49] INFO root fetch - main [MainThread]: End processing [scbsp]: success
+[2024-05-21 10:48:50] INFO root fetch - processPackages [pinscrape]: Remove: archive file [/home/abi/fetcher/tmp/pinscrape-3.1.0.tar.gz]
+[2024-05-21 10:48:50] INFO root fetch - processPackages [pinscrape]: Remove: archive file [/home/abi/fetcher/tmp/pinscrape-3.2.0.tar.gz]
+[2024-05-21 10:48:50] INFO root fetch - main [MainThread]: End processing [pinscrape]: success
+[2024-05-21 10:48:50] INFO root fetch - processPackages [dpkits]: Remove: archive file [/home/abi/fetcher/tmp/dpkits-1.2.3.tar.gz]
+[2024-05-21 10:48:50] INFO root fetch - processPackages [dpkits]: Remove: archive file [/home/abi/fetcher/tmp/dpkits-1.2.4.tar.gz]
+[2024-05-21 10:48:50] INFO root fetch - main [MainThread]: End processing [dpkits]: success
+[2024-05-21 10:48:50] INFO root fetch - processPackages [xcloudforlinux]: Remove: archive file [/home/abi/fetcher/tmp/xcloudforlinux-0.3.4.tar.gz]
+[2024-05-21 10:48:50] INFO root fetch - processPackages [xcloudforlinux]: Remove: archive file [/home/abi/fetcher/tmp/xcloudforlinux-0.3.5.tar.gz]
+[2024-05-21 10:48:50] INFO root fetch - main [MainThread]: End processing [xcloudforlinux]: success
+[2024-05-21 10:48:50] INFO root fetch - processPackages [dvcx]: Remove: archive file [/home/abi/fetcher/tmp/dvcx-0.81.0.tar.gz]
+[2024-05-21 10:48:50] INFO root fetch - processPackages [dvcx]: Remove: archive file [/home/abi/fetcher/tmp/dvcx-0.82.0.tar.gz]
+[2024-05-21 10:48:50] INFO root fetch - main [MainThread]: End processing [dvcx]: success
+[2024-05-21 10:48:50] INFO root fetch - processPackages [bokeh]: executing diffoscope
+[2024-05-21 10:48:50] INFO root fetch - processPackages [bokeh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bokeh-3.5.0.dev3.tar.gz tmp/bokeh-3.5.0.dev4.tar.gz --markdown 20240521/b/bokeh/3.5.0.dev3-3.5.0.dev4/README.md --exclude *.pyd
+[2024-05-21 10:48:52] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip]
+[2024-05-21 10:48:52] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
+[2024-05-21 10:48:52] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2024-05-21 10:49:43] INFO root fetch - processPackages [bokeh]: Remove: archive file [/home/abi/fetcher/tmp/bokeh-3.5.0.dev3.tar.gz]
+[2024-05-21 10:49:43] INFO root fetch - processPackages [bokeh]: Remove: archive file [/home/abi/fetcher/tmp/bokeh-3.5.0.dev4.tar.gz]
+[2024-05-21 10:49:43] INFO root fetch - main [MainThread]: End processing [bokeh]: success
+[2024-05-21 10:49:43] INFO root fetch - main [MainThread]: Store serial: [23303364]
