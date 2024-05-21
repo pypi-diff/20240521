@@ -8781,3 +8781,24 @@
 [2024-05-21 04:53:48] INFO root fetch - processPackages [kamangir]: Remove: archive file [/home/abi/fetcher/tmp/kamangir-3.40.1.tar.gz]
 [2024-05-21 04:53:48] INFO root fetch - main [MainThread]: End processing [kamangir]: success
 [2024-05-21 04:53:48] INFO root fetch - main [MainThread]: Store serial: [23300293]
+[2024-05-21 04:55:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23300293]
+[2024-05-21 04:55:57] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-21 04:55:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: helloai
+[2024-05-21 04:55:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py_uds_lib
+[2024-05-21 04:55:57] INFO root fetch - processPackages [py_uds_lib]: New version: [0.0.5] Old Version: [0.0.3]
+[2024-05-21 04:55:57] INFO root fetch - processPackages [helloai]: New version: [2.3] Old Version: [2.2]
+[2024-05-21 04:55:57] INFO root fetch - processPackages [helloai]: Downloading https://files.pythonhosted.org/packages/25/05/ff687b8f7adf1e21f2eca690217746081a8d351ff234b4f8c13f41d43097/helloai-2.2-py3-none-any.whl
+[2024-05-21 04:55:57] INFO root fetch - processPackages [py_uds_lib]: Downloading https://files.pythonhosted.org/packages/32/25/05608fe52e2707377d3f5aec67ef36155c2a434e939cae21d5449cc4ad00/py_uds_lib-0.0.3.tar.gz
+[2024-05-21 04:55:57] INFO root fetch - processPackages [helloai]: Downloading https://files.pythonhosted.org/packages/58/35/a6307b7c82f29ee753edd46aaab09713f4355af5beb8efa23a5bc9e766e4/helloai-2.3-py3-none-any.whl
+[2024-05-21 04:55:57] INFO root fetch - processPackages [py_uds_lib]: Downloading https://files.pythonhosted.org/packages/4c/0f/eaeb7a53221656220193ef8f2cca5964bf970064255b55ebe38ddcbd12e8/py_uds_lib-0.0.5.tar.gz
+[2024-05-21 04:55:57] INFO root fetch - processPackages [helloai]: executing diffoscope
+[2024-05-21 04:55:57] INFO root fetch - processPackages [helloai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/helloai-2.2-py3-none-any.whl.zip tmp/helloai-2.3-py3-none-any.whl.zip --markdown 20240521/h/helloai/2.2-2.3/README.md --exclude *.pyd
+[2024-05-21 04:55:58] INFO root fetch - processPackages [py_uds_lib]: executing diffoscope
+[2024-05-21 04:55:58] INFO root fetch - processPackages [py_uds_lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_uds_lib-0.0.3.tar.gz tmp/py_uds_lib-0.0.5.tar.gz --markdown 20240521/p/py_uds_lib/0.0.3-0.0.5/README.md --exclude *.pyd
+[2024-05-21 04:55:58] INFO root fetch - processPackages [py_uds_lib]: Remove: archive file [/home/abi/fetcher/tmp/py_uds_lib-0.0.3.tar.gz]
+[2024-05-21 04:55:58] INFO root fetch - processPackages [py_uds_lib]: Remove: archive file [/home/abi/fetcher/tmp/py_uds_lib-0.0.5.tar.gz]
+[2024-05-21 04:55:58] INFO root fetch - main [MainThread]: End processing [py_uds_lib]: success
+[2024-05-21 04:55:58] INFO root fetch - processPackages [helloai]: Remove: archive file [/home/abi/fetcher/tmp/helloai-2.2-py3-none-any.whl.zip]
+[2024-05-21 04:55:58] INFO root fetch - processPackages [helloai]: Remove: archive file [/home/abi/fetcher/tmp/helloai-2.3-py3-none-any.whl.zip]
+[2024-05-21 04:55:58] INFO root fetch - main [MainThread]: End processing [helloai]: success
+[2024-05-21 04:55:58] INFO root fetch - main [MainThread]: Store serial: [23300298]
