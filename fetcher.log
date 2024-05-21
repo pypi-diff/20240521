@@ -21287,3 +21287,68 @@
 [2024-05-21 13:03:13] INFO root fetch - processPackages [odoo14-addon-l10n-es-aeat-sii-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_es_aeat_sii_oca-14.0.2.9.1.dev3-py3-none-any.whl.zip]
 [2024-05-21 13:03:13] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-es-aeat-sii-oca]: success
 [2024-05-21 13:03:13] INFO root fetch - main [MainThread]: Store serial: [23305144]
+[2024-05-21 13:05:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23305144]
+[2024-05-21 13:05:22] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-21 13:05:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dja-sepp
+[2024-05-21 13:05:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fisspy
+[2024-05-21 13:05:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: imxInsights
+[2024-05-21 13:05:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: superdirtpy
+[2024-05-21 13:05:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PyMySQL
+[2024-05-21 13:05:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: datasiphon
+[2024-05-21 13:05:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dzidb
+[2024-05-21 13:05:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: outpostcli
+[2024-05-21 13:05:23] INFO root fetch - processPackages [datasiphon]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-05-21 13:05:23] INFO root fetch - processPackages [dja-sepp]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-21 13:05:23] INFO root fetch - processPackages [outpostcli]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-21 13:05:23] INFO root fetch - processPackages [dzidb]: New version: [1.1] Old Version: [1.0.8]
+[2024-05-21 13:05:23] INFO root fetch - processPackages [PyMySQL]: New version: [1.1.0rc2] Old Version: [1.1.0rc1]
+[2024-05-21 13:05:23] INFO root fetch - processPackages [imxInsights]: New version: [0.0.8.dev2] Old Version: [0.0.6.dev8]
+[2024-05-21 13:05:23] INFO root fetch - processPackages [datasiphon]: Downloading https://files.pythonhosted.org/packages/ce/c5/b7f6ec9b312f5d053667524ffacbcc2b7719f6c732ab5852c079c2f82338/datasiphon-0.2.7.tar.gz
+[2024-05-21 13:05:23] INFO root fetch - processPackages [fisspy]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-05-21 13:05:23] WARNING root fetch - processPackages [superdirtpy]: Skipping, unable to determine old version
+[2024-05-21 13:05:23] INFO root fetch - main [MainThread]: End processing [superdirtpy] error
+[2024-05-21 13:05:23] INFO root fetch - processPackages [outpostcli]: Downloading https://files.pythonhosted.org/packages/7e/e2/114a39eac567286d0418645c0ea24089c48fcbe4cccec6c79191a5cefccf/outpostcli-0.0.8.tar.gz
+[2024-05-21 13:05:23] INFO root fetch - processPackages [dzidb]: Downloading https://files.pythonhosted.org/packages/72/bb/a08dd5b03f4b8aa27664a27111b99d794a04b6ea05812a34c7a800bb10a3/dzidb-1.0.8.tar.gz
+[2024-05-21 13:05:23] INFO root fetch - processPackages [dja-sepp]: Downloading https://files.pythonhosted.org/packages/15/89/041ca7cedcb342eb0de9169874162352cc47198936ea7f38a2c2841c023d/dja_sepp-0.1.8.tar.gz
+[2024-05-21 13:05:23] INFO root fetch - processPackages [PyMySQL]: Downloading https://files.pythonhosted.org/packages/ae/11/59e26d78cf43841c0e014264c0490913cd2e2a91b7bc1d4bab479d215c53/PyMySQL-1.1.0rc1.tar.gz
+[2024-05-21 13:05:23] INFO root fetch - processPackages [imxInsights]: Downloading https://files.pythonhosted.org/packages/41/8d/3c8e535d422fead866f471d2ce66cc88e103920b5e0810fc1999852d3bdb/imxinsights-0.0.6.dev8.tar.gz
+[2024-05-21 13:05:23] INFO root fetch - processPackages [fisspy]: Downloading https://files.pythonhosted.org/packages/9d/19/b2dee75bfe2d53866c19ee0e57a26e8c4db69f6b22f020326e1be9956cd4/fisspy-1.1.1.tar.gz
+[2024-05-21 13:05:23] WARNING root fetch - processPackages [imxInsights]: Skipping package: exceeds size limit 19223019>=10485760
+[2024-05-21 13:05:23] INFO root fetch - main [MainThread]: End processing [imxInsights] error
+[2024-05-21 13:05:23] INFO root fetch - processPackages [dzidb]: Downloading https://files.pythonhosted.org/packages/ab/7b/1eb783cec2be6c8f5f50400132b6afae58c752421a84c34ef92cb658707b/dzidb-1.1.tar.gz
+[2024-05-21 13:05:23] INFO root fetch - processPackages [outpostcli]: Downloading https://files.pythonhosted.org/packages/df/ab/82b6853cec170d33c2aff19e3a298b0bf56f7ba1b885f6f7d42a10ae43dc/outpostcli-0.0.9.tar.gz
+[2024-05-21 13:05:23] INFO root fetch - processPackages [datasiphon]: Downloading https://files.pythonhosted.org/packages/61/f1/549b7cde0fc5e75d3473d71db0df1c8c7484090e715a58003c73bc130ba5/datasiphon-0.2.8.tar.gz
+[2024-05-21 13:05:23] INFO root fetch - processPackages [dja-sepp]: Downloading https://files.pythonhosted.org/packages/dc/99/79f7c555ed0b9b042fd75f870161596235966a3cd97d490b8314749bc090/dja_sepp-0.1.9.tar.gz
+[2024-05-21 13:05:23] INFO root fetch - processPackages [dzidb]: executing diffoscope
+[2024-05-21 13:05:23] INFO root fetch - processPackages [dzidb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dzidb-1.0.8.tar.gz tmp/dzidb-1.1.tar.gz --markdown 20240521/d/dzidb/1.0.8-1.1/README.md --exclude *.pyd
+[2024-05-21 13:05:23] INFO root fetch - processPackages [outpostcli]: executing diffoscope
+[2024-05-21 13:05:23] INFO root fetch - processPackages [outpostcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/outpostcli-0.0.8.tar.gz tmp/outpostcli-0.0.9.tar.gz --markdown 20240521/o/outpostcli/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-21 13:05:23] INFO root fetch - processPackages [datasiphon]: executing diffoscope
+[2024-05-21 13:05:23] INFO root fetch - processPackages [datasiphon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasiphon-0.2.7.tar.gz tmp/datasiphon-0.2.8.tar.gz --markdown 20240521/d/datasiphon/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-05-21 13:05:23] INFO root fetch - processPackages [PyMySQL]: Downloading https://files.pythonhosted.org/packages/38/be/8e97ee97c1bcca9d231a69333250ef1a66151191f3198d9d3224b4092834/PyMySQL-1.1.0rc2.tar.gz
+[2024-05-21 13:05:23] INFO root fetch - processPackages [dja-sepp]: executing diffoscope
+[2024-05-21 13:05:23] INFO root fetch - processPackages [dja-sepp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dja_sepp-0.1.8.tar.gz tmp/dja_sepp-0.1.9.tar.gz --markdown 20240521/d/dja-sepp/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-21 13:05:23] INFO root fetch - processPackages [fisspy]: Downloading https://files.pythonhosted.org/packages/c9/97/0fb35cdb00073b80e8268a2718971f81ad46089b469d8d8eeb779293943a/fisspy-1.1.2.tar.gz
+[2024-05-21 13:05:23] INFO root fetch - processPackages [PyMySQL]: executing diffoscope
+[2024-05-21 13:05:23] INFO root fetch - processPackages [PyMySQL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyMySQL-1.1.0rc1.tar.gz tmp/PyMySQL-1.1.0rc2.tar.gz --markdown 20240521/P/PyMySQL/1.1.0rc1-1.1.0rc2/README.md --exclude *.pyd
+[2024-05-21 13:05:23] INFO root fetch - processPackages [fisspy]: executing diffoscope
+[2024-05-21 13:05:23] INFO root fetch - processPackages [fisspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fisspy-1.1.1.tar.gz tmp/fisspy-1.1.2.tar.gz --markdown 20240521/f/fisspy/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-05-21 13:05:24] INFO root fetch - processPackages [dzidb]: Remove: archive file [/home/abi/fetcher/tmp/dzidb-1.0.8.tar.gz]
+[2024-05-21 13:05:24] INFO root fetch - processPackages [dzidb]: Remove: archive file [/home/abi/fetcher/tmp/dzidb-1.1.tar.gz]
+[2024-05-21 13:05:24] INFO root fetch - main [MainThread]: End processing [dzidb]: success
+[2024-05-21 13:05:24] INFO root fetch - processPackages [outpostcli]: Remove: archive file [/home/abi/fetcher/tmp/outpostcli-0.0.8.tar.gz]
+[2024-05-21 13:05:24] INFO root fetch - processPackages [outpostcli]: Remove: archive file [/home/abi/fetcher/tmp/outpostcli-0.0.9.tar.gz]
+[2024-05-21 13:05:24] INFO root fetch - main [MainThread]: End processing [outpostcli]: success
+[2024-05-21 13:05:24] INFO root fetch - processPackages [datasiphon]: Remove: archive file [/home/abi/fetcher/tmp/datasiphon-0.2.7.tar.gz]
+[2024-05-21 13:05:24] INFO root fetch - processPackages [datasiphon]: Remove: archive file [/home/abi/fetcher/tmp/datasiphon-0.2.8.tar.gz]
+[2024-05-21 13:05:24] INFO root fetch - main [MainThread]: End processing [datasiphon]: success
+[2024-05-21 13:05:24] INFO root fetch - processPackages [PyMySQL]: Remove: archive file [/home/abi/fetcher/tmp/PyMySQL-1.1.0rc1.tar.gz]
+[2024-05-21 13:05:24] INFO root fetch - processPackages [PyMySQL]: Remove: archive file [/home/abi/fetcher/tmp/PyMySQL-1.1.0rc2.tar.gz]
+[2024-05-21 13:05:24] INFO root fetch - processPackages [dja-sepp]: Remove: archive file [/home/abi/fetcher/tmp/dja_sepp-0.1.8.tar.gz]
+[2024-05-21 13:05:24] INFO root fetch - processPackages [dja-sepp]: Remove: archive file [/home/abi/fetcher/tmp/dja_sepp-0.1.9.tar.gz]
+[2024-05-21 13:05:24] INFO root fetch - main [MainThread]: End processing [PyMySQL]: success
+[2024-05-21 13:05:24] INFO root fetch - main [MainThread]: End processing [dja-sepp]: success
+[2024-05-21 13:05:24] INFO root fetch - processPackages [fisspy]: Remove: archive file [/home/abi/fetcher/tmp/fisspy-1.1.1.tar.gz]
+[2024-05-21 13:05:24] INFO root fetch - processPackages [fisspy]: Remove: archive file [/home/abi/fetcher/tmp/fisspy-1.1.2.tar.gz]
+[2024-05-21 13:05:24] INFO root fetch - main [MainThread]: End processing [fisspy]: success
+[2024-05-21 13:05:24] INFO root fetch - main [MainThread]: Store serial: [23305170]
