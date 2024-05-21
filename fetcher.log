@@ -8417,3 +8417,33 @@
 [2024-05-21 04:33:43] INFO root fetch - processPackages [azure-cli]: Remove: archive file [/home/abi/fetcher/tmp/azure-cli-2.9.1.tar.gz]
 [2024-05-21 04:33:43] INFO root fetch - main [MainThread]: End processing [azure-cli]: success
 [2024-05-21 04:33:43] INFO root fetch - main [MainThread]: Store serial: [23300051]
+[2024-05-21 04:35:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23300051]
+[2024-05-21 04:35:52] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-21 04:35:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: roofAI
+[2024-05-21 04:35:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: multidim-indexing
+[2024-05-21 04:35:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyslth
+[2024-05-21 04:35:52] INFO root fetch - processPackages [pyslth]: New version: [0.4.5] Old Version: [0.4.4]
+[2024-05-21 04:35:52] INFO root fetch - processPackages [multidim-indexing]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-05-21 04:35:52] INFO root fetch - processPackages [pyslth]: Downloading https://files.pythonhosted.org/packages/20/d0/3b63bac1ab71482c2ed9d024125629e19b6b036ad7c0c75ff9e27b9d8a3b/pyslth-0.4.4.tar.gz
+[2024-05-21 04:35:52] INFO root fetch - processPackages [multidim-indexing]: Downloading https://files.pythonhosted.org/packages/ce/91/47f3f82b0885843b77ee3c59c92f4c0a286ae1063f3b48fba8f6233c62b5/multidim_indexing-0.9.1.tar.gz
+[2024-05-21 04:35:52] INFO root fetch - processPackages [roofAI]: New version: [4.21.1] Old Version: [4.20.1]
+[2024-05-21 04:35:53] INFO root fetch - processPackages [multidim-indexing]: Downloading https://files.pythonhosted.org/packages/4b/00/8362004d4f54a9343bbf062e528129fd661248cd50e4441ab58739a4081e/multidim_indexing-0.9.2.tar.gz
+[2024-05-21 04:35:53] INFO root fetch - processPackages [roofAI]: Downloading https://files.pythonhosted.org/packages/58/16/e7dfc86299a5ef7cbebc4543f0c4da585ad618a707d69c575559319fc0fa/roofai-4.20.1.tar.gz
+[2024-05-21 04:35:53] INFO root fetch - processPackages [multidim-indexing]: executing diffoscope
+[2024-05-21 04:35:53] INFO root fetch - processPackages [multidim-indexing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multidim_indexing-0.9.1.tar.gz tmp/multidim_indexing-0.9.2.tar.gz --markdown 20240521/m/multidim-indexing/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-05-21 04:35:53] INFO root fetch - processPackages [pyslth]: Downloading https://files.pythonhosted.org/packages/f5/65/0a2807d49e1542e234fd8c5a3687472a990752960fac70a2eee2bcf29512/pyslth-0.4.5.tar.gz
+[2024-05-21 04:35:53] INFO root fetch - processPackages [roofAI]: Downloading https://files.pythonhosted.org/packages/b1/59/51192254b6e1454846cbb040844e8bca5f8380f88a5b38c82d7b7b366c4f/roofAI-4.21.1.tar.gz
+[2024-05-21 04:35:53] INFO root fetch - processPackages [roofAI]: executing diffoscope
+[2024-05-21 04:35:53] INFO root fetch - processPackages [roofAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roofai-4.20.1.tar.gz tmp/roofAI-4.21.1.tar.gz --markdown 20240521/r/roofAI/4.20.1-4.21.1/README.md --exclude *.pyd
+[2024-05-21 04:35:53] INFO root fetch - processPackages [pyslth]: executing diffoscope
+[2024-05-21 04:35:53] INFO root fetch - processPackages [pyslth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyslth-0.4.4.tar.gz tmp/pyslth-0.4.5.tar.gz --markdown 20240521/p/pyslth/0.4.4-0.4.5/README.md --exclude *.pyd
+[2024-05-21 04:35:53] INFO root fetch - processPackages [multidim-indexing]: Remove: archive file [/home/abi/fetcher/tmp/multidim_indexing-0.9.1.tar.gz]
+[2024-05-21 04:35:53] INFO root fetch - processPackages [multidim-indexing]: Remove: archive file [/home/abi/fetcher/tmp/multidim_indexing-0.9.2.tar.gz]
+[2024-05-21 04:35:53] INFO root fetch - main [MainThread]: End processing [multidim-indexing]: success
+[2024-05-21 04:35:53] INFO root fetch - processPackages [roofAI]: Remove: archive file [/home/abi/fetcher/tmp/roofai-4.20.1.tar.gz]
+[2024-05-21 04:35:53] INFO root fetch - processPackages [roofAI]: Remove: archive file [/home/abi/fetcher/tmp/roofAI-4.21.1.tar.gz]
+[2024-05-21 04:35:54] INFO root fetch - main [MainThread]: End processing [roofAI]: success
+[2024-05-21 04:35:55] INFO root fetch - processPackages [pyslth]: Remove: archive file [/home/abi/fetcher/tmp/pyslth-0.4.4.tar.gz]
+[2024-05-21 04:35:55] INFO root fetch - processPackages [pyslth]: Remove: archive file [/home/abi/fetcher/tmp/pyslth-0.4.5.tar.gz]
+[2024-05-21 04:35:55] INFO root fetch - main [MainThread]: End processing [pyslth]: success
+[2024-05-21 04:35:55] INFO root fetch - main [MainThread]: Store serial: [23300061]
