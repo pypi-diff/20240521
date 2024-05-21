@@ -18396,3 +18396,117 @@
 [2024-05-21 11:29:18] INFO root fetch - processPackages [impsparc]: Remove: archive file [/home/abi/fetcher/tmp/impsparc-3.1.6.tar.gz]
 [2024-05-21 11:29:18] INFO root fetch - main [MainThread]: End processing [impsparc]: success
 [2024-05-21 11:29:18] INFO root fetch - main [MainThread]: Store serial: [23303819]
+[2024-05-21 11:31:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23303819]
+[2024-05-21 11:31:27] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-05-21 11:31:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: galv-harvester
+[2024-05-21 11:31:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: installation-instruction
+[2024-05-21 11:31:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: s3func
+[2024-05-21 11:31:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: whey-pth
+[2024-05-21 11:31:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: NeoBase
+[2024-05-21 11:31:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: luminesce-sdk
+[2024-05-21 11:31:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pytest-django-docker-pg
+[2024-05-21 11:31:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: DIRAC
+[2024-05-21 11:31:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: DatastreamPy
+[2024-05-21 11:31:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dekdjtools
+[2024-05-21 11:31:27] INFO root fetch - processPackages [dekdjtools]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-21 11:31:27] INFO root fetch - processPackages [s3func]: New version: [0.2.0] Old Version: [0.1.5]
+[2024-05-21 11:31:27] INFO root fetch - processPackages [DatastreamPy]: New version: [2.0.26] Old Version: [2.0.25]
+[2024-05-21 11:31:27] INFO root fetch - processPackages [luminesce-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-21 11:31:27] INFO root fetch - processPackages [whey-pth]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-21 11:31:27] INFO root fetch - processPackages [galv-harvester]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-21 11:31:27] INFO root fetch - processPackages [NeoBase]: New version: [0.9] Old Version: [0.8]
+[2024-05-21 11:31:27] INFO root fetch - processPackages [pytest-django-docker-pg]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-21 11:31:27] INFO root fetch - processPackages [luminesce-sdk]: Downloading https://files.pythonhosted.org/packages/e3/65/3696ddb18aebc5d84165e3aad87e9f8ef387ad4f28960b5404833fc6eef5/luminesce_sdk-2.1.8.tar.gz
+[2024-05-21 11:31:27] WARNING root fetch - processPackages [installation-instruction]: Skipping, unable to determine old version
+[2024-05-21 11:31:27] INFO root fetch - processPackages [installation-instruction]: Start processing: openimis-be-opensearch-reports
+[2024-05-21 11:31:27] INFO root fetch - main [MainThread]: End processing [installation-instruction] error
+[2024-05-21 11:31:27] INFO root fetch - processPackages [DIRAC]: New version: [9.0.0a6] Old Version: [9.0.0a5]
+[2024-05-21 11:31:27] INFO root fetch - processPackages [dekdjtools]: Downloading https://files.pythonhosted.org/packages/e4/df/58d5e7aaa205acddbf1ba3c7e480bde075d90f3cf2f9a4ef8b1023fb4c14/dekdjtools-0.1.8.tar.gz
+[2024-05-21 11:31:27] INFO root fetch - processPackages [DatastreamPy]: Downloading https://files.pythonhosted.org/packages/e4/dc/aa081c72d4cf42091e16d83ef356cffe896b594effe52ac899bcf4a568a9/DatastreamPy-2.0.25-py3-none-any.whl
+[2024-05-21 11:31:27] INFO root fetch - processPackages [s3func]: Downloading https://files.pythonhosted.org/packages/6a/8f/fd113b80a5bb13aa910d4aebb31405fa7cdcf97ea6d68ef7bdf46d65e4a6/s3func-0.1.5.tar.gz
+[2024-05-21 11:31:28] INFO root fetch - processPackages [openimis-be-opensearch-reports]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-05-21 11:31:28] INFO root fetch - processPackages [whey-pth]: Downloading https://files.pythonhosted.org/packages/9c/89/5ce287081192f50e0bc7f40bb54c655b1ee6c840ce2d5cadf832814589fe/whey-pth-0.0.5.tar.gz
+[2024-05-21 11:31:28] INFO root fetch - processPackages [NeoBase]: Downloading https://files.pythonhosted.org/packages/b4/53/4b4f01141b8169f2bc36cbab336187c93b3d7c513e01de94771feafd459d/NeoBase-0.8.tar.gz
+[2024-05-21 11:31:28] INFO root fetch - processPackages [pytest-django-docker-pg]: Downloading https://files.pythonhosted.org/packages/02/27/c632e7597f2c243b26d0e63c34b2eee376b18cc2f6780d630799042b0282/pytest_django_docker_pg-0.0.2.tar.gz
+[2024-05-21 11:31:28] INFO root fetch - processPackages [galv-harvester]: Downloading https://files.pythonhosted.org/packages/a6/8c/38b35f5957baad767f0de4a838e6b241e5f2ad68ac45677fb6637398d5d9/galv_harvester-0.1.1.tar.gz
+[2024-05-21 11:31:28] INFO root fetch - processPackages [DIRAC]: Downloading https://files.pythonhosted.org/packages/ad/9c/c979f174feac43a73ee5f2c2733bab67e6c1c61d2f6facb95206e5c1e185/DIRAC-9.0.0a5.tar.gz
+[2024-05-21 11:31:28] INFO root fetch - processPackages [luminesce-sdk]: Downloading https://files.pythonhosted.org/packages/a2/f8/60fd93602c8a8ca95dc7c40c70e8cd0227fcbe0dbb602c1f1f2c4d761b20/luminesce_sdk-2.1.9.tar.gz
+[2024-05-21 11:31:28] INFO root fetch - processPackages [dekdjtools]: Downloading https://files.pythonhosted.org/packages/38/d3/1ea767a7367db4793980cd61bc83abf62a6c7e853f2c1d75e2e4e7070d71/dekdjtools-0.1.9.tar.gz
+[2024-05-21 11:31:28] INFO root fetch - processPackages [DatastreamPy]: Downloading https://files.pythonhosted.org/packages/71/f4/57ac50d319148c6dc17b4a4b8b04ea34b753a5486811046c359cf3c6c4ff/DatastreamPy-2.0.26-py3-none-any.whl
+[2024-05-21 11:31:28] INFO root fetch - processPackages [s3func]: Downloading https://files.pythonhosted.org/packages/31/1b/9f8f0e90a1d210ac361f0ca9a1107398cc1f4b2f5b5f8fa31d81b4c3e76d/s3func-0.2.0.tar.gz
+[2024-05-21 11:31:28] INFO root fetch - processPackages [openimis-be-opensearch-reports]: Downloading https://files.pythonhosted.org/packages/8d/a8/e5855e7a364b38e3505f64df356a4524db8ce47a102c411ae02e9d0be1ca/openimis_be_opensearch_reports-1.1.1.tar.gz
+[2024-05-21 11:31:28] INFO root fetch - processPackages [dekdjtools]: executing diffoscope
+[2024-05-21 11:31:28] INFO root fetch - processPackages [dekdjtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dekdjtools-0.1.8.tar.gz tmp/dekdjtools-0.1.9.tar.gz --markdown 20240521/d/dekdjtools/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-21 11:31:28] INFO root fetch - processPackages [DatastreamPy]: executing diffoscope
+[2024-05-21 11:31:28] INFO root fetch - processPackages [DatastreamPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DatastreamPy-2.0.25-py3-none-any.whl.zip tmp/DatastreamPy-2.0.26-py3-none-any.whl.zip --markdown 20240521/D/DatastreamPy/2.0.25-2.0.26/README.md --exclude *.pyd
+[2024-05-21 11:31:28] INFO root fetch - processPackages [luminesce-sdk]: executing diffoscope
+[2024-05-21 11:31:28] INFO root fetch - processPackages [luminesce-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce_sdk-2.1.8.tar.gz tmp/luminesce_sdk-2.1.9.tar.gz --markdown 20240521/l/luminesce-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-21 11:31:28] INFO root fetch - processPackages [pytest-django-docker-pg]: Downloading https://files.pythonhosted.org/packages/a3/09/671541de8295aefca0c1dd58b49925839046ff76bc460359554e15938636/pytest_django_docker_pg-0.0.3.tar.gz
+[2024-05-21 11:31:28] INFO root fetch - processPackages [s3func]: executing diffoscope
+[2024-05-21 11:31:28] INFO root fetch - processPackages [s3func]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s3func-0.1.5.tar.gz tmp/s3func-0.2.0.tar.gz --markdown 20240521/s/s3func/0.1.5-0.2.0/README.md --exclude *.pyd
+[2024-05-21 11:31:28] INFO root fetch - processPackages [galv-harvester]: Downloading https://files.pythonhosted.org/packages/05/ea/a995407960c1e40fb35af0c6b6b0ede652d9a24ccb97087df54ffc33742e/galv_harvester-0.1.2.tar.gz
+[2024-05-21 11:31:28] INFO root fetch - processPackages [whey-pth]: Downloading https://files.pythonhosted.org/packages/e1/bd/7739004c5c9447843e0d19d987e2fd7c0da72f6df9bf4e32c581482f2e9f/whey-pth-0.0.6.tar.gz
+[2024-05-21 11:31:28] INFO root fetch - processPackages [pytest-django-docker-pg]: executing diffoscope
+[2024-05-21 11:31:28] INFO root fetch - processPackages [pytest-django-docker-pg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_django_docker_pg-0.0.2.tar.gz tmp/pytest_django_docker_pg-0.0.3.tar.gz --markdown 20240521/p/pytest-django-docker-pg/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-21 11:31:28] INFO root fetch - processPackages [whey-pth]: executing diffoscope
+[2024-05-21 11:31:28] INFO root fetch - processPackages [whey-pth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whey-pth-0.0.5.tar.gz tmp/whey-pth-0.0.6.tar.gz --markdown 20240521/w/whey-pth/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-21 11:31:28] INFO root fetch - processPackages [galv-harvester]: executing diffoscope
+[2024-05-21 11:31:28] INFO root fetch - processPackages [galv-harvester]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galv_harvester-0.1.1.tar.gz tmp/galv_harvester-0.1.2.tar.gz --markdown 20240521/g/galv-harvester/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-21 11:31:28] INFO root fetch - processPackages [NeoBase]: Downloading https://files.pythonhosted.org/packages/1c/f1/8a7eff769f23a3a8cfc58c10f83fd688a54ca4051adf2fc99487632e3c4b/NeoBase-0.9.tar.gz
+[2024-05-21 11:31:28] INFO root fetch - processPackages [openimis-be-opensearch-reports]: Downloading https://files.pythonhosted.org/packages/8e/13/851a459ae535bd607944bbad0c6f49314fe9e3c4ffda9da0956c7bc2d619/openimis_be_opensearch_reports-1.1.2.tar.gz
+[2024-05-21 11:31:28] INFO root fetch - processPackages [DIRAC]: Downloading https://files.pythonhosted.org/packages/b8/3e/fa2f2d42ca920c7c6d58ddb4efeb78b34db35d4b6d3339847ac497bfc58f/DIRAC-9.0.0a6.tar.gz
+[2024-05-21 11:31:29] INFO root fetch - processPackages [openimis-be-opensearch-reports]: executing diffoscope
+[2024-05-21 11:31:29] INFO root fetch - processPackages [openimis-be-opensearch-reports]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openimis_be_opensearch_reports-1.1.1.tar.gz tmp/openimis_be_opensearch_reports-1.1.2.tar.gz --markdown 20240521/o/openimis-be-opensearch-reports/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-05-21 11:31:29] INFO root fetch - processPackages [NeoBase]: executing diffoscope
+[2024-05-21 11:31:29] INFO root fetch - processPackages [NeoBase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NeoBase-0.8.tar.gz tmp/NeoBase-0.9.tar.gz --markdown 20240521/N/NeoBase/0.8-0.9/README.md --exclude *.pyd
+[2024-05-21 11:31:29] INFO root fetch - processPackages [DIRAC]: executing diffoscope
+[2024-05-21 11:31:29] INFO root fetch - processPackages [DIRAC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DIRAC-9.0.0a5.tar.gz tmp/DIRAC-9.0.0a6.tar.gz --markdown 20240521/D/DIRAC/9.0.0a5-9.0.0a6/README.md --exclude *.pyd
+[2024-05-21 11:31:29] INFO root fetch - processPackages [dekdjtools]: Remove: archive file [/home/abi/fetcher/tmp/dekdjtools-0.1.8.tar.gz]
+[2024-05-21 11:31:29] INFO root fetch - processPackages [dekdjtools]: Remove: archive file [/home/abi/fetcher/tmp/dekdjtools-0.1.9.tar.gz]
+[2024-05-21 11:31:29] INFO root fetch - processPackages [dekdjtools]: Start processing: ansys-api-pyensight
+[2024-05-21 11:31:29] INFO root fetch - main [MainThread]: End processing [dekdjtools]: success
+[2024-05-21 11:31:29] INFO root fetch - processPackages [ansys-api-pyensight]: New version: [0.5.0.dev0] Old Version: [0.4.0]
+[2024-05-21 11:31:29] INFO root fetch - processPackages [s3func]: Remove: archive file [/home/abi/fetcher/tmp/s3func-0.1.5.tar.gz]
+[2024-05-21 11:31:29] INFO root fetch - processPackages [s3func]: Remove: archive file [/home/abi/fetcher/tmp/s3func-0.2.0.tar.gz]
+[2024-05-21 11:31:29] INFO root fetch - processPackages [s3func]: Start processing: hyjinx
+[2024-05-21 11:31:29] INFO root fetch - main [MainThread]: End processing [s3func]: success
+[2024-05-21 11:31:29] INFO root fetch - processPackages [pytest-django-docker-pg]: Remove: archive file [/home/abi/fetcher/tmp/pytest_django_docker_pg-0.0.2.tar.gz]
+[2024-05-21 11:31:29] INFO root fetch - processPackages [pytest-django-docker-pg]: Remove: archive file [/home/abi/fetcher/tmp/pytest_django_docker_pg-0.0.3.tar.gz]
+[2024-05-21 11:31:29] INFO root fetch - main [MainThread]: End processing [pytest-django-docker-pg]: success
+[2024-05-21 11:31:29] INFO root fetch - processPackages [hyjinx]: New version: [0.29.1] Old Version: [0.29.0]
+[2024-05-21 11:31:29] INFO root fetch - processPackages [whey-pth]: Remove: archive file [/home/abi/fetcher/tmp/whey-pth-0.0.5.tar.gz]
+[2024-05-21 11:31:29] INFO root fetch - processPackages [whey-pth]: Remove: archive file [/home/abi/fetcher/tmp/whey-pth-0.0.6.tar.gz]
+[2024-05-21 11:31:29] INFO root fetch - main [MainThread]: End processing [whey-pth]: success
+[2024-05-21 11:31:29] INFO root fetch - processPackages [DatastreamPy]: Remove: archive file [/home/abi/fetcher/tmp/DatastreamPy-2.0.25-py3-none-any.whl.zip]
+[2024-05-21 11:31:29] INFO root fetch - processPackages [DatastreamPy]: Remove: archive file [/home/abi/fetcher/tmp/DatastreamPy-2.0.26-py3-none-any.whl.zip]
+[2024-05-21 11:31:29] INFO root fetch - main [MainThread]: End processing [DatastreamPy]: success
+[2024-05-21 11:31:29] INFO root fetch - processPackages [ansys-api-pyensight]: Downloading https://files.pythonhosted.org/packages/91/9f/3fddd2d8c7c31a66abaeaeebf40fee97c233d7ef3c33cbe452414b67be39/ansys-api-pyensight-0.4.0.tar.gz
+[2024-05-21 11:31:29] INFO root fetch - processPackages [galv-harvester]: Remove: archive file [/home/abi/fetcher/tmp/galv_harvester-0.1.1.tar.gz]
+[2024-05-21 11:31:29] INFO root fetch - processPackages [galv-harvester]: Remove: archive file [/home/abi/fetcher/tmp/galv_harvester-0.1.2.tar.gz]
+[2024-05-21 11:31:29] INFO root fetch - main [MainThread]: End processing [galv-harvester]: success
+[2024-05-21 11:31:29] INFO root fetch - processPackages [hyjinx]: Downloading https://files.pythonhosted.org/packages/45/d2/f36d46419bc7399b2b2d78ca94941d2a0f9e79b06b268409443483172387/hyjinx-0.29.0.tar.gz
+[2024-05-21 11:31:29] INFO root fetch - processPackages [luminesce-sdk]: Remove: archive file [/home/abi/fetcher/tmp/luminesce_sdk-2.1.8.tar.gz]
+[2024-05-21 11:31:29] INFO root fetch - processPackages [luminesce-sdk]: Remove: archive file [/home/abi/fetcher/tmp/luminesce_sdk-2.1.9.tar.gz]
+[2024-05-21 11:31:29] INFO root fetch - main [MainThread]: End processing [luminesce-sdk]: success
+[2024-05-21 11:31:30] INFO root fetch - processPackages [openimis-be-opensearch-reports]: Remove: archive file [/home/abi/fetcher/tmp/openimis_be_opensearch_reports-1.1.1.tar.gz]
+[2024-05-21 11:31:30] INFO root fetch - processPackages [openimis-be-opensearch-reports]: Remove: archive file [/home/abi/fetcher/tmp/openimis_be_opensearch_reports-1.1.2.tar.gz]
+[2024-05-21 11:31:30] INFO root fetch - main [MainThread]: End processing [openimis-be-opensearch-reports]: success
+[2024-05-21 11:31:30] INFO root fetch - processPackages [hyjinx]: Downloading https://files.pythonhosted.org/packages/fc/3b/7bfd86123bd6936bb513d80324243f9732ad7c914fda43a507a6a1efb3f9/hyjinx-0.29.1.tar.gz
+[2024-05-21 11:31:30] INFO root fetch - processPackages [ansys-api-pyensight]: Downloading https://files.pythonhosted.org/packages/1d/4d/74f2aacccff9667904ef55fa81fe28475605f643e2ec53044ac86d291849/ansys-api-pyensight-0.5.0.dev0.tar.gz
+[2024-05-21 11:31:30] INFO root fetch - processPackages [hyjinx]: executing diffoscope
+[2024-05-21 11:31:30] INFO root fetch - processPackages [hyjinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyjinx-0.29.0.tar.gz tmp/hyjinx-0.29.1.tar.gz --markdown 20240521/h/hyjinx/0.29.0-0.29.1/README.md --exclude *.pyd
+[2024-05-21 11:31:30] INFO root fetch - processPackages [ansys-api-pyensight]: executing diffoscope
+[2024-05-21 11:31:30] INFO root fetch - processPackages [ansys-api-pyensight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys-api-pyensight-0.4.0.tar.gz tmp/ansys-api-pyensight-0.5.0.dev0.tar.gz --markdown 20240521/a/ansys-api-pyensight/0.4.0-0.5.0.dev0/README.md --exclude *.pyd
+[2024-05-21 11:31:31] INFO root fetch - processPackages [hyjinx]: Remove: archive file [/home/abi/fetcher/tmp/hyjinx-0.29.0.tar.gz]
+[2024-05-21 11:31:31] INFO root fetch - processPackages [hyjinx]: Remove: archive file [/home/abi/fetcher/tmp/hyjinx-0.29.1.tar.gz]
+[2024-05-21 11:31:31] INFO root fetch - main [MainThread]: End processing [hyjinx]: success
+[2024-05-21 11:31:31] INFO root fetch - processPackages [NeoBase]: Remove: archive file [/home/abi/fetcher/tmp/NeoBase-0.8.tar.gz]
+[2024-05-21 11:31:31] INFO root fetch - processPackages [NeoBase]: Remove: archive file [/home/abi/fetcher/tmp/NeoBase-0.9.tar.gz]
+[2024-05-21 11:31:31] INFO root fetch - main [MainThread]: End processing [NeoBase]: success
+[2024-05-21 11:31:34] INFO root fetch - processPackages [DIRAC]: Remove: archive file [/home/abi/fetcher/tmp/DIRAC-9.0.0a5.tar.gz]
+[2024-05-21 11:31:34] INFO root fetch - processPackages [DIRAC]: Remove: archive file [/home/abi/fetcher/tmp/DIRAC-9.0.0a6.tar.gz]
+[2024-05-21 11:31:34] INFO root fetch - main [MainThread]: End processing [DIRAC]: success
+[2024-05-21 11:31:36] INFO root fetch - processPackages [ansys-api-pyensight]: Remove: archive file [/home/abi/fetcher/tmp/ansys-api-pyensight-0.4.0.tar.gz]
+[2024-05-21 11:31:36] INFO root fetch - processPackages [ansys-api-pyensight]: Remove: archive file [/home/abi/fetcher/tmp/ansys-api-pyensight-0.5.0.dev0.tar.gz]
+[2024-05-21 11:31:36] INFO root fetch - main [MainThread]: End processing [ansys-api-pyensight]: success
+[2024-05-21 11:31:36] INFO root fetch - main [MainThread]: Store serial: [23303856]
