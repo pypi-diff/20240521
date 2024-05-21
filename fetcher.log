@@ -19410,3 +19410,99 @@
 [2024-05-21 12:00:02] INFO root fetch - processPackages [tf-keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_keras_nightly-2.17.0.dev2024052009.tar.gz]
 [2024-05-21 12:00:02] INFO root fetch - main [MainThread]: End processing [tf-keras-nightly]: success
 [2024-05-21 12:00:02] INFO root fetch - main [MainThread]: Store serial: [23304283]
+[2024-05-21 12:02:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23304283]
+[2024-05-21 12:02:12] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-21 12:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: z3c.password
+[2024-05-21 12:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: datapools
+[2024-05-21 12:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: neuro-sdk
+[2024-05-21 12:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: calculate-savings
+[2024-05-21 12:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: neuro-cli
+[2024-05-21 12:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: markdownfeedgenerator
+[2024-05-21 12:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdlib
+[2024-05-21 12:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Highlighting-atoms-rdkit
+[2024-05-21 12:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: audiostack
+[2024-05-21 12:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: zeekscript
+[2024-05-21 12:02:12] INFO root fetch - processPackages [z3c.password]: New version: [2.0] Old Version: [1.1.0]
+[2024-05-21 12:02:12] INFO root fetch - processPackages [markdownfeedgenerator]: New version: [2.3.0] Old Version: [2.2.0]
+[2024-05-21 12:02:12] INFO root fetch - processPackages [calculate-savings]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-21 12:02:12] INFO root fetch - processPackages [datapools]: New version: [1.0.58] Old Version: [1.0.57]
+[2024-05-21 12:02:12] INFO root fetch - processPackages [markdownfeedgenerator]: Downloading https://files.pythonhosted.org/packages/fb/ae/941dc8aa54a67a6ed3079003aa026400bf3db376b3af7f1f9dc868a8dd40/markdownfeedgenerator-2.2.0-py3-none-any.whl
+[2024-05-21 12:02:12] INFO root fetch - processPackages [z3c.password]: Downloading https://files.pythonhosted.org/packages/92/b3/78f760fa983d9eeff0f28f58a3ff197195ae45c50e5bd04ebb4e103535e2/z3c.password-1.1.0.tar.gz
+[2024-05-21 12:02:12] INFO root fetch - processPackages [neuro-cli]: New version: [24.5.0] Old Version: [24.2.0]
+[2024-05-21 12:02:12] INFO root fetch - processPackages [neuro-sdk]: New version: [24.5.0] Old Version: [24.2.0]
+[2024-05-21 12:02:12] INFO root fetch - processPackages [cdlib]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-05-21 12:02:12] WARNING root fetch - processPackages [Highlighting-atoms-rdkit]: Skipping, unable to determine old version
+[2024-05-21 12:02:12] INFO root fetch - processPackages [Highlighting-atoms-rdkit]: Start processing: calculate-savings
+[2024-05-21 12:02:12] INFO root fetch - main [MainThread]: End processing [Highlighting-atoms-rdkit] error
+[2024-05-21 12:02:12] INFO root fetch - processPackages [calculate-savings]: Downloading https://files.pythonhosted.org/packages/95/29/ef4ad00fbe6362dc38686286148ad60774a94a05f26d8f63c6cee54de951/calculate_savings-0.0.3.tar.gz
+[2024-05-21 12:02:12] INFO root fetch - processPackages [audiostack]: New version: [2.0.0a0] Old Version: [1.3.1]
+[2024-05-21 12:02:12] INFO root fetch - processPackages [datapools]: Downloading https://files.pythonhosted.org/packages/ba/e9/2d70288f94219487dd6a23bccfd537b780f35235a489581a51ae6bd9081f/datapools-1.0.57.tar.gz
+[2024-05-21 12:02:12] INFO root fetch - processPackages [calculate-savings]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-21 12:02:12] INFO root fetch - processPackages [cdlib]: Downloading https://files.pythonhosted.org/packages/58/63/22c6b3c3e8b7994a62f08505ec671e4d611148c88362d71e3be79de4327d/cdlib-0.3.0.tar.gz
+[2024-05-21 12:02:12] INFO root fetch - processPackages [zeekscript]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-05-21 12:02:12] INFO root fetch - processPackages [neuro-cli]: Downloading https://files.pythonhosted.org/packages/30/4c/ad563f0b066dcf7be02f96a084af3137cdae0733ea56e84b2c85a26d71b7/neuro-cli-24.2.0.tar.gz
+[2024-05-21 12:02:12] INFO root fetch - processPackages [neuro-sdk]: Downloading https://files.pythonhosted.org/packages/45/4a/2438f03de18bb6ef808a3d2081b134c321288671c7fbdf8eddf593b6e5fd/neuro-sdk-24.2.0.tar.gz
+[2024-05-21 12:02:12] INFO root fetch - processPackages [audiostack]: Downloading https://files.pythonhosted.org/packages/bf/63/3ad7ee2d9a2d4599420024bbe3ca423b4646b623fb5d0c6e570992b38588/audiostack-1.3.1.tar.gz
+[2024-05-21 12:02:12] INFO root fetch - processPackages [z3c.password]: Downloading https://files.pythonhosted.org/packages/a5/69/552b2a857c4d1baa8b307dd6605f89921f8f14ddcff84f6eeb62332549a1/z3c.password-2.0.tar.gz
+[2024-05-21 12:02:12] INFO root fetch - processPackages [markdownfeedgenerator]: Downloading https://files.pythonhosted.org/packages/9c/c0/fa8afe71acf112f3bdc62c2040eab9da6815d99a7c1061882b7fcb5677d4/markdownfeedgenerator-2.3.0-py3-none-any.whl
+[2024-05-21 12:02:12] INFO root fetch - processPackages [calculate-savings]: Downloading https://files.pythonhosted.org/packages/c4/2f/16cbb194a60132ae20f32a6352257e2e2a4e0f53c2fd7adcfce75f831961/calculate_savings-0.0.5.tar.gz
+[2024-05-21 12:02:12] INFO root fetch - processPackages [datapools]: Downloading https://files.pythonhosted.org/packages/b6/ff/e9ed087d746d9cf4d41c787d97b07ee8ac4e4e210a4f2c47bf0317914567/datapools-1.0.58.tar.gz
+[2024-05-21 12:02:12] INFO root fetch - processPackages [calculate-savings]: Downloading https://files.pythonhosted.org/packages/fa/a4/4438d4817df7ee31797ddbf67bac5363ea1d84774f623dd93c7159d4f6c2/calculate_savings-0.0.4.tar.gz
+[2024-05-21 12:02:12] INFO root fetch - processPackages [z3c.password]: executing diffoscope
+[2024-05-21 12:02:12] INFO root fetch - processPackages [z3c.password]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/z3c.password-1.1.0.tar.gz tmp/z3c.password-2.0.tar.gz --markdown 20240521/z/z3c.password/1.1.0-2.0/README.md --exclude *.pyd
+[2024-05-21 12:02:12] INFO root fetch - processPackages [zeekscript]: Downloading https://files.pythonhosted.org/packages/5d/bb/3ddd139285a60eb8fa42edb346677299cc0f5f2227f07067dd3fc76fda1c/zeekscript-1.2.8.tar.gz
+[2024-05-21 12:02:13] INFO root fetch - processPackages [markdownfeedgenerator]: executing diffoscope
+[2024-05-21 12:02:13] INFO root fetch - processPackages [markdownfeedgenerator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/markdownfeedgenerator-2.2.0-py3-none-any.whl.zip tmp/markdownfeedgenerator-2.3.0-py3-none-any.whl.zip --markdown 20240521/m/markdownfeedgenerator/2.2.0-2.3.0/README.md --exclude *.pyd
+[2024-05-21 12:02:13] INFO root fetch - processPackages [datapools]: executing diffoscope
+[2024-05-21 12:02:13] INFO root fetch - processPackages [datapools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datapools-1.0.57.tar.gz tmp/datapools-1.0.58.tar.gz --markdown 20240521/d/datapools/1.0.57-1.0.58/README.md --exclude *.pyd
+[2024-05-21 12:02:13] INFO root fetch - processPackages [calculate-savings]: executing diffoscope
+[2024-05-21 12:02:13] INFO root fetch - processPackages [calculate-savings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calculate_savings-0.0.3.tar.gz tmp/calculate_savings-0.0.4.tar.gz --markdown 20240521/c/calculate-savings/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-21 12:02:13] INFO root fetch - processPackages [audiostack]: Downloading https://files.pythonhosted.org/packages/da/30/78f0e1e94553d7d74b97108e52d364ce9149d40d8d279db3012b0ef60430/audiostack-2.0.0a0.tar.gz
+[2024-05-21 12:02:13] INFO root fetch - processPackages [cdlib]: Downloading https://files.pythonhosted.org/packages/10/72/64bdcd311cb3a3727663d2e4798efd4efb1645a4d38264b1a38b757aab3a/cdlib-0.4.0.tar.gz
+[2024-05-21 12:02:13] INFO root fetch - processPackages [neuro-cli]: Downloading https://files.pythonhosted.org/packages/29/76/1af6690ccb97eb0227cbe5c7060020d57531103a5549f998e10d6de5561b/neuro_cli-24.5.0.tar.gz
+[2024-05-21 12:02:13] INFO root fetch - processPackages [neuro-sdk]: Downloading https://files.pythonhosted.org/packages/96/ae/2cebf4be581e89a1b333cb9354221269bdd4d85544ee8e42d2a0279b05d6/neuro_sdk-24.5.0.tar.gz
+[2024-05-21 12:02:13] INFO root fetch - processPackages [calculate-savings]: Downloading https://files.pythonhosted.org/packages/8f/f5/adc426bddd326828c03d48250b01664fc9a8ce1d2c9f83b9853c56a6c665/calculate_savings-0.0.6.tar.gz
+[2024-05-21 12:02:13] INFO root fetch - processPackages [audiostack]: executing diffoscope
+[2024-05-21 12:02:13] INFO root fetch - processPackages [audiostack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audiostack-1.3.1.tar.gz tmp/audiostack-2.0.0a0.tar.gz --markdown 20240521/a/audiostack/1.3.1-2.0.0a0/README.md --exclude *.pyd
+[2024-05-21 12:02:13] INFO root fetch - processPackages [cdlib]: executing diffoscope
+[2024-05-21 12:02:13] INFO root fetch - processPackages [cdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdlib-0.3.0.tar.gz tmp/cdlib-0.4.0.tar.gz --markdown 20240521/c/cdlib/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-05-21 12:02:13] INFO root fetch - processPackages [zeekscript]: Downloading https://files.pythonhosted.org/packages/6f/3f/b9bb1a58ced9cdf8b6a6ff3bddc58996d4e9b6658ef8b70039015f24f4bf/zeekscript-1.2.9-cp312-cp312-musllinux_1_1_i686.whl
+[2024-05-21 12:02:13] INFO root fetch - processPackages [neuro-cli]: executing diffoscope
+[2024-05-21 12:02:13] INFO root fetch - processPackages [neuro-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuro-cli-24.2.0.tar.gz tmp/neuro_cli-24.5.0.tar.gz --markdown 20240521/n/neuro-cli/24.2.0-24.5.0/README.md --exclude *.pyd
+[2024-05-21 12:02:13] INFO root fetch - processPackages [neuro-sdk]: executing diffoscope
+[2024-05-21 12:02:13] INFO root fetch - processPackages [neuro-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuro-sdk-24.2.0.tar.gz tmp/neuro_sdk-24.5.0.tar.gz --markdown 20240521/n/neuro-sdk/24.2.0-24.5.0/README.md --exclude *.pyd
+[2024-05-21 12:02:13] INFO root fetch - processPackages [calculate-savings]: executing diffoscope
+[2024-05-21 12:02:13] INFO root fetch - processPackages [calculate-savings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calculate_savings-0.0.5.tar.gz tmp/calculate_savings-0.0.6.tar.gz --markdown 20240521/c/calculate-savings/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-21 12:02:14] INFO root fetch - processPackages [zeekscript]: executing diffoscope
+[2024-05-21 12:02:14] INFO root fetch - processPackages [zeekscript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zeekscript-1.2.8.tar.gz tmp/zeekscript-1.2.9-cp312-cp312-musllinux_1_1_i686.whl.zip --markdown 20240521/z/zeekscript/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-05-21 12:02:14] INFO root fetch - processPackages [calculate-savings]: Remove: archive file [/home/abi/fetcher/tmp/calculate_savings-0.0.3.tar.gz]
+[2024-05-21 12:02:14] INFO root fetch - processPackages [calculate-savings]: Remove: archive file [/home/abi/fetcher/tmp/calculate_savings-0.0.4.tar.gz]
+[2024-05-21 12:02:14] INFO root fetch - main [MainThread]: End processing [calculate-savings]: success
+[2024-05-21 12:02:14] INFO root fetch - processPackages [z3c.password]: Remove: archive file [/home/abi/fetcher/tmp/z3c.password-1.1.0.tar.gz]
+[2024-05-21 12:02:14] INFO root fetch - processPackages [z3c.password]: Remove: archive file [/home/abi/fetcher/tmp/z3c.password-2.0.tar.gz]
+[2024-05-21 12:02:14] INFO root fetch - main [MainThread]: End processing [z3c.password]: success
+[2024-05-21 12:02:14] INFO root fetch - processPackages [markdownfeedgenerator]: Remove: archive file [/home/abi/fetcher/tmp/markdownfeedgenerator-2.2.0-py3-none-any.whl.zip]
+[2024-05-21 12:02:14] INFO root fetch - processPackages [markdownfeedgenerator]: Remove: archive file [/home/abi/fetcher/tmp/markdownfeedgenerator-2.3.0-py3-none-any.whl.zip]
+[2024-05-21 12:02:14] INFO root fetch - main [MainThread]: End processing [markdownfeedgenerator]: success
+[2024-05-21 12:02:14] INFO root fetch - processPackages [datapools]: Remove: archive file [/home/abi/fetcher/tmp/datapools-1.0.57.tar.gz]
+[2024-05-21 12:02:14] INFO root fetch - processPackages [datapools]: Remove: archive file [/home/abi/fetcher/tmp/datapools-1.0.58.tar.gz]
+[2024-05-21 12:02:14] INFO root fetch - main [MainThread]: End processing [datapools]: success
+[2024-05-21 12:02:14] INFO root fetch - processPackages [audiostack]: Remove: archive file [/home/abi/fetcher/tmp/audiostack-1.3.1.tar.gz]
+[2024-05-21 12:02:14] INFO root fetch - processPackages [audiostack]: Remove: archive file [/home/abi/fetcher/tmp/audiostack-2.0.0a0.tar.gz]
+[2024-05-21 12:02:14] INFO root fetch - main [MainThread]: End processing [audiostack]: success
+[2024-05-21 12:02:14] INFO root fetch - processPackages [calculate-savings]: Remove: archive file [/home/abi/fetcher/tmp/calculate_savings-0.0.5.tar.gz]
+[2024-05-21 12:02:14] INFO root fetch - processPackages [calculate-savings]: Remove: archive file [/home/abi/fetcher/tmp/calculate_savings-0.0.6.tar.gz]
+[2024-05-21 12:02:14] INFO root fetch - main [MainThread]: End processing [calculate-savings]: success
+[2024-05-21 12:02:15] INFO root fetch - processPackages [cdlib]: Remove: archive file [/home/abi/fetcher/tmp/cdlib-0.3.0.tar.gz]
+[2024-05-21 12:02:15] INFO root fetch - processPackages [cdlib]: Remove: archive file [/home/abi/fetcher/tmp/cdlib-0.4.0.tar.gz]
+[2024-05-21 12:02:15] INFO root fetch - main [MainThread]: End processing [cdlib]: success
+[2024-05-21 12:02:15] INFO root fetch - processPackages [neuro-sdk]: Remove: archive file [/home/abi/fetcher/tmp/neuro-sdk-24.2.0.tar.gz]
+[2024-05-21 12:02:15] INFO root fetch - processPackages [neuro-sdk]: Remove: archive file [/home/abi/fetcher/tmp/neuro_sdk-24.5.0.tar.gz]
+[2024-05-21 12:02:15] INFO root fetch - main [MainThread]: End processing [neuro-sdk]: success
+[2024-05-21 12:02:15] INFO root fetch - processPackages [zeekscript]: Remove: archive file [/home/abi/fetcher/tmp/zeekscript-1.2.8.tar.gz]
+[2024-05-21 12:02:15] INFO root fetch - processPackages [zeekscript]: Remove: archive file [/home/abi/fetcher/tmp/zeekscript-1.2.9-cp312-cp312-musllinux_1_1_i686.whl.zip]
+[2024-05-21 12:02:15] INFO root fetch - main [MainThread]: End processing [zeekscript]: success
+[2024-05-21 12:02:16] INFO root fetch - processPackages [neuro-cli]: Remove: archive file [/home/abi/fetcher/tmp/neuro-cli-24.2.0.tar.gz]
+[2024-05-21 12:02:16] INFO root fetch - processPackages [neuro-cli]: Remove: archive file [/home/abi/fetcher/tmp/neuro_cli-24.5.0.tar.gz]
+[2024-05-21 12:02:16] INFO root fetch - main [MainThread]: End processing [neuro-cli]: success
+[2024-05-21 12:02:16] INFO root fetch - main [MainThread]: Store serial: [23304334]
