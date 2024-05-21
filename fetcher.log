@@ -14240,3 +14240,87 @@
 [2024-05-21 09:01:19] INFO root fetch - processPackages [xcloudforlinux]: Remove: archive file [/home/abi/fetcher/tmp/xcloudforlinux-0.3.3.tar.gz]
 [2024-05-21 09:01:19] INFO root fetch - main [MainThread]: End processing [xcloudforlinux]: success
 [2024-05-21 09:01:19] INFO root fetch - main [MainThread]: Store serial: [23302279]
+[2024-05-21 09:03:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23302279]
+[2024-05-21 09:03:28] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-21 09:03:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tf-models-nightly
+[2024-05-21 09:03:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ridgeplot-py
+[2024-05-21 09:03:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gotranx
+[2024-05-21 09:03:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: data-prep-toolkit-kfp
+[2024-05-21 09:03:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: seqio-nightly
+[2024-05-21 09:03:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ix-notifiers
+[2024-05-21 09:03:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Gefyra
+[2024-05-21 09:03:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: benchmark-runner
+[2024-05-21 09:03:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pms-encoder
+[2024-05-21 09:03:28] INFO root fetch - processPackages [ridgeplot-py]: New version: [0.2.7] Old Version: [0.2.5]
+[2024-05-21 09:03:28] INFO root fetch - processPackages [tf-models-nightly]: New version: [2.9.0.dev20220920] Old Version: [2.9.0.dev20220919]
+[2024-05-21 09:03:28] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2024-05-21 09:03:28] INFO root fetch - processPackages [data-prep-toolkit-kfp]: New version: [0.1.0] Old Version: [0.0.1.dev34]
+[2024-05-21 09:03:28] INFO root fetch - processPackages [gotranx]: New version: [0.3.6] Old Version: [0.3.5]
+[2024-05-21 09:03:28] INFO root fetch - processPackages [ix-notifiers]: New version: [0.0.259196408] Old Version: [0.0.259192762]
+[2024-05-21 09:03:28] INFO root fetch - processPackages [Gefyra]: New version: [2.1.5] Old Version: [2.1.4]
+[2024-05-21 09:03:28] INFO root fetch - processPackages [pms-encoder]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-21 09:03:28] INFO root fetch - processPackages [ridgeplot-py]: Downloading https://files.pythonhosted.org/packages/20/74/45f11c01898d0e103b34fd2306c4004a95c71de6c08264f87c2dec99ae07/ridgeplot_py-0.2.5.tar.gz
+[2024-05-21 09:03:28] INFO root fetch - processPackages [tf-models-nightly]: Downloading https://files.pythonhosted.org/packages/73/e9/06af7a12cda1722ec668213b9e91a8a2e918011d3ef8e9a98146ee4f76ef/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl
+[2024-05-21 09:03:28] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/43/a0/f60ad514b6f8534fa5ba8cc5fcc2a8f2e32e7d06d2dbfd43b12c2cb29931/seqio-nightly-0.0.8.dev20220906.tar.gz
+[2024-05-21 09:03:28] INFO root fetch - processPackages [benchmark-runner]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-05-21 09:03:28] INFO root fetch - processPackages [data-prep-toolkit-kfp]: Downloading https://files.pythonhosted.org/packages/dd/4e/c4ad20b748fd442af495202a303298e3582c90a766db805cd5df6b918a99/data_prep_toolkit_kfp-0.0.1.dev34.tar.gz
+[2024-05-21 09:03:28] INFO root fetch - processPackages [gotranx]: Downloading https://files.pythonhosted.org/packages/5f/56/66f6283a7fa952e442a20ba535bbc1c0789a7f1ea68474c34bed8962ec3f/gotranx-0.3.5.tar.gz
+[2024-05-21 09:03:28] INFO root fetch - processPackages [ix-notifiers]: Downloading https://files.pythonhosted.org/packages/d5/3c/31890e32c1e1883420e4340c6f6425d0d259bc936e595fbb818dec4789bd/ix-notifiers-0.0.259192762.tar.gz
+[2024-05-21 09:03:28] INFO root fetch - processPackages [ridgeplot-py]: Downloading https://files.pythonhosted.org/packages/e7/14/bb758171a01e8f64360499106b1ba233cea7568a178936af65e798637e5a/ridgeplot_py-0.2.7.tar.gz
+[2024-05-21 09:03:28] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/80/f1/88f2f54188c15bf6cca5ba7a3a347b8d1c83b15a626f541acf3dde5aa63d/pms_encoder-0.0.8.tar.gz
+[2024-05-21 09:03:28] INFO root fetch - processPackages [Gefyra]: Downloading https://files.pythonhosted.org/packages/6e/7c/d03846b5aee52d7b02a999515ceef2034b754de6ff9ba9ef2177beedab69/gefyra-2.1.4.tar.gz
+[2024-05-21 09:03:28] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/2a/76/25f4c7602cdd724deac948a914e454756abfad2119a525c06d9ce341b918/seqio-nightly-0.0.8.dev20220907.tar.gz
+[2024-05-21 09:03:28] INFO root fetch - processPackages [benchmark-runner]: Downloading https://files.pythonhosted.org/packages/68/c2/3af8e8485f9abfd8f28512408ea35af542ce46eaf6c71c9da44e966b20f2/benchmark-runner-1.0.98.tar.gz
+[2024-05-21 09:03:28] INFO root fetch - processPackages [ridgeplot-py]: executing diffoscope
+[2024-05-21 09:03:28] INFO root fetch - processPackages [ridgeplot-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ridgeplot_py-0.2.5.tar.gz tmp/ridgeplot_py-0.2.7.tar.gz --markdown 20240521/r/ridgeplot-py/0.2.5-0.2.7/README.md --exclude *.pyd
+[2024-05-21 09:03:29] INFO root fetch - processPackages [tf-models-nightly]: Downloading https://files.pythonhosted.org/packages/e2/76/79c5fb2cd23f346ee912b9c289c2a9bab6fc8d178658f931ac9a023224c6/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl
+[2024-05-21 09:03:29] INFO root fetch - processPackages [data-prep-toolkit-kfp]: Downloading https://files.pythonhosted.org/packages/c5/c8/8d6d7be956979a103c6894ce424548dff678de6bfc85be8018d305469e67/data_prep_toolkit_kfp-0.1.0.tar.gz
+[2024-05-21 09:03:29] INFO root fetch - processPackages [Gefyra]: Downloading https://files.pythonhosted.org/packages/c2/ae/6a484efc6aa7b2d0975b41fc3f31f9d46c74ed1c3b05e49190a77c9a6eb8/gefyra-2.1.5.tar.gz
+[2024-05-21 09:03:29] INFO root fetch - processPackages [gotranx]: Downloading https://files.pythonhosted.org/packages/d7/2c/2e89e6406ca834bfdc09229088544d3cf12d13305a12de47808c61b79b27/gotranx-0.3.6.tar.gz
+[2024-05-21 09:03:29] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2024-05-21 09:03:29] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20240521/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/README.md --exclude *.pyd
+[2024-05-21 09:03:29] INFO root fetch - processPackages [ix-notifiers]: Downloading https://files.pythonhosted.org/packages/50/c8/b2ac2388009d5845ea95cd3b5122903cf82ec0a52640bc3acf483ca92701/ix-notifiers-0.0.259196408.tar.gz
+[2024-05-21 09:03:29] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/93/31/8bb081756db42925fab6507b6e0f497d6bf45acd407ff38cb00f2aaec54c/pms_encoder-0.0.9.tar.gz
+[2024-05-21 09:03:29] INFO root fetch - processPackages [data-prep-toolkit-kfp]: executing diffoscope
+[2024-05-21 09:03:29] INFO root fetch - processPackages [data-prep-toolkit-kfp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_prep_toolkit_kfp-0.0.1.dev34.tar.gz tmp/data_prep_toolkit_kfp-0.1.0.tar.gz --markdown 20240521/d/data-prep-toolkit-kfp/0.0.1.dev34-0.1.0/README.md --exclude *.pyd
+[2024-05-21 09:03:29] INFO root fetch - processPackages [ix-notifiers]: executing diffoscope
+[2024-05-21 09:03:29] INFO root fetch - processPackages [ix-notifiers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ix-notifiers-0.0.259192762.tar.gz tmp/ix-notifiers-0.0.259196408.tar.gz --markdown 20240521/i/ix-notifiers/0.0.259192762-0.0.259196408/README.md --exclude *.pyd
+[2024-05-21 09:03:29] INFO root fetch - processPackages [Gefyra]: executing diffoscope
+[2024-05-21 09:03:29] INFO root fetch - processPackages [Gefyra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gefyra-2.1.4.tar.gz tmp/gefyra-2.1.5.tar.gz --markdown 20240521/G/Gefyra/2.1.4-2.1.5/README.md --exclude *.pyd
+[2024-05-21 09:03:29] INFO root fetch - processPackages [tf-models-nightly]: executing diffoscope
+[2024-05-21 09:03:29] INFO root fetch - processPackages [tf-models-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl.zip tmp/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl.zip --markdown 20240521/t/tf-models-nightly/2.9.0.dev20220919-2.9.0.dev20220920/README.md --exclude *.pyd
+[2024-05-21 09:03:29] INFO root fetch - processPackages [gotranx]: executing diffoscope
+[2024-05-21 09:03:29] INFO root fetch - processPackages [gotranx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gotranx-0.3.5.tar.gz tmp/gotranx-0.3.6.tar.gz --markdown 20240521/g/gotranx/0.3.5-0.3.6/README.md --exclude *.pyd
+[2024-05-21 09:03:29] INFO root fetch - processPackages [pms-encoder]: executing diffoscope
+[2024-05-21 09:03:29] INFO root fetch - processPackages [pms-encoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pms_encoder-0.0.8.tar.gz tmp/pms_encoder-0.0.9.tar.gz --markdown 20240521/p/pms-encoder/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-21 09:03:29] INFO root fetch - processPackages [benchmark-runner]: Downloading https://files.pythonhosted.org/packages/aa/74/0b502ae8dc7d1ab19876f92da2d177323637092c1bc4f54ae1beac2c2f18/benchmark-runner-1.0.99.tar.gz
+[2024-05-21 09:03:29] INFO root fetch - processPackages [benchmark-runner]: executing diffoscope
+[2024-05-21 09:03:29] INFO root fetch - processPackages [benchmark-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benchmark-runner-1.0.98.tar.gz tmp/benchmark-runner-1.0.99.tar.gz --markdown 20240521/b/benchmark-runner/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-05-21 09:03:29] INFO root fetch - processPackages [ridgeplot-py]: Remove: archive file [/home/abi/fetcher/tmp/ridgeplot_py-0.2.5.tar.gz]
+[2024-05-21 09:03:29] INFO root fetch - processPackages [ridgeplot-py]: Remove: archive file [/home/abi/fetcher/tmp/ridgeplot_py-0.2.7.tar.gz]
+[2024-05-21 09:03:29] INFO root fetch - main [MainThread]: End processing [ridgeplot-py]: success
+[2024-05-21 09:03:30] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.8.tar.gz]
+[2024-05-21 09:03:30] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.9.tar.gz]
+[2024-05-21 09:03:30] INFO root fetch - main [MainThread]: End processing [pms-encoder]: success
+[2024-05-21 09:03:30] INFO root fetch - processPackages [Gefyra]: Remove: archive file [/home/abi/fetcher/tmp/gefyra-2.1.4.tar.gz]
+[2024-05-21 09:03:30] INFO root fetch - processPackages [Gefyra]: Remove: archive file [/home/abi/fetcher/tmp/gefyra-2.1.5.tar.gz]
+[2024-05-21 09:03:30] INFO root fetch - main [MainThread]: End processing [Gefyra]: success
+[2024-05-21 09:03:30] INFO root fetch - processPackages [ix-notifiers]: Remove: archive file [/home/abi/fetcher/tmp/ix-notifiers-0.0.259192762.tar.gz]
+[2024-05-21 09:03:30] INFO root fetch - processPackages [ix-notifiers]: Remove: archive file [/home/abi/fetcher/tmp/ix-notifiers-0.0.259196408.tar.gz]
+[2024-05-21 09:03:30] INFO root fetch - main [MainThread]: End processing [ix-notifiers]: success
+[2024-05-21 09:03:30] INFO root fetch - processPackages [data-prep-toolkit-kfp]: Remove: archive file [/home/abi/fetcher/tmp/data_prep_toolkit_kfp-0.0.1.dev34.tar.gz]
+[2024-05-21 09:03:30] INFO root fetch - processPackages [data-prep-toolkit-kfp]: Remove: archive file [/home/abi/fetcher/tmp/data_prep_toolkit_kfp-0.1.0.tar.gz]
+[2024-05-21 09:03:30] INFO root fetch - main [MainThread]: End processing [data-prep-toolkit-kfp]: success
+[2024-05-21 09:03:30] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220906.tar.gz]
+[2024-05-21 09:03:30] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220907.tar.gz]
+[2024-05-21 09:03:30] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2024-05-21 09:03:30] INFO root fetch - processPackages [gotranx]: Remove: archive file [/home/abi/fetcher/tmp/gotranx-0.3.5.tar.gz]
+[2024-05-21 09:03:30] INFO root fetch - processPackages [gotranx]: Remove: archive file [/home/abi/fetcher/tmp/gotranx-0.3.6.tar.gz]
+[2024-05-21 09:03:30] INFO root fetch - main [MainThread]: End processing [gotranx]: success
+[2024-05-21 09:03:30] INFO root fetch - processPackages [benchmark-runner]: Remove: archive file [/home/abi/fetcher/tmp/benchmark-runner-1.0.98.tar.gz]
+[2024-05-21 09:03:30] INFO root fetch - processPackages [benchmark-runner]: Remove: archive file [/home/abi/fetcher/tmp/benchmark-runner-1.0.99.tar.gz]
+[2024-05-21 09:03:30] INFO root fetch - main [MainThread]: End processing [benchmark-runner]: success
+[2024-05-21 09:03:32] INFO root fetch - processPackages [tf-models-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl.zip]
+[2024-05-21 09:03:32] INFO root fetch - processPackages [tf-models-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl.zip]
+[2024-05-21 09:03:32] INFO root fetch - main [MainThread]: End processing [tf-models-nightly]: success
+[2024-05-21 09:03:32] INFO root fetch - main [MainThread]: Store serial: [23302309]
