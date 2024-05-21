@@ -11136,3 +11136,33 @@
 [2024-05-21 06:34:28] INFO root fetch - processPackages [pinjected]: Remove: archive file [/home/abi/fetcher/tmp/pinjected-0.2.70.tar.gz]
 [2024-05-21 06:34:28] INFO root fetch - main [MainThread]: End processing [pinjected]: success
 [2024-05-21 06:34:28] INFO root fetch - main [MainThread]: Store serial: [23301042]
+[2024-05-21 06:36:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23301042]
+[2024-05-21 06:36:37] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-21 06:36:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jzai
+[2024-05-21 06:36:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wah
+[2024-05-21 06:36:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dask-image
+[2024-05-21 06:36:37] INFO root fetch - processPackages [jzai]: New version: [59.83.59] Old Version: [59.83.58]
+[2024-05-21 06:36:37] INFO root fetch - processPackages [wah]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-21 06:36:37] INFO root fetch - processPackages [dask-image]: New version: [2024.5.1] Old Version: [2024.5.0rc1]
+[2024-05-21 06:36:37] INFO root fetch - processPackages [jzai]: Downloading https://files.pythonhosted.org/packages/77/49/c97ed6dbf4db51928dd5b5366de78377030990bf81e23f10961305b7c20a/jzai-59.83.58.tar.gz
+[2024-05-21 06:36:37] INFO root fetch - processPackages [wah]: Downloading https://files.pythonhosted.org/packages/1e/98/86b56f53d2270da5a315b2f0d5733e61fd0dabbbde1d17bcff2dd938939e/wah-0.1.8.tar.gz
+[2024-05-21 06:36:38] INFO root fetch - processPackages [wah]: Downloading https://files.pythonhosted.org/packages/6c/57/7be641139065b67640542a312a3988d0a93024cdc145ea667b7e8d432eb8/wah-0.1.9.tar.gz
+[2024-05-21 06:36:38] INFO root fetch - processPackages [dask-image]: Downloading https://files.pythonhosted.org/packages/f1/77/517eefa12f0d8ea471ad8fad6e6bf8e617aa41f2f97af2ca7d94f55950e1/dask_image-2024.5.0rc1.tar.gz
+[2024-05-21 06:36:38] INFO root fetch - processPackages [jzai]: Downloading https://files.pythonhosted.org/packages/ec/a2/0e2e92b0d792788dd0fecfd67ef67a725f4dadf7c99f4a870647a1cf4ead/jzai-59.83.59.tar.gz
+[2024-05-21 06:36:38] INFO root fetch - processPackages [wah]: executing diffoscope
+[2024-05-21 06:36:38] INFO root fetch - processPackages [wah]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wah-0.1.8.tar.gz tmp/wah-0.1.9.tar.gz --markdown 20240521/w/wah/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-21 06:36:38] INFO root fetch - processPackages [jzai]: executing diffoscope
+[2024-05-21 06:36:38] INFO root fetch - processPackages [jzai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jzai-59.83.58.tar.gz tmp/jzai-59.83.59.tar.gz --markdown 20240521/j/jzai/59.83.58-59.83.59/README.md --exclude *.pyd
+[2024-05-21 06:36:38] INFO root fetch - processPackages [dask-image]: Downloading https://files.pythonhosted.org/packages/82/66/ac1738624b6a98315c22fd68e73d7318e16e015782dc2883023aded70ca3/dask_image-2024.5.1.tar.gz
+[2024-05-21 06:36:38] INFO root fetch - processPackages [dask-image]: executing diffoscope
+[2024-05-21 06:36:38] INFO root fetch - processPackages [dask-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask_image-2024.5.0rc1.tar.gz tmp/dask_image-2024.5.1.tar.gz --markdown 20240521/d/dask-image/2024.5.0rc1-2024.5.1/README.md --exclude *.pyd
+[2024-05-21 06:36:38] INFO root fetch - processPackages [jzai]: Remove: archive file [/home/abi/fetcher/tmp/jzai-59.83.58.tar.gz]
+[2024-05-21 06:36:38] INFO root fetch - processPackages [jzai]: Remove: archive file [/home/abi/fetcher/tmp/jzai-59.83.59.tar.gz]
+[2024-05-21 06:36:38] INFO root fetch - main [MainThread]: End processing [jzai]: success
+[2024-05-21 06:36:39] INFO root fetch - processPackages [wah]: Remove: archive file [/home/abi/fetcher/tmp/wah-0.1.8.tar.gz]
+[2024-05-21 06:36:39] INFO root fetch - processPackages [wah]: Remove: archive file [/home/abi/fetcher/tmp/wah-0.1.9.tar.gz]
+[2024-05-21 06:36:39] INFO root fetch - main [MainThread]: End processing [wah]: success
+[2024-05-21 06:36:39] INFO root fetch - processPackages [dask-image]: Remove: archive file [/home/abi/fetcher/tmp/dask_image-2024.5.0rc1.tar.gz]
+[2024-05-21 06:36:39] INFO root fetch - processPackages [dask-image]: Remove: archive file [/home/abi/fetcher/tmp/dask_image-2024.5.1.tar.gz]
+[2024-05-21 06:36:39] INFO root fetch - main [MainThread]: End processing [dask-image]: success
+[2024-05-21 06:36:39] INFO root fetch - main [MainThread]: Store serial: [23301050]
