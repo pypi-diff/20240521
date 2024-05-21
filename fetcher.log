@@ -16151,3 +16151,47 @@
 [2024-05-21 10:09:02] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.2.5.tar.gz]
 [2024-05-21 10:09:02] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
 [2024-05-21 10:09:02] INFO root fetch - main [MainThread]: Store serial: [23302977]
+[2024-05-21 10:11:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23302977]
+[2024-05-21 10:11:11] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-21 10:11:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: semantic-router
+[2024-05-21 10:11:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-sale-planner-calendar
+[2024-05-21 10:11:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: volstreet
+[2024-05-21 10:11:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: elisa-lib
+[2024-05-21 10:11:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: outpostcli
+[2024-05-21 10:11:11] INFO root fetch - processPackages [volstreet]: New version: [8.3.1] Old Version: [8.3.0]
+[2024-05-21 10:11:11] INFO root fetch - processPackages [outpostcli]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-21 10:11:11] INFO root fetch - processPackages [odoo-addon-sale-planner-calendar]: New version: [15.0.1.7.1] Old Version: [15.0.1.7.0]
+[2024-05-21 10:11:11] INFO root fetch - processPackages [semantic-router]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-21 10:11:11] INFO root fetch - processPackages [elisa-lib]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-21 10:11:11] INFO root fetch - processPackages [outpostcli]: Downloading https://files.pythonhosted.org/packages/7e/e2/114a39eac567286d0418645c0ea24089c48fcbe4cccec6c79191a5cefccf/outpostcli-0.0.8.tar.gz
+[2024-05-21 10:11:11] INFO root fetch - processPackages [volstreet]: Downloading https://files.pythonhosted.org/packages/8b/7c/2e25bc6fe1c464cb2ae449a539c9f35c335c8e19b558625486ae445fc30a/volstreet-8.3.0.tar.gz
+[2024-05-21 10:11:11] INFO root fetch - processPackages [odoo-addon-sale-planner-calendar]: Downloading https://files.pythonhosted.org/packages/70/45/4bb4d473d3fdcc948f98205986a4b22fe0f7ba914172594393010690ebb6/odoo_addon_sale_planner_calendar-15.0.1.7.0-py3-none-any.whl
+[2024-05-21 10:11:11] INFO root fetch - processPackages [semantic-router]: Downloading https://files.pythonhosted.org/packages/69/f5/24f7ed2376beeca68004c749ee072334bcdbcd70becd7e5549ea5773efae/semantic_router-0.0.8.tar.gz
+[2024-05-21 10:11:11] INFO root fetch - processPackages [elisa-lib]: Downloading https://files.pythonhosted.org/packages/65/53/0b3254c457fc6b42bb7b74d257199a23da68324feb38c117339b956a4e90/elisa_lib-0.1.2.tar.gz
+[2024-05-21 10:11:11] INFO root fetch - processPackages [outpostcli]: Downloading https://files.pythonhosted.org/packages/df/ab/82b6853cec170d33c2aff19e3a298b0bf56f7ba1b885f6f7d42a10ae43dc/outpostcli-0.0.9.tar.gz
+[2024-05-21 10:11:11] WARNING root fetch - processPackages [elisa-lib]: Skipping package: exceeds size limit 10501273>=10485760
+[2024-05-21 10:11:11] INFO root fetch - main [MainThread]: End processing [elisa-lib] error
+[2024-05-21 10:11:11] INFO root fetch - processPackages [outpostcli]: executing diffoscope
+[2024-05-21 10:11:11] INFO root fetch - processPackages [outpostcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/outpostcli-0.0.8.tar.gz tmp/outpostcli-0.0.9.tar.gz --markdown 20240521/o/outpostcli/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-21 10:11:11] INFO root fetch - processPackages [volstreet]: Downloading https://files.pythonhosted.org/packages/8e/78/dd8966a10c6c57fac210adec4655f97579f6ba4e99e1be97d258669ff430/volstreet-8.3.1.tar.gz
+[2024-05-21 10:11:11] INFO root fetch - processPackages [semantic-router]: Downloading https://files.pythonhosted.org/packages/c6/e8/868f59ad8c7643feea9a25db402d4e84236189e1a9d89a4c840838be947f/semantic_router-0.0.9.tar.gz
+[2024-05-21 10:11:12] INFO root fetch - processPackages [odoo-addon-sale-planner-calendar]: Downloading https://files.pythonhosted.org/packages/dd/0c/a73ed3f2bb41b043009f2f5696f2541a9b17a3f14ec654e35a035afdd2d4/odoo_addon_sale_planner_calendar-15.0.1.7.1-py3-none-any.whl
+[2024-05-21 10:11:12] INFO root fetch - processPackages [volstreet]: executing diffoscope
+[2024-05-21 10:11:12] INFO root fetch - processPackages [volstreet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volstreet-8.3.0.tar.gz tmp/volstreet-8.3.1.tar.gz --markdown 20240521/v/volstreet/8.3.0-8.3.1/README.md --exclude *.pyd
+[2024-05-21 10:11:12] INFO root fetch - processPackages [semantic-router]: executing diffoscope
+[2024-05-21 10:11:12] INFO root fetch - processPackages [semantic-router]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semantic_router-0.0.8.tar.gz tmp/semantic_router-0.0.9.tar.gz --markdown 20240521/s/semantic-router/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-21 10:11:12] INFO root fetch - processPackages [odoo-addon-sale-planner-calendar]: executing diffoscope
+[2024-05-21 10:11:12] INFO root fetch - processPackages [odoo-addon-sale-planner-calendar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_planner_calendar-15.0.1.7.0-py3-none-any.whl.zip tmp/odoo_addon_sale_planner_calendar-15.0.1.7.1-py3-none-any.whl.zip --markdown 20240521/o/odoo-addon-sale-planner-calendar/15.0.1.7.0-15.0.1.7.1/README.md --exclude *.pyd
+[2024-05-21 10:11:12] INFO root fetch - processPackages [outpostcli]: Remove: archive file [/home/abi/fetcher/tmp/outpostcli-0.0.8.tar.gz]
+[2024-05-21 10:11:12] INFO root fetch - processPackages [outpostcli]: Remove: archive file [/home/abi/fetcher/tmp/outpostcli-0.0.9.tar.gz]
+[2024-05-21 10:11:12] INFO root fetch - main [MainThread]: End processing [outpostcli]: success
+[2024-05-21 10:11:12] INFO root fetch - processPackages [semantic-router]: Remove: archive file [/home/abi/fetcher/tmp/semantic_router-0.0.8.tar.gz]
+[2024-05-21 10:11:12] INFO root fetch - processPackages [semantic-router]: Remove: archive file [/home/abi/fetcher/tmp/semantic_router-0.0.9.tar.gz]
+[2024-05-21 10:11:12] INFO root fetch - main [MainThread]: End processing [semantic-router]: success
+[2024-05-21 10:11:13] INFO root fetch - processPackages [volstreet]: Remove: archive file [/home/abi/fetcher/tmp/volstreet-8.3.0.tar.gz]
+[2024-05-21 10:11:13] INFO root fetch - processPackages [volstreet]: Remove: archive file [/home/abi/fetcher/tmp/volstreet-8.3.1.tar.gz]
+[2024-05-21 10:11:13] INFO root fetch - main [MainThread]: End processing [volstreet]: success
+[2024-05-21 10:11:13] INFO root fetch - processPackages [odoo-addon-sale-planner-calendar]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_planner_calendar-15.0.1.7.0-py3-none-any.whl.zip]
+[2024-05-21 10:11:13] INFO root fetch - processPackages [odoo-addon-sale-planner-calendar]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_planner_calendar-15.0.1.7.1-py3-none-any.whl.zip]
+[2024-05-21 10:11:13] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-planner-calendar]: success
+[2024-05-21 10:11:13] INFO root fetch - main [MainThread]: Store serial: [23302992]
