@@ -18189,3 +18189,33 @@
 [2024-05-21 11:20:26] INFO root fetch - processPackages [Python-Education-Tools]: Remove: archive file [/home/abi/fetcher/tmp/Python_Education_Tools-24.5.8-py3-none-any.whl.zip]
 [2024-05-21 11:20:26] INFO root fetch - main [MainThread]: End processing [Python-Education-Tools]: success
 [2024-05-21 11:20:26] INFO root fetch - main [MainThread]: Store serial: [23303748]
+[2024-05-21 11:22:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23303748]
+[2024-05-21 11:22:35] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-21 11:22:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: invenio-records-resources
+[2024-05-21 11:22:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scriptman
+[2024-05-21 11:22:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pycellbase
+[2024-05-21 11:22:35] INFO root fetch - processPackages [scriptman]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2024-05-21 11:22:35] INFO root fetch - processPackages [scriptman]: Downloading https://files.pythonhosted.org/packages/f0/36/7146888ddadc02a0f2fe536e4ba47e16a5aa6d2b9bf2b21cc312fb61bb23/scriptman-0.0.0.8.tar.gz
+[2024-05-21 11:22:35] INFO root fetch - processPackages [pycellbase]: New version: [6.1.0] Old Version: [6.0.0]
+[2024-05-21 11:22:35] INFO root fetch - processPackages [invenio-records-resources]: New version: [5.8.0] Old Version: [5.7.0]
+[2024-05-21 11:22:35] INFO root fetch - processPackages [scriptman]: Downloading https://files.pythonhosted.org/packages/f5/05/b5fcf85e401e2ea793d31d90d33eb9fe185765b18bd32c99cfe69d516956/scriptman-0.0.0.9.tar.gz
+[2024-05-21 11:22:35] INFO root fetch - processPackages [pycellbase]: Downloading https://files.pythonhosted.org/packages/0d/ca/5ad80d161d1e815690c37b130d99326b7a882fd09b8bcf23a3061e5c2213/pycellbase-6.0.0.tar.gz
+[2024-05-21 11:22:35] INFO root fetch - processPackages [invenio-records-resources]: Downloading https://files.pythonhosted.org/packages/cb/83/215babf022cd4d03b01dc83d899039e89754c7ecc35a3c21c441c5b136f5/invenio-records-resources-5.7.0.tar.gz
+[2024-05-21 11:22:35] INFO root fetch - processPackages [scriptman]: executing diffoscope
+[2024-05-21 11:22:35] INFO root fetch - processPackages [scriptman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scriptman-0.0.0.8.tar.gz tmp/scriptman-0.0.0.9.tar.gz --markdown 20240521/s/scriptman/0.0.0.8-0.0.0.9/README.md --exclude *.pyd
+[2024-05-21 11:22:35] INFO root fetch - processPackages [pycellbase]: Downloading https://files.pythonhosted.org/packages/a9/69/7a0f89708163dcc593512d20eaf69818adc7e38ceb45387cbaf7ffeb1bbd/pycellbase-6.1.0.tar.gz
+[2024-05-21 11:22:35] INFO root fetch - processPackages [invenio-records-resources]: Downloading https://files.pythonhosted.org/packages/e2/70/8714e278c3e10473c0d5acbdeee1879fe4cbb20c7cfbe48d78f8bb3a412a/invenio-records-resources-5.8.0.tar.gz
+[2024-05-21 11:22:36] INFO root fetch - processPackages [invenio-records-resources]: executing diffoscope
+[2024-05-21 11:22:36] INFO root fetch - processPackages [invenio-records-resources]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-records-resources-5.7.0.tar.gz tmp/invenio-records-resources-5.8.0.tar.gz --markdown 20240521/i/invenio-records-resources/5.7.0-5.8.0/README.md --exclude *.pyd
+[2024-05-21 11:22:36] INFO root fetch - processPackages [pycellbase]: executing diffoscope
+[2024-05-21 11:22:36] INFO root fetch - processPackages [pycellbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycellbase-6.0.0.tar.gz tmp/pycellbase-6.1.0.tar.gz --markdown 20240521/p/pycellbase/6.0.0-6.1.0/README.md --exclude *.pyd
+[2024-05-21 11:22:36] INFO root fetch - processPackages [scriptman]: Remove: archive file [/home/abi/fetcher/tmp/scriptman-0.0.0.8.tar.gz]
+[2024-05-21 11:22:36] INFO root fetch - processPackages [scriptman]: Remove: archive file [/home/abi/fetcher/tmp/scriptman-0.0.0.9.tar.gz]
+[2024-05-21 11:22:36] INFO root fetch - main [MainThread]: End processing [scriptman]: success
+[2024-05-21 11:22:36] INFO root fetch - processPackages [pycellbase]: Remove: archive file [/home/abi/fetcher/tmp/pycellbase-6.0.0.tar.gz]
+[2024-05-21 11:22:36] INFO root fetch - processPackages [pycellbase]: Remove: archive file [/home/abi/fetcher/tmp/pycellbase-6.1.0.tar.gz]
+[2024-05-21 11:22:36] INFO root fetch - main [MainThread]: End processing [pycellbase]: success
+[2024-05-21 11:22:37] INFO root fetch - processPackages [invenio-records-resources]: Remove: archive file [/home/abi/fetcher/tmp/invenio-records-resources-5.7.0.tar.gz]
+[2024-05-21 11:22:37] INFO root fetch - processPackages [invenio-records-resources]: Remove: archive file [/home/abi/fetcher/tmp/invenio-records-resources-5.8.0.tar.gz]
+[2024-05-21 11:22:37] INFO root fetch - main [MainThread]: End processing [invenio-records-resources]: success
+[2024-05-21 11:22:37] INFO root fetch - main [MainThread]: Store serial: [23303757]
