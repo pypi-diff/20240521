@@ -12177,3 +12177,42 @@
 [2024-05-21 07:33:35] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240521052246.tar.gz]
 [2024-05-21 07:33:35] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2024-05-21 07:33:35] INFO root fetch - main [MainThread]: Store serial: [23301449]
+[2024-05-21 07:35:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23301449]
+[2024-05-21 07:35:45] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-21 07:35:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-base-multi-company
+[2024-05-21 07:35:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-base-multi-company
+[2024-05-21 07:35:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: amphi-etl
+[2024-05-21 07:35:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sparse
+[2024-05-21 07:35:45] INFO root fetch - processPackages [amphi-etl]: New version: [0.3.6] Old Version: [0.3.5]
+[2024-05-21 07:35:45] INFO root fetch - processPackages [amphi-etl]: Downloading https://files.pythonhosted.org/packages/5b/2d/dc3e23d936749dfdec6744502e43715b56536093ac0f1e6efb7f683178a4/amphi-etl-0.3.5.tar.gz
+[2024-05-21 07:35:45] INFO root fetch - processPackages [odoo14-addon-base-multi-company]: New version: [14.0.2.0.1.dev3] Old Version: [14.0.2.0.1.dev2]
+[2024-05-21 07:35:45] INFO root fetch - processPackages [odoo-addon-base-multi-company]: New version: [16.0.1.0.2.3] Old Version: [16.0.1.0.2.2]
+[2024-05-21 07:35:45] INFO root fetch - processPackages [sparse]: New version: [0.9.1] Old Version: [0.8.0]
+[2024-05-21 07:35:45] INFO root fetch - processPackages [odoo-addon-base-multi-company]: Downloading https://files.pythonhosted.org/packages/8f/ab/4bd1161aae88b7bb04a7b3a2269a9332dbd1af37b1975d68712c2f3206ae/odoo_addon_base_multi_company-16.0.1.0.2.2-py3-none-any.whl
+[2024-05-21 07:35:45] INFO root fetch - processPackages [sparse]: Downloading https://files.pythonhosted.org/packages/8e/da/cba8e6d14869c1e62251d587332eafec3c92fea9f041e0d5491a634b80d1/sparse-0.8.0.tar.gz
+[2024-05-21 07:35:45] INFO root fetch - processPackages [odoo14-addon-base-multi-company]: Downloading https://files.pythonhosted.org/packages/90/a3/cb062a40df26b6d1e92e73023578ee5960f4d19ead91be533a8b35cb8f4e/odoo14_addon_base_multi_company-14.0.2.0.1.dev2-py3-none-any.whl
+[2024-05-21 07:35:45] INFO root fetch - processPackages [amphi-etl]: Downloading https://files.pythonhosted.org/packages/ce/23/7b8c8bddbfbf31f25f852e72d63ae94ee4681cf9399f3a1b7b861ef3a96e/amphi-etl-0.3.6.tar.gz
+[2024-05-21 07:35:45] INFO root fetch - processPackages [amphi-etl]: executing diffoscope
+[2024-05-21 07:35:45] INFO root fetch - processPackages [amphi-etl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amphi-etl-0.3.5.tar.gz tmp/amphi-etl-0.3.6.tar.gz --markdown 20240521/a/amphi-etl/0.3.5-0.3.6/README.md --exclude *.pyd
+[2024-05-21 07:35:45] INFO root fetch - processPackages [sparse]: Downloading https://files.pythonhosted.org/packages/34/99/52ebc6bd4198f1e61e66f04ff1947a27aa8723b974e5d79fde0bb60e784f/sparse-0.9.1.tar.gz
+[2024-05-21 07:35:45] INFO root fetch - processPackages [odoo-addon-base-multi-company]: Downloading https://files.pythonhosted.org/packages/84/6d/5269a5040e82d175d42bc6ca4d0485ef4e11ca8187824dabba99fbbed38f/odoo_addon_base_multi_company-16.0.1.0.2.3-py3-none-any.whl
+[2024-05-21 07:35:45] INFO root fetch - processPackages [odoo14-addon-base-multi-company]: Downloading https://files.pythonhosted.org/packages/a3/f7/8c0559510f643276c5e9cd13930657e994129d3868219dba729ce93d8708/odoo14_addon_base_multi_company-14.0.2.0.1.dev3-py3-none-any.whl
+[2024-05-21 07:35:45] INFO root fetch - processPackages [sparse]: executing diffoscope
+[2024-05-21 07:35:45] INFO root fetch - processPackages [sparse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparse-0.8.0.tar.gz tmp/sparse-0.9.1.tar.gz --markdown 20240521/s/sparse/0.8.0-0.9.1/README.md --exclude *.pyd
+[2024-05-21 07:35:46] INFO root fetch - processPackages [odoo14-addon-base-multi-company]: executing diffoscope
+[2024-05-21 07:35:46] INFO root fetch - processPackages [odoo14-addon-base-multi-company]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_base_multi_company-14.0.2.0.1.dev2-py3-none-any.whl.zip tmp/odoo14_addon_base_multi_company-14.0.2.0.1.dev3-py3-none-any.whl.zip --markdown 20240521/o/odoo14-addon-base-multi-company/14.0.2.0.1.dev2-14.0.2.0.1.dev3/README.md --exclude *.pyd
+[2024-05-21 07:35:46] INFO root fetch - processPackages [odoo-addon-base-multi-company]: executing diffoscope
+[2024-05-21 07:35:46] INFO root fetch - processPackages [odoo-addon-base-multi-company]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_multi_company-16.0.1.0.2.2-py3-none-any.whl.zip tmp/odoo_addon_base_multi_company-16.0.1.0.2.3-py3-none-any.whl.zip --markdown 20240521/o/odoo-addon-base-multi-company/16.0.1.0.2.2-16.0.1.0.2.3/README.md --exclude *.pyd
+[2024-05-21 07:35:46] INFO root fetch - processPackages [odoo14-addon-base-multi-company]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_base_multi_company-14.0.2.0.1.dev2-py3-none-any.whl.zip]
+[2024-05-21 07:35:46] INFO root fetch - processPackages [odoo14-addon-base-multi-company]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_base_multi_company-14.0.2.0.1.dev3-py3-none-any.whl.zip]
+[2024-05-21 07:35:46] INFO root fetch - main [MainThread]: End processing [odoo14-addon-base-multi-company]: success
+[2024-05-21 07:35:46] INFO root fetch - processPackages [odoo-addon-base-multi-company]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_multi_company-16.0.1.0.2.2-py3-none-any.whl.zip]
+[2024-05-21 07:35:46] INFO root fetch - processPackages [odoo-addon-base-multi-company]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_multi_company-16.0.1.0.2.3-py3-none-any.whl.zip]
+[2024-05-21 07:35:46] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-multi-company]: success
+[2024-05-21 07:35:46] INFO root fetch - processPackages [sparse]: Remove: archive file [/home/abi/fetcher/tmp/sparse-0.8.0.tar.gz]
+[2024-05-21 07:35:46] INFO root fetch - processPackages [sparse]: Remove: archive file [/home/abi/fetcher/tmp/sparse-0.9.1.tar.gz]
+[2024-05-21 07:35:46] INFO root fetch - main [MainThread]: End processing [sparse]: success
+[2024-05-21 07:35:47] INFO root fetch - processPackages [amphi-etl]: Remove: archive file [/home/abi/fetcher/tmp/amphi-etl-0.3.5.tar.gz]
+[2024-05-21 07:35:47] INFO root fetch - processPackages [amphi-etl]: Remove: archive file [/home/abi/fetcher/tmp/amphi-etl-0.3.6.tar.gz]
+[2024-05-21 07:35:47] INFO root fetch - main [MainThread]: End processing [amphi-etl]: success
+[2024-05-21 07:35:47] INFO root fetch - main [MainThread]: Store serial: [23301460]
