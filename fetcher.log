@@ -12784,3 +12784,72 @@
 [2024-05-21 08:02:08] INFO root fetch - processPackages [lk-logger]: Remove: archive file [/home/abi/fetcher/tmp/lk_logger-5.7.3-py3-none-any.whl.zip]
 [2024-05-21 08:02:08] INFO root fetch - main [MainThread]: End processing [lk-logger]: success
 [2024-05-21 08:02:08] INFO root fetch - main [MainThread]: Store serial: [23301759]
+[2024-05-21 08:04:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23301759]
+[2024-05-21 08:04:17] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-21 08:04:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Hammerhead-View
+[2024-05-21 08:04:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pms-encoder
+[2024-05-21 08:04:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ferfereh
+[2024-05-21 08:04:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-ssi-product
+[2024-05-21 08:04:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: helloai
+[2024-05-21 08:04:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: WGSE-NG
+[2024-05-21 08:04:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dj-ellis-views
+[2024-05-21 08:04:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-project-base
+[2024-05-21 08:04:17] INFO root fetch - processPackages [ferfereh]: New version: [1.124.1] Old Version: [1.123.1]
+[2024-05-21 08:04:17] INFO root fetch - processPackages [Hammerhead-View]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-21 08:04:17] INFO root fetch - processPackages [pms-encoder]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-21 08:04:17] INFO root fetch - processPackages [odoo14-addon-ssi-product]: New version: [14.0.1.7.1] Old Version: [14.0.1.7.0]
+[2024-05-21 08:04:17] INFO root fetch - processPackages [ferfereh]: Downloading https://files.pythonhosted.org/packages/dc/7f/e36da75dc0e78d53fc5d43b3470a2b9bc3abb2282d3886a19ea8d8a326d9/ferfereh-1.123.1.tar.gz
+[2024-05-21 08:04:17] INFO root fetch - processPackages [WGSE-NG]: New version: [1.0.0a7] Old Version: [1.0.0a5]
+[2024-05-21 08:04:17] INFO root fetch - processPackages [helloai]: New version: [2.3.1] Old Version: [2.2]
+[2024-05-21 08:04:17] WARNING root fetch - processPackages [dj-ellis-views]: Skipping, unable to determine old version
+[2024-05-21 08:04:17] INFO root fetch - main [MainThread]: End processing [dj-ellis-views] error
+[2024-05-21 08:04:17] INFO root fetch - processPackages [Hammerhead-View]: Downloading https://files.pythonhosted.org/packages/0f/a1/1394c2f067d8191f4635b8299e98c396c02c1f43352c6ea9556375ff4a32/Hammerhead-View-0.1.3.tar.gz
+[2024-05-21 08:04:17] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/80/f1/88f2f54188c15bf6cca5ba7a3a347b8d1c83b15a626f541acf3dde5aa63d/pms_encoder-0.0.8.tar.gz
+[2024-05-21 08:04:17] INFO root fetch - processPackages [django-project-base]: New version: [0.75.30] Old Version: [0.4.9]
+[2024-05-21 08:04:17] INFO root fetch - processPackages [WGSE-NG]: Downloading https://files.pythonhosted.org/packages/d7/40/a23ad9f6ff7eacc8586a9926912c9265ace218a30d61ad5a5d702f9888f3/wgse_ng-1.0.0a5.tar.gz
+[2024-05-21 08:04:18] INFO root fetch - processPackages [odoo14-addon-ssi-product]: Downloading https://files.pythonhosted.org/packages/f0/ba/59851d4d86da079a6f3958b039da66ecb121695239cd8e943566b5691764/odoo14_addon_ssi_product-14.0.1.7.0-py3-none-any.whl
+[2024-05-21 08:04:18] INFO root fetch - processPackages [helloai]: Downloading https://files.pythonhosted.org/packages/25/05/ff687b8f7adf1e21f2eca690217746081a8d351ff234b4f8c13f41d43097/helloai-2.2-py3-none-any.whl
+[2024-05-21 08:04:18] INFO root fetch - processPackages [Hammerhead-View]: Downloading https://files.pythonhosted.org/packages/45/c6/d465257adbbe6755675de1f4e13ca09e0902ccfbd83bd30f2a3a19557dd7/Hammerhead-View-0.1.4.tar.gz
+[2024-05-21 08:04:18] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/93/31/8bb081756db42925fab6507b6e0f497d6bf45acd407ff38cb00f2aaec54c/pms_encoder-0.0.9.tar.gz
+[2024-05-21 08:04:18] INFO root fetch - processPackages [ferfereh]: Downloading https://files.pythonhosted.org/packages/08/15/298c0d99142ec23511413dcb8aebe0aba66fed717c4854f3d193a859bb01/ferfereh-1.124.1.tar.gz
+[2024-05-21 08:04:18] INFO root fetch - processPackages [django-project-base]: Downloading https://files.pythonhosted.org/packages/5f/7e/cb65b3d5c1084b92a5dc2d9e611005fede46a3436e8936d6efbbdef55efd/django-project-base-0.4.9.tar.gz
+[2024-05-21 08:04:18] INFO root fetch - processPackages [Hammerhead-View]: executing diffoscope
+[2024-05-21 08:04:18] INFO root fetch - processPackages [Hammerhead-View]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Hammerhead-View-0.1.3.tar.gz tmp/Hammerhead-View-0.1.4.tar.gz --markdown 20240521/H/Hammerhead-View/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-21 08:04:18] INFO root fetch - processPackages [pms-encoder]: executing diffoscope
+[2024-05-21 08:04:18] INFO root fetch - processPackages [pms-encoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pms_encoder-0.0.8.tar.gz tmp/pms_encoder-0.0.9.tar.gz --markdown 20240521/p/pms-encoder/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-21 08:04:18] INFO root fetch - processPackages [ferfereh]: executing diffoscope
+[2024-05-21 08:04:18] INFO root fetch - processPackages [ferfereh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ferfereh-1.123.1.tar.gz tmp/ferfereh-1.124.1.tar.gz --markdown 20240521/f/ferfereh/1.123.1-1.124.1/README.md --exclude *.pyd
+[2024-05-21 08:04:18] INFO root fetch - processPackages [helloai]: Downloading https://files.pythonhosted.org/packages/1f/1c/e95efd02ac42910ce8810f7b0c2496ff0031cdd7e61fa6fdd8e148c8cc49/helloai-2.3.1-py3-none-any.whl
+[2024-05-21 08:04:18] INFO root fetch - processPackages [helloai]: executing diffoscope
+[2024-05-21 08:04:18] INFO root fetch - processPackages [helloai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/helloai-2.2-py3-none-any.whl.zip tmp/helloai-2.3.1-py3-none-any.whl.zip --markdown 20240521/h/helloai/2.2-2.3.1/README.md --exclude *.pyd
+[2024-05-21 08:04:18] INFO root fetch - processPackages [django-project-base]: Downloading https://files.pythonhosted.org/packages/ef/0a/2b346da7b349997b7ec6d8257f7157383ccddbe691426b6bae03b94ac862/django-project-base-0.75.30.tar.gz
+[2024-05-21 08:04:18] INFO root fetch - processPackages [odoo14-addon-ssi-product]: Downloading https://files.pythonhosted.org/packages/75/be/3c6d5425309b6a40d2e0349f3ec5fb164b783a92915402fdaf4642c57145/odoo14_addon_ssi_product-14.0.1.7.1-py3-none-any.whl
+[2024-05-21 08:04:18] INFO root fetch - processPackages [WGSE-NG]: Downloading https://files.pythonhosted.org/packages/64/84/18384d70aefd9baceafbb35106f76ad76713ff00db1623a89db7eadf24d2/wgse_ng-1.0.0a7.tar.gz
+[2024-05-21 08:04:18] INFO root fetch - processPackages [odoo14-addon-ssi-product]: executing diffoscope
+[2024-05-21 08:04:18] INFO root fetch - processPackages [odoo14-addon-ssi-product]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_ssi_product-14.0.1.7.0-py3-none-any.whl.zip tmp/odoo14_addon_ssi_product-14.0.1.7.1-py3-none-any.whl.zip --markdown 20240521/o/odoo14-addon-ssi-product/14.0.1.7.0-14.0.1.7.1/README.md --exclude *.pyd
+[2024-05-21 08:04:18] INFO root fetch - processPackages [Hammerhead-View]: Remove: archive file [/home/abi/fetcher/tmp/Hammerhead-View-0.1.3.tar.gz]
+[2024-05-21 08:04:18] INFO root fetch - processPackages [Hammerhead-View]: Remove: archive file [/home/abi/fetcher/tmp/Hammerhead-View-0.1.4.tar.gz]
+[2024-05-21 08:04:18] INFO root fetch - main [MainThread]: End processing [Hammerhead-View]: success
+[2024-05-21 08:04:18] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.8.tar.gz]
+[2024-05-21 08:04:18] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.9.tar.gz]
+[2024-05-21 08:04:18] INFO root fetch - main [MainThread]: End processing [pms-encoder]: success
+[2024-05-21 08:04:18] INFO root fetch - processPackages [ferfereh]: Remove: archive file [/home/abi/fetcher/tmp/ferfereh-1.123.1.tar.gz]
+[2024-05-21 08:04:18] INFO root fetch - processPackages [ferfereh]: Remove: archive file [/home/abi/fetcher/tmp/ferfereh-1.124.1.tar.gz]
+[2024-05-21 08:04:18] INFO root fetch - main [MainThread]: End processing [ferfereh]: success
+[2024-05-21 08:04:18] INFO root fetch - processPackages [WGSE-NG]: executing diffoscope
+[2024-05-21 08:04:18] INFO root fetch - processPackages [WGSE-NG]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wgse_ng-1.0.0a5.tar.gz tmp/wgse_ng-1.0.0a7.tar.gz --markdown 20240521/W/WGSE-NG/1.0.0a5-1.0.0a7/README.md --exclude *.pyd
+[2024-05-21 08:04:19] INFO root fetch - processPackages [django-project-base]: executing diffoscope
+[2024-05-21 08:04:19] INFO root fetch - processPackages [django-project-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-project-base-0.4.9.tar.gz tmp/django-project-base-0.75.30.tar.gz --markdown 20240521/d/django-project-base/0.4.9-0.75.30/README.md --exclude *.pyd
+[2024-05-21 08:04:19] INFO root fetch - processPackages [helloai]: Remove: archive file [/home/abi/fetcher/tmp/helloai-2.2-py3-none-any.whl.zip]
+[2024-05-21 08:04:19] INFO root fetch - processPackages [helloai]: Remove: archive file [/home/abi/fetcher/tmp/helloai-2.3.1-py3-none-any.whl.zip]
+[2024-05-21 08:04:19] INFO root fetch - main [MainThread]: End processing [helloai]: success
+[2024-05-21 08:04:19] INFO root fetch - processPackages [odoo14-addon-ssi-product]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_product-14.0.1.7.0-py3-none-any.whl.zip]
+[2024-05-21 08:04:19] INFO root fetch - processPackages [odoo14-addon-ssi-product]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_product-14.0.1.7.1-py3-none-any.whl.zip]
+[2024-05-21 08:04:19] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-product]: success
+[2024-05-21 08:04:20] INFO root fetch - processPackages [django-project-base]: Remove: archive file [/home/abi/fetcher/tmp/django-project-base-0.4.9.tar.gz]
+[2024-05-21 08:04:20] INFO root fetch - processPackages [django-project-base]: Remove: archive file [/home/abi/fetcher/tmp/django-project-base-0.75.30.tar.gz]
+[2024-05-21 08:04:20] INFO root fetch - main [MainThread]: End processing [django-project-base]: success
+[2024-05-21 08:04:23] INFO root fetch - processPackages [WGSE-NG]: Remove: archive file [/home/abi/fetcher/tmp/wgse_ng-1.0.0a5.tar.gz]
+[2024-05-21 08:04:23] INFO root fetch - processPackages [WGSE-NG]: Remove: archive file [/home/abi/fetcher/tmp/wgse_ng-1.0.0a7.tar.gz]
+[2024-05-21 08:04:23] INFO root fetch - main [MainThread]: End processing [WGSE-NG]: success
+[2024-05-21 08:04:23] INFO root fetch - main [MainThread]: Store serial: [23301785]
