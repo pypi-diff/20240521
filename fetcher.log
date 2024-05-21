@@ -3158,3 +3158,42 @@
 [2024-05-21 02:37:47] INFO root fetch - processPackages [memary]: Remove: archive file [/home/abi/fetcher/tmp/memary-0.1.2.tar.gz]
 [2024-05-21 02:37:47] INFO root fetch - main [MainThread]: End processing [memary]: success
 [2024-05-21 02:37:47] INFO root fetch - main [MainThread]: Store serial: [23298066]
+[2024-05-21 02:39:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23298066]
+[2024-05-21 02:39:56] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-21 02:39:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ralium
+[2024-05-21 02:39:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: amaranth-yosys
+[2024-05-21 02:39:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cf2tf
+[2024-05-21 02:39:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mybox
+[2024-05-21 02:39:56] INFO root fetch - processPackages [cf2tf]: New version: [0.8.1a4] Old Version: [0.8.1a3]
+[2024-05-21 02:39:56] INFO root fetch - processPackages [cf2tf]: Downloading https://files.pythonhosted.org/packages/08/cc/7a83a1d06489bee6b45cb2bdeb48640f10336ce40b0995687ef37ffeac26/cf2tf-0.8.1a3.tar.gz
+[2024-05-21 02:39:56] INFO root fetch - processPackages [amaranth-yosys]: New version: [0.9.post3746.dev41] Old Version: [0.40.0.0.post95]
+[2024-05-21 02:39:56] INFO root fetch - processPackages [ralium]: New version: [1.0.0] Old Version: [0.3.7]
+[2024-05-21 02:39:56] INFO root fetch - processPackages [mybox]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-21 02:39:57] INFO root fetch - processPackages [amaranth-yosys]: Downloading https://files.pythonhosted.org/packages/6a/fa/404259557996b955e2fa6e282b364462362f9cc2969627783e82c7d5a00f/amaranth_yosys-0.40.0.0.post95-py3-none-any.whl
+[2024-05-21 02:39:57] INFO root fetch - processPackages [cf2tf]: Downloading https://files.pythonhosted.org/packages/2c/e0/55ddb80ac357b2bd5dba6f24f78101b4ab7da3acb8218c2a2086b888b824/cf2tf-0.8.1a4.tar.gz
+[2024-05-21 02:39:57] INFO root fetch - processPackages [mybox]: Downloading https://files.pythonhosted.org/packages/13/f6/202f25da3129171e5c2cc6ccf7e2437ee5d65fafeeb9af158596ac60f7a8/mybox-2.0.8.tar.gz
+[2024-05-21 02:39:57] INFO root fetch - processPackages [ralium]: Downloading https://files.pythonhosted.org/packages/e0/b0/15becc182741bf3f58190d12ee379871b7ad3ebeebabe0d79ab832b52f6a/ralium-0.3.7.tar.gz
+[2024-05-21 02:39:57] INFO root fetch - processPackages [cf2tf]: executing diffoscope
+[2024-05-21 02:39:57] INFO root fetch - processPackages [cf2tf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cf2tf-0.8.1a3.tar.gz tmp/cf2tf-0.8.1a4.tar.gz --markdown 20240521/c/cf2tf/0.8.1a3-0.8.1a4/README.md --exclude *.pyd
+[2024-05-21 02:39:57] INFO root fetch - processPackages [ralium]: Downloading https://files.pythonhosted.org/packages/85/8e/b787cc594099788e855d8bafd0bbd5b493101507a8c3d1195cc14f722150/ralium-1.0.0.tar.gz
+[2024-05-21 02:39:57] INFO root fetch - processPackages [mybox]: Downloading https://files.pythonhosted.org/packages/e7/74/17fd92b174ff8b20616c55e75350c20cfbb4a1b6a048c7c9f4abe75698ae/mybox-2.0.9.tar.gz
+[2024-05-21 02:39:57] INFO root fetch - processPackages [mybox]: executing diffoscope
+[2024-05-21 02:39:57] INFO root fetch - processPackages [mybox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mybox-2.0.8.tar.gz tmp/mybox-2.0.9.tar.gz --markdown 20240521/m/mybox/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-21 02:39:57] INFO root fetch - processPackages [ralium]: executing diffoscope
+[2024-05-21 02:39:57] INFO root fetch - processPackages [ralium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ralium-0.3.7.tar.gz tmp/ralium-1.0.0.tar.gz --markdown 20240521/r/ralium/0.3.7-1.0.0/README.md --exclude *.pyd
+[2024-05-21 02:39:57] INFO root fetch - processPackages [amaranth-yosys]: Downloading https://files.pythonhosted.org/packages/86/9d/ea3cebfd7dfbf3473ee9845b9254e30f5c19a043da87ae83262e20207b1c/amaranth_yosys-0.9.post3746.dev41-py3-none-any.whl
+[2024-05-21 02:39:57] INFO root fetch - processPackages [cf2tf]: Remove: archive file [/home/abi/fetcher/tmp/cf2tf-0.8.1a3.tar.gz]
+[2024-05-21 02:39:57] INFO root fetch - processPackages [cf2tf]: Remove: archive file [/home/abi/fetcher/tmp/cf2tf-0.8.1a4.tar.gz]
+[2024-05-21 02:39:57] INFO root fetch - main [MainThread]: End processing [cf2tf]: success
+[2024-05-21 02:39:57] INFO root fetch - processPackages [amaranth-yosys]: executing diffoscope
+[2024-05-21 02:39:57] INFO root fetch - processPackages [amaranth-yosys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amaranth_yosys-0.40.0.0.post95-py3-none-any.whl.zip tmp/amaranth_yosys-0.9.post3746.dev41-py3-none-any.whl.zip --markdown 20240521/a/amaranth-yosys/0.40.0.0.post95-0.9.post3746.dev41/README.md --exclude *.pyd
+[2024-05-21 02:39:58] INFO root fetch - processPackages [mybox]: Remove: archive file [/home/abi/fetcher/tmp/mybox-2.0.8.tar.gz]
+[2024-05-21 02:39:58] INFO root fetch - processPackages [mybox]: Remove: archive file [/home/abi/fetcher/tmp/mybox-2.0.9.tar.gz]
+[2024-05-21 02:39:58] INFO root fetch - main [MainThread]: End processing [mybox]: success
+[2024-05-21 02:39:58] INFO root fetch - processPackages [ralium]: Remove: archive file [/home/abi/fetcher/tmp/ralium-0.3.7.tar.gz]
+[2024-05-21 02:39:58] INFO root fetch - processPackages [ralium]: Remove: archive file [/home/abi/fetcher/tmp/ralium-1.0.0.tar.gz]
+[2024-05-21 02:39:58] INFO root fetch - main [MainThread]: End processing [ralium]: success
+[2024-05-21 02:40:22] INFO root fetch - processPackages [amaranth-yosys]: Remove: archive file [/home/abi/fetcher/tmp/amaranth_yosys-0.40.0.0.post95-py3-none-any.whl.zip]
+[2024-05-21 02:40:22] INFO root fetch - processPackages [amaranth-yosys]: Remove: archive file [/home/abi/fetcher/tmp/amaranth_yosys-0.9.post3746.dev41-py3-none-any.whl.zip]
+[2024-05-21 02:40:22] INFO root fetch - main [MainThread]: End processing [amaranth-yosys]: success
+[2024-05-21 02:40:22] INFO root fetch - main [MainThread]: Store serial: [23298078]
