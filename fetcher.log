@@ -12610,3 +12610,54 @@
 [2024-05-21 07:53:22] INFO root fetch - processPackages [aiotx]: Remove: archive file [/home/abi/fetcher/tmp/aiotx-1.2.3.tar.gz]
 [2024-05-21 07:53:22] INFO root fetch - main [MainThread]: End processing [aiotx]: success
 [2024-05-21 07:53:22] INFO root fetch - main [MainThread]: Store serial: [23301680]
+[2024-05-21 07:55:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23301680]
+[2024-05-21 07:55:31] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-21 07:55:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dragons96-tools
+[2024-05-21 07:55:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MilesToMuppets
+[2024-05-21 07:55:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: BrickBundles
+[2024-05-21 07:55:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: BrickAgx
+[2024-05-21 07:55:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-pos-payment-method-change-policy
+[2024-05-21 07:55:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addons-oca-pos
+[2024-05-21 07:55:31] WARNING root fetch - processPackages [odoo-addon-pos-payment-method-change-policy]: Skipping, unable to determine old version
+[2024-05-21 07:55:31] INFO root fetch - main [MainThread]: End processing [odoo-addon-pos-payment-method-change-policy] error
+[2024-05-21 07:55:31] INFO root fetch - processPackages [MilesToMuppets]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-21 07:55:31] INFO root fetch - processPackages [odoo-addons-oca-pos]: New version: [16.0.20240520.0] Old Version: [16.0.20240425.1]
+[2024-05-21 07:55:31] INFO root fetch - processPackages [MilesToMuppets]: Downloading https://files.pythonhosted.org/packages/bf/83/91b2e5496d2aec0c4ca5d924fc8ad36cf1c44617d057cb0bb099372d07ec/milestomuppets-0.0.6.tar.gz
+[2024-05-21 07:55:31] INFO root fetch - processPackages [BrickBundles]: New version: [0.8.1] Old Version: [0.8.0]
+[2024-05-21 07:55:31] INFO root fetch - processPackages [dragons96-tools]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-21 07:55:31] INFO root fetch - processPackages [BrickAgx]: New version: [0.8.1] Old Version: [0.8.0]
+[2024-05-21 07:55:31] INFO root fetch - processPackages [BrickBundles]: Downloading https://files.pythonhosted.org/packages/87/ef/aeb3defca5f41d60be9641c2fb3d7908f89576379406aabfaeb923761ebf/brickbundles-0.8.0-py3-none-any.whl
+[2024-05-21 07:55:31] INFO root fetch - processPackages [dragons96-tools]: Downloading https://files.pythonhosted.org/packages/a3/35/4f02f0f12780bf7b791989ab642ec21f06b9fd66e4025906bb9c6a5af6a4/dragons96_tools-0.0.8.tar.gz
+[2024-05-21 07:55:32] INFO root fetch - processPackages [odoo-addons-oca-pos]: Downloading https://files.pythonhosted.org/packages/0d/a3/625de957576ba0d34348f3f16af1a5772818f5e5d48b2bbcf0039b23c534/odoo_addons_oca_pos-16.0.20240425.1-py3-none-any.whl
+[2024-05-21 07:55:32] INFO root fetch - processPackages [BrickAgx]: Downloading https://files.pythonhosted.org/packages/49/01/0243fc3af248c7a39cf0dbe86a062a832b8d89e94f714d34138630d345c0/brickagx-0.8.0-cp39-cp39-win_amd64.whl
+[2024-05-21 07:55:32] INFO root fetch - processPackages [MilesToMuppets]: Downloading https://files.pythonhosted.org/packages/96/e4/6c47867c3f4677c037a8a855985b39564b08cc9adb8bd960a7d096acec90/milestomuppets-0.0.7.tar.gz
+[2024-05-21 07:55:32] INFO root fetch - processPackages [MilesToMuppets]: executing diffoscope
+[2024-05-21 07:55:32] INFO root fetch - processPackages [MilesToMuppets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/milestomuppets-0.0.6.tar.gz tmp/milestomuppets-0.0.7.tar.gz --markdown 20240521/M/MilesToMuppets/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-21 07:55:32] INFO root fetch - processPackages [dragons96-tools]: Downloading https://files.pythonhosted.org/packages/ac/7c/813105da4cb1a3a4e0403b37ea632347837dd95f4dabad1c6224360f1284/dragons96_tools-0.0.9.tar.gz
+[2024-05-21 07:55:32] INFO root fetch - processPackages [BrickBundles]: Downloading https://files.pythonhosted.org/packages/56/a2/d36332b2c2be88af2cf33cc8d83d610b07f333da713808808ce63159580f/brickbundles-0.8.1-py3-none-any.whl
+[2024-05-21 07:55:32] INFO root fetch - processPackages [odoo-addons-oca-pos]: Downloading https://files.pythonhosted.org/packages/60/57/13e1da4b6071f43f7fdcef4cfb06659e98ef3b957425e93e5df91dc8d7e4/odoo_addons_oca_pos-16.0.20240520.0-py3-none-any.whl
+[2024-05-21 07:55:32] INFO root fetch - processPackages [dragons96-tools]: executing diffoscope
+[2024-05-21 07:55:32] INFO root fetch - processPackages [dragons96-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragons96_tools-0.0.8.tar.gz tmp/dragons96_tools-0.0.9.tar.gz --markdown 20240521/d/dragons96-tools/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-21 07:55:32] INFO root fetch - processPackages [BrickBundles]: executing diffoscope
+[2024-05-21 07:55:32] INFO root fetch - processPackages [BrickBundles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brickbundles-0.8.0-py3-none-any.whl.zip tmp/brickbundles-0.8.1-py3-none-any.whl.zip --markdown 20240521/B/BrickBundles/0.8.0-0.8.1/README.md --exclude *.pyd
+[2024-05-21 07:55:32] INFO root fetch - processPackages [odoo-addons-oca-pos]: executing diffoscope
+[2024-05-21 07:55:32] INFO root fetch - processPackages [odoo-addons-oca-pos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_pos-16.0.20240425.1-py3-none-any.whl.zip tmp/odoo_addons_oca_pos-16.0.20240520.0-py3-none-any.whl.zip --markdown 20240521/o/odoo-addons-oca-pos/16.0.20240425.1-16.0.20240520.0/README.md --exclude *.pyd
+[2024-05-21 07:55:32] INFO root fetch - processPackages [BrickAgx]: Downloading https://files.pythonhosted.org/packages/8c/38/892e505b17a563fba5ad6f18d090726f20c1eb55a42a59c5c30c7d011719/brickagx-0.8.1-cp39-cp39-win_amd64.whl
+[2024-05-21 07:55:33] INFO root fetch - processPackages [odoo-addons-oca-pos]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_pos-16.0.20240425.1-py3-none-any.whl.zip]
+[2024-05-21 07:55:33] INFO root fetch - processPackages [odoo-addons-oca-pos]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_pos-16.0.20240520.0-py3-none-any.whl.zip]
+[2024-05-21 07:55:33] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-pos]: success
+[2024-05-21 07:55:33] INFO root fetch - processPackages [MilesToMuppets]: Remove: archive file [/home/abi/fetcher/tmp/milestomuppets-0.0.6.tar.gz]
+[2024-05-21 07:55:33] INFO root fetch - processPackages [MilesToMuppets]: Remove: archive file [/home/abi/fetcher/tmp/milestomuppets-0.0.7.tar.gz]
+[2024-05-21 07:55:33] INFO root fetch - main [MainThread]: End processing [MilesToMuppets]: success
+[2024-05-21 07:55:33] INFO root fetch - processPackages [dragons96-tools]: Remove: archive file [/home/abi/fetcher/tmp/dragons96_tools-0.0.8.tar.gz]
+[2024-05-21 07:55:33] INFO root fetch - processPackages [dragons96-tools]: Remove: archive file [/home/abi/fetcher/tmp/dragons96_tools-0.0.9.tar.gz]
+[2024-05-21 07:55:33] INFO root fetch - main [MainThread]: End processing [dragons96-tools]: success
+[2024-05-21 07:55:33] INFO root fetch - processPackages [BrickBundles]: Remove: archive file [/home/abi/fetcher/tmp/brickbundles-0.8.0-py3-none-any.whl.zip]
+[2024-05-21 07:55:33] INFO root fetch - processPackages [BrickBundles]: Remove: archive file [/home/abi/fetcher/tmp/brickbundles-0.8.1-py3-none-any.whl.zip]
+[2024-05-21 07:55:33] INFO root fetch - main [MainThread]: End processing [BrickBundles]: success
+[2024-05-21 07:55:34] INFO root fetch - processPackages [BrickAgx]: executing diffoscope
+[2024-05-21 07:55:34] INFO root fetch - processPackages [BrickAgx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brickagx-0.8.0-cp39-cp39-win_amd64.whl.zip tmp/brickagx-0.8.1-cp39-cp39-win_amd64.whl.zip --markdown 20240521/B/BrickAgx/0.8.0-0.8.1/README.md --exclude *.pyd
+[2024-05-21 07:55:34] INFO root fetch - processPackages [BrickAgx]: Remove: archive file [/home/abi/fetcher/tmp/brickagx-0.8.0-cp39-cp39-win_amd64.whl.zip]
+[2024-05-21 07:55:34] INFO root fetch - processPackages [BrickAgx]: Remove: archive file [/home/abi/fetcher/tmp/brickagx-0.8.1-cp39-cp39-win_amd64.whl.zip]
+[2024-05-21 07:55:34] INFO root fetch - main [MainThread]: End processing [BrickAgx]: success
+[2024-05-21 07:55:34] INFO root fetch - main [MainThread]: Store serial: [23301707]
