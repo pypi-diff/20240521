@@ -3478,3 +3478,27 @@
 [2024-05-21 02:56:10] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
 [2024-05-21 02:56:10] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
 [2024-05-21 02:56:10] INFO root fetch - main [MainThread]: Store serial: [23298175]
+[2024-05-21 02:58:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23298175]
+[2024-05-21 02:58:20] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-21 02:58:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sapphire-renderer
+[2024-05-21 02:58:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wawona
+[2024-05-21 02:58:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: click-tree
+[2024-05-21 02:58:20] INFO root fetch - processPackages [wawona]: New version: [1.2.0] Old Version: [1.1.2]
+[2024-05-21 02:58:20] INFO root fetch - processPackages [sapphire-renderer]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-21 02:58:20] WARNING root fetch - processPackages [click-tree]: Skipping, unable to determine old version
+[2024-05-21 02:58:20] INFO root fetch - main [MainThread]: End processing [click-tree] error
+[2024-05-21 02:58:20] INFO root fetch - processPackages [sapphire-renderer]: Downloading https://files.pythonhosted.org/packages/2b/42/94c0538f43a9b8e7cb54f37e97b259fbdd1ec3592931d86660f100f5ce0e/sapphire-renderer-0.0.8.tar.gz
+[2024-05-21 02:58:20] INFO root fetch - processPackages [wawona]: Downloading https://files.pythonhosted.org/packages/37/31/3db8385d6fbd13c90444fbbd5d4eeb2a5b742f81bf81a34f8ac63e79577a/wawona-1.1.2.tar.gz
+[2024-05-21 02:58:20] INFO root fetch - processPackages [sapphire-renderer]: Downloading https://files.pythonhosted.org/packages/f8/31/8de4b92c9035b28151912286005bd004a22beea4fc1de98c231b009bd2be/sapphire-renderer-0.0.9.tar.gz
+[2024-05-21 02:58:20] INFO root fetch - processPackages [wawona]: Downloading https://files.pythonhosted.org/packages/67/c1/c83aeea4984217f2dd1918065043ff53f4354bb6e7dfbab17c1321b04de6/wawona-1.2.0.tar.gz
+[2024-05-21 02:58:20] INFO root fetch - processPackages [sapphire-renderer]: executing diffoscope
+[2024-05-21 02:58:20] INFO root fetch - processPackages [sapphire-renderer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sapphire-renderer-0.0.8.tar.gz tmp/sapphire-renderer-0.0.9.tar.gz --markdown 20240521/s/sapphire-renderer/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-21 02:58:20] INFO root fetch - processPackages [wawona]: executing diffoscope
+[2024-05-21 02:58:20] INFO root fetch - processPackages [wawona]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wawona-1.1.2.tar.gz tmp/wawona-1.2.0.tar.gz --markdown 20240521/w/wawona/1.1.2-1.2.0/README.md --exclude *.pyd
+[2024-05-21 02:58:21] INFO root fetch - processPackages [sapphire-renderer]: Remove: archive file [/home/abi/fetcher/tmp/sapphire-renderer-0.0.8.tar.gz]
+[2024-05-21 02:58:21] INFO root fetch - processPackages [sapphire-renderer]: Remove: archive file [/home/abi/fetcher/tmp/sapphire-renderer-0.0.9.tar.gz]
+[2024-05-21 02:58:21] INFO root fetch - main [MainThread]: End processing [sapphire-renderer]: success
+[2024-05-21 02:58:21] INFO root fetch - processPackages [wawona]: Remove: archive file [/home/abi/fetcher/tmp/wawona-1.1.2.tar.gz]
+[2024-05-21 02:58:21] INFO root fetch - processPackages [wawona]: Remove: archive file [/home/abi/fetcher/tmp/wawona-1.2.0.tar.gz]
+[2024-05-21 02:58:21] INFO root fetch - main [MainThread]: End processing [wawona]: success
+[2024-05-21 02:58:21] INFO root fetch - main [MainThread]: Store serial: [23298186]
