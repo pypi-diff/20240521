@@ -11962,3 +11962,96 @@
 [2024-05-21 07:24:46] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240520160636.tar.gz]
 [2024-05-21 07:24:46] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2024-05-21 07:24:46] INFO root fetch - main [MainThread]: Store serial: [23301372]
+[2024-05-21 07:26:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23301372]
+[2024-05-21 07:26:56] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-21 07:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rstms-cloudflare
+[2024-05-21 07:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: google-nest-sdm
+[2024-05-21 07:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: loopquest
+[2024-05-21 07:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PyRHEED
+[2024-05-21 07:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: airbyte-source-appfollow
+[2024-05-21 07:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-stock-replenishment-mrp-bom-selection
+[2024-05-21 07:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: message-local
+[2024-05-21 07:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: MilesToMuppets
+[2024-05-21 07:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: webscout
+[2024-05-21 07:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo14-addon-quality-control-team-oca
+[2024-05-21 07:26:56] INFO root fetch - processPackages [rstms-cloudflare]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-21 07:26:56] INFO root fetch - processPackages [PyRHEED]: New version: [1.0.8rc0] Old Version: [1.0.8b0]
+[2024-05-21 07:26:56] INFO root fetch - processPackages [MilesToMuppets]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-21 07:26:56] INFO root fetch - processPackages [loopquest]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-05-21 07:26:56] INFO root fetch - processPackages [rstms-cloudflare]: Downloading https://files.pythonhosted.org/packages/96/1b/a02ead2efdf79d3c8d9b0be00812a2549d3102b02f8ab51748b14a86d45a/rstms_cloudflare-1.1.0.tar.gz
+[2024-05-21 07:26:56] INFO root fetch - processPackages [MilesToMuppets]: Downloading https://files.pythonhosted.org/packages/a9/89/be0fe4adcb26930719cc745e88fa71d4895def07ee289df91060da667888/milestomuppets-0.0.3.tar.gz
+[2024-05-21 07:26:56] INFO root fetch - processPackages [webscout]: New version: [2.8] Old Version: [2.7]
+[2024-05-21 07:26:56] INFO root fetch - processPackages [odoo-addon-stock-replenishment-mrp-bom-selection]: New version: [15.0.1.0.0.3] Old Version: [15.0.1.0.0.2]
+[2024-05-21 07:26:56] INFO root fetch - processPackages [airbyte-source-appfollow]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-21 07:26:56] INFO root fetch - processPackages [google-nest-sdm]: New version: [4.0.1] Old Version: [4.0.0]
+[2024-05-21 07:26:56] INFO root fetch - processPackages [message-local]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-21 07:26:56] INFO root fetch - processPackages [odoo14-addon-quality-control-team-oca]: New version: [14.0.1.0.1.dev6] Old Version: [14.0.1.0.1.dev5]
+[2024-05-21 07:26:56] INFO root fetch - processPackages [loopquest]: Downloading https://files.pythonhosted.org/packages/36/db/0e9964b80b3186b94e387a329159d71fcb8089e49340338b83675aeaaad4/loopquest-0.2.5.tar.gz
+[2024-05-21 07:26:56] INFO root fetch - processPackages [PyRHEED]: Downloading https://files.pythonhosted.org/packages/95/6d/9c40934f3e2687f629e9f30119d18e0d89f03bd36ecaa4cdb2d4cd0917d0/pyrheed-1.0.8b0.tar.gz
+[2024-05-21 07:26:56] INFO root fetch - processPackages [message-local]: Downloading https://files.pythonhosted.org/packages/58/98/6002a91d9f0eb23b635ecf892333a787e13c1e810b92090bc53584aa2f18/message-local-0.0.98.tar.gz
+[2024-05-21 07:26:56] INFO root fetch - processPackages [odoo-addon-stock-replenishment-mrp-bom-selection]: Downloading https://files.pythonhosted.org/packages/5e/30/baabff586ccfc1afa2edc5e5d60a08e7ad8a9ff2375dc62093d0505ebbb7/odoo_addon_stock_replenishment_mrp_bom_selection-15.0.1.0.0.2-py3-none-any.whl
+[2024-05-21 07:26:56] INFO root fetch - processPackages [airbyte-source-appfollow]: Downloading https://files.pythonhosted.org/packages/db/f5/3a70e6bebead375055b939aed1a1be6ce535dca0f414cacdeee17b3e899f/airbyte-source-appfollow-1.0.0.tar.gz
+[2024-05-21 07:26:56] INFO root fetch - processPackages [google-nest-sdm]: Downloading https://files.pythonhosted.org/packages/37/9a/f9bc4c99ac1a42e5bc55e59abed3f4c6a90abdfa9c688e1be45eaff1766e/google_nest_sdm-4.0.0.tar.gz
+[2024-05-21 07:26:56] INFO root fetch - processPackages [webscout]: Downloading https://files.pythonhosted.org/packages/92/a2/1aa7e60e80f18c4829668aba327b2b05bcc52e28275dd6d809fa76bf9778/webscout-2.7.tar.gz
+[2024-05-21 07:26:56] INFO root fetch - processPackages [odoo14-addon-quality-control-team-oca]: Downloading https://files.pythonhosted.org/packages/cd/1f/b77d0378a908fa52d7b4f4baca14fe88b0a33017f2f980ef34312a57627f/odoo14_addon_quality_control_team_oca-14.0.1.0.1.dev5-py3-none-any.whl
+[2024-05-21 07:26:56] INFO root fetch - processPackages [rstms-cloudflare]: Downloading https://files.pythonhosted.org/packages/18/0b/f09183e3d5632192ce46799caa0adf9de157021fbcb69cda4456e429ad2c/rstms_cloudflare-1.1.1.tar.gz
+[2024-05-21 07:26:56] INFO root fetch - processPackages [MilesToMuppets]: Downloading https://files.pythonhosted.org/packages/ee/22/46527b72dd344220103dd55e4c021c34b9221846436b0fa7f30cc4e2bae3/milestomuppets-0.0.4.tar.gz
+[2024-05-21 07:26:56] INFO root fetch - processPackages [rstms-cloudflare]: executing diffoscope
+[2024-05-21 07:26:56] INFO root fetch - processPackages [rstms-cloudflare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rstms_cloudflare-1.1.0.tar.gz tmp/rstms_cloudflare-1.1.1.tar.gz --markdown 20240521/r/rstms-cloudflare/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-21 07:26:57] INFO root fetch - processPackages [loopquest]: Downloading https://files.pythonhosted.org/packages/ae/50/95abc5d556ce41500b32be25da12e57a3e36f9e02c389b16de7e4ba0a660/loopquest-0.2.6.tar.gz
+[2024-05-21 07:26:57] INFO root fetch - processPackages [MilesToMuppets]: executing diffoscope
+[2024-05-21 07:26:57] INFO root fetch - processPackages [MilesToMuppets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/milestomuppets-0.0.3.tar.gz tmp/milestomuppets-0.0.4.tar.gz --markdown 20240521/M/MilesToMuppets/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-21 07:26:57] INFO root fetch - processPackages [PyRHEED]: Downloading https://files.pythonhosted.org/packages/4d/53/09f1243ffa2006a172b5958572706bc933d5d993299231b4caee7ac9e458/pyrheed-1.0.8rc0.tar.gz
+[2024-05-21 07:26:57] INFO root fetch - processPackages [message-local]: Downloading https://files.pythonhosted.org/packages/78/17/d149670c7821186afe25a7b74020f68bd8db48497b170965d75952fbe2d8/message-local-0.0.99.tar.gz
+[2024-05-21 07:26:57] INFO root fetch - processPackages [odoo-addon-stock-replenishment-mrp-bom-selection]: Downloading https://files.pythonhosted.org/packages/35/2a/cb7a1a8efdd6e8e4d2029530e287c5e0a76b84f0b9e604808c02c588d168/odoo_addon_stock_replenishment_mrp_bom_selection-15.0.1.0.0.3-py3-none-any.whl
+[2024-05-21 07:26:57] INFO root fetch - processPackages [loopquest]: executing diffoscope
+[2024-05-21 07:26:57] INFO root fetch - processPackages [loopquest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loopquest-0.2.5.tar.gz tmp/loopquest-0.2.6.tar.gz --markdown 20240521/l/loopquest/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-05-21 07:26:57] INFO root fetch - processPackages [google-nest-sdm]: Downloading https://files.pythonhosted.org/packages/67/38/a1be0492cc0ec482643a60df9d6946f52d1d90573739bd0302d02c7208cf/google_nest_sdm-4.0.1.tar.gz
+[2024-05-21 07:26:57] INFO root fetch - processPackages [message-local]: executing diffoscope
+[2024-05-21 07:26:57] INFO root fetch - processPackages [message-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/message-local-0.0.98.tar.gz tmp/message-local-0.0.99.tar.gz --markdown 20240521/m/message-local/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-21 07:26:57] INFO root fetch - processPackages [PyRHEED]: executing diffoscope
+[2024-05-21 07:26:57] INFO root fetch - processPackages [PyRHEED]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrheed-1.0.8b0.tar.gz tmp/pyrheed-1.0.8rc0.tar.gz --markdown 20240521/P/PyRHEED/1.0.8b0-1.0.8rc0/README.md --exclude *.pyd
+[2024-05-21 07:26:57] INFO root fetch - processPackages [webscout]: Downloading https://files.pythonhosted.org/packages/c8/37/1a094f3d65eb904124fed52e5f1f22212a9032335e9e8e74768dca276e20/webscout-2.8.tar.gz
+[2024-05-21 07:26:57] INFO root fetch - processPackages [airbyte-source-appfollow]: Downloading https://files.pythonhosted.org/packages/a2/ae/5ec3764c48e0e02e4c2f0f22c34d5076ae0b64afa2bc37a34ae7e9dc2967/airbyte_source_appfollow-1.0.1.tar.gz
+[2024-05-21 07:26:57] INFO root fetch - processPackages [odoo-addon-stock-replenishment-mrp-bom-selection]: executing diffoscope
+[2024-05-21 07:26:57] INFO root fetch - processPackages [odoo-addon-stock-replenishment-mrp-bom-selection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_replenishment_mrp_bom_selection-15.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_stock_replenishment_mrp_bom_selection-15.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240521/o/odoo-addon-stock-replenishment-mrp-bom-selection/15.0.1.0.0.2-15.0.1.0.0.3/README.md --exclude *.pyd
+[2024-05-21 07:26:57] INFO root fetch - processPackages [google-nest-sdm]: executing diffoscope
+[2024-05-21 07:26:57] INFO root fetch - processPackages [google-nest-sdm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google_nest_sdm-4.0.0.tar.gz tmp/google_nest_sdm-4.0.1.tar.gz --markdown 20240521/g/google-nest-sdm/4.0.0-4.0.1/README.md --exclude *.pyd
+[2024-05-21 07:26:57] INFO root fetch - processPackages [odoo14-addon-quality-control-team-oca]: Downloading https://files.pythonhosted.org/packages/c9/97/409218636d87cc82ad7bff3f4ed553840e8f1425f78587d9dd9515dfac76/odoo14_addon_quality_control_team_oca-14.0.1.0.1.dev6-py3-none-any.whl
+[2024-05-21 07:26:57] INFO root fetch - processPackages [airbyte-source-appfollow]: executing diffoscope
+[2024-05-21 07:26:57] INFO root fetch - processPackages [airbyte-source-appfollow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-source-appfollow-1.0.0.tar.gz tmp/airbyte_source_appfollow-1.0.1.tar.gz --markdown 20240521/a/airbyte-source-appfollow/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-21 07:26:57] INFO root fetch - processPackages [webscout]: executing diffoscope
+[2024-05-21 07:26:57] INFO root fetch - processPackages [webscout]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webscout-2.7.tar.gz tmp/webscout-2.8.tar.gz --markdown 20240521/w/webscout/2.7-2.8/README.md --exclude *.pyd
+[2024-05-21 07:26:57] INFO root fetch - processPackages [odoo14-addon-quality-control-team-oca]: executing diffoscope
+[2024-05-21 07:26:57] INFO root fetch - processPackages [odoo14-addon-quality-control-team-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_quality_control_team_oca-14.0.1.0.1.dev5-py3-none-any.whl.zip tmp/odoo14_addon_quality_control_team_oca-14.0.1.0.1.dev6-py3-none-any.whl.zip --markdown 20240521/o/odoo14-addon-quality-control-team-oca/14.0.1.0.1.dev5-14.0.1.0.1.dev6/README.md --exclude *.pyd
+[2024-05-21 07:26:57] INFO root fetch - processPackages [rstms-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/rstms_cloudflare-1.1.0.tar.gz]
+[2024-05-21 07:26:57] INFO root fetch - processPackages [rstms-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/rstms_cloudflare-1.1.1.tar.gz]
+[2024-05-21 07:26:57] INFO root fetch - main [MainThread]: End processing [rstms-cloudflare]: success
+[2024-05-21 07:26:57] INFO root fetch - processPackages [MilesToMuppets]: Remove: archive file [/home/abi/fetcher/tmp/milestomuppets-0.0.3.tar.gz]
+[2024-05-21 07:26:57] INFO root fetch - processPackages [MilesToMuppets]: Remove: archive file [/home/abi/fetcher/tmp/milestomuppets-0.0.4.tar.gz]
+[2024-05-21 07:26:57] INFO root fetch - main [MainThread]: End processing [MilesToMuppets]: success
+[2024-05-21 07:26:58] INFO root fetch - processPackages [message-local]: Remove: archive file [/home/abi/fetcher/tmp/message-local-0.0.98.tar.gz]
+[2024-05-21 07:26:58] INFO root fetch - processPackages [message-local]: Remove: archive file [/home/abi/fetcher/tmp/message-local-0.0.99.tar.gz]
+[2024-05-21 07:26:58] INFO root fetch - main [MainThread]: End processing [message-local]: success
+[2024-05-21 07:26:58] INFO root fetch - processPackages [loopquest]: Remove: archive file [/home/abi/fetcher/tmp/loopquest-0.2.5.tar.gz]
+[2024-05-21 07:26:58] INFO root fetch - processPackages [loopquest]: Remove: archive file [/home/abi/fetcher/tmp/loopquest-0.2.6.tar.gz]
+[2024-05-21 07:26:58] INFO root fetch - main [MainThread]: End processing [loopquest]: success
+[2024-05-21 07:26:58] INFO root fetch - processPackages [airbyte-source-appfollow]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-source-appfollow-1.0.0.tar.gz]
+[2024-05-21 07:26:58] INFO root fetch - processPackages [airbyte-source-appfollow]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_appfollow-1.0.1.tar.gz]
+[2024-05-21 07:26:58] INFO root fetch - main [MainThread]: End processing [airbyte-source-appfollow]: success
+[2024-05-21 07:26:58] INFO root fetch - processPackages [PyRHEED]: Remove: archive file [/home/abi/fetcher/tmp/pyrheed-1.0.8b0.tar.gz]
+[2024-05-21 07:26:58] INFO root fetch - processPackages [PyRHEED]: Remove: archive file [/home/abi/fetcher/tmp/pyrheed-1.0.8rc0.tar.gz]
+[2024-05-21 07:26:58] INFO root fetch - main [MainThread]: End processing [PyRHEED]: success
+[2024-05-21 07:26:58] INFO root fetch - processPackages [google-nest-sdm]: Remove: archive file [/home/abi/fetcher/tmp/google_nest_sdm-4.0.0.tar.gz]
+[2024-05-21 07:26:58] INFO root fetch - processPackages [google-nest-sdm]: Remove: archive file [/home/abi/fetcher/tmp/google_nest_sdm-4.0.1.tar.gz]
+[2024-05-21 07:26:58] INFO root fetch - main [MainThread]: End processing [google-nest-sdm]: success
+[2024-05-21 07:26:58] INFO root fetch - processPackages [odoo-addon-stock-replenishment-mrp-bom-selection]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_replenishment_mrp_bom_selection-15.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-21 07:26:58] INFO root fetch - processPackages [odoo-addon-stock-replenishment-mrp-bom-selection]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_replenishment_mrp_bom_selection-15.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-21 07:26:58] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-replenishment-mrp-bom-selection]: success
+[2024-05-21 07:26:58] INFO root fetch - processPackages [webscout]: Remove: archive file [/home/abi/fetcher/tmp/webscout-2.7.tar.gz]
+[2024-05-21 07:26:58] INFO root fetch - processPackages [webscout]: Remove: archive file [/home/abi/fetcher/tmp/webscout-2.8.tar.gz]
+[2024-05-21 07:26:58] INFO root fetch - main [MainThread]: End processing [webscout]: success
+[2024-05-21 07:26:58] INFO root fetch - processPackages [odoo14-addon-quality-control-team-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_quality_control_team_oca-14.0.1.0.1.dev5-py3-none-any.whl.zip]
+[2024-05-21 07:26:58] INFO root fetch - processPackages [odoo14-addon-quality-control-team-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_quality_control_team_oca-14.0.1.0.1.dev6-py3-none-any.whl.zip]
+[2024-05-21 07:26:58] INFO root fetch - main [MainThread]: End processing [odoo14-addon-quality-control-team-oca]: success
+[2024-05-21 07:26:58] INFO root fetch - main [MainThread]: Store serial: [23301401]
