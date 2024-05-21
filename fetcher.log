@@ -14120,3 +14120,59 @@
 [2024-05-21 08:56:57] INFO root fetch - processPackages [odoo-addon-base-technical-features]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_technical_features-17.0.1.0.0.4-py3-none-any.whl.zip]
 [2024-05-21 08:56:57] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-technical-features]: success
 [2024-05-21 08:56:57] INFO root fetch - main [MainThread]: Store serial: [23302242]
+[2024-05-21 08:59:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23302242]
+[2024-05-21 08:59:06] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-21 08:59:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: specmatic
+[2024-05-21 08:59:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jpegtran
+[2024-05-21 08:59:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: typedload
+[2024-05-21 08:59:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pynenv
+[2024-05-21 08:59:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: plone-sphinx-theme
+[2024-05-21 08:59:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dearwatson
+[2024-05-21 08:59:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dungeonmaker
+[2024-05-21 08:59:06] INFO root fetch - processPackages [pynenv]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-21 08:59:06] WARNING root fetch - processPackages [jpegtran]: Skipping, unable to determine old version
+[2024-05-21 08:59:06] INFO root fetch - main [MainThread]: End processing [jpegtran] error
+[2024-05-21 08:59:06] INFO root fetch - processPackages [dungeonmaker]: New version: [0.6.7] Old Version: [0.6.6]
+[2024-05-21 08:59:06] INFO root fetch - processPackages [plone-sphinx-theme]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-21 08:59:06] INFO root fetch - processPackages [dearwatson]: New version: [0.9.9] Old Version: [0.9.7]
+[2024-05-21 08:59:06] INFO root fetch - processPackages [specmatic]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-05-21 08:59:06] INFO root fetch - processPackages [typedload]: New version: [2.9] Old Version: [2.8]
+[2024-05-21 08:59:06] INFO root fetch - processPackages [dungeonmaker]: Downloading https://files.pythonhosted.org/packages/95/2a/fb127b2c51fa8f9198a22b80960e9f267ba5dfed676906707c279179d3c3/dungeonmaker-0.6.6.tar.gz
+[2024-05-21 08:59:06] INFO root fetch - processPackages [plone-sphinx-theme]: Downloading https://files.pythonhosted.org/packages/37/e6/34231c74a1b59040edfb4c25c242983dc06873bed53498001ce76fcaebf7/plone_sphinx_theme-0.0.3.tar.gz
+[2024-05-21 08:59:06] INFO root fetch - processPackages [dearwatson]: Downloading https://files.pythonhosted.org/packages/0f/ba/b35bd970c84ce962034af18fa9204693d404680e78cdfb8927d1c8166e80/dearwatson-0.9.7.tar.gz
+[2024-05-21 08:59:06] INFO root fetch - processPackages [pynenv]: Downloading https://files.pythonhosted.org/packages/70/b3/b7a9cbbad23c5767a5afd1f633a2699344f854e81761d0d95eb13cf65253/pynenv-0.1.0.tar.gz
+[2024-05-21 08:59:07] INFO root fetch - processPackages [specmatic]: Downloading https://files.pythonhosted.org/packages/69/6e/484653e35ca218114964e0212bcaa4236cb2768173d1ffe05f47c33fa9fb/specmatic-1.3.8.tar.gz
+[2024-05-21 08:59:07] INFO root fetch - processPackages [typedload]: Downloading https://files.pythonhosted.org/packages/1a/9c/b3e79bbe539b796edf6f784dfe2cd45ba8c239e727d1a2bd66bae1ce323b/typedload-2.8.tar.gz
+[2024-05-21 08:59:07] INFO root fetch - processPackages [plone-sphinx-theme]: Downloading https://files.pythonhosted.org/packages/78/c5/d28826d693d764970cc8f0ea4c0187ddf9d5dabbc5b6111bdd1099d8c271/plone_sphinx_theme-0.0.4.tar.gz
+[2024-05-21 08:59:07] INFO root fetch - processPackages [dearwatson]: Downloading https://files.pythonhosted.org/packages/51/ef/a9231ae823323fefdd6b2c48396a26841d854f32c634d25ea73af29197dc/dearwatson-0.9.9.tar.gz
+[2024-05-21 08:59:07] INFO root fetch - processPackages [dungeonmaker]: Downloading https://files.pythonhosted.org/packages/69/07/468d13ac28428a5cdee08b7abb437878d65e8b9cd950a3ad0e607f9ca309/dungeonmaker-0.6.7.tar.gz
+[2024-05-21 08:59:07] INFO root fetch - processPackages [pynenv]: Downloading https://files.pythonhosted.org/packages/aa/17/79a1b5a006ea81ec9e46de9e3f334d7a1e3a47fbe78cc06b50812ed4c5e7/pynenv-0.1.1.tar.gz
+[2024-05-21 08:59:07] INFO root fetch - processPackages [plone-sphinx-theme]: executing diffoscope
+[2024-05-21 08:59:07] INFO root fetch - processPackages [plone-sphinx-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plone_sphinx_theme-0.0.3.tar.gz tmp/plone_sphinx_theme-0.0.4.tar.gz --markdown 20240521/p/plone-sphinx-theme/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-21 08:59:07] INFO root fetch - processPackages [dungeonmaker]: executing diffoscope
+[2024-05-21 08:59:07] INFO root fetch - processPackages [dungeonmaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dungeonmaker-0.6.6.tar.gz tmp/dungeonmaker-0.6.7.tar.gz --markdown 20240521/d/dungeonmaker/0.6.6-0.6.7/README.md --exclude *.pyd
+[2024-05-21 08:59:07] INFO root fetch - processPackages [pynenv]: executing diffoscope
+[2024-05-21 08:59:07] INFO root fetch - processPackages [pynenv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynenv-0.1.0.tar.gz tmp/pynenv-0.1.1.tar.gz --markdown 20240521/p/pynenv/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-21 08:59:07] INFO root fetch - processPackages [typedload]: Downloading https://files.pythonhosted.org/packages/16/9e/9a2ddfc41dadcfa54a39c136817e339764a9005b8ba3fad58d75a9592040/typedload-2.9.tar.gz
+[2024-05-21 08:59:07] INFO root fetch - processPackages [typedload]: executing diffoscope
+[2024-05-21 08:59:07] INFO root fetch - processPackages [typedload]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typedload-2.8.tar.gz tmp/typedload-2.9.tar.gz --markdown 20240521/t/typedload/2.8-2.9/README.md --exclude *.pyd
+[2024-05-21 08:59:07] INFO root fetch - processPackages [dearwatson]: executing diffoscope
+[2024-05-21 08:59:07] INFO root fetch - processPackages [dearwatson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dearwatson-0.9.7.tar.gz tmp/dearwatson-0.9.9.tar.gz --markdown 20240521/d/dearwatson/0.9.7-0.9.9/README.md --exclude *.pyd
+[2024-05-21 08:59:07] INFO root fetch - processPackages [dungeonmaker]: Remove: archive file [/home/abi/fetcher/tmp/dungeonmaker-0.6.6.tar.gz]
+[2024-05-21 08:59:07] INFO root fetch - processPackages [dungeonmaker]: Remove: archive file [/home/abi/fetcher/tmp/dungeonmaker-0.6.7.tar.gz]
+[2024-05-21 08:59:07] INFO root fetch - main [MainThread]: End processing [dungeonmaker]: success
+[2024-05-21 08:59:07] WARNING root fetch - processPackages [specmatic]: Skipping package: exceeds size limit 58401368>=10485760
+[2024-05-21 08:59:07] INFO root fetch - main [MainThread]: End processing [specmatic] error
+[2024-05-21 08:59:08] INFO root fetch - processPackages [typedload]: Remove: archive file [/home/abi/fetcher/tmp/typedload-2.8.tar.gz]
+[2024-05-21 08:59:08] INFO root fetch - processPackages [typedload]: Remove: archive file [/home/abi/fetcher/tmp/typedload-2.9.tar.gz]
+[2024-05-21 08:59:08] INFO root fetch - main [MainThread]: End processing [typedload]: success
+[2024-05-21 08:59:08] INFO root fetch - processPackages [pynenv]: Remove: archive file [/home/abi/fetcher/tmp/pynenv-0.1.0.tar.gz]
+[2024-05-21 08:59:08] INFO root fetch - processPackages [pynenv]: Remove: archive file [/home/abi/fetcher/tmp/pynenv-0.1.1.tar.gz]
+[2024-05-21 08:59:08] INFO root fetch - main [MainThread]: End processing [pynenv]: success
+[2024-05-21 08:59:08] INFO root fetch - processPackages [plone-sphinx-theme]: Remove: archive file [/home/abi/fetcher/tmp/plone_sphinx_theme-0.0.3.tar.gz]
+[2024-05-21 08:59:08] INFO root fetch - processPackages [plone-sphinx-theme]: Remove: archive file [/home/abi/fetcher/tmp/plone_sphinx_theme-0.0.4.tar.gz]
+[2024-05-21 08:59:08] INFO root fetch - main [MainThread]: End processing [plone-sphinx-theme]: success
+[2024-05-21 08:59:08] INFO root fetch - processPackages [dearwatson]: Remove: archive file [/home/abi/fetcher/tmp/dearwatson-0.9.7.tar.gz]
+[2024-05-21 08:59:08] INFO root fetch - processPackages [dearwatson]: Remove: archive file [/home/abi/fetcher/tmp/dearwatson-0.9.9.tar.gz]
+[2024-05-21 08:59:08] INFO root fetch - main [MainThread]: End processing [dearwatson]: success
+[2024-05-21 08:59:08] INFO root fetch - main [MainThread]: Store serial: [23302263]
