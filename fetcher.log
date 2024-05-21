@@ -18004,3 +18004,73 @@
 [2024-05-21 11:13:52] INFO root fetch - processPackages [sdk_entrepot_gpf]: Remove: archive file [/home/abi/fetcher/tmp/sdk_entrepot_gpf-0.1.27.tar.gz]
 [2024-05-21 11:13:52] INFO root fetch - main [MainThread]: End processing [sdk_entrepot_gpf]: success
 [2024-05-21 11:13:52] INFO root fetch - main [MainThread]: Store serial: [23303676]
+[2024-05-21 11:15:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23303676]
+[2024-05-21 11:16:01] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-21 11:16:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: remayn
+[2024-05-21 11:16:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spanishconjugator
+[2024-05-21 11:16:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: DataSynthesis131
+[2024-05-21 11:16:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: llama-index-llms-unionllm
+[2024-05-21 11:16:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scriptman
+[2024-05-21 11:16:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spanishconjugator
+[2024-05-21 11:16:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: indykite-sdk-python
+[2024-05-21 11:16:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: DatastreamPy
+[2024-05-21 11:16:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lusid-drive-sdk
+[2024-05-21 11:16:01] WARNING root fetch - processPackages [llama-index-llms-unionllm]: Skipping, unable to determine old version
+[2024-05-21 11:16:01] INFO root fetch - main [MainThread]: End processing [llama-index-llms-unionllm] error
+[2024-05-21 11:16:02] INFO root fetch - processPackages [scriptman]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2024-05-21 11:16:02] WARNING root fetch - processPackages [remayn]: Skipping, unable to determine old version
+[2024-05-21 11:16:02] INFO root fetch - main [MainThread]: End processing [remayn] error
+[2024-05-21 11:16:02] INFO root fetch - processPackages [DataSynthesis131]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-21 11:16:02] INFO root fetch - processPackages [scriptman]: Downloading https://files.pythonhosted.org/packages/f0/36/7146888ddadc02a0f2fe536e4ba47e16a5aa6d2b9bf2b21cc312fb61bb23/scriptman-0.0.0.8.tar.gz
+[2024-05-21 11:16:02] INFO root fetch - processPackages [indykite-sdk-python]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-21 11:16:02] INFO root fetch - processPackages [DatastreamPy]: New version: [2.0.26] Old Version: [2.0.25]
+[2024-05-21 11:16:02] INFO root fetch - processPackages [lusid-drive-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-21 11:16:02] INFO root fetch - processPackages [DataSynthesis131]: Downloading https://files.pythonhosted.org/packages/d3/4e/2ae8324defbca4f5638e7160e1381d22ffa2b751ec96b707b53f64c99c58/datasynthesis131-0.0.1.tar.gz
+[2024-05-21 11:16:02] INFO root fetch - processPackages [scriptman]: Downloading https://files.pythonhosted.org/packages/f5/05/b5fcf85e401e2ea793d31d90d33eb9fe185765b18bd32c99cfe69d516956/scriptman-0.0.0.9.tar.gz
+[2024-05-21 11:16:02] INFO root fetch - processPackages [DatastreamPy]: Downloading https://files.pythonhosted.org/packages/e4/dc/aa081c72d4cf42091e16d83ef356cffe896b594effe52ac899bcf4a568a9/DatastreamPy-2.0.25-py3-none-any.whl
+[2024-05-21 11:16:02] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-05-21 11:16:02] INFO root fetch - processPackages [lusid-drive-sdk]: Downloading https://files.pythonhosted.org/packages/92/60/decf0711268db2bfcdb83725688627829c4ebd8a9e0266b5cdf26d8d314c/lusid_drive_sdk-2.1.8.tar.gz
+[2024-05-21 11:16:02] INFO root fetch - processPackages [indykite-sdk-python]: Downloading https://files.pythonhosted.org/packages/50/f3/0a2a0a7f8486f219a6a319ede3c2de5288cb2e115cd7139571b4cd724d82/indykite-sdk-python-1.8.0.tar.gz
+[2024-05-21 11:16:02] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-05-21 11:16:02] INFO root fetch - processPackages [scriptman]: executing diffoscope
+[2024-05-21 11:16:02] INFO root fetch - processPackages [scriptman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scriptman-0.0.0.8.tar.gz tmp/scriptman-0.0.0.9.tar.gz --markdown 20240521/s/scriptman/0.0.0.8-0.0.0.9/README.md --exclude *.pyd
+[2024-05-21 11:16:02] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-05-21 11:16:02] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-05-21 11:16:02] INFO root fetch - processPackages [DataSynthesis131]: Downloading https://files.pythonhosted.org/packages/bd/2d/e62d4df645c0634eb5e20429fa41847df943d81311fc09bfe90a4d06eb76/datasynthesis131-0.0.2.tar.gz
+[2024-05-21 11:16:02] INFO root fetch - processPackages [DatastreamPy]: Downloading https://files.pythonhosted.org/packages/71/f4/57ac50d319148c6dc17b4a4b8b04ea34b753a5486811046c359cf3c6c4ff/DatastreamPy-2.0.26-py3-none-any.whl
+[2024-05-21 11:16:02] INFO root fetch - processPackages [DataSynthesis131]: executing diffoscope
+[2024-05-21 11:16:02] INFO root fetch - processPackages [DataSynthesis131]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasynthesis131-0.0.1.tar.gz tmp/datasynthesis131-0.0.2.tar.gz --markdown 20240521/D/DataSynthesis131/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-21 11:16:03] INFO root fetch - processPackages [lusid-drive-sdk]: Downloading https://files.pythonhosted.org/packages/9c/21/2bc7c2f4a88ea4186d6bb581b0de48f5118c4c40406113d542273c930957/lusid_drive_sdk-2.1.9.tar.gz
+[2024-05-21 11:16:03] INFO root fetch - processPackages [DatastreamPy]: executing diffoscope
+[2024-05-21 11:16:03] INFO root fetch - processPackages [DatastreamPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DatastreamPy-2.0.25-py3-none-any.whl.zip tmp/DatastreamPy-2.0.26-py3-none-any.whl.zip --markdown 20240521/D/DatastreamPy/2.0.25-2.0.26/README.md --exclude *.pyd
+[2024-05-21 11:16:03] INFO root fetch - processPackages [lusid-drive-sdk]: executing diffoscope
+[2024-05-21 11:16:03] INFO root fetch - processPackages [lusid-drive-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_drive_sdk-2.1.8.tar.gz tmp/lusid_drive_sdk-2.1.9.tar.gz --markdown 20240521/l/lusid-drive-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-21 11:16:03] INFO root fetch - processPackages [indykite-sdk-python]: Downloading https://files.pythonhosted.org/packages/1d/24/d3c0f1913c780f3c300d6d0606ce03543a97b03f19a6fc0be3c53e1b8774/indykite-sdk-python-1.9.0.tar.gz
+[2024-05-21 11:16:03] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2024-05-21 11:16:03] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2024-05-21 11:16:03] INFO root fetch - processPackages [scriptman]: Remove: archive file [/home/abi/fetcher/tmp/scriptman-0.0.0.8.tar.gz]
+[2024-05-21 11:16:03] INFO root fetch - processPackages [scriptman]: Remove: archive file [/home/abi/fetcher/tmp/scriptman-0.0.0.9.tar.gz]
+[2024-05-21 11:16:03] INFO root fetch - main [MainThread]: End processing [scriptman]: success
+[2024-05-21 11:16:03] INFO root fetch - processPackages [indykite-sdk-python]: executing diffoscope
+[2024-05-21 11:16:03] INFO root fetch - processPackages [indykite-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indykite-sdk-python-1.8.0.tar.gz tmp/indykite-sdk-python-1.9.0.tar.gz --markdown 20240521/i/indykite-sdk-python/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-21 11:16:03] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-05-21 11:16:03] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240521/s/spanishconjugator/2.3.998-2.3.999/README.md --exclude *.pyd
+[2024-05-21 11:16:03] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-05-21 11:16:03] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240521/s/spanishconjugator/2.3.998-2.3.999/README.md --exclude *.pyd
+[2024-05-21 11:16:03] INFO root fetch - processPackages [DataSynthesis131]: Remove: archive file [/home/abi/fetcher/tmp/datasynthesis131-0.0.1.tar.gz]
+[2024-05-21 11:16:03] INFO root fetch - processPackages [DataSynthesis131]: Remove: archive file [/home/abi/fetcher/tmp/datasynthesis131-0.0.2.tar.gz]
+[2024-05-21 11:16:03] INFO root fetch - main [MainThread]: End processing [DataSynthesis131]: success
+[2024-05-21 11:16:03] INFO root fetch - processPackages [DatastreamPy]: Remove: archive file [/home/abi/fetcher/tmp/DatastreamPy-2.0.25-py3-none-any.whl.zip]
+[2024-05-21 11:16:03] INFO root fetch - processPackages [DatastreamPy]: Remove: archive file [/home/abi/fetcher/tmp/DatastreamPy-2.0.26-py3-none-any.whl.zip]
+[2024-05-21 11:16:03] INFO root fetch - main [MainThread]: End processing [DatastreamPy]: success
+[2024-05-21 11:16:03] INFO root fetch - processPackages [lusid-drive-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_drive_sdk-2.1.8.tar.gz]
+[2024-05-21 11:16:03] INFO root fetch - processPackages [lusid-drive-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_drive_sdk-2.1.9.tar.gz]
+[2024-05-21 11:16:03] INFO root fetch - main [MainThread]: End processing [lusid-drive-sdk]: success
+[2024-05-21 11:16:04] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2024-05-21 11:16:04] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2024-05-21 11:16:04] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-05-21 11:16:04] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-05-21 11:16:04] INFO root fetch - processPackages [indykite-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/indykite-sdk-python-1.8.0.tar.gz]
+[2024-05-21 11:16:04] INFO root fetch - processPackages [indykite-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/indykite-sdk-python-1.9.0.tar.gz]
+[2024-05-21 11:16:04] INFO root fetch - main [MainThread]: End processing [indykite-sdk-python]: success
+[2024-05-21 11:16:04] INFO root fetch - main [MainThread]: Store serial: [23303700]
