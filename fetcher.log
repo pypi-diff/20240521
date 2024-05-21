@@ -16552,3 +16552,60 @@
 [2024-05-21 10:26:36] INFO root fetch - processPackages [novum-api-client]: Remove: archive file [/home/abi/fetcher/tmp/novum_api_client-2.0.1.tar.gz]
 [2024-05-21 10:26:36] INFO root fetch - main [MainThread]: End processing [novum-api-client]: success
 [2024-05-21 10:26:36] INFO root fetch - main [MainThread]: Store serial: [23303120]
+[2024-05-21 10:28:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23303120]
+[2024-05-21 10:28:45] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-21 10:28:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zhipuai
+[2024-05-21 10:28:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: netbox-docker-plugin
+[2024-05-21 10:28:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: geetools
+[2024-05-21 10:28:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: outpostcli
+[2024-05-21 10:28:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: starrydata
+[2024-05-21 10:28:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pynxtools
+[2024-05-21 10:28:45] INFO root fetch - processPackages [outpostcli]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-21 10:28:45] INFO root fetch - processPackages [starrydata]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-05-21 10:28:45] INFO root fetch - processPackages [zhipuai]: New version: [2.1.0.20240521] Old Version: [2.1.0]
+[2024-05-21 10:28:45] INFO root fetch - processPackages [outpostcli]: Downloading https://files.pythonhosted.org/packages/7e/e2/114a39eac567286d0418645c0ea24089c48fcbe4cccec6c79191a5cefccf/outpostcli-0.0.8.tar.gz
+[2024-05-21 10:28:45] INFO root fetch - processPackages [netbox-docker-plugin]: New version: [1.9.0] Old Version: [1.8.1]
+[2024-05-21 10:28:45] INFO root fetch - processPackages [starrydata]: Downloading https://files.pythonhosted.org/packages/9f/d3/4281e08b08598283a509fc66090f5ccaf57df98030113fad032d7b47bb43/starrydata-1.1.1.tar.gz
+[2024-05-21 10:28:45] INFO root fetch - processPackages [pynxtools]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-21 10:28:45] INFO root fetch - processPackages [geetools]: New version: [1.3.1] Old Version: [1.3.0]
+[2024-05-21 10:28:45] INFO root fetch - processPackages [zhipuai]: Downloading https://files.pythonhosted.org/packages/60/1c/de0a07f0b2222d70dbf2d2949cdb6a5df47c06c1bc21187f5e2229804474/zhipuai-2.1.0.tar.gz
+[2024-05-21 10:28:45] INFO root fetch - processPackages [outpostcli]: Downloading https://files.pythonhosted.org/packages/df/ab/82b6853cec170d33c2aff19e3a298b0bf56f7ba1b885f6f7d42a10ae43dc/outpostcli-0.0.9.tar.gz
+[2024-05-21 10:28:45] INFO root fetch - processPackages [netbox-docker-plugin]: Downloading https://files.pythonhosted.org/packages/20/b4/3f582b78a3281c68b3d3f143d0f6ef5130936f503f8f375c542aae1845ca/netbox_docker_plugin-1.8.1.tar.gz
+[2024-05-21 10:28:45] INFO root fetch - processPackages [geetools]: Downloading https://files.pythonhosted.org/packages/c8/ce/640e44c40cbf3dd1859ec2c299389be81ea7ded76520e950fb6334959e2c/geetools-1.3.0.tar.gz
+[2024-05-21 10:28:45] INFO root fetch - processPackages [pynxtools]: Downloading https://files.pythonhosted.org/packages/8e/71/2279115055f9bfb0a6639554710bef2b6f46815728c46f083ed5649f6515/pynxtools-0.3.0.tar.gz
+[2024-05-21 10:28:45] INFO root fetch - processPackages [starrydata]: Downloading https://files.pythonhosted.org/packages/4c/74/c0c6269d11104da1f613c5289f477f19437377f4e69ae1700ebacbc54185/starrydata-1.1.2.tar.gz
+[2024-05-21 10:28:45] INFO root fetch - processPackages [outpostcli]: executing diffoscope
+[2024-05-21 10:28:45] INFO root fetch - processPackages [outpostcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/outpostcli-0.0.8.tar.gz tmp/outpostcli-0.0.9.tar.gz --markdown 20240521/o/outpostcli/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-21 10:28:45] INFO root fetch - processPackages [starrydata]: executing diffoscope
+[2024-05-21 10:28:45] INFO root fetch - processPackages [starrydata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starrydata-1.1.1.tar.gz tmp/starrydata-1.1.2.tar.gz --markdown 20240521/s/starrydata/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-05-21 10:28:45] INFO root fetch - processPackages [zhipuai]: Downloading https://files.pythonhosted.org/packages/f4/01/e2e6492392ada626545b25723187aa05432158abbe624784db432236376f/zhipuai-2.1.0.20240521.tar.gz
+[2024-05-21 10:28:45] INFO root fetch - processPackages [netbox-docker-plugin]: Downloading https://files.pythonhosted.org/packages/4a/ad/385638ca220d588be2577e68e679ca6dbb2d14aac080d723104c408e542f/netbox_docker_plugin-1.9.0.tar.gz
+[2024-05-21 10:28:45] INFO root fetch - processPackages [zhipuai]: executing diffoscope
+[2024-05-21 10:28:45] INFO root fetch - processPackages [zhipuai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhipuai-2.1.0.tar.gz tmp/zhipuai-2.1.0.20240521.tar.gz --markdown 20240521/z/zhipuai/2.1.0-2.1.0.20240521/README.md --exclude *.pyd
+[2024-05-21 10:28:45] INFO root fetch - processPackages [pynxtools]: Downloading https://files.pythonhosted.org/packages/2d/05/dc8030633ff16f44f1f7d8188f3a0c79124f251bb658051acf1866fd2a75/pynxtools-0.3.1.tar.gz
+[2024-05-21 10:28:45] INFO root fetch - processPackages [netbox-docker-plugin]: executing diffoscope
+[2024-05-21 10:28:45] INFO root fetch - processPackages [netbox-docker-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox_docker_plugin-1.8.1.tar.gz tmp/netbox_docker_plugin-1.9.0.tar.gz --markdown 20240521/n/netbox-docker-plugin/1.8.1-1.9.0/README.md --exclude *.pyd
+[2024-05-21 10:28:46] INFO root fetch - processPackages [geetools]: Downloading https://files.pythonhosted.org/packages/b3/4c/3acb66f769c3a5bc3f5b2b67a1987c4fe56e1d7c937b00156bc202afbb89/geetools-1.3.1.tar.gz
+[2024-05-21 10:28:46] INFO root fetch - processPackages [pynxtools]: executing diffoscope
+[2024-05-21 10:28:46] INFO root fetch - processPackages [pynxtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynxtools-0.3.0.tar.gz tmp/pynxtools-0.3.1.tar.gz --markdown 20240521/p/pynxtools/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-21 10:28:46] INFO root fetch - processPackages [starrydata]: Remove: archive file [/home/abi/fetcher/tmp/starrydata-1.1.1.tar.gz]
+[2024-05-21 10:28:46] INFO root fetch - processPackages [starrydata]: Remove: archive file [/home/abi/fetcher/tmp/starrydata-1.1.2.tar.gz]
+[2024-05-21 10:28:46] INFO root fetch - main [MainThread]: End processing [starrydata]: success
+[2024-05-21 10:28:46] INFO root fetch - processPackages [geetools]: executing diffoscope
+[2024-05-21 10:28:46] INFO root fetch - processPackages [geetools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geetools-1.3.0.tar.gz tmp/geetools-1.3.1.tar.gz --markdown 20240521/g/geetools/1.3.0-1.3.1/README.md --exclude *.pyd
+[2024-05-21 10:28:46] INFO root fetch - processPackages [outpostcli]: Remove: archive file [/home/abi/fetcher/tmp/outpostcli-0.0.8.tar.gz]
+[2024-05-21 10:28:46] INFO root fetch - processPackages [outpostcli]: Remove: archive file [/home/abi/fetcher/tmp/outpostcli-0.0.9.tar.gz]
+[2024-05-21 10:28:46] INFO root fetch - main [MainThread]: End processing [outpostcli]: success
+[2024-05-21 10:28:46] INFO root fetch - processPackages [zhipuai]: Remove: archive file [/home/abi/fetcher/tmp/zhipuai-2.1.0.tar.gz]
+[2024-05-21 10:28:46] INFO root fetch - processPackages [zhipuai]: Remove: archive file [/home/abi/fetcher/tmp/zhipuai-2.1.0.20240521.tar.gz]
+[2024-05-21 10:28:46] INFO root fetch - main [MainThread]: End processing [zhipuai]: success
+[2024-05-21 10:28:46] INFO root fetch - processPackages [netbox-docker-plugin]: Remove: archive file [/home/abi/fetcher/tmp/netbox_docker_plugin-1.8.1.tar.gz]
+[2024-05-21 10:28:46] INFO root fetch - processPackages [netbox-docker-plugin]: Remove: archive file [/home/abi/fetcher/tmp/netbox_docker_plugin-1.9.0.tar.gz]
+[2024-05-21 10:28:46] INFO root fetch - main [MainThread]: End processing [netbox-docker-plugin]: success
+[2024-05-21 10:28:47] INFO root fetch - processPackages [geetools]: Remove: archive file [/home/abi/fetcher/tmp/geetools-1.3.0.tar.gz]
+[2024-05-21 10:28:47] INFO root fetch - processPackages [geetools]: Remove: archive file [/home/abi/fetcher/tmp/geetools-1.3.1.tar.gz]
+[2024-05-21 10:28:47] INFO root fetch - main [MainThread]: End processing [geetools]: success
+[2024-05-21 10:28:48] INFO root fetch - processPackages [pynxtools]: Remove: archive file [/home/abi/fetcher/tmp/pynxtools-0.3.0.tar.gz]
+[2024-05-21 10:28:48] INFO root fetch - processPackages [pynxtools]: Remove: archive file [/home/abi/fetcher/tmp/pynxtools-0.3.1.tar.gz]
+[2024-05-21 10:28:48] INFO root fetch - main [MainThread]: End processing [pynxtools]: success
+[2024-05-21 10:28:48] INFO root fetch - main [MainThread]: Store serial: [23303138]
