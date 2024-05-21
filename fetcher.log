@@ -17080,3 +17080,36 @@
 [2024-05-21 10:44:27] INFO root fetch - processPackages [prem-utils]: Remove: archive file [/home/abi/fetcher/tmp/prem-utils-0.0.8.tar.gz]
 [2024-05-21 10:44:27] INFO root fetch - main [MainThread]: End processing [prem-utils]: success
 [2024-05-21 10:44:27] INFO root fetch - main [MainThread]: Store serial: [23303331]
+[2024-05-21 10:46:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23303331]
+[2024-05-21 10:46:36] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-21 10:46:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qontract-reconcile
+[2024-05-21 10:46:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tracebloc-package-dev
+[2024-05-21 10:46:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CVE-2020-3187
+[2024-05-21 10:46:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mindee
+[2024-05-21 10:46:36] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-05-21 10:46:36] WARNING root fetch - processPackages [CVE-2020-3187]: Skipping, unable to determine old version
+[2024-05-21 10:46:36] INFO root fetch - main [MainThread]: End processing [CVE-2020-3187] error
+[2024-05-21 10:46:36] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-05-21 10:46:36] INFO root fetch - processPackages [tracebloc-package-dev]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-21 10:46:36] INFO root fetch - processPackages [mindee]: New version: [4.7.0] Old Version: [4.6.0]
+[2024-05-21 10:46:36] INFO root fetch - processPackages [tracebloc-package-dev]: Downloading https://files.pythonhosted.org/packages/f5/c8/13a696d72bb172c25134ff8497e2a33abae28952aaf6027b69f19e6020ba/tracebloc_package-dev-0.5.8.tar.gz
+[2024-05-21 10:46:37] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-05-21 10:46:37] INFO root fetch - processPackages [mindee]: Downloading https://files.pythonhosted.org/packages/cf/90/0be907c185e29834b75e80d680f2739cb33b80906e901a6f111247ff61ab/mindee-4.6.0.tar.gz
+[2024-05-21 10:46:37] INFO root fetch - processPackages [tracebloc-package-dev]: Downloading https://files.pythonhosted.org/packages/29/74/ba081cbca75b4aef7de5e023ed946f224d93c52d8874131c97fc1c3a2682/tracebloc_package-dev-0.5.9.tar.gz
+[2024-05-21 10:46:37] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-05-21 10:46:37] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240521/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-05-21 10:46:37] INFO root fetch - processPackages [tracebloc-package-dev]: executing diffoscope
+[2024-05-21 10:46:37] INFO root fetch - processPackages [mindee]: Downloading https://files.pythonhosted.org/packages/00/94/e8429cce659fed8c8884bac0d96258d1be0a3a067bfb864ab92cf037757d/mindee-4.7.0.tar.gz
+[2024-05-21 10:46:37] INFO root fetch - processPackages [tracebloc-package-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tracebloc_package-dev-0.5.8.tar.gz tmp/tracebloc_package-dev-0.5.9.tar.gz --markdown 20240521/t/tracebloc-package-dev/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-21 10:46:37] INFO root fetch - processPackages [mindee]: executing diffoscope
+[2024-05-21 10:46:37] INFO root fetch - processPackages [mindee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mindee-4.6.0.tar.gz tmp/mindee-4.7.0.tar.gz --markdown 20240521/m/mindee/4.6.0-4.7.0/README.md --exclude *.pyd
+[2024-05-21 10:46:38] INFO root fetch - processPackages [tracebloc-package-dev]: Remove: archive file [/home/abi/fetcher/tmp/tracebloc_package-dev-0.5.8.tar.gz]
+[2024-05-21 10:46:38] INFO root fetch - processPackages [tracebloc-package-dev]: Remove: archive file [/home/abi/fetcher/tmp/tracebloc_package-dev-0.5.9.tar.gz]
+[2024-05-21 10:46:38] INFO root fetch - main [MainThread]: End processing [tracebloc-package-dev]: success
+[2024-05-21 10:46:38] INFO root fetch - processPackages [mindee]: Remove: archive file [/home/abi/fetcher/tmp/mindee-4.6.0.tar.gz]
+[2024-05-21 10:46:38] INFO root fetch - processPackages [mindee]: Remove: archive file [/home/abi/fetcher/tmp/mindee-4.7.0.tar.gz]
+[2024-05-21 10:46:38] INFO root fetch - main [MainThread]: End processing [mindee]: success
+[2024-05-21 10:46:39] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-05-21 10:46:39] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-05-21 10:46:39] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-05-21 10:46:39] INFO root fetch - main [MainThread]: Store serial: [23303341]
