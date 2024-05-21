@@ -7897,3 +7897,42 @@
 [2024-05-21 04:00:47] INFO root fetch - processPackages [pymupdf4llm]: Remove: archive file [/home/abi/fetcher/tmp/pymupdf4llm-0.0.2.tar.gz]
 [2024-05-21 04:00:47] INFO root fetch - main [MainThread]: End processing [pymupdf4llm]: success
 [2024-05-21 04:00:47] INFO root fetch - main [MainThread]: Store serial: [23299707]
+[2024-05-21 04:02:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23299707]
+[2024-05-21 04:02:56] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-21 04:02:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: df-analyze
+[2024-05-21 04:02:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kano-cv
+[2024-05-21 04:02:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: blue-plugin
+[2024-05-21 04:02:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ovos-solver-hivemind-plugin
+[2024-05-21 04:02:56] INFO root fetch - processPackages [ovos-solver-hivemind-plugin]: New version: [0.0.0a4] Old Version: [0.0.0a3]
+[2024-05-21 04:02:56] INFO root fetch - processPackages [blue-plugin]: New version: [3.19.1] Old Version: [3.18.1]
+[2024-05-21 04:02:56] INFO root fetch - processPackages [kano-cv]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-05-21 04:02:56] INFO root fetch - processPackages [kano-cv]: Downloading https://files.pythonhosted.org/packages/c0/65/6a2e07810ee93f8537d7656e017c6e73af55effc740406c7471bd7c0ef1c/kano-cv-1.9.1.tar.gz
+[2024-05-21 04:02:56] INFO root fetch - processPackages [df-analyze]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-21 04:02:56] INFO root fetch - processPackages [blue-plugin]: Downloading https://files.pythonhosted.org/packages/9c/2b/99a63e3da4d4a7d2beef98be5da2cecf90affe9f6c059353bf8de1c75d29/blue_plugin-3.18.1.tar.gz
+[2024-05-21 04:02:57] INFO root fetch - processPackages [kano-cv]: Downloading https://files.pythonhosted.org/packages/97/97/49939234a345d7336412bb2072f63149b16ee9336a2184688294a6eeb1ab/kano-cv-1.9.2.tar.gz
+[2024-05-21 04:02:57] INFO root fetch - processPackages [df-analyze]: Downloading https://files.pythonhosted.org/packages/52/16/a91b84b0a4d19d85b713ac4aca7e2b7accc669f679bc0f0b4510a5b7253c/df_analyze-0.1.0-py3-none-any.whl
+[2024-05-21 04:02:57] INFO root fetch - processPackages [ovos-solver-hivemind-plugin]: Downloading https://files.pythonhosted.org/packages/a5/0f/d70368c9619921ac486606deec72652895ec61e5eb8d4e2f7cab0ba28e54/ovos_solver_hivemind_plugin-0.0.0a3-py3-none-any.whl
+[2024-05-21 04:02:57] INFO root fetch - processPackages [kano-cv]: executing diffoscope
+[2024-05-21 04:02:57] INFO root fetch - processPackages [kano-cv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kano-cv-1.9.1.tar.gz tmp/kano-cv-1.9.2.tar.gz --markdown 20240521/k/kano-cv/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-05-21 04:02:57] INFO root fetch - processPackages [blue-plugin]: Downloading https://files.pythonhosted.org/packages/f0/05/785f3c9ef23bf75e7729527085c0d419513f2994c23fbee1c9fd576b7f11/blue_plugin-3.19.1.tar.gz
+[2024-05-21 04:02:57] INFO root fetch - processPackages [blue-plugin]: executing diffoscope
+[2024-05-21 04:02:57] INFO root fetch - processPackages [blue-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blue_plugin-3.18.1.tar.gz tmp/blue_plugin-3.19.1.tar.gz --markdown 20240521/b/blue-plugin/3.18.1-3.19.1/README.md --exclude *.pyd
+[2024-05-21 04:02:57] INFO root fetch - processPackages [df-analyze]: Downloading https://files.pythonhosted.org/packages/77/82/12522bbdbbdf194638739044d8143c77fbdbbd908028e19085fe0ba989de/df_analyze-0.1.1-py3-none-any.whl
+[2024-05-21 04:02:57] INFO root fetch - processPackages [ovos-solver-hivemind-plugin]: Downloading https://files.pythonhosted.org/packages/d7/e1/b53aa881dc65dd989eea80aabd534944e344cd89b1e65b3707a028e2e9b6/ovos_solver_hivemind_plugin-0.0.0a4-py3-none-any.whl
+[2024-05-21 04:02:57] INFO root fetch - processPackages [df-analyze]: executing diffoscope
+[2024-05-21 04:02:57] INFO root fetch - processPackages [df-analyze]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/df_analyze-0.1.0-py3-none-any.whl.zip tmp/df_analyze-0.1.1-py3-none-any.whl.zip --markdown 20240521/d/df-analyze/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-21 04:02:57] INFO root fetch - processPackages [ovos-solver-hivemind-plugin]: executing diffoscope
+[2024-05-21 04:02:57] INFO root fetch - processPackages [ovos-solver-hivemind-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_solver_hivemind_plugin-0.0.0a3-py3-none-any.whl.zip tmp/ovos_solver_hivemind_plugin-0.0.0a4-py3-none-any.whl.zip --markdown 20240521/o/ovos-solver-hivemind-plugin/0.0.0a3-0.0.0a4/README.md --exclude *.pyd
+[2024-05-21 04:02:57] INFO root fetch - processPackages [kano-cv]: Remove: archive file [/home/abi/fetcher/tmp/kano-cv-1.9.1.tar.gz]
+[2024-05-21 04:02:57] INFO root fetch - processPackages [kano-cv]: Remove: archive file [/home/abi/fetcher/tmp/kano-cv-1.9.2.tar.gz]
+[2024-05-21 04:02:57] INFO root fetch - main [MainThread]: End processing [kano-cv]: success
+[2024-05-21 04:02:57] INFO root fetch - processPackages [blue-plugin]: Remove: archive file [/home/abi/fetcher/tmp/blue_plugin-3.18.1.tar.gz]
+[2024-05-21 04:02:57] INFO root fetch - processPackages [blue-plugin]: Remove: archive file [/home/abi/fetcher/tmp/blue_plugin-3.19.1.tar.gz]
+[2024-05-21 04:02:57] INFO root fetch - main [MainThread]: End processing [blue-plugin]: success
+[2024-05-21 04:02:58] INFO root fetch - processPackages [ovos-solver-hivemind-plugin]: Remove: archive file [/home/abi/fetcher/tmp/ovos_solver_hivemind_plugin-0.0.0a3-py3-none-any.whl.zip]
+[2024-05-21 04:02:58] INFO root fetch - processPackages [ovos-solver-hivemind-plugin]: Remove: archive file [/home/abi/fetcher/tmp/ovos_solver_hivemind_plugin-0.0.0a4-py3-none-any.whl.zip]
+[2024-05-21 04:02:58] INFO root fetch - main [MainThread]: End processing [ovos-solver-hivemind-plugin]: success
+[2024-05-21 04:02:58] INFO root fetch - processPackages [df-analyze]: Remove: archive file [/home/abi/fetcher/tmp/df_analyze-0.1.0-py3-none-any.whl.zip]
+[2024-05-21 04:02:58] INFO root fetch - processPackages [df-analyze]: Remove: archive file [/home/abi/fetcher/tmp/df_analyze-0.1.1-py3-none-any.whl.zip]
+[2024-05-21 04:02:58] INFO root fetch - main [MainThread]: End processing [df-analyze]: success
+[2024-05-21 04:02:58] INFO root fetch - main [MainThread]: Store serial: [23299717]
