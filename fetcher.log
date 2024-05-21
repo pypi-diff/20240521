@@ -19256,3 +19256,157 @@
 [2024-05-21 11:57:46] ERROR root fetch - processPackages [alipay-sdk-python]: Timeout during execution of pkgdiff
 [2024-05-21 11:57:46] INFO root fetch - main [MainThread]: End processing [alipay-sdk-python] error
 [2024-05-21 11:57:46] INFO root fetch - main [MainThread]: Store serial: [23304222]
+[2024-05-21 11:59:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23304222]
+[2024-05-21 11:59:56] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2024-05-21 11:59:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: highwind
+[2024-05-21 11:59:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dls-dodal
+[2024-05-21 11:59:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-community-maps
+[2024-05-21 11:59:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: matchms
+[2024-05-21 11:59:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: videodotdev
+[2024-05-21 11:59:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: streamback
+[2024-05-21 11:59:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: djangosaml
+[2024-05-21 11:59:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: osve
+[2024-05-21 11:59:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: longsight
+[2024-05-21 11:59:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ArrayViewer
+[2024-05-21 11:59:56] INFO root fetch - processPackages [djangosaml]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-21 11:59:56] INFO root fetch - processPackages [streamback]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-21 11:59:56] WARNING root fetch - processPackages [highwind]: Skipping, unable to determine old version
+[2024-05-21 11:59:56] INFO root fetch - processPackages [highwind]: Start processing: gymnasium
+[2024-05-21 11:59:56] INFO root fetch - main [MainThread]: End processing [highwind] error
+[2024-05-21 11:59:56] INFO root fetch - processPackages [ArrayViewer]: New version: [1.1.1] Old Version: [1.1]
+[2024-05-21 11:59:56] INFO root fetch - processPackages [djangosaml]: Downloading https://files.pythonhosted.org/packages/68/b7/880d02d13ecf23b0f003567c42b7d9a88ba12c084ef91452c6d6defa862d/djangosaml-1.0.3.tar.gz
+[2024-05-21 11:59:56] INFO root fetch - processPackages [gymnasium]: New version: [1.0.0a1] Old Version: [0.29.1]
+[2024-05-21 11:59:56] INFO root fetch - processPackages [odoo14-addon-community-maps]: New version: [14.0.0.2.5] Old Version: [14.0.0.2.4]
+[2024-05-21 11:59:56] WARNING root fetch - processPackages [videodotdev]: Skipping, unable to determine old version
+[2024-05-21 11:59:56] INFO root fetch - processPackages [videodotdev]: Start processing: maji-passport
+[2024-05-21 11:59:56] INFO root fetch - main [MainThread]: End processing [videodotdev] error
+[2024-05-21 11:59:56] INFO root fetch - processPackages [streamback]: Downloading https://files.pythonhosted.org/packages/22/ba/27452147dd5317692bbc2cd298e53ff551a303f55f24a26cf9c25ed1a56a/streamback-0.2.1.tar.gz
+[2024-05-21 11:59:56] INFO root fetch - processPackages [longsight]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-21 11:59:56] INFO root fetch - processPackages [dls-dodal]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-21 11:59:56] INFO root fetch - processPackages [osve]: New version: [2.4.3] Old Version: [2.4.2]
+[2024-05-21 11:59:56] INFO root fetch - processPackages [matchms]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-05-21 11:59:56] INFO root fetch - processPackages [maji-passport]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-21 11:59:56] INFO root fetch - processPackages [ArrayViewer]: Downloading https://files.pythonhosted.org/packages/c9/ea/97d3d00ba0127234e5206cf3cb2ce928b2d62a9a7ee181b2f724d21ebb00/ArrayViewer-1.1-py3-none-any.whl
+[2024-05-21 11:59:56] INFO root fetch - processPackages [gymnasium]: Downloading https://files.pythonhosted.org/packages/0d/f8/5699ddb3e1c4f6d97b8930e573074849b921da8374fccd141f0f3a9bd713/gymnasium-0.29.1.tar.gz
+[2024-05-21 11:59:56] INFO root fetch - processPackages [odoo14-addon-community-maps]: Downloading https://files.pythonhosted.org/packages/cb/ff/47b884ff59c4637c9f421b00a2c7b6468238a7e57ee641d5a84a691229ec/odoo14-addon-community_maps-14.0.0.2.4.tar.gz
+[2024-05-21 11:59:56] INFO root fetch - processPackages [dls-dodal]: Downloading https://files.pythonhosted.org/packages/7d/05/37c63aa0cd1a6ce2a8a5c2af1a34235ffe8817d51ad11163a3cd85ae12f0/dls-dodal-1.8.0.tar.gz
+[2024-05-21 11:59:56] INFO root fetch - processPackages [djangosaml]: Downloading https://files.pythonhosted.org/packages/37/23/c28d4b508fea3c3e593dfeb63e127fec6e8f508731d86f870bf0f807b3d5/djangosaml-1.0.4.tar.gz
+[2024-05-21 11:59:56] INFO root fetch - processPackages [osve]: Downloading https://files.pythonhosted.org/packages/f7/53/04c743401976e235df71e8d8e71a687145f2328cb44ebd591c5194e8a080/osve-2.4.2-py3-none-any.whl
+[2024-05-21 11:59:56] INFO root fetch - processPackages [longsight]: Downloading https://files.pythonhosted.org/packages/89/74/1754cc94c52f7242ead6036ee24087c47c5d5829c1188a04d1d21933ac00/longsight-1.0.8.tar.gz
+[2024-05-21 11:59:56] INFO root fetch - processPackages [matchms]: Downloading https://files.pythonhosted.org/packages/94/f9/e417fc6b3d303bae0c45dd2a090977a0eaac69a7676ae6d9adf3125c53e7/matchms-0.9.1.tar.gz
+[2024-05-21 11:59:56] INFO root fetch - processPackages [maji-passport]: Downloading https://files.pythonhosted.org/packages/42/30/3912a2c98a026e45f6743e7d4e55447c451b61c5b14c5c9358d6523df655/maji_passport-0.0.1.tar.gz
+[2024-05-21 11:59:56] INFO root fetch - processPackages [streamback]: Downloading https://files.pythonhosted.org/packages/d2/e5/2e63d2ef990fc45e79a248fc6a95ad693cea10a62cc371db9aedc1fcafe2/streamback-0.2.2.tar.gz
+[2024-05-21 11:59:56] WARNING root fetch - processPackages [osve]: Skipping package: exceeds size limit 30207899>=10485760
+[2024-05-21 11:59:56] INFO root fetch - processPackages [osve]: Start processing: ansible
+[2024-05-21 11:59:56] INFO root fetch - main [MainThread]: End processing [osve] error
+[2024-05-21 11:59:57] INFO root fetch - processPackages [djangosaml]: executing diffoscope
+[2024-05-21 11:59:57] INFO root fetch - processPackages [djangosaml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangosaml-1.0.3.tar.gz tmp/djangosaml-1.0.4.tar.gz --markdown 20240521/d/djangosaml/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-21 11:59:57] INFO root fetch - processPackages [ansible]: New version: [9.5.1] Old Version: [9.5.0]
+[2024-05-21 11:59:57] INFO root fetch - processPackages [streamback]: executing diffoscope
+[2024-05-21 11:59:57] INFO root fetch - processPackages [streamback]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamback-0.2.1.tar.gz tmp/streamback-0.2.2.tar.gz --markdown 20240521/s/streamback/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-21 11:59:57] INFO root fetch - processPackages [ArrayViewer]: Downloading https://files.pythonhosted.org/packages/2e/c7/dcaa96b5e91fae848c38176fc253369ea29c831bbd0b7944279765a081ff/arrayviewer-1.1.1.tar.gz
+[2024-05-21 11:59:57] INFO root fetch - processPackages [gymnasium]: Downloading https://files.pythonhosted.org/packages/15/7d/0e075ef950f887023ef36e7af77f2f97afd70011c63968e724beb66e9ad4/gymnasium-1.0.0a1.tar.gz
+[2024-05-21 11:59:57] INFO root fetch - processPackages [odoo14-addon-community-maps]: Downloading https://files.pythonhosted.org/packages/ec/9f/7cdbe579cca5d30bbd2ff017dd73ad5fd957741f488857d830c9a92ac1bd/odoo14-addon-community_maps-14.0.0.2.5.tar.gz
+[2024-05-21 11:59:57] INFO root fetch - processPackages [longsight]: Downloading https://files.pythonhosted.org/packages/52/aa/cf2d1314535657b8a564c0596c3c1575b7e88687c5bcf59c8b18c3631633/longsight-1.0.9.tar.gz
+[2024-05-21 11:59:57] INFO root fetch - processPackages [ArrayViewer]: executing diffoscope
+[2024-05-21 11:59:57] INFO root fetch - processPackages [ArrayViewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ArrayViewer-1.1-py3-none-any.whl.zip tmp/arrayviewer-1.1.1.tar.gz --markdown 20240521/A/ArrayViewer/1.1-1.1.1/README.md --exclude *.pyd
+[2024-05-21 11:59:57] INFO root fetch - processPackages [dls-dodal]: Downloading https://files.pythonhosted.org/packages/0f/b3/c8af395d46d1c9764756342c7841827c9e0e708aade9b05af36c576f333a/dls-dodal-1.9.0.tar.gz
+[2024-05-21 11:59:57] INFO root fetch - processPackages [matchms]: Downloading https://files.pythonhosted.org/packages/a0/1f/afe76be976e1b3c3551112bf8a1ffff8624c26e9e230720c15c9138f7e6a/matchms-0.9.2.tar.gz
+[2024-05-21 11:59:57] INFO root fetch - processPackages [maji-passport]: Downloading https://files.pythonhosted.org/packages/e8/9d/dcc99e8bac11ea7a321fc2acc18d7467b104580452ab89143f1fc793d221/maji_passport-0.0.2.tar.gz
+[2024-05-21 11:59:57] INFO root fetch - processPackages [ansible]: Downloading https://files.pythonhosted.org/packages/a5/da/b20bf59a466de5caf4eb7b5024c1376432b81caced5155676932725c756f/ansible-9.5.0.tar.gz
+[2024-05-21 11:59:57] INFO root fetch - processPackages [odoo14-addon-community-maps]: executing diffoscope
+[2024-05-21 11:59:57] INFO root fetch - processPackages [odoo14-addon-community-maps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14-addon-community_maps-14.0.0.2.4.tar.gz tmp/odoo14-addon-community_maps-14.0.0.2.5.tar.gz --markdown 20240521/o/odoo14-addon-community-maps/14.0.0.2.4-14.0.0.2.5/README.md --exclude *.pyd
+[2024-05-21 11:59:57] INFO root fetch - processPackages [longsight]: executing diffoscope
+[2024-05-21 11:59:57] INFO root fetch - processPackages [longsight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/longsight-1.0.8.tar.gz tmp/longsight-1.0.9.tar.gz --markdown 20240521/l/longsight/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-21 11:59:57] INFO root fetch - processPackages [dls-dodal]: executing diffoscope
+[2024-05-21 11:59:57] INFO root fetch - processPackages [dls-dodal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dls-dodal-1.8.0.tar.gz tmp/dls-dodal-1.9.0.tar.gz --markdown 20240521/d/dls-dodal/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-21 11:59:57] INFO root fetch - processPackages [matchms]: executing diffoscope
+[2024-05-21 11:59:57] INFO root fetch - processPackages [matchms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matchms-0.9.1.tar.gz tmp/matchms-0.9.2.tar.gz --markdown 20240521/m/matchms/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-05-21 11:59:57] INFO root fetch - processPackages [maji-passport]: executing diffoscope
+[2024-05-21 11:59:57] INFO root fetch - processPackages [maji-passport]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maji_passport-0.0.1.tar.gz tmp/maji_passport-0.0.2.tar.gz --markdown 20240521/m/maji-passport/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-21 11:59:57] WARNING root fetch - processPackages [ansible]: Skipping package: exceeds size limit 38792441>=10485760
+[2024-05-21 11:59:57] INFO root fetch - processPackages [ansible]: Start processing: rssfixer
+[2024-05-21 11:59:57] INFO root fetch - main [MainThread]: End processing [ansible] error
+[2024-05-21 11:59:57] INFO root fetch - processPackages [gymnasium]: executing diffoscope
+[2024-05-21 11:59:57] INFO root fetch - processPackages [gymnasium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gymnasium-0.29.1.tar.gz tmp/gymnasium-1.0.0a1.tar.gz --markdown 20240521/g/gymnasium/0.29.1-1.0.0a1/README.md --exclude *.pyd
+[2024-05-21 11:59:57] INFO root fetch - processPackages [rssfixer]: New version: [0.2.5] Old Version: [0.2.3]
+[2024-05-21 11:59:57] INFO root fetch - processPackages [rssfixer]: Downloading https://files.pythonhosted.org/packages/86/86/48f47fcd45ed05aa7a51b9db1032c836b4f15fc6377920f2869dadb3c41b/rssfixer-0.2.3.tar.gz
+[2024-05-21 11:59:58] INFO root fetch - processPackages [djangosaml]: Remove: archive file [/home/abi/fetcher/tmp/djangosaml-1.0.3.tar.gz]
+[2024-05-21 11:59:58] INFO root fetch - processPackages [djangosaml]: Remove: archive file [/home/abi/fetcher/tmp/djangosaml-1.0.4.tar.gz]
+[2024-05-21 11:59:58] INFO root fetch - processPackages [djangosaml]: Start processing: groqon
+[2024-05-21 11:59:58] INFO root fetch - main [MainThread]: End processing [djangosaml]: success
+[2024-05-21 11:59:58] INFO root fetch - processPackages [rssfixer]: Downloading https://files.pythonhosted.org/packages/81/f9/28aac538f4d16f99f25a0037638e00619dad408e969cdf168e0d09b9d4e1/rssfixer-0.2.5.tar.gz
+[2024-05-21 11:59:58] INFO root fetch - processPackages [groqon]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-21 11:59:58] INFO root fetch - processPackages [streamback]: Remove: archive file [/home/abi/fetcher/tmp/streamback-0.2.1.tar.gz]
+[2024-05-21 11:59:58] INFO root fetch - processPackages [streamback]: Remove: archive file [/home/abi/fetcher/tmp/streamback-0.2.2.tar.gz]
+[2024-05-21 11:59:58] INFO root fetch - processPackages [streamback]: Start processing: optimask
+[2024-05-21 11:59:58] INFO root fetch - main [MainThread]: End processing [streamback]: success
+[2024-05-21 11:59:58] INFO root fetch - processPackages [ArrayViewer]: Remove: archive file [/home/abi/fetcher/tmp/ArrayViewer-1.1-py3-none-any.whl.zip]
+[2024-05-21 11:59:58] INFO root fetch - processPackages [ArrayViewer]: Remove: archive file [/home/abi/fetcher/tmp/arrayviewer-1.1.1.tar.gz]
+[2024-05-21 11:59:58] INFO root fetch - processPackages [ArrayViewer]: Start processing: tf-keras-nightly
+[2024-05-21 11:59:58] INFO root fetch - main [MainThread]: End processing [ArrayViewer]: success
+[2024-05-21 11:59:58] INFO root fetch - processPackages [optimask]: New version: [1.1.1a0] Old Version: [1.1.1]
+[2024-05-21 11:59:58] INFO root fetch - processPackages [rssfixer]: executing diffoscope
+[2024-05-21 11:59:58] INFO root fetch - processPackages [rssfixer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rssfixer-0.2.3.tar.gz tmp/rssfixer-0.2.5.tar.gz --markdown 20240521/r/rssfixer/0.2.3-0.2.5/README.md --exclude *.pyd
+[2024-05-21 11:59:58] INFO root fetch - processPackages [groqon]: Downloading https://files.pythonhosted.org/packages/ef/1b/57d995c4f2481668bd36998b6ead008b2c7788511b7dfdf1743b9aaaae65/groqon-0.1.4.tar.gz
+[2024-05-21 11:59:58] INFO root fetch - processPackages [tf-keras-nightly]: New version: [2.17.0.dev2024052009] Old Version: [2.17.0.dev2024051909]
+[2024-05-21 11:59:58] INFO root fetch - processPackages [optimask]: Downloading https://files.pythonhosted.org/packages/ba/06/547d95c694149e9bd903f68e02db9e8d3a7791420825b38b89fd522dc131/optimask-1.1.1.tar.gz
+[2024-05-21 11:59:58] INFO root fetch - processPackages [tf-keras-nightly]: Downloading https://files.pythonhosted.org/packages/bf/40/576567c415fbe1ce20c32ab2b15041c6f17a6f72e05f27ab979478b68fac/tf_keras_nightly-2.17.0.dev2024051909.tar.gz
+[2024-05-21 11:59:58] INFO root fetch - processPackages [longsight]: Remove: archive file [/home/abi/fetcher/tmp/longsight-1.0.8.tar.gz]
+[2024-05-21 11:59:58] INFO root fetch - processPackages [longsight]: Remove: archive file [/home/abi/fetcher/tmp/longsight-1.0.9.tar.gz]
+[2024-05-21 11:59:58] INFO root fetch - processPackages [longsight]: Start processing: kserve
+[2024-05-21 11:59:58] INFO root fetch - main [MainThread]: End processing [longsight]: success
+[2024-05-21 11:59:58] INFO root fetch - processPackages [groqon]: Downloading https://files.pythonhosted.org/packages/a7/0c/aff5fe3c051dc213d480240c63b838d319c0c141482082171b6cdc5afbbc/groqon-0.1.5.tar.gz
+[2024-05-21 11:59:58] INFO root fetch - processPackages [kserve]: New version: [0.9.0rc0] Old Version: [0.9.0]
+[2024-05-21 11:59:58] INFO root fetch - processPackages [groqon]: executing diffoscope
+[2024-05-21 11:59:58] INFO root fetch - processPackages [groqon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/groqon-0.1.4.tar.gz tmp/groqon-0.1.5.tar.gz --markdown 20240521/g/groqon/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-21 11:59:58] INFO root fetch - processPackages [maji-passport]: Remove: archive file [/home/abi/fetcher/tmp/maji_passport-0.0.1.tar.gz]
+[2024-05-21 11:59:58] INFO root fetch - processPackages [maji-passport]: Remove: archive file [/home/abi/fetcher/tmp/maji_passport-0.0.2.tar.gz]
+[2024-05-21 11:59:58] INFO root fetch - processPackages [maji-passport]: Start processing: z3c.password
+[2024-05-21 11:59:58] INFO root fetch - main [MainThread]: End processing [maji-passport]: success
+[2024-05-21 11:59:59] INFO root fetch - processPackages [odoo14-addon-community-maps]: Remove: archive file [/home/abi/fetcher/tmp/odoo14-addon-community_maps-14.0.0.2.4.tar.gz]
+[2024-05-21 11:59:59] INFO root fetch - processPackages [odoo14-addon-community-maps]: Remove: archive file [/home/abi/fetcher/tmp/odoo14-addon-community_maps-14.0.0.2.5.tar.gz]
+[2024-05-21 11:59:59] INFO root fetch - main [MainThread]: End processing [odoo14-addon-community-maps]: success
+[2024-05-21 11:59:59] INFO root fetch - processPackages [optimask]: Downloading https://files.pythonhosted.org/packages/93/83/77efd8b68df00f1f0ce0a1e1ee3abe82b36fd529f787f1f7bfac8b5b23da/optimask-1.1.1a0.tar.gz
+[2024-05-21 11:59:59] INFO root fetch - processPackages [matchms]: Remove: archive file [/home/abi/fetcher/tmp/matchms-0.9.1.tar.gz]
+[2024-05-21 11:59:59] INFO root fetch - processPackages [matchms]: Remove: archive file [/home/abi/fetcher/tmp/matchms-0.9.2.tar.gz]
+[2024-05-21 11:59:59] INFO root fetch - main [MainThread]: End processing [matchms]: success
+[2024-05-21 11:59:59] INFO root fetch - processPackages [optimask]: executing diffoscope
+[2024-05-21 11:59:59] INFO root fetch - processPackages [optimask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optimask-1.1.1.tar.gz tmp/optimask-1.1.1a0.tar.gz --markdown 20240521/o/optimask/1.1.1-1.1.1a0/README.md --exclude *.pyd
+[2024-05-21 11:59:59] INFO root fetch - processPackages [z3c.password]: New version: [2.0] Old Version: [1.1.0]
+[2024-05-21 11:59:59] INFO root fetch - processPackages [kserve]: Downloading https://files.pythonhosted.org/packages/cd/9d/18d0d09ed43c55f8028b5e56156fe8230b5cd752c769b6a55b2549ff0a96/kserve-0.9.0.tar.gz
+[2024-05-21 11:59:59] INFO root fetch - processPackages [tf-keras-nightly]: Downloading https://files.pythonhosted.org/packages/84/b6/88b340a919175267d6de528ae8941933c89c552980799c8aa2c1e2398a15/tf_keras_nightly-2.17.0.dev2024052009.tar.gz
+[2024-05-21 11:59:59] INFO root fetch - processPackages [tf-keras-nightly]: executing diffoscope
+[2024-05-21 11:59:59] INFO root fetch - processPackages [tf-keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_keras_nightly-2.17.0.dev2024051909.tar.gz tmp/tf_keras_nightly-2.17.0.dev2024052009.tar.gz --markdown 20240521/t/tf-keras-nightly/2.17.0.dev2024051909-2.17.0.dev2024052009/README.md --exclude *.pyd
+[2024-05-21 11:59:59] INFO root fetch - processPackages [z3c.password]: Downloading https://files.pythonhosted.org/packages/92/b3/78f760fa983d9eeff0f28f58a3ff197195ae45c50e5bd04ebb4e103535e2/z3c.password-1.1.0.tar.gz
+[2024-05-21 11:59:59] INFO root fetch - processPackages [rssfixer]: Remove: archive file [/home/abi/fetcher/tmp/rssfixer-0.2.3.tar.gz]
+[2024-05-21 11:59:59] INFO root fetch - processPackages [rssfixer]: Remove: archive file [/home/abi/fetcher/tmp/rssfixer-0.2.5.tar.gz]
+[2024-05-21 11:59:59] INFO root fetch - main [MainThread]: End processing [rssfixer]: success
+[2024-05-21 11:59:59] INFO root fetch - processPackages [dls-dodal]: Remove: archive file [/home/abi/fetcher/tmp/dls-dodal-1.8.0.tar.gz]
+[2024-05-21 11:59:59] INFO root fetch - processPackages [dls-dodal]: Remove: archive file [/home/abi/fetcher/tmp/dls-dodal-1.9.0.tar.gz]
+[2024-05-21 11:59:59] INFO root fetch - main [MainThread]: End processing [dls-dodal]: success
+[2024-05-21 11:59:59] INFO root fetch - processPackages [kserve]: Downloading https://files.pythonhosted.org/packages/4b/c5/9aee0855711e0c852e47edfa1c3a5c26db52f9f2e8e07d9a6681cc1a5451/kserve-0.9.0rc0.tar.gz
+[2024-05-21 11:59:59] INFO root fetch - processPackages [kserve]: executing diffoscope
+[2024-05-21 11:59:59] INFO root fetch - processPackages [kserve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kserve-0.9.0.tar.gz tmp/kserve-0.9.0rc0.tar.gz --markdown 20240521/k/kserve/0.9.0-0.9.0rc0/README.md --exclude *.pyd
+[2024-05-21 11:59:59] INFO root fetch - processPackages [groqon]: Remove: archive file [/home/abi/fetcher/tmp/groqon-0.1.4.tar.gz]
+[2024-05-21 11:59:59] INFO root fetch - processPackages [groqon]: Remove: archive file [/home/abi/fetcher/tmp/groqon-0.1.5.tar.gz]
+[2024-05-21 11:59:59] INFO root fetch - main [MainThread]: End processing [groqon]: success
+[2024-05-21 11:59:59] INFO root fetch - processPackages [z3c.password]: Downloading https://files.pythonhosted.org/packages/a5/69/552b2a857c4d1baa8b307dd6605f89921f8f14ddcff84f6eeb62332549a1/z3c.password-2.0.tar.gz
+[2024-05-21 12:00:00] INFO root fetch - processPackages [optimask]: Remove: archive file [/home/abi/fetcher/tmp/optimask-1.1.1.tar.gz]
+[2024-05-21 12:00:00] INFO root fetch - processPackages [optimask]: Remove: archive file [/home/abi/fetcher/tmp/optimask-1.1.1a0.tar.gz]
+[2024-05-21 12:00:00] INFO root fetch - main [MainThread]: End processing [optimask]: success
+[2024-05-21 12:00:00] INFO root fetch - processPackages [z3c.password]: executing diffoscope
+[2024-05-21 12:00:00] INFO root fetch - processPackages [z3c.password]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/z3c.password-1.1.0.tar.gz tmp/z3c.password-2.0.tar.gz --markdown 20240521/z/z3c.password/1.1.0-2.0/README.md --exclude *.pyd
+[2024-05-21 12:00:00] INFO root fetch - processPackages [gymnasium]: Remove: archive file [/home/abi/fetcher/tmp/gymnasium-0.29.1.tar.gz]
+[2024-05-21 12:00:00] INFO root fetch - processPackages [gymnasium]: Remove: archive file [/home/abi/fetcher/tmp/gymnasium-1.0.0a1.tar.gz]
+[2024-05-21 12:00:00] INFO root fetch - main [MainThread]: End processing [gymnasium]: success
+[2024-05-21 12:00:01] INFO root fetch - processPackages [z3c.password]: Remove: archive file [/home/abi/fetcher/tmp/z3c.password-1.1.0.tar.gz]
+[2024-05-21 12:00:01] INFO root fetch - processPackages [z3c.password]: Remove: archive file [/home/abi/fetcher/tmp/z3c.password-2.0.tar.gz]
+[2024-05-21 12:00:01] INFO root fetch - main [MainThread]: End processing [z3c.password]: success
+[2024-05-21 12:00:01] INFO root fetch - processPackages [kserve]: Remove: archive file [/home/abi/fetcher/tmp/kserve-0.9.0.tar.gz]
+[2024-05-21 12:00:01] INFO root fetch - processPackages [kserve]: Remove: archive file [/home/abi/fetcher/tmp/kserve-0.9.0rc0.tar.gz]
+[2024-05-21 12:00:01] INFO root fetch - main [MainThread]: End processing [kserve]: success
+[2024-05-21 12:00:02] INFO root fetch - processPackages [tf-keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_keras_nightly-2.17.0.dev2024051909.tar.gz]
+[2024-05-21 12:00:02] INFO root fetch - processPackages [tf-keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_keras_nightly-2.17.0.dev2024052009.tar.gz]
+[2024-05-21 12:00:02] INFO root fetch - main [MainThread]: End processing [tf-keras-nightly]: success
+[2024-05-21 12:00:02] INFO root fetch - main [MainThread]: Store serial: [23304283]
