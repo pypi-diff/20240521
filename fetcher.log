@@ -15313,3 +15313,63 @@
 [2024-05-21 09:39:59] INFO root fetch - processPackages [vessl]: Remove: archive file [/home/abi/fetcher/tmp/vessl-0.1.99.tar.gz]
 [2024-05-21 09:39:59] INFO root fetch - main [MainThread]: End processing [vessl]: success
 [2024-05-21 09:39:59] INFO root fetch - main [MainThread]: Store serial: [23302642]
+[2024-05-21 09:42:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23302642]
+[2024-05-21 09:42:08] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-21 09:42:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: browserist
+[2024-05-21 09:42:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: glytrait
+[2024-05-21 09:42:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: streamlit-nightly
+[2024-05-21 09:42:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openvisuspy
+[2024-05-21 09:42:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tldr-news
+[2024-05-21 09:42:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xcloudforlinux
+[2024-05-21 09:42:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: CVE-2020-27838
+[2024-05-21 09:42:08] INFO root fetch - processPackages [openvisuspy]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-21 09:42:08] INFO root fetch - processPackages [xcloudforlinux]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-05-21 09:42:08] INFO root fetch - processPackages [browserist]: New version: [1.6.9] Old Version: [1.6.8]
+[2024-05-21 09:42:08] INFO root fetch - processPackages [tldr-news]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-21 09:42:08] INFO root fetch - processPackages [glytrait]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-21 09:42:08] INFO root fetch - processPackages [openvisuspy]: Downloading https://files.pythonhosted.org/packages/b0/d9/2beb92d505396d836dfa5f3e5da1672e30a0795d20b21b932be407898836/openvisuspy-1.0.8-py3-none-any.whl
+[2024-05-21 09:42:08] INFO root fetch - processPackages [xcloudforlinux]: Downloading https://files.pythonhosted.org/packages/6f/8d/38989e572c85095e744a1cb09603c8382327aa24fb3569ab85f0467b18fd/xcloudforlinux-0.3.3.tar.gz
+[2024-05-21 09:42:08] WARNING root fetch - processPackages [CVE-2020-27838]: Skipping, unable to determine old version
+[2024-05-21 09:42:08] INFO root fetch - main [MainThread]: End processing [CVE-2020-27838] error
+[2024-05-21 09:42:08] INFO root fetch - processPackages [browserist]: Downloading https://files.pythonhosted.org/packages/cf/7c/1d6bc1d82faf4b964463a5611d63835587ceb64791e23913111bd91707e6/browserist-1.6.8.tar.gz
+[2024-05-21 09:42:08] INFO root fetch - processPackages [streamlit-nightly]: New version: [1.34.1.dev20240520] Old Version: [1.34.1.dev20240516]
+[2024-05-21 09:42:08] INFO root fetch - processPackages [openvisuspy]: Downloading https://files.pythonhosted.org/packages/76/33/2a7a818fea912f1354d65d0e959108baf4be55e1a1bcd773277f12b26582/openvisuspy-1.0.9-py3-none-any.whl
+[2024-05-21 09:42:09] INFO root fetch - processPackages [browserist]: Downloading https://files.pythonhosted.org/packages/d0/ac/64e013f01184ad61e764b7d02e4014f5b7770074bb4fb1dabac3c56c08b8/browserist-1.6.9.tar.gz
+[2024-05-21 09:42:09] INFO root fetch - processPackages [glytrait]: Downloading https://files.pythonhosted.org/packages/fd/fc/7c78d5838895c272e41c93913f9c0a69f6038a8c5b1dbede82dc181383bb/glytrait-0.1.5.tar.gz
+[2024-05-21 09:42:09] INFO root fetch - processPackages [tldr-news]: Downloading https://files.pythonhosted.org/packages/56/d8/d3e68fad87e5b45a985d313a50e8b51892abc91f8dede70fa61f3683bcce/tldr_news-0.2.8.tar.gz
+[2024-05-21 09:42:09] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/16/e7/cb7255e42d4278ee7260cdf40debccfcb5e964f8c1a697b8ebe77fe15d08/streamlit_nightly-1.34.1.dev20240516.tar.gz
+[2024-05-21 09:42:09] INFO root fetch - processPackages [openvisuspy]: executing diffoscope
+[2024-05-21 09:42:09] INFO root fetch - processPackages [openvisuspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openvisuspy-1.0.8-py3-none-any.whl.zip tmp/openvisuspy-1.0.9-py3-none-any.whl.zip --markdown 20240521/o/openvisuspy/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-21 09:42:09] INFO root fetch - processPackages [browserist]: executing diffoscope
+[2024-05-21 09:42:09] INFO root fetch - processPackages [browserist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/browserist-1.6.8.tar.gz tmp/browserist-1.6.9.tar.gz --markdown 20240521/b/browserist/1.6.8-1.6.9/README.md --exclude *.pyd
+[2024-05-21 09:42:09] INFO root fetch - processPackages [xcloudforlinux]: Downloading https://files.pythonhosted.org/packages/9d/3d/45911bf4d9f2c830b8d95534b811ca5bc363722f5cd0c278452ff627390d/xcloudforlinux-0.3.4.tar.gz
+[2024-05-21 09:42:09] INFO root fetch - processPackages [glytrait]: Downloading https://files.pythonhosted.org/packages/8a/6b/8d31d3f4b6064662fa75fe2593841a2431538dc1f962c32cacfa975d8400/glytrait-0.1.6.tar.gz
+[2024-05-21 09:42:09] INFO root fetch - processPackages [tldr-news]: Downloading https://files.pythonhosted.org/packages/b1/80/c96a61c2b0ae4d9b25a582d2640dda73017e70f41132190e4208184657ca/tldr_news-0.2.9.tar.gz
+[2024-05-21 09:42:09] INFO root fetch - processPackages [glytrait]: executing diffoscope
+[2024-05-21 09:42:09] INFO root fetch - processPackages [glytrait]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glytrait-0.1.5.tar.gz tmp/glytrait-0.1.6.tar.gz --markdown 20240521/g/glytrait/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-21 09:42:09] INFO root fetch - processPackages [xcloudforlinux]: executing diffoscope
+[2024-05-21 09:42:09] INFO root fetch - processPackages [xcloudforlinux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xcloudforlinux-0.3.3.tar.gz tmp/xcloudforlinux-0.3.4.tar.gz --markdown 20240521/x/xcloudforlinux/0.3.3-0.3.4/README.md --exclude *.pyd
+[2024-05-21 09:42:09] INFO root fetch - processPackages [tldr-news]: executing diffoscope
+[2024-05-21 09:42:09] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/f4/dd/2278bbc7ffacf2c6f46a28743a35bc90613b3698867edb2ea7f1995da6d4/streamlit_nightly-1.34.1.dev20240520.tar.gz
+[2024-05-21 09:42:09] INFO root fetch - processPackages [tldr-news]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tldr_news-0.2.8.tar.gz tmp/tldr_news-0.2.9.tar.gz --markdown 20240521/t/tldr-news/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-21 09:42:09] INFO root fetch - processPackages [openvisuspy]: Remove: archive file [/home/abi/fetcher/tmp/openvisuspy-1.0.8-py3-none-any.whl.zip]
+[2024-05-21 09:42:09] INFO root fetch - processPackages [openvisuspy]: Remove: archive file [/home/abi/fetcher/tmp/openvisuspy-1.0.9-py3-none-any.whl.zip]
+[2024-05-21 09:42:09] INFO root fetch - main [MainThread]: End processing [openvisuspy]: success
+[2024-05-21 09:42:10] INFO root fetch - processPackages [streamlit-nightly]: executing diffoscope
+[2024-05-21 09:42:10] INFO root fetch - processPackages [streamlit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_nightly-1.34.1.dev20240516.tar.gz tmp/streamlit_nightly-1.34.1.dev20240520.tar.gz --markdown 20240521/s/streamlit-nightly/1.34.1.dev20240516-1.34.1.dev20240520/README.md --exclude *.pyd
+[2024-05-21 09:42:10] INFO root fetch - processPackages [glytrait]: Remove: archive file [/home/abi/fetcher/tmp/glytrait-0.1.5.tar.gz]
+[2024-05-21 09:42:10] INFO root fetch - processPackages [glytrait]: Remove: archive file [/home/abi/fetcher/tmp/glytrait-0.1.6.tar.gz]
+[2024-05-21 09:42:10] INFO root fetch - main [MainThread]: End processing [glytrait]: success
+[2024-05-21 09:42:10] INFO root fetch - processPackages [browserist]: Remove: archive file [/home/abi/fetcher/tmp/browserist-1.6.8.tar.gz]
+[2024-05-21 09:42:10] INFO root fetch - processPackages [browserist]: Remove: archive file [/home/abi/fetcher/tmp/browserist-1.6.9.tar.gz]
+[2024-05-21 09:42:10] INFO root fetch - main [MainThread]: End processing [browserist]: success
+[2024-05-21 09:42:10] INFO root fetch - processPackages [tldr-news]: Remove: archive file [/home/abi/fetcher/tmp/tldr_news-0.2.8.tar.gz]
+[2024-05-21 09:42:10] INFO root fetch - processPackages [tldr-news]: Remove: archive file [/home/abi/fetcher/tmp/tldr_news-0.2.9.tar.gz]
+[2024-05-21 09:42:10] INFO root fetch - main [MainThread]: End processing [tldr-news]: success
+[2024-05-21 09:42:10] INFO root fetch - processPackages [xcloudforlinux]: Remove: archive file [/home/abi/fetcher/tmp/xcloudforlinux-0.3.3.tar.gz]
+[2024-05-21 09:42:10] INFO root fetch - processPackages [xcloudforlinux]: Remove: archive file [/home/abi/fetcher/tmp/xcloudforlinux-0.3.4.tar.gz]
+[2024-05-21 09:42:10] INFO root fetch - main [MainThread]: End processing [xcloudforlinux]: success
+[2024-05-21 09:42:39] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_nightly-1.34.1.dev20240516.tar.gz]
+[2024-05-21 09:42:39] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_nightly-1.34.1.dev20240520.tar.gz]
+[2024-05-21 09:42:39] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
+[2024-05-21 09:42:39] INFO root fetch - main [MainThread]: Store serial: [23302663]
