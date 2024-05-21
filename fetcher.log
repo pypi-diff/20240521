@@ -18721,3 +18721,86 @@
 [2024-05-21 11:38:22] INFO root fetch - processPackages [substrafl]: Remove: archive file [/home/abi/fetcher/tmp/substrafl-0.45.1rc1.tar.gz]
 [2024-05-21 11:38:22] INFO root fetch - main [MainThread]: End processing [substrafl]: success
 [2024-05-21 11:38:22] INFO root fetch - main [MainThread]: Store serial: [23303948]
+[2024-05-21 11:40:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23303948]
+[2024-05-21 11:40:30] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-21 11:40:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: djangosaml
+[2024-05-21 11:40:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-l10n-es-aeat-sii-oca
+[2024-05-21 11:40:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qcentroid-runtime-qiskit
+[2024-05-21 11:40:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Exegol
+[2024-05-21 11:40:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: LoadsKernel
+[2024-05-21 11:40:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: calculate-savings
+[2024-05-21 11:40:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mteb
+[2024-05-21 11:40:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: inventory-monitor
+[2024-05-21 11:40:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: techgram
+[2024-05-21 11:40:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: profile-zoominfo-graphql-imp-local
+[2024-05-21 11:40:31] INFO root fetch - processPackages [calculate-savings]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-21 11:40:31] INFO root fetch - processPackages [techgram]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-21 11:40:31] INFO root fetch - processPackages [mteb]: New version: [1.9.3] Old Version: [1.9.2]
+[2024-05-21 11:40:31] INFO root fetch - processPackages [djangosaml]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-21 11:40:31] INFO root fetch - processPackages [LoadsKernel]: New version: [2024.5] Old Version: [2024.2]
+[2024-05-21 11:40:31] INFO root fetch - processPackages [inventory-monitor]: New version: [8.0.0b1] Old Version: [8.0.0]
+[2024-05-21 11:40:31] INFO root fetch - processPackages [qcentroid-runtime-qiskit]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-21 11:40:31] WARNING root fetch - processPackages [profile-zoominfo-graphql-imp-local]: Skipping, unable to determine old version
+[2024-05-21 11:40:31] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oca]: New version: [16.0.1.8.1] Old Version: [16.0.1.8.0]
+[2024-05-21 11:40:31] INFO root fetch - processPackages [techgram]: Downloading https://files.pythonhosted.org/packages/bb/6a/8f42ce2261917180e04383db934b3337df0e0e91cb53fa81e5c1a25f8e52/techgram-1.0.8-cp39-cp39-manylinux2014_x86_64.whl
+[2024-05-21 11:40:31] INFO root fetch - processPackages [Exegol]: New version: [4.3.4] Old Version: [4.3.3]
+[2024-05-21 11:40:31] INFO root fetch - main [MainThread]: End processing [profile-zoominfo-graphql-imp-local] error
+[2024-05-21 11:40:31] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/aa/99/be58df74a89833b5d44fbd8f00e5c99b4ca82aa67a9c1487fd782328d3b5/mteb-1.9.2.tar.gz
+[2024-05-21 11:40:31] WARNING root fetch - processPackages [techgram]: Skipping package: exceeds size limit 11235555>=10485760
+[2024-05-21 11:40:31] INFO root fetch - main [MainThread]: End processing [techgram] error
+[2024-05-21 11:40:31] INFO root fetch - processPackages [calculate-savings]: Downloading https://files.pythonhosted.org/packages/dd/4a/006c80d35736cb6e0cd0899f45a9aab51e5d1f73812e38ba713edd678106/calculate_savings-0.0.1-py3-none-any.whl
+[2024-05-21 11:40:31] INFO root fetch - processPackages [djangosaml]: Downloading https://files.pythonhosted.org/packages/68/b7/880d02d13ecf23b0f003567c42b7d9a88ba12c084ef91452c6d6defa862d/djangosaml-1.0.3.tar.gz
+[2024-05-21 11:40:31] INFO root fetch - processPackages [inventory-monitor]: Downloading https://files.pythonhosted.org/packages/07/c0/62c3b33ae7395176bf94f4af2ded0292e7dfdd8882acf33279acf7da77b0/inventory-monitor-8.0.0.tar.gz
+[2024-05-21 11:40:31] INFO root fetch - processPackages [LoadsKernel]: Downloading https://files.pythonhosted.org/packages/78/e2/8902a98cc87793c7e588477e87293fabf2106254aeb2deba1470e104313c/LoadsKernel-2024.2.tar.gz
+[2024-05-21 11:40:31] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oca]: Downloading https://files.pythonhosted.org/packages/ce/8a/9757a5110d06513b1acb224db1464c68815d1e1d96a35b32a1a2a00a7b57/odoo_addon_l10n_es_aeat_sii_oca-16.0.1.8.0-py3-none-any.whl
+[2024-05-21 11:40:31] INFO root fetch - processPackages [qcentroid-runtime-qiskit]: Downloading https://files.pythonhosted.org/packages/92/df/3b21a5f0edf771de57fea1975c05a056a2920655fcb866dec2637f5b876f/qcentroid_runtime_qiskit-0.1.1.tar.gz
+[2024-05-21 11:40:31] INFO root fetch - processPackages [Exegol]: Downloading https://files.pythonhosted.org/packages/85/18/ca1b53f400209dc8362fc150c5d56b8b743d648f584c407f9d45e5f700a7/exegol-4.3.3.tar.gz
+[2024-05-21 11:40:31] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/1a/05/483a4778dcfb42b672c3c28ac435e64d386b1df507d3c0059e5da9194653/mteb-1.9.3.tar.gz
+[2024-05-21 11:40:31] INFO root fetch - processPackages [calculate-savings]: Downloading https://files.pythonhosted.org/packages/c1/a6/6844e1b75317944d50e0367e6f70de9bcfd6923ffc8ccc31f6f5b3ea47c3/calculate_savings-0.0.2.tar.gz
+[2024-05-21 11:40:31] INFO root fetch - processPackages [djangosaml]: Downloading https://files.pythonhosted.org/packages/37/23/c28d4b508fea3c3e593dfeb63e127fec6e8f508731d86f870bf0f807b3d5/djangosaml-1.0.4.tar.gz
+[2024-05-21 11:40:31] INFO root fetch - processPackages [mteb]: executing diffoscope
+[2024-05-21 11:40:31] INFO root fetch - processPackages [mteb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mteb-1.9.2.tar.gz tmp/mteb-1.9.3.tar.gz --markdown 20240521/m/mteb/1.9.2-1.9.3/README.md --exclude *.pyd
+[2024-05-21 11:40:31] INFO root fetch - processPackages [calculate-savings]: executing diffoscope
+[2024-05-21 11:40:31] INFO root fetch - processPackages [calculate-savings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calculate_savings-0.0.1-py3-none-any.whl.zip tmp/calculate_savings-0.0.2.tar.gz --markdown 20240521/c/calculate-savings/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-21 11:40:32] INFO root fetch - processPackages [djangosaml]: executing diffoscope
+[2024-05-21 11:40:32] INFO root fetch - processPackages [LoadsKernel]: Downloading https://files.pythonhosted.org/packages/fe/3d/3f0990b95f7e2023e85de07b4a486b6f7a74251badbdbab9ccc8aac03798/loadskernel-2024.5.tar.gz
+[2024-05-21 11:40:32] INFO root fetch - processPackages [djangosaml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangosaml-1.0.3.tar.gz tmp/djangosaml-1.0.4.tar.gz --markdown 20240521/d/djangosaml/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-21 11:40:32] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oca]: Downloading https://files.pythonhosted.org/packages/fc/55/195437bb014c3728b7f9967ba434b0442530b7efb1cfaf68a919c2b87007/odoo_addon_l10n_es_aeat_sii_oca-16.0.1.8.1-py3-none-any.whl
+[2024-05-21 11:40:32] INFO root fetch - processPackages [qcentroid-runtime-qiskit]: Downloading https://files.pythonhosted.org/packages/78/94/94957b530192239b04f0fd5fbc57a2d0c37b40afd785b996b793777170b1/qcentroid_runtime_qiskit-0.1.2.tar.gz
+[2024-05-21 11:40:32] INFO root fetch - processPackages [inventory-monitor]: Downloading https://files.pythonhosted.org/packages/82/f9/b6c6b5ef780bf95dedd5f4a345da8d3dc8e7f2e9e55e4387124fca35901e/inventory-monitor-8.0.0b1.tar.gz
+[2024-05-21 11:40:32] INFO root fetch - processPackages [qcentroid-runtime-qiskit]: executing diffoscope
+[2024-05-21 11:40:32] INFO root fetch - processPackages [qcentroid-runtime-qiskit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qcentroid_runtime_qiskit-0.1.1.tar.gz tmp/qcentroid_runtime_qiskit-0.1.2.tar.gz --markdown 20240521/q/qcentroid-runtime-qiskit/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-21 11:40:32] INFO root fetch - processPackages [LoadsKernel]: executing diffoscope
+[2024-05-21 11:40:32] INFO root fetch - processPackages [LoadsKernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LoadsKernel-2024.2.tar.gz tmp/loadskernel-2024.5.tar.gz --markdown 20240521/L/LoadsKernel/2024.2-2024.5/README.md --exclude *.pyd
+[2024-05-21 11:40:32] INFO root fetch - processPackages [Exegol]: Downloading https://files.pythonhosted.org/packages/7e/88/de8f1991111e724ae97dde1fb646cc4f87ba00d5a010cbc3f92768555759/exegol-4.3.4.tar.gz
+[2024-05-21 11:40:32] INFO root fetch - processPackages [inventory-monitor]: executing diffoscope
+[2024-05-21 11:40:32] INFO root fetch - processPackages [inventory-monitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inventory-monitor-8.0.0.tar.gz tmp/inventory-monitor-8.0.0b1.tar.gz --markdown 20240521/i/inventory-monitor/8.0.0-8.0.0b1/README.md --exclude *.pyd
+[2024-05-21 11:40:32] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oca]: executing diffoscope
+[2024-05-21 11:40:32] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat_sii_oca-16.0.1.8.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat_sii_oca-16.0.1.8.1-py3-none-any.whl.zip --markdown 20240521/o/odoo-addon-l10n-es-aeat-sii-oca/16.0.1.8.0-16.0.1.8.1/README.md --exclude *.pyd
+[2024-05-21 11:40:32] INFO root fetch - processPackages [Exegol]: executing diffoscope
+[2024-05-21 11:40:32] INFO root fetch - processPackages [Exegol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exegol-4.3.3.tar.gz tmp/exegol-4.3.4.tar.gz --markdown 20240521/E/Exegol/4.3.3-4.3.4/README.md --exclude *.pyd
+[2024-05-21 11:40:32] INFO root fetch - processPackages [calculate-savings]: Remove: archive file [/home/abi/fetcher/tmp/calculate_savings-0.0.1-py3-none-any.whl.zip]
+[2024-05-21 11:40:32] INFO root fetch - processPackages [calculate-savings]: Remove: archive file [/home/abi/fetcher/tmp/calculate_savings-0.0.2.tar.gz]
+[2024-05-21 11:40:32] INFO root fetch - main [MainThread]: End processing [calculate-savings]: success
+[2024-05-21 11:40:33] INFO root fetch - processPackages [djangosaml]: Remove: archive file [/home/abi/fetcher/tmp/djangosaml-1.0.3.tar.gz]
+[2024-05-21 11:40:33] INFO root fetch - processPackages [djangosaml]: Remove: archive file [/home/abi/fetcher/tmp/djangosaml-1.0.4.tar.gz]
+[2024-05-21 11:40:33] INFO root fetch - main [MainThread]: End processing [djangosaml]: success
+[2024-05-21 11:40:33] INFO root fetch - processPackages [qcentroid-runtime-qiskit]: Remove: archive file [/home/abi/fetcher/tmp/qcentroid_runtime_qiskit-0.1.1.tar.gz]
+[2024-05-21 11:40:33] INFO root fetch - processPackages [qcentroid-runtime-qiskit]: Remove: archive file [/home/abi/fetcher/tmp/qcentroid_runtime_qiskit-0.1.2.tar.gz]
+[2024-05-21 11:40:33] INFO root fetch - main [MainThread]: End processing [qcentroid-runtime-qiskit]: success
+[2024-05-21 11:40:33] INFO root fetch - processPackages [inventory-monitor]: Remove: archive file [/home/abi/fetcher/tmp/inventory-monitor-8.0.0.tar.gz]
+[2024-05-21 11:40:33] INFO root fetch - processPackages [inventory-monitor]: Remove: archive file [/home/abi/fetcher/tmp/inventory-monitor-8.0.0b1.tar.gz]
+[2024-05-21 11:40:33] INFO root fetch - main [MainThread]: End processing [inventory-monitor]: success
+[2024-05-21 11:40:33] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_sii_oca-16.0.1.8.0-py3-none-any.whl.zip]
+[2024-05-21 11:40:33] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_sii_oca-16.0.1.8.1-py3-none-any.whl.zip]
+[2024-05-21 11:40:33] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat-sii-oca]: success
+[2024-05-21 11:40:33] INFO root fetch - processPackages [LoadsKernel]: Remove: archive file [/home/abi/fetcher/tmp/LoadsKernel-2024.2.tar.gz]
+[2024-05-21 11:40:33] INFO root fetch - processPackages [LoadsKernel]: Remove: archive file [/home/abi/fetcher/tmp/loadskernel-2024.5.tar.gz]
+[2024-05-21 11:40:33] INFO root fetch - main [MainThread]: End processing [LoadsKernel]: success
+[2024-05-21 11:40:34] INFO root fetch - processPackages [Exegol]: Remove: archive file [/home/abi/fetcher/tmp/exegol-4.3.3.tar.gz]
+[2024-05-21 11:40:34] INFO root fetch - processPackages [Exegol]: Remove: archive file [/home/abi/fetcher/tmp/exegol-4.3.4.tar.gz]
+[2024-05-21 11:40:34] INFO root fetch - main [MainThread]: End processing [Exegol]: success
+[2024-05-21 11:40:35] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.9.2.tar.gz]
+[2024-05-21 11:40:35] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.9.3.tar.gz]
+[2024-05-21 11:40:35] INFO root fetch - main [MainThread]: End processing [mteb]: success
+[2024-05-21 11:40:35] INFO root fetch - main [MainThread]: Store serial: [23303999]
