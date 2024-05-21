@@ -18902,3 +18902,87 @@
 [2024-05-21 11:44:59] INFO root fetch - processPackages [nanomotif]: Remove: archive file [/home/abi/fetcher/tmp/nanomotif-0.4.3.tar.gz]
 [2024-05-21 11:44:59] INFO root fetch - main [MainThread]: End processing [nanomotif]: success
 [2024-05-21 11:44:59] INFO root fetch - main [MainThread]: Store serial: [23304070]
+[2024-05-21 11:47:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23304070]
+[2024-05-21 11:47:08] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-21 11:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: recoverable-async-task
+[2024-05-21 11:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: optimask
+[2024-05-21 11:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: causal-playground
+[2024-05-21 11:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: africanwhisper
+[2024-05-21 11:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sleepecg
+[2024-05-21 11:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gene-trajectory
+[2024-05-21 11:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: paddleocr-onnx
+[2024-05-21 11:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: toot-tooi
+[2024-05-21 11:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: seven-cloudapp-frame
+[2024-05-21 11:47:09] INFO root fetch - processPackages [paddleocr-onnx]: New version: [0.5.0] Old Version: [0.4.2]
+[2024-05-21 11:47:09] INFO root fetch - processPackages [optimask]: New version: [1.1.1] Old Version: [1.1]
+[2024-05-21 11:47:09] INFO root fetch - processPackages [paddleocr-onnx]: Downloading https://files.pythonhosted.org/packages/32/68/38a30d3b9f1aa5349815a97142fed889cde5f9c6c0bfebe0e566cfd48e8f/paddleocr_onnx-0.4.2.tar.gz
+[2024-05-21 11:47:09] INFO root fetch - processPackages [recoverable-async-task]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-21 11:47:09] INFO root fetch - processPackages [gene-trajectory]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-21 11:47:09] INFO root fetch - processPackages [toot-tooi]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-21 11:47:09] INFO root fetch - processPackages [causal-playground]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-21 11:47:09] INFO root fetch - processPackages [africanwhisper]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-05-21 11:47:09] INFO root fetch - processPackages [sleepecg]: New version: [0.5.8] Old Version: [0.5.7]
+[2024-05-21 11:47:09] INFO root fetch - processPackages [seven-cloudapp-frame]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-05-21 11:47:09] INFO root fetch - processPackages [optimask]: Downloading https://files.pythonhosted.org/packages/31/e4/f4e663c5f0f7d39dc579f7d5db75c72a4b75bbcca2b80511c7d7b8acd748/optimask-1.1.tar.gz
+[2024-05-21 11:47:09] INFO root fetch - processPackages [recoverable-async-task]: Downloading https://files.pythonhosted.org/packages/f1/df/c0a899e16b7ace4e89d2a915f158c6f740bb9a7f7fa85f91c86d2b1c035f/recoverable_async_task-0.1.6.tar.gz
+[2024-05-21 11:47:09] INFO root fetch - processPackages [toot-tooi]: Downloading https://files.pythonhosted.org/packages/af/bc/13f6d78d6a4fb247c88294640d2b6e98ba579d419a1718fadaace5aa9e70/toot-tooi-0.9.0.tar.gz
+[2024-05-21 11:47:09] INFO root fetch - processPackages [africanwhisper]: Downloading https://files.pythonhosted.org/packages/a8/ea/2494e9f50c67001abfd3cb37e00f0b4f61272d73d64c15ffebe4e1fc9d14/africanwhisper-0.9.3.tar.gz
+[2024-05-21 11:47:09] INFO root fetch - processPackages [causal-playground]: Downloading https://files.pythonhosted.org/packages/f8/60/63c4a322d163abc49d0def1267c42f19213ec683e2b2c74745b58c7ac510/causal-playground-0.1.1.tar.gz
+[2024-05-21 11:47:09] INFO root fetch - processPackages [gene-trajectory]: Downloading https://files.pythonhosted.org/packages/e0/08/32bf81dfc276ba617d3589cea8fb2c4196839852ac8dbe6cbae40dfd3e02/gene_trajectory-1.0.2.tar.gz
+[2024-05-21 11:47:09] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/b9/ca/39a9edf0448dce1557b063b8e2277fb9cfb7583e390be7c95ab7d0ea0641/seven_cloudapp_frame-1.1.8.tar.gz
+[2024-05-21 11:47:09] INFO root fetch - processPackages [sleepecg]: Downloading https://files.pythonhosted.org/packages/ae/cf/b8e9263b04ce6c70b8d185f0d89d6417d7332df6940ab2eccdfdd4ad6723/sleepecg-0.5.7.tar.gz
+[2024-05-21 11:47:09] INFO root fetch - processPackages [optimask]: Downloading https://files.pythonhosted.org/packages/ba/06/547d95c694149e9bd903f68e02db9e8d3a7791420825b38b89fd522dc131/optimask-1.1.1.tar.gz
+[2024-05-21 11:47:09] INFO root fetch - processPackages [recoverable-async-task]: Downloading https://files.pythonhosted.org/packages/c1/13/f0048d8b9190d05f357d85f6008b434b372858119658077942d3533b2620/recoverable_async_task-0.1.7.tar.gz
+[2024-05-21 11:47:09] INFO root fetch - processPackages [causal-playground]: Downloading https://files.pythonhosted.org/packages/1e/81/d8dc540b9cfb1085283de71306ec8919a3cdf5329d6cb86c1e321153c132/causal_playground-0.1.2.tar.gz
+[2024-05-21 11:47:09] INFO root fetch - processPackages [optimask]: executing diffoscope
+[2024-05-21 11:47:09] INFO root fetch - processPackages [optimask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optimask-1.1.tar.gz tmp/optimask-1.1.1.tar.gz --markdown 20240521/o/optimask/1.1-1.1.1/README.md --exclude *.pyd
+[2024-05-21 11:47:09] INFO root fetch - processPackages [paddleocr-onnx]: Downloading https://files.pythonhosted.org/packages/2f/cd/904b6a569ad655e0649746787aab97ea926a57e259a8a9360a76159cac15/paddleocr_onnx-0.5.0.tar.gz
+[2024-05-21 11:47:09] INFO root fetch - processPackages [gene-trajectory]: Downloading https://files.pythonhosted.org/packages/80/9d/603fd73cad65c6738f50352e7c7fbc9f38d2f9d6bcab4dbfb4ce0976cc1a/gene_trajectory-1.0.3.tar.gz
+[2024-05-21 11:47:09] INFO root fetch - processPackages [recoverable-async-task]: executing diffoscope
+[2024-05-21 11:47:09] INFO root fetch - processPackages [recoverable-async-task]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recoverable_async_task-0.1.6.tar.gz tmp/recoverable_async_task-0.1.7.tar.gz --markdown 20240521/r/recoverable-async-task/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-21 11:47:09] INFO root fetch - processPackages [causal-playground]: executing diffoscope
+[2024-05-21 11:47:09] INFO root fetch - processPackages [causal-playground]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/causal-playground-0.1.1.tar.gz tmp/causal_playground-0.1.2.tar.gz --markdown 20240521/c/causal-playground/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-21 11:47:09] INFO root fetch - processPackages [africanwhisper]: Downloading https://files.pythonhosted.org/packages/be/b4/dab732b086092ef8c72d835505a56be35a7abb07576ff409ec24281a138d/africanwhisper-0.9.4.tar.gz
+[2024-05-21 11:47:10] INFO root fetch - processPackages [toot-tooi]: Downloading https://files.pythonhosted.org/packages/d1/24/e76298de0cc522a0a6a7bdf839885dbe0e8bb6c39da7b9db626ff5f94594/toot-tooi-0.9.1.tar.gz
+[2024-05-21 11:47:10] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/3c/36/0c224bc89289ec1de22a5c6a2070b6fe931fc13c906476b1e568044096fc/seven_cloudapp_frame-1.1.9.tar.gz
+[2024-05-21 11:47:10] INFO root fetch - processPackages [gene-trajectory]: executing diffoscope
+[2024-05-21 11:47:10] INFO root fetch - processPackages [gene-trajectory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gene_trajectory-1.0.2.tar.gz tmp/gene_trajectory-1.0.3.tar.gz --markdown 20240521/g/gene-trajectory/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-21 11:47:10] INFO root fetch - processPackages [africanwhisper]: executing diffoscope
+[2024-05-21 11:47:10] INFO root fetch - processPackages [africanwhisper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/africanwhisper-0.9.3.tar.gz tmp/africanwhisper-0.9.4.tar.gz --markdown 20240521/a/africanwhisper/0.9.3-0.9.4/README.md --exclude *.pyd
+[2024-05-21 11:47:10] INFO root fetch - processPackages [seven-cloudapp-frame]: executing diffoscope
+[2024-05-21 11:47:10] INFO root fetch - processPackages [seven-cloudapp-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_cloudapp_frame-1.1.8.tar.gz tmp/seven_cloudapp_frame-1.1.9.tar.gz --markdown 20240521/s/seven-cloudapp-frame/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-05-21 11:47:10] INFO root fetch - processPackages [toot-tooi]: executing diffoscope
+[2024-05-21 11:47:10] INFO root fetch - processPackages [toot-tooi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toot-tooi-0.9.0.tar.gz tmp/toot-tooi-0.9.1.tar.gz --markdown 20240521/t/toot-tooi/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-21 11:47:10] INFO root fetch - processPackages [sleepecg]: Downloading https://files.pythonhosted.org/packages/40/8c/d3637535ce113a351c9c2084cf9fff20d4adaf637e825e5bfb8b738ee8dd/sleepecg-0.5.8.tar.gz
+[2024-05-21 11:47:10] INFO root fetch - processPackages [paddleocr-onnx]: executing diffoscope
+[2024-05-21 11:47:10] INFO root fetch - processPackages [paddleocr-onnx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paddleocr_onnx-0.4.2.tar.gz tmp/paddleocr_onnx-0.5.0.tar.gz --markdown 20240521/p/paddleocr-onnx/0.4.2-0.5.0/README.md --exclude *.pyd
+[2024-05-21 11:47:10] INFO root fetch - processPackages [sleepecg]: executing diffoscope
+[2024-05-21 11:47:10] INFO root fetch - processPackages [sleepecg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sleepecg-0.5.7.tar.gz tmp/sleepecg-0.5.8.tar.gz --markdown 20240521/s/sleepecg/0.5.7-0.5.8/README.md --exclude *.pyd
+[2024-05-21 11:47:10] INFO root fetch - processPackages [optimask]: Remove: archive file [/home/abi/fetcher/tmp/optimask-1.1.tar.gz]
+[2024-05-21 11:47:10] INFO root fetch - processPackages [optimask]: Remove: archive file [/home/abi/fetcher/tmp/optimask-1.1.1.tar.gz]
+[2024-05-21 11:47:10] INFO root fetch - main [MainThread]: End processing [optimask]: success
+[2024-05-21 11:47:11] INFO root fetch - processPackages [causal-playground]: Remove: archive file [/home/abi/fetcher/tmp/causal-playground-0.1.1.tar.gz]
+[2024-05-21 11:47:11] INFO root fetch - processPackages [causal-playground]: Remove: archive file [/home/abi/fetcher/tmp/causal_playground-0.1.2.tar.gz]
+[2024-05-21 11:47:11] INFO root fetch - main [MainThread]: End processing [causal-playground]: success
+[2024-05-21 11:47:11] INFO root fetch - processPackages [recoverable-async-task]: Remove: archive file [/home/abi/fetcher/tmp/recoverable_async_task-0.1.6.tar.gz]
+[2024-05-21 11:47:11] INFO root fetch - processPackages [recoverable-async-task]: Remove: archive file [/home/abi/fetcher/tmp/recoverable_async_task-0.1.7.tar.gz]
+[2024-05-21 11:47:11] INFO root fetch - main [MainThread]: End processing [recoverable-async-task]: success
+[2024-05-21 11:47:11] INFO root fetch - processPackages [gene-trajectory]: Remove: archive file [/home/abi/fetcher/tmp/gene_trajectory-1.0.2.tar.gz]
+[2024-05-21 11:47:11] INFO root fetch - processPackages [gene-trajectory]: Remove: archive file [/home/abi/fetcher/tmp/gene_trajectory-1.0.3.tar.gz]
+[2024-05-21 11:47:11] INFO root fetch - main [MainThread]: End processing [gene-trajectory]: success
+[2024-05-21 11:47:11] INFO root fetch - processPackages [africanwhisper]: Remove: archive file [/home/abi/fetcher/tmp/africanwhisper-0.9.3.tar.gz]
+[2024-05-21 11:47:11] INFO root fetch - processPackages [africanwhisper]: Remove: archive file [/home/abi/fetcher/tmp/africanwhisper-0.9.4.tar.gz]
+[2024-05-21 11:47:11] INFO root fetch - main [MainThread]: End processing [africanwhisper]: success
+[2024-05-21 11:47:11] INFO root fetch - processPackages [toot-tooi]: Remove: archive file [/home/abi/fetcher/tmp/toot-tooi-0.9.0.tar.gz]
+[2024-05-21 11:47:11] INFO root fetch - processPackages [toot-tooi]: Remove: archive file [/home/abi/fetcher/tmp/toot-tooi-0.9.1.tar.gz]
+[2024-05-21 11:47:11] INFO root fetch - main [MainThread]: End processing [toot-tooi]: success
+[2024-05-21 11:47:11] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.1.8.tar.gz]
+[2024-05-21 11:47:11] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.1.9.tar.gz]
+[2024-05-21 11:47:11] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
+[2024-05-21 11:47:12] INFO root fetch - processPackages [sleepecg]: Remove: archive file [/home/abi/fetcher/tmp/sleepecg-0.5.7.tar.gz]
+[2024-05-21 11:47:12] INFO root fetch - processPackages [sleepecg]: Remove: archive file [/home/abi/fetcher/tmp/sleepecg-0.5.8.tar.gz]
+[2024-05-21 11:47:12] INFO root fetch - main [MainThread]: End processing [sleepecg]: success
+[2024-05-21 11:47:12] INFO root fetch - processPackages [paddleocr-onnx]: Remove: archive file [/home/abi/fetcher/tmp/paddleocr_onnx-0.4.2.tar.gz]
+[2024-05-21 11:47:12] INFO root fetch - processPackages [paddleocr-onnx]: Remove: archive file [/home/abi/fetcher/tmp/paddleocr_onnx-0.5.0.tar.gz]
+[2024-05-21 11:47:12] INFO root fetch - main [MainThread]: End processing [paddleocr-onnx]: success
+[2024-05-21 11:47:12] INFO root fetch - main [MainThread]: Store serial: [23304110]
