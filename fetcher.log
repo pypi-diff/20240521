@@ -3061,3 +3061,49 @@
 [2024-05-21 02:30:58] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-1.9.1.dev9.tar.gz]
 [2024-05-21 02:30:58] INFO root fetch - main [MainThread]: End processing [coiled]: success
 [2024-05-21 02:30:58] INFO root fetch - main [MainThread]: Store serial: [23298033]
+[2024-05-21 02:33:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23298033]
+[2024-05-21 02:33:07] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-21 02:33:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ovos-skill-fallback-hivemind
+[2024-05-21 02:33:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aeppl-nightly
+[2024-05-21 02:33:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: plexhints
+[2024-05-21 02:33:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ovos-skill-fallback-hivemind
+[2024-05-21 02:33:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: blueness
+[2024-05-21 02:33:07] INFO root fetch - processPackages [blueness]: New version: [3.9.1] Old Version: [3.7.1]
+[2024-05-21 02:33:07] INFO root fetch - processPackages [ovos-skill-fallback-hivemind]: New version: [0.0.0a4] Old Version: [0.0.0a3]
+[2024-05-21 02:33:07] INFO root fetch - processPackages [ovos-skill-fallback-hivemind]: New version: [0.0.0a4] Old Version: [0.0.0a3]
+[2024-05-21 02:33:07] INFO root fetch - processPackages [plexhints]: New version: [2024.520.225051] Old Version: [2024.516.24056]
+[2024-05-21 02:33:07] INFO root fetch - processPackages [aeppl-nightly]: New version: [0.1.5.dev20240520] Old Version: [0.1.5.dev20240519]
+[2024-05-21 02:33:07] INFO root fetch - processPackages [ovos-skill-fallback-hivemind]: Downloading https://files.pythonhosted.org/packages/fd/91/4890a98cd6fa1a92044f90a3876b738950bc2d0d02ffc79f8936e06ecaec/ovos_skill_fallback_hivemind-0.0.0a3-py3-none-any.whl
+[2024-05-21 02:33:07] INFO root fetch - processPackages [ovos-skill-fallback-hivemind]: Downloading https://files.pythonhosted.org/packages/fd/91/4890a98cd6fa1a92044f90a3876b738950bc2d0d02ffc79f8936e06ecaec/ovos_skill_fallback_hivemind-0.0.0a3-py3-none-any.whl
+[2024-05-21 02:33:07] INFO root fetch - processPackages [blueness]: Downloading https://files.pythonhosted.org/packages/86/d4/e8b769417baf31b335408a29a80b371b6421e59db03087a6e1c943bb5d84/blueness-3.7.1.tar.gz
+[2024-05-21 02:33:07] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/cc/d1/0f9e85b92b14759824863645ad092c3800fe6993aea1635926d4a4df7652/aeppl_nightly-0.1.5.dev20240519.tar.gz
+[2024-05-21 02:33:07] INFO root fetch - processPackages [plexhints]: Downloading https://files.pythonhosted.org/packages/35/f9/0659e9b0c055ec6d419a4931858df1ec7b1f4a20dc40c621373f3437e783/plexhints-2024.516.24056.tar.gz
+[2024-05-21 02:33:07] INFO root fetch - processPackages [blueness]: Downloading https://files.pythonhosted.org/packages/bb/6c/4f8063f6de43bbfcce0c161a49b6afe38d15dfecb071f23bc7663a1b1714/blueness-3.9.1.tar.gz
+[2024-05-21 02:33:07] INFO root fetch - processPackages [plexhints]: Downloading https://files.pythonhosted.org/packages/15/95/31cf844962f4caa9334c8fc3250a52117c6ec67da16111c107ebec523844/plexhints-2024.520.225051.tar.gz
+[2024-05-21 02:33:07] INFO root fetch - processPackages [blueness]: executing diffoscope
+[2024-05-21 02:33:07] INFO root fetch - processPackages [blueness]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blueness-3.7.1.tar.gz tmp/blueness-3.9.1.tar.gz --markdown 20240521/b/blueness/3.7.1-3.9.1/README.md --exclude *.pyd
+[2024-05-21 02:33:07] INFO root fetch - processPackages [ovos-skill-fallback-hivemind]: Downloading https://files.pythonhosted.org/packages/9f/63/1035ff09c48fe410464138c4f2d9497fa5ca15e0f5654725a60d547d0f0d/ovos_skill_fallback_hivemind-0.0.0a4-py3-none-any.whl
+[2024-05-21 02:33:07] INFO root fetch - processPackages [ovos-skill-fallback-hivemind]: Downloading https://files.pythonhosted.org/packages/9f/63/1035ff09c48fe410464138c4f2d9497fa5ca15e0f5654725a60d547d0f0d/ovos_skill_fallback_hivemind-0.0.0a4-py3-none-any.whl
+[2024-05-21 02:33:07] INFO root fetch - processPackages [plexhints]: executing diffoscope
+[2024-05-21 02:33:07] INFO root fetch - processPackages [plexhints]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plexhints-2024.516.24056.tar.gz tmp/plexhints-2024.520.225051.tar.gz --markdown 20240521/p/plexhints/2024.516.24056-2024.520.225051/README.md --exclude *.pyd
+[2024-05-21 02:33:07] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/06/c8/7f2928fd0abd769f977f05f77c2093060cdc371e575d1e4ff8f7685fa36c/aeppl_nightly-0.1.5.dev20240520.tar.gz
+[2024-05-21 02:33:08] INFO root fetch - processPackages [ovos-skill-fallback-hivemind]: executing diffoscope
+[2024-05-21 02:33:08] INFO root fetch - processPackages [ovos-skill-fallback-hivemind]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_skill_fallback_hivemind-0.0.0a3-py3-none-any.whl.zip tmp/ovos_skill_fallback_hivemind-0.0.0a4-py3-none-any.whl.zip --markdown 20240521/o/ovos-skill-fallback-hivemind/0.0.0a3-0.0.0a4/README.md --exclude *.pyd
+[2024-05-21 02:33:08] INFO root fetch - processPackages [ovos-skill-fallback-hivemind]: executing diffoscope
+[2024-05-21 02:33:08] INFO root fetch - processPackages [ovos-skill-fallback-hivemind]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_skill_fallback_hivemind-0.0.0a3-py3-none-any.whl.zip tmp/ovos_skill_fallback_hivemind-0.0.0a4-py3-none-any.whl.zip --markdown 20240521/o/ovos-skill-fallback-hivemind/0.0.0a3-0.0.0a4/README.md --exclude *.pyd
+[2024-05-21 02:33:08] INFO root fetch - processPackages [aeppl-nightly]: executing diffoscope
+[2024-05-21 02:33:08] INFO root fetch - processPackages [aeppl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeppl_nightly-0.1.5.dev20240519.tar.gz tmp/aeppl_nightly-0.1.5.dev20240520.tar.gz --markdown 20240521/a/aeppl-nightly/0.1.5.dev20240519-0.1.5.dev20240520/README.md --exclude *.pyd
+[2024-05-21 02:33:08] INFO root fetch - processPackages [blueness]: Remove: archive file [/home/abi/fetcher/tmp/blueness-3.7.1.tar.gz]
+[2024-05-21 02:33:08] INFO root fetch - processPackages [blueness]: Remove: archive file [/home/abi/fetcher/tmp/blueness-3.9.1.tar.gz]
+[2024-05-21 02:33:08] INFO root fetch - main [MainThread]: End processing [blueness]: success
+[2024-05-21 02:33:08] INFO root fetch - processPackages [plexhints]: Remove: archive file [/home/abi/fetcher/tmp/plexhints-2024.516.24056.tar.gz]
+[2024-05-21 02:33:08] INFO root fetch - processPackages [plexhints]: Remove: archive file [/home/abi/fetcher/tmp/plexhints-2024.520.225051.tar.gz]
+[2024-05-21 02:33:08] INFO root fetch - main [MainThread]: End processing [plexhints]: success
+[2024-05-21 02:33:08] INFO root fetch - processPackages [ovos-skill-fallback-hivemind]: Remove: archive file [/home/abi/fetcher/tmp/ovos_skill_fallback_hivemind-0.0.0a3-py3-none-any.whl.zip]
+[2024-05-21 02:33:08] INFO root fetch - processPackages [ovos-skill-fallback-hivemind]: Remove: archive file [/home/abi/fetcher/tmp/ovos_skill_fallback_hivemind-0.0.0a4-py3-none-any.whl.zip]
+[2024-05-21 02:33:08] INFO root fetch - main [MainThread]: End processing [ovos-skill-fallback-hivemind]: success
+[2024-05-21 02:33:08] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl_nightly-0.1.5.dev20240519.tar.gz]
+[2024-05-21 02:33:08] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl_nightly-0.1.5.dev20240520.tar.gz]
+[2024-05-21 02:33:08] INFO root fetch - main [MainThread]: End processing [aeppl-nightly]: success
+[2024-05-21 02:33:08] INFO root fetch - main [MainThread]: End processing [ovos-skill-fallback-hivemind]: success
+[2024-05-21 02:33:08] INFO root fetch - main [MainThread]: Store serial: [23298045]
