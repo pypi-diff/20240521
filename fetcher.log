@@ -7547,3 +7547,38 @@
 [2024-05-21 03:34:42] INFO root fetch - processPackages [lsst-sphgeom]: Remove: archive file [/home/abi/fetcher/tmp/lsst_sphgeom-27.2024.2000-cp39-cp39-macosx_11_0_arm64.whl.zip]
 [2024-05-21 03:34:42] INFO root fetch - main [MainThread]: End processing [lsst-sphgeom]: success
 [2024-05-21 03:34:42] INFO root fetch - main [MainThread]: Store serial: [23299477]
+[2024-05-21 03:36:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23299477]
+[2024-05-21 03:36:51] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-21 03:38:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23299532]
+[2024-05-21 03:38:56] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-21 03:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mausoleum
+[2024-05-21 03:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: okipy
+[2024-05-21 03:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: guan
+[2024-05-21 03:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyAgrum-nightly
+[2024-05-21 03:38:56] WARNING root fetch - processPackages [okipy]: Skipping, unable to determine old version
+[2024-05-21 03:38:56] INFO root fetch - main [MainThread]: End processing [okipy] error
+[2024-05-21 03:38:56] INFO root fetch - processPackages [mausoleum]: New version: [0.9.0] Old Version: [0.8.7]
+[2024-05-21 03:38:56] INFO root fetch - processPackages [guan]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-21 03:38:56] INFO root fetch - processPackages [mausoleum]: Downloading https://files.pythonhosted.org/packages/cc/ba/024b7cb210b8594dd3f4fe87f7303fcc59aa74832aabcd1166947778b899/mausoleum-0.8.7.tar.gz
+[2024-05-21 03:38:56] INFO root fetch - processPackages [guan]: Downloading https://files.pythonhosted.org/packages/83/e1/6b686ecb9b6d4816a6835f0fe2c00899526ca31fe7fe9fb3a31f123331f3/guan-0.1.98.tar.gz
+[2024-05-21 03:38:57] INFO root fetch - processPackages [mausoleum]: Downloading https://files.pythonhosted.org/packages/65/dc/93544613827b1584d6e470d98a7e97571375be0f87b9ceb8e137a7b30760/mausoleum-0.9.0.tar.gz
+[2024-05-21 03:38:57] INFO root fetch - processPackages [guan]: Downloading https://files.pythonhosted.org/packages/23/9b/7e086c2a15515ecf196da0393766200ec49ac8a52033424da629a3b9055e/guan-0.1.99.tar.gz
+[2024-05-21 03:38:57] INFO root fetch - processPackages [guan]: executing diffoscope
+[2024-05-21 03:38:57] INFO root fetch - processPackages [guan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/guan-0.1.98.tar.gz tmp/guan-0.1.99.tar.gz --markdown 20240521/g/guan/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-21 03:38:57] INFO root fetch - processPackages [mausoleum]: executing diffoscope
+[2024-05-21 03:38:57] INFO root fetch - processPackages [mausoleum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mausoleum-0.8.7.tar.gz tmp/mausoleum-0.9.0.tar.gz --markdown 20240521/m/mausoleum/0.8.7-0.9.0/README.md --exclude *.pyd
+[2024-05-21 03:38:57] INFO root fetch - processPackages [mausoleum]: Remove: archive file [/home/abi/fetcher/tmp/mausoleum-0.8.7.tar.gz]
+[2024-05-21 03:38:57] INFO root fetch - processPackages [mausoleum]: Remove: archive file [/home/abi/fetcher/tmp/mausoleum-0.9.0.tar.gz]
+[2024-05-21 03:38:57] INFO root fetch - main [MainThread]: End processing [mausoleum]: success
+[2024-05-21 03:38:57] INFO root fetch - processPackages [guan]: Remove: archive file [/home/abi/fetcher/tmp/guan-0.1.98.tar.gz]
+[2024-05-21 03:38:57] INFO root fetch - processPackages [guan]: Remove: archive file [/home/abi/fetcher/tmp/guan-0.1.99.tar.gz]
+[2024-05-21 03:38:57] INFO root fetch - main [MainThread]: End processing [guan]: success
+[2024-05-21 03:38:58] INFO root fetch - processPackages [pyAgrum-nightly]: New version: [1.9.0.9.dev202310191697564854] Old Version: [1.9.0.9.dev202310181697564854]
+[2024-05-21 03:38:59] INFO root fetch - processPackages [pyAgrum-nightly]: Downloading https://files.pythonhosted.org/packages/64/23/4308469c4be3abcfc53ec2ccbd7dcca1618077035522cae4b364a9c6cc56/pyAgrum_nightly-1.9.0.9.dev202310181697564854-cp39-cp39-win_amd64.whl
+[2024-05-21 03:39:00] INFO root fetch - processPackages [pyAgrum-nightly]: Downloading https://files.pythonhosted.org/packages/84/cc/6d2d3b13a2080cfbfa9792321774075d119b4fa37902c5a9d93d8eccf13d/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl
+[2024-05-21 03:39:01] INFO root fetch - processPackages [pyAgrum-nightly]: executing diffoscope
+[2024-05-21 03:39:01] INFO root fetch - processPackages [pyAgrum-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyAgrum_nightly-1.9.0.9.dev202310181697564854-cp39-cp39-win_amd64.whl.zip tmp/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl.zip --markdown 20240521/p/pyAgrum-nightly/1.9.0.9.dev202310181697564854-1.9.0.9.dev202310191697564854/README.md --exclude *.pyd
+[2024-05-21 03:39:01] INFO root fetch - processPackages [pyAgrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202310181697564854-cp39-cp39-win_amd64.whl.zip]
+[2024-05-21 03:39:01] INFO root fetch - processPackages [pyAgrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl.zip]
+[2024-05-21 03:39:01] INFO root fetch - main [MainThread]: End processing [pyAgrum-nightly]: success
+[2024-05-21 03:39:01] INFO root fetch - main [MainThread]: Store serial: [23299548]
