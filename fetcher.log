@@ -15740,3 +15740,45 @@
 [2024-05-21 09:55:51] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2024-05-21 09:55:51] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2024-05-21 09:55:51] INFO root fetch - main [MainThread]: Store serial: [23302797]
+[2024-05-21 09:57:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23302797]
+[2024-05-21 09:58:00] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-21 09:58:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: secured
+[2024-05-21 09:58:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: needto
+[2024-05-21 09:58:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CVE-2021-40438
+[2024-05-21 09:58:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-nightly
+[2024-05-21 09:58:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-dms-field
+[2024-05-21 09:58:00] INFO root fetch - processPackages [needto]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-21 09:58:00] INFO root fetch - processPackages [needto]: Downloading https://files.pythonhosted.org/packages/ac/49/f12f0b7afc69762d371611027a507adcdaca38b38533ba3db619ec2f1360/needto-0.1.6.tar.gz
+[2024-05-21 09:58:01] WARNING root fetch - processPackages [CVE-2021-40438]: Skipping, unable to determine old version
+[2024-05-21 09:58:01] INFO root fetch - main [MainThread]: End processing [CVE-2021-40438] error
+[2024-05-21 09:58:01] INFO root fetch - processPackages [odoo-addon-dms-field]: New version: [15.0.1.3.1] Old Version: [15.0.1.3.0.1]
+[2024-05-21 09:58:01] INFO root fetch - processPackages [secured]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-21 09:58:01] INFO root fetch - processPackages [tf-nightly]: New version: [2.17.0.dev20240521] Old Version: [2.17.0.dev20240520]
+[2024-05-21 09:58:01] INFO root fetch - processPackages [odoo-addon-dms-field]: Downloading https://files.pythonhosted.org/packages/7e/95/210faa4df4ef273bd49fcafcfcada038d0ca9214bfc259d6e629e009ca13/odoo_addon_dms_field-15.0.1.3.0.1-py3-none-any.whl
+[2024-05-21 09:58:01] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/31/2f/259cfcb1c5643764b04ee67a0d2b47c29bbb2de8ccf6da1a396ac8a06544/tf_nightly-2.17.0.dev20240520-cp39-cp39-win_amd64.whl
+[2024-05-21 09:58:01] INFO root fetch - processPackages [secured]: Downloading https://files.pythonhosted.org/packages/58/03/ce013186de14e9d77d205c63f93d3f8e694dd09e2f07e8976080ff690f2a/secured-0.1.2.tar.gz
+[2024-05-21 09:58:01] INFO root fetch - processPackages [needto]: Downloading https://files.pythonhosted.org/packages/18/75/9674ec7f112e1df0b143c9cc4db990b568ab12b460519ced9d7df927f2a7/needto-0.1.7.tar.gz
+[2024-05-21 09:58:01] INFO root fetch - processPackages [needto]: executing diffoscope
+[2024-05-21 09:58:01] INFO root fetch - processPackages [needto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/needto-0.1.6.tar.gz tmp/needto-0.1.7.tar.gz --markdown 20240521/n/needto/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-21 09:58:01] INFO root fetch - processPackages [secured]: Downloading https://files.pythonhosted.org/packages/b4/85/6d1b977aa0559a24cad4d5b521d61729888c3b04159197ccef9c32a26ed9/secured-0.1.3.tar.gz
+[2024-05-21 09:58:01] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/35/a3/59ec1b8b0e7d89bdd70d743b0bb15ba28ef88ebc2dc7b157567c220579fc/tf_nightly-2.17.0.dev20240521-cp39-cp39-win_amd64.whl
+[2024-05-21 09:58:01] INFO root fetch - processPackages [odoo-addon-dms-field]: Downloading https://files.pythonhosted.org/packages/b1/c4/82afc2161acdb4058e7a01431f2f777325f8b45e43bdd974f84171d751ea/odoo_addon_dms_field-15.0.1.3.1-py3-none-any.whl
+[2024-05-21 09:58:01] INFO root fetch - processPackages [secured]: executing diffoscope
+[2024-05-21 09:58:01] INFO root fetch - processPackages [secured]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secured-0.1.2.tar.gz tmp/secured-0.1.3.tar.gz --markdown 20240521/s/secured/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-21 09:58:01] INFO root fetch - processPackages [tf-nightly]: executing diffoscope
+[2024-05-21 09:58:01] INFO root fetch - processPackages [tf-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly-2.17.0.dev20240520-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly-2.17.0.dev20240521-cp39-cp39-win_amd64.whl.zip --markdown 20240521/t/tf-nightly/2.17.0.dev20240520-2.17.0.dev20240521/README.md --exclude *.pyd
+[2024-05-21 09:58:01] INFO root fetch - processPackages [odoo-addon-dms-field]: executing diffoscope
+[2024-05-21 09:58:01] INFO root fetch - processPackages [odoo-addon-dms-field]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_dms_field-15.0.1.3.0.1-py3-none-any.whl.zip tmp/odoo_addon_dms_field-15.0.1.3.1-py3-none-any.whl.zip --markdown 20240521/o/odoo-addon-dms-field/15.0.1.3.0.1-15.0.1.3.1/README.md --exclude *.pyd
+[2024-05-21 09:58:02] INFO root fetch - processPackages [needto]: Remove: archive file [/home/abi/fetcher/tmp/needto-0.1.6.tar.gz]
+[2024-05-21 09:58:02] INFO root fetch - processPackages [needto]: Remove: archive file [/home/abi/fetcher/tmp/needto-0.1.7.tar.gz]
+[2024-05-21 09:58:02] INFO root fetch - main [MainThread]: End processing [needto]: success
+[2024-05-21 09:58:02] INFO root fetch - processPackages [secured]: Remove: archive file [/home/abi/fetcher/tmp/secured-0.1.2.tar.gz]
+[2024-05-21 09:58:02] INFO root fetch - processPackages [secured]: Remove: archive file [/home/abi/fetcher/tmp/secured-0.1.3.tar.gz]
+[2024-05-21 09:58:02] INFO root fetch - main [MainThread]: End processing [secured]: success
+[2024-05-21 09:58:02] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.17.0.dev20240520-cp39-cp39-win_amd64.whl.zip]
+[2024-05-21 09:58:02] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.17.0.dev20240521-cp39-cp39-win_amd64.whl.zip]
+[2024-05-21 09:58:02] INFO root fetch - main [MainThread]: End processing [tf-nightly]: success
+[2024-05-21 09:58:02] INFO root fetch - processPackages [odoo-addon-dms-field]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_dms_field-15.0.1.3.0.1-py3-none-any.whl.zip]
+[2024-05-21 09:58:02] INFO root fetch - processPackages [odoo-addon-dms-field]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_dms_field-15.0.1.3.1-py3-none-any.whl.zip]
+[2024-05-21 09:58:02] INFO root fetch - main [MainThread]: End processing [odoo-addon-dms-field]: success
+[2024-05-21 09:58:02] INFO root fetch - main [MainThread]: Store serial: [23302840]
