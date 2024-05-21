@@ -9466,3 +9466,24 @@
 [2024-05-21 05:32:23] INFO root fetch - processPackages [keras-nlp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-nightly-0.9.0.dev2024041003.tar.gz]
 [2024-05-21 05:32:23] INFO root fetch - main [MainThread]: End processing [keras-nlp-nightly]: success
 [2024-05-21 05:32:23] INFO root fetch - main [MainThread]: Store serial: [23300512]
+[2024-05-21 05:34:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23300512]
+[2024-05-21 05:34:31] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-21 05:34:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stencila_plugin
+[2024-05-21 05:34:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: infolab-common-lib
+[2024-05-21 05:34:31] INFO root fetch - processPackages [infolab-common-lib]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-21 05:34:31] INFO root fetch - processPackages [stencila_plugin]: New version: [2.0.0a31] Old Version: [2.0.0a30]
+[2024-05-21 05:34:31] INFO root fetch - processPackages [infolab-common-lib]: Downloading https://files.pythonhosted.org/packages/a3/18/d909be8a4188a9791a9d399df077edb73ffb315cff7f80b1da2381cb7e9f/infolab_common_lib-1.0.3.tar.gz
+[2024-05-21 05:34:31] INFO root fetch - processPackages [stencila_plugin]: Downloading https://files.pythonhosted.org/packages/25/68/708c3c11f650d0d441fd35230c37b55a3a474ab28e3e056643b6c029bdf3/stencila_plugin-2.0.0a30.tar.gz
+[2024-05-21 05:34:32] INFO root fetch - processPackages [stencila_plugin]: Downloading https://files.pythonhosted.org/packages/bf/06/ecc84ab87258d0b4649902f82a2a99ee7c9084c73dc6f3c15ae936696d6a/stencila_plugin-2.0.0a31.tar.gz
+[2024-05-21 05:34:32] INFO root fetch - processPackages [infolab-common-lib]: Downloading https://files.pythonhosted.org/packages/03/39/376f312ba2718cecea60bef82306fe07e4fefa842936940aafb5c01d56f7/infolab_common_lib-1.0.4.tar.gz
+[2024-05-21 05:34:32] INFO root fetch - processPackages [stencila_plugin]: executing diffoscope
+[2024-05-21 05:34:32] INFO root fetch - processPackages [stencila_plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stencila_plugin-2.0.0a30.tar.gz tmp/stencila_plugin-2.0.0a31.tar.gz --markdown 20240521/s/stencila_plugin/2.0.0a30-2.0.0a31/README.md --exclude *.pyd
+[2024-05-21 05:34:32] INFO root fetch - processPackages [infolab-common-lib]: executing diffoscope
+[2024-05-21 05:34:32] INFO root fetch - processPackages [infolab-common-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/infolab_common_lib-1.0.3.tar.gz tmp/infolab_common_lib-1.0.4.tar.gz --markdown 20240521/i/infolab-common-lib/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-21 05:34:32] INFO root fetch - processPackages [stencila_plugin]: Remove: archive file [/home/abi/fetcher/tmp/stencila_plugin-2.0.0a30.tar.gz]
+[2024-05-21 05:34:32] INFO root fetch - processPackages [stencila_plugin]: Remove: archive file [/home/abi/fetcher/tmp/stencila_plugin-2.0.0a31.tar.gz]
+[2024-05-21 05:34:32] INFO root fetch - main [MainThread]: End processing [stencila_plugin]: success
+[2024-05-21 05:34:32] INFO root fetch - processPackages [infolab-common-lib]: Remove: archive file [/home/abi/fetcher/tmp/infolab_common_lib-1.0.3.tar.gz]
+[2024-05-21 05:34:32] INFO root fetch - processPackages [infolab-common-lib]: Remove: archive file [/home/abi/fetcher/tmp/infolab_common_lib-1.0.4.tar.gz]
+[2024-05-21 05:34:32] INFO root fetch - main [MainThread]: End processing [infolab-common-lib]: success
+[2024-05-21 05:34:32] INFO root fetch - main [MainThread]: Store serial: [23300519]
