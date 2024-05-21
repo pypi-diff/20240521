@@ -17946,3 +17946,61 @@
 [2024-05-21 11:11:35] INFO root fetch - processPackages [modelbest-sdk]: Remove: archive file [/home/abi/fetcher/tmp/modelbest_sdk-0.1.5.tar.gz]
 [2024-05-21 11:11:35] INFO root fetch - main [MainThread]: End processing [modelbest-sdk]: success
 [2024-05-21 11:11:35] INFO root fetch - main [MainThread]: Store serial: [23303651]
+[2024-05-21 11:13:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23303651]
+[2024-05-21 11:13:49] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-21 11:13:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sdk_entrepot_gpf
+[2024-05-21 11:13:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyuptech
+[2024-05-21 11:13:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mg-pso-gui
+[2024-05-21 11:13:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mlrun-pipelines-kfp-v2-experiment
+[2024-05-21 11:13:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mlrun-pipelines-kfp-common-experiment
+[2024-05-21 11:13:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mg-pso-gui
+[2024-05-21 11:13:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: shopify-custom-api
+[2024-05-21 11:13:49] INFO root fetch - processPackages [pyuptech]: New version: [0.1.5.2] Old Version: [0.1.5.1]
+[2024-05-21 11:13:49] INFO root fetch - processPackages [mg-pso-gui]: New version: [0.1.91] Old Version: [0.1.90]
+[2024-05-21 11:13:49] INFO root fetch - processPackages [mg-pso-gui]: New version: [0.1.91] Old Version: [0.1.90]
+[2024-05-21 11:13:49] INFO root fetch - processPackages [sdk_entrepot_gpf]: New version: [0.1.27] Old Version: [0.1.26]
+[2024-05-21 11:13:49] INFO root fetch - processPackages [mlrun-pipelines-kfp-common-experiment]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-21 11:13:49] WARNING root fetch - processPackages [shopify-custom-api]: Skipping, unable to determine old version
+[2024-05-21 11:13:49] INFO root fetch - main [MainThread]: End processing [shopify-custom-api] error
+[2024-05-21 11:13:49] INFO root fetch - processPackages [mlrun-pipelines-kfp-v2-experiment]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-21 11:13:49] INFO root fetch - processPackages [pyuptech]: Downloading https://files.pythonhosted.org/packages/84/e5/04d8449fa03c6612d401a9b62eddd1b929fb91fd392664fb06f6a67ab873/pyuptech-0.1.5.1.tar.gz
+[2024-05-21 11:13:49] INFO root fetch - processPackages [mg-pso-gui]: Downloading https://files.pythonhosted.org/packages/ac/f7/2d7689f5d24fb66105f98d357e3409bcdc6c630da09f10b97143596cd815/mg-pso-gui-0.1.90.tar.gz
+[2024-05-21 11:13:50] INFO root fetch - processPackages [mg-pso-gui]: Downloading https://files.pythonhosted.org/packages/ac/f7/2d7689f5d24fb66105f98d357e3409bcdc6c630da09f10b97143596cd815/mg-pso-gui-0.1.90.tar.gz
+[2024-05-21 11:13:50] INFO root fetch - processPackages [sdk_entrepot_gpf]: Downloading https://files.pythonhosted.org/packages/bb/1f/c265a32df8057239871129b551e8a6be71d9f8c44e4828d7c657eb692d31/sdk_entrepot_gpf-0.1.26.tar.gz
+[2024-05-21 11:13:50] INFO root fetch - processPackages [mlrun-pipelines-kfp-common-experiment]: Downloading https://files.pythonhosted.org/packages/d3/8e/9e4a65975d5cce94e57b4aa1ded76eef950d933fb6890d0124c330499014/mlrun-pipelines-kfp-common-experiment-0.2.0.tar.gz
+[2024-05-21 11:13:50] INFO root fetch - processPackages [mlrun-pipelines-kfp-v2-experiment]: Downloading https://files.pythonhosted.org/packages/f8/7d/79ad6f4bc2dfd73bbfb1b24ea1118fff5555f2830a95d59d4e03791f7420/mlrun-pipelines-kfp-v2-experiment-0.2.0.tar.gz
+[2024-05-21 11:13:50] INFO root fetch - processPackages [pyuptech]: Downloading https://files.pythonhosted.org/packages/ce/99/a02978a9738d3b70412d28dd8674e448d7fd270ff4067984961d3a4b1810/pyuptech-0.1.5.2.tar.gz
+[2024-05-21 11:13:50] INFO root fetch - processPackages [mg-pso-gui]: Downloading https://files.pythonhosted.org/packages/57/34/00919710b1d8ba5f06d656a2f9677d4810099b3543f831a72c0ce38445ae/mg-pso-gui-0.1.91.tar.gz
+[2024-05-21 11:13:50] INFO root fetch - processPackages [mg-pso-gui]: Downloading https://files.pythonhosted.org/packages/57/34/00919710b1d8ba5f06d656a2f9677d4810099b3543f831a72c0ce38445ae/mg-pso-gui-0.1.91.tar.gz
+[2024-05-21 11:13:50] INFO root fetch - processPackages [pyuptech]: executing diffoscope
+[2024-05-21 11:13:50] INFO root fetch - processPackages [pyuptech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyuptech-0.1.5.1.tar.gz tmp/pyuptech-0.1.5.2.tar.gz --markdown 20240521/p/pyuptech/0.1.5.1-0.1.5.2/README.md --exclude *.pyd
+[2024-05-21 11:13:50] INFO root fetch - processPackages [mlrun-pipelines-kfp-common-experiment]: Downloading https://files.pythonhosted.org/packages/bc/bb/04c92db2ea8b5430c2621e44716797127059cc6492dbd3fc862c455acf81/mlrun_pipelines_kfp_common_experiment-0.2.1.tar.gz
+[2024-05-21 11:13:50] INFO root fetch - processPackages [mlrun-pipelines-kfp-v2-experiment]: Downloading https://files.pythonhosted.org/packages/88/0b/149aa881ff3526915fed9d5622b10cde4e3643d9b50a0b569bc64c05f63f/mlrun_pipelines_kfp_v2_experiment-0.2.1.tar.gz
+[2024-05-21 11:13:50] INFO root fetch - processPackages [mg-pso-gui]: executing diffoscope
+[2024-05-21 11:13:50] INFO root fetch - processPackages [mg-pso-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mg-pso-gui-0.1.90.tar.gz tmp/mg-pso-gui-0.1.91.tar.gz --markdown 20240521/m/mg-pso-gui/0.1.90-0.1.91/README.md --exclude *.pyd
+[2024-05-21 11:13:50] INFO root fetch - processPackages [mg-pso-gui]: executing diffoscope
+[2024-05-21 11:13:50] INFO root fetch - processPackages [mg-pso-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mg-pso-gui-0.1.90.tar.gz tmp/mg-pso-gui-0.1.91.tar.gz --markdown 20240521/m/mg-pso-gui/0.1.90-0.1.91/README.md --exclude *.pyd
+[2024-05-21 11:13:50] INFO root fetch - processPackages [mlrun-pipelines-kfp-common-experiment]: executing diffoscope
+[2024-05-21 11:13:50] INFO root fetch - processPackages [mlrun-pipelines-kfp-common-experiment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlrun-pipelines-kfp-common-experiment-0.2.0.tar.gz tmp/mlrun_pipelines_kfp_common_experiment-0.2.1.tar.gz --markdown 20240521/m/mlrun-pipelines-kfp-common-experiment/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-21 11:13:50] INFO root fetch - processPackages [mlrun-pipelines-kfp-v2-experiment]: executing diffoscope
+[2024-05-21 11:13:50] INFO root fetch - processPackages [mlrun-pipelines-kfp-v2-experiment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlrun-pipelines-kfp-v2-experiment-0.2.0.tar.gz tmp/mlrun_pipelines_kfp_v2_experiment-0.2.1.tar.gz --markdown 20240521/m/mlrun-pipelines-kfp-v2-experiment/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-21 11:13:50] INFO root fetch - processPackages [sdk_entrepot_gpf]: Downloading https://files.pythonhosted.org/packages/f5/e1/24993d72c7c2fd68a31cff95ac5f9b017e511e11b6700626a6d5d3e624fd/sdk_entrepot_gpf-0.1.27.tar.gz
+[2024-05-21 11:13:51] INFO root fetch - processPackages [sdk_entrepot_gpf]: executing diffoscope
+[2024-05-21 11:13:51] INFO root fetch - processPackages [sdk_entrepot_gpf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdk_entrepot_gpf-0.1.26.tar.gz tmp/sdk_entrepot_gpf-0.1.27.tar.gz --markdown 20240521/s/sdk_entrepot_gpf/0.1.26-0.1.27/README.md --exclude *.pyd
+[2024-05-21 11:13:51] INFO root fetch - processPackages [mlrun-pipelines-kfp-common-experiment]: Remove: archive file [/home/abi/fetcher/tmp/mlrun-pipelines-kfp-common-experiment-0.2.0.tar.gz]
+[2024-05-21 11:13:51] INFO root fetch - processPackages [mlrun-pipelines-kfp-common-experiment]: Remove: archive file [/home/abi/fetcher/tmp/mlrun_pipelines_kfp_common_experiment-0.2.1.tar.gz]
+[2024-05-21 11:13:51] INFO root fetch - main [MainThread]: End processing [mlrun-pipelines-kfp-common-experiment]: success
+[2024-05-21 11:13:51] INFO root fetch - processPackages [mlrun-pipelines-kfp-v2-experiment]: Remove: archive file [/home/abi/fetcher/tmp/mlrun-pipelines-kfp-v2-experiment-0.2.0.tar.gz]
+[2024-05-21 11:13:51] INFO root fetch - processPackages [mlrun-pipelines-kfp-v2-experiment]: Remove: archive file [/home/abi/fetcher/tmp/mlrun_pipelines_kfp_v2_experiment-0.2.1.tar.gz]
+[2024-05-21 11:13:51] INFO root fetch - main [MainThread]: End processing [mlrun-pipelines-kfp-v2-experiment]: success
+[2024-05-21 11:13:51] INFO root fetch - processPackages [mg-pso-gui]: Remove: archive file [/home/abi/fetcher/tmp/mg-pso-gui-0.1.90.tar.gz]
+[2024-05-21 11:13:51] INFO root fetch - processPackages [mg-pso-gui]: Remove: archive file [/home/abi/fetcher/tmp/mg-pso-gui-0.1.91.tar.gz]
+[2024-05-21 11:13:51] INFO root fetch - main [MainThread]: End processing [mg-pso-gui]: success
+[2024-05-21 11:13:51] INFO root fetch - main [MainThread]: End processing [mg-pso-gui]: success
+[2024-05-21 11:13:51] INFO root fetch - processPackages [pyuptech]: Remove: archive file [/home/abi/fetcher/tmp/pyuptech-0.1.5.1.tar.gz]
+[2024-05-21 11:13:51] INFO root fetch - processPackages [pyuptech]: Remove: archive file [/home/abi/fetcher/tmp/pyuptech-0.1.5.2.tar.gz]
+[2024-05-21 11:13:51] INFO root fetch - main [MainThread]: End processing [pyuptech]: success
+[2024-05-21 11:13:52] INFO root fetch - processPackages [sdk_entrepot_gpf]: Remove: archive file [/home/abi/fetcher/tmp/sdk_entrepot_gpf-0.1.26.tar.gz]
+[2024-05-21 11:13:52] INFO root fetch - processPackages [sdk_entrepot_gpf]: Remove: archive file [/home/abi/fetcher/tmp/sdk_entrepot_gpf-0.1.27.tar.gz]
+[2024-05-21 11:13:52] INFO root fetch - main [MainThread]: End processing [sdk_entrepot_gpf]: success
+[2024-05-21 11:13:52] INFO root fetch - main [MainThread]: Store serial: [23303676]
