@@ -12991,3 +12991,33 @@
 [2024-05-21 08:10:58] INFO root fetch - processPackages [pulumi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi-3.99.0-py3-none-any.whl.zip]
 [2024-05-21 08:10:58] INFO root fetch - main [MainThread]: End processing [pulumi]: success
 [2024-05-21 08:10:58] INFO root fetch - main [MainThread]: Store serial: [23301832]
+[2024-05-21 08:13:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23301832]
+[2024-05-21 08:13:07] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-21 08:13:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pms-encoder
+[2024-05-21 08:13:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: paddleocr-onnx
+[2024-05-21 08:13:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyg-nightly
+[2024-05-21 08:13:07] INFO root fetch - processPackages [pms-encoder]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-21 08:13:07] INFO root fetch - processPackages [paddleocr-onnx]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-21 08:13:07] INFO root fetch - processPackages [pyg-nightly]: New version: [2.6.0.dev20240520] Old Version: [2.6.0.dev20240519]
+[2024-05-21 08:13:07] INFO root fetch - processPackages [paddleocr-onnx]: Downloading https://files.pythonhosted.org/packages/8f/c8/a8782319be207059e76cce6f42d92cbdd353aecf5c11fde46085593d415f/paddleocr_onnx-0.2.0.tar.gz
+[2024-05-21 08:13:07] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/80/f1/88f2f54188c15bf6cca5ba7a3a347b8d1c83b15a626f541acf3dde5aa63d/pms_encoder-0.0.8.tar.gz
+[2024-05-21 08:13:07] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/39/68/a2066d0587c462d343cc1d9aed786723ab0ef18c4b770f126052f3341078/pyg_nightly-2.6.0.dev20240519.tar.gz
+[2024-05-21 08:13:07] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/93/31/8bb081756db42925fab6507b6e0f497d6bf45acd407ff38cb00f2aaec54c/pms_encoder-0.0.9.tar.gz
+[2024-05-21 08:13:07] INFO root fetch - processPackages [pms-encoder]: executing diffoscope
+[2024-05-21 08:13:07] INFO root fetch - processPackages [pms-encoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pms_encoder-0.0.8.tar.gz tmp/pms_encoder-0.0.9.tar.gz --markdown 20240521/p/pms-encoder/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-21 08:13:08] INFO root fetch - processPackages [paddleocr-onnx]: Downloading https://files.pythonhosted.org/packages/70/d5/14dc73d1c9a3c47b98c2bdb487b07eed1f63897b326277ae81a3e1d3e337/paddleocr_onnx-0.2.1.tar.gz
+[2024-05-21 08:13:08] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/55/2b/d6054573ad93dba24e5a897518ee22c66a94cbf083a37822b8b714e57131/pyg_nightly-2.6.0.dev20240520.tar.gz
+[2024-05-21 08:13:08] INFO root fetch - processPackages [paddleocr-onnx]: executing diffoscope
+[2024-05-21 08:13:08] INFO root fetch - processPackages [paddleocr-onnx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paddleocr_onnx-0.2.0.tar.gz tmp/paddleocr_onnx-0.2.1.tar.gz --markdown 20240521/p/paddleocr-onnx/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-21 08:13:08] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2024-05-21 08:13:08] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.6.0.dev20240519.tar.gz tmp/pyg_nightly-2.6.0.dev20240520.tar.gz --markdown 20240521/p/pyg-nightly/2.6.0.dev20240519-2.6.0.dev20240520/README.md --exclude *.pyd
+[2024-05-21 08:13:08] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.8.tar.gz]
+[2024-05-21 08:13:08] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.9.tar.gz]
+[2024-05-21 08:13:08] INFO root fetch - main [MainThread]: End processing [pms-encoder]: success
+[2024-05-21 08:13:08] INFO root fetch - processPackages [paddleocr-onnx]: Remove: archive file [/home/abi/fetcher/tmp/paddleocr_onnx-0.2.0.tar.gz]
+[2024-05-21 08:13:08] INFO root fetch - processPackages [paddleocr-onnx]: Remove: archive file [/home/abi/fetcher/tmp/paddleocr_onnx-0.2.1.tar.gz]
+[2024-05-21 08:13:08] INFO root fetch - main [MainThread]: End processing [paddleocr-onnx]: success
+[2024-05-21 08:13:10] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.6.0.dev20240519.tar.gz]
+[2024-05-21 08:13:10] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.6.0.dev20240520.tar.gz]
+[2024-05-21 08:13:10] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2024-05-21 08:13:10] INFO root fetch - main [MainThread]: Store serial: [23301843]
