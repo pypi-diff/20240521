@@ -11642,3 +11642,33 @@
 [2024-05-21 07:09:15] INFO root fetch - processPackages [TAD-Library]: Remove: archive file [/home/abi/fetcher/tmp/TAD_Library-0.0.9.tar.gz]
 [2024-05-21 07:09:15] INFO root fetch - main [MainThread]: End processing [TAD-Library]: success
 [2024-05-21 07:09:15] INFO root fetch - main [MainThread]: Store serial: [23301228]
+[2024-05-21 07:11:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23301228]
+[2024-05-21 07:11:25] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-21 07:11:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MilesToMuppets
+[2024-05-21 07:11:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stencila_plugin
+[2024-05-21 07:11:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyRHEED
+[2024-05-21 07:11:26] INFO root fetch - processPackages [MilesToMuppets]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-21 07:11:26] INFO root fetch - processPackages [stencila_plugin]: New version: [2.0.0a32] Old Version: [2.0.0a31]
+[2024-05-21 07:11:26] INFO root fetch - processPackages [PyRHEED]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-05-21 07:11:26] INFO root fetch - processPackages [stencila_plugin]: Downloading https://files.pythonhosted.org/packages/bf/06/ecc84ab87258d0b4649902f82a2a99ee7c9084c73dc6f3c15ae936696d6a/stencila_plugin-2.0.0a31.tar.gz
+[2024-05-21 07:11:26] INFO root fetch - processPackages [PyRHEED]: Downloading https://files.pythonhosted.org/packages/ba/29/fa40e3e8748a55ae8617ade624bc5a05f96a235400c7e077f590f8aebb21/pyrheed-1.0.5.tar.gz
+[2024-05-21 07:11:26] INFO root fetch - processPackages [MilesToMuppets]: Downloading https://files.pythonhosted.org/packages/4f/e3/38cb41cb5bea275cd3c3b5001e268fc04b34525a7cb757e6841265197ab7/milestomuppets-0.0.1.tar.gz
+[2024-05-21 07:11:26] INFO root fetch - processPackages [stencila_plugin]: Downloading https://files.pythonhosted.org/packages/8f/d8/0af42f7e2d7bb8a2324296ab8f82c69d88d4d0516729d9c00a2209186ec7/stencila_plugin-2.0.0a32.tar.gz
+[2024-05-21 07:11:26] INFO root fetch - processPackages [PyRHEED]: Downloading https://files.pythonhosted.org/packages/77/80/f6200eb5627ebb8b345fa9719c08431d53d88ff6ff793289ff298128f2c7/pyrheed-1.0.6.tar.gz
+[2024-05-21 07:11:26] INFO root fetch - processPackages [MilesToMuppets]: Downloading https://files.pythonhosted.org/packages/74/44/2ee5c5342c56d6afe4c6f975d355354a2043068ae6af27f41833c861cb0a/milestomuppets-0.0.2.tar.gz
+[2024-05-21 07:11:26] INFO root fetch - processPackages [stencila_plugin]: executing diffoscope
+[2024-05-21 07:11:26] INFO root fetch - processPackages [stencila_plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stencila_plugin-2.0.0a31.tar.gz tmp/stencila_plugin-2.0.0a32.tar.gz --markdown 20240521/s/stencila_plugin/2.0.0a31-2.0.0a32/README.md --exclude *.pyd
+[2024-05-21 07:11:26] INFO root fetch - processPackages [PyRHEED]: executing diffoscope
+[2024-05-21 07:11:26] INFO root fetch - processPackages [PyRHEED]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrheed-1.0.5.tar.gz tmp/pyrheed-1.0.6.tar.gz --markdown 20240521/P/PyRHEED/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-05-21 07:11:26] INFO root fetch - processPackages [MilesToMuppets]: executing diffoscope
+[2024-05-21 07:11:26] INFO root fetch - processPackages [MilesToMuppets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/milestomuppets-0.0.1.tar.gz tmp/milestomuppets-0.0.2.tar.gz --markdown 20240521/M/MilesToMuppets/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-21 07:11:27] INFO root fetch - processPackages [stencila_plugin]: Remove: archive file [/home/abi/fetcher/tmp/stencila_plugin-2.0.0a31.tar.gz]
+[2024-05-21 07:11:27] INFO root fetch - processPackages [stencila_plugin]: Remove: archive file [/home/abi/fetcher/tmp/stencila_plugin-2.0.0a32.tar.gz]
+[2024-05-21 07:11:27] INFO root fetch - main [MainThread]: End processing [stencila_plugin]: success
+[2024-05-21 07:11:27] INFO root fetch - processPackages [MilesToMuppets]: Remove: archive file [/home/abi/fetcher/tmp/milestomuppets-0.0.1.tar.gz]
+[2024-05-21 07:11:27] INFO root fetch - processPackages [MilesToMuppets]: Remove: archive file [/home/abi/fetcher/tmp/milestomuppets-0.0.2.tar.gz]
+[2024-05-21 07:11:27] INFO root fetch - main [MainThread]: End processing [MilesToMuppets]: success
+[2024-05-21 07:11:27] INFO root fetch - processPackages [PyRHEED]: Remove: archive file [/home/abi/fetcher/tmp/pyrheed-1.0.5.tar.gz]
+[2024-05-21 07:11:27] INFO root fetch - processPackages [PyRHEED]: Remove: archive file [/home/abi/fetcher/tmp/pyrheed-1.0.6.tar.gz]
+[2024-05-21 07:11:27] INFO root fetch - main [MainThread]: End processing [PyRHEED]: success
+[2024-05-21 07:11:27] INFO root fetch - main [MainThread]: Store serial: [23301238]
