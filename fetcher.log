@@ -11777,3 +11777,43 @@
 [2024-05-21 07:16:01] INFO root fetch - processPackages [zetamarkets_py]: Remove: archive file [/home/abi/fetcher/tmp/zetamarkets_py-0.2.9.tar.gz]
 [2024-05-21 07:16:01] INFO root fetch - main [MainThread]: End processing [zetamarkets_py]: success
 [2024-05-21 07:16:01] INFO root fetch - main [MainThread]: Store serial: [23301264]
+[2024-05-21 07:18:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23301264]
+[2024-05-21 07:18:10] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-21 07:18:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: plantdrppred
+[2024-05-21 07:18:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wah
+[2024-05-21 07:18:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kyutils
+[2024-05-21 07:18:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: duckdb
+[2024-05-21 07:18:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PyRHEED
+[2024-05-21 07:18:10] INFO root fetch - processPackages [PyRHEED]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-05-21 07:18:10] INFO root fetch - processPackages [wah]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-21 07:18:10] INFO root fetch - processPackages [plantdrppred]: New version: [0.2] Old Version: [0.1]
+[2024-05-21 07:18:10] INFO root fetch - processPackages [duckdb]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-05-21 07:18:10] INFO root fetch - processPackages [PyRHEED]: Downloading https://files.pythonhosted.org/packages/77/80/f6200eb5627ebb8b345fa9719c08431d53d88ff6ff793289ff298128f2c7/pyrheed-1.0.6.tar.gz
+[2024-05-21 07:18:10] INFO root fetch - processPackages [kyutils]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-21 07:18:10] INFO root fetch - processPackages [wah]: Downloading https://files.pythonhosted.org/packages/1e/98/86b56f53d2270da5a315b2f0d5733e61fd0dabbbde1d17bcff2dd938939e/wah-0.1.8.tar.gz
+[2024-05-21 07:18:10] INFO root fetch - processPackages [plantdrppred]: Downloading https://files.pythonhosted.org/packages/a2/58/f5939286f6f6d12843cebdd3ed83dfa2f2172e2842197885a067e20ef0fd/plantdrppred-0.1.tar.gz
+[2024-05-21 07:18:10] INFO root fetch - processPackages [duckdb]: Downloading https://files.pythonhosted.org/packages/83/36/ea553454969fa7f356555da1ffcf31acc82172548be77278159002d34514/duckdb-0.9.1.tar.gz
+[2024-05-21 07:18:11] INFO root fetch - processPackages [wah]: Downloading https://files.pythonhosted.org/packages/6c/57/7be641139065b67640542a312a3988d0a93024cdc145ea667b7e8d432eb8/wah-0.1.9.tar.gz
+[2024-05-21 07:18:11] WARNING root fetch - processPackages [plantdrppred]: Skipping package: exceeds size limit 61181997>=10485760
+[2024-05-21 07:18:11] INFO root fetch - main [MainThread]: End processing [plantdrppred] error
+[2024-05-21 07:18:11] INFO root fetch - processPackages [kyutils]: Downloading https://files.pythonhosted.org/packages/0f/ea/d45838cd81aec74ddac9abaffe008e748749f47c13c7a245d398e04959c7/kyutils-0.1.8.tar.gz
+[2024-05-21 07:18:11] WARNING root fetch - processPackages [duckdb]: Skipping package: exceeds size limit 10640161>=10485760
+[2024-05-21 07:18:11] INFO root fetch - main [MainThread]: End processing [duckdb] error
+[2024-05-21 07:18:11] INFO root fetch - processPackages [wah]: executing diffoscope
+[2024-05-21 07:18:11] INFO root fetch - processPackages [wah]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wah-0.1.8.tar.gz tmp/wah-0.1.9.tar.gz --markdown 20240521/w/wah/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-21 07:18:11] INFO root fetch - processPackages [PyRHEED]: Downloading https://files.pythonhosted.org/packages/b1/71/3e9a22f5645a38b2eeea903e42d501fd4548d0feb210027749308ea5e90e/pyrheed-1.0.7.tar.gz
+[2024-05-21 07:18:11] INFO root fetch - processPackages [PyRHEED]: executing diffoscope
+[2024-05-21 07:18:11] INFO root fetch - processPackages [PyRHEED]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrheed-1.0.6.tar.gz tmp/pyrheed-1.0.7.tar.gz --markdown 20240521/P/PyRHEED/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-05-21 07:18:11] INFO root fetch - processPackages [kyutils]: Downloading https://files.pythonhosted.org/packages/2d/78/86c3d121c7ace4c77754448df9f9265e090ccbc4647d65e8cdef1dfa7866/kyutils-0.1.9.tar.gz
+[2024-05-21 07:18:11] INFO root fetch - processPackages [kyutils]: executing diffoscope
+[2024-05-21 07:18:11] INFO root fetch - processPackages [kyutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kyutils-0.1.8.tar.gz tmp/kyutils-0.1.9.tar.gz --markdown 20240521/k/kyutils/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-21 07:18:11] INFO root fetch - processPackages [wah]: Remove: archive file [/home/abi/fetcher/tmp/wah-0.1.8.tar.gz]
+[2024-05-21 07:18:11] INFO root fetch - processPackages [wah]: Remove: archive file [/home/abi/fetcher/tmp/wah-0.1.9.tar.gz]
+[2024-05-21 07:18:11] INFO root fetch - main [MainThread]: End processing [wah]: success
+[2024-05-21 07:18:11] INFO root fetch - processPackages [PyRHEED]: Remove: archive file [/home/abi/fetcher/tmp/pyrheed-1.0.6.tar.gz]
+[2024-05-21 07:18:11] INFO root fetch - processPackages [PyRHEED]: Remove: archive file [/home/abi/fetcher/tmp/pyrheed-1.0.7.tar.gz]
+[2024-05-21 07:18:11] INFO root fetch - main [MainThread]: End processing [PyRHEED]: success
+[2024-05-21 07:18:12] INFO root fetch - processPackages [kyutils]: Remove: archive file [/home/abi/fetcher/tmp/kyutils-0.1.8.tar.gz]
+[2024-05-21 07:18:12] INFO root fetch - processPackages [kyutils]: Remove: archive file [/home/abi/fetcher/tmp/kyutils-0.1.9.tar.gz]
+[2024-05-21 07:18:12] INFO root fetch - main [MainThread]: End processing [kyutils]: success
+[2024-05-21 07:18:12] INFO root fetch - main [MainThread]: Store serial: [23301281]
