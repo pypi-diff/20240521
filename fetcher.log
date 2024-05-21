@@ -10762,3 +10762,63 @@
 [2024-05-21 06:19:09] INFO root fetch - processPackages [odoo14-addon-fleet-vehicle-stock]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_fleet_vehicle_stock-14.0.1.0.1.dev9-py3-none-any.whl.zip]
 [2024-05-21 06:19:09] INFO root fetch - main [MainThread]: End processing [odoo14-addon-fleet-vehicle-stock]: success
 [2024-05-21 06:19:09] INFO root fetch - main [MainThread]: Store serial: [23300932]
+[2024-05-21 06:21:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23300932]
+[2024-05-21 06:21:17] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-21 06:21:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ab-test-advanced-toolkit
+[2024-05-21 06:21:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wah
+[2024-05-21 06:21:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: finter
+[2024-05-21 06:21:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jzai
+[2024-05-21 06:21:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ethyca-fides
+[2024-05-21 06:21:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: imagededup-cli
+[2024-05-21 06:21:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flatpack
+[2024-05-21 06:21:18] INFO root fetch - processPackages [jzai]: New version: [59.83.56] Old Version: [59.83.55]
+[2024-05-21 06:21:18] INFO root fetch - processPackages [ethyca-fides]: New version: [2.9.2] Old Version: [2.9.1]
+[2024-05-21 06:21:18] INFO root fetch - processPackages [finter]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-21 06:21:18] INFO root fetch - processPackages [imagededup-cli]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-21 06:21:18] INFO root fetch - processPackages [wah]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-21 06:21:18] INFO root fetch - processPackages [flatpack]: New version: [3.4.99] Old Version: [3.4.98]
+[2024-05-21 06:21:18] WARNING root fetch - processPackages [ab-test-advanced-toolkit]: Skipping, unable to determine old version
+[2024-05-21 06:21:18] INFO root fetch - main [MainThread]: End processing [ab-test-advanced-toolkit] error
+[2024-05-21 06:21:18] INFO root fetch - processPackages [jzai]: Downloading https://files.pythonhosted.org/packages/b1/dc/125cb1b41b447de7fa344ff4dd8fbf43d95a79bf0ba7bd83aa276e412a89/jzai-59.83.55.tar.gz
+[2024-05-21 06:21:18] INFO root fetch - processPackages [imagededup-cli]: Downloading https://files.pythonhosted.org/packages/71/d6/3ae32f32486a651efff3c7691a9b9738169104b273bc2a79963be7e3b9b7/imagededup-cli-1.0.1.tar.gz
+[2024-05-21 06:21:18] INFO root fetch - processPackages [ethyca-fides]: Downloading https://files.pythonhosted.org/packages/a5/ce/6ad04dd381854d1db26960c5cc1e174a086becd7eea9daa2b89a8dde7a70/ethyca-fides-2.9.1.tar.gz
+[2024-05-21 06:21:18] INFO root fetch - processPackages [wah]: Downloading https://files.pythonhosted.org/packages/1e/98/86b56f53d2270da5a315b2f0d5733e61fd0dabbbde1d17bcff2dd938939e/wah-0.1.8.tar.gz
+[2024-05-21 06:21:18] INFO root fetch - processPackages [finter]: Downloading https://files.pythonhosted.org/packages/a5/42/62839a9d04ec1ea057f46ba770914804c9ca13fe76705b86c9503ceb5efd/finter-0.2.8-py3-none-any.whl
+[2024-05-21 06:21:18] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/cb/39/adcd388eba8071e3318b3a2224e5c96179761da6dbd7cfa96b20311e810f/flatpack-3.4.98.tar.gz
+[2024-05-21 06:21:18] INFO root fetch - processPackages [imagededup-cli]: Downloading https://files.pythonhosted.org/packages/cb/43/b7a149652a8cffea52e48b92d17497b4896167a98150632f444bb967d776/imagededup-cli-1.0.2.tar.gz
+[2024-05-21 06:21:18] INFO root fetch - processPackages [wah]: Downloading https://files.pythonhosted.org/packages/6c/57/7be641139065b67640542a312a3988d0a93024cdc145ea667b7e8d432eb8/wah-0.1.9.tar.gz
+[2024-05-21 06:21:18] INFO root fetch - processPackages [finter]: Downloading https://files.pythonhosted.org/packages/4f/d0/2e1ef5832dd6cbc5f4d24de1b60ad8f90066391220d8d6ebdc279ae3fffd/finter-0.2.9-py3-none-any.whl
+[2024-05-21 06:21:18] INFO root fetch - processPackages [imagededup-cli]: executing diffoscope
+[2024-05-21 06:21:18] INFO root fetch - processPackages [imagededup-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imagededup-cli-1.0.1.tar.gz tmp/imagededup-cli-1.0.2.tar.gz --markdown 20240521/i/imagededup-cli/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-21 06:21:18] INFO root fetch - processPackages [jzai]: Downloading https://files.pythonhosted.org/packages/f7/a6/da6e29fe03b84d6e8b831372cf59fd711b0adebc910b3d44ab5fc1d5f90d/jzai-59.83.56.tar.gz
+[2024-05-21 06:21:18] INFO root fetch - processPackages [wah]: executing diffoscope
+[2024-05-21 06:21:18] INFO root fetch - processPackages [wah]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wah-0.1.8.tar.gz tmp/wah-0.1.9.tar.gz --markdown 20240521/w/wah/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-21 06:21:18] INFO root fetch - processPackages [finter]: executing diffoscope
+[2024-05-21 06:21:18] INFO root fetch - processPackages [finter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finter-0.2.8-py3-none-any.whl.zip tmp/finter-0.2.9-py3-none-any.whl.zip --markdown 20240521/f/finter/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-21 06:21:18] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/89/20/a694f72cbfa96253cdb38b9f65c7cfd5f3a4fb145d2fe2483132b80dafd4/flatpack-3.4.99.tar.gz
+[2024-05-21 06:21:18] INFO root fetch - processPackages [ethyca-fides]: Downloading https://files.pythonhosted.org/packages/a3/0c/e979f7bc3c1a405c539d4df6c4c75896975e70d6b87777b8378ea071da2c/ethyca-fides-2.9.2.tar.gz
+[2024-05-21 06:21:18] INFO root fetch - processPackages [jzai]: executing diffoscope
+[2024-05-21 06:21:18] INFO root fetch - processPackages [jzai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jzai-59.83.55.tar.gz tmp/jzai-59.83.56.tar.gz --markdown 20240521/j/jzai/59.83.55-59.83.56/README.md --exclude *.pyd
+[2024-05-21 06:21:18] INFO root fetch - processPackages [flatpack]: executing diffoscope
+[2024-05-21 06:21:18] INFO root fetch - processPackages [flatpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flatpack-3.4.98.tar.gz tmp/flatpack-3.4.99.tar.gz --markdown 20240521/f/flatpack/3.4.98-3.4.99/README.md --exclude *.pyd
+[2024-05-21 06:21:19] INFO root fetch - processPackages [ethyca-fides]: executing diffoscope
+[2024-05-21 06:21:19] INFO root fetch - processPackages [ethyca-fides]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ethyca-fides-2.9.1.tar.gz tmp/ethyca-fides-2.9.2.tar.gz --markdown 20240521/e/ethyca-fides/2.9.1-2.9.2/README.md --exclude *.pyd
+[2024-05-21 06:21:19] INFO root fetch - processPackages [imagededup-cli]: Remove: archive file [/home/abi/fetcher/tmp/imagededup-cli-1.0.1.tar.gz]
+[2024-05-21 06:21:19] INFO root fetch - processPackages [imagededup-cli]: Remove: archive file [/home/abi/fetcher/tmp/imagededup-cli-1.0.2.tar.gz]
+[2024-05-21 06:21:19] INFO root fetch - main [MainThread]: End processing [imagededup-cli]: success
+[2024-05-21 06:21:19] INFO root fetch - processPackages [wah]: Remove: archive file [/home/abi/fetcher/tmp/wah-0.1.8.tar.gz]
+[2024-05-21 06:21:19] INFO root fetch - processPackages [wah]: Remove: archive file [/home/abi/fetcher/tmp/wah-0.1.9.tar.gz]
+[2024-05-21 06:21:19] INFO root fetch - main [MainThread]: End processing [wah]: success
+[2024-05-21 06:21:19] INFO root fetch - processPackages [jzai]: Remove: archive file [/home/abi/fetcher/tmp/jzai-59.83.55.tar.gz]
+[2024-05-21 06:21:19] INFO root fetch - processPackages [jzai]: Remove: archive file [/home/abi/fetcher/tmp/jzai-59.83.56.tar.gz]
+[2024-05-21 06:21:19] INFO root fetch - main [MainThread]: End processing [jzai]: success
+[2024-05-21 06:21:19] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.98.tar.gz]
+[2024-05-21 06:21:19] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.99.tar.gz]
+[2024-05-21 06:21:19] INFO root fetch - main [MainThread]: End processing [flatpack]: success
+[2024-05-21 06:21:19] INFO root fetch - processPackages [finter]: Remove: archive file [/home/abi/fetcher/tmp/finter-0.2.8-py3-none-any.whl.zip]
+[2024-05-21 06:21:19] INFO root fetch - processPackages [finter]: Remove: archive file [/home/abi/fetcher/tmp/finter-0.2.9-py3-none-any.whl.zip]
+[2024-05-21 06:21:19] INFO root fetch - main [MainThread]: End processing [finter]: success
+[2024-05-21 06:21:22] INFO root fetch - processPackages [ethyca-fides]: Remove: archive file [/home/abi/fetcher/tmp/ethyca-fides-2.9.1.tar.gz]
+[2024-05-21 06:21:22] INFO root fetch - processPackages [ethyca-fides]: Remove: archive file [/home/abi/fetcher/tmp/ethyca-fides-2.9.2.tar.gz]
+[2024-05-21 06:21:22] INFO root fetch - main [MainThread]: End processing [ethyca-fides]: success
+[2024-05-21 06:21:22] INFO root fetch - main [MainThread]: Store serial: [23300953]
