@@ -22348,3 +22348,15 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-21 13:39:38] INFO root fetch - processPackages [otcdocstheme]: Remove: archive file [/home/abi/fetcher/tmp/otcdocstheme-1.2.4.tar.gz]
 [2024-05-21 13:39:38] INFO root fetch - main [MainThread]: End processing [otcdocstheme]: success
 [2024-05-21 13:39:38] INFO root fetch - main [MainThread]: Store serial: [23305529]
+[2024-05-21 13:41:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23305529]
+[2024-05-21 13:41:47] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-21 13:41:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spetlr
+[2024-05-21 13:41:47] INFO root fetch - processPackages [spetlr]: New version: [5.1.9] Old Version: [5.1.6]
+[2024-05-21 13:41:47] INFO root fetch - processPackages [spetlr]: Downloading https://files.pythonhosted.org/packages/e4/25/eb2b81ed1712f5811fb13a248ab1fa8a84da44e061bf43326beb6bb623e7/spetlr-5.1.6.tar.gz
+[2024-05-21 13:41:48] INFO root fetch - processPackages [spetlr]: Downloading https://files.pythonhosted.org/packages/de/de/317ea8eeacf1d6b01794e4257b69dbbb6b62af4fdb7bae936b5e9efa98e1/spetlr-5.1.9.tar.gz
+[2024-05-21 13:41:48] INFO root fetch - processPackages [spetlr]: executing diffoscope
+[2024-05-21 13:41:48] INFO root fetch - processPackages [spetlr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spetlr-5.1.6.tar.gz tmp/spetlr-5.1.9.tar.gz --markdown 20240521/s/spetlr/5.1.6-5.1.9/README.md --exclude *.pyd
+[2024-05-21 13:41:49] INFO root fetch - processPackages [spetlr]: Remove: archive file [/home/abi/fetcher/tmp/spetlr-5.1.6.tar.gz]
+[2024-05-21 13:41:49] INFO root fetch - processPackages [spetlr]: Remove: archive file [/home/abi/fetcher/tmp/spetlr-5.1.9.tar.gz]
+[2024-05-21 13:41:49] INFO root fetch - main [MainThread]: End processing [spetlr]: success
+[2024-05-21 13:41:49] INFO root fetch - main [MainThread]: Store serial: [23305532]
