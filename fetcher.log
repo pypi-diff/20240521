@@ -20810,3 +20810,33 @@
 [2024-05-21 12:41:05] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.7.9.tar.gz]
 [2024-05-21 12:41:05] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
 [2024-05-21 12:41:05] INFO root fetch - main [MainThread]: Store serial: [23304879]
+[2024-05-21 12:43:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23304879]
+[2024-05-21 12:43:14] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-21 12:43:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nucliadb-node-binding
+[2024-05-21 12:43:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tensorrt-llm
+[2024-05-21 12:43:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: crawlee
+[2024-05-21 12:43:14] INFO root fetch - processPackages [crawlee]: New version: [0.0.4b1] Old Version: [0.0.3b9]
+[2024-05-21 12:43:14] INFO root fetch - processPackages [nucliadb-node-binding]: New version: [4.0.0.post1330] Old Version: [4.0.0.post1320]
+[2024-05-21 12:43:14] INFO root fetch - processPackages [tensorrt-llm]: New version: [0.9.0.dev2024040900] Old Version: [0.9.0.dev2024040200]
+[2024-05-21 12:43:14] INFO root fetch - processPackages [crawlee]: Downloading https://files.pythonhosted.org/packages/84/03/9368bf77c453e6b5e03fac8250e51113b079ed2408053fc99d1e551fe02f/crawlee-0.0.3b9.tar.gz
+[2024-05-21 12:43:15] INFO root fetch - processPackages [nucliadb-node-binding]: Downloading https://files.pythonhosted.org/packages/7c/a3/9cbca1f9ac2b603d370196dde6a8d6bbab2f0fa41378b5e2de66b41aab4a/nucliadb_node_binding-4.0.0.post1320.tar.gz
+[2024-05-21 12:43:15] INFO root fetch - processPackages [tensorrt-llm]: Downloading https://files.pythonhosted.org/packages/2a/c1/a41b5bb3daec8c3058b96bc94726cfe62850a4e86988b5c1791caa30b90c/tensorrt_llm-0.9.0.dev2024040200.tar.gz
+[2024-05-21 12:43:15] INFO root fetch - processPackages [nucliadb-node-binding]: Downloading https://files.pythonhosted.org/packages/fe/67/9892eb74dcd972e37803e976598ee49a63e19083c314ed8d95f5ebf0ed9a/nucliadb_node_binding-4.0.0.post1330.tar.gz
+[2024-05-21 12:43:15] INFO root fetch - processPackages [crawlee]: Downloading https://files.pythonhosted.org/packages/2e/0d/43f49f6feb5df9985dd08c291e38b846046f11262788c7b7998a30faeb3a/crawlee-0.0.4b1.tar.gz
+[2024-05-21 12:43:15] INFO root fetch - processPackages [tensorrt-llm]: Downloading https://files.pythonhosted.org/packages/27/e0/eaf2f17cd0e4a7e8d57054ceeafeaaf86effd6dd0c299ab151cae910420e/tensorrt_llm-0.9.0.dev2024040900.tar.gz
+[2024-05-21 12:43:15] INFO root fetch - processPackages [crawlee]: executing diffoscope
+[2024-05-21 12:43:15] INFO root fetch - processPackages [crawlee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crawlee-0.0.3b9.tar.gz tmp/crawlee-0.0.4b1.tar.gz --markdown 20240521/c/crawlee/0.0.3b9-0.0.4b1/README.md --exclude *.pyd
+[2024-05-21 12:43:15] INFO root fetch - processPackages [tensorrt-llm]: executing diffoscope
+[2024-05-21 12:43:15] INFO root fetch - processPackages [tensorrt-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorrt_llm-0.9.0.dev2024040200.tar.gz tmp/tensorrt_llm-0.9.0.dev2024040900.tar.gz --markdown 20240521/t/tensorrt-llm/0.9.0.dev2024040200-0.9.0.dev2024040900/README.md --exclude *.pyd
+[2024-05-21 12:43:15] INFO root fetch - processPackages [nucliadb-node-binding]: executing diffoscope
+[2024-05-21 12:43:15] INFO root fetch - processPackages [nucliadb-node-binding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_node_binding-4.0.0.post1320.tar.gz tmp/nucliadb_node_binding-4.0.0.post1330.tar.gz --markdown 20240521/n/nucliadb-node-binding/4.0.0.post1320-4.0.0.post1330/README.md --exclude *.pyd
+[2024-05-21 12:43:16] INFO root fetch - processPackages [tensorrt-llm]: Remove: archive file [/home/abi/fetcher/tmp/tensorrt_llm-0.9.0.dev2024040200.tar.gz]
+[2024-05-21 12:43:16] INFO root fetch - processPackages [tensorrt-llm]: Remove: archive file [/home/abi/fetcher/tmp/tensorrt_llm-0.9.0.dev2024040900.tar.gz]
+[2024-05-21 12:43:16] INFO root fetch - main [MainThread]: End processing [tensorrt-llm]: success
+[2024-05-21 12:43:16] INFO root fetch - processPackages [crawlee]: Remove: archive file [/home/abi/fetcher/tmp/crawlee-0.0.3b9.tar.gz]
+[2024-05-21 12:43:16] INFO root fetch - processPackages [crawlee]: Remove: archive file [/home/abi/fetcher/tmp/crawlee-0.0.4b1.tar.gz]
+[2024-05-21 12:43:16] INFO root fetch - main [MainThread]: End processing [crawlee]: success
+[2024-05-21 12:43:17] INFO root fetch - processPackages [nucliadb-node-binding]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_node_binding-4.0.0.post1320.tar.gz]
+[2024-05-21 12:43:17] INFO root fetch - processPackages [nucliadb-node-binding]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_node_binding-4.0.0.post1330.tar.gz]
+[2024-05-21 12:43:17] INFO root fetch - main [MainThread]: End processing [nucliadb-node-binding]: success
+[2024-05-21 12:43:17] INFO root fetch - main [MainThread]: Store serial: [23304904]
