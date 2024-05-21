@@ -22593,3 +22593,54 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-21 13:50:41] INFO root fetch - processPackages [sphractal]: Remove: archive file [/home/abi/fetcher/tmp/sphractal-1.1.6.tar.gz]
 [2024-05-21 13:50:41] INFO root fetch - main [MainThread]: End processing [sphractal]: success
 [2024-05-21 13:50:41] INFO root fetch - main [MainThread]: Store serial: [23305645]
+[2024-05-21 13:52:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23305645]
+[2024-05-21 13:52:50] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-21 13:52:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: desdeo_problem
+[2024-05-21 13:52:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyodre
+[2024-05-21 13:52:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytest-pg
+[2024-05-21 13:52:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: coben
+[2024-05-21 13:52:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: GenMine
+[2024-05-21 13:52:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gazu
+[2024-05-21 13:52:50] INFO root fetch - processPackages [pyodre]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-21 13:52:50] WARNING root fetch - processPackages [coben]: Skipping, unable to determine old version
+[2024-05-21 13:52:50] INFO root fetch - main [MainThread]: End processing [coben] error
+[2024-05-21 13:52:50] INFO root fetch - processPackages [desdeo_problem]: New version: [1.6.0] Old Version: [1.5.0]
+[2024-05-21 13:52:50] INFO root fetch - processPackages [pyodre]: Downloading https://files.pythonhosted.org/packages/7c/bb/ca9956e55427a06277d623d8d3420da4422b73459bee10667802e48978c3/pyodre-0.0.8.tar.gz
+[2024-05-21 13:52:50] INFO root fetch - processPackages [gazu]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-21 13:52:50] INFO root fetch - processPackages [GenMine]: New version: [1.1.0] Old Version: [1.0.9]
+[2024-05-21 13:52:51] INFO root fetch - processPackages [desdeo_problem]: Downloading https://files.pythonhosted.org/packages/b7/ae/803ed8e6d151b92e0430406f36dedc287bbef8ebd28044719efcede0e020/desdeo_problem-1.5.0.tar.gz
+[2024-05-21 13:52:51] INFO root fetch - processPackages [pytest-pg]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-21 13:52:51] INFO root fetch - processPackages [gazu]: Downloading https://files.pythonhosted.org/packages/29/33/8c9b7e610c9e437f6fdf01a3bbece8e17f30f46106ba710f48df55d0bcbb/gazu-0.9.8-py3-none-any.whl
+[2024-05-21 13:52:51] INFO root fetch - processPackages [GenMine]: Downloading https://files.pythonhosted.org/packages/ef/98/46ffb723f91ea4c410b10100980c262c32b879dc4971f36d84b28d0b492c/GenMine-1.0.9.tar.gz
+[2024-05-21 13:52:51] INFO root fetch - processPackages [pyodre]: Downloading https://files.pythonhosted.org/packages/54/34/4a25c2c9b573a30bbeb478fc066c7f0653d6c79f0b45e39087817d2bb9ad/pyodre-0.0.9.tar.gz
+[2024-05-21 13:52:51] INFO root fetch - processPackages [pytest-pg]: Downloading https://files.pythonhosted.org/packages/b7/be/6e56dbba717fa6326abda558040a1fe5714920fe31f07b7f255aaca836b4/pytest_pg-0.0.8.tar.gz
+[2024-05-21 13:52:51] INFO root fetch - processPackages [pyodre]: executing diffoscope
+[2024-05-21 13:52:51] INFO root fetch - processPackages [pyodre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyodre-0.0.8.tar.gz tmp/pyodre-0.0.9.tar.gz --markdown 20240521/p/pyodre/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-21 13:52:51] INFO root fetch - processPackages [desdeo_problem]: Downloading https://files.pythonhosted.org/packages/b3/4e/43a3ea63a44d3ba5a6a1f4e6ddde662787256fb325de702dfa9f9791ea98/desdeo_problem-1.6.0.tar.gz
+[2024-05-21 13:52:51] INFO root fetch - processPackages [GenMine]: Downloading https://files.pythonhosted.org/packages/a5/f8/c2d1b0a7dadc811b5a03065ca5d753ac14a6ed7ae37e6eb63709bdcb5012/genmine-1.1.0.tar.gz
+[2024-05-21 13:52:51] INFO root fetch - processPackages [gazu]: Downloading https://files.pythonhosted.org/packages/23/76/7d89ec37540376959f78cc24b5b6cfdc121611c0bbb0cc6eeb7a932e9812/gazu-0.9.9-py3-none-any.whl
+[2024-05-21 13:52:51] INFO root fetch - processPackages [desdeo_problem]: executing diffoscope
+[2024-05-21 13:52:51] INFO root fetch - processPackages [desdeo_problem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/desdeo_problem-1.5.0.tar.gz tmp/desdeo_problem-1.6.0.tar.gz --markdown 20240521/d/desdeo_problem/1.5.0-1.6.0/README.md --exclude *.pyd
+[2024-05-21 13:52:51] INFO root fetch - processPackages [pytest-pg]: Downloading https://files.pythonhosted.org/packages/0e/80/01ba8f2cdeb2e5fc4a1a6f4f9033975b81a1217272f9a16991e18d38f924/pytest_pg-0.0.9.tar.gz
+[2024-05-21 13:52:51] INFO root fetch - processPackages [gazu]: executing diffoscope
+[2024-05-21 13:52:51] INFO root fetch - processPackages [gazu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gazu-0.9.8-py3-none-any.whl.zip tmp/gazu-0.9.9-py3-none-any.whl.zip --markdown 20240521/g/gazu/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-21 13:52:51] INFO root fetch - processPackages [GenMine]: executing diffoscope
+[2024-05-21 13:52:51] INFO root fetch - processPackages [GenMine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GenMine-1.0.9.tar.gz tmp/genmine-1.1.0.tar.gz --markdown 20240521/G/GenMine/1.0.9-1.1.0/README.md --exclude *.pyd
+[2024-05-21 13:52:51] INFO root fetch - processPackages [pytest-pg]: executing diffoscope
+[2024-05-21 13:52:51] INFO root fetch - processPackages [pytest-pg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_pg-0.0.8.tar.gz tmp/pytest_pg-0.0.9.tar.gz --markdown 20240521/p/pytest-pg/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-21 13:52:52] INFO root fetch - processPackages [pyodre]: Remove: archive file [/home/abi/fetcher/tmp/pyodre-0.0.8.tar.gz]
+[2024-05-21 13:52:52] INFO root fetch - processPackages [pyodre]: Remove: archive file [/home/abi/fetcher/tmp/pyodre-0.0.9.tar.gz]
+[2024-05-21 13:52:52] INFO root fetch - main [MainThread]: End processing [pyodre]: success
+[2024-05-21 13:52:52] INFO root fetch - processPackages [GenMine]: Remove: archive file [/home/abi/fetcher/tmp/GenMine-1.0.9.tar.gz]
+[2024-05-21 13:52:52] INFO root fetch - processPackages [GenMine]: Remove: archive file [/home/abi/fetcher/tmp/genmine-1.1.0.tar.gz]
+[2024-05-21 13:52:52] INFO root fetch - main [MainThread]: End processing [GenMine]: success
+[2024-05-21 13:52:52] INFO root fetch - processPackages [pytest-pg]: Remove: archive file [/home/abi/fetcher/tmp/pytest_pg-0.0.8.tar.gz]
+[2024-05-21 13:52:52] INFO root fetch - processPackages [pytest-pg]: Remove: archive file [/home/abi/fetcher/tmp/pytest_pg-0.0.9.tar.gz]
+[2024-05-21 13:52:52] INFO root fetch - main [MainThread]: End processing [pytest-pg]: success
+[2024-05-21 13:52:52] INFO root fetch - processPackages [desdeo_problem]: Remove: archive file [/home/abi/fetcher/tmp/desdeo_problem-1.5.0.tar.gz]
+[2024-05-21 13:52:52] INFO root fetch - processPackages [desdeo_problem]: Remove: archive file [/home/abi/fetcher/tmp/desdeo_problem-1.6.0.tar.gz]
+[2024-05-21 13:52:52] INFO root fetch - main [MainThread]: End processing [desdeo_problem]: success
+[2024-05-21 13:52:52] INFO root fetch - processPackages [gazu]: Remove: archive file [/home/abi/fetcher/tmp/gazu-0.9.8-py3-none-any.whl.zip]
+[2024-05-21 13:52:52] INFO root fetch - processPackages [gazu]: Remove: archive file [/home/abi/fetcher/tmp/gazu-0.9.9-py3-none-any.whl.zip]
+[2024-05-21 13:52:52] INFO root fetch - main [MainThread]: End processing [gazu]: success
+[2024-05-21 13:52:52] INFO root fetch - main [MainThread]: Store serial: [23305675]
