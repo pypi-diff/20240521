@@ -13578,3 +13578,86 @@
 [2024-05-21 08:37:13] INFO root fetch - processPackages [odoo14-addon-sale-product-set]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_product_set-14.0.1.5.6.dev3-py3-none-any.whl.zip]
 [2024-05-21 08:37:13] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-product-set]: success
 [2024-05-21 08:37:13] INFO root fetch - main [MainThread]: Store serial: [23302059]
+[2024-05-21 08:39:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23302059]
+[2024-05-21 08:39:22] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-21 08:39:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-sale-partner-incoterm
+[2024-05-21 08:39:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openshift-cli-installer
+[2024-05-21 08:39:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: plantdrppred
+[2024-05-21 08:39:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openshift-cluster-management-python-wrapper
+[2024-05-21 08:39:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wah
+[2024-05-21 08:39:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: matlab-proxy
+[2024-05-21 08:39:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: openshift-python-wrapper
+[2024-05-21 08:39:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: du-aio-tools
+[2024-05-21 08:39:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pymobiledevice3
+[2024-05-21 08:39:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: openshift-python-wrapper
+[2024-05-21 08:39:22] INFO root fetch - processPackages [plantdrppred]: New version: [0.3] Old Version: [0.2]
+[2024-05-21 08:39:22] INFO root fetch - processPackages [wah]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-21 08:39:22] INFO root fetch - processPackages [odoo14-addon-sale-partner-incoterm]: New version: [14.0.1.2.1.dev8] Old Version: [14.0.1.2.1.dev7]
+[2024-05-21 08:39:22] INFO root fetch - processPackages [openshift-cluster-management-python-wrapper]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-05-21 08:39:22] INFO root fetch - processPackages [wah]: Downloading https://files.pythonhosted.org/packages/1e/98/86b56f53d2270da5a315b2f0d5733e61fd0dabbbde1d17bcff2dd938939e/wah-0.1.8.tar.gz
+[2024-05-21 08:39:22] INFO root fetch - processPackages [openshift-cli-installer]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-21 08:39:22] INFO root fetch - processPackages [du-aio-tools]: New version: [0.0.4] Old Version: [0.0.1]
+[2024-05-21 08:39:22] INFO root fetch - processPackages [openshift-python-wrapper]: New version: [4.9.9.12] Old Version: [4.9.7.12]
+[2024-05-21 08:39:22] INFO root fetch - processPackages [openshift-python-wrapper]: New version: [4.9.9.12] Old Version: [4.9.7.12]
+[2024-05-21 08:39:22] INFO root fetch - processPackages [matlab-proxy]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-21 08:39:22] INFO root fetch - processPackages [pymobiledevice3]: New version: [4.8.0] Old Version: [4.7.2]
+[2024-05-21 08:39:22] INFO root fetch - processPackages [plantdrppred]: Downloading https://files.pythonhosted.org/packages/2a/8e/123ac1de9868e9c1bb0d84a0e721f8eb6db22596c47e34fcd9cc6db7e54d/plantdrppred-0.2.tar.gz
+[2024-05-21 08:39:22] INFO root fetch - processPackages [odoo14-addon-sale-partner-incoterm]: Downloading https://files.pythonhosted.org/packages/41/c6/783015774fbea44101f7ea77b4086e92cc9e0f32b29f40c67b735608cd5e/odoo14_addon_sale_partner_incoterm-14.0.1.2.1.dev7-py3-none-any.whl
+[2024-05-21 08:39:22] INFO root fetch - processPackages [openshift-cluster-management-python-wrapper]: Downloading https://files.pythonhosted.org/packages/c0/59/4a411cf32353a4aa27ed7df897022dba7186efabe6440e073e02e93578c7/openshift_cluster_management_python_wrapper-1.0.98.tar.gz
+[2024-05-21 08:39:22] WARNING root fetch - processPackages [plantdrppred]: Skipping package: exceeds size limit 61182020>=10485760
+[2024-05-21 08:39:22] INFO root fetch - main [MainThread]: End processing [plantdrppred] error
+[2024-05-21 08:39:23] INFO root fetch - processPackages [openshift-cli-installer]: Downloading https://files.pythonhosted.org/packages/93/ea/081916b4f7f911ee0b4d2373be0df43c7c020915e4dc0daddae9d0c85d23/openshift_cli_installer-2.0.8.tar.gz
+[2024-05-21 08:39:23] INFO root fetch - processPackages [wah]: Downloading https://files.pythonhosted.org/packages/6c/57/7be641139065b67640542a312a3988d0a93024cdc145ea667b7e8d432eb8/wah-0.1.9.tar.gz
+[2024-05-21 08:39:23] INFO root fetch - processPackages [du-aio-tools]: Downloading https://files.pythonhosted.org/packages/12/1a/48e0932da2156914976e2781cbcdd477baf8272d88a22a0ff4bd0b475be5/du_aio_tools-0.0.1.tar.gz
+[2024-05-21 08:39:23] INFO root fetch - processPackages [matlab-proxy]: Downloading https://files.pythonhosted.org/packages/8c/1b/86246a5edd6afa8b11b45f85898418cdb6809602d344ef7fbcd2bc478c88/matlab-proxy-0.9.0.tar.gz
+[2024-05-21 08:39:23] INFO root fetch - processPackages [openshift-python-wrapper]: Downloading https://files.pythonhosted.org/packages/9f/52/8943f0836c823ed0ab894348233d99a219025753e654fa494137828358f9/openshift-python-wrapper-4.9.7.12.tar.gz
+[2024-05-21 08:39:23] INFO root fetch - processPackages [openshift-python-wrapper]: Downloading https://files.pythonhosted.org/packages/9f/52/8943f0836c823ed0ab894348233d99a219025753e654fa494137828358f9/openshift-python-wrapper-4.9.7.12.tar.gz
+[2024-05-21 08:39:23] INFO root fetch - processPackages [pymobiledevice3]: Downloading https://files.pythonhosted.org/packages/d0/16/67e1eed038333fae5e2c986e24bac0feeae4c5d8d69a39cbedd7f55a85a1/pymobiledevice3-4.7.2.tar.gz
+[2024-05-21 08:39:23] INFO root fetch - processPackages [wah]: executing diffoscope
+[2024-05-21 08:39:23] INFO root fetch - processPackages [wah]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wah-0.1.8.tar.gz tmp/wah-0.1.9.tar.gz --markdown 20240521/w/wah/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-21 08:39:23] WARNING root fetch - processPackages [pymobiledevice3]: Skipping package: exceeds size limit 31547472>=10485760
+[2024-05-21 08:39:23] INFO root fetch - main [MainThread]: End processing [pymobiledevice3] error
+[2024-05-21 08:39:23] INFO root fetch - processPackages [openshift-cli-installer]: Downloading https://files.pythonhosted.org/packages/2e/36/23bd27005a72d5bc87d2d81bd55477f2c4cbdee088189ef184dea2fb149c/openshift_cli_installer-2.0.9.tar.gz
+[2024-05-21 08:39:23] INFO root fetch - processPackages [odoo14-addon-sale-partner-incoterm]: Downloading https://files.pythonhosted.org/packages/12/2a/f8db8b55081daf5e194b61df711e9871b715f41ed592c281a3806772cb4f/odoo14_addon_sale_partner_incoterm-14.0.1.2.1.dev8-py3-none-any.whl
+[2024-05-21 08:39:23] INFO root fetch - processPackages [openshift-cluster-management-python-wrapper]: Downloading https://files.pythonhosted.org/packages/11/56/6990be30b6f5fcf73a2731cd41504a76f9454ec027047d669aeb3f238561/openshift_cluster_management_python_wrapper-1.0.99.tar.gz
+[2024-05-21 08:39:23] INFO root fetch - processPackages [du-aio-tools]: Downloading https://files.pythonhosted.org/packages/01/6c/02cfb505f7798f8bd1ebde4a6197afc514593d59ae9175cec029d517f7ee/du_aio_tools-0.0.4.tar.gz
+[2024-05-21 08:39:23] INFO root fetch - processPackages [openshift-cli-installer]: executing diffoscope
+[2024-05-21 08:39:23] INFO root fetch - processPackages [openshift-cli-installer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openshift_cli_installer-2.0.8.tar.gz tmp/openshift_cli_installer-2.0.9.tar.gz --markdown 20240521/o/openshift-cli-installer/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-21 08:39:23] INFO root fetch - processPackages [odoo14-addon-sale-partner-incoterm]: executing diffoscope
+[2024-05-21 08:39:23] INFO root fetch - processPackages [odoo14-addon-sale-partner-incoterm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_sale_partner_incoterm-14.0.1.2.1.dev7-py3-none-any.whl.zip tmp/odoo14_addon_sale_partner_incoterm-14.0.1.2.1.dev8-py3-none-any.whl.zip --markdown 20240521/o/odoo14-addon-sale-partner-incoterm/14.0.1.2.1.dev7-14.0.1.2.1.dev8/README.md --exclude *.pyd
+[2024-05-21 08:39:23] INFO root fetch - processPackages [openshift-cluster-management-python-wrapper]: executing diffoscope
+[2024-05-21 08:39:23] INFO root fetch - processPackages [openshift-cluster-management-python-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openshift_cluster_management_python_wrapper-1.0.98.tar.gz tmp/openshift_cluster_management_python_wrapper-1.0.99.tar.gz --markdown 20240521/o/openshift-cluster-management-python-wrapper/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-05-21 08:39:23] INFO root fetch - processPackages [openshift-python-wrapper]: Downloading https://files.pythonhosted.org/packages/e7/2c/25381b003b6e49919b5c98f68796af474a0b6fb3e28c46552a6949c6160a/openshift-python-wrapper-4.9.9.12.tar.gz
+[2024-05-21 08:39:23] INFO root fetch - processPackages [openshift-python-wrapper]: Downloading https://files.pythonhosted.org/packages/e7/2c/25381b003b6e49919b5c98f68796af474a0b6fb3e28c46552a6949c6160a/openshift-python-wrapper-4.9.9.12.tar.gz
+[2024-05-21 08:39:23] INFO root fetch - processPackages [du-aio-tools]: executing diffoscope
+[2024-05-21 08:39:23] INFO root fetch - processPackages [du-aio-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/du_aio_tools-0.0.1.tar.gz tmp/du_aio_tools-0.0.4.tar.gz --markdown 20240521/d/du-aio-tools/0.0.1-0.0.4/README.md --exclude *.pyd
+[2024-05-21 08:39:23] INFO root fetch - processPackages [openshift-python-wrapper]: executing diffoscope
+[2024-05-21 08:39:23] INFO root fetch - processPackages [openshift-python-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openshift-python-wrapper-4.9.7.12.tar.gz tmp/openshift-python-wrapper-4.9.9.12.tar.gz --markdown 20240521/o/openshift-python-wrapper/4.9.7.12-4.9.9.12/README.md --exclude *.pyd
+[2024-05-21 08:39:23] INFO root fetch - processPackages [openshift-python-wrapper]: executing diffoscope
+[2024-05-21 08:39:23] INFO root fetch - processPackages [openshift-python-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openshift-python-wrapper-4.9.7.12.tar.gz tmp/openshift-python-wrapper-4.9.9.12.tar.gz --markdown 20240521/o/openshift-python-wrapper/4.9.7.12-4.9.9.12/README.md --exclude *.pyd
+[2024-05-21 08:39:23] INFO root fetch - processPackages [matlab-proxy]: Downloading https://files.pythonhosted.org/packages/d1/9a/28fe0c3d77af6866803b3b114849cdbfb85326aadcd657cc8bec3c6ff78f/matlab-proxy-0.9.1.tar.gz
+[2024-05-21 08:39:23] INFO root fetch - processPackages [wah]: Remove: archive file [/home/abi/fetcher/tmp/wah-0.1.8.tar.gz]
+[2024-05-21 08:39:23] INFO root fetch - processPackages [wah]: Remove: archive file [/home/abi/fetcher/tmp/wah-0.1.9.tar.gz]
+[2024-05-21 08:39:23] INFO root fetch - main [MainThread]: End processing [wah]: success
+[2024-05-21 08:39:24] INFO root fetch - processPackages [openshift-cluster-management-python-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/openshift_cluster_management_python_wrapper-1.0.98.tar.gz]
+[2024-05-21 08:39:24] INFO root fetch - processPackages [openshift-cluster-management-python-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/openshift_cluster_management_python_wrapper-1.0.99.tar.gz]
+[2024-05-21 08:39:24] INFO root fetch - main [MainThread]: End processing [openshift-cluster-management-python-wrapper]: success
+[2024-05-21 08:39:24] INFO root fetch - processPackages [du-aio-tools]: Remove: archive file [/home/abi/fetcher/tmp/du_aio_tools-0.0.1.tar.gz]
+[2024-05-21 08:39:24] INFO root fetch - processPackages [du-aio-tools]: Remove: archive file [/home/abi/fetcher/tmp/du_aio_tools-0.0.4.tar.gz]
+[2024-05-21 08:39:24] INFO root fetch - main [MainThread]: End processing [du-aio-tools]: success
+[2024-05-21 08:39:24] INFO root fetch - processPackages [matlab-proxy]: executing diffoscope
+[2024-05-21 08:39:24] INFO root fetch - processPackages [matlab-proxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matlab-proxy-0.9.0.tar.gz tmp/matlab-proxy-0.9.1.tar.gz --markdown 20240521/m/matlab-proxy/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-21 08:39:24] INFO root fetch - processPackages [openshift-cli-installer]: Remove: archive file [/home/abi/fetcher/tmp/openshift_cli_installer-2.0.8.tar.gz]
+[2024-05-21 08:39:24] INFO root fetch - processPackages [openshift-cli-installer]: Remove: archive file [/home/abi/fetcher/tmp/openshift_cli_installer-2.0.9.tar.gz]
+[2024-05-21 08:39:24] INFO root fetch - main [MainThread]: End processing [openshift-cli-installer]: success
+[2024-05-21 08:39:24] INFO root fetch - processPackages [odoo14-addon-sale-partner-incoterm]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_partner_incoterm-14.0.1.2.1.dev7-py3-none-any.whl.zip]
+[2024-05-21 08:39:24] INFO root fetch - processPackages [odoo14-addon-sale-partner-incoterm]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_partner_incoterm-14.0.1.2.1.dev8-py3-none-any.whl.zip]
+[2024-05-21 08:39:24] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-partner-incoterm]: success
+[2024-05-21 08:39:24] INFO root fetch - processPackages [openshift-python-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/openshift-python-wrapper-4.9.7.12.tar.gz]
+[2024-05-21 08:39:24] INFO root fetch - processPackages [openshift-python-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/openshift-python-wrapper-4.9.9.12.tar.gz]
+[2024-05-21 08:39:24] INFO root fetch - main [MainThread]: End processing [openshift-python-wrapper]: success
+[2024-05-21 08:39:24] INFO root fetch - main [MainThread]: End processing [openshift-python-wrapper]: success
+[2024-05-21 08:39:25] INFO root fetch - processPackages [matlab-proxy]: Remove: archive file [/home/abi/fetcher/tmp/matlab-proxy-0.9.0.tar.gz]
+[2024-05-21 08:39:25] INFO root fetch - processPackages [matlab-proxy]: Remove: archive file [/home/abi/fetcher/tmp/matlab-proxy-0.9.1.tar.gz]
+[2024-05-21 08:39:25] INFO root fetch - main [MainThread]: End processing [matlab-proxy]: success
+[2024-05-21 08:39:25] INFO root fetch - main [MainThread]: Store serial: [23302082]
