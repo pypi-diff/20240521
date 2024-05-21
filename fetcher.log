@@ -15782,3 +15782,105 @@
 [2024-05-21 09:58:02] INFO root fetch - processPackages [odoo-addon-dms-field]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_dms_field-15.0.1.3.1-py3-none-any.whl.zip]
 [2024-05-21 09:58:02] INFO root fetch - main [MainThread]: End processing [odoo-addon-dms-field]: success
 [2024-05-21 09:58:02] INFO root fetch - main [MainThread]: Store serial: [23302840]
+[2024-05-21 10:00:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23302840]
+[2024-05-21 10:00:11] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-05-21 10:00:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zfx
+[2024-05-21 10:00:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: DjangoSharepointStorage
+[2024-05-21 10:00:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-mrp-multi-level-estimate
+[2024-05-21 10:00:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ivande-combiner
+[2024-05-21 10:00:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: notdiamond
+[2024-05-21 10:00:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vdk-trino
+[2024-05-21 10:00:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: data-prep-toolkit-kfp
+[2024-05-21 10:00:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-stock-move-line-reference-link
+[2024-05-21 10:00:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: PATE
+[2024-05-21 10:00:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: prometheus-http-sd
+[2024-05-21 10:00:11] INFO root fetch - processPackages [data-prep-toolkit-kfp]: New version: [0.1.0] Old Version: [0.0.1.dev35]
+[2024-05-21 10:00:11] INFO root fetch - processPackages [DjangoSharepointStorage]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-21 10:00:11] INFO root fetch - processPackages [notdiamond]: New version: [0.1.9b0] Old Version: [0.1.8b0]
+[2024-05-21 10:00:11] WARNING root fetch - processPackages [ivande-combiner]: Skipping, unable to determine old version
+[2024-05-21 10:00:11] INFO root fetch - processPackages [ivande-combiner]: Start processing: pyresumeparser
+[2024-05-21 10:00:11] INFO root fetch - main [MainThread]: End processing [ivande-combiner] error
+[2024-05-21 10:00:11] INFO root fetch - processPackages [odoo-addon-mrp-multi-level-estimate]: New version: [17.0.1.0.0.2] Old Version: [16.0.1.1.2]
+[2024-05-21 10:00:12] INFO root fetch - processPackages [DjangoSharepointStorage]: Downloading https://files.pythonhosted.org/packages/88/e3/7f41bf98948d274643e968674c2d5fe470ae81ec2a8db00ca7cebbcedd2e/DjangoSharepointStorage-1.0.0.tar.gz
+[2024-05-21 10:00:12] INFO root fetch - processPackages [zfx]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-21 10:00:12] INFO root fetch - processPackages [vdk-trino]: New version: [0.4.948436673] Old Version: [0.4.944393829]
+[2024-05-21 10:00:12] WARNING root fetch - processPackages [odoo-addon-stock-move-line-reference-link]: Skipping, unable to determine old version
+[2024-05-21 10:00:12] INFO root fetch - processPackages [odoo-addon-stock-move-line-reference-link]: Start processing: odoo-addon-account-financial-report
+[2024-05-21 10:00:12] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-move-line-reference-link] error
+[2024-05-21 10:00:12] INFO root fetch - processPackages [PATE]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-21 10:00:12] INFO root fetch - processPackages [prometheus-http-sd]: New version: [1.3.7] Old Version: [1.3.6]
+[2024-05-21 10:00:12] INFO root fetch - processPackages [odoo-addon-account-financial-report]: New version: [17.0.1.1.2.1] Old Version: [17.0.1.1.2]
+[2024-05-21 10:00:12] WARNING root fetch - processPackages [pyresumeparser]: Skipping, unable to determine old version
+[2024-05-21 10:00:12] INFO root fetch - processPackages [pyresumeparser]: Start processing: resolwe
+[2024-05-21 10:00:12] INFO root fetch - main [MainThread]: End processing [pyresumeparser] error
+[2024-05-21 10:00:12] INFO root fetch - processPackages [data-prep-toolkit-kfp]: Downloading https://files.pythonhosted.org/packages/3c/95/7784ce9adf5e12ab3110cf2ddfa0a244d5412f6a76ea065b9c9cb81782d4/data_prep_toolkit_kfp-0.0.1.dev35.tar.gz
+[2024-05-21 10:00:12] INFO root fetch - processPackages [notdiamond]: Downloading https://files.pythonhosted.org/packages/6d/de/cb1c423f06ea5f830dc7054c3eb00d3d206eb6ae388c551a05a0ad13371e/notdiamond-0.1.8b0.tar.gz
+[2024-05-21 10:00:12] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Downloading https://files.pythonhosted.org/packages/81/4f/d8b81d3e54d6db919ee371e3664f509b8e698355f38665e245c16d5b88c6/odoo_addon_account_financial_report-17.0.1.1.2-py3-none-any.whl
+[2024-05-21 10:00:12] INFO root fetch - processPackages [odoo-addon-mrp-multi-level-estimate]: Downloading https://files.pythonhosted.org/packages/51/37/37ba01dff63e6cb0ac8bfcd45949778bec7a3bb6b7ae9129be6a4a165607/odoo_addon_mrp_multi_level_estimate-16.0.1.1.2-py3-none-any.whl
+[2024-05-21 10:00:12] INFO root fetch - processPackages [resolwe]: New version: [9.0.0a4] Old Version: [9.0.0a3]
+[2024-05-21 10:00:12] INFO root fetch - processPackages [DjangoSharepointStorage]: Downloading https://files.pythonhosted.org/packages/f4/c3/93e77c6a1776092d707e7c04f0ee6f0e8e8d89b2ea85d84b60ff657946db/DjangoSharepointStorage-1.0.1.tar.gz
+[2024-05-21 10:00:12] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/59/eb/f257e3407edfa0e36bd6d262b25e02023066e104ba26d20cee83a63198f0/zfx-1.0.8.tar.gz
+[2024-05-21 10:00:12] INFO root fetch - processPackages [vdk-trino]: Downloading https://files.pythonhosted.org/packages/c1/e2/8f118d923a35360ea129ef943675e16a4c90f5b3693b85b589572e4b33ec/vdk-trino-0.4.944393829.tar.gz
+[2024-05-21 10:00:12] INFO root fetch - processPackages [PATE]: Downloading https://files.pythonhosted.org/packages/fb/21/023055217d14124a9e7328dfd474bc6c87af3ad3a4d0b321f67daf4c8bc1/pate-0.1.0.tar.gz
+[2024-05-21 10:00:12] INFO root fetch - processPackages [prometheus-http-sd]: Downloading https://files.pythonhosted.org/packages/4b/1c/a8e90d6e119bb2e4acfae29c9d4bfc4ffe22b4e4173e7061493ea6dda047/prometheus_http_sd-1.3.6.tar.gz
+[2024-05-21 10:00:12] INFO root fetch - processPackages [data-prep-toolkit-kfp]: Downloading https://files.pythonhosted.org/packages/c5/c8/8d6d7be956979a103c6894ce424548dff678de6bfc85be8018d305469e67/data_prep_toolkit_kfp-0.1.0.tar.gz
+[2024-05-21 10:00:12] INFO root fetch - processPackages [DjangoSharepointStorage]: executing diffoscope
+[2024-05-21 10:00:12] INFO root fetch - processPackages [DjangoSharepointStorage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DjangoSharepointStorage-1.0.0.tar.gz tmp/DjangoSharepointStorage-1.0.1.tar.gz --markdown 20240521/D/DjangoSharepointStorage/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-21 10:00:12] INFO root fetch - processPackages [notdiamond]: Downloading https://files.pythonhosted.org/packages/ca/a2/0af46e6cc03ef4f28da6e149a8e8f12458a7285f90b855a006e0726be24d/notdiamond-0.1.9b0.tar.gz
+[2024-05-21 10:00:12] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Downloading https://files.pythonhosted.org/packages/40/3b/e041799de37bedb1f81654cefd3cfce800c77a29592bb5c956278ba9daa4/odoo_addon_account_financial_report-17.0.1.1.2.1-py3-none-any.whl
+[2024-05-21 10:00:12] INFO root fetch - processPackages [resolwe]: Downloading https://files.pythonhosted.org/packages/27/39/5a1ef83e99306588743d0a561a08a825b4383fd5d466c4f3c8fa59dbdbdd/resolwe-9.0.0a3.tar.gz
+[2024-05-21 10:00:12] INFO root fetch - processPackages [data-prep-toolkit-kfp]: executing diffoscope
+[2024-05-21 10:00:12] INFO root fetch - processPackages [data-prep-toolkit-kfp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_prep_toolkit_kfp-0.0.1.dev35.tar.gz tmp/data_prep_toolkit_kfp-0.1.0.tar.gz --markdown 20240521/d/data-prep-toolkit-kfp/0.0.1.dev35-0.1.0/README.md --exclude *.pyd
+[2024-05-21 10:00:12] INFO root fetch - processPackages [notdiamond]: executing diffoscope
+[2024-05-21 10:00:12] INFO root fetch - processPackages [notdiamond]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notdiamond-0.1.8b0.tar.gz tmp/notdiamond-0.1.9b0.tar.gz --markdown 20240521/n/notdiamond/0.1.8b0-0.1.9b0/README.md --exclude *.pyd
+[2024-05-21 10:00:12] INFO root fetch - processPackages [odoo-addon-mrp-multi-level-estimate]: Downloading https://files.pythonhosted.org/packages/28/e4/fe4c6a49d0a8bb38e0dbded52068394ab283378486d3b3a1a5aef321323d/odoo_addon_mrp_multi_level_estimate-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-21 10:00:12] INFO root fetch - processPackages [PATE]: Downloading https://files.pythonhosted.org/packages/3f/1a/ac1b67ea7b8823ec8975c7e74a96ce28d4461aaaa31ffe1cee53629a0df1/pate-0.1.1.tar.gz
+[2024-05-21 10:00:12] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/79/72/81e8c9f95e9effa80a25b20d494a3c3b21ed5cbbd53440c562d52fe8fe8a/zfx-1.0.9.tar.gz
+[2024-05-21 10:00:12] INFO root fetch - processPackages [odoo-addon-account-financial-report]: executing diffoscope
+[2024-05-21 10:00:12] INFO root fetch - processPackages [odoo-addon-account-financial-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_financial_report-17.0.1.1.2-py3-none-any.whl.zip tmp/odoo_addon_account_financial_report-17.0.1.1.2.1-py3-none-any.whl.zip --markdown 20240521/o/odoo-addon-account-financial-report/17.0.1.1.2-17.0.1.1.2.1/README.md --exclude *.pyd
+[2024-05-21 10:00:12] INFO root fetch - processPackages [prometheus-http-sd]: Downloading https://files.pythonhosted.org/packages/1e/0f/d11077a903a2ef1decef357ddf27502344f4d1fbd659800d5124b967bb9e/prometheus_http_sd-1.3.7.tar.gz
+[2024-05-21 10:00:12] INFO root fetch - processPackages [vdk-trino]: Downloading https://files.pythonhosted.org/packages/ea/7e/14f7593a87f15edb1f40491364c0653db0d59207e2be1a435c88ed1df071/vdk-trino-0.4.948436673.tar.gz
+[2024-05-21 10:00:12] INFO root fetch - processPackages [PATE]: executing diffoscope
+[2024-05-21 10:00:12] INFO root fetch - processPackages [PATE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pate-0.1.0.tar.gz tmp/pate-0.1.1.tar.gz --markdown 20240521/P/PATE/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-21 10:00:12] INFO root fetch - processPackages [odoo-addon-mrp-multi-level-estimate]: executing diffoscope
+[2024-05-21 10:00:12] INFO root fetch - processPackages [odoo-addon-mrp-multi-level-estimate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mrp_multi_level_estimate-16.0.1.1.2-py3-none-any.whl.zip tmp/odoo_addon_mrp_multi_level_estimate-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240521/o/odoo-addon-mrp-multi-level-estimate/16.0.1.1.2-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-05-21 10:00:13] INFO root fetch - processPackages [vdk-trino]: executing diffoscope
+[2024-05-21 10:00:13] INFO root fetch - processPackages [vdk-trino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdk-trino-0.4.944393829.tar.gz tmp/vdk-trino-0.4.948436673.tar.gz --markdown 20240521/v/vdk-trino/0.4.944393829-0.4.948436673/README.md --exclude *.pyd
+[2024-05-21 10:00:13] INFO root fetch - processPackages [prometheus-http-sd]: executing diffoscope
+[2024-05-21 10:00:13] INFO root fetch - processPackages [prometheus-http-sd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prometheus_http_sd-1.3.6.tar.gz tmp/prometheus_http_sd-1.3.7.tar.gz --markdown 20240521/p/prometheus-http-sd/1.3.6-1.3.7/README.md --exclude *.pyd
+[2024-05-21 10:00:13] INFO root fetch - processPackages [zfx]: executing diffoscope
+[2024-05-21 10:00:13] INFO root fetch - processPackages [zfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zfx-1.0.8.tar.gz tmp/zfx-1.0.9.tar.gz --markdown 20240521/z/zfx/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-21 10:00:13] INFO root fetch - processPackages [resolwe]: Downloading https://files.pythonhosted.org/packages/ca/ce/736f65f5bdceb20af592eebc6fdff8968ca39d39f2fa9bbbcb62c64ee673/resolwe-9.0.0a4.tar.gz
+[2024-05-21 10:00:13] INFO root fetch - processPackages [resolwe]: executing diffoscope
+[2024-05-21 10:00:13] INFO root fetch - processPackages [resolwe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resolwe-9.0.0a3.tar.gz tmp/resolwe-9.0.0a4.tar.gz --markdown 20240521/r/resolwe/9.0.0a3-9.0.0a4/README.md --exclude *.pyd
+[2024-05-21 10:00:13] INFO root fetch - processPackages [DjangoSharepointStorage]: Remove: archive file [/home/abi/fetcher/tmp/DjangoSharepointStorage-1.0.0.tar.gz]
+[2024-05-21 10:00:13] INFO root fetch - processPackages [DjangoSharepointStorage]: Remove: archive file [/home/abi/fetcher/tmp/DjangoSharepointStorage-1.0.1.tar.gz]
+[2024-05-21 10:00:13] INFO root fetch - main [MainThread]: End processing [DjangoSharepointStorage]: success
+[2024-05-21 10:00:14] INFO root fetch - processPackages [notdiamond]: Remove: archive file [/home/abi/fetcher/tmp/notdiamond-0.1.8b0.tar.gz]
+[2024-05-21 10:00:14] INFO root fetch - processPackages [notdiamond]: Remove: archive file [/home/abi/fetcher/tmp/notdiamond-0.1.9b0.tar.gz]
+[2024-05-21 10:00:14] INFO root fetch - main [MainThread]: End processing [notdiamond]: success
+[2024-05-21 10:00:14] INFO root fetch - processPackages [data-prep-toolkit-kfp]: Remove: archive file [/home/abi/fetcher/tmp/data_prep_toolkit_kfp-0.0.1.dev35.tar.gz]
+[2024-05-21 10:00:14] INFO root fetch - processPackages [data-prep-toolkit-kfp]: Remove: archive file [/home/abi/fetcher/tmp/data_prep_toolkit_kfp-0.1.0.tar.gz]
+[2024-05-21 10:00:14] INFO root fetch - main [MainThread]: End processing [data-prep-toolkit-kfp]: success
+[2024-05-21 10:00:14] INFO root fetch - processPackages [PATE]: Remove: archive file [/home/abi/fetcher/tmp/pate-0.1.0.tar.gz]
+[2024-05-21 10:00:14] INFO root fetch - processPackages [PATE]: Remove: archive file [/home/abi/fetcher/tmp/pate-0.1.1.tar.gz]
+[2024-05-21 10:00:14] INFO root fetch - main [MainThread]: End processing [PATE]: success
+[2024-05-21 10:00:14] INFO root fetch - processPackages [prometheus-http-sd]: Remove: archive file [/home/abi/fetcher/tmp/prometheus_http_sd-1.3.6.tar.gz]
+[2024-05-21 10:00:14] INFO root fetch - processPackages [prometheus-http-sd]: Remove: archive file [/home/abi/fetcher/tmp/prometheus_http_sd-1.3.7.tar.gz]
+[2024-05-21 10:00:14] INFO root fetch - main [MainThread]: End processing [prometheus-http-sd]: success
+[2024-05-21 10:00:14] INFO root fetch - processPackages [odoo-addon-mrp-multi-level-estimate]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mrp_multi_level_estimate-16.0.1.1.2-py3-none-any.whl.zip]
+[2024-05-21 10:00:14] INFO root fetch - processPackages [odoo-addon-mrp-multi-level-estimate]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mrp_multi_level_estimate-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-21 10:00:14] INFO root fetch - main [MainThread]: End processing [odoo-addon-mrp-multi-level-estimate]: success
+[2024-05-21 10:00:14] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.8.tar.gz]
+[2024-05-21 10:00:14] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.9.tar.gz]
+[2024-05-21 10:00:14] INFO root fetch - main [MainThread]: End processing [zfx]: success
+[2024-05-21 10:00:14] INFO root fetch - processPackages [vdk-trino]: Remove: archive file [/home/abi/fetcher/tmp/vdk-trino-0.4.944393829.tar.gz]
+[2024-05-21 10:00:14] INFO root fetch - processPackages [vdk-trino]: Remove: archive file [/home/abi/fetcher/tmp/vdk-trino-0.4.948436673.tar.gz]
+[2024-05-21 10:00:14] INFO root fetch - main [MainThread]: End processing [vdk-trino]: success
+[2024-05-21 10:00:14] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_financial_report-17.0.1.1.2-py3-none-any.whl.zip]
+[2024-05-21 10:00:14] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_financial_report-17.0.1.1.2.1-py3-none-any.whl.zip]
+[2024-05-21 10:00:14] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-financial-report]: success
+[2024-05-21 10:00:15] INFO root fetch - processPackages [resolwe]: Remove: archive file [/home/abi/fetcher/tmp/resolwe-9.0.0a3.tar.gz]
+[2024-05-21 10:00:15] INFO root fetch - processPackages [resolwe]: Remove: archive file [/home/abi/fetcher/tmp/resolwe-9.0.0a4.tar.gz]
+[2024-05-21 10:00:15] INFO root fetch - main [MainThread]: End processing [resolwe]: success
+[2024-05-21 10:00:15] INFO root fetch - main [MainThread]: Store serial: [23302881]
