@@ -3535,3 +3535,123 @@
 [2024-05-21 03:02:41] INFO root fetch - processPackages [blue-plugin]: Remove: archive file [/home/abi/fetcher/tmp/blue_plugin-2.190.1.tar.gz]
 [2024-05-21 03:02:41] INFO root fetch - main [MainThread]: End processing [blue-plugin]: success
 [2024-05-21 03:02:41] INFO root fetch - main [MainThread]: Store serial: [23298192]
+[2024-05-21 03:04:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23298192]
+[2024-05-21 03:04:50] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-05-21 03:04:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: HiFT
+[2024-05-21 03:04:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rstms-cloudflare
+[2024-05-21 03:04:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hivemind-bus-client
+[2024-05-21 03:04:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: botocore-a-la-carte-rolesanywhere
+[2024-05-21 03:04:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: botocore-a-la-carte-trustedadvisor
+[2024-05-21 03:04:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: botocore-a-la-carte-mediastore
+[2024-05-21 03:04:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: botocore-a-la-carte-personalize
+[2024-05-21 03:04:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dj_component_view
+[2024-05-21 03:04:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: botocore-a-la-carte-ec2-instance-connect
+[2024-05-21 03:04:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: botocore-a-la-carte-mwaa
+[2024-05-21 03:04:50] INFO root fetch - processPackages [hivemind-bus-client]: New version: [0.0.4a9] Old Version: [0.0.4a8]
+[2024-05-21 03:04:50] INFO root fetch - processPackages [hivemind-bus-client]: Downloading https://files.pythonhosted.org/packages/9e/79/60cf7398e91b7d0ed44341c531b9764aec2069d9fa9b79c5edb7c505ed14/hivemind_bus_client-0.0.4a8-py3-none-any.whl
+[2024-05-21 03:04:50] INFO root fetch - processPackages [HiFT]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-21 03:04:50] INFO root fetch - processPackages [dj_component_view]: New version: [9.0] Old Version: [8.0]
+[2024-05-21 03:04:50] INFO root fetch - processPackages [rstms-cloudflare]: New version: [1.0.0] Old Version: [0.1.2]
+[2024-05-21 03:04:50] INFO root fetch - processPackages [botocore-a-la-carte-trustedadvisor]: New version: [1.34.99] Old Version: [1.34.98]
+[2024-05-21 03:04:50] INFO root fetch - processPackages [botocore-a-la-carte-mediastore]: New version: [1.34.99] Old Version: [1.34.98]
+[2024-05-21 03:04:50] INFO root fetch - processPackages [botocore-a-la-carte-personalize]: New version: [1.34.99] Old Version: [1.34.98]
+[2024-05-21 03:04:50] INFO root fetch - processPackages [botocore-a-la-carte-ec2-instance-connect]: New version: [1.34.99] Old Version: [1.34.98]
+[2024-05-21 03:04:50] INFO root fetch - processPackages [botocore-a-la-carte-mwaa]: New version: [1.34.99] Old Version: [1.34.98]
+[2024-05-21 03:04:50] INFO root fetch - processPackages [botocore-a-la-carte-rolesanywhere]: New version: [1.34.99] Old Version: [1.34.98]
+[2024-05-21 03:04:50] INFO root fetch - processPackages [botocore-a-la-carte-mediastore]: Downloading https://files.pythonhosted.org/packages/e9/f1/06dda4bad000444e954c95f64f1aac61bbab9ed43c2263e4efcdc4353acb/botocore-a-la-carte-mediastore-1.34.98.tar.gz
+[2024-05-21 03:04:50] INFO root fetch - processPackages [hivemind-bus-client]: Downloading https://files.pythonhosted.org/packages/07/9e/683aecae06cdcb3a54522b44dbcf9c0429d4677a8192a03bfe08dd970b17/hivemind_bus_client-0.0.4a9-py3-none-any.whl
+[2024-05-21 03:04:50] INFO root fetch - processPackages [HiFT]: Downloading https://files.pythonhosted.org/packages/67/39/3ebd5d6de692c4f766d244876cc808e4a05994cf01be00ce2b78b1292496/HiFT-0.0.3.tar.gz
+[2024-05-21 03:04:50] INFO root fetch - processPackages [botocore-a-la-carte-trustedadvisor]: Downloading https://files.pythonhosted.org/packages/d1/58/b63ef5ff943169d2ae22535b0b6f281c93c6c5d45a478ea9ddd85a9f094a/botocore-a-la-carte-trustedadvisor-1.34.98.tar.gz
+[2024-05-21 03:04:50] INFO root fetch - processPackages [dj_component_view]: Downloading https://files.pythonhosted.org/packages/5b/70/863a01c4ff1d75ea9a5885a810961ff0913f47e4690be69f9ad12c7e762b/dj_component_view-8.0.tar.gz
+[2024-05-21 03:04:50] INFO root fetch - processPackages [botocore-a-la-carte-personalize]: Downloading https://files.pythonhosted.org/packages/ad/35/7b3d0e562c67474f533fab09722e738d8145256d078d3a725621ee2f1027/botocore-a-la-carte-personalize-1.34.98.tar.gz
+[2024-05-21 03:04:50] INFO root fetch - processPackages [rstms-cloudflare]: Downloading https://files.pythonhosted.org/packages/75/e1/8ecbb1de8429dfe27bc20d436ae4cdf392274e34c90603186fca9554b4ca/rstms_cloudflare-0.1.2.tar.gz
+[2024-05-21 03:04:50] INFO root fetch - processPackages [botocore-a-la-carte-mwaa]: Downloading https://files.pythonhosted.org/packages/01/69/acdbf22f7d6eb874b6d26cf3bb7484006d1fc56090a46b8ac50b612274b2/botocore-a-la-carte-mwaa-1.34.98.tar.gz
+[2024-05-21 03:04:50] INFO root fetch - processPackages [botocore-a-la-carte-ec2-instance-connect]: Downloading https://files.pythonhosted.org/packages/1f/8a/599b28312a044da733db7a98adfe7921829ffd45292c56e98a7b57ae344b/botocore-a-la-carte-ec2-instance-connect-1.34.98.tar.gz
+[2024-05-21 03:04:51] INFO root fetch - processPackages [botocore-a-la-carte-rolesanywhere]: Downloading https://files.pythonhosted.org/packages/5d/e2/3b71a9c61794d55fc94ad30cf320aceff451a4777085844f976d048483d1/botocore-a-la-carte-rolesanywhere-1.34.98.tar.gz
+[2024-05-21 03:04:51] INFO root fetch - processPackages [hivemind-bus-client]: executing diffoscope
+[2024-05-21 03:04:51] INFO root fetch - processPackages [hivemind-bus-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hivemind_bus_client-0.0.4a8-py3-none-any.whl.zip tmp/hivemind_bus_client-0.0.4a9-py3-none-any.whl.zip --markdown 20240521/h/hivemind-bus-client/0.0.4a8-0.0.4a9/README.md --exclude *.pyd
+[2024-05-21 03:04:51] INFO root fetch - processPackages [botocore-a-la-carte-trustedadvisor]: Downloading https://files.pythonhosted.org/packages/8f/47/af4add8d69a62d379947c5e97a1e9c2ec6949f95721d82560a40040b14a5/botocore-a-la-carte-trustedadvisor-1.34.99.tar.gz
+[2024-05-21 03:04:51] INFO root fetch - processPackages [botocore-a-la-carte-mediastore]: Downloading https://files.pythonhosted.org/packages/46/a1/dca384548b935940369beeeb7b2c5eb611d8612cf731b81a1a61354ade1c/botocore-a-la-carte-mediastore-1.34.99.tar.gz
+[2024-05-21 03:04:51] INFO root fetch - processPackages [HiFT]: Downloading https://files.pythonhosted.org/packages/ae/39/2b8c636a9d6aca9df5a371e44e926a14e224909a69a521224ebb8255a4d0/HiFT-0.0.4.tar.gz
+[2024-05-21 03:04:51] INFO root fetch - processPackages [dj_component_view]: Downloading https://files.pythonhosted.org/packages/da/ae/357578ca8a39ac06d733ce6d0ba0f367650418d5131ae1d8d1138fa73c4b/dj_component_view-9.0.tar.gz
+[2024-05-21 03:04:51] INFO root fetch - processPackages [botocore-a-la-carte-trustedadvisor]: executing diffoscope
+[2024-05-21 03:04:51] INFO root fetch - processPackages [botocore-a-la-carte-trustedadvisor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-trustedadvisor-1.34.98.tar.gz tmp/botocore-a-la-carte-trustedadvisor-1.34.99.tar.gz --markdown 20240521/b/botocore-a-la-carte-trustedadvisor/1.34.98-1.34.99/README.md --exclude *.pyd
+[2024-05-21 03:04:51] INFO root fetch - processPackages [botocore-a-la-carte-rolesanywhere]: Downloading https://files.pythonhosted.org/packages/9c/c3/603ffc11b4125eb2cb8e255e152bf041e9c952fc50075a92d0d9dd7e4fae/botocore-a-la-carte-rolesanywhere-1.34.99.tar.gz
+[2024-05-21 03:04:51] INFO root fetch - processPackages [botocore-a-la-carte-personalize]: Downloading https://files.pythonhosted.org/packages/7a/cd/9ddf69c59b333746c4c31453abd9410741873d7d8c0f4bb18fe8d51b177a/botocore-a-la-carte-personalize-1.34.99.tar.gz
+[2024-05-21 03:04:51] INFO root fetch - processPackages [botocore-a-la-carte-mediastore]: executing diffoscope
+[2024-05-21 03:04:51] INFO root fetch - processPackages [botocore-a-la-carte-ec2-instance-connect]: Downloading https://files.pythonhosted.org/packages/c2/92/62a7c32a839eb6643ae844d1e2cc1cd56c79afc94e41cdcfe334a89baa6d/botocore-a-la-carte-ec2-instance-connect-1.34.99.tar.gz
+[2024-05-21 03:04:51] INFO root fetch - processPackages [botocore-a-la-carte-mediastore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-mediastore-1.34.98.tar.gz tmp/botocore-a-la-carte-mediastore-1.34.99.tar.gz --markdown 20240521/b/botocore-a-la-carte-mediastore/1.34.98-1.34.99/README.md --exclude *.pyd
+[2024-05-21 03:04:51] INFO root fetch - processPackages [rstms-cloudflare]: Downloading https://files.pythonhosted.org/packages/c5/11/37e3da4a3d17994ccc6944f55ccc1250ec1607587d2640026e272c6dce35/rstms_cloudflare-1.0.0.tar.gz
+[2024-05-21 03:04:51] INFO root fetch - processPackages [dj_component_view]: executing diffoscope
+[2024-05-21 03:04:51] INFO root fetch - processPackages [dj_component_view]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dj_component_view-8.0.tar.gz tmp/dj_component_view-9.0.tar.gz --markdown 20240521/d/dj_component_view/8.0-9.0/README.md --exclude *.pyd
+[2024-05-21 03:04:51] INFO root fetch - processPackages [botocore-a-la-carte-mwaa]: Downloading https://files.pythonhosted.org/packages/db/0d/34faf8e5278f3d17e7c9b05ecc3d43fda9afad6f0a991afd35807b19845b/botocore-a-la-carte-mwaa-1.34.99.tar.gz
+[2024-05-21 03:04:51] INFO root fetch - processPackages [HiFT]: executing diffoscope
+[2024-05-21 03:04:51] INFO root fetch - processPackages [HiFT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HiFT-0.0.3.tar.gz tmp/HiFT-0.0.4.tar.gz --markdown 20240521/H/HiFT/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-21 03:04:51] INFO root fetch - processPackages [botocore-a-la-carte-rolesanywhere]: executing diffoscope
+[2024-05-21 03:04:51] INFO root fetch - processPackages [botocore-a-la-carte-rolesanywhere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-rolesanywhere-1.34.98.tar.gz tmp/botocore-a-la-carte-rolesanywhere-1.34.99.tar.gz --markdown 20240521/b/botocore-a-la-carte-rolesanywhere/1.34.98-1.34.99/README.md --exclude *.pyd
+[2024-05-21 03:04:51] INFO root fetch - processPackages [botocore-a-la-carte-personalize]: executing diffoscope
+[2024-05-21 03:04:51] INFO root fetch - processPackages [botocore-a-la-carte-personalize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-personalize-1.34.98.tar.gz tmp/botocore-a-la-carte-personalize-1.34.99.tar.gz --markdown 20240521/b/botocore-a-la-carte-personalize/1.34.98-1.34.99/README.md --exclude *.pyd
+[2024-05-21 03:04:51] INFO root fetch - processPackages [botocore-a-la-carte-ec2-instance-connect]: executing diffoscope
+[2024-05-21 03:04:51] INFO root fetch - processPackages [botocore-a-la-carte-ec2-instance-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-ec2-instance-connect-1.34.98.tar.gz tmp/botocore-a-la-carte-ec2-instance-connect-1.34.99.tar.gz --markdown 20240521/b/botocore-a-la-carte-ec2-instance-connect/1.34.98-1.34.99/README.md --exclude *.pyd
+[2024-05-21 03:04:51] INFO root fetch - processPackages [rstms-cloudflare]: executing diffoscope
+[2024-05-21 03:04:51] INFO root fetch - processPackages [rstms-cloudflare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rstms_cloudflare-0.1.2.tar.gz tmp/rstms_cloudflare-1.0.0.tar.gz --markdown 20240521/r/rstms-cloudflare/0.1.2-1.0.0/README.md --exclude *.pyd
+[2024-05-21 03:04:51] INFO root fetch - processPackages [botocore-a-la-carte-mwaa]: executing diffoscope
+[2024-05-21 03:04:51] INFO root fetch - processPackages [botocore-a-la-carte-mwaa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-mwaa-1.34.98.tar.gz tmp/botocore-a-la-carte-mwaa-1.34.99.tar.gz --markdown 20240521/b/botocore-a-la-carte-mwaa/1.34.98-1.34.99/README.md --exclude *.pyd
+[2024-05-21 03:04:51] INFO root fetch - processPackages [hivemind-bus-client]: Remove: archive file [/home/abi/fetcher/tmp/hivemind_bus_client-0.0.4a8-py3-none-any.whl.zip]
+[2024-05-21 03:04:51] INFO root fetch - processPackages [hivemind-bus-client]: Remove: archive file [/home/abi/fetcher/tmp/hivemind_bus_client-0.0.4a9-py3-none-any.whl.zip]
+[2024-05-21 03:04:51] INFO root fetch - processPackages [hivemind-bus-client]: Start processing: botocore-a-la-carte-kms
+[2024-05-21 03:04:51] INFO root fetch - main [MainThread]: End processing [hivemind-bus-client]: success
+[2024-05-21 03:04:51] INFO root fetch - processPackages [botocore-a-la-carte-kms]: New version: [1.34.99] Old Version: [1.34.98]
+[2024-05-21 03:04:52] INFO root fetch - processPackages [botocore-a-la-carte-kms]: Downloading https://files.pythonhosted.org/packages/ea/bd/e8ad1587dc17dd378c35b5007b5b00406c41b71b37e2241a8d0d69e70d85/botocore-a-la-carte-kms-1.34.98.tar.gz
+[2024-05-21 03:04:52] INFO root fetch - processPackages [botocore-a-la-carte-mediastore]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-mediastore-1.34.98.tar.gz]
+[2024-05-21 03:04:52] INFO root fetch - processPackages [botocore-a-la-carte-mediastore]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-mediastore-1.34.99.tar.gz]
+[2024-05-21 03:04:52] INFO root fetch - processPackages [botocore-a-la-carte-mediastore]: Start processing: botocore-a-la-carte-honeycode
+[2024-05-21 03:04:52] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-mediastore]: success
+[2024-05-21 03:04:52] INFO root fetch - processPackages [botocore-a-la-carte-trustedadvisor]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-trustedadvisor-1.34.98.tar.gz]
+[2024-05-21 03:04:52] INFO root fetch - processPackages [botocore-a-la-carte-trustedadvisor]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-trustedadvisor-1.34.99.tar.gz]
+[2024-05-21 03:04:52] INFO root fetch - processPackages [botocore-a-la-carte-trustedadvisor]: Start processing: botocore-a-la-carte-sagemaker-a2i-runtime
+[2024-05-21 03:04:52] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-trustedadvisor]: success
+[2024-05-21 03:04:52] INFO root fetch - processPackages [dj_component_view]: Remove: archive file [/home/abi/fetcher/tmp/dj_component_view-8.0.tar.gz]
+[2024-05-21 03:04:52] INFO root fetch - processPackages [dj_component_view]: Remove: archive file [/home/abi/fetcher/tmp/dj_component_view-9.0.tar.gz]
+[2024-05-21 03:04:52] INFO root fetch - main [MainThread]: End processing [dj_component_view]: success
+[2024-05-21 03:04:52] INFO root fetch - processPackages [botocore-a-la-carte-ec2-instance-connect]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-ec2-instance-connect-1.34.98.tar.gz]
+[2024-05-21 03:04:52] INFO root fetch - processPackages [botocore-a-la-carte-ec2-instance-connect]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-ec2-instance-connect-1.34.99.tar.gz]
+[2024-05-21 03:04:52] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-ec2-instance-connect]: success
+[2024-05-21 03:04:52] INFO root fetch - processPackages [botocore-a-la-carte-personalize]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-personalize-1.34.98.tar.gz]
+[2024-05-21 03:04:52] INFO root fetch - processPackages [botocore-a-la-carte-personalize]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-personalize-1.34.99.tar.gz]
+[2024-05-21 03:04:52] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-personalize]: success
+[2024-05-21 03:04:52] INFO root fetch - processPackages [botocore-a-la-carte-rolesanywhere]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-rolesanywhere-1.34.98.tar.gz]
+[2024-05-21 03:04:52] INFO root fetch - processPackages [botocore-a-la-carte-rolesanywhere]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-rolesanywhere-1.34.99.tar.gz]
+[2024-05-21 03:04:52] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-rolesanywhere]: success
+[2024-05-21 03:04:52] INFO root fetch - processPackages [botocore-a-la-carte-kms]: Downloading https://files.pythonhosted.org/packages/94/b8/5ea5d66ff684949a988a82cfa285ed3ec747c13c2a142ad508c7a760946c/botocore-a-la-carte-kms-1.34.99.tar.gz
+[2024-05-21 03:04:52] INFO root fetch - processPackages [botocore-a-la-carte-mwaa]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-mwaa-1.34.98.tar.gz]
+[2024-05-21 03:04:52] INFO root fetch - processPackages [botocore-a-la-carte-mwaa]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-mwaa-1.34.99.tar.gz]
+[2024-05-21 03:04:52] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-mwaa]: success
+[2024-05-21 03:04:52] INFO root fetch - processPackages [HiFT]: Remove: archive file [/home/abi/fetcher/tmp/HiFT-0.0.3.tar.gz]
+[2024-05-21 03:04:52] INFO root fetch - processPackages [HiFT]: Remove: archive file [/home/abi/fetcher/tmp/HiFT-0.0.4.tar.gz]
+[2024-05-21 03:04:52] INFO root fetch - main [MainThread]: End processing [HiFT]: success
+[2024-05-21 03:04:52] INFO root fetch - processPackages [botocore-a-la-carte-honeycode]: New version: [1.34.99] Old Version: [1.34.98]
+[2024-05-21 03:04:52] INFO root fetch - processPackages [rstms-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/rstms_cloudflare-0.1.2.tar.gz]
+[2024-05-21 03:04:52] INFO root fetch - processPackages [rstms-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/rstms_cloudflare-1.0.0.tar.gz]
+[2024-05-21 03:04:52] INFO root fetch - main [MainThread]: End processing [rstms-cloudflare]: success
+[2024-05-21 03:04:52] INFO root fetch - processPackages [botocore-a-la-carte-kms]: executing diffoscope
+[2024-05-21 03:04:52] INFO root fetch - processPackages [botocore-a-la-carte-kms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-kms-1.34.98.tar.gz tmp/botocore-a-la-carte-kms-1.34.99.tar.gz --markdown 20240521/b/botocore-a-la-carte-kms/1.34.98-1.34.99/README.md --exclude *.pyd
+[2024-05-21 03:04:52] INFO root fetch - processPackages [botocore-a-la-carte-sagemaker-a2i-runtime]: New version: [1.34.99] Old Version: [1.34.98]
+[2024-05-21 03:04:52] INFO root fetch - processPackages [botocore-a-la-carte-honeycode]: Downloading https://files.pythonhosted.org/packages/47/1c/c9324d74690d15b334028052de546675b60be50e742fe3751b5cc1e808c5/botocore-a-la-carte-honeycode-1.34.98.tar.gz
+[2024-05-21 03:04:53] INFO root fetch - processPackages [botocore-a-la-carte-sagemaker-a2i-runtime]: Downloading https://files.pythonhosted.org/packages/7b/31/a079aa7d8f437c99eb547d40d36005b472c0f3c69117662fbc5fb8dc1dae/botocore-a-la-carte-sagemaker-a2i-runtime-1.34.98.tar.gz
+[2024-05-21 03:04:53] INFO root fetch - processPackages [botocore-a-la-carte-kms]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-kms-1.34.98.tar.gz]
+[2024-05-21 03:04:53] INFO root fetch - processPackages [botocore-a-la-carte-kms]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-kms-1.34.99.tar.gz]
+[2024-05-21 03:04:53] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-kms]: success
+[2024-05-21 03:04:53] INFO root fetch - processPackages [botocore-a-la-carte-honeycode]: Downloading https://files.pythonhosted.org/packages/1a/60/be59bdec60158bb586fbf6471662de84a41aacab9ddf2c881566e2420d3e/botocore-a-la-carte-honeycode-1.34.99.tar.gz
+[2024-05-21 03:04:53] INFO root fetch - processPackages [botocore-a-la-carte-honeycode]: executing diffoscope
+[2024-05-21 03:04:53] INFO root fetch - processPackages [botocore-a-la-carte-honeycode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-honeycode-1.34.98.tar.gz tmp/botocore-a-la-carte-honeycode-1.34.99.tar.gz --markdown 20240521/b/botocore-a-la-carte-honeycode/1.34.98-1.34.99/README.md --exclude *.pyd
+[2024-05-21 03:04:53] INFO root fetch - processPackages [botocore-a-la-carte-sagemaker-a2i-runtime]: Downloading https://files.pythonhosted.org/packages/57/3c/4e492026e0f271ac86c6f07c7bc16326ef21b3b55be35540c12bdba712d4/botocore-a-la-carte-sagemaker-a2i-runtime-1.34.99.tar.gz
+[2024-05-21 03:04:53] INFO root fetch - processPackages [botocore-a-la-carte-sagemaker-a2i-runtime]: executing diffoscope
+[2024-05-21 03:04:53] INFO root fetch - processPackages [botocore-a-la-carte-sagemaker-a2i-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-sagemaker-a2i-runtime-1.34.98.tar.gz tmp/botocore-a-la-carte-sagemaker-a2i-runtime-1.34.99.tar.gz --markdown 20240521/b/botocore-a-la-carte-sagemaker-a2i-runtime/1.34.98-1.34.99/README.md --exclude *.pyd
+[2024-05-21 03:04:53] INFO root fetch - processPackages [botocore-a-la-carte-honeycode]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-honeycode-1.34.98.tar.gz]
+[2024-05-21 03:04:53] INFO root fetch - processPackages [botocore-a-la-carte-honeycode]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-honeycode-1.34.99.tar.gz]
+[2024-05-21 03:04:53] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-honeycode]: success
+[2024-05-21 03:04:53] INFO root fetch - processPackages [botocore-a-la-carte-sagemaker-a2i-runtime]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-sagemaker-a2i-runtime-1.34.98.tar.gz]
+[2024-05-21 03:04:53] INFO root fetch - processPackages [botocore-a-la-carte-sagemaker-a2i-runtime]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-sagemaker-a2i-runtime-1.34.99.tar.gz]
+[2024-05-21 03:04:54] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-sagemaker-a2i-runtime]: success
+[2024-05-21 03:04:54] INFO root fetch - main [MainThread]: Store serial: [23298219]
