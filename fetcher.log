@@ -14806,3 +14806,92 @@
 [2024-05-21 09:26:44] INFO root fetch - processPackages [argus-api]: Remove: archive file [/home/abi/fetcher/tmp/argus_api-3.9.0.tar.gz]
 [2024-05-21 09:26:44] INFO root fetch - main [MainThread]: End processing [argus-api]: success
 [2024-05-21 09:26:44] INFO root fetch - main [MainThread]: Store serial: [23302464]
+[2024-05-21 09:28:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23302464]
+[2024-05-21 09:28:53] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-21 09:28:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ETH-GTD-cli
+[2024-05-21 09:28:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jy_lib
+[2024-05-21 09:28:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Geode-Background
+[2024-05-21 09:28:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: plantdrppred
+[2024-05-21 09:28:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pms-furiosa-processor
+[2024-05-21 09:28:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ansitable
+[2024-05-21 09:28:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: apimatic-core
+[2024-05-21 09:28:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: data4llm
+[2024-05-21 09:28:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: structstore
+[2024-05-21 09:28:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: slot-can
+[2024-05-21 09:28:53] INFO root fetch - processPackages [plantdrppred]: New version: [1.1] Old Version: [1.0]
+[2024-05-21 09:28:53] INFO root fetch - processPackages [ETH-GTD-cli]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-21 09:28:53] INFO root fetch - processPackages [apimatic-core]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-21 09:28:53] INFO root fetch - processPackages [data4llm]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-05-21 09:28:53] INFO root fetch - processPackages [ETH-GTD-cli]: Downloading https://files.pythonhosted.org/packages/fa/bf/f37225e39cf80233dda242202230d3aa7858202e0130177c173dff3cccac/eth_gtd_cli-0.0.5.tar.gz
+[2024-05-21 09:28:53] INFO root fetch - processPackages [pms-furiosa-processor]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-21 09:28:54] INFO root fetch - processPackages [ansitable]: New version: [0.9.9] Old Version: [0.9.7]
+[2024-05-21 09:28:54] INFO root fetch - processPackages [slot-can]: New version: [1.0] Old Version: [0.2.0]
+[2024-05-21 09:28:54] INFO root fetch - processPackages [apimatic-core]: Downloading https://files.pythonhosted.org/packages/cb/14/64f1f595d53ef8e97a752ee8f59e9612c14e9f1f233c2cfd416c0544303b/apimatic-core-0.2.8.tar.gz
+[2024-05-21 09:28:54] INFO root fetch - processPackages [structstore]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-21 09:28:54] INFO root fetch - processPackages [Geode-Background]: New version: [7.9.9rc1] Old Version: [7.9.8rc1]
+[2024-05-21 09:28:54] INFO root fetch - processPackages [jy_lib]: New version: [0.7.7] Old Version: [0.7.6]
+[2024-05-21 09:28:54] INFO root fetch - processPackages [plantdrppred]: Downloading https://files.pythonhosted.org/packages/86/a2/1d345b8cea82b329d34c07338c88b35a399365af5d9d61696ccae50b26bb/plantdrppred-1.0.tar.gz
+[2024-05-21 09:28:54] WARNING root fetch - processPackages [plantdrppred]: Skipping package: exceeds size limit 61316373>=10485760
+[2024-05-21 09:28:54] INFO root fetch - main [MainThread]: End processing [plantdrppred] error
+[2024-05-21 09:28:54] INFO root fetch - processPackages [data4llm]: Downloading https://files.pythonhosted.org/packages/9f/1c/fbec962d59c602880e6d5106e07aa2abf60ad4b6fe1cd72b4ccc9da7d4d1/data4llm-0.3.0.tar.gz
+[2024-05-21 09:28:54] INFO root fetch - processPackages [pms-furiosa-processor]: Downloading https://files.pythonhosted.org/packages/bc/8f/5f0781ea04895d6a394dc1d80c686ebd7af4b871de01731cc9632ff4f393/pms_furiosa_processor-0.1.0.tar.gz
+[2024-05-21 09:28:54] INFO root fetch - processPackages [ansitable]: Downloading https://files.pythonhosted.org/packages/a8/f3/f9663221828088e39e1f410a9d87951ed376000a7b4644e3c61b5b0d8ae0/ansitable-0.9.7.tar.gz
+[2024-05-21 09:28:54] INFO root fetch - processPackages [slot-can]: Downloading https://files.pythonhosted.org/packages/97/26/51ab58fe6943c6cd4ff8f315a15fa1e4db61d2ce868bc68197c16662b6f4/slot_can-0.2-py3-none-any.whl
+[2024-05-21 09:28:54] INFO root fetch - processPackages [ETH-GTD-cli]: Downloading https://files.pythonhosted.org/packages/6a/74/b21a71d538176d49ec154051347ee067a9f4c12f713be212c60f0982d748/eth_gtd_cli-0.0.6.tar.gz
+[2024-05-21 09:28:54] INFO root fetch - processPackages [jy_lib]: Downloading https://files.pythonhosted.org/packages/6e/08/f5b48c5734c78de59113c43644f39ac7849c076af11b3e40d0cc87409165/jy_lib-0.7.6.tar.gz
+[2024-05-21 09:28:54] INFO root fetch - processPackages [apimatic-core]: Downloading https://files.pythonhosted.org/packages/24/59/4bb2384453b58dc5870601c747280e8e61abb667e44b97d9abcf78f1b38e/apimatic_core-0.2.9.tar.gz
+[2024-05-21 09:28:54] INFO root fetch - processPackages [structstore]: Downloading https://files.pythonhosted.org/packages/26/30/6ba905f8bc04c05c89b16eff2fd3e63f4a736d68f866b4ea213cb98a3bd1/structstore-0.1.4.tar.gz
+[2024-05-21 09:28:54] INFO root fetch - processPackages [Geode-Background]: Downloading https://files.pythonhosted.org/packages/5a/bf/e3b335021e2827df1ff360ae972cac70607b2685fe93041a505c3564eb03/Geode_Background-7.9.8rc1-cp39-cp39-win_amd64.whl
+[2024-05-21 09:28:54] INFO root fetch - processPackages [ETH-GTD-cli]: executing diffoscope
+[2024-05-21 09:28:54] INFO root fetch - processPackages [ETH-GTD-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eth_gtd_cli-0.0.5.tar.gz tmp/eth_gtd_cli-0.0.6.tar.gz --markdown 20240521/E/ETH-GTD-cli/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-21 09:28:54] INFO root fetch - processPackages [apimatic-core]: executing diffoscope
+[2024-05-21 09:28:54] INFO root fetch - processPackages [apimatic-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apimatic-core-0.2.8.tar.gz tmp/apimatic_core-0.2.9.tar.gz --markdown 20240521/a/apimatic-core/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-21 09:28:54] INFO root fetch - processPackages [pms-furiosa-processor]: Downloading https://files.pythonhosted.org/packages/84/5d/625db583e53576cc75c99b770de2183837f657949086faa3e3da0e5ae6e3/pms_furiosa_processor-0.2.0.tar.gz
+[2024-05-21 09:28:54] INFO root fetch - processPackages [data4llm]: Downloading https://files.pythonhosted.org/packages/85/90/eebe9794ed301c02814c8649f84bb193d767b8c54b2588eb51e2d2258404/data4llm-0.4.0.tar.gz
+[2024-05-21 09:28:54] INFO root fetch - processPackages [jy_lib]: Downloading https://files.pythonhosted.org/packages/28/6e/958e21183dd2008b1803802258d4d5f368a3c3663adfb2c69ba700f1522b/jy_lib-0.7.7.tar.gz
+[2024-05-21 09:28:54] INFO root fetch - processPackages [ansitable]: Downloading https://files.pythonhosted.org/packages/e5/12/c4600ba3be721b2de4e0f644e5cc08fc0ccc7381b897840dd6f8481f0219/ansitable-0.9.9.tar.gz
+[2024-05-21 09:28:54] INFO root fetch - processPackages [pms-furiosa-processor]: executing diffoscope
+[2024-05-21 09:28:54] INFO root fetch - processPackages [pms-furiosa-processor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pms_furiosa_processor-0.1.0.tar.gz tmp/pms_furiosa_processor-0.2.0.tar.gz --markdown 20240521/p/pms-furiosa-processor/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-21 09:28:54] INFO root fetch - processPackages [structstore]: Downloading https://files.pythonhosted.org/packages/c0/d7/3ed9d0583713541c9b7b0a4c3c1f8fb4cbafd8e7cea3baedd39314a1edab/structstore-0.1.5.tar.gz
+[2024-05-21 09:28:54] INFO root fetch - processPackages [slot-can]: Downloading https://files.pythonhosted.org/packages/2b/b5/9cf0b40a473ca00af2d4f219f60a53fc5dffef71b6794729b4b573d01a41/slot_can-1.0.tar.gz
+[2024-05-21 09:28:54] INFO root fetch - processPackages [data4llm]: executing diffoscope
+[2024-05-21 09:28:54] INFO root fetch - processPackages [data4llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data4llm-0.3.0.tar.gz tmp/data4llm-0.4.0.tar.gz --markdown 20240521/d/data4llm/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-05-21 09:28:54] INFO root fetch - processPackages [jy_lib]: executing diffoscope
+[2024-05-21 09:28:54] INFO root fetch - processPackages [jy_lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jy_lib-0.7.6.tar.gz tmp/jy_lib-0.7.7.tar.gz --markdown 20240521/j/jy_lib/0.7.6-0.7.7/README.md --exclude *.pyd
+[2024-05-21 09:28:54] INFO root fetch - processPackages [ansitable]: executing diffoscope
+[2024-05-21 09:28:54] INFO root fetch - processPackages [ansitable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansitable-0.9.7.tar.gz tmp/ansitable-0.9.9.tar.gz --markdown 20240521/a/ansitable/0.9.7-0.9.9/README.md --exclude *.pyd
+[2024-05-21 09:28:54] INFO root fetch - processPackages [structstore]: executing diffoscope
+[2024-05-21 09:28:54] INFO root fetch - processPackages [structstore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/structstore-0.1.4.tar.gz tmp/structstore-0.1.5.tar.gz --markdown 20240521/s/structstore/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-21 09:28:55] INFO root fetch - processPackages [ETH-GTD-cli]: Remove: archive file [/home/abi/fetcher/tmp/eth_gtd_cli-0.0.5.tar.gz]
+[2024-05-21 09:28:55] INFO root fetch - processPackages [ETH-GTD-cli]: Remove: archive file [/home/abi/fetcher/tmp/eth_gtd_cli-0.0.6.tar.gz]
+[2024-05-21 09:28:55] INFO root fetch - main [MainThread]: End processing [ETH-GTD-cli]: success
+[2024-05-21 09:28:55] INFO root fetch - processPackages [slot-can]: executing diffoscope
+[2024-05-21 09:28:55] INFO root fetch - processPackages [slot-can]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slot_can-0.2-py3-none-any.whl.zip tmp/slot_can-1.0.tar.gz --markdown 20240521/s/slot-can/0.2.0-1.0/README.md --exclude *.pyd
+[2024-05-21 09:28:55] INFO root fetch - processPackages [apimatic-core]: Remove: archive file [/home/abi/fetcher/tmp/apimatic-core-0.2.8.tar.gz]
+[2024-05-21 09:28:55] INFO root fetch - processPackages [apimatic-core]: Remove: archive file [/home/abi/fetcher/tmp/apimatic_core-0.2.9.tar.gz]
+[2024-05-21 09:28:55] INFO root fetch - main [MainThread]: End processing [apimatic-core]: success
+[2024-05-21 09:28:55] INFO root fetch - processPackages [data4llm]: Remove: archive file [/home/abi/fetcher/tmp/data4llm-0.3.0.tar.gz]
+[2024-05-21 09:28:55] INFO root fetch - processPackages [data4llm]: Remove: archive file [/home/abi/fetcher/tmp/data4llm-0.4.0.tar.gz]
+[2024-05-21 09:28:55] INFO root fetch - main [MainThread]: End processing [data4llm]: success
+[2024-05-21 09:28:55] INFO root fetch - processPackages [jy_lib]: Remove: archive file [/home/abi/fetcher/tmp/jy_lib-0.7.6.tar.gz]
+[2024-05-21 09:28:55] INFO root fetch - processPackages [jy_lib]: Remove: archive file [/home/abi/fetcher/tmp/jy_lib-0.7.7.tar.gz]
+[2024-05-21 09:28:55] INFO root fetch - main [MainThread]: End processing [jy_lib]: success
+[2024-05-21 09:28:55] INFO root fetch - processPackages [pms-furiosa-processor]: Remove: archive file [/home/abi/fetcher/tmp/pms_furiosa_processor-0.1.0.tar.gz]
+[2024-05-21 09:28:55] INFO root fetch - processPackages [pms-furiosa-processor]: Remove: archive file [/home/abi/fetcher/tmp/pms_furiosa_processor-0.2.0.tar.gz]
+[2024-05-21 09:28:55] INFO root fetch - main [MainThread]: End processing [pms-furiosa-processor]: success
+[2024-05-21 09:28:55] INFO root fetch - processPackages [structstore]: Remove: archive file [/home/abi/fetcher/tmp/structstore-0.1.4.tar.gz]
+[2024-05-21 09:28:55] INFO root fetch - processPackages [structstore]: Remove: archive file [/home/abi/fetcher/tmp/structstore-0.1.5.tar.gz]
+[2024-05-21 09:28:55] INFO root fetch - main [MainThread]: End processing [structstore]: success
+[2024-05-21 09:28:55] INFO root fetch - processPackages [ansitable]: Remove: archive file [/home/abi/fetcher/tmp/ansitable-0.9.7.tar.gz]
+[2024-05-21 09:28:55] INFO root fetch - processPackages [ansitable]: Remove: archive file [/home/abi/fetcher/tmp/ansitable-0.9.9.tar.gz]
+[2024-05-21 09:28:55] INFO root fetch - main [MainThread]: End processing [ansitable]: success
+[2024-05-21 09:28:55] INFO root fetch - processPackages [Geode-Background]: Downloading https://files.pythonhosted.org/packages/e7/59/e7a9d607659c396cb7a07b401fa00123b409a1354279498b3451a4f494f5/Geode_Background-7.9.9rc1-cp39-cp39-manylinux2014_x86_64.whl
+[2024-05-21 09:28:56] INFO root fetch - processPackages [slot-can]: Remove: archive file [/home/abi/fetcher/tmp/slot_can-0.2-py3-none-any.whl.zip]
+[2024-05-21 09:28:56] INFO root fetch - processPackages [slot-can]: Remove: archive file [/home/abi/fetcher/tmp/slot_can-1.0.tar.gz]
+[2024-05-21 09:28:56] INFO root fetch - main [MainThread]: End processing [slot-can]: success
+[2024-05-21 09:28:56] INFO root fetch - processPackages [Geode-Background]: executing diffoscope
+[2024-05-21 09:28:56] INFO root fetch - processPackages [Geode-Background]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Background-7.9.8rc1-cp39-cp39-win_amd64.whl.zip tmp/Geode_Background-7.9.9rc1-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20240521/G/Geode-Background/7.9.8rc1-7.9.9rc1/README.md --exclude *.pyd
+[2024-05-21 09:28:57] INFO root fetch - processPackages [Geode-Background]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Background-7.9.8rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-05-21 09:28:57] INFO root fetch - processPackages [Geode-Background]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Background-7.9.9rc1-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-05-21 09:28:57] INFO root fetch - main [MainThread]: End processing [Geode-Background]: success
+[2024-05-21 09:28:57] INFO root fetch - main [MainThread]: Store serial: [23302495]

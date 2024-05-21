@@ -1,0 +1,1727 @@
+# Comparing `tmp/data4llm-0.3.0.tar.gz` & `tmp/data4llm-0.4.0.tar.gz`
+
+## filetype from file(1)
+
+```diff
+@@ -1 +1 @@
+-gzip compressed data, was "data4llm-0.3.0.tar", last modified: Wed Nov  8 08:58:49 2023, max compression
++gzip compressed data, was "dist\data4llm-0.4.0.tar", last modified: Tue May 21 07:27:44 2024, max compression
+```
+
+## Comparing `data4llm-0.3.0.tar` & `data4llm-0.4.0.tar`
+
+### file list
+
+```diff
+@@ -1,22 +1,14 @@
+-drwxr-xr-x   0 admin      (501) staff       (20)        0 2023-11-08 08:58:49.197158 data4llm-0.3.0/
+--rw-r--r--   0 admin      (501) staff       (20)     1066 2023-08-02 06:36:22.000000 data4llm-0.3.0/LICENSE.txt
+--rw-r--r--   0 admin      (501) staff       (20)       41 2023-11-08 08:56:45.000000 data4llm-0.3.0/MANIFEST.in
+--rw-r--r--   0 admin      (501) staff       (20)     9819 2023-11-08 08:58:49.196982 data4llm-0.3.0/PKG-INFO
+--rw-r--r--   0 admin      (501) staff       (20)     9370 2023-11-08 08:57:41.000000 data4llm-0.3.0/README.md
+-drwxr-xr-x   0 admin      (501) staff       (20)        0 2023-11-08 08:58:49.195220 data4llm-0.3.0/data4llm/
+--rw-r--r--   0 admin      (501) staff       (20)    23951 2023-11-08 08:50:38.000000 data4llm-0.3.0/data4llm/Data4LLM.py
+--rw-r--r--   0 admin      (501) staff       (20)        0 2023-08-07 06:34:51.000000 data4llm-0.3.0/data4llm/__init__.py
+--rw-r--r--   0 admin      (501) staff       (20)     9131 2023-07-25 03:06:13.000000 data4llm-0.3.0/data4llm/stopwords.txt
+-drwxr-xr-x   0 admin      (501) staff       (20)        0 2023-11-08 08:58:49.195784 data4llm-0.3.0/data4llm.egg-info/
+--rw-r--r--   0 admin      (501) staff       (20)     9819 2023-11-08 08:58:49.000000 data4llm-0.3.0/data4llm.egg-info/PKG-INFO
+--rw-r--r--   0 admin      (501) staff       (20)      356 2023-11-08 08:58:49.000000 data4llm-0.3.0/data4llm.egg-info/SOURCES.txt
+--rw-r--r--   0 admin      (501) staff       (20)        1 2023-11-08 08:58:49.000000 data4llm-0.3.0/data4llm.egg-info/dependency_links.txt
+--rw-r--r--   0 admin      (501) staff       (20)       73 2023-11-08 08:58:49.000000 data4llm-0.3.0/data4llm.egg-info/requires.txt
+--rw-r--r--   0 admin      (501) staff       (20)        9 2023-11-08 08:58:49.000000 data4llm-0.3.0/data4llm.egg-info/top_level.txt
+-drwxr-xr-x   0 admin      (501) staff       (20)        0 2023-11-08 08:58:49.196694 data4llm-0.3.0/imgs/
+--rw-r--r--   0 admin      (501) staff       (20)   108346 2023-11-08 07:35:46.000000 data4llm-0.3.0/imgs/I.filter.png
+--rw-r--r--   0 admin      (501) staff       (20)    74025 2023-11-08 07:33:14.000000 data4llm-0.3.0/imgs/II.concat two into one.png
+--rw-r--r--   0 admin      (501) staff       (20)   182808 2023-11-08 07:28:46.000000 data4llm-0.3.0/imgs/III.one2more.png
+--rw-r--r--   0 admin      (501) staff       (20)   155435 2023-11-08 07:46:09.000000 data4llm-0.3.0/imgs/data4llm.png
+--rw-r--r--   0 admin      (501) staff       (20)       38 2023-11-08 08:58:49.197196 data4llm-0.3.0/setup.cfg
+--rw-r--r--   0 admin      (501) staff       (20)     1226 2023-11-08 08:57:11.000000 data4llm-0.3.0/setup.py
++drwxrwxrwx   0        0        0        0 2024-05-21 07:27:44.275266 data4llm-0.4.0/
++-rw-rw-rw-   0        0        0     1087 2024-05-21 06:49:34.000000 data4llm-0.4.0/LICENSE.txt
++-rw-rw-rw-   0        0        0      549 2024-05-21 07:27:44.274266 data4llm-0.4.0/PKG-INFO
++-rw-rw-rw-   0        0        0     9956 2024-05-21 07:22:52.000000 data4llm-0.4.0/README.md
++drwxrwxrwx   0        0        0        0 2024-05-21 07:27:44.266265 data4llm-0.4.0/data4llm/
++-rw-rw-rw-   0        0        0    27506 2024-05-20 11:41:38.000000 data4llm-0.4.0/data4llm/Data4LLM.py
++-rw-rw-rw-   0        0        0        0 2024-05-21 06:49:34.000000 data4llm-0.4.0/data4llm/__init__.py
++drwxrwxrwx   0        0        0        0 2024-05-21 07:27:44.273268 data4llm-0.4.0/data4llm.egg-info/
++-rw-rw-rw-   0        0        0      549 2024-05-21 07:27:43.000000 data4llm-0.4.0/data4llm.egg-info/PKG-INFO
++-rw-rw-rw-   0        0        0      200 2024-05-21 07:27:43.000000 data4llm-0.4.0/data4llm.egg-info/SOURCES.txt
++-rw-rw-rw-   0        0        0        1 2024-05-21 07:27:43.000000 data4llm-0.4.0/data4llm.egg-info/dependency_links.txt
++-rw-rw-rw-   0        0        0        9 2024-05-21 07:27:43.000000 data4llm-0.4.0/data4llm.egg-info/top_level.txt
++-rw-rw-rw-   0        0        0       42 2024-05-21 07:27:44.275266 data4llm-0.4.0/setup.cfg
++-rw-rw-rw-   0        0        0     1129 2024-05-21 07:27:28.000000 data4llm-0.4.0/setup.py
+```
+
+### Comparing `data4llm-0.3.0/LICENSE.txt` & `data4llm-0.4.0/LICENSE.txt`
+
+ * *Ordering differences only*
+
+ * *Files 10% similar despite different names*
+
+```diff
+@@ -1,21 +1,21 @@
+-MIT License
+-
+-Copyright (c) 2023 SweeneyHe
+-
+-Permission is hereby granted, free of charge, to any person obtaining a copy
+-of this software and associated documentation files (the "Software"), to deal
+-in the Software without restriction, including without limitation the rights
+-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+-copies of the Software, and to permit persons to whom the Software is
+-furnished to do so, subject to the following conditions:
+-
+-The above copyright notice and this permission notice shall be included in all
+-copies or substantial portions of the Software.
+-
+-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+-SOFTWARE.
++MIT License
++
++Copyright (c) 2023 SweeneyHe
++
++Permission is hereby granted, free of charge, to any person obtaining a copy
++of this software and associated documentation files (the "Software"), to deal
++in the Software without restriction, including without limitation the rights
++to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
++copies of the Software, and to permit persons to whom the Software is
++furnished to do so, subject to the following conditions:
++
++The above copyright notice and this permission notice shall be included in all
++copies or substantial portions of the Software.
++
++THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
++IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
++FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
++AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
++LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
++OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
++SOFTWARE.
+```
+
+### Comparing `data4llm-0.3.0/PKG-INFO` & `data4llm-0.4.0/README.md`
+
+ * *Files 16% similar despite different names*
+
+```diff
+@@ -1,614 +1,623 @@
+-00000000: 4d65 7461 6461 7461 2d56 6572 7369 6f6e  Metadata-Version
+-00000010: 3a20 322e 310a 4e61 6d65 3a20 6461 7461  : 2.1.Name: data
+-00000020: 346c 6c6d 0a56 6572 7369 6f6e 3a20 302e  4llm.Version: 0.
+-00000030: 332e 300a 5375 6d6d 6172 793a 2054 6865  3.0.Summary: The
+-00000040: 2073 696d 706c 6520 616e 6420 7573 6566   simple and usef
+-00000050: 756c 2064 6174 6120 7072 6f63 6573 7320  ul data process 
+-00000060: 746f 6f6c 2066 6f72 204c 4c4d 0a48 6f6d  tool for LLM.Hom
+-00000070: 652d 7061 6765 3a20 6874 7470 733a 2f2f  e-page: https://
+-00000080: 6769 7468 7562 2e63 6f6d 2f53 5745 454e  github.com/SWEEN
+-00000090: 4559 4845 2f44 6174 6134 4c4c 4d0a 4175  EYHE/Data4LLM.Au
+-000000a0: 7468 6f72 3a20 5377 6565 6e65 7948 650a  thor: SweeneyHe.
+-000000b0: 4175 7468 6f72 2d65 6d61 696c 3a20 7377  Author-email: sw
+-000000c0: 6565 6e65 7961 6e64 6865 4067 6d61 696c  eeneyandhe@gmail
+-000000d0: 2e63 6f6d 0a43 6c61 7373 6966 6965 723a  .com.Classifier:
+-000000e0: 2050 726f 6772 616d 6d69 6e67 204c 616e   Programming Lan
+-000000f0: 6775 6167 6520 3a3a 2050 7974 686f 6e20  guage :: Python 
+-00000100: 3a3a 2033 0a43 6c61 7373 6966 6965 723a  :: 3.Classifier:
+-00000110: 204c 6963 656e 7365 203a 3a20 4f53 4920   License :: OSI 
+-00000120: 4170 7072 6f76 6564 203a 3a20 4d49 5420  Approved :: MIT 
+-00000130: 4c69 6365 6e73 650a 436c 6173 7369 6669  License.Classifi
+-00000140: 6572 3a20 4f70 6572 6174 696e 6720 5379  er: Operating Sy
+-00000150: 7374 656d 203a 3a20 4f53 2049 6e64 6570  stem :: OS Indep
+-00000160: 656e 6465 6e74 0a52 6571 7569 7265 732d  endent.Requires-
+-00000170: 5079 7468 6f6e 3a20 3e3d 332e 380a 4465  Python: >=3.8.De
+-00000180: 7363 7269 7074 696f 6e2d 436f 6e74 656e  scription-Conten
+-00000190: 742d 5479 7065 3a20 7465 7874 2f6d 6172  t-Type: text/mar
+-000001a0: 6b64 6f77 6e0a 4c69 6365 6e73 652d 4669  kdown.License-Fi
+-000001b0: 6c65 3a20 4c49 4345 4e53 452e 7478 740a  le: LICENSE.txt.
+-000001c0: 0a23 2044 6174 6134 4c4c 4d0a 3c64 6976  .# Data4LLM.<div
+-000001d0: 2061 6c69 676e 3d22 6365 6e74 6572 223e   align="center">
+-000001e0: 200a 3c61 2068 7265 663d 2268 7474 7073   .<a href="https
+-000001f0: 3a2f 2f67 6974 6875 622e 636f 6d2f 5357  ://github.com/SW
+-00000200: 4545 4e45 5948 452f 4461 7461 344c 4c4d  EENEYHE/Data4LLM
+-00000210: 2f62 6c6f 622f 6d61 696e 2f4c 4943 454e  /blob/main/LICEN
+-00000220: 5345 2e74 7874 223e 0a3c 696d 6720 616c  SE.txt">.<img al
+-00000230: 743d 2253 7461 7469 6320 4261 6467 6522  t="Static Badge"
+-00000240: 2073 7263 3d22 6874 7470 733a 2f2f 696d   src="https://im
+-00000250: 672e 7368 6965 6c64 732e 696f 2f62 6164  g.shields.io/bad
+-00000260: 6765 2f6c 6963 656e 7365 2d4d 4954 2d67  ge/license-MIT-g
+-00000270: 7265 656e 223e 0a3c 2f61 3e0a 3c61 2068  reen">.</a>.<a h
+-00000280: 7265 663d 2268 7474 7073 3a2f 2f70 7970  ref="https://pyp
+-00000290: 692e 6f72 672f 7072 6f6a 6563 742f 6461  i.org/project/da
+-000002a0: 7461 346c 6c6d 2f30 2e33 2e30 2f22 3e0a  ta4llm/0.3.0/">.
+-000002b0: 3c69 6d67 2061 6c74 3d22 5374 6174 6963  <img alt="Static
+-000002c0: 2042 6164 6765 2220 7372 633d 2268 7474   Badge" src="htt
+-000002d0: 7073 3a2f 2f69 6d67 2e73 6869 656c 6473  ps://img.shields
+-000002e0: 2e69 6f2f 6261 6467 652f 7079 7069 2d30  .io/badge/pypi-0
+-000002f0: 2e33 2e30 2d62 6c75 6522 3e0a 3c2f 613e  .3.0-blue">.</a>
+-00000300: 0a3c 2f64 6976 3e0a 0a23 2323 2054 6865  .</div>..### The
+-00000310: 2073 696d 706c 6520 616e 6420 7573 6566   simple and usef
+-00000320: 756c 2064 6174 6120 7072 6f63 6573 7320  ul data process 
+-00000330: 746f 6f6c 2066 6f72 204c 4c4d 2060 6461  tool for LLM `da
+-00000340: 7461 346c 6c6d 600a 6064 6174 6134 6c6c  ta4llm`.`data4ll
+-00000350: 6d60 2069 7320 6120 6a73 6f6e 2026 206a  m` is a json & j
+-00000360: 736f 6e6c 696e 6520 7072 6f63 6573 7320  sonline process 
+-00000370: 746f 6f6c 2c20 7768 6963 6820 7275 6e73  tool, which runs
+-00000380: 2077 656c 6c20 696e 206d 696c 6c69 6f6e   well in million
+-00000390: 7320 6e75 6d62 6572 206c 6576 656c 2c20  s number level, 
+-000003a0: 7768 6963 6820 6661 6369 6c69 7461 7465  which facilitate
+-000003b0: 7320 7468 6520 636f 6e73 7472 7563 7469  s the constructi
+-000003c0: 6f6e 2070 726f 6365 7373 696f 6e20 6f66  on procession of
+-000003d0: 206d 696c 6c69 6f6e 7320 6f66 2064 6174   millions of dat
+-000003e0: 6120 746f 2063 6f6e 7469 6e75 652d 7072  a to continue-pr
+-000003f0: 6574 7261 696e 2061 6e64 2066 696e 6574  etrain and finet
+-00000400: 756e 6520 796f 7572 204c 4c4d 2e20 5468  une your LLM. Th
+-00000410: 6520 6375 7272 656e 7420 6672 616d 6577  e current framew
+-00000420: 6f72 6b20 7368 6f77 2062 656c 6f77 3a0a  ork show below:.
+-00000430: 215b 6461 7461 346c 6c6d 2e70 6e67 5d28  ![data4llm.png](
+-00000440: 696d 6773 2f64 6174 6134 6c6c 6d2e 706e  imgs/data4llm.pn
+-00000450: 6729 0a23 2069 6e73 7461 6c6c 0a60 6060  g).# install.```
+-00000460: 0a70 6970 2069 6e73 7461 6c6c 2064 6174  .pip install dat
+-00000470: 6134 6c6c 6d0a 6060 600a 2320 4150 490a  a4llm.```.# API.
+-00000480: 2323 2053 4654 0a60 6060 7079 7468 6f6e  ## SFT.```python
+-00000490: 0a66 726f 6d20 6461 7461 346c 6c6d 2e44  .from data4llm.D
+-000004a0: 6174 6134 4c4c 4d20 696d 706f 7274 2053  ata4LLM import S
+-000004b0: 4654 0a60 6060 0a0a 2323 2320 312e 466f  FT.```..### 1.Fo
+-000004c0: 7220 6669 6c65 206c 6576 656c 0a23 2323  r file level.###
+-000004d0: 2320 2831 2920 6d65 7267 6520 6669 6c65  # (1) merge file
+-000004e0: 730a 6d65 7267 6520 616c 6c20 7468 6520  s.merge all the 
+-000004f0: 6a73 6f6e 6c69 6e65 7320 6669 6c65 7320  jsonlines files 
+-00000500: 7769 7468 2073 6875 6666 6c65 0a60 6060  with shuffle.```
+-00000510: 7079 7468 6f6e 0a69 6d70 6f72 7420 676c  python.import gl
+-00000520: 6f62 0a66 726f 6d20 6461 7461 346c 6c6d  ob.from data4llm
+-00000530: 2069 6d70 6f72 7420 4461 7461 344c 4c4d   import Data4LLM
+-00000540: 0a0a 6669 6c65 7320 3d20 676c 6f62 2822  ..files = glob("
+-00000550: 6469 722f 2a2e 6a73 6f6e 6c22 290a 4461  dir/*.jsonl").Da
+-00000560: 7461 344c 4c4d 2e6d 6572 6765 5f66 696c  ta4LLM.merge_fil
+-00000570: 6573 2866 696c 6573 3d66 696c 6573 290a  es(files=files).
+-00000580: 6060 600a 2323 2323 2028 3229 2073 706c  ```.#### (2) spl
+-00000590: 6974 2066 696c 6573 2074 6f20 7472 6169  it files to trai
+-000005a0: 6e20 616e 6420 7465 7374 2066 696c 650a  n and test file.
+-000005b0: 0a60 6060 7079 7468 6f6e 0a66 726f 6d20  .```python.from 
+-000005c0: 6461 7461 346c 6c6d 2e44 6174 6134 4c4c  data4llm.Data4LL
+-000005d0: 4d20 696d 706f 7274 2053 4654 0a0a 5346  M import SFT..SF
+-000005e0: 542e 7370 6c69 745f 7472 6169 6e5f 7465  T.split_train_te
+-000005f0: 7374 2866 696c 655f 696e 7075 743d 2264  st(file_input="d
+-00000600: 6174 612f 7465 7374 2e6a 736f 6e6c 222c  ata/test.jsonl",
+-00000610: 2074 7261 696e 5f72 6174 696f 3d33 202f   train_ratio=3 /
+-00000620: 2035 290a 6060 600a 2323 2320 322e 2046   5).```.### 2. F
+-00000630: 6f72 2073 616d 706c 6520 6c65 7665 6c0a  or sample level.
+-00000640: 4576 6572 7920 7361 6d70 6c65 2069 7320  Every sample is 
+-00000650: 6120 6a73 6f6e 2077 6974 6820 6b65 792d  a json with key-
+-00000660: 7661 6c75 6520 6c69 6b65 2064 6963 745b  value like dict[
+-00000670: 7374 723a 7374 725d 2c20 666f 7220 6578  str:str], for ex
+-00000680: 616d 706c 653a 0a60 6060 600a 207b 2269  ample:.````. {"i
+-00000690: 6e70 7574 223a 2268 656c 6c6f 2122 2c22  nput":"hello!","
+-000006a0: 6f75 7470 7574 223a 2248 692c 2049 276d  output":"Hi, I'm
+-000006b0: 2061 6e20 4149 2061 7373 6973 7461 6e74   an AI assistant
+-000006c0: 2c20 686f 7720 6361 6e20 4920 6865 6c70  , how can I help
+-000006d0: 2079 6f75 3f22 7d0a 6060 6060 0a23 2323   you?"}.````.###
+-000006e0: 2320 2831 2920 7368 7566 666c 650a 7368  # (1) shuffle.sh
+-000006f0: 7566 666c 6520 616c 6c20 7468 6520 7361  uffle all the sa
+-00000700: 6d70 6c65 7320 696e 2061 2066 696c 652c  mples in a file,
+-00000710: 2069 7420 646f 6573 6e27 7420 6f70 7469   it doesn't opti
+-00000720: 6d69 7a65 2074 6865 206d 656d 6f72 7920  mize the memory 
+-00000730: 7573 6167 6520 6e6f 772c 2072 6571 7569  usage now, requi
+-00000740: 7269 6e67 2074 6f20 6c6f 6164 2061 6c6c  ring to load all
+-00000750: 2074 6865 2064 6174 6120 746f 206d 656d   the data to mem
+-00000760: 6f72 7920 696e 206f 6e65 2074 696d 650a  ory in one time.
+-00000770: 0a60 6060 7079 7468 6f6e 0a66 726f 6d20  .```python.from 
+-00000780: 6461 7461 346c 6c6d 2e44 6174 6134 4c4c  data4llm.Data4LL
+-00000790: 4d20 696d 706f 7274 2053 4654 0a0a 5346  M import SFT..SF
+-000007a0: 542e 7368 7566 666c 6528 6669 6c65 5f69  T.shuffle(file_i
+-000007b0: 6e70 7574 3d22 6461 7461 2f74 6573 742e  nput="data/test.
+-000007c0: 7478 7422 2c20 6669 6c65 5f6f 7574 7075  txt", file_outpu
+-000007d0: 743d 2272 6573 756c 742f 7368 5f74 6573  t="result/sh_tes
+-000007e0: 742e 6a73 6f6e 6c22 290a 6060 600a 6060  t.jsonl").```.``
+-000007f0: 6060 0a64 6566 2073 6875 6666 6c65 2863  ``.def shuffle(c
+-00000800: 6c73 2c20 6669 6c65 5f69 6e70 7574 2c20  ls, file_input, 
+-00000810: 6669 6c65 5f6f 7574 7075 7429 3a0a 2020  file_output):.  
+-00000820: 2020 7368 7566 666c 653a 2073 6875 6666    shuffle: shuff
+-00000830: 6c65 2061 6c6c 2074 6865 2064 6174 6120  le all the data 
+-00000840: 696e 2069 6e70 7574 2066 696c 652e 2077  in input file. w
+-00000850: 6172 6e69 6e67 3a20 6974 206c 6f61 6473  arning: it loads
+-00000860: 2061 6c6c 2074 6865 2064 6174 6120 696e   all the data in
+-00000870: 206d 656d 6f72 790a 2020 2020 696c 655f   memory.    ile_
+-00000880: 696e 7075 743a 2069 6e70 7574 2066 696c  input: input fil
+-00000890: 6520 7061 7468 0a20 2020 2066 696c 655f  e path.    file_
+-000008a0: 6f75 7470 7574 3a20 6f75 7470 7574 2066  output: output f
+-000008b0: 696c 6520 7061 7468 0a60 6060 600a 0a23  ile path.````..#
+-000008c0: 2323 2320 2832 2920 7265 6d6f 7665 2064  ### (2) remove d
+-000008d0: 7570 6c69 6361 7465 6420 6461 7461 0a72  uplicated data.r
+-000008e0: 656d 6f76 6520 6475 706c 6963 6174 6520  emove duplicate 
+-000008f0: 6461 7461 2062 7920 7369 6d5f 6861 7368  data by sim_hash
+-00000900: 2e20 5468 6572 6520 6172 6520 7477 6f20  . There are two 
+-00000910: 6675 6e63 7469 6f6e 2060 7265 6d6f 7665  function `remove
+-00000920: 5f64 7570 6c69 6361 7465 5f42 6c6f 6f6d  _duplicate_Bloom
+-00000930: 4669 6c74 6572 6020 616e 6420 6072 656d  Filter` and `rem
+-00000940: 6f76 655f 6475 706c 6963 6174 6560 2e0a  ove_duplicate`..
+-00000950: 0a60 7265 6d6f 7665 5f64 7570 6c69 6361  .`remove_duplica
+-00000960: 7465 5f42 6c6f 6f6d 4669 6c74 6572 6020  te_BloomFilter` 
+-00000970: 3a20 7265 6d6f 7665 2064 7570 6c69 6361  : remove duplica
+-00000980: 7465 2064 6174 6120 6279 2073 696d 5f68  te data by sim_h
+-00000990: 6173 682c 2077 6869 6368 2072 656d 6f76  ash, which remov
+-000009a0: 6573 2064 6174 6120 6279 2062 6c6f 6f6d  es data by bloom
+-000009b0: 2066 696c 7465 722c 2076 6572 7920 6661   filter, very fa
+-000009c0: 7374 0a0a 6060 6070 7974 686f 6e0a 6672  st..```python.fr
+-000009d0: 6f6d 2064 6174 6134 6c6c 6d2e 4461 7461  om data4llm.Data
+-000009e0: 344c 4c4d 2069 6d70 6f72 7420 5346 540a  4LLM import SFT.
+-000009f0: 5346 542e 7265 6d6f 7665 5f64 7570 6c69  SFT.remove_dupli
+-00000a00: 6361 7465 5f42 6c6f 6f6d 4669 6c74 6572  cate_BloomFilter
+-00000a10: 2866 696c 655f 696e 7075 743d 2264 6174  (file_input="dat
+-00000a20: 612f 7465 7374 2e6a 736f 6e6c 222c 2066  a/test.jsonl", f
+-00000a30: 696c 655f 6f75 7470 7574 3d22 7265 7375  ile_output="resu
+-00000a40: 6c74 2f72 6d5f 6475 705f 7465 7374 2e6a  lt/rm_dup_test.j
+-00000a50: 736f 6e22 2c20 6c65 6e67 7468 3d36 3429  son", length=64)
+-00000a60: 0a60 6060 0a60 6060 600a 6465 6620 7265  .```.````.def re
+-00000a70: 6d6f 7665 5f64 7570 6c69 6361 7465 5f42  move_duplicate_B
+-00000a80: 6c6f 6f6d 4669 6c74 6572 2863 6c73 2c20  loomFilter(cls, 
+-00000a90: 6669 6c65 5f69 6e70 7574 2c20 6669 6c65  file_input, file
+-00000aa0: 5f6f 7574 7075 742c 206d 6178 5f72 6f77  _output, max_row
+-00000ab0: 5f6c 696d 6974 3d31 3030 302c 2073 6b69  _limit=1000, ski
+-00000ac0: 705f 6861 7368 3d46 616c 7365 2c20 6c65  p_hash=False, le
+-00000ad0: 6e67 7468 3d36 342c 0a20 2020 2020 2020  ngth=64,.       
+-00000ae0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00000af0: 2020 2020 2020 2020 2020 6c6f 675f 7061            log_pa
+-00000b00: 7468 3d22 7265 7375 6c74 2e6c 6f67 2229  th="result.log")
+-00000b10: 3a0a 2020 2020 2727 270a 2020 2020 2020  :.    '''.      
+-00000b20: 2020 7265 6d6f 7665 5f64 7570 6c69 6361    remove_duplica
+-00000b30: 7465 203a 2072 656d 6f76 6520 6475 706c  te : remove dupl
+-00000b40: 6963 6174 6520 6461 7461 2062 7920 7369  icate data by si
+-00000b50: 6d5f 6861 7368 2c20 7768 6963 6820 7265  m_hash, which re
+-00000b60: 6d6f 7665 7320 6461 7461 2062 7920 626c  moves data by bl
+-00000b70: 6f6f 6d20 6669 6c74 6572 2c20 7665 7279  oom filter, very
+-00000b80: 2066 6173 740a 2020 2020 2020 2020 6669   fast.        fi
+-00000b90: 6c65 5f69 6e70 7574 3a20 696e 7075 7420  le_input: input 
+-00000ba0: 6669 6c65 2070 6174 6820 7769 7468 2064  file path with d
+-00000bb0: 7570 6c69 6361 7465 6420 6461 7461 0a20  uplicated data. 
+-00000bc0: 2020 2020 2020 2066 696c 655f 6f75 7470         file_outp
+-00000bd0: 7574 3a20 7265 7375 6c74 2066 696c 6520  ut: result file 
+-00000be0: 7061 7468 0a20 2020 2020 2020 206d 6178  path.        max
+-00000bf0: 5f72 6f77 5f6c 696d 6974 3a20 7468 6520  _row_limit: the 
+-00000c00: 6d61 7820 6461 7461 206e 756d 6265 7220  max data number 
+-00000c10: 696e 206d 656d 6f72 7920 7768 6963 6820  in memory which 
+-00000c20: 6973 2075 7365 6675 6c20 746f 2073 6176  is useful to sav
+-00000c30: 6520 6d65 6d6f 7279 0a20 2020 2020 2020  e memory.       
+-00000c40: 2073 6b69 705f 6861 7368 3a20 6465 6661   skip_hash: defa
+-00000c50: 756c 7420 6661 6c73 652e 2069 7420 6e65  ult false. it ne
+-00000c60: 6564 6564 2077 6865 6e20 6361 6c6c 2074  eded when call t
+-00000c70: 6865 2066 756e 6374 696f 6e20 696e 2066  he function in f
+-00000c80: 6972 7374 2074 696d 652c 2077 6869 6368  irst time, which
+-00000c90: 2069 7320 7573 6564 2074 6f20 6765 7420   is used to get 
+-00000ca0: 7468 6520 7369 6d68 6173 6820 696e 2061  the simhash in a
+-00000cb0: 6c6c 2074 6865 2064 6174 610a 2020 2020  ll the data.    
+-00000cc0: 2020 2020 6c65 6e67 7468 3a20 7468 6520      length: the 
+-00000cd0: 7369 6d68 6173 6820 6c65 6e67 7468 0a20  simhash length. 
+-00000ce0: 2020 2020 2020 206c 6f67 5f70 6174 683a         log_path:
+-00000cf0: 206c 6f67 2066 696c 6520 7061 7468 0a20   log file path. 
+-00000d00: 2020 2020 2020 203a 7265 7475 726e 3a20         :return: 
+-00000d10: 7265 7375 6c74 2064 6174 6120 6e75 6d62  result data numb
+-00000d20: 6572 202c 2072 656d 6f76 6564 2064 6174  er , removed dat
+-00000d30: 6120 6e75 6d62 6572 0a20 2020 2027 2727  a number.    '''
+-00000d40: 0a60 6060 600a 6072 656d 6f76 655f 6475  .````.`remove_du
+-00000d50: 706c 6963 6174 6560 203a 2072 656d 6f76  plicate` : remov
+-00000d60: 6520 6475 706c 6963 6174 6520 6461 7461  e duplicate data
+-00000d70: 2062 7920 7369 6d5f 6861 7368 2c20 7768   by sim_hash, wh
+-00000d80: 6963 6820 636f 6d70 6172 6573 2064 6174  ich compares dat
+-00000d90: 6120 6f6e 6520 6279 206f 6e65 2c20 6765  a one by one, ge
+-00000da0: 7474 696e 6720 6d6f 7265 2061 6363 7572  tting more accur
+-00000db0: 6174 6520 616e 6420 6669 6e65 6c79 2072  ate and finely r
+-00000dc0: 6573 756c 7420 6275 7420 636f 7374 696e  esult but costin
+-00000dd0: 6720 6d61 7373 6976 6520 7469 6d65 0a0a  g massive time..
+-00000de0: 6060 6070 7974 686f 6e0a 6672 6f6d 2064  ```python.from d
+-00000df0: 6174 6134 6c6c 6d2e 4461 7461 344c 4c4d  ata4llm.Data4LLM
+-00000e00: 2069 6d70 6f72 7420 5346 540a 0a53 4654   import SFT..SFT
+-00000e10: 2e72 656d 6f76 655f 6475 706c 6963 6174  .remove_duplicat
+-00000e20: 6528 6669 6c65 5f69 6e70 7574 3d22 6461  e(file_input="da
+-00000e30: 7461 2f74 6573 742e 6a73 6f6e 6c22 2c20  ta/test.jsonl", 
+-00000e40: 6669 6c65 5f6f 7574 7075 743d 2272 6573  file_output="res
+-00000e50: 756c 742f 726d 5f64 7570 5f74 6573 742e  ult/rm_dup_test.
+-00000e60: 6a73 6f6e 222c 206c 656e 6774 683d 3634  json", length=64
+-00000e70: 290a 6060 600a 6060 6060 0a0a 6465 6620  ).```.````..def 
+-00000e80: 7265 6d6f 7665 5f64 7570 6c69 6361 7465  remove_duplicate
+-00000e90: 2863 6c73 2c20 6669 6c65 5f69 6e70 7574  (cls, file_input
+-00000ea0: 2c20 6669 6c65 5f6f 7574 7075 742c 2072  , file_output, r
+-00000eb0: 6174 696f 3d31 2c20 6d61 785f 726f 775f  atio=1, max_row_
+-00000ec0: 6c69 6d69 743d 3130 3030 2c20 736b 6970  limit=1000, skip
+-00000ed0: 5f68 6173 683d 4661 6c73 652c 206c 656e  _hash=False, len
+-00000ee0: 6774 683d 3634 2c0a 2020 2020 2020 2020  gth=64,.        
+-00000ef0: 2020 2020 2020 2020 206c 6f67 5f70 6174           log_pat
+-00000f00: 683d 2272 6573 756c 742e 6c6f 6722 293a  h="result.log"):
+-00000f10: 0a20 2020 2072 656d 6f76 655f 6475 706c  .    remove_dupl
+-00000f20: 6963 6174 6520 3a20 7265 6d6f 7665 2064  icate : remove d
+-00000f30: 7570 6c69 6361 7465 2064 6174 6120 6279  uplicate data by
+-00000f40: 2073 696d 5f68 6173 682c 2077 6869 6368   sim_hash, which
+-00000f50: 2063 6f6d 7061 7265 7320 6461 7461 206f   compares data o
+-00000f60: 6e65 2062 7920 6f6e 652c 2067 6574 7469  ne by one, getti
+-00000f70: 6e67 206d 6f72 6520 6163 6375 7261 7465  ng more accurate
+-00000f80: 2061 6e64 2066 696e 656c 7920 7265 7375   and finely resu
+-00000f90: 6c74 2062 7574 2063 6f73 7469 6e67 206d  lt but costing m
+-00000fa0: 6173 7369 7665 2074 696d 650a 2020 2020  assive time.    
+-00000fb0: 6669 6c65 5f69 6e70 7574 3a20 696e 7075  file_input: inpu
+-00000fc0: 7420 6669 6c65 2070 6174 6820 7769 7468  t file path with
+-00000fd0: 2064 7570 6c69 6361 7465 6420 6461 7461   duplicated data
+-00000fe0: 0a20 2020 2066 696c 655f 6f75 7470 7574  .    file_output
+-00000ff0: 3a20 7265 7375 6c74 2066 696c 6520 7061  : result file pa
+-00001000: 7468 0a20 2020 2072 6174 696f 3a20 7468  th.    ratio: th
+-00001010: 7265 7368 6f6c 6420 666f 7220 6475 706c  reshold for dupl
+-00001020: 6963 6174 696f 6e2c 2077 6869 6368 2069  ication, which i
+-00001030: 7320 6163 7475 616c 6c79 2074 6865 2064  s actually the d
+-00001040: 6973 7461 6e63 6520 6f66 2074 6865 2074  istance of the t
+-00001050: 776f 2073 696d 6861 7368 2076 616c 7565  wo simhash value
+-00001060: 0a20 2020 206d 6178 5f72 6f77 5f6c 696d  .    max_row_lim
+-00001070: 6974 3a20 7468 6520 6d61 7820 6461 7461  it: the max data
+-00001080: 206e 756d 6265 7220 696e 206d 656d 6f72   number in memor
+-00001090: 7920 7768 6963 6820 6973 2075 7365 6675  y which is usefu
+-000010a0: 6c20 746f 2073 6176 6520 6d65 6d6f 7279  l to save memory
+-000010b0: 0a20 2020 2073 6b69 705f 6861 7368 3a20  .    skip_hash: 
+-000010c0: 6465 6661 756c 7420 6661 6c73 652e 2069  default false. i
+-000010d0: 7420 6e65 6564 6564 2077 6865 6e20 6361  t needed when ca
+-000010e0: 6c6c 2074 6865 2066 756e 6374 696f 6e20  ll the function 
+-000010f0: 696e 2066 6972 7374 2074 696d 652c 2077  in first time, w
+-00001100: 6869 6368 2069 7320 7573 6564 2074 6f20  hich is used to 
+-00001110: 6765 7420 7468 6520 7369 6d68 6173 6820  get the simhash 
+-00001120: 696e 2061 6c6c 2074 6865 2064 6174 610a  in all the data.
+-00001130: 2020 2020 6c65 6e67 7468 3a20 7468 6520      length: the 
+-00001140: 7369 6d68 6173 6820 6c65 6e67 7468 0a20  simhash length. 
+-00001150: 2020 206c 6f67 5f70 6174 683a 206c 6f67     log_path: log
+-00001160: 2066 696c 6520 7061 7468 0a20 2020 203a   file path.    :
+-00001170: 7265 7475 726e 3a20 7265 7375 6c74 2064  return: result d
+-00001180: 6174 6120 6e75 6d62 6572 202c 2072 656d  ata number , rem
+-00001190: 6f76 6564 2064 6174 6120 6e75 6d62 6572  oved data number
+-000011a0: 0a60 6060 600a 0a23 2323 2320 2833 2920  .````..#### (3) 
+-000011b0: 6170 706c 790a 5468 6520 6d6f 7374 2070  apply.The most p
+-000011c0: 6f77 6572 6675 6c20 6675 6e63 7469 6f6e  owerful function
+-000011d0: 2069 6e20 7468 6973 2070 726f 6a65 6374   in this project
+-000011e0: 2c20 796f 7520 6361 6e20 6170 706c 7920  , you can apply 
+-000011f0: 616e 7920 7072 6f63 6573 7320 7275 6c65  any process rule
+-00001200: 2062 7920 6974 202c 696e 636c 7564 696e   by it ,includin
+-00001210: 673a 2060 7072 6f63 6573 7320 7072 6f70  g: `process prop
+-00001220: 6572 7479 6028 6072 656e 616d 6560 2c20  erty`(`rename`, 
+-00001230: 6072 656d 6f76 6560 2c20 6061 6464 6029  `remove`, `add`)
+-00001240: 2c20 6070 726f 6365 7373 2063 6f6e 7465  , `process conte
+-00001250: 6e74 6028 6072 656d 6f76 6520 6368 6172  nt`(`remove char
+-00001260: 7360 2c20 6072 6570 6c61 6365 2063 6861  s`, `replace cha
+-00001270: 7273 6029 2c20 6066 696c 7465 7260 2073  rs`), `filter` s
+-00001280: 616d 706c 6520 6279 2073 6f6d 6520 7275  ample by some ru
+-00001290: 6c65 732c 2060 6465 7269 7665 6460 2073  les, `derived` s
+-000012a0: 6572 7661 6c20 7361 6d70 6c65 7320 6672  erval samples fr
+-000012b0: 6f6d 2061 2073 616d 706c 652e 0a54 6865  om a sample..The
+-000012c0: 7265 2061 7265 2074 6872 6565 2074 7970  re are three typ
+-000012d0: 6963 616c 2077 6179 733a 2060 492e 6669  ical ways: `I.fi
+-000012e0: 6c74 6572 602c 2060 4949 2e70 726f 6365  lter`, `II.proce
+-000012f0: 7373 2061 7474 7269 6275 7465 7360 2c20  ss attributes`, 
+-00001300: 6049 4949 2e66 726f 6d20 6f6e 6520 746f  `III.from one to
+-00001310: 2073 6572 7661 6c60 3a0a 2323 2323 2049   serval`:.#### I
+-00001320: 2e20 6669 6c74 6572 6564 2062 7920 6c65  . filtered by le
+-00001330: 6e67 7468 0a46 696c 7465 7220 7361 6d70  ngth.Filter samp
+-00001340: 6c65 2062 7920 7265 7475 726e 696e 6720  le by returning 
+-00001350: 604e 6f6e 6560 0a21 5b49 2e66 696c 7465  `None`.![I.filte
+-00001360: 722e 706e 675d 2869 6d67 732f 492e 6669  r.png](imgs/I.fi
+-00001370: 6c74 6572 2e70 6e67 290a 0a60 6060 7079  lter.png)..```py
+-00001380: 7468 6f6e 0a64 6566 2066 6e28 726f 773a  thon.def fn(row:
+-00001390: 2064 6963 745b 7374 723a 7374 725d 2920   dict[str:str]) 
+-000013a0: 2d3e 2064 6963 745b 7374 723a 7374 725d  -> dict[str:str]
+-000013b0: 3a0a 2020 2020 6966 2046 2e6c 656e 2872  :.    if F.len(r
+-000013c0: 6f77 2920 3e20 3130 3030 3a0a 2020 2020  ow) > 1000:.    
+-000013d0: 2020 2020 7265 7475 726e 204e 6f6e 650a      return None.
+-000013e0: 2020 2020 7265 7475 726e 2072 6f77 0a0a      return row..
+-000013f0: 5346 542e 6170 706c 7928 6669 6c65 5f69  SFT.apply(file_i
+-00001400: 6e70 7574 3d22 6461 7461 2f74 6573 742e  nput="data/test.
+-00001410: 7478 7422 2c20 6669 6c65 5f6f 7574 7075  txt", file_outpu
+-00001420: 743d 2272 6573 756c 742f 7265 7375 6c74  t="result/result
+-00001430: 5f74 6573 742e 6a73 6f6e 6c22 2c20 666e  _test.jsonl", fn
+-00001440: 3d66 6e29 0a60 6060 0a23 2323 2320 4949  =fn).```.#### II
+-00001450: 2e20 636f 6e63 6174 2074 776f 2070 726f  . concat two pro
+-00001460: 7065 7274 6965 7320 696e 746f 206f 6e65  perties into one
+-00001470: 0a61 7070 6c79 2070 726f 6365 7373 2074  .apply process t
+-00001480: 6f20 6576 6572 7920 7361 6d70 6c65 0a21  o every sample.!
+-00001490: 5b49 492e 636f 6e63 6174 2074 776f 2069  [II.concat two i
+-000014a0: 6e74 6f20 6f6e 652e 706e 675d 2869 6d67  nto one.png](img
+-000014b0: 7325 3246 4949 2e63 6f6e 6361 7425 3230  s%2FII.concat%20
+-000014c0: 7477 6f25 3230 696e 746f 2532 306f 6e65  two%20into%20one
+-000014d0: 2e70 6e67 290a 6060 6070 7974 686f 6e0a  .png).```python.
+-000014e0: 6672 6f6d 2064 6174 6134 6c6c 6d2e 4461  from data4llm.Da
+-000014f0: 7461 344c 4c4d 2069 6d70 6f72 7420 5346  ta4LLM import SF
+-00001500: 542c 2046 0a0a 6465 6620 666e 2872 6f77  T, F..def fn(row
+-00001510: 3a20 6469 6374 5b73 7472 3a73 7472 5d29  : dict[str:str])
+-00001520: 202d 3e20 6469 6374 5b73 7472 3a73 7472   -> dict[str:str
+-00001530: 5d3a 0a20 2020 2072 6f77 5b27 696e 7075  ]:.    row['inpu
+-00001540: 7427 5d20 3d20 726f 775b 2769 6e73 7472  t'] = row['instr
+-00001550: 7563 7469 6f6e 275d 2b72 6f77 5b27 7072  uction']+row['pr
+-00001560: 6f6d 7074 275d 0a20 2020 2072 6f77 2e70  ompt'].    row.p
+-00001570: 6f70 2822 696e 7374 7275 6374 696f 6e22  op("instruction"
+-00001580: 290a 2020 2020 726f 772e 706f 7028 2270  ).    row.pop("p
+-00001590: 726f 6d70 7422 290a 2020 2020 7265 7475  rompt").    retu
+-000015a0: 726e 2072 6f77 0a0a 0a53 4654 2e61 7070  rn row...SFT.app
+-000015b0: 6c79 2866 696c 655f 696e 7075 743d 2264  ly(file_input="d
+-000015c0: 6174 612f 7465 7374 2e74 7874 222c 2066  ata/test.txt", f
+-000015d0: 696c 655f 6f75 7470 7574 3d22 7265 7375  ile_output="resu
+-000015e0: 6c74 2f72 6573 756c 745f 7465 7374 2e6a  lt/result_test.j
+-000015f0: 736f 6e6c 222c 2066 6e3d 666e 290a 6060  sonl", fn=fn).``
+-00001600: 600a 0a23 2323 2320 4949 492e 2066 726f  `..#### III. fro
+-00001610: 6d20 6f6e 6520 746f 2073 6576 6572 616c  m one to several
+-00001620: 0a47 656e 6572 6174 6520 6d6f 7265 2073  .Generate more s
+-00001630: 616d 706c 6573 2066 726f 6d20 6f6e 6520  amples from one 
+-00001640: 7361 6d70 6c65 2062 7920 7265 7475 726e  sample by return
+-00001650: 696e 6720 6120 6c69 7374 2063 6f6e 7369  ing a list consi
+-00001660: 7374 696e 6720 6f66 2064 6963 740a 215b  sting of dict.![
+-00001670: 6f6e 6532 6d6f 7265 2e70 6e67 5d28 696d  one2more.png](im
+-00001680: 6773 2f49 4949 2e6f 6e65 326d 6f72 652e  gs/III.one2more.
+-00001690: 706e 6729 0a0a 6060 6070 7974 686f 6e0a  png)..```python.
+-000016a0: 6465 6620 666e 2872 6f77 3a20 6469 6374  def fn(row: dict
+-000016b0: 5b73 7472 3a73 7472 5d29 202d 3e20 4c69  [str:str]) -> Li
+-000016c0: 7374 5b64 6963 745b 7374 723a 7374 725d  st[dict[str:str]
+-000016d0: 5d3a 0a20 2020 2061 7272 7320 3d20 726f  ]:.    arrs = ro
+-000016e0: 775b 2769 6e70 7574 275d 2e73 706c 6974  w['input'].split
+-000016f0: 2822 3b22 295b 3a2d 315d 0a20 2020 2072  (";")[:-1].    r
+-00001700: 6f77 7320 3d20 5b5d 0a20 2020 2074 656d  ows = [].    tem
+-00001710: 705f 7374 7220 3d20 2222 0a20 2020 2066  p_str = "".    f
+-00001720: 6f72 2069 2c20 6974 656d 2069 6e20 656e  or i, item in en
+-00001730: 756d 6572 6174 6528 6172 7273 293a 0a20  umerate(arrs):. 
+-00001740: 2020 2020 2020 2069 6620 6920 2520 3220         if i % 2 
+-00001750: 213d 2030 3a0a 2020 2020 2020 2020 2020  != 0:.          
++00000000: 2320 4461 7461 344c 4c4d 0d0a 3c64 6976  # Data4LLM..<div
++00000010: 2061 6c69 676e 3d22 6365 6e74 6572 223e   align="center">
++00000020: 200d 0a3c 6120 6872 6566 3d22 6874 7470   ..<a href="http
++00000030: 733a 2f2f 6769 7468 7562 2e63 6f6d 2f53  s://github.com/S
++00000040: 5745 454e 4559 4845 2f44 6174 6134 4c4c  WEENEYHE/Data4LL
++00000050: 4d2f 626c 6f62 2f6d 6169 6e2f 4c49 4345  M/blob/main/LICE
++00000060: 4e53 452e 7478 7422 3e0d 0a3c 696d 6720  NSE.txt">..<img 
++00000070: 616c 743d 2253 7461 7469 6320 4261 6467  alt="Static Badg
++00000080: 6522 2073 7263 3d22 6874 7470 733a 2f2f  e" src="https://
++00000090: 696d 672e 7368 6965 6c64 732e 696f 2f62  img.shields.io/b
++000000a0: 6164 6765 2f6c 6963 656e 7365 2d4d 4954  adge/license-MIT
++000000b0: 2d67 7265 656e 223e 0d0a 3c2f 613e 0d0a  -green">..</a>..
++000000c0: 3c61 2068 7265 663d 2268 7474 7073 3a2f  <a href="https:/
++000000d0: 2f70 7970 692e 6f72 672f 7072 6f6a 6563  /pypi.org/projec
++000000e0: 742f 6461 7461 346c 6c6d 2f30 2e34 2e30  t/data4llm/0.4.0
++000000f0: 2f22 3e0d 0a3c 696d 6720 616c 743d 2253  /">..<img alt="S
++00000100: 7461 7469 6320 4261 6467 6522 2073 7263  tatic Badge" src
++00000110: 3d22 6874 7470 733a 2f2f 696d 672e 7368  ="https://img.sh
++00000120: 6965 6c64 732e 696f 2f62 6164 6765 2f70  ields.io/badge/p
++00000130: 7970 692d 302e 332e 302d 626c 7565 223e  ypi-0.3.0-blue">
++00000140: 0d0a 3c2f 613e 0d0a 3c2f 6469 763e 0d0a  ..</a>..</div>..
++00000150: 0d0a 2323 2320 5468 6520 7369 6d70 6c65  ..### The simple
++00000160: 2061 6e64 2075 7365 6675 6c20 6461 7461   and useful data
++00000170: 2070 726f 6365 7373 2074 6f6f 6c20 666f   process tool fo
++00000180: 7220 4c4c 4d20 6064 6174 6134 6c6c 6d60  r LLM `data4llm`
++00000190: 0d0a 6064 6174 6134 6c6c 6d60 2069 7320  ..`data4llm` is 
++000001a0: 6120 6a73 6f6e 2026 206a 736f 6e6c 696e  a json & jsonlin
++000001b0: 6520 7072 6f63 6573 7320 746f 6f6c 2c20  e process tool, 
++000001c0: 7768 6963 6820 7275 6e73 2077 656c 6c20  which runs well 
++000001d0: 696e 206d 696c 6c69 6f6e 7320 6e75 6d62  in millions numb
++000001e0: 6572 206c 6576 656c 2c20 7768 6963 6820  er level, which 
++000001f0: 6661 6369 6c69 7461 7465 7320 7468 6520  facilitates the 
++00000200: 636f 6e73 7472 7563 7469 6f6e 2070 726f  construction pro
++00000210: 6365 7373 696f 6e20 6f66 206d 696c 6c69  cession of milli
++00000220: 6f6e 7320 6f66 2064 6174 6120 746f 2063  ons of data to c
++00000230: 6f6e 7469 6e75 652d 7072 6574 7261 696e  ontinue-pretrain
++00000240: 2061 6e64 2066 696e 6574 756e 6520 796f   and finetune yo
++00000250: 7572 204c 4c4d 2e20 5468 6520 6375 7272  ur LLM. The curr
++00000260: 656e 7420 6672 616d 6577 6f72 6b20 7368  ent framework sh
++00000270: 6f77 2062 656c 6f77 3a0d 0a21 5b64 6174  ow below:..![dat
++00000280: 6134 6c6c 6d2e 706e 675d 2869 6d67 732f  a4llm.png](imgs/
++00000290: 6461 7461 346c 6c6d 2e70 6e67 290d 0a23  data4llm.png)..#
++000002a0: 2069 6e73 7461 6c6c 0d0a 6060 600d 0a70   install..```..p
++000002b0: 6970 2069 6e73 7461 6c6c 2064 6174 6134  ip install data4
++000002c0: 6c6c 6d0d 0a60 6060 0d0a 2320 4150 490d  llm..```..# API.
++000002d0: 0a23 2320 5346 540d 0a60 6060 7079 7468  .## SFT..```pyth
++000002e0: 6f6e 0d0a 6672 6f6d 2064 6174 6134 6c6c  on..from data4ll
++000002f0: 6d2e 4461 7461 344c 4c4d 2069 6d70 6f72  m.Data4LLM impor
++00000300: 7420 5346 540d 0a60 6060 0d0a 0d0a 2323  t SFT..```....##
++00000310: 2320 312e 466f 7220 6669 6c65 206c 6576  # 1.For file lev
++00000320: 656c 0d0a 2323 2323 2028 3129 206d 6572  el..#### (1) mer
++00000330: 6765 2066 696c 6573 0d0a 6d65 7267 6520  ge files..merge 
++00000340: 616c 6c20 7468 6520 6a73 6f6e 6c69 6e65  all the jsonline
++00000350: 7320 6669 6c65 7320 7769 7468 2073 6875  s files with shu
++00000360: 6666 6c65 0d0a 6060 6070 7974 686f 6e0d  ffle..```python.
++00000370: 0a69 6d70 6f72 7420 676c 6f62 0d0a 6672  .import glob..fr
++00000380: 6f6d 2064 6174 6134 6c6c 6d20 696d 706f  om data4llm impo
++00000390: 7274 2044 6174 6134 4c4c 4d0d 0a0d 0a66  rt Data4LLM....f
++000003a0: 696c 6573 203d 2067 6c6f 6228 2264 6972  iles = glob("dir
++000003b0: 2f2a 2e6a 736f 6e6c 2229 0d0a 4461 7461  /*.jsonl")..Data
++000003c0: 344c 4c4d 2e6d 6572 6765 5f66 696c 6573  4LLM.merge_files
++000003d0: 2866 696c 6573 3d66 696c 6573 290d 0a60  (files=files)..`
++000003e0: 6060 0d0a 2323 2323 2028 3229 2073 706c  ``..#### (2) spl
++000003f0: 6974 2066 696c 6573 2074 6f20 7472 6169  it files to trai
++00000400: 6e20 616e 6420 7465 7374 2066 696c 650d  n and test file.
++00000410: 0a0d 0a60 6060 7079 7468 6f6e 0d0a 6672  ...```python..fr
++00000420: 6f6d 2064 6174 6134 6c6c 6d2e 4461 7461  om data4llm.Data
++00000430: 344c 4c4d 2069 6d70 6f72 7420 5346 540d  4LLM import SFT.
++00000440: 0a0d 0a53 4654 2e73 706c 6974 5f74 7261  ...SFT.split_tra
++00000450: 696e 5f74 6573 7428 6669 6c65 5f69 6e70  in_test(file_inp
++00000460: 7574 3d22 6461 7461 2f74 6573 742e 6a73  ut="data/test.js
++00000470: 6f6e 6c22 2c20 7472 6169 6e5f 7261 7469  onl", train_rati
++00000480: 6f3d 3320 2f20 3529 0d0a 6060 600d 0a23  o=3 / 5)..```..#
++00000490: 2323 2032 2e20 466f 7220 7361 6d70 6c65  ## 2. For sample
++000004a0: 206c 6576 656c 0d0a 4576 6572 7920 7361   level..Every sa
++000004b0: 6d70 6c65 2069 7320 6120 6a73 6f6e 2077  mple is a json w
++000004c0: 6974 6820 6b65 792d 7661 6c75 6520 6c69  ith key-value li
++000004d0: 6b65 2064 6963 745b 7374 723a 7374 725d  ke dict[str:str]
++000004e0: 2c20 666f 7220 6578 616d 706c 653a 0d0a  , for example:..
++000004f0: 6060 6060 0d0a 207b 2269 6e70 7574 223a  ````.. {"input":
++00000500: 2268 656c 6c6f 2122 2c22 6f75 7470 7574  "hello!","output
++00000510: 223a 2248 692c 2049 276d 2061 6e20 4149  ":"Hi, I'm an AI
++00000520: 2061 7373 6973 7461 6e74 2c20 686f 7720   assistant, how 
++00000530: 6361 6e20 4920 6865 6c70 2079 6f75 3f22  can I help you?"
++00000540: 7d0d 0a60 6060 600d 0a23 2323 2320 2831  }..````..#### (1
++00000550: 2920 7368 7566 666c 650d 0a73 6875 6666  ) shuffle..shuff
++00000560: 6c65 2061 6c6c 2074 6865 2073 616d 706c  le all the sampl
++00000570: 6573 2069 6e20 6120 6669 6c65 2c20 6974  es in a file, it
++00000580: 2064 6f65 736e 2774 206f 7074 696d 697a   doesn't optimiz
++00000590: 6520 7468 6520 6d65 6d6f 7279 2075 7361  e the memory usa
++000005a0: 6765 206e 6f77 2c20 7265 7175 6972 696e  ge now, requirin
++000005b0: 6720 746f 206c 6f61 6420 616c 6c20 7468  g to load all th
++000005c0: 6520 6461 7461 2074 6f20 6d65 6d6f 7279  e data to memory
++000005d0: 2069 6e20 6f6e 6520 7469 6d65 0d0a 0d0a   in one time....
++000005e0: 6060 6070 7974 686f 6e0d 0a66 726f 6d20  ```python..from 
++000005f0: 6461 7461 346c 6c6d 2e44 6174 6134 4c4c  data4llm.Data4LL
++00000600: 4d20 696d 706f 7274 2053 4654 0d0a 0d0a  M import SFT....
++00000610: 5346 542e 7368 7566 666c 6528 6669 6c65  SFT.shuffle(file
++00000620: 5f69 6e70 7574 3d22 6461 7461 2f74 6573  _input="data/tes
++00000630: 742e 7478 7422 2c20 6669 6c65 5f6f 7574  t.txt", file_out
++00000640: 7075 743d 2272 6573 756c 742f 7368 5f74  put="result/sh_t
++00000650: 6573 742e 6a73 6f6e 6c22 290d 0a60 6060  est.jsonl")..```
++00000660: 0d0a 6060 6060 0d0a 6465 6620 7368 7566  ..````..def shuf
++00000670: 666c 6528 636c 732c 2066 696c 655f 696e  fle(cls, file_in
++00000680: 7075 742c 2066 696c 655f 6f75 7470 7574  put, file_output
++00000690: 293a 0d0a 2020 2020 7368 7566 666c 653a  ):..    shuffle:
++000006a0: 2073 6875 6666 6c65 2061 6c6c 2074 6865   shuffle all the
++000006b0: 2064 6174 6120 696e 2069 6e70 7574 2066   data in input f
++000006c0: 696c 652e 2077 6172 6e69 6e67 3a20 6974  ile. warning: it
++000006d0: 206c 6f61 6473 2061 6c6c 2074 6865 2064   loads all the d
++000006e0: 6174 6120 696e 206d 656d 6f72 790d 0a20  ata in memory.. 
++000006f0: 2020 2069 6c65 5f69 6e70 7574 3a20 696e     ile_input: in
++00000700: 7075 7420 6669 6c65 2070 6174 680d 0a20  put file path.. 
++00000710: 2020 2066 696c 655f 6f75 7470 7574 3a20     file_output: 
++00000720: 6f75 7470 7574 2066 696c 6520 7061 7468  output file path
++00000730: 0d0a 6060 6060 0d0a 0d0a 2323 2323 2028  ..````....#### (
++00000740: 3229 2072 656d 6f76 6520 6475 706c 6963  2) remove duplic
++00000750: 6174 6564 2064 6174 610d 0a72 656d 6f76  ated data..remov
++00000760: 6520 6475 706c 6963 6174 6520 6461 7461  e duplicate data
++00000770: 2062 7920 7369 6d5f 6861 7368 2e20 5468   by sim_hash. Th
++00000780: 6572 6520 6172 6520 7477 6f20 6675 6e63  ere are two func
++00000790: 7469 6f6e 2060 7265 6d6f 7665 5f64 7570  tion `remove_dup
++000007a0: 6c69 6361 7465 5f42 6c6f 6f6d 4669 6c74  licate_BloomFilt
++000007b0: 6572 6020 616e 6420 6072 656d 6f76 655f  er` and `remove_
++000007c0: 6475 706c 6963 6174 6560 2e0d 0a0d 0a60  duplicate`.....`
++000007d0: 7265 6d6f 7665 5f64 7570 6c69 6361 7465  remove_duplicate
++000007e0: 5f42 6c6f 6f6d 4669 6c74 6572 6020 3a20  _BloomFilter` : 
++000007f0: 7265 6d6f 7665 2064 7570 6c69 6361 7465  remove duplicate
++00000800: 2064 6174 6120 6279 2073 696d 5f68 6173   data by sim_has
++00000810: 682c 2077 6869 6368 2072 656d 6f76 6573  h, which removes
++00000820: 2064 6174 6120 6279 2062 6c6f 6f6d 2066   data by bloom f
++00000830: 696c 7465 722c 2076 6572 7920 6661 7374  ilter, very fast
++00000840: 0d0a 0d0a 6060 6070 7974 686f 6e0d 0a66  ....```python..f
++00000850: 726f 6d20 6461 7461 346c 6c6d 2e44 6174  rom data4llm.Dat
++00000860: 6134 4c4c 4d20 696d 706f 7274 2053 4654  a4LLM import SFT
++00000870: 0d0a 5346 542e 7265 6d6f 7665 5f64 7570  ..SFT.remove_dup
++00000880: 6c69 6361 7465 5f42 6c6f 6f6d 4669 6c74  licate_BloomFilt
++00000890: 6572 2866 696c 655f 696e 7075 743d 2264  er(file_input="d
++000008a0: 6174 612f 7465 7374 2e6a 736f 6e6c 222c  ata/test.jsonl",
++000008b0: 2066 696c 655f 6f75 7470 7574 3d22 7265   file_output="re
++000008c0: 7375 6c74 2f72 6d5f 6475 705f 7465 7374  sult/rm_dup_test
++000008d0: 2e6a 736f 6e22 2c20 6c65 6e67 7468 3d36  .json", length=6
++000008e0: 3429 0d0a 6060 600d 0a60 6060 600d 0a64  4)..```..````..d
++000008f0: 6566 2072 656d 6f76 655f 6475 706c 6963  ef remove_duplic
++00000900: 6174 655f 426c 6f6f 6d46 696c 7465 7228  ate_BloomFilter(
++00000910: 636c 732c 2066 696c 655f 696e 7075 742c  cls, file_input,
++00000920: 2066 696c 655f 6f75 7470 7574 2c20 6d61   file_output, ma
++00000930: 785f 726f 775f 6c69 6d69 743d 3130 3030  x_row_limit=1000
++00000940: 2c20 736b 6970 5f68 6173 683d 4661 6c73  , skip_hash=Fals
++00000950: 652c 206c 656e 6774 683d 3634 2c0d 0a20  e, length=64,.. 
++00000960: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00000970: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00000980: 6c6f 675f 7061 7468 3d22 7265 7375 6c74  log_path="result
++00000990: 2e6c 6f67 2229 3a0d 0a20 2020 2027 2727  .log"):..    '''
++000009a0: 0d0a 2020 2020 2020 2020 7265 6d6f 7665  ..        remove
++000009b0: 5f64 7570 6c69 6361 7465 203a 2072 656d  _duplicate : rem
++000009c0: 6f76 6520 6475 706c 6963 6174 6520 6461  ove duplicate da
++000009d0: 7461 2062 7920 7369 6d5f 6861 7368 2c20  ta by sim_hash, 
++000009e0: 7768 6963 6820 7265 6d6f 7665 7320 6461  which removes da
++000009f0: 7461 2062 7920 626c 6f6f 6d20 6669 6c74  ta by bloom filt
++00000a00: 6572 2c20 7665 7279 2066 6173 740d 0a20  er, very fast.. 
++00000a10: 2020 2020 2020 2066 696c 655f 696e 7075         file_inpu
++00000a20: 743a 2069 6e70 7574 2066 696c 6520 7061  t: input file pa
++00000a30: 7468 2077 6974 6820 6475 706c 6963 6174  th with duplicat
++00000a40: 6564 2064 6174 610d 0a20 2020 2020 2020  ed data..       
++00000a50: 2066 696c 655f 6f75 7470 7574 3a20 7265   file_output: re
++00000a60: 7375 6c74 2066 696c 6520 7061 7468 0d0a  sult file path..
++00000a70: 2020 2020 2020 2020 6d61 785f 726f 775f          max_row_
++00000a80: 6c69 6d69 743a 2074 6865 206d 6178 2064  limit: the max d
++00000a90: 6174 6120 6e75 6d62 6572 2069 6e20 6d65  ata number in me
++00000aa0: 6d6f 7279 2077 6869 6368 2069 7320 7573  mory which is us
++00000ab0: 6566 756c 2074 6f20 7361 7665 206d 656d  eful to save mem
++00000ac0: 6f72 790d 0a20 2020 2020 2020 2073 6b69  ory..        ski
++00000ad0: 705f 6861 7368 3a20 6465 6661 756c 7420  p_hash: default 
++00000ae0: 6661 6c73 652e 2069 7420 6e65 6564 6564  false. it needed
++00000af0: 2077 6865 6e20 6361 6c6c 2074 6865 2066   when call the f
++00000b00: 756e 6374 696f 6e20 696e 2066 6972 7374  unction in first
++00000b10: 2074 696d 652c 2077 6869 6368 2069 7320   time, which is 
++00000b20: 7573 6564 2074 6f20 6765 7420 7468 6520  used to get the 
++00000b30: 7369 6d68 6173 6820 696e 2061 6c6c 2074  simhash in all t
++00000b40: 6865 2064 6174 610d 0a20 2020 2020 2020  he data..       
++00000b50: 206c 656e 6774 683a 2074 6865 2073 696d   length: the sim
++00000b60: 6861 7368 206c 656e 6774 680d 0a20 2020  hash length..   
++00000b70: 2020 2020 206c 6f67 5f70 6174 683a 206c       log_path: l
++00000b80: 6f67 2066 696c 6520 7061 7468 0d0a 2020  og file path..  
++00000b90: 2020 2020 2020 3a72 6574 7572 6e3a 2072        :return: r
++00000ba0: 6573 756c 7420 6461 7461 206e 756d 6265  esult data numbe
++00000bb0: 7220 2c20 7265 6d6f 7665 6420 6461 7461  r , removed data
++00000bc0: 206e 756d 6265 720d 0a20 2020 2027 2727   number..    '''
++00000bd0: 0d0a 6060 6060 0d0a 6072 656d 6f76 655f  ..````..`remove_
++00000be0: 6475 706c 6963 6174 6560 203a 2072 656d  duplicate` : rem
++00000bf0: 6f76 6520 6475 706c 6963 6174 6520 6461  ove duplicate da
++00000c00: 7461 2062 7920 7369 6d5f 6861 7368 2c20  ta by sim_hash, 
++00000c10: 7768 6963 6820 636f 6d70 6172 6573 2064  which compares d
++00000c20: 6174 6120 6f6e 6520 6279 206f 6e65 2c20  ata one by one, 
++00000c30: 6765 7474 696e 6720 6d6f 7265 2061 6363  getting more acc
++00000c40: 7572 6174 6520 616e 6420 6669 6e65 6c79  urate and finely
++00000c50: 2072 6573 756c 7420 6275 7420 636f 7374   result but cost
++00000c60: 696e 6720 6d61 7373 6976 6520 7469 6d65  ing massive time
++00000c70: 0d0a 0d0a 6060 6070 7974 686f 6e0d 0a66  ....```python..f
++00000c80: 726f 6d20 6461 7461 346c 6c6d 2e44 6174  rom data4llm.Dat
++00000c90: 6134 4c4c 4d20 696d 706f 7274 2053 4654  a4LLM import SFT
++00000ca0: 0d0a 0d0a 5346 542e 7265 6d6f 7665 5f64  ....SFT.remove_d
++00000cb0: 7570 6c69 6361 7465 2866 696c 655f 696e  uplicate(file_in
++00000cc0: 7075 743d 2264 6174 612f 7465 7374 2e6a  put="data/test.j
++00000cd0: 736f 6e6c 222c 2066 696c 655f 6f75 7470  sonl", file_outp
++00000ce0: 7574 3d22 7265 7375 6c74 2f72 6d5f 6475  ut="result/rm_du
++00000cf0: 705f 7465 7374 2e6a 736f 6e22 2c20 6c65  p_test.json", le
++00000d00: 6e67 7468 3d36 3429 0d0a 6060 600d 0a60  ngth=64)..```..`
++00000d10: 6060 600d 0a0d 0a64 6566 2072 656d 6f76  ```....def remov
++00000d20: 655f 6475 706c 6963 6174 6528 636c 732c  e_duplicate(cls,
++00000d30: 2066 696c 655f 696e 7075 742c 2066 696c   file_input, fil
++00000d40: 655f 6f75 7470 7574 2c20 7261 7469 6f3d  e_output, ratio=
++00000d50: 312c 206d 6178 5f72 6f77 5f6c 696d 6974  1, max_row_limit
++00000d60: 3d31 3030 302c 2073 6b69 705f 6861 7368  =1000, skip_hash
++00000d70: 3d46 616c 7365 2c20 6c65 6e67 7468 3d36  =False, length=6
++00000d80: 342c 0d0a 2020 2020 2020 2020 2020 2020  4,..            
++00000d90: 2020 2020 206c 6f67 5f70 6174 683d 2272       log_path="r
++00000da0: 6573 756c 742e 6c6f 6722 293a 0d0a 2020  esult.log"):..  
++00000db0: 2020 7265 6d6f 7665 5f64 7570 6c69 6361    remove_duplica
++00000dc0: 7465 203a 2072 656d 6f76 6520 6475 706c  te : remove dupl
++00000dd0: 6963 6174 6520 6461 7461 2062 7920 7369  icate data by si
++00000de0: 6d5f 6861 7368 2c20 7768 6963 6820 636f  m_hash, which co
++00000df0: 6d70 6172 6573 2064 6174 6120 6f6e 6520  mpares data one 
++00000e00: 6279 206f 6e65 2c20 6765 7474 696e 6720  by one, getting 
++00000e10: 6d6f 7265 2061 6363 7572 6174 6520 616e  more accurate an
++00000e20: 6420 6669 6e65 6c79 2072 6573 756c 7420  d finely result 
++00000e30: 6275 7420 636f 7374 696e 6720 6d61 7373  but costing mass
++00000e40: 6976 6520 7469 6d65 0d0a 2020 2020 6669  ive time..    fi
++00000e50: 6c65 5f69 6e70 7574 3a20 696e 7075 7420  le_input: input 
++00000e60: 6669 6c65 2070 6174 6820 7769 7468 2064  file path with d
++00000e70: 7570 6c69 6361 7465 6420 6461 7461 0d0a  uplicated data..
++00000e80: 2020 2020 6669 6c65 5f6f 7574 7075 743a      file_output:
++00000e90: 2072 6573 756c 7420 6669 6c65 2070 6174   result file pat
++00000ea0: 680d 0a20 2020 2072 6174 696f 3a20 7468  h..    ratio: th
++00000eb0: 7265 7368 6f6c 6420 666f 7220 6475 706c  reshold for dupl
++00000ec0: 6963 6174 696f 6e2c 2077 6869 6368 2069  ication, which i
++00000ed0: 7320 6163 7475 616c 6c79 2074 6865 2064  s actually the d
++00000ee0: 6973 7461 6e63 6520 6f66 2074 6865 2074  istance of the t
++00000ef0: 776f 2073 696d 6861 7368 2076 616c 7565  wo simhash value
++00000f00: 0d0a 2020 2020 6d61 785f 726f 775f 6c69  ..    max_row_li
++00000f10: 6d69 743a 2074 6865 206d 6178 2064 6174  mit: the max dat
++00000f20: 6120 6e75 6d62 6572 2069 6e20 6d65 6d6f  a number in memo
++00000f30: 7279 2077 6869 6368 2069 7320 7573 6566  ry which is usef
++00000f40: 756c 2074 6f20 7361 7665 206d 656d 6f72  ul to save memor
++00000f50: 790d 0a20 2020 2073 6b69 705f 6861 7368  y..    skip_hash
++00000f60: 3a20 6465 6661 756c 7420 6661 6c73 652e  : default false.
++00000f70: 2069 7420 6e65 6564 6564 2077 6865 6e20   it needed when 
++00000f80: 6361 6c6c 2074 6865 2066 756e 6374 696f  call the functio
++00000f90: 6e20 696e 2066 6972 7374 2074 696d 652c  n in first time,
++00000fa0: 2077 6869 6368 2069 7320 7573 6564 2074   which is used t
++00000fb0: 6f20 6765 7420 7468 6520 7369 6d68 6173  o get the simhas
++00000fc0: 6820 696e 2061 6c6c 2074 6865 2064 6174  h in all the dat
++00000fd0: 610d 0a20 2020 206c 656e 6774 683a 2074  a..    length: t
++00000fe0: 6865 2073 696d 6861 7368 206c 656e 6774  he simhash lengt
++00000ff0: 680d 0a20 2020 206c 6f67 5f70 6174 683a  h..    log_path:
++00001000: 206c 6f67 2066 696c 6520 7061 7468 0d0a   log file path..
++00001010: 2020 2020 3a72 6574 7572 6e3a 2072 6573      :return: res
++00001020: 756c 7420 6461 7461 206e 756d 6265 7220  ult data number 
++00001030: 2c20 7265 6d6f 7665 6420 6461 7461 206e  , removed data n
++00001040: 756d 6265 720d 0a60 6060 600d 0a0d 0a23  umber..````....#
++00001050: 2323 2320 2833 2920 6170 706c 7920 6f72  ### (3) apply or
++00001060: 2061 7070 6c79 5f6d 756c 7469 0d0a 5468   apply_multi..Th
++00001070: 6520 6d6f 7374 2070 6f77 6572 6675 6c20  e most powerful 
++00001080: 6675 6e63 7469 6f6e 2069 6e20 7468 6973  function in this
++00001090: 2070 726f 6a65 6374 2c20 796f 7520 6361   project, you ca
++000010a0: 6e20 6170 706c 7920 616e 7920 7072 6f63  n apply any proc
++000010b0: 6573 7320 7275 6c65 2062 7920 6974 202c  ess rule by it ,
++000010c0: 696e 636c 7564 696e 673a 2060 7072 6f63  including: `proc
++000010d0: 6573 7320 7072 6f70 6572 7479 6028 6072  ess property`(`r
++000010e0: 656e 616d 6560 2c20 6072 656d 6f76 6560  ename`, `remove`
++000010f0: 2c20 6061 6464 6029 2c20 6070 726f 6365  , `add`), `proce
++00001100: 7373 2063 6f6e 7465 6e74 6028 6072 656d  ss content`(`rem
++00001110: 6f76 6520 6368 6172 7360 2c20 6072 6570  ove chars`, `rep
++00001120: 6c61 6365 2063 6861 7273 6029 2c20 6066  lace chars`), `f
++00001130: 696c 7465 7260 2073 616d 706c 6520 6279  ilter` sample by
++00001140: 2073 6f6d 6520 7275 6c65 732c 2060 6465   some rules, `de
++00001150: 7269 7665 6460 2073 6572 7661 6c20 7361  rived` serval sa
++00001160: 6d70 6c65 7320 6672 6f6d 2061 2073 616d  mples from a sam
++00001170: 706c 652e 0d0a 5468 6572 6520 6172 6520  ple...There are 
++00001180: 7468 7265 6520 7479 7069 6361 6c20 7761  three typical wa
++00001190: 7973 3a20 6049 2e66 696c 7465 7260 2c20  ys: `I.filter`, 
++000011a0: 6049 492e 7072 6f63 6573 7320 6174 7472  `II.process attr
++000011b0: 6962 7574 6573 602c 2060 4949 492e 6672  ibutes`, `III.fr
++000011c0: 6f6d 206f 6e65 2074 6f20 7365 7276 616c  om one to serval
++000011d0: 603a 0d0a 2323 2323 2049 2e20 6669 6c74  `:..#### I. filt
++000011e0: 6572 6564 2062 7920 6c65 6e67 7468 0d0a  ered by length..
++000011f0: 4669 6c74 6572 2073 616d 706c 6520 6279  Filter sample by
++00001200: 2072 6574 7572 6e69 6e67 2060 4e6f 6e65   returning `None
++00001210: 600d 0a21 5b49 2e66 696c 7465 722e 706e  `..![I.filter.pn
++00001220: 675d 2869 6d67 732f 492e 6669 6c74 6572  g](imgs/I.filter
++00001230: 2e70 6e67 290d 0a0d 0a60 6060 7079 7468  .png)....```pyth
++00001240: 6f6e 0d0a 6465 6620 666e 2872 6f77 3a20  on..def fn(row: 
++00001250: 6469 6374 5b73 7472 3a73 7472 5d29 202d  dict[str:str]) -
++00001260: 3e20 6469 6374 5b73 7472 3a73 7472 5d3a  > dict[str:str]:
++00001270: 0d0a 2020 2020 6966 2046 2e6c 656e 2872  ..    if F.len(r
++00001280: 6f77 2920 3e20 3130 3030 3a0d 0a20 2020  ow) > 1000:..   
++00001290: 2020 2020 2072 6574 7572 6e20 4e6f 6e65       return None
++000012a0: 0d0a 2020 2020 7265 7475 726e 2072 6f77  ..    return row
++000012b0: 0d0a 0d0a 5346 542e 6170 706c 7928 6669  ....SFT.apply(fi
++000012c0: 6c65 5f69 6e70 7574 3d22 6461 7461 2f74  le_input="data/t
++000012d0: 6573 742e 7478 7422 2c20 6669 6c65 5f6f  est.txt", file_o
++000012e0: 7574 7075 743d 2272 6573 756c 742f 7265  utput="result/re
++000012f0: 7375 6c74 5f74 6573 742e 6a73 6f6e 6c22  sult_test.jsonl"
++00001300: 2c20 666e 3d66 6e29 0d0a 2320 6f72 2061  , fn=fn)..# or a
++00001310: 7070 6c79 5f6d 756c 7469 2c20 7768 6963  pply_multi, whic
++00001320: 6820 7573 6573 2074 6872 6565 2074 6872  h uses three thr
++00001330: 6561 6473 2066 6f72 2070 726f 6365 7373  eads for process
++00001340: 2061 2066 696c 6520 7468 6174 2069 7320   a file that is 
++00001350: 7573 6566 756c 2077 6865 6e20 7468 6520  useful when the 
++00001360: 7072 6f63 6573 7320 6675 6e63 7469 6f6e  process function
++00001370: 2063 6f6e 7461 696e 7320 7769 7468 206e   contains with n
++00001380: 6574 776f 726b 206f 7220 7469 6d65 2063  etwork or time c
++00001390: 6f73 7465 6420 6f70 6572 6174 696f 6e20  osted operation 
++000013a0: 6c69 6b65 2077 6169 7469 6e67 2066 6f72  like waiting for
++000013b0: 204c 4c4d 2773 2072 6573 706f 6e73 650d   LLM's response.
++000013c0: 0a53 4654 2e61 7070 6c79 5f6d 756c 7469  .SFT.apply_multi
++000013d0: 2866 696c 655f 696e 7075 743d 2264 6174  (file_input="dat
++000013e0: 612f 7465 7374 2e74 7874 222c 2066 696c  a/test.txt", fil
++000013f0: 655f 6f75 7470 7574 3d22 7265 7375 6c74  e_output="result
++00001400: 2f72 6573 756c 745f 7465 7374 2e6a 736f  /result_test.jso
++00001410: 6e6c 222c 2066 6e3d 666e 2c20 6e75 6d5f  nl", fn=fn, num_
++00001420: 776f 726b 3d33 290d 0a60 6060 0d0a 2323  work=3)..```..##
++00001430: 2323 2049 492e 2063 6f6e 6361 7420 7477  ## II. concat tw
++00001440: 6f20 7072 6f70 6572 7469 6573 2069 6e74  o properties int
++00001450: 6f20 6f6e 650d 0a61 7070 6c79 2070 726f  o one..apply pro
++00001460: 6365 7373 2074 6f20 6576 6572 7920 7361  cess to every sa
++00001470: 6d70 6c65 0d0a 215b 4949 2e63 6f6e 6361  mple..![II.conca
++00001480: 7420 7477 6f20 696e 746f 206f 6e65 2e70  t two into one.p
++00001490: 6e67 5d28 696d 6773 2532 4649 492e 636f  ng](imgs%2FII.co
++000014a0: 6e63 6174 2532 3074 776f 2532 3069 6e74  ncat%20two%20int
++000014b0: 6f25 3230 6f6e 652e 706e 6729 0d0a 6060  o%20one.png)..``
++000014c0: 6070 7974 686f 6e0d 0a66 726f 6d20 6461  `python..from da
++000014d0: 7461 346c 6c6d 2e44 6174 6134 4c4c 4d20  ta4llm.Data4LLM 
++000014e0: 696d 706f 7274 2053 4654 2c20 460d 0a0d  import SFT, F...
++000014f0: 0a64 6566 2066 6e28 726f 773a 2064 6963  .def fn(row: dic
++00001500: 745b 7374 723a 7374 725d 2920 2d3e 2064  t[str:str]) -> d
++00001510: 6963 745b 7374 723a 7374 725d 3a0d 0a20  ict[str:str]:.. 
++00001520: 2020 2072 6f77 5b27 696e 7075 7427 5d20     row['input'] 
++00001530: 3d20 726f 775b 2769 6e73 7472 7563 7469  = row['instructi
++00001540: 6f6e 275d 2b72 6f77 5b27 7072 6f6d 7074  on']+row['prompt
++00001550: 275d 0d0a 2020 2020 726f 772e 706f 7028  ']..    row.pop(
++00001560: 2269 6e73 7472 7563 7469 6f6e 2229 0d0a  "instruction")..
++00001570: 2020 2020 726f 772e 706f 7028 2270 726f      row.pop("pro
++00001580: 6d70 7422 290d 0a20 2020 2072 6574 7572  mpt")..    retur
++00001590: 6e20 726f 770d 0a0d 0a0d 0a53 4654 2e61  n row......SFT.a
++000015a0: 7070 6c79 2866 696c 655f 696e 7075 743d  pply(file_input=
++000015b0: 2264 6174 612f 7465 7374 2e74 7874 222c  "data/test.txt",
++000015c0: 2066 696c 655f 6f75 7470 7574 3d22 7265   file_output="re
++000015d0: 7375 6c74 2f72 6573 756c 745f 7465 7374  sult/result_test
++000015e0: 2e6a 736f 6e6c 222c 2066 6e3d 666e 290d  .jsonl", fn=fn).
++000015f0: 0a60 6060 0d0a 0d0a 2323 2323 2049 4949  .```....#### III
++00001600: 2e20 6672 6f6d 206f 6e65 2074 6f20 7365  . from one to se
++00001610: 7665 7261 6c0d 0a47 656e 6572 6174 6520  veral..Generate 
++00001620: 6d6f 7265 2073 616d 706c 6573 2066 726f  more samples fro
++00001630: 6d20 6f6e 6520 7361 6d70 6c65 2062 7920  m one sample by 
++00001640: 7265 7475 726e 696e 6720 6120 6c69 7374  returning a list
++00001650: 2063 6f6e 7369 7374 696e 6720 6f66 2064   consisting of d
++00001660: 6963 740d 0a21 5b6f 6e65 326d 6f72 652e  ict..![one2more.
++00001670: 706e 675d 2869 6d67 732f 4949 492e 6f6e  png](imgs/III.on
++00001680: 6532 6d6f 7265 2e70 6e67 290d 0a0d 0a60  e2more.png)....`
++00001690: 6060 7079 7468 6f6e 0d0a 6465 6620 666e  ``python..def fn
++000016a0: 2872 6f77 3a20 6469 6374 5b73 7472 3a73  (row: dict[str:s
++000016b0: 7472 5d29 202d 3e20 4c69 7374 5b64 6963  tr]) -> List[dic
++000016c0: 745b 7374 723a 7374 725d 5d3a 0d0a 2020  t[str:str]]:..  
++000016d0: 2020 6172 7273 203d 2072 6f77 5b27 696e    arrs = row['in
++000016e0: 7075 7427 5d2e 7370 6c69 7428 223b 2229  put'].split(";")
++000016f0: 5b3a 2d31 5d0d 0a20 2020 2072 6f77 7320  [:-1]..    rows 
++00001700: 3d20 5b5d 0d0a 2020 2020 7465 6d70 5f73  = []..    temp_s
++00001710: 7472 203d 2022 220d 0a20 2020 2066 6f72  tr = ""..    for
++00001720: 2069 2c20 6974 656d 2069 6e20 656e 756d   i, item in enum
++00001730: 6572 6174 6528 6172 7273 293a 0d0a 2020  erate(arrs):..  
++00001740: 2020 2020 2020 6966 2069 2025 2032 2021        if i % 2 !
++00001750: 3d20 303a 0d0a 2020 2020 2020 2020 2020  = 0:..          
+ 00001760: 2020 6f75 7470 7574 203d 2069 7465 6d2e    output = item.
+-00001770: 7370 6c69 7428 223a 2229 5b30 5d0a 2020  split(":")[0].  
+-00001780: 2020 2020 2020 2020 2020 7465 6d70 5f72            temp_r
+-00001790: 6f77 203d 207b 2269 6e70 7574 223a 2074  ow = {"input": t
+-000017a0: 656d 705f 7374 7220 2b20 2261 7373 6973  emp_str + "assis
+-000017b0: 7461 6e74 3a22 2c20 226f 7574 7075 7422  tant:", "output"
+-000017c0: 3a20 6f75 7470 7574 7d0a 2020 2020 2020  : output}.      
+-000017d0: 2020 2020 2020 726f 7773 2e61 7070 656e        rows.appen
+-000017e0: 6428 7465 6d70 5f72 6f77 290a 2020 2020  d(temp_row).    
+-000017f0: 2020 2020 656c 7365 3a0a 2020 2020 2020      else:.      
+-00001800: 2020 2020 2020 7465 6d70 5f73 7472 202b        temp_str +
+-00001810: 3d20 6974 656d 202b 2022 3b22 0a20 2020  = item + ";".   
+-00001820: 2072 6574 7572 6e20 726f 7773 0a0a 5346   return rows..SF
+-00001830: 542e 6170 706c 7928 6669 6c65 5f69 6e70  T.apply(file_inp
+-00001840: 7574 3d22 6461 7461 2f74 6573 742e 7478  ut="data/test.tx
+-00001850: 7422 2c20 6669 6c65 5f6f 7574 7075 743d  t", file_output=
+-00001860: 2272 6573 756c 742f 7265 7375 6c74 5f74  "result/result_t
+-00001870: 6573 742e 6a73 6f6e 6c22 2c20 666e 3d66  est.jsonl", fn=f
+-00001880: 6e29 0a60 6060 0a23 2323 2320 5468 6520  n).```.#### The 
+-00001890: 6170 706c 7920 6675 6e63 7469 6f6e 200a  apply function .
+-000018a0: 6060 6060 0a64 6566 2061 7070 6c79 2863  ````.def apply(c
+-000018b0: 6c73 2c20 6669 6c65 5f69 6e70 7574 2c20  ls, file_input, 
+-000018c0: 6669 6c65 5f6f 7574 7075 742c 2066 6e2c  file_output, fn,
+-000018d0: 206d 6178 5f72 6f77 5f6c 696d 6974 3d31   max_row_limit=1
+-000018e0: 3030 302c 206a 736f 6e3d 4e6f 6e65 293a  000, json=None):
+-000018f0: 0a20 2020 2061 7070 6c79 5f70 726f 7065  .    apply_prope
+-00001900: 7274 793a 2061 7070 6c79 2074 6865 206a  rty: apply the j
+-00001910: 736f 6e20 726f 7720 6f6e 6520 6279 206f  son row one by o
+-00001920: 6e65 2c20 696e 636c 7564 696e 673a 2072  ne, including: r
+-00001930: 656e 616d 6520 7072 6f70 6572 7479 2c20  ename property, 
+-00001940: 7265 6d6f 7665 2070 726f 7065 7274 792c  remove property,
+-00001950: 2061 7070 6c79 2063 6f6e 7465 6e74 2872   apply content(r
+-00001960: 656d 6f76 6520 6368 6172 732c 2072 6570  emove chars, rep
+-00001970: 6c61 6365 2063 6861 7273 290a 2020 2020  lace chars).    
+-00001980: 2066 696c 655f 696e 7075 743a 2069 6e70   file_input: inp
+-00001990: 7574 2066 696c 6520 7061 7468 0a20 2020  ut file path.   
+-000019a0: 2020 6669 6c65 5f6f 7574 7075 743a 206f    file_output: o
+-000019b0: 7574 7075 7420 6669 6c65 2070 6174 680a  utput file path.
+-000019c0: 2020 2020 2066 6e3a 2061 7070 6c79 2066       fn: apply f
+-000019d0: 756e 6374 696f 6e0a 2020 2020 206d 6178  unction.     max
+-000019e0: 5f72 6f77 5f6c 696d 6974 3a20 6465 6661  _row_limit: defa
+-000019f0: 756c 743d 3130 3030 2c20 6576 6572 7920  ult=1000, every 
+-00001a00: 7374 6570 2074 6f20 7772 6974 6520 6669  step to write fi
+-00001a10: 6c65 2061 6e64 206d 6178 2064 6174 6120  le and max data 
+-00001a20: 6e75 6d20 696e 206d 656d 6f72 790a 2020  num in memory.  
+-00001a30: 2020 206a 736f 6e3a 2064 6566 6175 6c74     json: default
+-00001a40: 3d4e 6f6e 652c 2069 7420 6465 7465 726d  =None, it determ
+-00001a50: 696e 6573 206a 736f 6e20 6f72 206a 736f  ines json or jso
+-00001a60: 6e6c 696e 652c 206f 7220 5472 7565 2f46  nline, or True/F
+-00001a70: 616c 7365 0a60 6060 600a 0a0a 2323 2323  alse.````...####
+-00001a80: 2028 3429 2073 686f 775f 6578 616d 706c   (4) show_exampl
+-00001a90: 650a 4974 2069 7320 7665 7279 2075 7365  e.It is very use
+-00001aa0: 6675 6c20 746f 2073 686f 7720 7468 6520  ful to show the 
+-00001ab0: 7265 7375 6c74 2062 6566 6f72 6520 6163  result before ac
+-00001ac0: 7475 616c 6c79 2063 6f6e 6475 6374 2069  tually conduct i
+-00001ad0: 7420 6279 2060 7368 6f77 5f65 7861 6d70  t by `show_examp
+-00001ae0: 6c65 603a 0a60 6060 7079 7468 6f6e 0a66  le`:.```python.f
+-00001af0: 726f 6d20 6461 7461 346c 6c6d 2e44 6174  rom data4llm.Dat
+-00001b00: 6134 4c4c 4d20 696d 706f 7274 2053 4654  a4LLM import SFT
+-00001b10: 0a64 6566 2066 6e28 726f 7729 3a0a 2020  .def fn(row):.  
+-00001b20: 2020 726f 775b 2769 6e70 7574 275d 203d    row['input'] =
+-00001b30: 2072 6f77 5b27 696e 7075 7427 5d2e 7265   row['input'].re
+-00001b40: 706c 6163 6528 2268 7474 7073 3a2f 2f77  place("https://w
+-00001b50: 7777 2e62 6169 6475 2e63 6f6d 2229 0a20  ww.baidu.com"). 
+-00001b60: 2020 2072 6574 7572 6e20 726f 770a 5346     return row.SF
+-00001b70: 542e 7368 6f77 5f65 7861 6d70 6c65 2866  T.show_example(f
+-00001b80: 696c 655f 696e 7075 743d 2264 6174 612f  ile_input="data/
+-00001b90: 7465 7374 2e74 7874 222c 2066 6e3d 666e  test.txt", fn=fn
+-00001ba0: 290a 6060 600a 6578 616d 706c 6573 3a0a  ).```.examples:.
+-00001bb0: 6060 6060 0a23 2323 2323 204e 6f20 3120  ````.##### No 1 
+-00001bc0: 2323 2323 230a 3d3d 2042 6566 6f72 6520  #####.== Before 
+-00001bd0: 3d3d 0a7b 2769 6e70 7574 273a 2027 7765  ==.{'input': 'we
+-00001be0: 6c63 6f6d 6520 746f 2068 7474 7073 3a2f  lcome to https:/
+-00001bf0: 2f77 7777 2e62 6169 6475 2e63 6f6d 2023  /www.baidu.com #
+-00001c00: 4c4c 4d20 776f 726c 6427 2c20 276f 7574  LLM world', 'out
+-00001c10: 7075 7427 3a20 2749 206c 696b 6520 234c  put': 'I like #L
+-00001c20: 4c4d 277d 0a3d 3d20 4166 7465 7220 3d3d  LM'}.== After ==
+-00001c30: 0a7b 2770 726f 6d70 7427 3a20 2777 656c  .{'prompt': 'wel
+-00001c40: 636f 6d65 2074 6f20 204c 4c4d 2077 6f72  come to  LLM wor
+-00001c50: 6c64 272c 2027 6368 6f73 656e 273a 2027  ld', 'chosen': '
+-00001c60: 4920 6c69 6b65 204c 4c4d 277d 0a23 2323  I like LLM'}.###
+-00001c70: 2323 204e 6f20 3220 2323 2323 230a 3d3d  ## No 2 #####.==
+-00001c80: 2042 6566 6f72 6520 3d3d 0a7b 2769 6e70   Before ==.{'inp
+-00001c90: 7574 273a 2027 6865 6c6c 6f21 272c 2027  ut': 'hello!', '
+-00001ca0: 6f75 7470 7574 273a 2022 4869 2c20 4927  output': "Hi, I'
+-00001cb0: 6d20 616e 2041 4920 6173 7369 7374 616e  m an AI assistan
+-00001cc0: 742c 2068 6f77 2063 616e 2049 2068 656c  t, how can I hel
+-00001cd0: 7020 796f 753f 227d 0a3d 3d20 4166 7465  p you?"}.== Afte
+-00001ce0: 7220 3d3d 0a7b 2770 726f 6d70 7427 3a20  r ==.{'prompt': 
+-00001cf0: 2768 656c 6c6f 2127 2c20 2763 686f 7365  'hello!', 'chose
+-00001d00: 6e27 3a20 2248 692c 2049 276d 2061 6e20  n': "Hi, I'm an 
+-00001d10: 4149 2061 7373 6973 7461 6e74 2c20 686f  AI assistant, ho
+-00001d20: 7720 6361 6e20 4920 6865 6c70 2079 6f75  w can I help you
+-00001d30: 3f22 7d0a 6060 6060 0a60 6060 0a64 6566  ?"}.````.```.def
+-00001d40: 2073 686f 775f 6578 616d 706c 6528 636c   show_example(cl
+-00001d50: 732c 2066 696c 655f 696e 7075 742c 2066  s, file_input, f
+-00001d60: 6e2c 206a 736f 6e3d 4e6f 6e65 2c20 733d  n, json=None, s=
+-00001d70: 302c 2065 3d35 293a 0a20 2020 2027 2727  0, e=5):.    '''
+-00001d80: 0a20 2020 2066 696c 655f 696e 7075 743a  .    file_input:
+-00001d90: 200a 2020 2020 666e 3a20 0a20 2020 206a   .    fn: .    j
+-00001da0: 736f 6e3a 2069 6620 7468 6520 6669 6c65  son: if the file
+-00001db0: 2069 7320 6a73 6f6e 206f 7220 6a73 6f6e   is json or json
+-00001dc0: 6c69 6e65 2c20 6465 6661 756c 7420 4e6f  line, default No
+-00001dd0: 6e65 206d 6561 6e73 2069 7420 6465 6369  ne means it deci
+-00001de0: 6465 6420 6279 2074 6865 2070 6f73 7466  ded by the postf
+-00001df0: 6978 206f 6620 7468 2066 696c 655f 696e  ix of th file_in
+-00001e00: 7075 7420 0a20 2020 2073 3a20 6465 6661  put .    s: defa
+-00001e10: 756c 7420 3020 7468 6520 7374 6172 7420  ult 0 the start 
+-00001e20: 726f 7720 6e75 6d0a 2020 2020 653a 2064  row num.    e: d
+-00001e30: 6566 6175 6c74 2035 2074 6865 2065 6e64  efault 5 the end
+-00001e40: 2072 6f77 206e 756d 0a20 2020 203a 7265   row num.    :re
+-00001e50: 7475 726e 3a20 4e6f 6e65 0a20 2020 2027  turn: None.    '
+-00001e60: 2727 0a60 6060 0a23 2320 5054 0a60 6060  ''.```.## PT.```
+-00001e70: 7079 7468 6f6e 0a66 726f 6d20 6461 7461  python.from data
+-00001e80: 346c 6c6d 2e44 6174 6134 4c4c 4d20 696d  4llm.Data4LLM im
+-00001e90: 706f 7274 2050 540a 6060 600a 0a23 2323  port PT.```..###
+-00001ea0: 2320 2831 2920 2073 686f 775f 7072 6f70  # (1)  show_prop
+-00001eb0: 6572 7469 6573 0a73 686f 7720 7468 6520  erties.show the 
+-00001ec0: 6a73 6f6e 2073 7472 7563 7475 7265 0a60  json structure.`
+-00001ed0: 6060 7079 7468 6f6e 0a64 6566 2073 686f  ``python.def sho
+-00001ee0: 775f 7072 6f70 6572 7469 6573 2863 6c73  w_properties(cls
+-00001ef0: 2c20 6669 6c65 732c 2073 3d30 2c20 653d  , files, s=0, e=
+-00001f00: 3529 3a0a 2020 2020 2020 2020 2727 270a  5):.        '''.
+-00001f10: 2020 2020 2020 2020 7368 6f77 2074 6865          show the
+-00001f20: 206a 736f 6e20 7374 7275 6374 7572 650a   json structure.
+-00001f30: 2020 2020 2020 2020 3a70 6172 616d 2066          :param f
+-00001f40: 696c 6573 3a0a 2020 2020 2020 2020 3a70  iles:.        :p
+-00001f50: 6172 616d 2073 3a0a 2020 2020 2020 2020  aram s:.        
+-00001f60: 3a70 6172 616d 2065 3a0a 2020 2020 2020  :param e:.      
+-00001f70: 2020 3a72 6574 7572 6e3a 0a20 2020 2020    :return:.     
+-00001f80: 2020 2027 2727 0a60 6060 0a0a 2323 2323     '''.```..####
+-00001f90: 2028 3229 2070 6172 7365 5f70 6167 6573   (2) parse_pages
+-00001fa0: 0a70 6172 7365 2074 6865 2073 656d 6920  .parse the semi 
+-00001fb0: 7374 7275 6374 7572 6520 6a73 6f6e 2061  structure json a
+-00001fc0: 6e64 2070 6172 7365 2061 6c6c 2074 6865  nd parse all the
+-00001fd0: 2074 6f6b 656e 206e 6565 6465 6420 746f   token needed to
+-00001fe0: 6765 7468 6572 2066 6f72 2050 540a 6060  gether for PT.``
+-00001ff0: 6070 7974 686f 6e0a 6465 6620 7061 7273  `python.def pars
+-00002000: 655f 7061 6765 7328 636c 732c 2066 696c  e_pages(cls, fil
+-00002010: 6573 2c20 666e 2c20 6f75 7470 7574 5f64  es, fn, output_d
+-00002020: 6972 293a 0a20 2020 2020 2020 2027 2727  ir):.        '''
+-00002030: 0a20 2020 2020 2020 2070 6172 7365 2074  .        parse t
+-00002040: 6865 2073 656d 6920 7374 7275 6374 7572  he semi structur
+-00002050: 6520 6a73 6f6e 2061 6e64 2070 6172 7365  e json and parse
+-00002060: 2061 6c6c 2074 6865 2074 6f6b 656e 206e   all the token n
+-00002070: 6565 6465 6420 746f 6765 7468 6572 2066  eeded together f
+-00002080: 6f74 2050 540a 2020 2020 2020 2020 3a70  ot PT.        :p
+-00002090: 6172 616d 2066 696c 6573 3a0a 2020 2020  aram files:.    
+-000020a0: 2020 2020 3a70 6172 616d 2066 6e3a 0a20      :param fn:. 
+-000020b0: 2020 2020 2020 203a 7061 7261 6d20 6f75         :param ou
+-000020c0: 7470 7574 5f64 6972 3a0a 2020 2020 2020  tput_dir:.      
+-000020d0: 2020 3a72 6574 7572 6e3a 0a20 2020 2020    :return:.     
+-000020e0: 2020 2027 2727 0a60 6060 0a23 2323 2320     '''.```.#### 
+-000020f0: 2833 2920 6d65 7267 655f 6669 6c65 730a  (3) merge_files.
+-00002100: 2020 6d65 7267 6520 616c 6c20 7468 6520    merge all the 
+-00002110: 7478 7420 6669 6c65 730a 6060 6060 7079  txt files.````py
+-00002120: 7468 6f6e 0a64 6566 206d 6572 6765 5f66  thon.def merge_f
+-00002130: 696c 6573 2863 6c73 2c20 6669 6c65 732c  iles(cls, files,
+-00002140: 206f 7574 7075 745f 6669 6c65 3d22 6d65   output_file="me
+-00002150: 7267 655f 6669 6c65 2e74 7874 222c 206d  rge_file.txt", m
+-00002160: 6178 5f6c 696d 6974 5f6e 756d 3d31 3030  ax_limit_num=100
+-00002170: 293a 0a20 2020 2027 2727 0a20 2020 206d  ):.    '''.    m
+-00002180: 6572 6765 2061 6c6c 2074 6865 2074 7874  erge all the txt
+-00002190: 2066 696c 6573 0a20 2020 203a 7061 7261   files.    :para
+-000021a0: 6d20 6669 6c65 733a 200a 2020 2020 3a70  m files: .    :p
+-000021b0: 6172 616d 206f 7574 7075 745f 6669 6c65  aram output_file
+-000021c0: 3a20 0a20 2020 203a 7061 7261 6d20 6d61  : .    :param ma
+-000021d0: 785f 6c69 6d69 745f 6e75 6d3a 200a 2020  x_limit_num: .  
+-000021e0: 2020 3a72 6574 7572 6e3a 200a 2020 2020    :return: .    
+-000021f0: 2727 270a 6060 6060 0a23 2323 2320 2834  '''.````.#### (4
+-00002200: 2920 7370 6c69 745f 7472 6169 6e5f 7465  ) split_train_te
+-00002210: 7374 0a73 706c 6974 2061 2066 696c 6520  st.split a file 
+-00002220: 696e 746f 2074 7261 696e 2061 6e64 2074  into train and t
+-00002230: 6573 7420 6669 6c65 730a 6060 6070 7974  est files.```pyt
+-00002240: 686f 6e20 0a64 6566 2073 706c 6974 5f74  hon .def split_t
+-00002250: 7261 696e 5f74 6573 7428 636c 732c 2066  rain_test(cls, f
+-00002260: 696c 655f 696e 7075 742c 2074 7261 696e  ile_input, train
+-00002270: 5f74 6573 745f 7261 7469 6f2c 2066 696c  _test_ratio, fil
+-00002280: 655f 7472 6169 6e5f 6f75 7470 7574 3d22  e_train_output="
+-00002290: 7472 6169 6e2e 7478 7422 2c20 6669 6c65  train.txt", file
+-000022a0: 5f74 6573 745f 6f75 7470 7574 3d22 7465  _test_output="te
+-000022b0: 7374 2e74 7874 2229 3a0a 2020 2020 2727  st.txt"):.    ''
+-000022c0: 270a 2020 2020 7370 6c69 7420 6120 6669  '.    split a fi
+-000022d0: 6c65 2069 6e74 6f20 7472 6169 6e20 616e  le into train an
+-000022e0: 6420 7465 7374 2066 696c 6573 0a20 2020  d test files.   
+-000022f0: 203a 7061 7261 6d20 6669 6c65 5f69 6e70   :param file_inp
+-00002300: 7574 3a20 0a20 2020 203a 7061 7261 6d20  ut: .    :param 
+-00002310: 7472 6169 6e5f 7465 7374 5f72 6174 696f  train_test_ratio
+-00002320: 3a20 0a20 2020 203a 7061 7261 6d20 6669  : .    :param fi
+-00002330: 6c65 5f74 7261 696e 5f6f 7574 7075 743a  le_train_output:
+-00002340: 200a 2020 2020 3a70 6172 616d 2066 696c   .    :param fil
+-00002350: 655f 7465 7374 5f6f 7574 7075 743a 200a  e_test_output: .
+-00002360: 2020 2020 3a72 6574 7572 6e3a 200a 2020      :return: .  
+-00002370: 2020 2727 270a 6060 600a 2323 2323 2028    '''.```.#### (
+-00002380: 3529 2073 616d 706c 650a 7361 6d70 6c65  5) sample.sample
+-00002390: 200a 2323 2046 0a41 2074 6f6f 6c20 636c   .## F.A tool cl
+-000023a0: 6173 7320 7769 7468 2073 6f6d 6520 7573  ass with some us
+-000023b0: 6566 756c 2066 756e 6374 696f 6e73 0a60  eful functions.`
+-000023c0: 6060 7079 7468 6f6e 0a66 726f 6d20 6461  ``python.from da
+-000023d0: 7461 346c 6c6d 2e44 6174 6134 4c4c 4d20  ta4llm.Data4LLM 
+-000023e0: 696d 706f 7274 2046 0a60 6060 0a23 2323  import F.```.###
+-000023f0: 2028 3129 2063 6f75 6e74 0a67 6574 2074   (1) count.get t
+-00002400: 6865 2073 616d 706c 6520 6e75 6d62 6572  he sample number
+-00002410: 206f 6620 6120 6669 6c65 0a60 6060 7079   of a file.```py
+-00002420: 7468 6f6e 0a64 6566 2063 6f75 6e74 2863  thon.def count(c
+-00002430: 6c73 2c20 6669 6c65 5f69 6e70 7574 293a  ls, file_input):
+-00002440: 0a20 2020 2022 2222 0a20 2020 2067 6574  .    """.    get
+-00002450: 2074 6865 2073 616d 706c 6520 6e75 6d62   the sample numb
+-00002460: 6572 206f 6620 6120 6669 6c65 0a20 2020  er of a file.   
+-00002470: 203a 7061 7261 6d20 6669 6c65 5f69 6e70   :param file_inp
+-00002480: 7574 3a0a 2020 2020 3a72 6574 7572 6e3a  ut:.    :return:
+-00002490: 0a20 2020 2022 2222 0a60 6060 0a23 2323  .    """.```.###
+-000024a0: 2028 3229 2066 756e 6374 696f 6e73 2075   (2) functions u
+-000024b0: 7365 6420 696e 2060 6170 706c 7960 2066  sed in `apply` f
+-000024c0: 6e0a 6072 656e 616d 6528 2960 203a 2072  n.`rename()` : r
+-000024d0: 656e 616d 6520 7468 6520 7072 6f70 6572  ename the proper
+-000024e0: 7479 206f 6620 6576 6572 7920 7361 6d70  ty of every samp
+-000024f0: 6c65 205c 0a60 7265 7061 6c63 6528 2960  le \.`repalce()`
+-00002500: 3a20 7265 706c 6163 6520 7468 6520 6368  : replace the ch
+-00002510: 6172 7320 696e 2061 206a 736f 6e20 6f72  ars in a json or
+-00002520: 2061 2070 726f 7065 7274 7920 696e 2074   a property in t
+-00002530: 6865 206a 736f 6e20 5c0a 606c 656e 2829  he json \.`len()
+-00002540: 603a 2067 6574 2074 6865 206c 656e 6774  `: get the lengt
+-00002550: 6820 6f66 2074 6865 206a 736f 6e20 286f  h of the json (o
+-00002560: 6e6c 7920 7661 6c75 6573 2920 6f66 2070  nly values) of p
+-00002570: 6172 7420 6f66 206a 736f 6e20 2873 7065  art of json (spe
+-00002580: 6369 6679 2074 6865 2070 726f 7065 7274  cify the propert
+-00002590: 7920 6c69 6b65 2022 6368 6f73 656e 2220  y like "chosen" 
+-000025a0: 6f6e 6c79 207b 2263 686f 7365 6e22 7d29  only {"chosen"})
+-000025b0: 0a60 6060 7079 7468 6f6e 0a64 6566 2072  .```python.def r
+-000025c0: 656e 616d 6528 636c 732c 2072 6f77 2c20  ename(cls, row, 
+-000025d0: 6d61 7070 696e 673a 2064 6963 745b 7374  mapping: dict[st
+-000025e0: 723a 7374 725d 2920 2d3e 204e 6f6e 650a  r:str]) -> None.
+-000025f0: 6465 6620 7265 706c 6163 6528 636c 732c  def replace(cls,
+-00002600: 2072 6f77 2c20 7061 7474 6572 6e2c 2072   row, pattern, r
+-00002610: 6570 6c2c 2070 726f 7065 7274 793d 4e6f  epl, property=No
+-00002620: 6e65 2920 2d3e 204e 6f6e 650a 6465 6620  ne) -> None.def 
+-00002630: 6c65 6e28 636c 732c 2072 6f77 2c20 7072  len(cls, row, pr
+-00002640: 6f70 6572 7479 3d4e 6f6e 6529 202d 3e20  operty=None) -> 
+-00002650: 696e 743a 0a60 6060 0a0a 0a              int:.```...
++00001770: 7370 6c69 7428 223a 2229 5b30 5d0d 0a20  split(":")[0].. 
++00001780: 2020 2020 2020 2020 2020 2074 656d 705f             temp_
++00001790: 726f 7720 3d20 7b22 696e 7075 7422 3a20  row = {"input": 
++000017a0: 7465 6d70 5f73 7472 202b 2022 6173 7369  temp_str + "assi
++000017b0: 7374 616e 743a 222c 2022 6f75 7470 7574  stant:", "output
++000017c0: 223a 206f 7574 7075 747d 0d0a 2020 2020  ": output}..    
++000017d0: 2020 2020 2020 2020 726f 7773 2e61 7070          rows.app
++000017e0: 656e 6428 7465 6d70 5f72 6f77 290d 0a20  end(temp_row).. 
++000017f0: 2020 2020 2020 2065 6c73 653a 0d0a 2020         else:..  
++00001800: 2020 2020 2020 2020 2020 7465 6d70 5f73            temp_s
++00001810: 7472 202b 3d20 6974 656d 202b 2022 3b22  tr += item + ";"
++00001820: 0d0a 2020 2020 7265 7475 726e 2072 6f77  ..    return row
++00001830: 730d 0a0d 0a53 4654 2e61 7070 6c79 2866  s....SFT.apply(f
++00001840: 696c 655f 696e 7075 743d 2264 6174 612f  ile_input="data/
++00001850: 7465 7374 2e74 7874 222c 2066 696c 655f  test.txt", file_
++00001860: 6f75 7470 7574 3d22 7265 7375 6c74 2f72  output="result/r
++00001870: 6573 756c 745f 7465 7374 2e6a 736f 6e6c  esult_test.jsonl
++00001880: 222c 2066 6e3d 666e 290d 0a60 6060 0d0a  ", fn=fn)..```..
++00001890: 2323 2323 2054 6865 2061 7070 6c79 2066  #### The apply f
++000018a0: 756e 6374 696f 6e20 0d0a 6060 6060 0d0a  unction ..````..
++000018b0: 6465 6620 6170 706c 7928 636c 732c 2066  def apply(cls, f
++000018c0: 696c 655f 696e 7075 742c 2066 696c 655f  ile_input, file_
++000018d0: 6f75 7470 7574 2c20 666e 2c20 6d61 785f  output, fn, max_
++000018e0: 726f 775f 6c69 6d69 743d 3130 3030 2c20  row_limit=1000, 
++000018f0: 6a73 6f6e 3d4e 6f6e 6529 3a0d 0a20 2020  json=None):..   
++00001900: 2061 7070 6c79 5f70 726f 7065 7274 793a   apply_property:
++00001910: 2061 7070 6c79 2074 6865 206a 736f 6e20   apply the json 
++00001920: 726f 7720 6f6e 6520 6279 206f 6e65 2c20  row one by one, 
++00001930: 696e 636c 7564 696e 673a 2072 656e 616d  including: renam
++00001940: 6520 7072 6f70 6572 7479 2c20 7265 6d6f  e property, remo
++00001950: 7665 2070 726f 7065 7274 792c 2061 7070  ve property, app
++00001960: 6c79 2063 6f6e 7465 6e74 2872 656d 6f76  ly content(remov
++00001970: 6520 6368 6172 732c 2072 6570 6c61 6365  e chars, replace
++00001980: 2063 6861 7273 290d 0a20 2020 2020 6669   chars)..     fi
++00001990: 6c65 5f69 6e70 7574 3a20 696e 7075 7420  le_input: input 
++000019a0: 6669 6c65 2070 6174 680d 0a20 2020 2020  file path..     
++000019b0: 6669 6c65 5f6f 7574 7075 743a 206f 7574  file_output: out
++000019c0: 7075 7420 6669 6c65 2070 6174 680d 0a20  put file path.. 
++000019d0: 2020 2020 666e 3a20 6170 706c 7920 6675      fn: apply fu
++000019e0: 6e63 7469 6f6e 0d0a 2020 2020 206d 6178  nction..     max
++000019f0: 5f72 6f77 5f6c 696d 6974 3a20 6465 6661  _row_limit: defa
++00001a00: 756c 743d 3130 3030 2c20 6576 6572 7920  ult=1000, every 
++00001a10: 7374 6570 2074 6f20 7772 6974 6520 6669  step to write fi
++00001a20: 6c65 2061 6e64 206d 6178 2064 6174 6120  le and max data 
++00001a30: 6e75 6d20 696e 206d 656d 6f72 790d 0a20  num in memory.. 
++00001a40: 2020 2020 6a73 6f6e 3a20 6465 6661 756c      json: defaul
++00001a50: 743d 4e6f 6e65 2c20 6974 2064 6574 6572  t=None, it deter
++00001a60: 6d69 6e65 7320 6a73 6f6e 206f 7220 6a73  mines json or js
++00001a70: 6f6e 6c69 6e65 2c20 6f72 2054 7275 652f  online, or True/
++00001a80: 4661 6c73 650d 0a60 6060 600d 0a0d 0a0d  False..````.....
++00001a90: 0a23 2323 2320 2834 2920 7368 6f77 5f65  .#### (4) show_e
++00001aa0: 7861 6d70 6c65 0d0a 4974 2069 7320 7665  xample..It is ve
++00001ab0: 7279 2075 7365 6675 6c20 746f 2073 686f  ry useful to sho
++00001ac0: 7720 7468 6520 7265 7375 6c74 2062 6566  w the result bef
++00001ad0: 6f72 6520 6163 7475 616c 6c79 2063 6f6e  ore actually con
++00001ae0: 6475 6374 2069 7420 6279 2060 7368 6f77  duct it by `show
++00001af0: 5f65 7861 6d70 6c65 603a 0d0a 6060 6070  _example`:..```p
++00001b00: 7974 686f 6e0d 0a66 726f 6d20 6461 7461  ython..from data
++00001b10: 346c 6c6d 2e44 6174 6134 4c4c 4d20 696d  4llm.Data4LLM im
++00001b20: 706f 7274 2053 4654 0d0a 6465 6620 666e  port SFT..def fn
++00001b30: 2872 6f77 293a 0d0a 2020 2020 726f 775b  (row):..    row[
++00001b40: 2769 6e70 7574 275d 203d 2072 6f77 5b27  'input'] = row['
++00001b50: 696e 7075 7427 5d2e 7265 706c 6163 6528  input'].replace(
++00001b60: 2268 7474 7073 3a2f 2f77 7777 2e62 6169  "https://www.bai
++00001b70: 6475 2e63 6f6d 2229 0d0a 2020 2020 7265  du.com")..    re
++00001b80: 7475 726e 2072 6f77 0d0a 5346 542e 7368  turn row..SFT.sh
++00001b90: 6f77 5f65 7861 6d70 6c65 2866 696c 655f  ow_example(file_
++00001ba0: 696e 7075 743d 2264 6174 612f 7465 7374  input="data/test
++00001bb0: 2e74 7874 222c 2066 6e3d 666e 290d 0a60  .txt", fn=fn)..`
++00001bc0: 6060 0d0a 6578 616d 706c 6573 3a0d 0a60  ``..examples:..`
++00001bd0: 6060 600d 0a23 2323 2323 204e 6f20 3120  ```..##### No 1 
++00001be0: 2323 2323 230d 0a3d 3d20 4265 666f 7265  #####..== Before
++00001bf0: 203d 3d0d 0a7b 2769 6e70 7574 273a 2027   ==..{'input': '
++00001c00: 7765 6c63 6f6d 6520 746f 2068 7474 7073  welcome to https
++00001c10: 3a2f 2f77 7777 2e62 6169 6475 2e63 6f6d  ://www.baidu.com
++00001c20: 2023 4c4c 4d20 776f 726c 6427 2c20 276f   #LLM world', 'o
++00001c30: 7574 7075 7427 3a20 2749 206c 696b 6520  utput': 'I like 
++00001c40: 234c 4c4d 277d 0d0a 3d3d 2041 6674 6572  #LLM'}..== After
++00001c50: 203d 3d0d 0a7b 2770 726f 6d70 7427 3a20   ==..{'prompt': 
++00001c60: 2777 656c 636f 6d65 2074 6f20 204c 4c4d  'welcome to  LLM
++00001c70: 2077 6f72 6c64 272c 2027 6368 6f73 656e   world', 'chosen
++00001c80: 273a 2027 4920 6c69 6b65 204c 4c4d 277d  ': 'I like LLM'}
++00001c90: 0d0a 2323 2323 2320 4e6f 2032 2023 2323  ..##### No 2 ###
++00001ca0: 2323 0d0a 3d3d 2042 6566 6f72 6520 3d3d  ##..== Before ==
++00001cb0: 0d0a 7b27 696e 7075 7427 3a20 2768 656c  ..{'input': 'hel
++00001cc0: 6c6f 2127 2c20 276f 7574 7075 7427 3a20  lo!', 'output': 
++00001cd0: 2248 692c 2049 276d 2061 6e20 4149 2061  "Hi, I'm an AI a
++00001ce0: 7373 6973 7461 6e74 2c20 686f 7720 6361  ssistant, how ca
++00001cf0: 6e20 4920 6865 6c70 2079 6f75 3f22 7d0d  n I help you?"}.
++00001d00: 0a3d 3d20 4166 7465 7220 3d3d 0d0a 7b27  .== After ==..{'
++00001d10: 7072 6f6d 7074 273a 2027 6865 6c6c 6f21  prompt': 'hello!
++00001d20: 272c 2027 6368 6f73 656e 273a 2022 4869  ', 'chosen': "Hi
++00001d30: 2c20 4927 6d20 616e 2041 4920 6173 7369  , I'm an AI assi
++00001d40: 7374 616e 742c 2068 6f77 2063 616e 2049  stant, how can I
++00001d50: 2068 656c 7020 796f 753f 227d 0d0a 6060   help you?"}..``
++00001d60: 6060 0d0a 6060 600d 0a64 6566 2073 686f  ``..```..def sho
++00001d70: 775f 6578 616d 706c 6528 636c 732c 2066  w_example(cls, f
++00001d80: 696c 655f 696e 7075 742c 2066 6e2c 206a  ile_input, fn, j
++00001d90: 736f 6e3d 4e6f 6e65 2c20 733d 302c 2065  son=None, s=0, e
++00001da0: 3d35 293a 0d0a 2020 2020 2727 270d 0a20  =5):..    '''.. 
++00001db0: 2020 2066 696c 655f 696e 7075 743a 200d     file_input: .
++00001dc0: 0a20 2020 2066 6e3a 200d 0a20 2020 206a  .    fn: ..    j
++00001dd0: 736f 6e3a 2069 6620 7468 6520 6669 6c65  son: if the file
++00001de0: 2069 7320 6a73 6f6e 206f 7220 6a73 6f6e   is json or json
++00001df0: 6c69 6e65 2c20 6465 6661 756c 7420 4e6f  line, default No
++00001e00: 6e65 206d 6561 6e73 2069 7420 6465 6369  ne means it deci
++00001e10: 6465 6420 6279 2074 6865 2070 6f73 7466  ded by the postf
++00001e20: 6978 206f 6620 7468 2066 696c 655f 696e  ix of th file_in
++00001e30: 7075 7420 0d0a 2020 2020 733a 2064 6566  put ..    s: def
++00001e40: 6175 6c74 2030 2074 6865 2073 7461 7274  ault 0 the start
++00001e50: 2072 6f77 206e 756d 0d0a 2020 2020 653a   row num..    e:
++00001e60: 2064 6566 6175 6c74 2035 2074 6865 2065   default 5 the e
++00001e70: 6e64 2072 6f77 206e 756d 0d0a 2020 2020  nd row num..    
++00001e80: 3a72 6574 7572 6e3a 204e 6f6e 650d 0a20  :return: None.. 
++00001e90: 2020 2027 2727 0d0a 6060 600d 0a23 2320     '''..```..## 
++00001ea0: 5054 0d0a 6060 6070 7974 686f 6e0d 0a66  PT..```python..f
++00001eb0: 726f 6d20 6461 7461 346c 6c6d 2e44 6174  rom data4llm.Dat
++00001ec0: 6134 4c4c 4d20 696d 706f 7274 2050 540d  a4LLM import PT.
++00001ed0: 0a60 6060 0d0a 0d0a 2323 2323 2028 3129  .```....#### (1)
++00001ee0: 2020 7368 6f77 5f70 726f 7065 7274 6965    show_propertie
++00001ef0: 730d 0a73 686f 7720 7468 6520 6a73 6f6e  s..show the json
++00001f00: 2073 7472 7563 7475 7265 0d0a 6060 6070   structure..```p
++00001f10: 7974 686f 6e0d 0a64 6566 2073 686f 775f  ython..def show_
++00001f20: 7072 6f70 6572 7469 6573 2863 6c73 2c20  properties(cls, 
++00001f30: 6669 6c65 732c 2073 3d30 2c20 653d 3529  files, s=0, e=5)
++00001f40: 3a0d 0a20 2020 2020 2020 2027 2727 0d0a  :..        '''..
++00001f50: 2020 2020 2020 2020 7368 6f77 2074 6865          show the
++00001f60: 206a 736f 6e20 7374 7275 6374 7572 650d   json structure.
++00001f70: 0a20 2020 2020 2020 203a 7061 7261 6d20  .        :param 
++00001f80: 6669 6c65 733a 0d0a 2020 2020 2020 2020  files:..        
++00001f90: 3a70 6172 616d 2073 3a0d 0a20 2020 2020  :param s:..     
++00001fa0: 2020 203a 7061 7261 6d20 653a 0d0a 2020     :param e:..  
++00001fb0: 2020 2020 2020 3a72 6574 7572 6e3a 0d0a        :return:..
++00001fc0: 2020 2020 2020 2020 2727 270d 0a60 6060          '''..```
++00001fd0: 0d0a 0d0a 2323 2323 2028 3229 2070 6172  ....#### (2) par
++00001fe0: 7365 5f70 6167 6573 0d0a 7061 7273 6520  se_pages..parse 
++00001ff0: 7468 6520 7365 6d69 2073 7472 7563 7475  the semi structu
++00002000: 7265 206a 736f 6e20 616e 6420 7061 7273  re json and pars
++00002010: 6520 616c 6c20 7468 6520 746f 6b65 6e20  e all the token 
++00002020: 6e65 6564 6564 2074 6f67 6574 6865 7220  needed together 
++00002030: 666f 7220 5054 0d0a 6060 6070 7974 686f  for PT..```pytho
++00002040: 6e0d 0a64 6566 2070 6172 7365 5f70 6167  n..def parse_pag
++00002050: 6573 2863 6c73 2c20 6669 6c65 732c 2066  es(cls, files, f
++00002060: 6e2c 206f 7574 7075 745f 6469 7229 3a0d  n, output_dir):.
++00002070: 0a20 2020 2020 2020 2027 2727 0d0a 2020  .        '''..  
++00002080: 2020 2020 2020 7061 7273 6520 7468 6520        parse the 
++00002090: 7365 6d69 2073 7472 7563 7475 7265 206a  semi structure j
++000020a0: 736f 6e20 616e 6420 7061 7273 6520 616c  son and parse al
++000020b0: 6c20 7468 6520 746f 6b65 6e20 6e65 6564  l the token need
++000020c0: 6564 2074 6f67 6574 6865 7220 666f 7420  ed together fot 
++000020d0: 5054 0d0a 2020 2020 2020 2020 3a70 6172  PT..        :par
++000020e0: 616d 2066 696c 6573 3a0d 0a20 2020 2020  am files:..     
++000020f0: 2020 203a 7061 7261 6d20 666e 3a0d 0a20     :param fn:.. 
++00002100: 2020 2020 2020 203a 7061 7261 6d20 6f75         :param ou
++00002110: 7470 7574 5f64 6972 3a0d 0a20 2020 2020  tput_dir:..     
++00002120: 2020 203a 7265 7475 726e 3a0d 0a20 2020     :return:..   
++00002130: 2020 2020 2027 2727 0d0a 6060 600d 0a23       '''..```..#
++00002140: 2323 2320 2833 2920 6d65 7267 655f 6669  ### (3) merge_fi
++00002150: 6c65 730d 0a20 206d 6572 6765 2061 6c6c  les..  merge all
++00002160: 2074 6865 2074 7874 2066 696c 6573 0d0a   the txt files..
++00002170: 6060 6060 7079 7468 6f6e 0d0a 6465 6620  ````python..def 
++00002180: 6d65 7267 655f 6669 6c65 7328 636c 732c  merge_files(cls,
++00002190: 2066 696c 6573 2c20 6f75 7470 7574 5f66   files, output_f
++000021a0: 696c 653d 226d 6572 6765 5f66 696c 652e  ile="merge_file.
++000021b0: 7478 7422 2c20 6d61 785f 6c69 6d69 745f  txt", max_limit_
++000021c0: 6e75 6d3d 3130 3029 3a0d 0a20 2020 2027  num=100):..    '
++000021d0: 2727 0d0a 2020 2020 6d65 7267 6520 616c  ''..    merge al
++000021e0: 6c20 7468 6520 7478 7420 6669 6c65 730d  l the txt files.
++000021f0: 0a20 2020 203a 7061 7261 6d20 6669 6c65  .    :param file
++00002200: 733a 200d 0a20 2020 203a 7061 7261 6d20  s: ..    :param 
++00002210: 6f75 7470 7574 5f66 696c 653a 200d 0a20  output_file: .. 
++00002220: 2020 203a 7061 7261 6d20 6d61 785f 6c69     :param max_li
++00002230: 6d69 745f 6e75 6d3a 200d 0a20 2020 203a  mit_num: ..    :
++00002240: 7265 7475 726e 3a20 0d0a 2020 2020 2727  return: ..    ''
++00002250: 270d 0a60 6060 600d 0a23 2323 2320 2834  '..````..#### (4
++00002260: 2920 7370 6c69 745f 7472 6169 6e5f 7465  ) split_train_te
++00002270: 7374 0d0a 7370 6c69 7420 6120 6669 6c65  st..split a file
++00002280: 2069 6e74 6f20 7472 6169 6e20 616e 6420   into train and 
++00002290: 7465 7374 2066 696c 6573 0d0a 6060 6070  test files..```p
++000022a0: 7974 686f 6e20 0d0a 6465 6620 7370 6c69  ython ..def spli
++000022b0: 745f 7472 6169 6e5f 7465 7374 2863 6c73  t_train_test(cls
++000022c0: 2c20 6669 6c65 5f69 6e70 7574 2c20 7472  , file_input, tr
++000022d0: 6169 6e5f 7465 7374 5f72 6174 696f 2c20  ain_test_ratio, 
++000022e0: 6669 6c65 5f74 7261 696e 5f6f 7574 7075  file_train_outpu
++000022f0: 743d 2274 7261 696e 2e74 7874 222c 2066  t="train.txt", f
++00002300: 696c 655f 7465 7374 5f6f 7574 7075 743d  ile_test_output=
++00002310: 2274 6573 742e 7478 7422 293a 0d0a 2020  "test.txt"):..  
++00002320: 2020 2727 270d 0a20 2020 2073 706c 6974    '''..    split
++00002330: 2061 2066 696c 6520 696e 746f 2074 7261   a file into tra
++00002340: 696e 2061 6e64 2074 6573 7420 6669 6c65  in and test file
++00002350: 730d 0a20 2020 203a 7061 7261 6d20 6669  s..    :param fi
++00002360: 6c65 5f69 6e70 7574 3a20 0d0a 2020 2020  le_input: ..    
++00002370: 3a70 6172 616d 2074 7261 696e 5f74 6573  :param train_tes
++00002380: 745f 7261 7469 6f3a 200d 0a20 2020 203a  t_ratio: ..    :
++00002390: 7061 7261 6d20 6669 6c65 5f74 7261 696e  param file_train
++000023a0: 5f6f 7574 7075 743a 200d 0a20 2020 203a  _output: ..    :
++000023b0: 7061 7261 6d20 6669 6c65 5f74 6573 745f  param file_test_
++000023c0: 6f75 7470 7574 3a20 0d0a 2020 2020 3a72  output: ..    :r
++000023d0: 6574 7572 6e3a 200d 0a20 2020 2027 2727  eturn: ..    '''
++000023e0: 0d0a 6060 600d 0a23 2323 2320 2835 2920  ..```..#### (5) 
++000023f0: 7361 6d70 6c65 0d0a 7361 6d70 6c65 200d  sample..sample .
++00002400: 0a23 2320 460d 0a41 2074 6f6f 6c20 636c  .## F..A tool cl
++00002410: 6173 7320 7769 7468 2073 6f6d 6520 7573  ass with some us
++00002420: 6566 756c 2066 756e 6374 696f 6e73 0d0a  eful functions..
++00002430: 6060 6070 7974 686f 6e0d 0a66 726f 6d20  ```python..from 
++00002440: 6461 7461 346c 6c6d 2e44 6174 6134 4c4c  data4llm.Data4LL
++00002450: 4d20 696d 706f 7274 2046 0d0a 6060 600d  M import F..```.
++00002460: 0a23 2323 2028 3129 2063 6f75 6e74 0d0a  .### (1) count..
++00002470: 6765 7420 7468 6520 7361 6d70 6c65 206e  get the sample n
++00002480: 756d 6265 7220 6f66 2061 2066 696c 650d  umber of a file.
++00002490: 0a60 6060 7079 7468 6f6e 0d0a 6465 6620  .```python..def 
++000024a0: 636f 756e 7428 636c 732c 2066 696c 655f  count(cls, file_
++000024b0: 696e 7075 7429 3a0d 0a20 2020 2022 2222  input):..    """
++000024c0: 0d0a 2020 2020 6765 7420 7468 6520 7361  ..    get the sa
++000024d0: 6d70 6c65 206e 756d 6265 7220 6f66 2061  mple number of a
++000024e0: 2066 696c 650d 0a20 2020 203a 7061 7261   file..    :para
++000024f0: 6d20 6669 6c65 5f69 6e70 7574 3a0d 0a20  m file_input:.. 
++00002500: 2020 203a 7265 7475 726e 3a0d 0a20 2020     :return:..   
++00002510: 2022 2222 0d0a 6060 600d 0a23 2323 2028   """..```..### (
++00002520: 3229 2066 756e 6374 696f 6e73 2075 7365  2) functions use
++00002530: 6420 696e 2060 6170 706c 7960 2066 6e0d  d in `apply` fn.
++00002540: 0a60 7265 6e61 6d65 2829 6020 3a20 7265  .`rename()` : re
++00002550: 6e61 6d65 2074 6865 2070 726f 7065 7274  name the propert
++00002560: 7920 6f66 2065 7665 7279 2073 616d 706c  y of every sampl
++00002570: 6520 5c0d 0a60 7265 7061 6c63 6528 2960  e \..`repalce()`
++00002580: 3a20 7265 706c 6163 6520 7468 6520 6368  : replace the ch
++00002590: 6172 7320 696e 2061 206a 736f 6e20 6f72  ars in a json or
++000025a0: 2061 2070 726f 7065 7274 7920 696e 2074   a property in t
++000025b0: 6865 206a 736f 6e20 5c0d 0a60 6c65 6e28  he json \..`len(
++000025c0: 2960 3a20 6765 7420 7468 6520 6c65 6e67  )`: get the leng
++000025d0: 7468 206f 6620 7468 6520 6a73 6f6e 2028  th of the json (
++000025e0: 6f6e 6c79 2076 616c 7565 7329 206f 6620  only values) of 
++000025f0: 7061 7274 206f 6620 6a73 6f6e 2028 7370  part of json (sp
++00002600: 6563 6966 7920 7468 6520 7072 6f70 6572  ecify the proper
++00002610: 7479 206c 696b 6520 2263 686f 7365 6e22  ty like "chosen"
++00002620: 206f 6e6c 7920 7b22 6368 6f73 656e 227d   only {"chosen"}
++00002630: 290d 0a60 6060 7079 7468 6f6e 0d0a 6465  )..```python..de
++00002640: 6620 7265 6e61 6d65 2863 6c73 2c20 726f  f rename(cls, ro
++00002650: 772c 206d 6170 7069 6e67 3a20 6469 6374  w, mapping: dict
++00002660: 5b73 7472 3a73 7472 5d29 202d 3e20 4e6f  [str:str]) -> No
++00002670: 6e65 0d0a 6465 6620 7265 706c 6163 6528  ne..def replace(
++00002680: 636c 732c 2072 6f77 2c20 7061 7474 6572  cls, row, patter
++00002690: 6e2c 2072 6570 6c2c 2070 726f 7065 7274  n, repl, propert
++000026a0: 793d 4e6f 6e65 2920 2d3e 204e 6f6e 650d  y=None) -> None.
++000026b0: 0a64 6566 206c 656e 2863 6c73 2c20 726f  .def len(cls, ro
++000026c0: 772c 2070 726f 7065 7274 793d 4e6f 6e65  w, property=None
++000026d0: 2920 2d3e 2069 6e74 3a0d 0a60 6060 0d0a  ) -> int:..```..
++000026e0: 0d0a 0d0a                                ....
+```
+
+### Comparing `data4llm-0.3.0/data4llm/Data4LLM.py` & `data4llm-0.4.0/data4llm/Data4LLM.py`
+
+ * *Files 4% similar despite different names*
+
+```diff
+@@ -1,15 +1,15 @@
+ import _io
+-import json
++import concurrent
++import json5 as json
+ import logging
+ import os.path
+ import random
+ import re
+ from typing import List
+-
+ import jsonlines
+ import pandas as pd
+ from tqdm import tqdm
+ import traceback
+ import jieba
+ from simhash import Simhash
+ 
+@@ -84,29 +84,44 @@
+ 
+     '''
+     pre prorcess
+     '''
+ 
+     @classmethod
+     def __preprocess__(cls, file_input, process_fun, json=None):
++        args_num = process_fun.__code__.co_argcount
++        assert args_num <= 2, f"the process fucntion fn expected 1 arg: fn(row:Dict[str,str]) or 2 args: fn(index:int, row:Dict[str,str]) not {args_num} args"
++
++        # 如果输入是数字，且没有指定json类型则直接迭代指定次数
++        if json is None and file_input.isdigit():
++            reader = range(int(file_input))
++            pre_process = process_fun
++            fn = lambda i, x: process_fun(i, x) if args_num == 2 else process_fun(x)
++            return reader, pre_process, fn
++
+         postfix = os.path.splitext(file_input)
++
+         if json is None:
+             json = postfix == "json"
+             # 如果是json
+-        if json:
++        if json == "json":
+             reader = pd.read_json(file_input).iterrows()
+             # 预处理函数
+             pre_process = lambda x: x[1].to_dict()
+             # 由于iterrows()结果为（index,Series),包装一个适配器将Series取出并转换成dict，确保处理统一
++
+             process_fun = lambda x: process_fun(pre_process(x))
++
+             # 如果是jsonline
+         else:
+             reader = jsonlines.open(file_input)
+             pre_process = lambda x: x
+-        return reader, pre_process, process_fun
++
++        fn = lambda i, x: process_fun(i, x) if args_num == 2 else process_fun(x)
++        return reader, pre_process, fn
+ 
+     @classmethod
+     def __rearprocess__(cls, file_output, json=None):
+         postfix = os.path.splitext(file_output)
+         if json is None:
+             json = postfix == "json"
+             # 如果是json
+@@ -131,15 +146,15 @@
+         words = [word for word in jieba.cut(text) if word not in stopwords]
+         words = " ".join(words)
+         simhash = Simhash(words, f=length)
+         return simhash
+ 
+     # 计算所有样本的simhash值，存储到文件中
+     @classmethod
+-    def __simhash_all_rows__(cls, file_input: str, file_output=None, max_row_limit=1000, length=64):
++    def __simhash_all_rows__(cls, file_input: str, file_output=None, max_row_limit=100, length=64):
+         '''
+         __simhash_all_rows__ : generate all the simhash value of the intput file and cache them to file
+         :param file_input: input file path
+         :param max_row_limit: the max data number in memory which is useful to save memory
+         :param length: the simhash length
+         :return:
+         '''
+@@ -159,43 +174,89 @@
+ 
+             i += 1
+             if i % max_row_limit == 0:
+                 cls.__save_and_clear__(writer, write_buffer)
+         cls.__save_and_clear__(writer, write_buffer, close=True)
+         return i
+ 
++    @classmethod
++    def apply_multi(cls, file_input: str, file_output: str, fn: callable, num_work=1, json=None) -> None:
++        """
++
++        :param file_input:
++        :param file_output:
++        :param fn:
++        :param max_row_limit:
++        :param num_work:
++        :param json:
++        :return:
++        """
++
++        assert num_work >= 1, "num_work={}, expect to be >=1".format(num_work)
++        # 输出文件存在且大于0字节说明已经有内容，提示先删除：由于进行追加，重复生成时导致非预期的结果，且很难排查
++        assert_file_exists = not os.path.exists(file_output) or os.path.getsize(file_output) == 0
++        assert assert_file_exists, f"file_out_path {file_output} exists and is not empty, please remove it firstly!"
++
++        if num_work == 1:
++            cls.apply(file_input=file_input, file_output=file_output, fn=fn, json=json)
++        else:
++            reader, _, process_fun = cls.__preprocess__(file_input, fn, json)
++            writer = jsonlines.open(file_output, mode="a", flush=True)
++
++            def result_callback(future, writer, pbar):
++                result = future.result()
++                if result is not None:
++                    if isinstance(result, List):
++                        writer.write_all(result)
++                    if isinstance(result, dict):
++                        writer.write(result)
++                pbar.update(1)
++
++            # 创建一个线程池
++            with concurrent.futures.ThreadPoolExecutor(max_workers=num_work) as executor:
++                pbar = tqdm(position=0)
++                for i, item in enumerate(reader):
++                    try:
++                        # 提交每一行到线程池处理
++                        future = executor.submit(process_fun, i+1, item)
++                        # 添加回调函数
++                        future.add_done_callback(lambda fut: result_callback(fut, writer, pbar))
++                    except Exception as e:
++                        print(f"Error: encounter an error when dealing with the row {i+1} : {e}")
++                        traceback.print_exception(type(e), e, e.__traceback__)
++
+     '''
+         1. For row(sample)
+     '''
+ 
+     @classmethod
+-    def apply(cls, file_input: str, file_output: str, fn: callable, max_row_limit=1000, json=None) -> None:
++    def apply(cls, file_input: str, file_output: str, fn: callable, max_row_limit=100, json=None) -> None:
+         '''
+                apply: apply fn the json row one by one, including: rename property, remove property, process content(remove chars, replace chars), filter data, magnify data
+                :param fn:
+                :param file_input: input file path
+                :param file_output: output file path
+                :param process_fun: process function
+-               :param max_row_limit: default=1000, every step to write file and max data num in memory
++               :param max_row_limit: default=10, every step to write file and max data num in memory
++               :param num_work: default=1, 多线程数量，同时开多个线程处理文件
+                :param json: default=None, it determines json or jsonline, or True/False
+                '''
++
+         reader, _, process_fun = cls.__preprocess__(file_input, fn, json)
+-        writer = jsonlines.open(file_output, mode="a")
++        writer = jsonlines.open(file_output, mode="a", flush=True)
+ 
+-        # 输出文件存在且大于0字节说明已经有内容，提示先删除 ： 由于进行追加，重复生成时导致非预期的结果，且很难排查（每次打开文件查看只看top k行以为新修改的逻辑没生效）
+-        assert1 = os.path.exists(file_output)
+-        assert2 = os.path.getsize(file_output) == 0
+-        assert (not assert1) or (
+-                assert1 and assert2), f"file_out_path {file_output} exists and is not empty, please remove it ahead!"
++        # 输出文件存在且大于0字节说明已经有内容，提示先删除：由于进行追加，重复生成时导致非预期的结果，且很难排查
++        assert_file_exists = not os.path.exists(file_output) or os.path.getsize(file_output) == 0
++        assert assert_file_exists, f"file_out_path {file_output} exists and is not empty, please remove it firstly!"
+ 
+         items = []
+         i = 0
+         for item in tqdm(reader, position=0):
+             try:
+-                item = fn(item)
++                item = process_fun(i, item)
+                 # 如果是list[row]类型则将其全部加入
+                 if item is not None:
+                     if type(item) == list:
+                         items.extend(item)
+                     else:
+                         items.append(item)
+ 
+@@ -203,28 +264,30 @@
+                 i += 1
+                 if i % max_row_limit == 0:
+                     cls.__save_and_clear__(writer, items)
+             except Exception as e:
+                 cls.__save_and_clear__(writer, items)
+                 print(f"Error: encounter an error when dealing with the row {i + 1} : {e}")
+                 traceback.print_exception(type(e), e, e.__traceback__)
+-                break
++                pass
++
+         # 最后一次写文件
+         cls.__save_and_clear__(writer, items, close=True)
+ 
+     @classmethod
+-    def show_example(cls, file_input: str, fn: callable, json=None, s=0, e=5) -> None:
++    def show_example(cls, file_input: str, fn: callable, json=None, s=0, e=5, file_output=None) -> None:
+         '''
+         
+         :param fn:
+         :param file_input:
+         :param process_fun: 
+         :param json: 
+         :param s: 
+-        :param e: 
++        :param e:
++        :param *kwargs: used to receive the same arguments as function apply to convient debug
+         :return: 
+         '''
+         reader, preprocess_fn, process_fn = cls.__preprocess__(file_input, fn, json)
+         assert s <= e, f"s should >= e, but got s={s} <= e= {e}"
+         assert s >= 0, f"s should >= 0 , but got s={s}"
+ 
+         i = 0
+@@ -232,15 +295,15 @@
+             i += 1
+             if i >= e:
+                 break
+             if i <= s:
+                 continue
+             print(f"##### No {i} #####")
+             print(f"== Before ==\n{preprocess_fn(item)}")
+-            print(f"== After ==\n{process_fn(item)}")
++            print(f"== After ==\n{process_fn(i, item)}")
+ 
+     # shuffle
+     @classmethod
+     def shuffle(cls, file_input: str, file_output: str) -> None:
+         """
+         shuffle: shuffle all the data in input file. warning: it loads all the data in memory
+         :param file_input: input data
+@@ -279,15 +342,15 @@
+ 
+     '''
+         1.3 remove duplicate data
+     '''
+ 
+     # 基于simhash比较去重（需要两两比较，时间复杂度高，不适合百万级别以上数据）
+     @classmethod
+-    def remove_duplicate(cls, file_input: str, file_output: str, ratio=1, max_row_limit=1000, skip_hash=False, length=64,
++    def remove_duplicate(cls, file_input: str, file_output: str, ratio=1, max_row_limit=100, skip_hash=False, length=64,
+                          log_path="result.log"):
+         '''
+             remove_duplicate : remove duplicate data by sim_hash, which compares data one by one, getting more accurate and finely result but costing massive time
+             :param file_input: input file path with duplicated data
+             :param file_output: result file path
+             :param ratio: threshold for duplication, which is actually the distance of the two simhash value
+             :param max_row_limit: the max data number in memory which is useful to save memory
+@@ -350,15 +413,16 @@
+         # 删除临时的hash文件
+         if os.path.exists(file_hash):
+             os.remove(file_hash)
+         return len_total, len_rm
+ 
+     # 基于simhash做布尔筛去重（粗筛，速度快，适合百万级别以上数据）
+     @classmethod
+-    def remove_duplicate_BloomFilter(cls, file_input: str, file_output: str, max_row_limit=1000, skip_hash=False, length=64,
++    def remove_duplicate_BloomFilter(cls, file_input: str, file_output: str, max_row_limit=100, skip_hash=False,
++                                     length=64,
+                                      log_path="result.log"):
+         '''
+             remove_duplicate : remove duplicate data by sim_hash, which removes data by bloom filter, very fast
+             :param file_input: input file path with duplicated data
+             :param file_output: result file path
+             :param max_row_limit: the max data number in memory which is useful to save memory
+             :param skip_hash: default false. it needed when call the function in first time, which is used to get the simhash in all the data
+@@ -411,41 +475,41 @@
+         return len_total, len_rm
+ 
+     '''
+         2.For file
+     '''
+ 
+     @classmethod
+-    def merge_files(cls, files: list[str], file_output="merge.jsonl", shuffle=True, max_row_limit=1000):
++    def merge_files(cls, files: list[str], file_output="merge.jsonl", shuffle=True, max_row_limit=10):
+         '''
+-        merge_files: merge all the files data, if
+-        :param file_output:
+-        :param files:
+-        :param shuffle:
+-        :param max_row_limit:
+-        :return:
++            merge_files: merge all the files data, if
++            :param file_output:
++            :param files:
++            :param shuffle:
++            :param max_row_limit:
++            :return:
+         '''
+         writer = jsonlines.open(file_output, mode="w")
+-
++        pbar = tqdm(position=0)
+         if not shuffle:
++            buffer = []
+             for file in files:
+                 reader = jsonlines.open(file)
+-                buffer = []
+                 # 遍历行
+-                for i, row in enumerate(reader):
+-                    if i % max_row_limit == 0:
++                for row in reader:
++                    pbar.update()
++                    if len(buffer) % max_row_limit == 0:
+                         cls.__save_and_clear__(writer, buffer)
+                     buffer.append(row)
+             # 结束
+             cls.__save_and_clear__(writer, buffer, close=True)
+         else:
+             rows = []
+             # 同时打开多个文件
+             readers = [jsonlines.open(file) for file in files]
+-            pbar = tqdm(position=0)
+             # readers池不为空，则持续循环
+             while len(readers) > 0:
+                 for reader in readers:
+                     try:
+                         # 轮流提取行
+                         row = reader.read()
+                         rows.append(row)
+@@ -455,15 +519,16 @@
+                         pbar.update()
+                     except EOFError:
+                         # EOF表明到达终点，从池子里移除该reader
+                         readers.remove(reader)
+             # 保存并关闭
+             cls.__save_and_clear__(writer, rows, close=True)
+             # shuffle
+-            cls.shuffle(file_output, file_output)
++            file_output_shuffle_name = os.path.splitext(file_output)[0] + "_shuffled.jsonl"
++            cls.shuffle(file_output, file_output_shuffle_name)
+ 
+     @classmethod
+     def split_train_test(cls, file_input: str, train_ratio: float, file_train_output=None, file_test_output=None):
+         '''
+         split_train_test: split input file data to train set and test set by the train_test_ratio
+         :param file_input: input file path
+         :param train_test_ratio: train_test_ration=train number / total number = train_number / (train number+ test number)
+@@ -529,14 +594,31 @@
+             item = ""
+             for k, v in row.items():
+                 if k in property:
+                     item += v
+         return len(item)
+ 
+     @classmethod
++    def contains(cls, row: dict[str:str], keyword: str, property=None):
++        '''
++        判断dict中指定的property是否包含keywords
++        :param row:
++        :param keyword:
++        :param property:
++        :return:
++        '''
++        if property is None:
++            property = row.keys()
++
++        for k in property:
++            if keyword in row[k]:
++                return True
++        return False
++
++    @classmethod
+     def count(cls, file_input: str) -> int:
+         """
+         get the sample number of a file
+         :param file_input:
+         :return:
+         """
+```
+
