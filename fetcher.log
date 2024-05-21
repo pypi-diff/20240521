@@ -8328,3 +8328,45 @@
 [2024-05-21 04:29:16] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240520.tar.gz]
 [2024-05-21 04:29:16] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
 [2024-05-21 04:29:16] INFO root fetch - main [MainThread]: Store serial: [23299924]
+[2024-05-21 04:31:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23299924]
+[2024-05-21 04:31:24] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-21 04:31:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coretex
+[2024-05-21 04:31:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zaku
+[2024-05-21 04:31:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: backports.shutil-copytree
+[2024-05-21 04:31:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: distopf
+[2024-05-21 04:31:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ArducamEvkSDK
+[2024-05-21 04:31:25] INFO root fetch - processPackages [zaku]: New version: [0.0.9] Old Version: [0.0.8rc1]
+[2024-05-21 04:31:25] INFO root fetch - processPackages [zaku]: Downloading https://files.pythonhosted.org/packages/36/63/843de81065e8c450c9dd14f7dd36425a40393dc131450c91bebeb4c5dd43/zaku-0.0.8rc1-py3-none-any.whl
+[2024-05-21 04:31:25] WARNING root fetch - processPackages [distopf]: Skipping, unable to determine old version
+[2024-05-21 04:31:25] INFO root fetch - main [MainThread]: End processing [distopf] error
+[2024-05-21 04:31:25] INFO root fetch - processPackages [backports.shutil-copytree]: New version: [0.0.1.0] Old Version: [0.0.0.2]
+[2024-05-21 04:31:25] INFO root fetch - processPackages [coretex]: New version: [1.0.99] Old Version: [1.0.96]
+[2024-05-21 04:31:25] INFO root fetch - processPackages [ArducamEvkSDK]: New version: [1.0.0] Old Version: [0.0.9b0]
+[2024-05-21 04:31:25] INFO root fetch - processPackages [zaku]: Downloading https://files.pythonhosted.org/packages/cf/0e/96a80c4cc62c4a2fa75fb4a3fbfabb21a029116202d8e513617930bcdd4a/zaku-0.0.9-py3-none-any.whl
+[2024-05-21 04:31:25] INFO root fetch - processPackages [backports.shutil-copytree]: Downloading https://files.pythonhosted.org/packages/e4/17/034795679bdcd518409693aab6d210c8963c64fa031351741bf522f1f914/backports.shutil_copytree-0.0.0.2.tar.gz
+[2024-05-21 04:31:25] INFO root fetch - processPackages [coretex]: Downloading https://files.pythonhosted.org/packages/9c/9e/96442e220cdfb0a7de20d94e88cc29d613e1047969cf03065f2d31453bac/coretex-1.0.96.tar.gz
+[2024-05-21 04:31:25] INFO root fetch - processPackages [zaku]: executing diffoscope
+[2024-05-21 04:31:25] INFO root fetch - processPackages [zaku]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zaku-0.0.8rc1-py3-none-any.whl.zip tmp/zaku-0.0.9-py3-none-any.whl.zip --markdown 20240521/z/zaku/0.0.8rc1-0.0.9/README.md --exclude *.pyd
+[2024-05-21 04:31:25] INFO root fetch - processPackages [ArducamEvkSDK]: Downloading https://files.pythonhosted.org/packages/91/95/e70c9dec2441aebe301f391c5c7df86d6fa3d3991695b1f54fe2fe8bc676/ArducamEvkSDK-0.0.9b0-cp39-cp39-manylinux_2_24_x86_64.whl
+[2024-05-21 04:31:25] INFO root fetch - processPackages [backports.shutil-copytree]: Downloading https://files.pythonhosted.org/packages/57/7c/800c3b04c117104ee929ebab52529a5cf972685fc53f47782b6aceed0922/backports.shutil_copytree-0.0.1.0.tar.gz
+[2024-05-21 04:31:25] INFO root fetch - processPackages [coretex]: Downloading https://files.pythonhosted.org/packages/35/0f/19a109dc4ec31f790990676e2491f95aa631705ada3ef9669d6992624fc3/coretex-1.0.99.tar.gz
+[2024-05-21 04:31:25] INFO root fetch - processPackages [backports.shutil-copytree]: executing diffoscope
+[2024-05-21 04:31:25] INFO root fetch - processPackages [backports.shutil-copytree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backports.shutil_copytree-0.0.0.2.tar.gz tmp/backports.shutil_copytree-0.0.1.0.tar.gz --markdown 20240521/b/backports.shutil-copytree/0.0.0.2-0.0.1.0/README.md --exclude *.pyd
+[2024-05-21 04:31:25] INFO root fetch - processPackages [coretex]: executing diffoscope
+[2024-05-21 04:31:25] INFO root fetch - processPackages [coretex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coretex-1.0.96.tar.gz tmp/coretex-1.0.99.tar.gz --markdown 20240521/c/coretex/1.0.96-1.0.99/README.md --exclude *.pyd
+[2024-05-21 04:31:26] INFO root fetch - processPackages [zaku]: Remove: archive file [/home/abi/fetcher/tmp/zaku-0.0.8rc1-py3-none-any.whl.zip]
+[2024-05-21 04:31:26] INFO root fetch - processPackages [zaku]: Remove: archive file [/home/abi/fetcher/tmp/zaku-0.0.9-py3-none-any.whl.zip]
+[2024-05-21 04:31:26] INFO root fetch - main [MainThread]: End processing [zaku]: success
+[2024-05-21 04:31:26] INFO root fetch - processPackages [backports.shutil-copytree]: Remove: archive file [/home/abi/fetcher/tmp/backports.shutil_copytree-0.0.0.2.tar.gz]
+[2024-05-21 04:31:26] INFO root fetch - processPackages [backports.shutil-copytree]: Remove: archive file [/home/abi/fetcher/tmp/backports.shutil_copytree-0.0.1.0.tar.gz]
+[2024-05-21 04:31:26] INFO root fetch - main [MainThread]: End processing [backports.shutil-copytree]: success
+[2024-05-21 04:31:26] INFO root fetch - processPackages [coretex]: Remove: archive file [/home/abi/fetcher/tmp/coretex-1.0.96.tar.gz]
+[2024-05-21 04:31:26] INFO root fetch - processPackages [coretex]: Remove: archive file [/home/abi/fetcher/tmp/coretex-1.0.99.tar.gz]
+[2024-05-21 04:31:26] INFO root fetch - main [MainThread]: End processing [coretex]: success
+[2024-05-21 04:31:27] INFO root fetch - processPackages [ArducamEvkSDK]: Downloading https://files.pythonhosted.org/packages/de/ba/068713476a270e5ffb41a75d35bf3adf87663f067753b2e01de98848fe24/ArducamEvkSDK-1.0.0-cp312-cp312-manylinux_2_24_aarch64.whl
+[2024-05-21 04:31:29] INFO root fetch - processPackages [ArducamEvkSDK]: executing diffoscope
+[2024-05-21 04:31:29] INFO root fetch - processPackages [ArducamEvkSDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ArducamEvkSDK-0.0.9b0-cp39-cp39-manylinux_2_24_x86_64.whl.zip tmp/ArducamEvkSDK-1.0.0-cp312-cp312-manylinux_2_24_aarch64.whl.zip --markdown 20240521/A/ArducamEvkSDK/0.0.9b0-1.0.0/README.md --exclude *.pyd
+[2024-05-21 04:31:30] INFO root fetch - processPackages [ArducamEvkSDK]: Remove: archive file [/home/abi/fetcher/tmp/ArducamEvkSDK-0.0.9b0-cp39-cp39-manylinux_2_24_x86_64.whl.zip]
+[2024-05-21 04:31:30] INFO root fetch - processPackages [ArducamEvkSDK]: Remove: archive file [/home/abi/fetcher/tmp/ArducamEvkSDK-1.0.0-cp312-cp312-manylinux_2_24_aarch64.whl.zip]
+[2024-05-21 04:31:30] INFO root fetch - main [MainThread]: End processing [ArducamEvkSDK]: success
+[2024-05-21 04:31:30] INFO root fetch - main [MainThread]: Store serial: [23299976]
