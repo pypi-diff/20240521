@@ -8286,3 +8286,45 @@
 [2024-05-21 04:26:56] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2024.5.20.tar.gz]
 [2024-05-21 04:26:56] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
 [2024-05-21 04:26:56] INFO root fetch - main [MainThread]: Store serial: [23299896]
+[2024-05-21 04:29:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23299896]
+[2024-05-21 04:29:13] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-21 04:29:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cntracer
+[2024-05-21 04:29:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: df-analyze
+[2024-05-21 04:29:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: config-center
+[2024-05-21 04:29:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scaluq
+[2024-05-21 04:29:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: iam-actions
+[2024-05-21 04:29:14] INFO root fetch - processPackages [cntracer]: New version: [1.7.20] Old Version: [1.7.10]
+[2024-05-21 04:29:14] INFO root fetch - processPackages [df-analyze]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-21 04:29:14] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20240520] Old Version: [1.2.20240519]
+[2024-05-21 04:29:14] INFO root fetch - processPackages [config-center]: New version: [0.0.40.post2] Old Version: [0.0.40.post1]
+[2024-05-21 04:29:14] INFO root fetch - processPackages [cntracer]: Downloading https://files.pythonhosted.org/packages/89/90/8af5993c9f39b889c9314d90fbab6c01b8a73ea3f3ad622721b7cc255d25/cntracer-1.7.10-cp39-cp39-win_amd64.whl
+[2024-05-21 04:29:14] INFO root fetch - processPackages [df-analyze]: Downloading https://files.pythonhosted.org/packages/77/82/12522bbdbbdf194638739044d8143c77fbdbbd908028e19085fe0ba989de/df_analyze-0.1.1-py3-none-any.whl
+[2024-05-21 04:29:14] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/fa/40/253e20bce2037fcf550cad1e015bfdd1036ac1a4115e2849eaf276f26583/iam_actions-1.2.20240519.tar.gz
+[2024-05-21 04:29:14] WARNING root fetch - processPackages [scaluq]: Skipping, unable to determine old version
+[2024-05-21 04:29:14] INFO root fetch - main [MainThread]: End processing [scaluq] error
+[2024-05-21 04:29:14] INFO root fetch - processPackages [cntracer]: Downloading https://files.pythonhosted.org/packages/c0/32/633bb2841e26a8a5b36c3e080b22e2f1bc3ace696425945cdfdb8c80b977/cntracer-1.7.20-cp310-cp310-musllinux_1_1_aarch64.whl
+[2024-05-21 04:29:14] INFO root fetch - processPackages [config-center]: Downloading https://files.pythonhosted.org/packages/fc/71/e3619fbca3b7748cad58c337d6ccbfffd1c99302adfe0fe1dd3f56e3f4fc/config_center-0.0.40.post1.tar.gz
+[2024-05-21 04:29:14] INFO root fetch - processPackages [cntracer]: executing diffoscope
+[2024-05-21 04:29:14] INFO root fetch - processPackages [cntracer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cntracer-1.7.10-cp39-cp39-win_amd64.whl.zip tmp/cntracer-1.7.20-cp310-cp310-musllinux_1_1_aarch64.whl.zip --markdown 20240521/c/cntracer/1.7.10-1.7.20/README.md --exclude *.pyd
+[2024-05-21 04:29:14] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/49/e5/95fcd15962b95306091beb84316e05340e0602fbaf4328f300fce8b9be8a/iam_actions-1.2.20240520.tar.gz
+[2024-05-21 04:29:14] INFO root fetch - processPackages [df-analyze]: Downloading https://files.pythonhosted.org/packages/a4/d5/156fafa0d4fbfa1ff87c0816658811f215158221e0c8ad9ab371ac34f486/df_analyze-0.1.2-py3-none-any.whl
+[2024-05-21 04:29:14] INFO root fetch - processPackages [config-center]: Downloading https://files.pythonhosted.org/packages/91/fe/404390578d4009925464a7311d1e72a129f585909ead2793caf4ca27f4e8/config_center-0.0.40.post2.tar.gz
+[2024-05-21 04:29:14] INFO root fetch - processPackages [df-analyze]: executing diffoscope
+[2024-05-21 04:29:14] INFO root fetch - processPackages [df-analyze]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/df_analyze-0.1.1-py3-none-any.whl.zip tmp/df_analyze-0.1.2-py3-none-any.whl.zip --markdown 20240521/d/df-analyze/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-21 04:29:14] INFO root fetch - processPackages [config-center]: executing diffoscope
+[2024-05-21 04:29:14] INFO root fetch - processPackages [config-center]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/config_center-0.0.40.post1.tar.gz tmp/config_center-0.0.40.post2.tar.gz --markdown 20240521/c/config-center/0.0.40.post1-0.0.40.post2/README.md --exclude *.pyd
+[2024-05-21 04:29:14] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2024-05-21 04:29:14] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20240519.tar.gz tmp/iam_actions-1.2.20240520.tar.gz --markdown 20240521/i/iam-actions/1.2.20240519-1.2.20240520/README.md --exclude *.pyd
+[2024-05-21 04:29:15] INFO root fetch - processPackages [cntracer]: Remove: archive file [/home/abi/fetcher/tmp/cntracer-1.7.10-cp39-cp39-win_amd64.whl.zip]
+[2024-05-21 04:29:15] INFO root fetch - processPackages [cntracer]: Remove: archive file [/home/abi/fetcher/tmp/cntracer-1.7.20-cp310-cp310-musllinux_1_1_aarch64.whl.zip]
+[2024-05-21 04:29:15] INFO root fetch - main [MainThread]: End processing [cntracer]: success
+[2024-05-21 04:29:15] INFO root fetch - processPackages [config-center]: Remove: archive file [/home/abi/fetcher/tmp/config_center-0.0.40.post1.tar.gz]
+[2024-05-21 04:29:15] INFO root fetch - processPackages [config-center]: Remove: archive file [/home/abi/fetcher/tmp/config_center-0.0.40.post2.tar.gz]
+[2024-05-21 04:29:15] INFO root fetch - main [MainThread]: End processing [config-center]: success
+[2024-05-21 04:29:15] INFO root fetch - processPackages [df-analyze]: Remove: archive file [/home/abi/fetcher/tmp/df_analyze-0.1.1-py3-none-any.whl.zip]
+[2024-05-21 04:29:15] INFO root fetch - processPackages [df-analyze]: Remove: archive file [/home/abi/fetcher/tmp/df_analyze-0.1.2-py3-none-any.whl.zip]
+[2024-05-21 04:29:15] INFO root fetch - main [MainThread]: End processing [df-analyze]: success
+[2024-05-21 04:29:16] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240519.tar.gz]
+[2024-05-21 04:29:16] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240520.tar.gz]
+[2024-05-21 04:29:16] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2024-05-21 04:29:16] INFO root fetch - main [MainThread]: Store serial: [23299924]
