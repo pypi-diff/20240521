@@ -21752,3 +21752,69 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-21 13:17:02] INFO root fetch - processPackages [wagtail]: Remove: archive file [/home/abi/fetcher/tmp/wagtail-6.1rc2.tar.gz]
 [2024-05-21 13:17:02] INFO root fetch - main [MainThread]: End processing [wagtail]: success
 [2024-05-21 13:17:02] INFO root fetch - main [MainThread]: Store serial: [23305283]
+[2024-05-21 13:19:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23305283]
+[2024-05-21 13:19:12] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-21 13:19:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: model3501api
+[2024-05-21 13:19:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mq-misc
+[2024-05-21 13:19:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: smo_rejection
+[2024-05-21 13:19:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fosslight-android
+[2024-05-21 13:19:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sklearn-viz
+[2024-05-21 13:19:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: piccolo
+[2024-05-21 13:19:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: deltachat2
+[2024-05-21 13:19:12] INFO root fetch - processPackages [smo_rejection]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-05-21 13:19:12] INFO root fetch - processPackages [smo_rejection]: Downloading https://files.pythonhosted.org/packages/5f/e0/89aa7666298d653987e6efa501e7a71464abcca4db5a29b82cd495152342/smo_rejection-0.4.2.tar.gz
+[2024-05-21 13:19:12] INFO root fetch - processPackages [sklearn-viz]: New version: [0.6.7] Old Version: [0.6.6]
+[2024-05-21 13:19:12] INFO root fetch - processPackages [mq-misc]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-21 13:19:12] INFO root fetch - processPackages [fosslight-android]: New version: [4.1.18] Old Version: [4.1.17]
+[2024-05-21 13:19:12] INFO root fetch - processPackages [deltachat2]: New version: [0.6.2] Old Version: [0.6.1]
+[2024-05-21 13:19:12] INFO root fetch - processPackages [model3501api]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-21 13:19:13] INFO root fetch - processPackages [piccolo]: New version: [1.5.1] Old Version: [1.5.0]
+[2024-05-21 13:19:13] INFO root fetch - processPackages [mq-misc]: Downloading https://files.pythonhosted.org/packages/f1/fe/4c9d961647b18c9998d8339f3434ec47dd88b8eb58a29a01f56d6b8ffee7/mq-misc-0.0.6.tar.gz
+[2024-05-21 13:19:13] INFO root fetch - processPackages [fosslight-android]: Downloading https://files.pythonhosted.org/packages/74/8d/cad7f39f11519af0be7350a2ddaf7f590df610b2518197f7c73a9dfc2e65/fosslight_android-4.1.17.tar.gz
+[2024-05-21 13:19:13] INFO root fetch - processPackages [sklearn-viz]: Downloading https://files.pythonhosted.org/packages/5b/de/f637f097262ce899f8cfb93fda991acbf708c3f1ab907ace2afcfa782373/sklearn_viz-0.6.6.tar.gz
+[2024-05-21 13:19:13] INFO root fetch - processPackages [model3501api]: Downloading https://files.pythonhosted.org/packages/08/8c/cee36f2a24c9cf32718d4ac63521e7abe82092d6109485b57b28437e5e9e/model3501api-1.0.0.tar.gz
+[2024-05-21 13:19:13] INFO root fetch - processPackages [deltachat2]: Downloading https://files.pythonhosted.org/packages/8e/f5/6d5453f0df93c259b5d70c51e7658acf827a9e500b395670390f4decc154/deltachat2-0.6.1.tar.gz
+[2024-05-21 13:19:13] INFO root fetch - processPackages [smo_rejection]: Downloading https://files.pythonhosted.org/packages/35/10/5da755185fab275e5db5a466cf1c117797e1b2f52b819aabe9ed79fe828b/smo_rejection-0.4.3.tar.gz
+[2024-05-21 13:19:13] INFO root fetch - processPackages [piccolo]: Downloading https://files.pythonhosted.org/packages/93/a8/5e21c70803e2d03124ab92d91801df253fd7a0e1bf598b3e324a6ddd10e2/piccolo-1.5.0.tar.gz
+[2024-05-21 13:19:13] INFO root fetch - processPackages [smo_rejection]: executing diffoscope
+[2024-05-21 13:19:13] INFO root fetch - processPackages [smo_rejection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smo_rejection-0.4.2.tar.gz tmp/smo_rejection-0.4.3.tar.gz --markdown 20240521/s/smo_rejection/0.4.2-0.4.3/README.md --exclude *.pyd
+[2024-05-21 13:19:13] INFO root fetch - processPackages [fosslight-android]: Downloading https://files.pythonhosted.org/packages/f0/55/dbda374ccc2e3663fbe29f3e4b46ce728a76c6185d1aab61b54eb2e15adc/fosslight_android-4.1.18.tar.gz
+[2024-05-21 13:19:13] INFO root fetch - processPackages [model3501api]: Downloading https://files.pythonhosted.org/packages/cb/e6/abe56890b9f83d3578bbdc6a03b02cd017da14ed98c38cc2ef7f20d5cc76/model3501api-1.0.1.tar.gz
+[2024-05-21 13:19:13] INFO root fetch - processPackages [sklearn-viz]: Downloading https://files.pythonhosted.org/packages/30/39/e13bd3e8c068ce9bd0600b53a1a584172cdca48b3af618a0d6a8185dd56a/sklearn_viz-0.6.7.tar.gz
+[2024-05-21 13:19:13] INFO root fetch - processPackages [mq-misc]: Downloading https://files.pythonhosted.org/packages/a6/17/e4c8fad58cff63d3aa3297a289e43c1a3d171864a4ccaa728f2020ad9a45/mq_misc-0.0.7.tar.gz
+[2024-05-21 13:19:13] INFO root fetch - processPackages [fosslight-android]: executing diffoscope
+[2024-05-21 13:19:13] INFO root fetch - processPackages [fosslight-android]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fosslight_android-4.1.17.tar.gz tmp/fosslight_android-4.1.18.tar.gz --markdown 20240521/f/fosslight-android/4.1.17-4.1.18/README.md --exclude *.pyd
+[2024-05-21 13:19:13] INFO root fetch - processPackages [piccolo]: Downloading https://files.pythonhosted.org/packages/f8/90/3b2710df027187d0a7100a1b52fe80e3cf50d31409bc05f569002caee5bf/piccolo-1.5.1.tar.gz
+[2024-05-21 13:19:13] INFO root fetch - processPackages [deltachat2]: Downloading https://files.pythonhosted.org/packages/5e/3d/649e83759ce6ab72913a7688d6ab7a12c8f3041597daf95972e03a91e45f/deltachat2-0.6.2.tar.gz
+[2024-05-21 13:19:13] INFO root fetch - processPackages [sklearn-viz]: executing diffoscope
+[2024-05-21 13:19:13] INFO root fetch - processPackages [sklearn-viz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sklearn_viz-0.6.6.tar.gz tmp/sklearn_viz-0.6.7.tar.gz --markdown 20240521/s/sklearn-viz/0.6.6-0.6.7/README.md --exclude *.pyd
+[2024-05-21 13:19:13] INFO root fetch - processPackages [model3501api]: executing diffoscope
+[2024-05-21 13:19:13] INFO root fetch - processPackages [model3501api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model3501api-1.0.0.tar.gz tmp/model3501api-1.0.1.tar.gz --markdown 20240521/m/model3501api/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-21 13:19:13] INFO root fetch - processPackages [mq-misc]: executing diffoscope
+[2024-05-21 13:19:13] INFO root fetch - processPackages [mq-misc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mq-misc-0.0.6.tar.gz tmp/mq_misc-0.0.7.tar.gz --markdown 20240521/m/mq-misc/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-21 13:19:13] INFO root fetch - processPackages [deltachat2]: executing diffoscope
+[2024-05-21 13:19:13] INFO root fetch - processPackages [deltachat2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deltachat2-0.6.1.tar.gz tmp/deltachat2-0.6.2.tar.gz --markdown 20240521/d/deltachat2/0.6.1-0.6.2/README.md --exclude *.pyd
+[2024-05-21 13:19:13] INFO root fetch - processPackages [piccolo]: executing diffoscope
+[2024-05-21 13:19:13] INFO root fetch - processPackages [piccolo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piccolo-1.5.0.tar.gz tmp/piccolo-1.5.1.tar.gz --markdown 20240521/p/piccolo/1.5.0-1.5.1/README.md --exclude *.pyd
+[2024-05-21 13:19:14] INFO root fetch - processPackages [smo_rejection]: Remove: archive file [/home/abi/fetcher/tmp/smo_rejection-0.4.2.tar.gz]
+[2024-05-21 13:19:14] INFO root fetch - processPackages [smo_rejection]: Remove: archive file [/home/abi/fetcher/tmp/smo_rejection-0.4.3.tar.gz]
+[2024-05-21 13:19:14] INFO root fetch - main [MainThread]: End processing [smo_rejection]: success
+[2024-05-21 13:19:14] INFO root fetch - processPackages [model3501api]: Remove: archive file [/home/abi/fetcher/tmp/model3501api-1.0.0.tar.gz]
+[2024-05-21 13:19:14] INFO root fetch - processPackages [model3501api]: Remove: archive file [/home/abi/fetcher/tmp/model3501api-1.0.1.tar.gz]
+[2024-05-21 13:19:14] INFO root fetch - main [MainThread]: End processing [model3501api]: success
+[2024-05-21 13:19:14] INFO root fetch - processPackages [fosslight-android]: Remove: archive file [/home/abi/fetcher/tmp/fosslight_android-4.1.17.tar.gz]
+[2024-05-21 13:19:14] INFO root fetch - processPackages [fosslight-android]: Remove: archive file [/home/abi/fetcher/tmp/fosslight_android-4.1.18.tar.gz]
+[2024-05-21 13:19:14] INFO root fetch - main [MainThread]: End processing [fosslight-android]: success
+[2024-05-21 13:19:14] INFO root fetch - processPackages [sklearn-viz]: Remove: archive file [/home/abi/fetcher/tmp/sklearn_viz-0.6.6.tar.gz]
+[2024-05-21 13:19:14] INFO root fetch - processPackages [sklearn-viz]: Remove: archive file [/home/abi/fetcher/tmp/sklearn_viz-0.6.7.tar.gz]
+[2024-05-21 13:19:14] INFO root fetch - main [MainThread]: End processing [sklearn-viz]: success
+[2024-05-21 13:19:14] INFO root fetch - processPackages [deltachat2]: Remove: archive file [/home/abi/fetcher/tmp/deltachat2-0.6.1.tar.gz]
+[2024-05-21 13:19:14] INFO root fetch - processPackages [deltachat2]: Remove: archive file [/home/abi/fetcher/tmp/deltachat2-0.6.2.tar.gz]
+[2024-05-21 13:19:14] INFO root fetch - main [MainThread]: End processing [deltachat2]: success
+[2024-05-21 13:19:14] INFO root fetch - processPackages [mq-misc]: Remove: archive file [/home/abi/fetcher/tmp/mq-misc-0.0.6.tar.gz]
+[2024-05-21 13:19:14] INFO root fetch - processPackages [mq-misc]: Remove: archive file [/home/abi/fetcher/tmp/mq_misc-0.0.7.tar.gz]
+[2024-05-21 13:19:14] INFO root fetch - main [MainThread]: End processing [mq-misc]: success
+[2024-05-21 13:19:15] INFO root fetch - processPackages [piccolo]: Remove: archive file [/home/abi/fetcher/tmp/piccolo-1.5.0.tar.gz]
+[2024-05-21 13:19:15] INFO root fetch - processPackages [piccolo]: Remove: archive file [/home/abi/fetcher/tmp/piccolo-1.5.1.tar.gz]
+[2024-05-21 13:19:15] INFO root fetch - main [MainThread]: End processing [piccolo]: success
+[2024-05-21 13:19:15] INFO root fetch - main [MainThread]: Store serial: [23305304]
