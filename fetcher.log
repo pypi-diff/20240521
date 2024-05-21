@@ -8987,3 +8987,51 @@
 [2024-05-21 05:06:50] INFO root fetch - processPackages [flaskz]: Remove: archive file [/home/abi/fetcher/tmp/flaskz-1.8.0rc1.tar.gz]
 [2024-05-21 05:06:50] INFO root fetch - main [MainThread]: End processing [flaskz]: success
 [2024-05-21 05:06:50] INFO root fetch - main [MainThread]: Store serial: [23300352]
+[2024-05-21 05:08:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23300352]
+[2024-05-21 05:08:59] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-21 05:08:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: docmesh-agent
+[2024-05-21 05:08:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gs2
+[2024-05-21 05:08:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fosslight-prechecker
+[2024-05-21 05:08:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: transstellar-antd
+[2024-05-21 05:08:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nanoCEM
+[2024-05-21 05:08:59] INFO root fetch - processPackages [transstellar-antd]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-05-21 05:08:59] INFO root fetch - processPackages [transstellar-antd]: Downloading https://files.pythonhosted.org/packages/e9/b1/d1a67acd92bc2b6e540a6927403592813ac493f57542fef91cedb6fc46b3/transstellar_antd-0.6.0.tar.gz
+[2024-05-21 05:08:59] INFO root fetch - processPackages [fosslight-prechecker]: New version: [3.0.9] Old Version: [3.0.8]
+[2024-05-21 05:08:59] INFO root fetch - processPackages [docmesh-agent]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-21 05:08:59] INFO root fetch - processPackages [gs2]: New version: [1.1.99] Old Version: [1.1.98]
+[2024-05-21 05:08:59] INFO root fetch - processPackages [nanoCEM]: New version: [0.0.6.0] Old Version: [0.0.5.9]
+[2024-05-21 05:08:59] INFO root fetch - processPackages [transstellar-antd]: Downloading https://files.pythonhosted.org/packages/72/1c/d71ba533c9ab3f0b1d9bb938050b2e313a46001785ccbd5ca6365325b2c7/transstellar_antd-0.7.0.tar.gz
+[2024-05-21 05:08:59] INFO root fetch - processPackages [fosslight-prechecker]: Downloading https://files.pythonhosted.org/packages/61/57/efe45723292f6a8885e3423659c5c2f437e83c85b3f9260ce3f543e64435/fosslight_prechecker-3.0.8.tar.gz
+[2024-05-21 05:08:59] INFO root fetch - processPackages [gs2]: Downloading https://files.pythonhosted.org/packages/c5/4e/2410c578d132c3fea988dc408e73fddf9945a8ab84f7cfbaa7c82bd7a40b/gs2-1.1.98.tar.gz
+[2024-05-21 05:08:59] INFO root fetch - processPackages [docmesh-agent]: Downloading https://files.pythonhosted.org/packages/c3/b0/5fc9c83a2bcc65d8d51dca6ffee6eae36b23585bb31cc0af364af19c914d/docmesh_agent-0.0.8.tar.gz
+[2024-05-21 05:08:59] INFO root fetch - processPackages [nanoCEM]: Downloading https://files.pythonhosted.org/packages/3f/ce/bf51a91b9dd2407d720d06a01caf44f9a90303dd8d4c4c51e6dc27c6e93a/nanoCEM-0.0.5.9.tar.gz
+[2024-05-21 05:09:00] INFO root fetch - processPackages [transstellar-antd]: executing diffoscope
+[2024-05-21 05:09:00] INFO root fetch - processPackages [transstellar-antd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transstellar_antd-0.6.0.tar.gz tmp/transstellar_antd-0.7.0.tar.gz --markdown 20240521/t/transstellar-antd/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-05-21 05:09:00] INFO root fetch - processPackages [nanoCEM]: Downloading https://files.pythonhosted.org/packages/eb/e0/ae920645f88958b76e12ab51a2642775d9b8a97a16d1b5f150ae117d971a/nanoCEM-0.0.6.0.tar.gz
+[2024-05-21 05:09:00] INFO root fetch - processPackages [docmesh-agent]: Downloading https://files.pythonhosted.org/packages/f1/74/15e929e9f72b2a648f760cad7f92f4689c6b6af3deda97d5d136baebe27c/docmesh_agent-0.0.9.tar.gz
+[2024-05-21 05:09:00] INFO root fetch - processPackages [gs2]: Downloading https://files.pythonhosted.org/packages/81/a0/4021a82a0acbd1a2e84e6dce76f329b6654d5ebcf3ad4bfebcfcb3152d55/gs2-1.1.99.tar.gz
+[2024-05-21 05:09:00] INFO root fetch - processPackages [fosslight-prechecker]: Downloading https://files.pythonhosted.org/packages/1b/63/bef80aa14b33e429b88c4a1af1aae0176b9fdc454d79fbafea065e28118c/fosslight_prechecker-3.0.9.tar.gz
+[2024-05-21 05:09:00] INFO root fetch - processPackages [nanoCEM]: executing diffoscope
+[2024-05-21 05:09:00] INFO root fetch - processPackages [docmesh-agent]: executing diffoscope
+[2024-05-21 05:09:00] INFO root fetch - processPackages [nanoCEM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanoCEM-0.0.5.9.tar.gz tmp/nanoCEM-0.0.6.0.tar.gz --markdown 20240521/n/nanoCEM/0.0.5.9-0.0.6.0/README.md --exclude *.pyd
+[2024-05-21 05:09:00] INFO root fetch - processPackages [docmesh-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docmesh_agent-0.0.8.tar.gz tmp/docmesh_agent-0.0.9.tar.gz --markdown 20240521/d/docmesh-agent/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-21 05:09:00] INFO root fetch - processPackages [fosslight-prechecker]: executing diffoscope
+[2024-05-21 05:09:00] INFO root fetch - processPackages [fosslight-prechecker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fosslight_prechecker-3.0.8.tar.gz tmp/fosslight_prechecker-3.0.9.tar.gz --markdown 20240521/f/fosslight-prechecker/3.0.8-3.0.9/README.md --exclude *.pyd
+[2024-05-21 05:09:00] INFO root fetch - processPackages [gs2]: executing diffoscope
+[2024-05-21 05:09:00] INFO root fetch - processPackages [gs2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs2-1.1.98.tar.gz tmp/gs2-1.1.99.tar.gz --markdown 20240521/g/gs2/1.1.98-1.1.99/README.md --exclude *.pyd
+[2024-05-21 05:09:00] INFO root fetch - processPackages [transstellar-antd]: Remove: archive file [/home/abi/fetcher/tmp/transstellar_antd-0.6.0.tar.gz]
+[2024-05-21 05:09:00] INFO root fetch - processPackages [transstellar-antd]: Remove: archive file [/home/abi/fetcher/tmp/transstellar_antd-0.7.0.tar.gz]
+[2024-05-21 05:09:00] INFO root fetch - main [MainThread]: End processing [transstellar-antd]: success
+[2024-05-21 05:09:01] INFO root fetch - processPackages [docmesh-agent]: Remove: archive file [/home/abi/fetcher/tmp/docmesh_agent-0.0.8.tar.gz]
+[2024-05-21 05:09:01] INFO root fetch - processPackages [docmesh-agent]: Remove: archive file [/home/abi/fetcher/tmp/docmesh_agent-0.0.9.tar.gz]
+[2024-05-21 05:09:01] INFO root fetch - main [MainThread]: End processing [docmesh-agent]: success
+[2024-05-21 05:09:01] INFO root fetch - processPackages [nanoCEM]: Remove: archive file [/home/abi/fetcher/tmp/nanoCEM-0.0.5.9.tar.gz]
+[2024-05-21 05:09:01] INFO root fetch - processPackages [nanoCEM]: Remove: archive file [/home/abi/fetcher/tmp/nanoCEM-0.0.6.0.tar.gz]
+[2024-05-21 05:09:01] INFO root fetch - main [MainThread]: End processing [nanoCEM]: success
+[2024-05-21 05:09:01] INFO root fetch - processPackages [fosslight-prechecker]: Remove: archive file [/home/abi/fetcher/tmp/fosslight_prechecker-3.0.8.tar.gz]
+[2024-05-21 05:09:01] INFO root fetch - processPackages [fosslight-prechecker]: Remove: archive file [/home/abi/fetcher/tmp/fosslight_prechecker-3.0.9.tar.gz]
+[2024-05-21 05:09:01] INFO root fetch - main [MainThread]: End processing [fosslight-prechecker]: success
+[2024-05-21 05:09:02] INFO root fetch - processPackages [gs2]: Remove: archive file [/home/abi/fetcher/tmp/gs2-1.1.98.tar.gz]
+[2024-05-21 05:09:02] INFO root fetch - processPackages [gs2]: Remove: archive file [/home/abi/fetcher/tmp/gs2-1.1.99.tar.gz]
+[2024-05-21 05:09:02] INFO root fetch - main [MainThread]: End processing [gs2]: success
+[2024-05-21 05:09:02] INFO root fetch - main [MainThread]: Store serial: [23300368]
