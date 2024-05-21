@@ -21944,3 +21944,50 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-21 13:23:38] INFO root fetch - processPackages [restpki-ng-python-client]: Remove: archive file [/home/abi/fetcher/tmp/restpki_ng_python_client-0.9.0.1.tar.gz]
 [2024-05-21 13:23:38] INFO root fetch - main [MainThread]: End processing [restpki-ng-python-client]: success
 [2024-05-21 13:23:38] INFO root fetch - main [MainThread]: Store serial: [23305345]
+[2024-05-21 13:25:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23305345]
+[2024-05-21 13:25:48] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-21 13:25:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: udata-front
+[2024-05-21 13:25:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torchx-nightly
+[2024-05-21 13:25:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: agi-med-protos
+[2024-05-21 13:25:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bigdl-core-xe-21
+[2024-05-21 13:25:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: restpki-ng-python-client
+[2024-05-21 13:25:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dzidb
+[2024-05-21 13:25:48] INFO root fetch - processPackages [restpki-ng-python-client]: New version: [0.9.0.1] Old Version: [0.9.0]
+[2024-05-21 13:25:49] INFO root fetch - processPackages [dzidb]: New version: [1.1] Old Version: [1.0.8]
+[2024-05-21 13:25:49] INFO root fetch - processPackages [udata-front]: New version: [4.0.3.dev19974] Old Version: [4.0.3.dev19867]
+[2024-05-21 13:25:49] INFO root fetch - processPackages [torchx-nightly]: New version: [2024.5.9] Old Version: [2024.5.8]
+[2024-05-21 13:25:49] ERROR root fetch - processPackages [agi-med-protos]: Unable to get metadata: No such project 'agi-med-protos'
+[2024-05-21 13:25:49] INFO root fetch - main [MainThread]: End processing [agi-med-protos] error
+[2024-05-21 13:25:49] INFO root fetch - processPackages [dzidb]: Downloading https://files.pythonhosted.org/packages/72/bb/a08dd5b03f4b8aa27664a27111b99d794a04b6ea05812a34c7a800bb10a3/dzidb-1.0.8.tar.gz
+[2024-05-21 13:25:49] INFO root fetch - processPackages [restpki-ng-python-client]: Downloading https://files.pythonhosted.org/packages/9d/ef/9b590e74043eabfc294f0d03b004889b7a786af2bb6e0a80e991e0232b93/restpki_ng_python_client-0.9.0-py3-none-any.whl
+[2024-05-21 13:25:49] INFO root fetch - processPackages [udata-front]: Downloading https://files.pythonhosted.org/packages/76/9d/d7000683d3bf3b99f8505d282a0099a329d439d1c00d86ef8c06253904eb/udata_front-4.0.3.dev19867-py2.py3-none-any.whl
+[2024-05-21 13:25:49] INFO root fetch - processPackages [bigdl-core-xe-21]: New version: [2.5.0b20240521] Old Version: [2.5.0b20240520]
+[2024-05-21 13:25:49] INFO root fetch - processPackages [torchx-nightly]: Downloading https://files.pythonhosted.org/packages/4f/2c/1b1fd11c1eb29345cef72d90c551ee6ca39cb1ca91dcb13a62e39d09d3e9/torchx_nightly-2024.5.8-py3-none-any.whl
+[2024-05-21 13:25:49] INFO root fetch - processPackages [dzidb]: Downloading https://files.pythonhosted.org/packages/ab/7b/1eb783cec2be6c8f5f50400132b6afae58c752421a84c34ef92cb658707b/dzidb-1.1.tar.gz
+[2024-05-21 13:25:49] INFO root fetch - processPackages [bigdl-core-xe-21]: Downloading https://files.pythonhosted.org/packages/37/f4/f2e4bcaec0f9a3fdbd005f2d35fab4b92b2e1110cde25ffe0639769b01ea/bigdl_core_xe_21-2.5.0b20240520-cp39-cp39-win_amd64.whl
+[2024-05-21 13:25:49] INFO root fetch - processPackages [restpki-ng-python-client]: Downloading https://files.pythonhosted.org/packages/1d/cd/ab1e7b4c7989d01e0da47cf673514948ee3fb06614248691ba013ceb3efa/restpki_ng_python_client-0.9.0.1.tar.gz
+[2024-05-21 13:25:49] INFO root fetch - processPackages [torchx-nightly]: Downloading https://files.pythonhosted.org/packages/77/19/3475ceeec15466054f155b399d006faaf128258c35d771397c04ac9cf1e4/torchx_nightly-2024.5.9-py3-none-any.whl
+[2024-05-21 13:25:49] INFO root fetch - processPackages [dzidb]: executing diffoscope
+[2024-05-21 13:25:49] INFO root fetch - processPackages [dzidb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dzidb-1.0.8.tar.gz tmp/dzidb-1.1.tar.gz --markdown 20240521/d/dzidb/1.0.8-1.1/README.md --exclude *.pyd
+[2024-05-21 13:25:49] WARNING root fetch - processPackages [bigdl-core-xe-21]: Skipping package: exceeds size limit 33866423>=10485760
+[2024-05-21 13:25:49] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-21] error
+[2024-05-21 13:25:49] INFO root fetch - processPackages [restpki-ng-python-client]: executing diffoscope
+[2024-05-21 13:25:49] INFO root fetch - processPackages [restpki-ng-python-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/restpki_ng_python_client-0.9.0-py3-none-any.whl.zip tmp/restpki_ng_python_client-0.9.0.1.tar.gz --markdown 20240521/r/restpki-ng-python-client/0.9.0-0.9.0.1/README.md --exclude *.pyd
+[2024-05-21 13:25:49] INFO root fetch - processPackages [torchx-nightly]: executing diffoscope
+[2024-05-21 13:25:49] INFO root fetch - processPackages [torchx-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchx_nightly-2024.5.8-py3-none-any.whl.zip tmp/torchx_nightly-2024.5.9-py3-none-any.whl.zip --markdown 20240521/t/torchx-nightly/2024.5.8-2024.5.9/README.md --exclude *.pyd
+[2024-05-21 13:25:49] INFO root fetch - processPackages [udata-front]: Downloading https://files.pythonhosted.org/packages/db/18/681852bb4f93212101dcc1dde5df437d2434cafd7df62ce4f78e6d0c9834/udata_front-4.0.3.dev19974-py2.py3-none-any.whl
+[2024-05-21 13:25:50] INFO root fetch - processPackages [udata-front]: executing diffoscope
+[2024-05-21 13:25:50] INFO root fetch - processPackages [udata-front]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udata_front-4.0.3.dev19867-py2.py3-none-any.whl.zip tmp/udata_front-4.0.3.dev19974-py2.py3-none-any.whl.zip --markdown 20240521/u/udata-front/4.0.3.dev19867-4.0.3.dev19974/README.md --exclude *.pyd
+[2024-05-21 13:25:50] INFO root fetch - processPackages [dzidb]: Remove: archive file [/home/abi/fetcher/tmp/dzidb-1.0.8.tar.gz]
+[2024-05-21 13:25:50] INFO root fetch - processPackages [dzidb]: Remove: archive file [/home/abi/fetcher/tmp/dzidb-1.1.tar.gz]
+[2024-05-21 13:25:50] INFO root fetch - main [MainThread]: End processing [dzidb]: success
+[2024-05-21 13:25:50] INFO root fetch - processPackages [torchx-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchx_nightly-2024.5.8-py3-none-any.whl.zip]
+[2024-05-21 13:25:50] INFO root fetch - processPackages [torchx-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchx_nightly-2024.5.9-py3-none-any.whl.zip]
+[2024-05-21 13:25:50] INFO root fetch - main [MainThread]: End processing [torchx-nightly]: success
+[2024-05-21 13:25:50] INFO root fetch - processPackages [restpki-ng-python-client]: Remove: archive file [/home/abi/fetcher/tmp/restpki_ng_python_client-0.9.0-py3-none-any.whl.zip]
+[2024-05-21 13:25:50] INFO root fetch - processPackages [restpki-ng-python-client]: Remove: archive file [/home/abi/fetcher/tmp/restpki_ng_python_client-0.9.0.1.tar.gz]
+[2024-05-21 13:25:50] INFO root fetch - main [MainThread]: End processing [restpki-ng-python-client]: success
+[2024-05-21 13:27:19] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-4.0.3.dev19867-py2.py3-none-any.whl.zip]
+[2024-05-21 13:27:19] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-4.0.3.dev19974-py2.py3-none-any.whl.zip]
+[2024-05-21 13:27:19] INFO root fetch - main [MainThread]: End processing [udata-front]: success
+[2024-05-21 13:27:19] INFO root fetch - main [MainThread]: Store serial: [23305361]
