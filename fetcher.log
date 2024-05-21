@@ -8095,3 +8095,33 @@
 [2024-05-21 04:13:51] INFO root fetch - processPackages [pioreactor]: Remove: archive file [/home/abi/fetcher/tmp/pioreactor-24.5.20rc0-py3-none-any.whl.zip]
 [2024-05-21 04:13:51] INFO root fetch - main [MainThread]: End processing [pioreactor]: success
 [2024-05-21 04:13:51] INFO root fetch - main [MainThread]: Store serial: [23299797]
+[2024-05-21 04:15:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23299797]
+[2024-05-21 04:16:00] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-21 04:16:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rag-assistant
+[2024-05-21 04:16:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: developergpt
+[2024-05-21 04:16:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: df-analyze
+[2024-05-21 04:16:00] INFO root fetch - processPackages [df-analyze]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-21 04:16:00] INFO root fetch - processPackages [df-analyze]: Downloading https://files.pythonhosted.org/packages/52/16/a91b84b0a4d19d85b713ac4aca7e2b7accc669f679bc0f0b4510a5b7253c/df_analyze-0.1.0-py3-none-any.whl
+[2024-05-21 04:16:00] INFO root fetch - processPackages [developergpt]: New version: [0.7.3] Old Version: [0.7.2]
+[2024-05-21 04:16:00] INFO root fetch - processPackages [rag-assistant]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-21 04:16:01] INFO root fetch - processPackages [df-analyze]: Downloading https://files.pythonhosted.org/packages/77/82/12522bbdbbdf194638739044d8143c77fbdbbd908028e19085fe0ba989de/df_analyze-0.1.1-py3-none-any.whl
+[2024-05-21 04:16:01] INFO root fetch - processPackages [developergpt]: Downloading https://files.pythonhosted.org/packages/d8/93/173430a8ab092792c0dca92c4e402bbceaa440081d811680ba39c569c0dc/developergpt-0.7.2.tar.gz
+[2024-05-21 04:16:01] INFO root fetch - processPackages [rag-assistant]: Downloading https://files.pythonhosted.org/packages/a4/19/7416b6eb15f6056bdbd4d0d826d8d9028b76f3e60cabea03af0792692d69/rag_assistant-0.1.8.tar.gz
+[2024-05-21 04:16:01] INFO root fetch - processPackages [df-analyze]: executing diffoscope
+[2024-05-21 04:16:01] INFO root fetch - processPackages [df-analyze]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/df_analyze-0.1.0-py3-none-any.whl.zip tmp/df_analyze-0.1.1-py3-none-any.whl.zip --markdown 20240521/d/df-analyze/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-21 04:16:01] INFO root fetch - processPackages [developergpt]: Downloading https://files.pythonhosted.org/packages/54/68/5363bfcc36ab0b5384f59fccbd2fcf3754a3157c132e5f166fbb311f77b8/developergpt-0.7.3.tar.gz
+[2024-05-21 04:16:01] INFO root fetch - processPackages [rag-assistant]: Downloading https://files.pythonhosted.org/packages/ab/f1/620c7fb54b4a7ccc6bfb8b3fef465d28ab6f59106745edd2d05206cead9f/rag_assistant-0.1.9.tar.gz
+[2024-05-21 04:16:01] INFO root fetch - processPackages [developergpt]: executing diffoscope
+[2024-05-21 04:16:01] INFO root fetch - processPackages [developergpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/developergpt-0.7.2.tar.gz tmp/developergpt-0.7.3.tar.gz --markdown 20240521/d/developergpt/0.7.2-0.7.3/README.md --exclude *.pyd
+[2024-05-21 04:16:01] INFO root fetch - processPackages [rag-assistant]: executing diffoscope
+[2024-05-21 04:16:01] INFO root fetch - processPackages [rag-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rag_assistant-0.1.8.tar.gz tmp/rag_assistant-0.1.9.tar.gz --markdown 20240521/r/rag-assistant/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-21 04:16:01] INFO root fetch - processPackages [df-analyze]: Remove: archive file [/home/abi/fetcher/tmp/df_analyze-0.1.0-py3-none-any.whl.zip]
+[2024-05-21 04:16:01] INFO root fetch - processPackages [df-analyze]: Remove: archive file [/home/abi/fetcher/tmp/df_analyze-0.1.1-py3-none-any.whl.zip]
+[2024-05-21 04:16:01] INFO root fetch - main [MainThread]: End processing [df-analyze]: success
+[2024-05-21 04:16:02] INFO root fetch - processPackages [rag-assistant]: Remove: archive file [/home/abi/fetcher/tmp/rag_assistant-0.1.8.tar.gz]
+[2024-05-21 04:16:02] INFO root fetch - processPackages [rag-assistant]: Remove: archive file [/home/abi/fetcher/tmp/rag_assistant-0.1.9.tar.gz]
+[2024-05-21 04:16:02] INFO root fetch - main [MainThread]: End processing [rag-assistant]: success
+[2024-05-21 04:16:02] INFO root fetch - processPackages [developergpt]: Remove: archive file [/home/abi/fetcher/tmp/developergpt-0.7.2.tar.gz]
+[2024-05-21 04:16:02] INFO root fetch - processPackages [developergpt]: Remove: archive file [/home/abi/fetcher/tmp/developergpt-0.7.3.tar.gz]
+[2024-05-21 04:16:02] INFO root fetch - main [MainThread]: End processing [developergpt]: success
+[2024-05-21 04:16:02] INFO root fetch - main [MainThread]: Store serial: [23299807]
