@@ -9505,3 +9505,47 @@
 [2024-05-21 05:36:42] INFO root fetch - processPackages [blueness]: Remove: archive file [/home/abi/fetcher/tmp/blueness-3.9.1.tar.gz]
 [2024-05-21 05:36:42] INFO root fetch - main [MainThread]: End processing [blueness]: success
 [2024-05-21 05:36:42] INFO root fetch - main [MainThread]: Store serial: [23300532]
+[2024-05-21 05:38:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23300532]
+[2024-05-21 05:38:51] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-21 05:38:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: foxglove-data-platform
+[2024-05-21 05:38:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: TreeSAK
+[2024-05-21 05:38:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-asterisk-click2dial
+[2024-05-21 05:38:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hdmf
+[2024-05-21 05:38:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-base-phone
+[2024-05-21 05:38:51] INFO root fetch - processPackages [foxglove-data-platform]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-21 05:38:51] INFO root fetch - processPackages [odoo-addon-asterisk-click2dial]: New version: [17.0.1.0.0.4] Old Version: [17.0.1.0.0.3]
+[2024-05-21 05:38:51] INFO root fetch - processPackages [foxglove-data-platform]: Downloading https://files.pythonhosted.org/packages/4a/e1/b6b4c715b4a27c87cff67ce47ac658f5d0e7b3f85ad3cbf676d6d159c07b/foxglove-data-platform-0.8.1.tar.gz
+[2024-05-21 05:38:51] INFO root fetch - processPackages [hdmf]: New version: [3.9.0] Old Version: [3.8.1]
+[2024-05-21 05:38:51] INFO root fetch - processPackages [TreeSAK]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-05-21 05:38:51] INFO root fetch - processPackages [odoo14-addon-base-phone]: New version: [14.0.1.0.2.dev1] Old Version: [14.0.1.0.1.dev9]
+[2024-05-21 05:38:51] INFO root fetch - processPackages [TreeSAK]: Downloading https://files.pythonhosted.org/packages/33/3d/03ab6748b3aed0610812e461492b58278718c5c15236ce439a758aa3fc27/TreeSAK-1.9.1.tar.gz
+[2024-05-21 05:38:51] INFO root fetch - processPackages [foxglove-data-platform]: Downloading https://files.pythonhosted.org/packages/14/d8/081c511e31e740ed0fa83dc55648e2d9e5f543a7825db9f91e1001de1c2e/foxglove-data-platform-0.9.0.tar.gz
+[2024-05-21 05:38:51] INFO root fetch - processPackages [odoo-addon-asterisk-click2dial]: Downloading https://files.pythonhosted.org/packages/bb/d7/16f06b3f4235ba634d2462dfdd28cff1ee8e1a41592004174cb30c311ae8/odoo_addon_asterisk_click2dial-17.0.1.0.0.3-py3-none-any.whl
+[2024-05-21 05:38:51] INFO root fetch - processPackages [hdmf]: Downloading https://files.pythonhosted.org/packages/fb/a7/afebe5efad4e536d055fd9e7a7cc217b1470700bafc2ed4b562b79eb8e8e/hdmf-3.8.1.tar.gz
+[2024-05-21 05:38:52] INFO root fetch - processPackages [odoo14-addon-base-phone]: Downloading https://files.pythonhosted.org/packages/7a/bd/6ab75127cd247caf01fbd024d7e627eb4b0d720f9ea9b9bc1830d663d596/odoo14_addon_base_phone-14.0.1.0.1.dev9-py3-none-any.whl
+[2024-05-21 05:38:52] WARNING root fetch - processPackages [hdmf]: Skipping package: exceeds size limit 16298326>=10485760
+[2024-05-21 05:38:52] INFO root fetch - main [MainThread]: End processing [hdmf] error
+[2024-05-21 05:38:52] INFO root fetch - processPackages [foxglove-data-platform]: executing diffoscope
+[2024-05-21 05:38:52] INFO root fetch - processPackages [foxglove-data-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foxglove-data-platform-0.8.1.tar.gz tmp/foxglove-data-platform-0.9.0.tar.gz --markdown 20240521/f/foxglove-data-platform/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-21 05:38:52] INFO root fetch - processPackages [TreeSAK]: Downloading https://files.pythonhosted.org/packages/3d/18/0b0f8a2c565de5415024065f522c859677184cac283a7e4af0060f267891/TreeSAK-1.9.2.tar.gz
+[2024-05-21 05:38:52] INFO root fetch - processPackages [TreeSAK]: executing diffoscope
+[2024-05-21 05:38:52] INFO root fetch - processPackages [TreeSAK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TreeSAK-1.9.1.tar.gz tmp/TreeSAK-1.9.2.tar.gz --markdown 20240521/T/TreeSAK/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-05-21 05:38:52] INFO root fetch - processPackages [odoo-addon-asterisk-click2dial]: Downloading https://files.pythonhosted.org/packages/48/c3/ecc68aab59a768f54e880df672e88522f30d71a75657d426b73eafe96e96/odoo_addon_asterisk_click2dial-17.0.1.0.0.4-py3-none-any.whl
+[2024-05-21 05:38:52] INFO root fetch - processPackages [odoo14-addon-base-phone]: Downloading https://files.pythonhosted.org/packages/1a/4d/bbd2f71f654076e6706acd51724b99c90bbfa95e598a3f926aa6a1d85089/odoo14_addon_base_phone-14.0.1.0.2.dev1-py3-none-any.whl
+[2024-05-21 05:38:52] INFO root fetch - processPackages [odoo-addon-asterisk-click2dial]: executing diffoscope
+[2024-05-21 05:38:52] INFO root fetch - processPackages [odoo-addon-asterisk-click2dial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_asterisk_click2dial-17.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_asterisk_click2dial-17.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240521/o/odoo-addon-asterisk-click2dial/17.0.1.0.0.3-17.0.1.0.0.4/README.md --exclude *.pyd
+[2024-05-21 05:38:52] INFO root fetch - processPackages [odoo14-addon-base-phone]: executing diffoscope
+[2024-05-21 05:38:52] INFO root fetch - processPackages [odoo14-addon-base-phone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_base_phone-14.0.1.0.1.dev9-py3-none-any.whl.zip tmp/odoo14_addon_base_phone-14.0.1.0.2.dev1-py3-none-any.whl.zip --markdown 20240521/o/odoo14-addon-base-phone/14.0.1.0.1.dev9-14.0.1.0.2.dev1/README.md --exclude *.pyd
+[2024-05-21 05:38:52] INFO root fetch - processPackages [foxglove-data-platform]: Remove: archive file [/home/abi/fetcher/tmp/foxglove-data-platform-0.8.1.tar.gz]
+[2024-05-21 05:38:52] INFO root fetch - processPackages [foxglove-data-platform]: Remove: archive file [/home/abi/fetcher/tmp/foxglove-data-platform-0.9.0.tar.gz]
+[2024-05-21 05:38:52] INFO root fetch - main [MainThread]: End processing [foxglove-data-platform]: success
+[2024-05-21 05:38:52] INFO root fetch - processPackages [TreeSAK]: Remove: archive file [/home/abi/fetcher/tmp/TreeSAK-1.9.1.tar.gz]
+[2024-05-21 05:38:52] INFO root fetch - processPackages [TreeSAK]: Remove: archive file [/home/abi/fetcher/tmp/TreeSAK-1.9.2.tar.gz]
+[2024-05-21 05:38:52] INFO root fetch - main [MainThread]: End processing [TreeSAK]: success
+[2024-05-21 05:38:53] INFO root fetch - processPackages [odoo-addon-asterisk-click2dial]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_asterisk_click2dial-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-21 05:38:53] INFO root fetch - processPackages [odoo-addon-asterisk-click2dial]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_asterisk_click2dial-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-21 05:38:53] INFO root fetch - main [MainThread]: End processing [odoo-addon-asterisk-click2dial]: success
+[2024-05-21 05:38:53] INFO root fetch - processPackages [odoo14-addon-base-phone]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_base_phone-14.0.1.0.1.dev9-py3-none-any.whl.zip]
+[2024-05-21 05:38:53] INFO root fetch - processPackages [odoo14-addon-base-phone]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_base_phone-14.0.1.0.2.dev1-py3-none-any.whl.zip]
+[2024-05-21 05:38:53] INFO root fetch - main [MainThread]: End processing [odoo14-addon-base-phone]: success
+[2024-05-21 05:38:53] INFO root fetch - main [MainThread]: Store serial: [23300547]
