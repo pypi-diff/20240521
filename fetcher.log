@@ -18150,3 +18150,42 @@
 [2024-05-21 11:18:15] INFO root fetch - processPackages [lusid-drive-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-drive-sdk-preview-0.1.96.tar.gz]
 [2024-05-21 11:18:15] INFO root fetch - main [MainThread]: End processing [lusid-drive-sdk-preview]: success
 [2024-05-21 11:18:15] INFO root fetch - main [MainThread]: Store serial: [23303735]
+[2024-05-21 11:20:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23303735]
+[2024-05-21 11:20:23] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-21 11:20:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: remayn
+[2024-05-21 11:20:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyresumeparser
+[2024-05-21 11:20:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: simpleworkspace
+[2024-05-21 11:20:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Python-Education-Tools
+[2024-05-21 11:20:24] INFO root fetch - processPackages [pyresumeparser]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-21 11:20:24] INFO root fetch - processPackages [remayn]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-21 11:20:24] INFO root fetch - processPackages [Python-Education-Tools]: New version: [24.5.8] Old Version: [24.5.3]
+[2024-05-21 11:20:24] INFO root fetch - processPackages [simpleworkspace]: New version: [1.2.210] Old Version: [1.2.209]
+[2024-05-21 11:20:24] INFO root fetch - processPackages [pyresumeparser]: Downloading https://files.pythonhosted.org/packages/52/c0/a507836f3eca12c49f50451e0b5f2117c8c3ae46f5c7154e1f0362854abf/pyresumeparser-0.0.1.tar.gz
+[2024-05-21 11:20:24] INFO root fetch - processPackages [remayn]: Downloading https://files.pythonhosted.org/packages/08/56/6e3ae826337b7bae9dc988d1c6790ba5fc75e072650e5f6e7367c67e7b8d/remayn-1.0.2.tar.gz
+[2024-05-21 11:20:24] INFO root fetch - processPackages [Python-Education-Tools]: Downloading https://files.pythonhosted.org/packages/f9/94/1a054bf5a1f5c7c4dcc779cd3e6a2beb54a735ddc01c6ea4684e814c46ba/Python_Education_Tools-24.5.3-py3-none-any.whl
+[2024-05-21 11:20:24] INFO root fetch - processPackages [simpleworkspace]: Downloading https://files.pythonhosted.org/packages/ea/d1/4b2bc059c268f07be0181579e6305f0de562d57408410733cd6b14186e07/simpleworkspace-1.2.209.tar.gz
+[2024-05-21 11:20:24] INFO root fetch - processPackages [remayn]: Downloading https://files.pythonhosted.org/packages/7a/45/8a86fe3c78442a571204a0d95984f878ddf830b81baef36d98bc4e525ea6/remayn-1.0.3.tar.gz
+[2024-05-21 11:20:24] INFO root fetch - processPackages [pyresumeparser]: Downloading https://files.pythonhosted.org/packages/19/2b/e27833a819e24476c412e212209449dcea4bcb4b77021116672f8746cd53/pyresumeparser-0.0.2.tar.gz
+[2024-05-21 11:20:24] INFO root fetch - processPackages [remayn]: executing diffoscope
+[2024-05-21 11:20:24] INFO root fetch - processPackages [remayn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remayn-1.0.2.tar.gz tmp/remayn-1.0.3.tar.gz --markdown 20240521/r/remayn/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-21 11:20:24] INFO root fetch - processPackages [simpleworkspace]: Downloading https://files.pythonhosted.org/packages/83/92/77420582bb5b2483f0dad46af69d8796039e0a90cf0674cc82c652bd2a58/simpleworkspace-1.2.210.tar.gz
+[2024-05-21 11:20:24] INFO root fetch - processPackages [pyresumeparser]: executing diffoscope
+[2024-05-21 11:20:24] INFO root fetch - processPackages [pyresumeparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyresumeparser-0.0.1.tar.gz tmp/pyresumeparser-0.0.2.tar.gz --markdown 20240521/p/pyresumeparser/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-21 11:20:24] INFO root fetch - processPackages [simpleworkspace]: executing diffoscope
+[2024-05-21 11:20:24] INFO root fetch - processPackages [simpleworkspace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simpleworkspace-1.2.209.tar.gz tmp/simpleworkspace-1.2.210.tar.gz --markdown 20240521/s/simpleworkspace/1.2.209-1.2.210/README.md --exclude *.pyd
+[2024-05-21 11:20:25] INFO root fetch - processPackages [Python-Education-Tools]: Downloading https://files.pythonhosted.org/packages/42/3c/1f2f6573ad9661f267e29c6b9dc46f6e0c80fa8555e8c52475fb718fd47d/Python_Education_Tools-24.5.8-py3-none-any.whl
+[2024-05-21 11:20:25] INFO root fetch - processPackages [pyresumeparser]: Remove: archive file [/home/abi/fetcher/tmp/pyresumeparser-0.0.1.tar.gz]
+[2024-05-21 11:20:25] INFO root fetch - processPackages [pyresumeparser]: Remove: archive file [/home/abi/fetcher/tmp/pyresumeparser-0.0.2.tar.gz]
+[2024-05-21 11:20:25] INFO root fetch - main [MainThread]: End processing [pyresumeparser]: success
+[2024-05-21 11:20:25] INFO root fetch - processPackages [remayn]: Remove: archive file [/home/abi/fetcher/tmp/remayn-1.0.2.tar.gz]
+[2024-05-21 11:20:25] INFO root fetch - processPackages [remayn]: Remove: archive file [/home/abi/fetcher/tmp/remayn-1.0.3.tar.gz]
+[2024-05-21 11:20:25] INFO root fetch - main [MainThread]: End processing [remayn]: success
+[2024-05-21 11:20:25] INFO root fetch - processPackages [Python-Education-Tools]: executing diffoscope
+[2024-05-21 11:20:25] INFO root fetch - processPackages [Python-Education-Tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Python_Education_Tools-24.5.3-py3-none-any.whl.zip tmp/Python_Education_Tools-24.5.8-py3-none-any.whl.zip --markdown 20240521/P/Python-Education-Tools/24.5.3-24.5.8/README.md --exclude *.pyd
+[2024-05-21 11:20:25] INFO root fetch - processPackages [simpleworkspace]: Remove: archive file [/home/abi/fetcher/tmp/simpleworkspace-1.2.209.tar.gz]
+[2024-05-21 11:20:25] INFO root fetch - processPackages [simpleworkspace]: Remove: archive file [/home/abi/fetcher/tmp/simpleworkspace-1.2.210.tar.gz]
+[2024-05-21 11:20:25] INFO root fetch - main [MainThread]: End processing [simpleworkspace]: success
+[2024-05-21 11:20:26] INFO root fetch - processPackages [Python-Education-Tools]: Remove: archive file [/home/abi/fetcher/tmp/Python_Education_Tools-24.5.3-py3-none-any.whl.zip]
+[2024-05-21 11:20:26] INFO root fetch - processPackages [Python-Education-Tools]: Remove: archive file [/home/abi/fetcher/tmp/Python_Education_Tools-24.5.8-py3-none-any.whl.zip]
+[2024-05-21 11:20:26] INFO root fetch - main [MainThread]: End processing [Python-Education-Tools]: success
+[2024-05-21 11:20:26] INFO root fetch - main [MainThread]: Store serial: [23303748]
