@@ -22057,3 +22057,120 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-21 13:30:00] INFO root fetch - processPackages [zango]: Remove: archive file [/home/abi/fetcher/tmp/zango-0.2.0rc1.tar.gz]
 [2024-05-21 13:30:00] INFO root fetch - main [MainThread]: End processing [zango]: success
 [2024-05-21 13:30:00] INFO root fetch - main [MainThread]: Store serial: [23305384]
+[2024-05-21 13:32:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23305384]
+[2024-05-21 13:32:12] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-05-21 13:32:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dig-ass-chat-protos
+[2024-05-21 13:32:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyodide-lock
+[2024-05-21 13:32:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: c2cciutils
+[2024-05-21 13:32:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyodre
+[2024-05-21 13:32:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dig-ass-critic-protos
+[2024-05-21 13:32:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dig-ass-ep-protos
+[2024-05-21 13:32:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cimsparql
+[2024-05-21 13:32:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dig-ass-ocr-protos
+[2024-05-21 13:32:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dig-ass-text-protos
+[2024-05-21 13:32:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: spaceone-cost-analysis
+[2024-05-21 13:32:12] INFO root fetch - processPackages [dig-ass-ocr-protos]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-21 13:32:12] INFO root fetch - processPackages [dig-ass-critic-protos]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-05-21 13:32:12] INFO root fetch - processPackages [pyodre]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-21 13:32:12] INFO root fetch - processPackages [dig-ass-chat-protos]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-21 13:32:12] INFO root fetch - processPackages [dig-ass-text-protos]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-21 13:32:12] INFO root fetch - processPackages [dig-ass-ep-protos]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-21 13:32:12] INFO root fetch - processPackages [spaceone-cost-analysis]: New version: [2.0.dev99] Old Version: [2.0.dev98]
+[2024-05-21 13:32:12] INFO root fetch - processPackages [pyodide-lock]: New version: [0.1.0a6] Old Version: [0.1.0a5]
+[2024-05-21 13:32:12] INFO root fetch - processPackages [dig-ass-critic-protos]: Downloading https://files.pythonhosted.org/packages/65/c1/9f9dffb2109e1e06e28d35995acb404f84a9e35ec896acb712b9fb6b716f/dig_ass_critic_protos-1.0.6.tar.gz
+[2024-05-21 13:32:12] INFO root fetch - processPackages [cimsparql]: New version: [4.1.1] Old Version: [4.1.0]
+[2024-05-21 13:32:12] INFO root fetch - processPackages [dig-ass-ocr-protos]: Downloading https://files.pythonhosted.org/packages/5b/15/153bccb8b82eb213620cc721e99800f0d9f89091ee4551b4d6287cdfd64a/dig_ass_ocr_protos-0.0.7.tar.gz
+[2024-05-21 13:32:12] INFO root fetch - processPackages [c2cciutils]: New version: [1.7.0.dev99] Old Version: [1.7.0.dev98]
+[2024-05-21 13:32:12] INFO root fetch - processPackages [dig-ass-text-protos]: Downloading https://files.pythonhosted.org/packages/65/e7/77455d6f9a177bea930406169d7a4aadfeb982a36c46f2dadc668eab4751/dig_ass_text_protos-1.0.3.tar.gz
+[2024-05-21 13:32:12] INFO root fetch - processPackages [pyodre]: Downloading https://files.pythonhosted.org/packages/62/51/d496797df362839fcc21227b2792e7e8609b2dca501c55c1b952316982a2/pyodre-0.0.6.tar.gz
+[2024-05-21 13:32:12] INFO root fetch - processPackages [spaceone-cost-analysis]: Downloading https://files.pythonhosted.org/packages/9d/ed/0868da6c86e4dc02447a82f2ea7dd601cbcd9f9457f1ffd86ffcd52166c9/spaceone-cost-analysis-2.0.dev98.tar.gz
+[2024-05-21 13:32:12] INFO root fetch - processPackages [dig-ass-ep-protos]: Downloading https://files.pythonhosted.org/packages/55/86/7b275b5cb366ca8dfdaa9a249bc8d11e6dcd81470ec4c812e5c23b57f3ef/dig_ass_ep_protos-1.0.2.tar.gz
+[2024-05-21 13:32:12] INFO root fetch - processPackages [dig-ass-chat-protos]: Downloading https://files.pythonhosted.org/packages/8d/90/94bb5eb3ab5af6d9963530557c19ea5707c87db9432b9eec66689af0bb27/dig_ass_chat_protos-1.0.2.tar.gz
+[2024-05-21 13:32:12] INFO root fetch - processPackages [pyodide-lock]: Downloading https://files.pythonhosted.org/packages/96/c6/e7cf5207b35c72a0044fc8c99e758ab4c69e0df7b9eca427998bcbac7b73/pyodide_lock-0.1.0a5.tar.gz
+[2024-05-21 13:32:12] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/62/aa/080c37692bc6af730809e32f5cb82932c00c5513d164349ff96537069e82/c2cciutils-1.7.0.dev98.tar.gz
+[2024-05-21 13:32:12] INFO root fetch - processPackages [cimsparql]: Downloading https://files.pythonhosted.org/packages/2a/c9/b743ccd871fd692fa4b56bac0bba470fd73d14bfeb0108f21bad2a571e18/cimsparql-4.1.0.tar.gz
+[2024-05-21 13:32:12] INFO root fetch - processPackages [dig-ass-ocr-protos]: Downloading https://files.pythonhosted.org/packages/9d/f9/7f3cb8b0e042d3a1205856efd4b64c318b79af11f520d885ebc26c42d270/dig_ass_ocr_protos-0.0.8.tar.gz
+[2024-05-21 13:32:13] INFO root fetch - processPackages [dig-ass-critic-protos]: Downloading https://files.pythonhosted.org/packages/f1/0d/35bb16acdf73ab89152840fdaca776ba988649b9b8cf6990011896f61cb1/dig_ass_critic_protos-1.0.7.tar.gz
+[2024-05-21 13:32:13] INFO root fetch - processPackages [spaceone-cost-analysis]: Downloading https://files.pythonhosted.org/packages/69/3b/abd588017217f1cd8fff7ef2a5fece8d81258b7c7585bb8fa88833d77684/spaceone-cost-analysis-2.0.dev99.tar.gz
+[2024-05-21 13:32:13] INFO root fetch - processPackages [dig-ass-text-protos]: Downloading https://files.pythonhosted.org/packages/82/26/dc2c9d2baf4572e09a2ec2df1d8179b0704f46bcc8fd5625c14bbd3f20b3/dig_ass_text_protos-1.0.4.tar.gz
+[2024-05-21 13:32:13] INFO root fetch - processPackages [pyodre]: Downloading https://files.pythonhosted.org/packages/47/9c/c5e5917d549228ed497d188490dc66ca072010675bfa0e21ac85de2fe68e/pyodre-0.0.7.tar.gz
+[2024-05-21 13:32:13] INFO root fetch - processPackages [dig-ass-ep-protos]: Downloading https://files.pythonhosted.org/packages/4f/2b/d570a13f5f616324a7e9ef4f82293f782d7a885a25572480660eccf3a54b/dig_ass_ep_protos-1.0.3.tar.gz
+[2024-05-21 13:32:13] INFO root fetch - processPackages [dig-ass-ocr-protos]: executing diffoscope
+[2024-05-21 13:32:13] INFO root fetch - processPackages [dig-ass-ocr-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dig_ass_ocr_protos-0.0.7.tar.gz tmp/dig_ass_ocr_protos-0.0.8.tar.gz --markdown 20240521/d/dig-ass-ocr-protos/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-21 13:32:13] INFO root fetch - processPackages [dig-ass-chat-protos]: Downloading https://files.pythonhosted.org/packages/2e/50/76ac8bf112096f31a5147bc3f99cd2a2472aec1423b676fded2dfc276c03/dig_ass_chat_protos-1.0.3.tar.gz
+[2024-05-21 13:32:13] INFO root fetch - processPackages [dig-ass-critic-protos]: executing diffoscope
+[2024-05-21 13:32:13] INFO root fetch - processPackages [dig-ass-critic-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dig_ass_critic_protos-1.0.6.tar.gz tmp/dig_ass_critic_protos-1.0.7.tar.gz --markdown 20240521/d/dig-ass-critic-protos/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-05-21 13:32:13] INFO root fetch - processPackages [dig-ass-text-protos]: executing diffoscope
+[2024-05-21 13:32:13] INFO root fetch - processPackages [dig-ass-text-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dig_ass_text_protos-1.0.3.tar.gz tmp/dig_ass_text_protos-1.0.4.tar.gz --markdown 20240521/d/dig-ass-text-protos/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-21 13:32:13] INFO root fetch - processPackages [spaceone-cost-analysis]: executing diffoscope
+[2024-05-21 13:32:13] INFO root fetch - processPackages [spaceone-cost-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-cost-analysis-2.0.dev98.tar.gz tmp/spaceone-cost-analysis-2.0.dev99.tar.gz --markdown 20240521/s/spaceone-cost-analysis/2.0.dev98-2.0.dev99/README.md --exclude *.pyd
+[2024-05-21 13:32:13] INFO root fetch - processPackages [pyodide-lock]: Downloading https://files.pythonhosted.org/packages/47/70/59d865146ec6f7a11b7788da006872ed753aa21f8f4b2867eea5969d126c/pyodide_lock-0.1.0a6.tar.gz
+[2024-05-21 13:32:13] INFO root fetch - processPackages [pyodre]: executing diffoscope
+[2024-05-21 13:32:13] INFO root fetch - processPackages [pyodre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyodre-0.0.6.tar.gz tmp/pyodre-0.0.7.tar.gz --markdown 20240521/p/pyodre/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-21 13:32:13] INFO root fetch - processPackages [dig-ass-ep-protos]: executing diffoscope
+[2024-05-21 13:32:13] INFO root fetch - processPackages [dig-ass-ep-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dig_ass_ep_protos-1.0.2.tar.gz tmp/dig_ass_ep_protos-1.0.3.tar.gz --markdown 20240521/d/dig-ass-ep-protos/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-21 13:32:13] INFO root fetch - processPackages [dig-ass-chat-protos]: executing diffoscope
+[2024-05-21 13:32:13] INFO root fetch - processPackages [cimsparql]: Downloading https://files.pythonhosted.org/packages/ca/01/8702a719586ddfad07c86defe84361fb6bf6039b18d5f7aec3ffe1a7dd0d/cimsparql-4.1.1.tar.gz
+[2024-05-21 13:32:13] INFO root fetch - processPackages [dig-ass-chat-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dig_ass_chat_protos-1.0.2.tar.gz tmp/dig_ass_chat_protos-1.0.3.tar.gz --markdown 20240521/d/dig-ass-chat-protos/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-21 13:32:13] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/0b/33/b4f2b2d1c9a7ae924ddcc8b7cbf69f1ed37a1a5f0faa155ac94becd05a90/c2cciutils-1.7.0.dev99.tar.gz
+[2024-05-21 13:32:13] INFO root fetch - processPackages [pyodide-lock]: executing diffoscope
+[2024-05-21 13:32:13] INFO root fetch - processPackages [pyodide-lock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyodide_lock-0.1.0a5.tar.gz tmp/pyodide_lock-0.1.0a6.tar.gz --markdown 20240521/p/pyodide-lock/0.1.0a5-0.1.0a6/README.md --exclude *.pyd
+[2024-05-21 13:32:13] INFO root fetch - processPackages [cimsparql]: executing diffoscope
+[2024-05-21 13:32:13] INFO root fetch - processPackages [cimsparql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cimsparql-4.1.0.tar.gz tmp/cimsparql-4.1.1.tar.gz --markdown 20240521/c/cimsparql/4.1.0-4.1.1/README.md --exclude *.pyd
+[2024-05-21 13:32:13] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2024-05-21 13:32:13] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.7.0.dev98.tar.gz tmp/c2cciutils-1.7.0.dev99.tar.gz --markdown 20240521/c/c2cciutils/1.7.0.dev98-1.7.0.dev99/README.md --exclude *.pyd
+[2024-05-21 13:32:14] INFO root fetch - processPackages [dig-ass-ep-protos]: Remove: archive file [/home/abi/fetcher/tmp/dig_ass_ep_protos-1.0.2.tar.gz]
+[2024-05-21 13:32:14] INFO root fetch - processPackages [dig-ass-ep-protos]: Remove: archive file [/home/abi/fetcher/tmp/dig_ass_ep_protos-1.0.3.tar.gz]
+[2024-05-21 13:32:14] INFO root fetch - processPackages [dig-ass-ep-protos]: Start processing: Anteater-GH
+[2024-05-21 13:32:14] INFO root fetch - main [MainThread]: End processing [dig-ass-ep-protos]: success
+[2024-05-21 13:32:14] INFO root fetch - processPackages [dig-ass-ocr-protos]: Remove: archive file [/home/abi/fetcher/tmp/dig_ass_ocr_protos-0.0.7.tar.gz]
+[2024-05-21 13:32:14] INFO root fetch - processPackages [dig-ass-ocr-protos]: Remove: archive file [/home/abi/fetcher/tmp/dig_ass_ocr_protos-0.0.8.tar.gz]
+[2024-05-21 13:32:14] INFO root fetch - processPackages [dig-ass-ocr-protos]: Start processing: seed-farmer
+[2024-05-21 13:32:14] INFO root fetch - main [MainThread]: End processing [dig-ass-ocr-protos]: success
+[2024-05-21 13:32:14] INFO root fetch - processPackages [pyodre]: Remove: archive file [/home/abi/fetcher/tmp/pyodre-0.0.6.tar.gz]
+[2024-05-21 13:32:14] INFO root fetch - processPackages [pyodre]: Remove: archive file [/home/abi/fetcher/tmp/pyodre-0.0.7.tar.gz]
+[2024-05-21 13:32:14] INFO root fetch - processPackages [pyodre]: Start processing: django-cfran
+[2024-05-21 13:32:14] INFO root fetch - main [MainThread]: End processing [pyodre]: success
+[2024-05-21 13:32:14] INFO root fetch - processPackages [dig-ass-critic-protos]: Remove: archive file [/home/abi/fetcher/tmp/dig_ass_critic_protos-1.0.6.tar.gz]
+[2024-05-21 13:32:14] INFO root fetch - processPackages [dig-ass-critic-protos]: Remove: archive file [/home/abi/fetcher/tmp/dig_ass_critic_protos-1.0.7.tar.gz]
+[2024-05-21 13:32:14] INFO root fetch - processPackages [dig-ass-critic-protos]: Start processing: octue-openfast
+[2024-05-21 13:32:14] INFO root fetch - main [MainThread]: End processing [dig-ass-critic-protos]: success
+[2024-05-21 13:32:14] INFO root fetch - processPackages [seed-farmer]: New version: [4.0.0rc0] Old Version: [4.0.0b0]
+[2024-05-21 13:32:14] WARNING root fetch - processPackages [octue-openfast]: Skipping, unable to determine old version
+[2024-05-21 13:32:14] INFO root fetch - main [MainThread]: End processing [octue-openfast] error
+[2024-05-21 13:32:14] WARNING root fetch - processPackages [Anteater-GH]: Skipping, unable to determine old version
+[2024-05-21 13:32:14] INFO root fetch - main [MainThread]: End processing [Anteater-GH] error
+[2024-05-21 13:32:14] INFO root fetch - processPackages [dig-ass-text-protos]: Remove: archive file [/home/abi/fetcher/tmp/dig_ass_text_protos-1.0.3.tar.gz]
+[2024-05-21 13:32:14] INFO root fetch - processPackages [dig-ass-text-protos]: Remove: archive file [/home/abi/fetcher/tmp/dig_ass_text_protos-1.0.4.tar.gz]
+[2024-05-21 13:32:14] INFO root fetch - processPackages [dig-ass-chat-protos]: Remove: archive file [/home/abi/fetcher/tmp/dig_ass_chat_protos-1.0.2.tar.gz]
+[2024-05-21 13:32:14] INFO root fetch - processPackages [pyodide-lock]: Remove: archive file [/home/abi/fetcher/tmp/pyodide_lock-0.1.0a5.tar.gz]
+[2024-05-21 13:32:14] INFO root fetch - processPackages [dig-ass-chat-protos]: Remove: archive file [/home/abi/fetcher/tmp/dig_ass_chat_protos-1.0.3.tar.gz]
+[2024-05-21 13:32:14] INFO root fetch - processPackages [pyodide-lock]: Remove: archive file [/home/abi/fetcher/tmp/pyodide_lock-0.1.0a6.tar.gz]
+[2024-05-21 13:32:14] INFO root fetch - main [MainThread]: End processing [dig-ass-text-protos]: success
+[2024-05-21 13:32:14] INFO root fetch - main [MainThread]: End processing [dig-ass-chat-protos]: success
+[2024-05-21 13:32:14] INFO root fetch - main [MainThread]: End processing [pyodide-lock]: success
+[2024-05-21 13:32:14] INFO root fetch - processPackages [django-cfran]: New version: [11.2.4] Old Version: [11.2.3]
+[2024-05-21 13:32:14] INFO root fetch - processPackages [seed-farmer]: Downloading https://files.pythonhosted.org/packages/04/1c/9ee715a760ae650925cabf2654f7d0ee2e713fb31fcfc31dd56e2858dbfd/seed_farmer-4.0.0b0-py3-none-any.whl
+[2024-05-21 13:32:14] INFO root fetch - processPackages [spaceone-cost-analysis]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-cost-analysis-2.0.dev98.tar.gz]
+[2024-05-21 13:32:14] INFO root fetch - processPackages [spaceone-cost-analysis]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-cost-analysis-2.0.dev99.tar.gz]
+[2024-05-21 13:32:14] INFO root fetch - main [MainThread]: End processing [spaceone-cost-analysis]: success
+[2024-05-21 13:32:14] INFO root fetch - processPackages [cimsparql]: Remove: archive file [/home/abi/fetcher/tmp/cimsparql-4.1.0.tar.gz]
+[2024-05-21 13:32:14] INFO root fetch - processPackages [cimsparql]: Remove: archive file [/home/abi/fetcher/tmp/cimsparql-4.1.1.tar.gz]
+[2024-05-21 13:32:14] INFO root fetch - main [MainThread]: End processing [cimsparql]: success
+[2024-05-21 13:32:14] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.7.0.dev98.tar.gz]
+[2024-05-21 13:32:14] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.7.0.dev99.tar.gz]
+[2024-05-21 13:32:14] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2024-05-21 13:32:14] INFO root fetch - processPackages [django-cfran]: Downloading https://files.pythonhosted.org/packages/39/b4/077fbafc1928f9961349804c7bdfbe9ae952ce9887a0e69d19761c999c62/django_cfran-11.2.3.tar.gz
+[2024-05-21 13:32:14] INFO root fetch - processPackages [seed-farmer]: Downloading https://files.pythonhosted.org/packages/22/70/e0286783b470b908e05c298d020f0f7c7fc59e18f05d80c3c28c8e4fe1e2/seed_farmer-4.0.0rc0-py3-none-any.whl
+[2024-05-21 13:32:15] INFO root fetch - processPackages [seed-farmer]: executing diffoscope
+[2024-05-21 13:32:15] INFO root fetch - processPackages [seed-farmer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seed_farmer-4.0.0b0-py3-none-any.whl.zip tmp/seed_farmer-4.0.0rc0-py3-none-any.whl.zip --markdown 20240521/s/seed-farmer/4.0.0b0-4.0.0rc0/README.md --exclude *.pyd
+[2024-05-21 13:32:15] INFO root fetch - processPackages [django-cfran]: Downloading https://files.pythonhosted.org/packages/68/9e/cf3820ec18d0a2d78062ca42baf1fa33c84b90aa5a958412e05d41298a3e/django_cfran-11.2.4.tar.gz
+[2024-05-21 13:32:15] INFO root fetch - processPackages [seed-farmer]: Remove: archive file [/home/abi/fetcher/tmp/seed_farmer-4.0.0b0-py3-none-any.whl.zip]
+[2024-05-21 13:32:15] INFO root fetch - processPackages [seed-farmer]: Remove: archive file [/home/abi/fetcher/tmp/seed_farmer-4.0.0rc0-py3-none-any.whl.zip]
+[2024-05-21 13:32:15] INFO root fetch - main [MainThread]: End processing [seed-farmer]: success
+[2024-05-21 13:32:17] INFO root fetch - processPackages [django-cfran]: executing diffoscope
+[2024-05-21 13:32:17] INFO root fetch - processPackages [django-cfran]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_cfran-11.2.3.tar.gz tmp/django_cfran-11.2.4.tar.gz --markdown 20240521/d/django-cfran/11.2.3-11.2.4/README.md --exclude *.pyd
+[2024-05-21 13:32:29] INFO root fetch - processPackages [django-cfran]: Remove: archive file [/home/abi/fetcher/tmp/django_cfran-11.2.3.tar.gz]
+[2024-05-21 13:32:29] INFO root fetch - processPackages [django-cfran]: Remove: archive file [/home/abi/fetcher/tmp/django_cfran-11.2.4.tar.gz]
+[2024-05-21 13:32:29] INFO root fetch - main [MainThread]: End processing [django-cfran]: success
+[2024-05-21 13:32:29] INFO root fetch - main [MainThread]: Store serial: [23305435]
