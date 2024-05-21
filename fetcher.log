@@ -16753,3 +16753,63 @@
 [2024-05-21 10:33:14] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-4.0.0.post526-py3-none-any.whl.zip]
 [2024-05-21 10:33:14] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
 [2024-05-21 10:33:14] INFO root fetch - main [MainThread]: Store serial: [23303179]
+[2024-05-21 10:35:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23303179]
+[2024-05-21 10:35:23] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-21 10:35:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hogql-parser
+[2024-05-21 10:35:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qontrol
+[2024-05-21 10:35:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: permission-manager-drf
+[2024-05-21 10:35:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: outpostcli
+[2024-05-21 10:35:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hyperdyn
+[2024-05-21 10:35:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nvfuser-cu121
+[2024-05-21 10:35:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: scbsp
+[2024-05-21 10:35:23] INFO root fetch - processPackages [outpostcli]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-21 10:35:23] INFO root fetch - processPackages [nvfuser-cu121]: New version: [0.2.5.dev20240520] Old Version: [0.2.5.dev20240519]
+[2024-05-21 10:35:23] INFO root fetch - processPackages [outpostcli]: Downloading https://files.pythonhosted.org/packages/7e/e2/114a39eac567286d0418645c0ea24089c48fcbe4cccec6c79191a5cefccf/outpostcli-0.0.8.tar.gz
+[2024-05-21 10:35:23] INFO root fetch - processPackages [scbsp]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-05-21 10:35:23] INFO root fetch - processPackages [qontrol]: New version: [1.1.7] Old Version: [1.1.19]
+[2024-05-21 10:35:23] INFO root fetch - processPackages [permission-manager-drf]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-21 10:35:23] WARNING root fetch - processPackages [hyperdyn]: Skipping, unable to determine old version
+[2024-05-21 10:35:23] INFO root fetch - main [MainThread]: End processing [hyperdyn] error
+[2024-05-21 10:35:23] INFO root fetch - processPackages [hogql-parser]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-05-21 10:35:23] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/0a/ae/6b8d39ddd83cdefab6f2671d0a977b988ee4327b30e1420e7a18a4199e0a/nvfuser_cu121-0.2.5.dev20240519.tar.gz
+[2024-05-21 10:35:23] INFO root fetch - processPackages [qontrol]: Downloading https://files.pythonhosted.org/packages/c7/e6/30911c00e3392a1d9c4f25da37b497e615cd1011ee07e2edfba1d1977c25/qontrol-1.1.19.tar.gz
+[2024-05-21 10:35:23] INFO root fetch - processPackages [outpostcli]: Downloading https://files.pythonhosted.org/packages/df/ab/82b6853cec170d33c2aff19e3a298b0bf56f7ba1b885f6f7d42a10ae43dc/outpostcli-0.0.9.tar.gz
+[2024-05-21 10:35:23] INFO root fetch - processPackages [hogql-parser]: Downloading https://files.pythonhosted.org/packages/18/38/421542d83456941df2829838e643aaf44e62cda4c0a804b02c2703aaeb94/hogql_parser-1.0.7.tar.gz
+[2024-05-21 10:35:23] INFO root fetch - processPackages [scbsp]: Downloading https://files.pythonhosted.org/packages/ab/cd/d1f3b1e55ef7cdbc62dce53756159534d4e3df30e806bdbb08f8a6028bf1/scbsp-0.2.5.tar.gz
+[2024-05-21 10:35:23] INFO root fetch - processPackages [permission-manager-drf]: Downloading https://files.pythonhosted.org/packages/78/82/e04511366a53fcf29f376ae255b6f56339ce93667e8ba978115a68425ff9/permission_manager_drf-0.2.0.tar.gz
+[2024-05-21 10:35:23] INFO root fetch - processPackages [outpostcli]: executing diffoscope
+[2024-05-21 10:35:23] INFO root fetch - processPackages [outpostcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/outpostcli-0.0.8.tar.gz tmp/outpostcli-0.0.9.tar.gz --markdown 20240521/o/outpostcli/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-21 10:35:24] INFO root fetch - processPackages [qontrol]: Downloading https://files.pythonhosted.org/packages/d3/a4/36730d69496e32157517300d03eb027f9d7fb55b06a4674dea66461b517b/qontrol-1.1.7.tar.gz
+[2024-05-21 10:35:24] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/fe/67/c89f4cd11d209c794df3db238fd0b615cc29563e8776ae9c421b44e838ba/nvfuser_cu121-0.2.5.dev20240520.tar.gz
+[2024-05-21 10:35:24] INFO root fetch - processPackages [hogql-parser]: Downloading https://files.pythonhosted.org/packages/3b/78/ec1ac32f0f7c7a30de2958505b7d4bbd4116ca2a51e2a813675e84225220/hogql_parser-1.0.8.tar.gz
+[2024-05-21 10:35:24] INFO root fetch - processPackages [scbsp]: Downloading https://files.pythonhosted.org/packages/69/9e/5b43bbd3a22ef41a6f2b5d9f3a4f72007c75fbb3c1735ca47e3348cfb105/scbsp-0.2.6.tar.gz
+[2024-05-21 10:35:24] INFO root fetch - processPackages [permission-manager-drf]: Downloading https://files.pythonhosted.org/packages/c4/56/29d0abffc5f9845a138292a52dd9c303b777a778171836c9a0a669442fdf/permission_manager_drf-0.2.1.tar.gz
+[2024-05-21 10:35:24] INFO root fetch - processPackages [qontrol]: executing diffoscope
+[2024-05-21 10:35:24] INFO root fetch - processPackages [qontrol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontrol-1.1.19.tar.gz tmp/qontrol-1.1.7.tar.gz --markdown 20240521/q/qontrol/1.1.19-1.1.7/README.md --exclude *.pyd
+[2024-05-21 10:35:24] INFO root fetch - processPackages [hogql-parser]: executing diffoscope
+[2024-05-21 10:35:24] INFO root fetch - processPackages [hogql-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hogql_parser-1.0.7.tar.gz tmp/hogql_parser-1.0.8.tar.gz --markdown 20240521/h/hogql-parser/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-05-21 10:35:24] INFO root fetch - processPackages [permission-manager-drf]: executing diffoscope
+[2024-05-21 10:35:24] INFO root fetch - processPackages [permission-manager-drf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/permission_manager_drf-0.2.0.tar.gz tmp/permission_manager_drf-0.2.1.tar.gz --markdown 20240521/p/permission-manager-drf/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-21 10:35:24] INFO root fetch - processPackages [nvfuser-cu121]: executing diffoscope
+[2024-05-21 10:35:24] INFO root fetch - processPackages [nvfuser-cu121]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu121-0.2.5.dev20240519.tar.gz tmp/nvfuser_cu121-0.2.5.dev20240520.tar.gz --markdown 20240521/n/nvfuser-cu121/0.2.5.dev20240519-0.2.5.dev20240520/README.md --exclude *.pyd
+[2024-05-21 10:35:24] INFO root fetch - processPackages [scbsp]: executing diffoscope
+[2024-05-21 10:35:24] INFO root fetch - processPackages [scbsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scbsp-0.2.5.tar.gz tmp/scbsp-0.2.6.tar.gz --markdown 20240521/s/scbsp/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-05-21 10:35:24] INFO root fetch - processPackages [outpostcli]: Remove: archive file [/home/abi/fetcher/tmp/outpostcli-0.0.8.tar.gz]
+[2024-05-21 10:35:24] INFO root fetch - processPackages [outpostcli]: Remove: archive file [/home/abi/fetcher/tmp/outpostcli-0.0.9.tar.gz]
+[2024-05-21 10:35:24] INFO root fetch - main [MainThread]: End processing [outpostcli]: success
+[2024-05-21 10:35:25] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.2.5.dev20240519.tar.gz]
+[2024-05-21 10:35:25] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.2.5.dev20240520.tar.gz]
+[2024-05-21 10:35:25] INFO root fetch - main [MainThread]: End processing [nvfuser-cu121]: success
+[2024-05-21 10:35:25] INFO root fetch - processPackages [permission-manager-drf]: Remove: archive file [/home/abi/fetcher/tmp/permission_manager_drf-0.2.0.tar.gz]
+[2024-05-21 10:35:25] INFO root fetch - processPackages [permission-manager-drf]: Remove: archive file [/home/abi/fetcher/tmp/permission_manager_drf-0.2.1.tar.gz]
+[2024-05-21 10:35:25] INFO root fetch - main [MainThread]: End processing [permission-manager-drf]: success
+[2024-05-21 10:35:25] INFO root fetch - processPackages [scbsp]: Remove: archive file [/home/abi/fetcher/tmp/scbsp-0.2.5.tar.gz]
+[2024-05-21 10:35:25] INFO root fetch - processPackages [scbsp]: Remove: archive file [/home/abi/fetcher/tmp/scbsp-0.2.6.tar.gz]
+[2024-05-21 10:35:25] INFO root fetch - main [MainThread]: End processing [scbsp]: success
+[2024-05-21 10:35:25] INFO root fetch - processPackages [qontrol]: Remove: archive file [/home/abi/fetcher/tmp/qontrol-1.1.19.tar.gz]
+[2024-05-21 10:35:25] INFO root fetch - processPackages [qontrol]: Remove: archive file [/home/abi/fetcher/tmp/qontrol-1.1.7.tar.gz]
+[2024-05-21 10:35:25] INFO root fetch - main [MainThread]: End processing [qontrol]: success
+[2024-05-21 10:35:25] INFO root fetch - processPackages [hogql-parser]: Remove: archive file [/home/abi/fetcher/tmp/hogql_parser-1.0.7.tar.gz]
+[2024-05-21 10:35:25] INFO root fetch - processPackages [hogql-parser]: Remove: archive file [/home/abi/fetcher/tmp/hogql_parser-1.0.8.tar.gz]
+[2024-05-21 10:35:25] INFO root fetch - main [MainThread]: End processing [hogql-parser]: success
+[2024-05-21 10:35:25] INFO root fetch - main [MainThread]: Store serial: [23303210]
