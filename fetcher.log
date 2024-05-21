@@ -7762,3 +7762,33 @@
 [2024-05-21 03:52:04] INFO root fetch - processPackages [arch-flow]: Remove: archive file [/home/abi/fetcher/tmp/arch_flow-0.1.7.tar.gz]
 [2024-05-21 03:52:04] INFO root fetch - main [MainThread]: End processing [arch-flow]: success
 [2024-05-21 03:52:04] INFO root fetch - main [MainThread]: Store serial: [23299660]
+[2024-05-21 03:54:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23299660]
+[2024-05-21 03:54:13] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-21 03:54:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: BioSAK
+[2024-05-21 03:54:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mlv
+[2024-05-21 03:54:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rstms-cloudflare
+[2024-05-21 03:54:13] INFO root fetch - processPackages [mlv]: New version: [1.3.8] Old Version: [1.3.7]
+[2024-05-21 03:54:13] INFO root fetch - processPackages [rstms-cloudflare]: New version: [1.0.0] Old Version: [0.1.2]
+[2024-05-21 03:54:13] INFO root fetch - processPackages [rstms-cloudflare]: Downloading https://files.pythonhosted.org/packages/75/e1/8ecbb1de8429dfe27bc20d436ae4cdf392274e34c90603186fca9554b4ca/rstms_cloudflare-0.1.2.tar.gz
+[2024-05-21 03:54:13] INFO root fetch - processPackages [mlv]: Downloading https://files.pythonhosted.org/packages/85/d3/5e939640019a39e244b5a13b36128c5eeb83a33922553120fcf1cde6688c/mlv-1.3.7.tar.gz
+[2024-05-21 03:54:13] INFO root fetch - processPackages [BioSAK]: New version: [1.88.9] Old Version: [1.88.8]
+[2024-05-21 03:54:14] INFO root fetch - processPackages [mlv]: Downloading https://files.pythonhosted.org/packages/98/ca/9b9ef282bd27ac0ec074dd22807799c2fe7a5abb1183e50a431d682fda6f/mlv-1.3.8.tar.gz
+[2024-05-21 03:54:14] INFO root fetch - processPackages [rstms-cloudflare]: Downloading https://files.pythonhosted.org/packages/c5/11/37e3da4a3d17994ccc6944f55ccc1250ec1607587d2640026e272c6dce35/rstms_cloudflare-1.0.0.tar.gz
+[2024-05-21 03:54:14] INFO root fetch - processPackages [BioSAK]: Downloading https://files.pythonhosted.org/packages/76/0f/b42a5b517c7a861e4c633c5b8b2e8275a69eec86da698120e6a5a1ebf74f/BioSAK-1.88.8.tar.gz
+[2024-05-21 03:54:14] INFO root fetch - processPackages [mlv]: executing diffoscope
+[2024-05-21 03:54:14] INFO root fetch - processPackages [mlv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlv-1.3.7.tar.gz tmp/mlv-1.3.8.tar.gz --markdown 20240521/m/mlv/1.3.7-1.3.8/README.md --exclude *.pyd
+[2024-05-21 03:54:14] INFO root fetch - processPackages [rstms-cloudflare]: executing diffoscope
+[2024-05-21 03:54:14] INFO root fetch - processPackages [rstms-cloudflare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rstms_cloudflare-0.1.2.tar.gz tmp/rstms_cloudflare-1.0.0.tar.gz --markdown 20240521/r/rstms-cloudflare/0.1.2-1.0.0/README.md --exclude *.pyd
+[2024-05-21 03:54:14] INFO root fetch - processPackages [BioSAK]: Downloading https://files.pythonhosted.org/packages/62/97/bf719db985f3e78168efac2d24682565516b6a12a3997626926808793ccb/BioSAK-1.88.9.tar.gz
+[2024-05-21 03:54:14] INFO root fetch - processPackages [mlv]: Remove: archive file [/home/abi/fetcher/tmp/mlv-1.3.7.tar.gz]
+[2024-05-21 03:54:14] INFO root fetch - processPackages [mlv]: Remove: archive file [/home/abi/fetcher/tmp/mlv-1.3.8.tar.gz]
+[2024-05-21 03:54:14] INFO root fetch - main [MainThread]: End processing [mlv]: success
+[2024-05-21 03:54:14] INFO root fetch - processPackages [BioSAK]: executing diffoscope
+[2024-05-21 03:54:14] INFO root fetch - processPackages [BioSAK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BioSAK-1.88.8.tar.gz tmp/BioSAK-1.88.9.tar.gz --markdown 20240521/B/BioSAK/1.88.8-1.88.9/README.md --exclude *.pyd
+[2024-05-21 03:54:14] INFO root fetch - processPackages [rstms-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/rstms_cloudflare-0.1.2.tar.gz]
+[2024-05-21 03:54:14] INFO root fetch - processPackages [rstms-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/rstms_cloudflare-1.0.0.tar.gz]
+[2024-05-21 03:54:14] INFO root fetch - main [MainThread]: End processing [rstms-cloudflare]: success
+[2024-05-21 03:54:16] INFO root fetch - processPackages [BioSAK]: Remove: archive file [/home/abi/fetcher/tmp/BioSAK-1.88.8.tar.gz]
+[2024-05-21 03:54:16] INFO root fetch - processPackages [BioSAK]: Remove: archive file [/home/abi/fetcher/tmp/BioSAK-1.88.9.tar.gz]
+[2024-05-21 03:54:16] INFO root fetch - main [MainThread]: End processing [BioSAK]: success
+[2024-05-21 03:54:16] INFO root fetch - main [MainThread]: Store serial: [23299669]
