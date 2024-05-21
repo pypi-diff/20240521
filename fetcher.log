@@ -20194,3 +20194,51 @@
 [2024-05-21 12:24:50] INFO root fetch - main [MainThread]: End processing [pyselenscrapr]: success
 [2024-05-21 12:24:50] INFO root fetch - main [MainThread]: End processing [pyselenscrapr]: success
 [2024-05-21 12:24:50] INFO root fetch - main [MainThread]: Store serial: [23304634]
+[2024-05-21 12:26:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23304634]
+[2024-05-21 12:26:59] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-21 12:26:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ruaccent
+[2024-05-21 12:26:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bartesdk
+[2024-05-21 12:26:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autotrain-advanced
+[2024-05-21 12:26:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyscal3
+[2024-05-21 12:26:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: server-templates
+[2024-05-21 12:26:59] INFO root fetch - processPackages [autotrain-advanced]: New version: [0.7.98] Old Version: [0.7.97]
+[2024-05-21 12:26:59] INFO root fetch - processPackages [server-templates]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-21 12:26:59] INFO root fetch - processPackages [autotrain-advanced]: Downloading https://files.pythonhosted.org/packages/41/71/ee8badfc4f9c5c9c41fb93c18b8b059c96acac1722ac3cdcd8668eb01d69/autotrain-advanced-0.7.97.tar.gz
+[2024-05-21 12:26:59] INFO root fetch - processPackages [bartesdk]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-21 12:26:59] INFO root fetch - processPackages [ruaccent]: New version: [1.5.6.4] Old Version: [1.5.6.3]
+[2024-05-21 12:26:59] INFO root fetch - processPackages [server-templates]: Downloading https://files.pythonhosted.org/packages/59/df/f5673e6af5207982271068cff01271982666f35556ff8fcf33d629e902d6/server_templates-0.2.8.tar.gz
+[2024-05-21 12:26:59] INFO root fetch - processPackages [bartesdk]: Downloading https://files.pythonhosted.org/packages/28/24/d202025463245fdc4e3940f9351241ff18dbc351a6b2872c310f6f42c8b5/BarteSDK-0.1.7.tar.gz
+[2024-05-21 12:26:59] INFO root fetch - processPackages [pyscal3]: New version: [3.2.1] Old Version: [3.1.9]
+[2024-05-21 12:26:59] INFO root fetch - processPackages [ruaccent]: Downloading https://files.pythonhosted.org/packages/3f/04/6f68aec9c3a7149930c69de34085679da7b26a260fb70f5f0c56b425d3c7/ruaccent-1.5.6.3.tar.gz
+[2024-05-21 12:26:59] INFO root fetch - processPackages [autotrain-advanced]: Downloading https://files.pythonhosted.org/packages/ac/00/d85bb6880871f52143666a7c240275c003f62329ad3ab644121e6accb491/autotrain-advanced-0.7.98.tar.gz
+[2024-05-21 12:26:59] INFO root fetch - processPackages [server-templates]: Downloading https://files.pythonhosted.org/packages/11/84/d7da14623575908f087ae536a6c380ca047ec1dbd8e633d855019a35bb7c/server_templates-0.2.9.tar.gz
+[2024-05-21 12:26:59] INFO root fetch - processPackages [autotrain-advanced]: executing diffoscope
+[2024-05-21 12:26:59] INFO root fetch - processPackages [autotrain-advanced]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autotrain-advanced-0.7.97.tar.gz tmp/autotrain-advanced-0.7.98.tar.gz --markdown 20240521/a/autotrain-advanced/0.7.97-0.7.98/README.md --exclude *.pyd
+[2024-05-21 12:26:59] INFO root fetch - processPackages [pyscal3]: Downloading https://files.pythonhosted.org/packages/56/71/bfb9ff35e2143d649f5b4dcb95fc859bd92823009ec0fa0cd8a2095005c9/pyscal3-3.1.9.tar.gz
+[2024-05-21 12:26:59] INFO root fetch - processPackages [server-templates]: executing diffoscope
+[2024-05-21 12:26:59] INFO root fetch - processPackages [server-templates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/server_templates-0.2.8.tar.gz tmp/server_templates-0.2.9.tar.gz --markdown 20240521/s/server-templates/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-21 12:26:59] INFO root fetch - processPackages [bartesdk]: Downloading https://files.pythonhosted.org/packages/1c/24/f265a111f10a855a327643e87273d1f3ba56190ad02e0175f3b5b6319e4c/bartesdk-0.1.8.tar.gz
+[2024-05-21 12:27:00] INFO root fetch - processPackages [ruaccent]: Downloading https://files.pythonhosted.org/packages/de/7b/6d4b90b4776473596aecbf6927c0208a6122c91ba8aab242dc6bf73dca8a/ruaccent-1.5.6.4.tar.gz
+[2024-05-21 12:27:00] INFO root fetch - processPackages [bartesdk]: executing diffoscope
+[2024-05-21 12:27:00] INFO root fetch - processPackages [bartesdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BarteSDK-0.1.7.tar.gz tmp/bartesdk-0.1.8.tar.gz --markdown 20240521/b/bartesdk/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-21 12:27:00] INFO root fetch - processPackages [ruaccent]: executing diffoscope
+[2024-05-21 12:27:00] INFO root fetch - processPackages [ruaccent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ruaccent-1.5.6.3.tar.gz tmp/ruaccent-1.5.6.4.tar.gz --markdown 20240521/r/ruaccent/1.5.6.3-1.5.6.4/README.md --exclude *.pyd
+[2024-05-21 12:27:00] INFO root fetch - processPackages [pyscal3]: Downloading https://files.pythonhosted.org/packages/58/ce/76df6375b3aafac5ae8197c0ae662aac6df57183ad47e8945d959a4407ab/pyscal3-3.2.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-21 12:27:00] INFO root fetch - processPackages [server-templates]: Remove: archive file [/home/abi/fetcher/tmp/server_templates-0.2.8.tar.gz]
+[2024-05-21 12:27:00] INFO root fetch - processPackages [server-templates]: Remove: archive file [/home/abi/fetcher/tmp/server_templates-0.2.9.tar.gz]
+[2024-05-21 12:27:00] INFO root fetch - main [MainThread]: End processing [server-templates]: success
+[2024-05-21 12:27:00] INFO root fetch - processPackages [bartesdk]: Remove: archive file [/home/abi/fetcher/tmp/BarteSDK-0.1.7.tar.gz]
+[2024-05-21 12:27:00] INFO root fetch - processPackages [bartesdk]: Remove: archive file [/home/abi/fetcher/tmp/bartesdk-0.1.8.tar.gz]
+[2024-05-21 12:27:00] INFO root fetch - main [MainThread]: End processing [bartesdk]: success
+[2024-05-21 12:27:00] INFO root fetch - processPackages [ruaccent]: Remove: archive file [/home/abi/fetcher/tmp/ruaccent-1.5.6.3.tar.gz]
+[2024-05-21 12:27:00] INFO root fetch - processPackages [ruaccent]: Remove: archive file [/home/abi/fetcher/tmp/ruaccent-1.5.6.4.tar.gz]
+[2024-05-21 12:27:00] INFO root fetch - main [MainThread]: End processing [ruaccent]: success
+[2024-05-21 12:27:00] INFO root fetch - processPackages [autotrain-advanced]: Remove: archive file [/home/abi/fetcher/tmp/autotrain-advanced-0.7.97.tar.gz]
+[2024-05-21 12:27:00] INFO root fetch - processPackages [autotrain-advanced]: Remove: archive file [/home/abi/fetcher/tmp/autotrain-advanced-0.7.98.tar.gz]
+[2024-05-21 12:27:00] INFO root fetch - main [MainThread]: End processing [autotrain-advanced]: success
+[2024-05-21 12:27:02] INFO root fetch - processPackages [pyscal3]: executing diffoscope
+[2024-05-21 12:27:02] INFO root fetch - processPackages [pyscal3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyscal3-3.1.9.tar.gz tmp/pyscal3-3.2.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240521/p/pyscal3/3.1.9-3.2.1/README.md --exclude *.pyd
+[2024-05-21 12:27:02] INFO root fetch - processPackages [pyscal3]: Remove: archive file [/home/abi/fetcher/tmp/pyscal3-3.1.9.tar.gz]
+[2024-05-21 12:27:02] INFO root fetch - processPackages [pyscal3]: Remove: archive file [/home/abi/fetcher/tmp/pyscal3-3.2.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-21 12:27:02] INFO root fetch - main [MainThread]: End processing [pyscal3]: success
+[2024-05-21 12:27:02] INFO root fetch - main [MainThread]: Store serial: [23304663]
