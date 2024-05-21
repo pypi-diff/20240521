@@ -14964,3 +14964,60 @@
 [2024-05-21 09:31:09] INFO root fetch - processPackages [impsparc]: Remove: archive file [/home/abi/fetcher/tmp/impsparc-3.1.4.tar.gz]
 [2024-05-21 09:31:09] INFO root fetch - main [MainThread]: End processing [impsparc]: success
 [2024-05-21 09:31:09] INFO root fetch - main [MainThread]: Store serial: [23302523]
+[2024-05-21 09:33:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23302523]
+[2024-05-21 09:33:17] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-21 09:33:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jy_lib
+[2024-05-21 09:33:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: promg
+[2024-05-21 09:33:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dektools
+[2024-05-21 09:33:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-web-notify
+[2024-05-21 09:33:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-web-timeline
+[2024-05-21 09:33:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: google-spreadsheets-fdw
+[2024-05-21 09:33:17] INFO root fetch - processPackages [dektools]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-21 09:33:17] INFO root fetch - processPackages [jy_lib]: New version: [0.7.7] Old Version: [0.7.6]
+[2024-05-21 09:33:17] INFO root fetch - processPackages [odoo14-addon-web-timeline]: New version: [14.0.2.0.3.dev4] Old Version: [14.0.2.0.3.dev2]
+[2024-05-21 09:33:17] INFO root fetch - processPackages [dektools]: Downloading https://files.pythonhosted.org/packages/88/5a/bd6084967a50e422353476fe59bcf41bd273e85422386c1c733773bcf6bd/dektools-0.1.98.tar.gz
+[2024-05-21 09:33:17] INFO root fetch - processPackages [google-spreadsheets-fdw]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-21 09:33:17] INFO root fetch - processPackages [odoo14-addon-web-notify]: New version: [14.0.1.1.1.dev1] Old Version: [14.0.1.1.0]
+[2024-05-21 09:33:17] INFO root fetch - processPackages [promg]: New version: [1.1.0] Old Version: [1.0.9]
+[2024-05-21 09:33:17] INFO root fetch - processPackages [jy_lib]: Downloading https://files.pythonhosted.org/packages/6e/08/f5b48c5734c78de59113c43644f39ac7849c076af11b3e40d0cc87409165/jy_lib-0.7.6.tar.gz
+[2024-05-21 09:33:18] INFO root fetch - processPackages [odoo14-addon-web-notify]: Downloading https://files.pythonhosted.org/packages/1d/d5/6ce7cf99137c32c3f4177eb9960dfb79f4bd1605f430d861a74b3e3c4cd8/odoo14_addon_web_notify-14.0.1.1.0-py3-none-any.whl
+[2024-05-21 09:33:18] INFO root fetch - processPackages [dektools]: Downloading https://files.pythonhosted.org/packages/b5/37/3854bf0e9d3f36790f9c3b784892d4e833c07bd9ece57af86519bedc5e96/dektools-0.1.99.tar.gz
+[2024-05-21 09:33:18] INFO root fetch - processPackages [jy_lib]: Downloading https://files.pythonhosted.org/packages/28/6e/958e21183dd2008b1803802258d4d5f368a3c3663adfb2c69ba700f1522b/jy_lib-0.7.7.tar.gz
+[2024-05-21 09:33:18] INFO root fetch - processPackages [google-spreadsheets-fdw]: Downloading https://files.pythonhosted.org/packages/bc/ed/0f1a5d0c82938ebe40d044eefc4d88ca1141f9cc8dcf93a42c4613a3d726/google_spreadsheets_fdw-1.0.2.tar.gz
+[2024-05-21 09:33:18] INFO root fetch - processPackages [odoo14-addon-web-timeline]: Downloading https://files.pythonhosted.org/packages/36/6d/8f216f6449ff3ab6983095e3e9e3488818cfe0ef0d56df6b0e0d92e7e7fa/odoo14_addon_web_timeline-14.0.2.0.3.dev2-py3-none-any.whl
+[2024-05-21 09:33:18] INFO root fetch - processPackages [promg]: Downloading https://files.pythonhosted.org/packages/31/38/6775c8a1667d5b17ff6bf44ae1f6a195f2fd6ec7bf3222f4f1c3e9e426f3/promg-1.0.9.tar.gz
+[2024-05-21 09:33:18] INFO root fetch - processPackages [dektools]: executing diffoscope
+[2024-05-21 09:33:18] INFO root fetch - processPackages [dektools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dektools-0.1.98.tar.gz tmp/dektools-0.1.99.tar.gz --markdown 20240521/d/dektools/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-21 09:33:18] INFO root fetch - processPackages [jy_lib]: executing diffoscope
+[2024-05-21 09:33:18] INFO root fetch - processPackages [jy_lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jy_lib-0.7.6.tar.gz tmp/jy_lib-0.7.7.tar.gz --markdown 20240521/j/jy_lib/0.7.6-0.7.7/README.md --exclude *.pyd
+[2024-05-21 09:33:18] INFO root fetch - processPackages [odoo14-addon-web-notify]: Downloading https://files.pythonhosted.org/packages/f5/cc/216e42004849d1318e275063187a35bda299bc7aa178e0831df40ab2686a/odoo14_addon_web_notify-14.0.1.1.1.dev1-py3-none-any.whl
+[2024-05-21 09:33:18] INFO root fetch - processPackages [google-spreadsheets-fdw]: Downloading https://files.pythonhosted.org/packages/38/aa/ac57a4db5467ab518a4515045e3bb6ad7c1185c6c59201cefa75535121c3/google_spreadsheets_fdw-1.0.3.tar.gz
+[2024-05-21 09:33:18] INFO root fetch - processPackages [promg]: Downloading https://files.pythonhosted.org/packages/da/ab/59a04cce727a10dbb4f16778e93959656d1ec0ffb691dbca421e391e7805/promg-1.1.0.tar.gz
+[2024-05-21 09:33:18] INFO root fetch - processPackages [odoo14-addon-web-timeline]: Downloading https://files.pythonhosted.org/packages/55/37/e846c550936d7891d5e0d144cc35043451a3c8d4cfa9ea2e48abb25ed625/odoo14_addon_web_timeline-14.0.2.0.3.dev4-py3-none-any.whl
+[2024-05-21 09:33:18] INFO root fetch - processPackages [odoo14-addon-web-notify]: executing diffoscope
+[2024-05-21 09:33:18] INFO root fetch - processPackages [odoo14-addon-web-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_web_notify-14.0.1.1.0-py3-none-any.whl.zip tmp/odoo14_addon_web_notify-14.0.1.1.1.dev1-py3-none-any.whl.zip --markdown 20240521/o/odoo14-addon-web-notify/14.0.1.1.0-14.0.1.1.1.dev1/README.md --exclude *.pyd
+[2024-05-21 09:33:18] INFO root fetch - processPackages [promg]: executing diffoscope
+[2024-05-21 09:33:18] INFO root fetch - processPackages [promg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promg-1.0.9.tar.gz tmp/promg-1.1.0.tar.gz --markdown 20240521/p/promg/1.0.9-1.1.0/README.md --exclude *.pyd
+[2024-05-21 09:33:18] INFO root fetch - processPackages [google-spreadsheets-fdw]: executing diffoscope
+[2024-05-21 09:33:18] INFO root fetch - processPackages [google-spreadsheets-fdw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google_spreadsheets_fdw-1.0.2.tar.gz tmp/google_spreadsheets_fdw-1.0.3.tar.gz --markdown 20240521/g/google-spreadsheets-fdw/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-21 09:33:18] INFO root fetch - processPackages [odoo14-addon-web-timeline]: executing diffoscope
+[2024-05-21 09:33:18] INFO root fetch - processPackages [odoo14-addon-web-timeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_web_timeline-14.0.2.0.3.dev2-py3-none-any.whl.zip tmp/odoo14_addon_web_timeline-14.0.2.0.3.dev4-py3-none-any.whl.zip --markdown 20240521/o/odoo14-addon-web-timeline/14.0.2.0.3.dev2-14.0.2.0.3.dev4/README.md --exclude *.pyd
+[2024-05-21 09:33:19] INFO root fetch - processPackages [jy_lib]: Remove: archive file [/home/abi/fetcher/tmp/jy_lib-0.7.6.tar.gz]
+[2024-05-21 09:33:19] INFO root fetch - processPackages [jy_lib]: Remove: archive file [/home/abi/fetcher/tmp/jy_lib-0.7.7.tar.gz]
+[2024-05-21 09:33:19] INFO root fetch - main [MainThread]: End processing [jy_lib]: success
+[2024-05-21 09:33:19] INFO root fetch - processPackages [dektools]: Remove: archive file [/home/abi/fetcher/tmp/dektools-0.1.98.tar.gz]
+[2024-05-21 09:33:19] INFO root fetch - processPackages [dektools]: Remove: archive file [/home/abi/fetcher/tmp/dektools-0.1.99.tar.gz]
+[2024-05-21 09:33:19] INFO root fetch - main [MainThread]: End processing [dektools]: success
+[2024-05-21 09:33:19] INFO root fetch - processPackages [odoo14-addon-web-notify]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_web_notify-14.0.1.1.0-py3-none-any.whl.zip]
+[2024-05-21 09:33:19] INFO root fetch - processPackages [odoo14-addon-web-notify]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_web_notify-14.0.1.1.1.dev1-py3-none-any.whl.zip]
+[2024-05-21 09:33:19] INFO root fetch - main [MainThread]: End processing [odoo14-addon-web-notify]: success
+[2024-05-21 09:33:19] INFO root fetch - processPackages [google-spreadsheets-fdw]: Remove: archive file [/home/abi/fetcher/tmp/google_spreadsheets_fdw-1.0.2.tar.gz]
+[2024-05-21 09:33:19] INFO root fetch - processPackages [google-spreadsheets-fdw]: Remove: archive file [/home/abi/fetcher/tmp/google_spreadsheets_fdw-1.0.3.tar.gz]
+[2024-05-21 09:33:19] INFO root fetch - main [MainThread]: End processing [google-spreadsheets-fdw]: success
+[2024-05-21 09:33:19] INFO root fetch - processPackages [promg]: Remove: archive file [/home/abi/fetcher/tmp/promg-1.0.9.tar.gz]
+[2024-05-21 09:33:19] INFO root fetch - processPackages [promg]: Remove: archive file [/home/abi/fetcher/tmp/promg-1.1.0.tar.gz]
+[2024-05-21 09:33:19] INFO root fetch - main [MainThread]: End processing [promg]: success
+[2024-05-21 09:33:19] INFO root fetch - processPackages [odoo14-addon-web-timeline]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_web_timeline-14.0.2.0.3.dev2-py3-none-any.whl.zip]
+[2024-05-21 09:33:19] INFO root fetch - processPackages [odoo14-addon-web-timeline]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_web_timeline-14.0.2.0.3.dev4-py3-none-any.whl.zip]
+[2024-05-21 09:33:19] INFO root fetch - main [MainThread]: End processing [odoo14-addon-web-timeline]: success
+[2024-05-21 09:33:19] INFO root fetch - main [MainThread]: Store serial: [23302538]
