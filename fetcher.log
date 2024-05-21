@@ -23099,3 +23099,50 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-21 14:10:32] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.9.tar.gz]
 [2024-05-21 14:10:32] INFO root fetch - main [MainThread]: End processing [sunholo]: success
 [2024-05-21 14:10:32] INFO root fetch - main [MainThread]: Store serial: [23305918]
+[2024-05-21 14:12:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23305918]
+[2024-05-21 14:12:41] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-21 14:12:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torcheval-nightly
+[2024-05-21 14:12:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pSevenCore
+[2024-05-21 14:12:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tc-wikipedia-lib
+[2024-05-21 14:12:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: revampdeployer
+[2024-05-21 14:12:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: BarteSDK
+[2024-05-21 14:12:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spaceone-inventory
+[2024-05-21 14:12:41] INFO root fetch - processPackages [revampdeployer]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-21 14:12:41] INFO root fetch - processPackages [BarteSDK]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-21 14:12:41] INFO root fetch - processPackages [torcheval-nightly]: New version: [2024.5.9] Old Version: [2024.5.8]
+[2024-05-21 14:12:42] INFO root fetch - processPackages [pSevenCore]: New version: [2024.5.21] Old Version: [2024.4.26]
+[2024-05-21 14:12:42] WARNING root fetch - processPackages [tc-wikipedia-lib]: Skipping, unable to determine old version
+[2024-05-21 14:12:42] INFO root fetch - main [MainThread]: End processing [tc-wikipedia-lib] error
+[2024-05-21 14:12:42] INFO root fetch - processPackages [BarteSDK]: Downloading https://files.pythonhosted.org/packages/1c/24/f265a111f10a855a327643e87273d1f3ba56190ad02e0175f3b5b6319e4c/bartesdk-0.1.8.tar.gz
+[2024-05-21 14:12:42] INFO root fetch - processPackages [torcheval-nightly]: Downloading https://files.pythonhosted.org/packages/98/c1/96a1c122528ea0121ecc29466d1a6b26c68b8a6036aae6bdb121ddcfdbff/torcheval_nightly-2024.5.8.tar.gz
+[2024-05-21 14:12:42] INFO root fetch - processPackages [revampdeployer]: Downloading https://files.pythonhosted.org/packages/91/5b/d50df7170ed0b010326210d6cefc503436cbcf7a7c5bf3edfd8e13611b37/revampdeployer-0.1.0.tar.gz
+[2024-05-21 14:12:42] INFO root fetch - processPackages [pSevenCore]: Downloading https://files.pythonhosted.org/packages/59/a1/ec810b62c270f4a8284f472d691e14d929a15a5eac55070ce389fcdf5d76/pSevenCore-2024.4.26-py2.py3-none-win_amd64.whl
+[2024-05-21 14:12:42] INFO root fetch - processPackages [spaceone-inventory]: New version: [2.0.dev99] Old Version: [2.0.dev98]
+[2024-05-21 14:12:42] INFO root fetch - processPackages [BarteSDK]: Downloading https://files.pythonhosted.org/packages/15/ee/a85c9e9d9f84f12e1c3ab4801827286e3ad5588e1683d13c5130caaa29f2/bartesdk-0.1.9.tar.gz
+[2024-05-21 14:12:42] INFO root fetch - processPackages [torcheval-nightly]: Downloading https://files.pythonhosted.org/packages/60/c3/da56bee236b598ba0c7ed2929a00a2cf4f41f79676194a22cd34a85b00eb/torcheval_nightly-2024.5.9.tar.gz
+[2024-05-21 14:12:42] WARNING root fetch - processPackages [pSevenCore]: Skipping package: exceeds size limit 25810688>=10485760
+[2024-05-21 14:12:42] INFO root fetch - main [MainThread]: End processing [pSevenCore] error
+[2024-05-21 14:12:42] INFO root fetch - processPackages [BarteSDK]: executing diffoscope
+[2024-05-21 14:12:42] INFO root fetch - processPackages [BarteSDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bartesdk-0.1.8.tar.gz tmp/bartesdk-0.1.9.tar.gz --markdown 20240521/B/BarteSDK/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-21 14:12:42] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/2b/23/73e091142fbd007706604f94cc95718e79d9259d998aa9dd424fc7cc6f7f/spaceone-inventory-2.0.dev98.tar.gz
+[2024-05-21 14:12:42] INFO root fetch - processPackages [revampdeployer]: Downloading https://files.pythonhosted.org/packages/81/29/2b6089b24384705144d2e4a0d4085a10f04b39eaa4787304c1566990f8fd/revampdeployer-0.1.1.tar.gz
+[2024-05-21 14:12:42] INFO root fetch - processPackages [torcheval-nightly]: executing diffoscope
+[2024-05-21 14:12:42] INFO root fetch - processPackages [torcheval-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torcheval_nightly-2024.5.8.tar.gz tmp/torcheval_nightly-2024.5.9.tar.gz --markdown 20240521/t/torcheval-nightly/2024.5.8-2024.5.9/README.md --exclude *.pyd
+[2024-05-21 14:12:42] INFO root fetch - processPackages [revampdeployer]: executing diffoscope
+[2024-05-21 14:12:42] INFO root fetch - processPackages [revampdeployer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/revampdeployer-0.1.0.tar.gz tmp/revampdeployer-0.1.1.tar.gz --markdown 20240521/r/revampdeployer/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-21 14:12:42] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/e7/30/f1229bb9f69283d6576804b473d6fe73ff3118fb5543c89d48b18f899ca2/spaceone-inventory-2.0.dev99.tar.gz
+[2024-05-21 14:12:43] INFO root fetch - processPackages [spaceone-inventory]: executing diffoscope
+[2024-05-21 14:12:43] INFO root fetch - processPackages [spaceone-inventory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-inventory-2.0.dev98.tar.gz tmp/spaceone-inventory-2.0.dev99.tar.gz --markdown 20240521/s/spaceone-inventory/2.0.dev98-2.0.dev99/README.md --exclude *.pyd
+[2024-05-21 14:12:43] INFO root fetch - processPackages [BarteSDK]: Remove: archive file [/home/abi/fetcher/tmp/bartesdk-0.1.8.tar.gz]
+[2024-05-21 14:12:43] INFO root fetch - processPackages [BarteSDK]: Remove: archive file [/home/abi/fetcher/tmp/bartesdk-0.1.9.tar.gz]
+[2024-05-21 14:12:43] INFO root fetch - main [MainThread]: End processing [BarteSDK]: success
+[2024-05-21 14:12:43] INFO root fetch - processPackages [revampdeployer]: Remove: archive file [/home/abi/fetcher/tmp/revampdeployer-0.1.0.tar.gz]
+[2024-05-21 14:12:43] INFO root fetch - processPackages [revampdeployer]: Remove: archive file [/home/abi/fetcher/tmp/revampdeployer-0.1.1.tar.gz]
+[2024-05-21 14:12:43] INFO root fetch - main [MainThread]: End processing [revampdeployer]: success
+[2024-05-21 14:12:43] INFO root fetch - processPackages [torcheval-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torcheval_nightly-2024.5.8.tar.gz]
+[2024-05-21 14:12:43] INFO root fetch - processPackages [torcheval-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torcheval_nightly-2024.5.9.tar.gz]
+[2024-05-21 14:12:43] INFO root fetch - main [MainThread]: End processing [torcheval-nightly]: success
+[2024-05-21 14:12:43] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-inventory-2.0.dev98.tar.gz]
+[2024-05-21 14:12:43] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-inventory-2.0.dev99.tar.gz]
+[2024-05-21 14:12:43] INFO root fetch - main [MainThread]: End processing [spaceone-inventory]: success
+[2024-05-21 14:12:43] INFO root fetch - main [MainThread]: Store serial: [23305937]
