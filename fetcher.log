@@ -18804,3 +18804,54 @@
 [2024-05-21 11:40:35] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.9.3.tar.gz]
 [2024-05-21 11:40:35] INFO root fetch - main [MainThread]: End processing [mteb]: success
 [2024-05-21 11:40:35] INFO root fetch - main [MainThread]: Store serial: [23303999]
+[2024-05-21 11:42:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23303999]
+[2024-05-21 11:42:44] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-21 11:42:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lljz-tools
+[2024-05-21 11:42:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zeekscript
+[2024-05-21 11:42:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: datasiphon
+[2024-05-21 11:42:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Flask-QRlabels
+[2024-05-21 11:42:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dzidb
+[2024-05-21 11:42:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyppeteerstealth
+[2024-05-21 11:42:45] INFO root fetch - processPackages [lljz-tools]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-21 11:42:45] INFO root fetch - processPackages [dzidb]: New version: [1.1] Old Version: [1.0.6]
+[2024-05-21 11:42:45] INFO root fetch - processPackages [datasiphon]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-05-21 11:42:45] INFO root fetch - processPackages [lljz-tools]: Downloading https://files.pythonhosted.org/packages/07/e1/d8ad41d04bd7526045884eb68fffdf0d0584720dc1f876fa9b7b87605451/lljz_tools-0.2.8.tar.gz
+[2024-05-21 11:42:45] INFO root fetch - processPackages [pyppeteerstealth]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-21 11:42:45] WARNING root fetch - processPackages [Flask-QRlabels]: Skipping, unable to determine old version
+[2024-05-21 11:42:45] INFO root fetch - main [MainThread]: End processing [Flask-QRlabels] error
+[2024-05-21 11:42:45] INFO root fetch - processPackages [datasiphon]: Downloading https://files.pythonhosted.org/packages/9f/72/228edfa354914d15c3d60e2440e0dc2857c693d1e6b2391ba369eeef7485/datasiphon-0.2.5.tar.gz
+[2024-05-21 11:42:45] INFO root fetch - processPackages [zeekscript]: New version: [1.2.8.dev3] Old Version: [1.2.8]
+[2024-05-21 11:42:45] INFO root fetch - processPackages [dzidb]: Downloading https://files.pythonhosted.org/packages/a2/55/805be0485d9bf10a584d068df980b9b3a77a6744f22084ceee8d9b02e03a/dzidb-1.0.6.tar.gz
+[2024-05-21 11:42:45] INFO root fetch - processPackages [zeekscript]: Downloading https://files.pythonhosted.org/packages/5d/bb/3ddd139285a60eb8fa42edb346677299cc0f5f2227f07067dd3fc76fda1c/zeekscript-1.2.8.tar.gz
+[2024-05-21 11:42:45] INFO root fetch - processPackages [pyppeteerstealth]: Downloading https://files.pythonhosted.org/packages/88/55/b13ef25ffdea28576944c328c3326ba385eba82666da55871a878cf7e607/pyppeteerstealth-0.0.3.tar.gz
+[2024-05-21 11:42:45] INFO root fetch - processPackages [lljz-tools]: Downloading https://files.pythonhosted.org/packages/a7/af/a18c36655f7f553567ff5dd5fb22c0f4e280c4a0200a0b3c876136e8201f/lljz_tools-0.2.9.tar.gz
+[2024-05-21 11:42:45] INFO root fetch - processPackages [dzidb]: Downloading https://files.pythonhosted.org/packages/ab/7b/1eb783cec2be6c8f5f50400132b6afae58c752421a84c34ef92cb658707b/dzidb-1.1.tar.gz
+[2024-05-21 11:42:45] INFO root fetch - processPackages [datasiphon]: Downloading https://files.pythonhosted.org/packages/3d/3e/9ab84f21d2abc4c1aa7b0acc36c93576744972f3c889ff7cdda5078cd894/datasiphon-0.2.6.tar.gz
+[2024-05-21 11:42:45] INFO root fetch - processPackages [lljz-tools]: executing diffoscope
+[2024-05-21 11:42:45] INFO root fetch - processPackages [lljz-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lljz_tools-0.2.8.tar.gz tmp/lljz_tools-0.2.9.tar.gz --markdown 20240521/l/lljz-tools/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-21 11:42:45] INFO root fetch - processPackages [dzidb]: executing diffoscope
+[2024-05-21 11:42:45] INFO root fetch - processPackages [dzidb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dzidb-1.0.6.tar.gz tmp/dzidb-1.1.tar.gz --markdown 20240521/d/dzidb/1.0.6-1.1/README.md --exclude *.pyd
+[2024-05-21 11:42:45] INFO root fetch - processPackages [datasiphon]: executing diffoscope
+[2024-05-21 11:42:45] INFO root fetch - processPackages [datasiphon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasiphon-0.2.5.tar.gz tmp/datasiphon-0.2.6.tar.gz --markdown 20240521/d/datasiphon/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-05-21 11:42:45] INFO root fetch - processPackages [pyppeteerstealth]: Downloading https://files.pythonhosted.org/packages/49/00/1a99753e6340e2d6908304703393d7c7ae6fc690469e95c009fced9833a3/pyppeteerstealth-0.0.4.tar.gz
+[2024-05-21 11:42:45] INFO root fetch - processPackages [zeekscript]: Downloading https://files.pythonhosted.org/packages/70/8c/028aad77cef6c3e0db05bbb7616eb05985773a36f052ce6d960cf3708f12/zeekscript-1.2.8.dev3.tar.gz
+[2024-05-21 11:42:45] INFO root fetch - processPackages [pyppeteerstealth]: executing diffoscope
+[2024-05-21 11:42:45] INFO root fetch - processPackages [pyppeteerstealth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyppeteerstealth-0.0.3.tar.gz tmp/pyppeteerstealth-0.0.4.tar.gz --markdown 20240521/p/pyppeteerstealth/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-21 11:42:45] INFO root fetch - processPackages [zeekscript]: executing diffoscope
+[2024-05-21 11:42:45] INFO root fetch - processPackages [zeekscript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zeekscript-1.2.8.tar.gz tmp/zeekscript-1.2.8.dev3.tar.gz --markdown 20240521/z/zeekscript/1.2.8-1.2.8.dev3/README.md --exclude *.pyd
+[2024-05-21 11:42:46] INFO root fetch - processPackages [dzidb]: Remove: archive file [/home/abi/fetcher/tmp/dzidb-1.0.6.tar.gz]
+[2024-05-21 11:42:46] INFO root fetch - processPackages [dzidb]: Remove: archive file [/home/abi/fetcher/tmp/dzidb-1.1.tar.gz]
+[2024-05-21 11:42:46] INFO root fetch - main [MainThread]: End processing [dzidb]: success
+[2024-05-21 11:42:46] INFO root fetch - processPackages [datasiphon]: Remove: archive file [/home/abi/fetcher/tmp/datasiphon-0.2.5.tar.gz]
+[2024-05-21 11:42:46] INFO root fetch - processPackages [datasiphon]: Remove: archive file [/home/abi/fetcher/tmp/datasiphon-0.2.6.tar.gz]
+[2024-05-21 11:42:46] INFO root fetch - main [MainThread]: End processing [datasiphon]: success
+[2024-05-21 11:42:46] INFO root fetch - processPackages [lljz-tools]: Remove: archive file [/home/abi/fetcher/tmp/lljz_tools-0.2.8.tar.gz]
+[2024-05-21 11:42:46] INFO root fetch - processPackages [lljz-tools]: Remove: archive file [/home/abi/fetcher/tmp/lljz_tools-0.2.9.tar.gz]
+[2024-05-21 11:42:46] INFO root fetch - main [MainThread]: End processing [lljz-tools]: success
+[2024-05-21 11:42:46] INFO root fetch - processPackages [pyppeteerstealth]: Remove: archive file [/home/abi/fetcher/tmp/pyppeteerstealth-0.0.3.tar.gz]
+[2024-05-21 11:42:46] INFO root fetch - processPackages [pyppeteerstealth]: Remove: archive file [/home/abi/fetcher/tmp/pyppeteerstealth-0.0.4.tar.gz]
+[2024-05-21 11:42:46] INFO root fetch - main [MainThread]: End processing [pyppeteerstealth]: success
+[2024-05-21 11:42:46] INFO root fetch - processPackages [zeekscript]: Remove: archive file [/home/abi/fetcher/tmp/zeekscript-1.2.8.tar.gz]
+[2024-05-21 11:42:46] INFO root fetch - processPackages [zeekscript]: Remove: archive file [/home/abi/fetcher/tmp/zeekscript-1.2.8.dev3.tar.gz]
+[2024-05-21 11:42:46] INFO root fetch - main [MainThread]: End processing [zeekscript]: success
+[2024-05-21 11:42:46] INFO root fetch - main [MainThread]: Store serial: [23304052]
