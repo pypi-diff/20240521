@@ -16813,3 +16813,60 @@
 [2024-05-21 10:35:25] INFO root fetch - processPackages [hogql-parser]: Remove: archive file [/home/abi/fetcher/tmp/hogql_parser-1.0.8.tar.gz]
 [2024-05-21 10:35:25] INFO root fetch - main [MainThread]: End processing [hogql-parser]: success
 [2024-05-21 10:35:25] INFO root fetch - main [MainThread]: Store serial: [23303210]
+[2024-05-21 10:37:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23303210]
+[2024-05-21 10:37:34] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-21 10:37:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aecdata
+[2024-05-21 10:37:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autotrain-advanced
+[2024-05-21 10:37:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nvfuser-cu118
+[2024-05-21 10:37:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-partner-contact-access-link
+[2024-05-21 10:37:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: procrastinate
+[2024-05-21 10:37:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chemcat
+[2024-05-21 10:37:34] INFO root fetch - processPackages [aecdata]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-21 10:37:34] INFO root fetch - processPackages [nvfuser-cu118]: New version: [0.2.5.dev20240520] Old Version: [0.2.5.dev20240519]
+[2024-05-21 10:37:34] INFO root fetch - processPackages [odoo-addon-partner-contact-access-link]: New version: [17.0.1.0.0.2] Old Version: [16.0.1.1.0.4]
+[2024-05-21 10:37:34] INFO root fetch - processPackages [chemcat]: New version: [0.3.9] Old Version: [0.3.8b1]
+[2024-05-21 10:37:34] INFO root fetch - processPackages [aecdata]: Downloading https://files.pythonhosted.org/packages/fb/68/0c148b5dd11c54d812de0c10f940c2c154f8dc5a79068d99c4bd0f7127a1/aecdata-0.0.3.tar.gz
+[2024-05-21 10:37:34] INFO root fetch - processPackages [autotrain-advanced]: New version: [0.7.98] Old Version: [0.7.97]
+[2024-05-21 10:37:34] INFO root fetch - processPackages [procrastinate]: New version: [2.3.0] Old Version: [2.2.0]
+[2024-05-21 10:37:34] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/50/d4/afd255c420db48c93e66a55683bfea4a7e0135448e501b7806068a255dbd/nvfuser_cu118-0.2.5.dev20240519.tar.gz
+[2024-05-21 10:37:34] INFO root fetch - processPackages [chemcat]: Downloading https://files.pythonhosted.org/packages/f7/2f/9e9fafc963790095482f1f2acfa1d343cfed0559ffd5ee701840400e5712/chemcat-0.3.8b1.tar.gz
+[2024-05-21 10:37:34] INFO root fetch - processPackages [odoo-addon-partner-contact-access-link]: Downloading https://files.pythonhosted.org/packages/1d/84/5f548165d1ff5fb07281188407ab92f987b1597747522826febef01fc5bf/odoo_addon_partner_contact_access_link-16.0.1.1.0.4-py3-none-any.whl
+[2024-05-21 10:37:34] INFO root fetch - processPackages [procrastinate]: Downloading https://files.pythonhosted.org/packages/78/7b/5f95bd0e50d4ed19def2f357302e4054a39af3e1c2dd5822f5221bed3660/procrastinate-2.2.0.tar.gz
+[2024-05-21 10:37:34] INFO root fetch - processPackages [autotrain-advanced]: Downloading https://files.pythonhosted.org/packages/41/71/ee8badfc4f9c5c9c41fb93c18b8b059c96acac1722ac3cdcd8668eb01d69/autotrain-advanced-0.7.97.tar.gz
+[2024-05-21 10:37:34] INFO root fetch - processPackages [aecdata]: Downloading https://files.pythonhosted.org/packages/16/a3/c72c14be73990ffcba8c78d3160b23b6eaaf2550a6fd7a3c685432381c45/aecdata-0.0.4.tar.gz
+[2024-05-21 10:37:34] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/4a/d3/b02e082dbd09ae94c183859958b356abe8bf49b5394bda9865e1e91e383a/nvfuser_cu118-0.2.5.dev20240520.tar.gz
+[2024-05-21 10:37:35] INFO root fetch - processPackages [aecdata]: executing diffoscope
+[2024-05-21 10:37:35] INFO root fetch - processPackages [aecdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aecdata-0.0.3.tar.gz tmp/aecdata-0.0.4.tar.gz --markdown 20240521/a/aecdata/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-21 10:37:35] INFO root fetch - processPackages [nvfuser-cu118]: executing diffoscope
+[2024-05-21 10:37:35] INFO root fetch - processPackages [nvfuser-cu118]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu118-0.2.5.dev20240519.tar.gz tmp/nvfuser_cu118-0.2.5.dev20240520.tar.gz --markdown 20240521/n/nvfuser-cu118/0.2.5.dev20240519-0.2.5.dev20240520/README.md --exclude *.pyd
+[2024-05-21 10:37:35] INFO root fetch - processPackages [odoo-addon-partner-contact-access-link]: Downloading https://files.pythonhosted.org/packages/41/99/6803291f30f7663f27bd4c753aad6fc88b367871f027f17165c768eb62e6/odoo_addon_partner_contact_access_link-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-21 10:37:35] INFO root fetch - processPackages [procrastinate]: Downloading https://files.pythonhosted.org/packages/b6/29/c4441d22dc5709994e94bd59d6b6e6cb96389020bf89fe8ece885da8d170/procrastinate-2.3.0.tar.gz
+[2024-05-21 10:37:35] INFO root fetch - processPackages [autotrain-advanced]: Downloading https://files.pythonhosted.org/packages/ac/00/d85bb6880871f52143666a7c240275c003f62329ad3ab644121e6accb491/autotrain-advanced-0.7.98.tar.gz
+[2024-05-21 10:37:35] INFO root fetch - processPackages [procrastinate]: executing diffoscope
+[2024-05-21 10:37:35] INFO root fetch - processPackages [procrastinate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/procrastinate-2.2.0.tar.gz tmp/procrastinate-2.3.0.tar.gz --markdown 20240521/p/procrastinate/2.2.0-2.3.0/README.md --exclude *.pyd
+[2024-05-21 10:37:35] INFO root fetch - processPackages [odoo-addon-partner-contact-access-link]: executing diffoscope
+[2024-05-21 10:37:35] INFO root fetch - processPackages [odoo-addon-partner-contact-access-link]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_partner_contact_access_link-16.0.1.1.0.4-py3-none-any.whl.zip tmp/odoo_addon_partner_contact_access_link-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240521/o/odoo-addon-partner-contact-access-link/16.0.1.1.0.4-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-05-21 10:37:35] INFO root fetch - processPackages [autotrain-advanced]: executing diffoscope
+[2024-05-21 10:37:35] INFO root fetch - processPackages [autotrain-advanced]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autotrain-advanced-0.7.97.tar.gz tmp/autotrain-advanced-0.7.98.tar.gz --markdown 20240521/a/autotrain-advanced/0.7.97-0.7.98/README.md --exclude *.pyd
+[2024-05-21 10:37:35] INFO root fetch - processPackages [chemcat]: Downloading https://files.pythonhosted.org/packages/59/0b/5e9d115b02c22cffc9253723948e325c9a02d71e0f9a99ad81b54da483ff/chemcat-0.3.9.tar.gz
+[2024-05-21 10:37:35] INFO root fetch - processPackages [aecdata]: Remove: archive file [/home/abi/fetcher/tmp/aecdata-0.0.3.tar.gz]
+[2024-05-21 10:37:35] INFO root fetch - processPackages [aecdata]: Remove: archive file [/home/abi/fetcher/tmp/aecdata-0.0.4.tar.gz]
+[2024-05-21 10:37:35] INFO root fetch - main [MainThread]: End processing [aecdata]: success
+[2024-05-21 10:37:35] INFO root fetch - processPackages [chemcat]: executing diffoscope
+[2024-05-21 10:37:35] INFO root fetch - processPackages [chemcat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chemcat-0.3.8b1.tar.gz tmp/chemcat-0.3.9.tar.gz --markdown 20240521/c/chemcat/0.3.8b1-0.3.9/README.md --exclude *.pyd
+[2024-05-21 10:37:35] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.2.5.dev20240519.tar.gz]
+[2024-05-21 10:37:35] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.2.5.dev20240520.tar.gz]
+[2024-05-21 10:37:35] INFO root fetch - main [MainThread]: End processing [nvfuser-cu118]: success
+[2024-05-21 10:37:36] INFO root fetch - processPackages [odoo-addon-partner-contact-access-link]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_partner_contact_access_link-16.0.1.1.0.4-py3-none-any.whl.zip]
+[2024-05-21 10:37:36] INFO root fetch - processPackages [odoo-addon-partner-contact-access-link]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_partner_contact_access_link-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-21 10:37:36] INFO root fetch - main [MainThread]: End processing [odoo-addon-partner-contact-access-link]: success
+[2024-05-21 10:37:36] INFO root fetch - processPackages [procrastinate]: Remove: archive file [/home/abi/fetcher/tmp/procrastinate-2.2.0.tar.gz]
+[2024-05-21 10:37:36] INFO root fetch - processPackages [procrastinate]: Remove: archive file [/home/abi/fetcher/tmp/procrastinate-2.3.0.tar.gz]
+[2024-05-21 10:37:36] INFO root fetch - main [MainThread]: End processing [procrastinate]: success
+[2024-05-21 10:37:36] INFO root fetch - processPackages [autotrain-advanced]: Remove: archive file [/home/abi/fetcher/tmp/autotrain-advanced-0.7.97.tar.gz]
+[2024-05-21 10:37:36] INFO root fetch - processPackages [autotrain-advanced]: Remove: archive file [/home/abi/fetcher/tmp/autotrain-advanced-0.7.98.tar.gz]
+[2024-05-21 10:37:36] INFO root fetch - main [MainThread]: End processing [autotrain-advanced]: success
+[2024-05-21 10:37:46] INFO root fetch - processPackages [chemcat]: Remove: archive file [/home/abi/fetcher/tmp/chemcat-0.3.8b1.tar.gz]
+[2024-05-21 10:37:46] INFO root fetch - processPackages [chemcat]: Remove: archive file [/home/abi/fetcher/tmp/chemcat-0.3.9.tar.gz]
+[2024-05-21 10:37:46] INFO root fetch - main [MainThread]: End processing [chemcat]: success
+[2024-05-21 10:37:46] INFO root fetch - main [MainThread]: Store serial: [23303226]
