@@ -19762,3 +19762,133 @@
 [2024-05-21 12:11:06] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.9.3.tar.gz]
 [2024-05-21 12:11:06] INFO root fetch - main [MainThread]: End processing [mteb]: success
 [2024-05-21 12:11:06] INFO root fetch - main [MainThread]: Store serial: [23304475]
+[2024-05-21 12:13:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23304475]
+[2024-05-21 12:13:15] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2024-05-21 12:13:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: grafana-foundation-sdk
+[2024-05-21 12:13:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pkscreener
+[2024-05-21 12:13:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nucliadb
+[2024-05-21 12:13:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: optimask
+[2024-05-21 12:13:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nucliadb-dataset
+[2024-05-21 12:13:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: grafana-foundation-sdk
+[2024-05-21 12:13:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyslth
+[2024-05-21 12:13:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nucliadb-models
+[2024-05-21 12:13:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: some-aiohttp-middleware
+[2024-05-21 12:13:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nucliadb-protos
+[2024-05-21 12:13:16] INFO root fetch - processPackages [optimask]: New version: [1.1.1rc0] Old Version: [1.1.1b0]
+[2024-05-21 12:13:16] INFO root fetch - processPackages [some-aiohttp-middleware]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-21 12:13:16] INFO root fetch - processPackages [pkscreener]: New version: [0.45.20240521.387] Old Version: [0.45.20240519.386]
+[2024-05-21 12:13:16] INFO root fetch - processPackages [pyslth]: New version: [0.4.6] Old Version: [0.4.5]
+[2024-05-21 12:13:16] INFO root fetch - processPackages [nucliadb-models]: New version: [4.0.0.post527] Old Version: [4.0.0.post526]
+[2024-05-21 12:13:16] INFO root fetch - processPackages [nucliadb-dataset]: New version: [4.0.0.post527] Old Version: [4.0.0.post526]
+[2024-05-21 12:13:16] INFO root fetch - processPackages [nucliadb]: New version: [4.0.0.post527] Old Version: [4.0.0.post526]
+[2024-05-21 12:13:16] INFO root fetch - processPackages [nucliadb-protos]: New version: [4.0.0.post527] Old Version: [4.0.0.post526]
+[2024-05-21 12:13:16] INFO root fetch - processPackages [some-aiohttp-middleware]: Downloading https://files.pythonhosted.org/packages/04/18/37f8dd0367ecd83a9e591c090cf0365011bc80f05a7a6fa39b4c7970bdac/some_aiohttp_middleware-0.1.6.tar.gz
+[2024-05-21 12:13:16] INFO root fetch - processPackages [grafana-foundation-sdk]: New version: [1716286229!10.2.0] Old Version: [1716286030!10.1.0]
+[2024-05-21 12:13:16] INFO root fetch - processPackages [grafana-foundation-sdk]: New version: [1716286229!10.2.0] Old Version: [1716286030!10.1.0]
+[2024-05-21 12:13:16] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/8d/86/21e64f362131e907b3f2da14287cc1c0d34d17162f15febc6c301a355740/pkscreener-0.45.20240519.386.tar.gz
+[2024-05-21 12:13:16] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/ca/38/bd00a07fcf8b14d955a3742b243a51e46a0e2df9c9a9ef2e3ccc93416d8e/nucliadb-4.0.0.post526-py3-none-any.whl
+[2024-05-21 12:13:16] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/e5/6e/122869e880c02887b496a62de3a2c703ee436477e972e261d893c6231ae2/nucliadb_protos-4.0.0.post526-py3-none-any.whl
+[2024-05-21 12:13:16] INFO root fetch - processPackages [optimask]: Downloading https://files.pythonhosted.org/packages/e2/d7/53149e4d28dee43659ae29f5fadd66f49a98c94627bab4006e0e720a7946/optimask-1.1.1b0.tar.gz
+[2024-05-21 12:13:16] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/1e/d9/c7b721352d7e7d888d6a704293b373dbf1cf4d1fca6c74953a03a891d97e/nucliadb_models-4.0.0.post526-py3-none-any.whl
+[2024-05-21 12:13:16] INFO root fetch - processPackages [pyslth]: Downloading https://files.pythonhosted.org/packages/f5/65/0a2807d49e1542e234fd8c5a3687472a990752960fac70a2eee2bcf29512/pyslth-0.4.5.tar.gz
+[2024-05-21 12:13:16] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/6b/e1/6f92726b5546481319d70ff890fbc226750b70d67f265dfa7880b3f006ad/nucliadb_dataset-4.0.0.post526-py3-none-any.whl
+[2024-05-21 12:13:16] INFO root fetch - processPackages [grafana-foundation-sdk]: Downloading https://files.pythonhosted.org/packages/8a/66/54ac3b1e69921b96de0973bd4819cc1b7dd526893e16e1622617243d4c29/grafana_foundation_sdk-1716286030!10.1.0.tar.gz
+[2024-05-21 12:13:16] INFO root fetch - processPackages [grafana-foundation-sdk]: Downloading https://files.pythonhosted.org/packages/8a/66/54ac3b1e69921b96de0973bd4819cc1b7dd526893e16e1622617243d4c29/grafana_foundation_sdk-1716286030!10.1.0.tar.gz
+[2024-05-21 12:13:16] INFO root fetch - processPackages [some-aiohttp-middleware]: Downloading https://files.pythonhosted.org/packages/92/df/5bf1a84e14f2a8fb1989532d66b28de1fa657ae2b46ebbef4d782ffced3e/some_aiohttp_middleware-0.1.7.tar.gz
+[2024-05-21 12:13:16] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/92/1d/b389e41abfd93683ead200406f45bc3f0788ccdf757a3cebdcd38919e222/pkscreener-0.45.20240521.387.tar.gz
+[2024-05-21 12:13:16] INFO root fetch - processPackages [some-aiohttp-middleware]: executing diffoscope
+[2024-05-21 12:13:16] INFO root fetch - processPackages [some-aiohttp-middleware]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/some_aiohttp_middleware-0.1.6.tar.gz tmp/some_aiohttp_middleware-0.1.7.tar.gz --markdown 20240521/s/some-aiohttp-middleware/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-21 12:13:16] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/9e/52/9ca1a3c9affa29f529d53b6706229ff6fc3bb0a4e2ff729d0e263b8dad51/nucliadb_models-4.0.0.post527-py3-none-any.whl
+[2024-05-21 12:13:16] INFO root fetch - processPackages [pkscreener]: executing diffoscope
+[2024-05-21 12:13:16] INFO root fetch - processPackages [pkscreener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkscreener-0.45.20240519.386.tar.gz tmp/pkscreener-0.45.20240521.387.tar.gz --markdown 20240521/p/pkscreener/0.45.20240519.386-0.45.20240521.387/README.md --exclude *.pyd
+[2024-05-21 12:13:16] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/13/ac/709280a41c90ddb7b1ca1d795de0f69dc2201890e2ed2d5b5c87c79cb837/nucliadb_protos-4.0.0.post527-py3-none-any.whl
+[2024-05-21 12:13:16] INFO root fetch - processPackages [optimask]: Downloading https://files.pythonhosted.org/packages/e2/73/d5438648c289e148078a91cae4921eafa8774744cec94ef6070e549c4244/optimask-1.1.1rc0.tar.gz
+[2024-05-21 12:13:16] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/7d/9a/075d18ad931802662cd74fec216f00d997614777ba5993225f497e8b38c5/nucliadb_dataset-4.0.0.post527-py3-none-any.whl
+[2024-05-21 12:13:16] INFO root fetch - processPackages [grafana-foundation-sdk]: Downloading https://files.pythonhosted.org/packages/92/11/75fb5babccfbfea6e8fb4fdc2e6bf7b4b8c428ec3e93374b8c7f0d5c4a82/grafana_foundation_sdk-1716286229!10.2.0.tar.gz
+[2024-05-21 12:13:16] INFO root fetch - processPackages [grafana-foundation-sdk]: Downloading https://files.pythonhosted.org/packages/92/11/75fb5babccfbfea6e8fb4fdc2e6bf7b4b8c428ec3e93374b8c7f0d5c4a82/grafana_foundation_sdk-1716286229!10.2.0.tar.gz
+[2024-05-21 12:13:16] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/82/8a/c1a0934ed200df603311e73e9b29e6290fe98dc386cdc6b1a537b4ce0554/nucliadb-4.0.0.post527-py3-none-any.whl
+[2024-05-21 12:13:16] INFO root fetch - processPackages [pyslth]: Downloading https://files.pythonhosted.org/packages/3b/37/4397ec906d21a7d8f34c1b2fde784ce536f919a6b633d1086d56e862fc34/pyslth-0.4.6.tar.gz
+[2024-05-21 12:13:17] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2024-05-21 12:13:17] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-4.0.0.post526-py3-none-any.whl.zip tmp/nucliadb_models-4.0.0.post527-py3-none-any.whl.zip --markdown 20240521/n/nucliadb-models/4.0.0.post526-4.0.0.post527/README.md --exclude *.pyd
+[2024-05-21 12:13:17] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2024-05-21 12:13:17] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-4.0.0.post526-py3-none-any.whl.zip tmp/nucliadb_dataset-4.0.0.post527-py3-none-any.whl.zip --markdown 20240521/n/nucliadb-dataset/4.0.0.post526-4.0.0.post527/README.md --exclude *.pyd
+[2024-05-21 12:13:17] INFO root fetch - processPackages [optimask]: executing diffoscope
+[2024-05-21 12:13:17] INFO root fetch - processPackages [optimask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optimask-1.1.1b0.tar.gz tmp/optimask-1.1.1rc0.tar.gz --markdown 20240521/o/optimask/1.1.1b0-1.1.1rc0/README.md --exclude *.pyd
+[2024-05-21 12:13:17] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2024-05-21 12:13:17] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-4.0.0.post526-py3-none-any.whl.zip tmp/nucliadb_protos-4.0.0.post527-py3-none-any.whl.zip --markdown 20240521/n/nucliadb-protos/4.0.0.post526-4.0.0.post527/README.md --exclude *.pyd
+[2024-05-21 12:13:17] INFO root fetch - processPackages [grafana-foundation-sdk]: executing diffoscope
+[2024-05-21 12:13:17] INFO root fetch - processPackages [grafana-foundation-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grafana_foundation_sdk-1716286030!10.1.0.tar.gz tmp/grafana_foundation_sdk-1716286229!10.2.0.tar.gz --markdown 20240521/g/grafana-foundation-sdk/1716286030!10.1.0-1716286229!10.2.0/README.md --exclude *.pyd
+[2024-05-21 12:13:17] INFO root fetch - processPackages [grafana-foundation-sdk]: executing diffoscope
+[2024-05-21 12:13:17] INFO root fetch - processPackages [grafana-foundation-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grafana_foundation_sdk-1716286030!10.1.0.tar.gz tmp/grafana_foundation_sdk-1716286229!10.2.0.tar.gz --markdown 20240521/g/grafana-foundation-sdk/1716286030!10.1.0-1716286229!10.2.0/README.md --exclude *.pyd
+[2024-05-21 12:13:17] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2024-05-21 12:13:17] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-4.0.0.post526-py3-none-any.whl.zip tmp/nucliadb-4.0.0.post527-py3-none-any.whl.zip --markdown 20240521/n/nucliadb/4.0.0.post526-4.0.0.post527/README.md --exclude *.pyd
+[2024-05-21 12:13:17] INFO root fetch - processPackages [pyslth]: executing diffoscope
+[2024-05-21 12:13:17] INFO root fetch - processPackages [pyslth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyslth-0.4.5.tar.gz tmp/pyslth-0.4.6.tar.gz --markdown 20240521/p/pyslth/0.4.5-0.4.6/README.md --exclude *.pyd
+[2024-05-21 12:13:17] INFO root fetch - processPackages [some-aiohttp-middleware]: Remove: archive file [/home/abi/fetcher/tmp/some_aiohttp_middleware-0.1.6.tar.gz]
+[2024-05-21 12:13:17] INFO root fetch - processPackages [some-aiohttp-middleware]: Remove: archive file [/home/abi/fetcher/tmp/some_aiohttp_middleware-0.1.7.tar.gz]
+[2024-05-21 12:13:17] INFO root fetch - processPackages [some-aiohttp-middleware]: Start processing: nucliadb-sdk
+[2024-05-21 12:13:17] INFO root fetch - main [MainThread]: End processing [some-aiohttp-middleware]: success
+[2024-05-21 12:13:17] INFO root fetch - processPackages [nucliadb-sdk]: New version: [4.0.0.post527] Old Version: [4.0.0.post526]
+[2024-05-21 12:13:17] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/ea/26/dbf97bbaea5d744ead6ebd6d7cb36e0e1e2b2564635f710436d64590ceb0/nucliadb_sdk-4.0.0.post526-py3-none-any.whl
+[2024-05-21 12:13:18] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.45.20240519.386.tar.gz]
+[2024-05-21 12:13:18] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.45.20240521.387.tar.gz]
+[2024-05-21 12:13:18] INFO root fetch - processPackages [pkscreener]: Start processing: nucliadb-telemetry
+[2024-05-21 12:13:18] INFO root fetch - main [MainThread]: End processing [pkscreener]: success
+[2024-05-21 12:13:18] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/62/93/787eea01d45b23de638ccbb1c93fa37d72484597e7a3bed0aafbeaa2d7d1/nucliadb_sdk-4.0.0.post527-py3-none-any.whl
+[2024-05-21 12:13:18] INFO root fetch - processPackages [nucliadb-telemetry]: New version: [4.0.0.post527] Old Version: [4.0.0.post526]
+[2024-05-21 12:13:18] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-4.0.0.post526-py3-none-any.whl.zip]
+[2024-05-21 12:13:18] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-4.0.0.post527-py3-none-any.whl.zip]
+[2024-05-21 12:13:18] INFO root fetch - processPackages [nucliadb-protos]: Start processing: nucliadb-utils
+[2024-05-21 12:13:18] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2024-05-21 12:13:18] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-4.0.0.post526-py3-none-any.whl.zip]
+[2024-05-21 12:13:18] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-4.0.0.post527-py3-none-any.whl.zip]
+[2024-05-21 12:13:18] INFO root fetch - processPackages [nucliadb-dataset]: Start processing: omero-iviewer
+[2024-05-21 12:13:18] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2024-05-21 12:13:18] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-4.0.0.post526-py3-none-any.whl.zip]
+[2024-05-21 12:13:18] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-4.0.0.post527-py3-none-any.whl.zip]
+[2024-05-21 12:13:18] INFO root fetch - processPackages [nucliadb-models]: Start processing: lib-ml-remla-12
+[2024-05-21 12:13:18] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2024-05-21 12:13:18] INFO root fetch - processPackages [optimask]: Remove: archive file [/home/abi/fetcher/tmp/optimask-1.1.1b0.tar.gz]
+[2024-05-21 12:13:18] INFO root fetch - processPackages [optimask]: Remove: archive file [/home/abi/fetcher/tmp/optimask-1.1.1rc0.tar.gz]
+[2024-05-21 12:13:18] INFO root fetch - main [MainThread]: End processing [optimask]: success
+[2024-05-21 12:13:18] INFO root fetch - processPackages [nucliadb-utils]: New version: [4.0.0.post527] Old Version: [4.0.0.post526]
+[2024-05-21 12:13:18] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2024-05-21 12:13:18] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-4.0.0.post526-py3-none-any.whl.zip tmp/nucliadb_sdk-4.0.0.post527-py3-none-any.whl.zip --markdown 20240521/n/nucliadb-sdk/4.0.0.post526-4.0.0.post527/README.md --exclude *.pyd
+[2024-05-21 12:13:18] WARNING root fetch - processPackages [lib-ml-remla-12]: Skipping, unable to determine old version
+[2024-05-21 12:13:18] INFO root fetch - main [MainThread]: End processing [lib-ml-remla-12] error
+[2024-05-21 12:13:18] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/92/af/ee69bef33214df689d550ce4be5217cd6b19122c31197d0a06f090bf30b8/nucliadb_telemetry-4.0.0.post526-py3-none-any.whl
+[2024-05-21 12:13:18] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/af/94/c769e69c3ca417df1634566512ac0070eb94a13475ff194b6b9c9044f270/nucliadb_utils-4.0.0.post526-py3-none-any.whl
+[2024-05-21 12:13:18] INFO root fetch - processPackages [omero-iviewer]: New version: [0.9.1] Old Version: [0.9.0.dev1]
+[2024-05-21 12:13:18] INFO root fetch - processPackages [omero-iviewer]: Downloading https://files.pythonhosted.org/packages/d4/eb/e25760ed64b45692a0ed8f57a125e9ba79b3608844e2d1b332e46a68c53f/omero-iviewer-0.9.0.dev1.tar.gz
+[2024-05-21 12:13:19] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/2d/37/194778be31183ac296a7ef1c21a25149dc9d13b82ce1621d31a20f02b422/nucliadb_telemetry-4.0.0.post527-py3-none-any.whl
+[2024-05-21 12:13:19] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/d1/86/4cb2e366f43529d6d9595df2a45c246e60b4b7f3391e3a496f1624721ed8/nucliadb_utils-4.0.0.post527-py3-none-any.whl
+[2024-05-21 12:13:19] INFO root fetch - processPackages [nucliadb-telemetry]: executing diffoscope
+[2024-05-21 12:13:19] INFO root fetch - processPackages [nucliadb-telemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_telemetry-4.0.0.post526-py3-none-any.whl.zip tmp/nucliadb_telemetry-4.0.0.post527-py3-none-any.whl.zip --markdown 20240521/n/nucliadb-telemetry/4.0.0.post526-4.0.0.post527/README.md --exclude *.pyd
+[2024-05-21 12:13:19] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2024-05-21 12:13:19] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-4.0.0.post526-py3-none-any.whl.zip tmp/nucliadb_utils-4.0.0.post527-py3-none-any.whl.zip --markdown 20240521/n/nucliadb-utils/4.0.0.post526-4.0.0.post527/README.md --exclude *.pyd
+[2024-05-21 12:13:19] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-4.0.0.post526-py3-none-any.whl.zip]
+[2024-05-21 12:13:19] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-4.0.0.post527-py3-none-any.whl.zip]
+[2024-05-21 12:13:19] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2024-05-21 12:13:19] INFO root fetch - processPackages [omero-iviewer]: Downloading https://files.pythonhosted.org/packages/62/4b/3c30fc790e973102379d2c6cb2287e550e7c9a84626b49c99d5a3e9fdb88/omero-iviewer-0.9.1.tar.gz
+[2024-05-21 12:13:19] INFO root fetch - processPackages [grafana-foundation-sdk]: Remove: archive file [/home/abi/fetcher/tmp/grafana_foundation_sdk-1716286030!10.1.0.tar.gz]
+[2024-05-21 12:13:19] INFO root fetch - processPackages [grafana-foundation-sdk]: Remove: archive file [/home/abi/fetcher/tmp/grafana_foundation_sdk-1716286229!10.2.0.tar.gz]
+[2024-05-21 12:13:19] INFO root fetch - main [MainThread]: End processing [grafana-foundation-sdk]: success
+[2024-05-21 12:13:19] INFO root fetch - main [MainThread]: End processing [grafana-foundation-sdk]: success
+[2024-05-21 12:13:19] INFO root fetch - processPackages [omero-iviewer]: executing diffoscope
+[2024-05-21 12:13:19] INFO root fetch - processPackages [omero-iviewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240521:/home/abi/fetcher/20240521:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omero-iviewer-0.9.0.dev1.tar.gz tmp/omero-iviewer-0.9.1.tar.gz --markdown 20240521/o/omero-iviewer/0.9.0.dev1-0.9.1/README.md --exclude *.pyd
+[2024-05-21 12:13:19] INFO root fetch - processPackages [pyslth]: Remove: archive file [/home/abi/fetcher/tmp/pyslth-0.4.5.tar.gz]
+[2024-05-21 12:13:19] INFO root fetch - processPackages [pyslth]: Remove: archive file [/home/abi/fetcher/tmp/pyslth-0.4.6.tar.gz]
+[2024-05-21 12:13:19] INFO root fetch - main [MainThread]: End processing [pyslth]: success
+[2024-05-21 12:13:20] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-4.0.0.post526-py3-none-any.whl.zip]
+[2024-05-21 12:13:20] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-4.0.0.post527-py3-none-any.whl.zip]
+[2024-05-21 12:13:20] INFO root fetch - main [MainThread]: End processing [nucliadb-telemetry]: success
+[2024-05-21 12:13:20] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-4.0.0.post526-py3-none-any.whl.zip]
+[2024-05-21 12:13:20] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-4.0.0.post527-py3-none-any.whl.zip]
+[2024-05-21 12:13:20] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2024-05-21 12:13:20] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-4.0.0.post526-py3-none-any.whl.zip]
+[2024-05-21 12:13:20] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-4.0.0.post527-py3-none-any.whl.zip]
+[2024-05-21 12:13:20] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2024-05-21 12:13:38] INFO root fetch - processPackages [omero-iviewer]: Remove: archive file [/home/abi/fetcher/tmp/omero-iviewer-0.9.0.dev1.tar.gz]
+[2024-05-21 12:13:38] INFO root fetch - processPackages [omero-iviewer]: Remove: archive file [/home/abi/fetcher/tmp/omero-iviewer-0.9.1.tar.gz]
+[2024-05-21 12:13:38] INFO root fetch - main [MainThread]: End processing [omero-iviewer]: success
+[2024-05-21 12:13:38] INFO root fetch - main [MainThread]: Store serial: [23304509]
